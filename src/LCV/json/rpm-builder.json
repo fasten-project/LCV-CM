@@ -1,0 +1,163 @@
+{
+   "plugin_name":"QMSTR",
+   "plugin_version":"0.0.1",
+   "input":{
+      "product":"de.dentrassi.maven:rpm",
+      "version":"1.5.1-SNAPSHOT"
+   },
+   "created_at":"2021-03-24T05:22:19.688358217Z",
+   "payload":{
+      "package_metadata":{
+         
+      },
+      "fileMetadata":[
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/Logger.java",
+            "SHA-1":"366af37c44cccd0c281e5ef54797eb5461c7af8b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/SimpleDependency.java",
+            "SHA-1":"0048b35b5defae039c9f2dc4b99abae2e2f44a1b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/signatures/SignatureConfiguration.java",
+            "SHA-1":"c92ec0eae771d68157c29a734f3330da81d773a0",
+            "licenses":[
+               "EPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/EntryDetails.java",
+            "SHA-1":"4d453a388440fac3fee5ce53fa77f4e1f44da40e",
+            "licenses":[
+               "EPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/signatures/Md5OnlySignatureConfiguration.java",
+            "SHA-1":"05437d992cb05a997477866641e6c8cfc3fd577b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/MojoFileInformationProvider.java",
+            "SHA-1":"44240b4417343f612f463e91ca5f6667fa85cc7d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/Dependency.java",
+            "SHA-1":"f53ca00d70adc85c68f18887178ec349afcb0de3",
+            "licenses":[
+               "EPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/YumMojo.java",
+            "SHA-1":"93d8dcd206d97521d5e2bc96ef57f8d3532e06b8",
+            "licenses":[
+               "EPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/RpmMojo.java",
+            "SHA-1":"fb8504c520d7bd9aa3ee96399c752ceb5e345559",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/Rule.java",
+            "SHA-1":"1aa9fba1b25d846a716a897d156593bbd55e93eb",
+            "licenses":[
+               "EPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/SigningHelper.java",
+            "SHA-1":"20f8f34a9ad52cfd16995c8b40cbce816b580e5f",
+            "licenses":[
+               "EPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/Naming.java",
+            "SHA-1":"35c83ec7ad2e216c7b5f5843047c3f3d82c42887",
+            "licenses":[
+               "EPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/When.java",
+            "SHA-1":"a83f4684c69902e113a1ea9423d7454b0972a59a",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/ScriptSetter.java",
+            "SHA-1":"de45edcff6dd850f621f4a6a2968143a5dbd2ce3",
+            "licenses":[
+               "EPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/signatures/DefaultSignatureConfiguration.java",
+            "SHA-1":"231631aa27b9f5a3ffc21aadbd3b0f4d0ab07305",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/Script.java",
+            "SHA-1":"d1dfc04389f94d70a61af74817a0e9f90f2dbab0",
+            "licenses":[
+               "EPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/PackageEntry.java",
+            "SHA-1":"b3cdba3e29171cc802c0dc23329ed79241ac1cb7",
+            "licenses":[
+               "EPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/Signature.java",
+            "SHA-1":"82c29c5586d7dd89836444b7706a12bf56312b0f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/Ruleset.java",
+            "SHA-1":"a5712a9e3e20b0eefc9240a90a57707d558894d6",
+            "licenses":[
+               "EPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/RulesetEvaluator.java",
+            "SHA-1":"16d95a599ad3362b1b891443b7c468c7e1987d68",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/de/dentrassi/rpm/builder/VerifyDetails.java",
+            "SHA-1":"d0e4fb958932285da587e52c46509cf4dafc03f9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         }
+      ]
+   }
+}

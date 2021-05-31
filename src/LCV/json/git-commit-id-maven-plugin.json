@@ -1,0 +1,324 @@
+{
+   "plugin_name":"QMSTR",
+   "plugin_version":"0.0.1",
+   "input":{
+      "product":"pl.project13.maven:git-commit-id-plugin-core",
+      "version":"4.0.4-SNAPSHOT"
+   },
+   "created_at":"2021-03-10T11:13:17.085363330Z",
+   "payload":{
+      "package_metadata":{
+         
+      },
+      "fileMetadata":[
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/util/JsonManager.java",
+            "SHA-1":"f205e4fc4c509603814eccd55ebb4542d22de40e",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/util/PropertyManager.java",
+            "SHA-1":"1cc7f7da0c13919159e9fffcdde9cf2d7e8d247e",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/git/GitDescribeConfig.java",
+            "SHA-1":"c80798d30b0a4ab732f9a3146a0cebf8ec367ec9",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/cibuild/CircleCiBuildServerData.java",
+            "SHA-1":"63023deb128cfad887e9be4c56cb42dbfd1338bd",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/GitDataProvider.java",
+            "SHA-1":"fd7a56465191daf88774abcfec883d7f7a4a07e9",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/cibuild/BambooBuildServerData.java",
+            "SHA-1":"67362fc1f2cec2827cc87c71456b15c00c6faaec",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/jgit/JGitCommon.java",
+            "SHA-1":"d1c0f25a762463504ac34006fb2ed09234b8cfdd",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/jgit/DescribeResult.java",
+            "SHA-1":"dcc7897702b6439f8e2a070934ca3eceeefc9fa1",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/jgit/DescribeCommand.java",
+            "SHA-1":"f1e0872b44baf6657e6031780407acf57fa6f589",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/CommitIdGenerationMode.java",
+            "SHA-1":"72816cd49c7f6749d1468e9cba55b237458c6c96",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/cibuild/UnknownBuildServerData.java",
+            "SHA-1":"bbc8484cc48e63bae2015e36c86fbc83aedfe521",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/cibuild/AwsCodeBuildBuildServerData.java",
+            "SHA-1":"e52f10429fcd4f88440d7d7edbf4886ee2e7dd2a",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/cibuild/TeamCityBuildServerData.java",
+            "SHA-1":"2745c8d2db9d0619d51dd6a4ba7738d66f880755",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/AheadBehind.java",
+            "SHA-1":"1d804e0638248cf1a36c1ed5f05635d803de8e7c",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/GitProvider.java",
+            "SHA-1":"645cb736f86a41548345d8191ba17a0d490196cb",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/cibuild/BitbucketBuildServerData.java",
+            "SHA-1":"c0381924bf5301376d28216ba149a030ea681085",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/cibuild/AzureDevOpsBuildServerData.java",
+            "SHA-1":"3c471384742ab3f81fe216d053de477e270d9c6b",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/log/StdOutLoggerBridge.java",
+            "SHA-1":"f3b19647e61c1a7313f41166416b6ef5077c6aff",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/PropertiesFilterer.java",
+            "SHA-1":"56709a9bbe7bc61c7afb5b4e9ceda1d86ef003eb",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/CannotReadFileException.java",
+            "SHA-1":"574cc71613ee94784f2604737f498d058c816090",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/cibuild/BuildServerDataProvider.java",
+            "SHA-1":"895073af8de7bb8af8cda5c655d1e699895a9d0b",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/cibuild/HudsonJenkinsBuildServerData.java",
+            "SHA-1":"89e4e189070b2b3fb167393e2712cc9fd61f94d6",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/log/LoggerBridge.java",
+            "SHA-1":"24d4438895dab0666a33bf38d98c1f7a657cea09",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/NativeGitProvider.java",
+            "SHA-1":"aa3fa7c50b3a1c177e5a0a0c5a1a309722338990",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/log/MessageFormatter.java",
+            "SHA-1":"83fbe0377ee94d16f294933133578d70e5efcbdf",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/cibuild/TravisBuildServerData.java",
+            "SHA-1":"4547905008bd74632b4194f7adbc859f8bc0ae9e",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/log/FormattingTuple.java",
+            "SHA-1":"0ee819f819164592749410a2dccdeaa843bef538",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/GitCommitIdExecutionException.java",
+            "SHA-1":"96ed1d9669a6c8072148e39cc4545e5ed7ea3de7",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/cibuild/GitHubBuildServerData.java",
+            "SHA-1":"9c075aa674cdbb877fb882620436450e25302a48",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/cibuild/GitlabBuildServerData.java",
+            "SHA-1":"37abb01ad887df478d6ca44c520cfed0e4fd7903",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/example/GitRepositoryState.java",
+            "SHA-1":"ffc76f198f2054aff33b150e847032632cf59f70",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/GitCommitPropertyConstant.java",
+            "SHA-1":"0885eca586bfb6a79e29630d053f9f1efd5bc03c",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/PropertiesFileGenerator.java",
+            "SHA-1":"334cbd453fd69e8bdf8317d9856527cc89598f3d",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/JGitProvider.java",
+            "SHA-1":"9647a3031d2f98cc424a6744d4f7d5ab7e49a236",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/jgit/dummy/DatedRevTag.java",
+            "SHA-1":"c4ac6071100cd015996eb1e17ac21df56c0cd1ae",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/core/src/main/java/pl/project13/core/util/Pair.java",
+            "SHA-1":"52eda36d098cff13d97e2e6ca8d9b2ec5b8c04a9",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/maven/src/main/java/pl/project13/maven/validation/ValidationMojo.java",
+            "SHA-1":"25da26bf66820e7253395c97a147797dff7e6592",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/maven/src/main/java/pl/project13/maven/validation/ValidationProperty.java",
+            "SHA-1":"1af5fb876cea9ded8f0a15d70a1614c6c7fcadca",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/maven/src/main/java/pl/project13/maven/git/ReplacementProperty.java",
+            "SHA-1":"9ed0b9e9338c1066d35b70c0fdd719ac4b99896a",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/maven/src/main/java/pl/project13/maven/git/TransformationRule.java",
+            "SHA-1":"6455633bf9a40a92d33822a7325463a7f1253181",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/maven/src/main/java/pl/project13/maven/git/GitDirLocator.java",
+            "SHA-1":"2a42a7d6af6dc8cae0ba4cfe8ef71afbd8f40ed9",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/maven/src/main/java/pl/project13/maven/git/GitCommitIdMojo.java",
+            "SHA-1":"58b16af0e0fc719890b861b3978af7271d8e1f82",
+            "licenses":[
+               "AGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/maven/src/main/java/pl/project13/maven/git/PropertiesReplacer.java",
+            "SHA-1":"8b256c0ea5b985ecfec99283cfe98528fef677a0",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         },
+         {
+            "filename":"project/maven/src/main/java/pl/project13/maven/log/MavenLoggerBridge.java",
+            "SHA-1":"13b5f5c65d3b399c171d1f167f99f4202bae3d57",
+            "licenses":[
+               "LGPL 3.0 or later"
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,471 @@
+{
+   "plugin_name":"QMSTR",
+   "plugin_version":"0.0.1",
+   "input":{
+      "product":"org.bytedeco:javacv",
+      "version":"1.5.5-SNAPSHOT"
+   },
+   "created_at":"2021-02-04T12:36:01.852846926Z",
+   "payload":{
+      "package_metadata":{
+         
+      },
+      "fileMetadata":[
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ImageAligner.java",
+            "SHA-1":"9b78dcba7c1ccde03d46f5f4dd6c14187fb568eb",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/RealSenseFrameGrabber.java",
+            "SHA-1":"9dd0839f6633c6b2c133ab04d6bf03f71105abc1",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/BufferRing.java",
+            "SHA-1":"5128892c1dc7228c9204a9f49ed633d11db83b81",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/cvkernels.java",
+            "SHA-1":"ddbaeed1d37ed61091b983267402c908c67d1623",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ImageTransformer.java",
+            "SHA-1":"896f20cfc3c7dcf9f69955d1c6464e41cbc2d04e",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/FFmpegFrameRecorder.java",
+            "SHA-1":"7a1f87e8806f0573198c15c758368fd14f5ded67",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/FrameGrabber.java",
+            "SHA-1":"a60194bb659e3447cb9c982cf26cbb1a7cbb3940",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/CameraSettings.java",
+            "SHA-1":"3f1bc3da63d94b5a3ca4cb39fb69dc7937b25217",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/MarkedPlane.java",
+            "SHA-1":"d84b5a1d6b4f0202f423247c41ebf883f11ad3d4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/Marker.java",
+            "SHA-1":"67302ed956ee303ae597ecc21417f55ff17bad7f",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/JavaFXFrameConverter.java",
+            "SHA-1":"72a847efbdd4bd12bfe8cd18fbe243a519ca7a31",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/IPCameraFrameGrabber.java",
+            "SHA-1":"189728d61772d832137d2c8ddb5d12a45495c119",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/RealSense2FrameGrabber.java",
+            "SHA-1":"f057fc81b8d5c46418126e359f4d9519bf49e9ca",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ProjectiveColorTransformer.java",
+            "SHA-1":"e6192ca49735ff2504585087b776e652b9766a70",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/CameraDevice.java",
+            "SHA-1":"b564048dedae95ce4795f9fa44bda23819b2616f",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/Seekable.java",
+            "SHA-1":"a75db491d922fc5b18312f671cd01c3a7f201510",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/OpenCVFrameRecorder.java",
+            "SHA-1":"e5ac76bac4dca48ac6f101c7f57cead26686d056",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/OpenCVFrameGrabber.java",
+            "SHA-1":"4845aede60805fe860c87c2400692c1f25238400",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ProCamTransformerCL.java",
+            "SHA-1":"0183d46a3f9a1b1439d1235dbb28bb26d3b8b311",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/LeptonicaFrameConverter.java",
+            "SHA-1":"57ca710ced4ec56e05c53b3dd7547ad7dd3c5c28",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ProjectiveTransformer.java",
+            "SHA-1":"3ae30be07a344e8fcb7b85015fed68924e5ffc9c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/OpenCVFrameConverter.java",
+            "SHA-1":"d288be09608ca256c55ec6688227d5814241f7be",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/DC1394FrameGrabber.java",
+            "SHA-1":"f0ac8099ab6db127bafa43b3f28be773a4aac395",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ObjectFinder.java",
+            "SHA-1":"dd10407d7c740fc742d5d556b585d42912fb7b3e",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/OpenKinectFrameGrabber.java",
+            "SHA-1":"2335f573439e5936d3d00ee39887747fb069494d",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ProjectiveTransformerCL.java",
+            "SHA-1":"26307077d8cf63352fd2225baa7fdeb311d7b646",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/FrameFilter.java",
+            "SHA-1":"aee0004f1a407c7ae80254599806358245474990",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ProjectorSettings.java",
+            "SHA-1":"cd3c290af6456d0ff1e8b1e063b48e9876a0a515",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/GeometricCalibrator.java",
+            "SHA-1":"0cb7d01d3103c195245f2b06fc470b573a4cb30c",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/GNImageAligner.java",
+            "SHA-1":"9808863461e7decfde575d0b8a3f0db31c20b842",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/HandMouse.java",
+            "SHA-1":"636132302293901e1f57fcc370fd684b13317b9e",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/Frame.java",
+            "SHA-1":"66b77f0d38fe9c5e19539dde39378256631e34a0",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/FrameRecorder.java",
+            "SHA-1":"1828cdfdd602d8f2130dd293d1ee249a55c98844",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/BaseChildSettings.java",
+            "SHA-1":"c24d1b9d90f522c322ac1bc755a262e577f97c95",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ProCamGeometricCalibrator.java",
+            "SHA-1":"b640b819f39f3323195bba47899beb88aec7584b",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/OpenKinect2FrameGrabber.java",
+            "SHA-1":"fd85ccf3b610b30a3c130dd2d3a4420d0fb69436",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/Parallel.java",
+            "SHA-1":"c8b5d5f9d248866786edc34ec1a0560558ec404f",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/FrameConverter.java",
+            "SHA-1":"0f3556d28f1802771caa3d30df0cd8222ce95052",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/PS3EyeFrameGrabber.java",
+            "SHA-1":"0d53a0064c93a78277e61a25e03802c91484a684",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/FlyCapture2FrameGrabber.java",
+            "SHA-1":"7fd7e795a131594cd291b43d6530f7f43d561339",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/FFmpegLogCallback.java",
+            "SHA-1":"2d1d41c78a4db3fbe5c5e8050161aaa7d2104a5e",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ProjectiveColorTransformerCL.java",
+            "SHA-1":"484f5e25db0cd69694b67028e7486999a6e81718",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/FFmpegFrameFilter.java",
+            "SHA-1":"e33bef5f0319abc577a43c3efce809e78194c882",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/Blobs.java",
+            "SHA-1":"4c38d7ddfda3a69f81beb9e4c3740374bc6dd1de",
+            "licenses":[
+               "Public Domain"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/AndroidFrameConverter.java",
+            "SHA-1":"b7c847745771492395fe95d0049699ea547d3228",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ImageAlignerCL.java",
+            "SHA-1":"5553ea87a4bdbd0a3c9ff44aa27ad62671bd4d31",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/JavaCV.java",
+            "SHA-1":"45c42dca1fe266c8aaddc8663e9344c448871067",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ColorCalibrator.java",
+            "SHA-1":"0c2ab460d3275c5f9f33e170beeabd1fdbaa9810",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/Java2DFrameConverter.java",
+            "SHA-1":"77a5f29346e28805fcb633da38bba70c1dd3055e",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/JavaCVCL.java",
+            "SHA-1":"de8efaca0d254eead690aac02d17f0dde2499641",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/GLCanvasFrame.java",
+            "SHA-1":"3c252021a285b87d6771262e2f77532fcb6bfcbf",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/VideoInputFrameGrabber.java",
+            "SHA-1":"46fed08d48ee1a3c452813cba0679c6416bd2b46",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ProCamColorCalibrator.java",
+            "SHA-1":"67d154f8ce8f4c4def36452d99155004cecb989e",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/BaseSettings.java",
+            "SHA-1":"1c8375044630c79b0f297e872771df27ac4e447e",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ReflectanceInitializer.java",
+            "SHA-1":"fd122a0b9d8a3893ad8cb04ef8d5fc6e35d7c267",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ProjectiveDevice.java",
+            "SHA-1":"8c6f3fce1c9e2e7437053850e681d169cd0d1a54",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ImageTransformerCL.java",
+            "SHA-1":"92a82db8738a0ac98c6a2b79c0db2243cbbbdb8d",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/MarkerDetector.java",
+            "SHA-1":"ffd59d60a98cf772a4e7b4774aec20c9fdcadca7",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/SeekableByteArrayOutputStream.java",
+            "SHA-1":"ac54ce3b445d46771e4107601a68a875e4851466",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/FFmpegFrameGrabber.java",
+            "SHA-1":"047c8f05a12ff58b79502ae87fef0f229b3d250f",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/GNImageAlignerCL.java",
+            "SHA-1":"6d2c3719125dd418bc2ea9471092d26b56075302",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ProjectorDevice.java",
+            "SHA-1":"7e2bafec4256524f3ac9c0a3bf918726d3161bcd",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/ProCamTransformer.java",
+            "SHA-1":"789e04164f0ba9f2c0348ba5ced46f30acebd601",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/JavaCvErrorCallback.java",
+            "SHA-1":"6f3a76be08a9e78ef58294c244dd50159cc3ef6a",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacv/CanvasFrame.java",
+            "SHA-1":"b0f5cea308cd3cda8010517039d6e6bf1eb1606c",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         }
+      ]
+   }
+}

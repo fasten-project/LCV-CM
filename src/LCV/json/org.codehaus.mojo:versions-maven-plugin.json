@@ -1,0 +1,583 @@
+{
+   "plugin_name":"QMSTR",
+   "plugin_version":"0.0.1",
+   "input":{
+      "product":"org.codehaus.mojo:versions-maven-plugin",
+      "version":"2.9-SNAPSHOT"
+   },
+   "created_at":"2021-03-18T16:01:04.087224678Z",
+   "payload":{
+      "package_metadata":{
+         
+      },
+      "fileMetadata":[
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UpdateParentMojo.java",
+            "SHA-1":"4e2847b6a12bc397fe11ae8c4ee66c0d92b86f44",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/DependencyUpdatesReport.java",
+            "SHA-1":"afd0b724b5464a1d7e9cddc4b1655a00875d69fa",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/PluginUpdatesReport.java",
+            "SHA-1":"3636a4944c01c7629179edaf5b4f9fa1bcd03cc4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/RevertMojo.java",
+            "SHA-1":"46109451e26c152ffe1cae53c2eba482f8ff1775",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/utils/DependencyComparator.java",
+            "SHA-1":"0a747aff20fd1053f1e44cd0da4bedca3216add6",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/change/VersionChange.java",
+            "SHA-1":"7eccba50442d218bb2168191645a9d3a27c62530",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/DependencyUpdatesXmlRenderer.java",
+            "SHA-1":"ab0467ab269077a4d413ef9f7e9869df20a5a6a5",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UpdatePropertiesMojo.java",
+            "SHA-1":"e8ff1847efe8345a2a8f71956de6fe37ad51317f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/PluginUpdatesXmlRenderer.java",
+            "SHA-1":"c752821bec2c95b13f8fa479f1b2b464d0e7dd8b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/PluginUpdatesDetails.java",
+            "SHA-1":"5332f13d9d42491b5bd89ae23596bc375c626c0c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/change/AbstractVersionChanger.java",
+            "SHA-1":"b89586c23d843a12f749ca914821694109ed0ae9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/PropertyUpdatesRenderer.java",
+            "SHA-1":"53ac73be7ba5d0f206104335e114e566fe5b5ade",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/utils/PluginComparator.java",
+            "SHA-1":"99decb4d6ee29747d2d08f3e1738fdf94887a10f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/api/DefaultVersionsHelper.java",
+            "SHA-1":"7949942b8a025e61cb0e7260f6e4f69070483b34",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UpdatePropertyMojo.java",
+            "SHA-1":"240b787c1c2336332d3d5464f39710be140b2adf",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/change/CompositeVersionChanger.java",
+            "SHA-1":"6d69dd83f1ab790b5c9e1aee517240d0b7e64f0d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/change/PluginVersionChanger.java",
+            "SHA-1":"c0acba875e4548b6de165787a7ecb030ed2a745d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/ordering/VersionComparator.java",
+            "SHA-1":"2bef985bdde69aa3b27af35336ac5092abc3820f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/change/DependencyVersionChanger.java",
+            "SHA-1":"b8e4e41a8be5bbe899fc75da7ac8f62c5d759ce7",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/AbstractVersionsReportRenderer.java",
+            "SHA-1":"fd8f53376e980bbdb5ec9fa8a63a8bd4d79ff396",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/DisplayPropertyUpdatesMojo.java",
+            "SHA-1":"04294f375fb2d45110ba17b68eaf9d13686900ee",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/ordering/NumericVersionComparator.java",
+            "SHA-1":"5d3524a4935a0fb8f95f2b9062198b7ad39e1a39",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/ForceReleasesMojo.java",
+            "SHA-1":"96670149937b02b159bd46821a6f3e9ff038252b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UseDepVersionMojo.java",
+            "SHA-1":"d980cb71164df49e0919d0df44580aa9a6020a5d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UseReleasesMojo.java",
+            "SHA-1":"a57aeefe770fc2a40500d6f2d2a480ba14b2c6e9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/LockSnapshotsMojo.java",
+            "SHA-1":"6cab63bc70cb605b8885a661a8f9bbd4ac469a90",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/ordering/ReactorDepthComparator.java",
+            "SHA-1":"18bbdb1a2244fb469b98ebf43cad7345cabaa47c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/AbstractVersionsDisplayMojo.java",
+            "SHA-1":"0d30923c2c20d0be43036e6633704526b8461aa4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UseLatestReleasesMojo.java",
+            "SHA-1":"068e5ab85b2c0d46672d39a6a87a3262f291f4b7",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UseLatestSnapshotsMojo.java",
+            "SHA-1":"6b9ce53befa0a9103371ca0061c5702dfe29cee8",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/utils/PropertyComparator.java",
+            "SHA-1":"e9130669b461f33d976d2748bbeac64f420d8bbe",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/Property.java",
+            "SHA-1":"8a8fc2694750babf1ff35a028027cbf73ec87506",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/SetMojo.java",
+            "SHA-1":"b11485046d3a886aae1531ea4d9b4403fdb82990",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UseNextReleasesMojo.java",
+            "SHA-1":"cdb5e1194f5d6a2670468aba20a5364663d574e0",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/CommitMojo.java",
+            "SHA-1":"fcd1f16053adc4401aafd0fc7f89cd258aeb9f67",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/utils/VersionsExpressionEvaluator.java",
+            "SHA-1":"4dd3864fedb8dc82b728e272533c99ae7b7c76c9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/AbstractVersionsUpdaterMojo.java",
+            "SHA-1":"838f448fa4eb799197ad862f7a4dec9b04910757",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/api/PomHelper.java",
+            "SHA-1":"0e0eddc845f4892b5f25a8ec2ecdcf806821b612",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/ordering/MercuryVersionComparator.java",
+            "SHA-1":"2c6f09ed42140e5d5a88e5ca4c4e60d5769942f5",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/ordering/MavenVersionComparator.java",
+            "SHA-1":"9f7981f02e1c5a47e0b6e658ffebade0f5547d35",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/api/AbstractVersionDetails.java",
+            "SHA-1":"6764aad95677dccbe6c6a466a65d6b3a53a2029f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UseLatestVersionsMojo.java",
+            "SHA-1":"0806076709ee5da6bb6bbe8402fdef479dd8a7a4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/utils/WagonUtils.java",
+            "SHA-1":"6ae2fec82a263f9c01fa7f1ef2128aa7c66a9aba",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/ordering/InvalidSegmentException.java",
+            "SHA-1":"42e54409c13c47e0dd871e2c9918b1c1864ca154",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UseNextVersionsMojo.java",
+            "SHA-1":"a620c791a79731ac37821a1a3dcb8cca9204aff4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/utils/ContextualLog.java",
+            "SHA-1":"58d0fb83a68c6373436413da02a8c674bdbffac9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/ordering/AbstractVersionComparator.java",
+            "SHA-1":"29f4ca16ad44c4c3ac5ab7c3977ef25b01b37b60",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/PropertyUpdatesReport.java",
+            "SHA-1":"d4fac546a48b4b5ce05a381f739c76413c0281e3",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/change/VersionChangerFactory.java",
+            "SHA-1":"6e596a1d9ed00986baf8207073a871ea612a1816",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/utils/RegexUtils.java",
+            "SHA-1":"d1860f91038a0a59fd54f99e9de0d4d6cd39a0a7",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/api/PropertyVersionsBuilder.java",
+            "SHA-1":"52880ec43bc2da8dfe08ae7c273684da97d6bcaf",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/DependencyUpdatesRenderer.java",
+            "SHA-1":"34387a9479534cc059483cebaf458bccee2e1460",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/change/ParentVersionChanger.java",
+            "SHA-1":"f00ce26cfe8c7134cafa3ec25431a74e7bfdcc15",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/api/ArtifactAssociation.java",
+            "SHA-1":"09fbf6361ced0e461e8a4efc70cc461ce35b53af",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UnlockSnapshotsMojo.java",
+            "SHA-1":"1083af594d087f2a4ae2e5d37dc9cdc792fd85cf",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/SetPropertyMojo.java",
+            "SHA-1":"1457cc0f18309986a7325436991819a3a9f8b907",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/ordering/MajorMinorIncrementalFilter.java",
+            "SHA-1":"053f5f4e0c5b3f410f9a208996b917c74461b040",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/LinkItem.java",
+            "SHA-1":"fae77336d4b8659d8e58ca50113834c4f659a288",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/api/PropertyVersions.java",
+            "SHA-1":"1218123cad871b766401450f1c7784c44e391021",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/api/VersionDetails.java",
+            "SHA-1":"e1c480ee55143f6478fe4b6337251c031407d6de",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UseReactorMojo.java",
+            "SHA-1":"f49b7a1897018558546df09b61c8eb4163aac713",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/api/VersionsHelper.java",
+            "SHA-1":"0ae733a19292187bf5a82ca4bf75dbd598cb407d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/ordering/ComparableVersion.java",
+            "SHA-1":"c080d630ac1798748f0cbaffffdd82e2a0784039",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/change/VersionChanger.java",
+            "SHA-1":"45967f83e5c1c6716946570d78061e3d0e26a064",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/ordering/VersionComparators.java",
+            "SHA-1":"b3b0e719c73899000bf9f2a13affb8d025ac9197",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/utils/DelegatingContextualLog.java",
+            "SHA-1":"e6cdafc40a0c170fff6dddbf387e7b44e9a15c5d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/api/DefaultArtifactAssociation.java",
+            "SHA-1":"853622c186619f01d79e690d3dd569ee7a87a3c9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UpdateChildModulesMojo.java",
+            "SHA-1":"7eb2b36e620acd260017614fb267bd283616a791",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/change/ProjectVersionChanger.java",
+            "SHA-1":"eb52afeea2927bf8ae847340895f74f6b71c7905",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/DisplayDependencyUpdatesMojo.java",
+            "SHA-1":"91283e272a3b8fbbfa05c5f730485ff09be25586",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/PluginUpdatesRenderer.java",
+            "SHA-1":"f9007d9ba906f49e3e6197075f851baf35261d68",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/AbstractVersionsDependencyUpdaterMojo.java",
+            "SHA-1":"0033b9d07990bb032de7cdee68b55a638f4cea16",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/UseNextSnapshotsMojo.java",
+            "SHA-1":"8f27333678e651e52bf93de845f2edf6d410a5f6",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/DisplayParentUpdatesMojo.java",
+            "SHA-1":"2d393dd00a0a969b6017c65d81162d6666dc5374",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/rewriting/ModifiedPomXMLEventReader.java",
+            "SHA-1":"e6f47076a1f401646dd4780324fd00c4522264f1",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/CompareDependenciesMojo.java",
+            "SHA-1":"be0e8381e035069d7fa5f564b8e1b3861eae0fec",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/ResolveRangesMojo.java",
+            "SHA-1":"e5dd66ff21e3c8bb8d56120b7bdf0392b11cadcf",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/api/UpdateScope.java",
+            "SHA-1":"88b5e8a578e065c0e225922922ae2effd66bc843",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/AbstractVersionsReport.java",
+            "SHA-1":"e159044964add00ea01661915b86fe2359ae7b65",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/api/ArtifactVersions.java",
+            "SHA-1":"834612ab5c188bd6683180fa83219c684716fa67",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/codehaus/mojo/versions/DisplayPluginUpdatesMojo.java",
+            "SHA-1":"9e7516d1a37619614f98a662e40df611ba7be820",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,457 @@
+{
+   "plugin_name":"QMSTR",
+   "plugin_version":"0.0.1",
+   "input":{
+      "product":"es.gob.radarcovid:configuration-server-api",
+      "version":"1.3.1-SNAPSHOT"
+   },
+   "created_at":"2021-03-23T09:51:18.085014500Z",
+   "payload":{
+      "package_metadata":{
+         
+      },
+      "fileMetadata":[
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/AttenuationFactorDto.java",
+            "SHA-1":"db5e73fae08658d15d9ae56c8c0ca4884c7c6298",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/SettingsDto.java",
+            "SHA-1":"3a8d15e4965f1d81a61ab382d346aadbd46c7bec",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/AttenuationDurationThresholdsDto.java",
+            "SHA-1":"3c54a4610dbad5c2f4dbe372ba9192f9cfcc532c",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/VersionDto.java",
+            "SHA-1":"e8ceee03061bbf9a402ae50a60d9c2f8bd6cd580",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/KeyValueDto.java",
+            "SHA-1":"3430ab2522aeed3d8f54d6314497b85f4f89de25",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/UuidDto.java",
+            "SHA-1":"68d262c04ebf9bdeac01fce5efae13e902d23111",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/ExposureConfigurationDto.java",
+            "SHA-1":"10fb60526ae4ac5e47360838a70d2ad5566ef26c",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/RiskLevelDataDto.java",
+            "SHA-1":"5c4e9041b3535d49da6b65735c914b45df1920ce",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/ErrorDto.java",
+            "SHA-1":"14ab155571261842fe96bdc1ad239688ddd420ab",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/RiskScoreClassificationDto.java",
+            "SHA-1":"be688a3d3bb0a4b73827fb1e4a2d0c79544433bb",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/CcaaKeyValueDto.java",
+            "SHA-1":"e3812a286223a5e4e21bf7ef9195c181f1292b2d",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/TextCustomMap.java",
+            "SHA-1":"19f2e9799faea8b36f43ab134bd9bf9f0db3e353",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/ApplicationVersionDto.java",
+            "SHA-1":"8c53e9e31d55254752bef8c811e11fb1c99780fc",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-api/src/main/java/es/gob/radarcovid/configuration/api/TimeBetweenStatesDto.java",
+            "SHA-1":"5e1b62964228c5173d7c202770c22a9309eff789",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/mapper/ExposureConfigurationMapper.java",
+            "SHA-1":"d34100562056c5f7e2dccb69b20ddcf338204979",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/mapper/ApplicationVersionMapper.java",
+            "SHA-1":"b799a0bf630191fa433ca1311c3dfdce14eebaee",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/mapper/AttenuationDurationThresholdsMapper.java",
+            "SHA-1":"f7e3971a866458221b8cbeaca49371d67b38478d",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/vo/GenConfigurationTypeEnum.java",
+            "SHA-1":"c91e71894a5c4919599632a7eefb4de0ec3ef8f0",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/business/impl/MasterDataServiceImpl.java",
+            "SHA-1":"a9f2f22c2fa684f45ce01020dec719282a6f86cf",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/common/handler/SediaExceptionHandler.java",
+            "SHA-1":"6eff048feeb4a27636e70e695be78701b41f211c",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/contentful/client/ContentfulClient.java",
+            "SHA-1":"0ef296b1aca1626bf48536c63b23f2b2a6e571b9",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/common/exception/ConfigurationServerException.java",
+            "SHA-1":"e9a0674a303a8520df8f5ee3c146cb3272411707",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/mapper/GeneralConfigurationMapper.java",
+            "SHA-1":"78ce3c12fac32b7495962f206edbf630b098fff8",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/controller/SettingsController.java",
+            "SHA-1":"4eae1ad0605af4917c7227ccf51d56fea34f36ae",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/mapper/RiskLevelDataMapper.java",
+            "SHA-1":"52f879ecc45a227f515a454da6c2562aad65c3ee",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/controller/TextsController.java",
+            "SHA-1":"96d77b19cd94334353525a3ece6cab44dbde0643",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/contentful/impl/ContentfulServiceImpl.java",
+            "SHA-1":"5ef89654f920a940bf9bf1e83f564071cee6b937",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/entity/GeneralConfigurationEntity.java",
+            "SHA-1":"42f8f515f34d3c94deede2f353ab7434ad70a0b7",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/controller/ApplicationTokenController.java",
+            "SHA-1":"353a12b5d2f0ff14a5afef882398b68c0d25d478",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/business/impl/TextsServiceImpl.java",
+            "SHA-1":"d042711fbb13fb9e63f55554b940dc56603fb9ff",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/contentful/mapper/TextCustomMapper.java",
+            "SHA-1":"fb3835013bda21a24c815c79100e413e78f671f2",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/common/config/ControllerLoggerAspectConfiguration.java",
+            "SHA-1":"2cb1ced9cd41ccec312a434596a68d06e79b065d",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/business/impl/SettingsServiceImpl.java",
+            "SHA-1":"61b23ea1ac64bdddbe230ee073e0ea163be9042f",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/business/TextsService.java",
+            "SHA-1":"d459de6b606e0a3b8e5aa082063e298dad31136e",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/contentful/mapper/KeyValueMapper.java",
+            "SHA-1":"21d5b0992218ee6f75640a9a24c84c3401506e52",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/business/MasterDataService.java",
+            "SHA-1":"956da8a2c681507ec1d42186784d8aaaf58e1e1c",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/vo/CDAEntryKeyTypeEnum.java",
+            "SHA-1":"caef021a406fa216266d02b5e9edb77151230039",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/mapper/AttenuationFactorMapper.java",
+            "SHA-1":"6fcf66f1b18f87616b3cc2c0a31480315f404890",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/GeneralConfigurationDao.java",
+            "SHA-1":"9f3948f695539b364d6a43338fd8474a494d3fca",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/controller/MasterDataController.java",
+            "SHA-1":"9afe44a8f9a69538614fd9b825cb87829d9c469a",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/contentful/ContentfulService.java",
+            "SHA-1":"3a1aabb69332df871cc28d78a8b19d91f31de426",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/vo/GenValueTypeEnum.java",
+            "SHA-1":"e428558291ec63ebf0b4e9ae1a878cd511d02aee",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/repository/GeneralConfigurationRepository.java",
+            "SHA-1":"9ad449cca0ef7445a0aeb7f433ce082b9c2c63a2",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/vo/ConfigurationTypeEnum.java",
+            "SHA-1":"a6d154fb0f97c65f1688734beb1cde2dc2c3e13c",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/business/SettingsService.java",
+            "SHA-1":"19844371e7076fe0b7d4dd8e98d1e66cb13c79a6",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/business/impl/ApplicationTokenServiceImpl.java",
+            "SHA-1":"5bfbb4e9d79507cd22bbaef645872631ed11d64b",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/ExposureConfigurationDao.java",
+            "SHA-1":"d94f2730e84c5802754ca4fcd68370a99df5efcf",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/impl/ExposureConfigurationDaoImpl.java",
+            "SHA-1":"3f20ce751e52c320feafa25db3a411d74f8f2131",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/business/ApplicationTokenService.java",
+            "SHA-1":"4652b07c0e6b163d7f3d8bec36c49e6a2e4fe7ba",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/impl/GeneralConfigurationDaoImpl.java",
+            "SHA-1":"b7e18c89ada3c954d9769ef7a51fa3621a0bd05d",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/entity/ExposureConfigurationEntity.java",
+            "SHA-1":"02bba52c9b6c1ca4efcc904b0e60b7a8ca0fdfff",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/mapper/RiskScoreClassificationMapper.java",
+            "SHA-1":"a96bc4adc192ff144e6d6bf387d5442e2fddad85",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/contentful/mapper/CcaaKeyValueMapper.java",
+            "SHA-1":"6f84cbcd8eaa4a0af2b737f63c0f28ef773fe34c",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/common/config/MethodLoggerAspectConfiguration.java",
+            "SHA-1":"5bb7f754053ea40777c5372884c6218bbf26ffad",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/repository/ExposureConfigurationRepository.java",
+            "SHA-1":"07da654d6284d05c1ee3daf91384964787761c05",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/persistence/mapper/TimeBetweenStatesMapper.java",
+            "SHA-1":"d132c1e742a72cbe9a1d9bb204080003a8583b0b",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/common/annotation/Loggable.java",
+            "SHA-1":"c116e6483f866598bfbf1f7ce076ba2d5969c355",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-service/src/main/java/es/gob/radarcovid/configuration/contentful/client/impl/ContentfulClientImpl.java",
+            "SHA-1":"2e8e1929b5387d2966c912aff8f15f5b88447c18",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-boot/src/main/java/es/gob/radarcovid/configuration/config/OpenApiConfiguration.java",
+            "SHA-1":"51e4fe525b3143874bc345d96acf85fe69f3167c",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-boot/src/main/java/es/gob/radarcovid/configuration/config/ContentfulConfiguration.java",
+            "SHA-1":"c3f74e7deb938b17a91094da7a0d1f5b857d2d8e",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-boot/src/main/java/es/gob/radarcovid/configuration/config/MapperConfiguration.java",
+            "SHA-1":"c8d87adeda56c33a955b7592965586f346779dab",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-boot/src/main/java/es/gob/radarcovid/configuration/ConfigurationApplication.java",
+            "SHA-1":"ec942f8d0efc24ec9eb8681f99903c8b51bd98a4",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         },
+         {
+            "filename":"project/configuration-server-boot/src/main/java/es/gob/radarcovid/configuration/etc/ApplicationOpenApiProperties.java",
+            "SHA-1":"cadaa1221b778e635620cea3023f22333421ae00",
+            "licenses":[
+               "MPL 2.0"
+            ]
+         }
+      ]
+   }
+}

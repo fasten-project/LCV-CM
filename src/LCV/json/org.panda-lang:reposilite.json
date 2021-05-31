@@ -1,0 +1,625 @@
+{
+   "plugin_name":"QMSTR",
+   "plugin_version":"0.0.1",
+   "input":{
+      "product":"org.panda-lang:reposilite",
+      "version":"2.9.18"
+   },
+   "created_at":"2021-03-18T11:14:27.383723585Z",
+   "payload":{
+      "package_metadata":{
+         
+      },
+      "fileMetadata":[
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/console/HelpCommand.java",
+            "SHA-1":"711ac5af8328129161e8ccc53ffd87760ebfb81b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/LookupController.java",
+            "SHA-1":"57413d5e830471e482bd07fa533d86814a97d3a5",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/console/ExceptionsCommand.java",
+            "SHA-1":"40f82d235413805621a669f283ea31ab74f80936",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/utils/MimeTypes.java",
+            "SHA-1":"375cc08efc3e2c5d1a77678c0454d12c4705a136",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/Authenticator.java",
+            "SHA-1":"798851cab66ccf124fd31e0cff6eda9bfe4dfde9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/console/StopCommand.java",
+            "SHA-1":"97bc76e8ad05c19c9b7bebe625e813ec080cb079",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/ReposiliteLauncher.java",
+            "SHA-1":"bf42728bf01d42402e6dca2acce29b25b5f11425",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/DeployEndpoint.java",
+            "SHA-1":"13fa4a2c3518d5a16e5f8d35bac8408d4e4db91c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/error/FailureService.java",
+            "SHA-1":"7705acf70167ea7693fe500546bec05dd2346180",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/TokensCommand.java",
+            "SHA-1":"3a3a85779e958b852f45f158d431cc44cf4340eb",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/resource/FrontendHandler.java",
+            "SHA-1":"dfad2ae491473eec0c7f7385ca773b4a61237c3b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/AuthEndpoint.java",
+            "SHA-1":"7f8a430addeffa0c83486d0b40a89c0d11f7ef58",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/console/CliController.java",
+            "SHA-1":"d886a00a81b9e6003b49edc9cf07b04cb7248aa9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/ReposiliteException.java",
+            "SHA-1":"8e68d5f503905144a92e6857e8d2d21b04c50279",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/DeployService.java",
+            "SHA-1":"7867161299670d9fb9f19b9152b4041ac488daa0",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/Session.java",
+            "SHA-1":"cf9a560a4dc210294064d37c6cd6185595c02a60",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/RevokeCommand.java",
+            "SHA-1":"d4735f64e2f16e1bf2509b11076a6ea47d08c8e9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/ReposiliteContextFactory.java",
+            "SHA-1":"c995b6d88c36882ec4b651ca9a0e6c678a09db33",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/Artifact.java",
+            "SHA-1":"85d6589def32dcfcb281b114457f31be2dc15d75",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/utils/ArrayUtils.java",
+            "SHA-1":"0700e5ed64baa4251aeeaf92143fd144291390b2",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/metadata/MetadataConfiguration.java",
+            "SHA-1":"09937a6539ac083c70da82f2702aac46390cf3ac",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/RepositoryAuthenticator.java",
+            "SHA-1":"870c9caec0c24a8c57b092293e631fe374a869b9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/metadata/Metadata.java",
+            "SHA-1":"1fa0425d7cdcbec6dad7eb452025ceb72d907da2",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/ReposiliteContext.java",
+            "SHA-1":"d6d13a327c79857cb043145f2b554f617a9410ff",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/console/ReposiliteCommand.java",
+            "SHA-1":"536cd0eba110c6e7d387b22e975d6212fb704269",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/utils/YamlUtils.java",
+            "SHA-1":"166fba2b2c369377e2f4c394f815206c15f6f33e",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/error/FailureHandler.java",
+            "SHA-1":"1a2da00df288d578180c760268f6192daa97bfd2",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/Permission.java",
+            "SHA-1":"337c885e69aa86cb8aeb6133c6d0ab0ba9609f53",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/stats/StatsConfiguration.java",
+            "SHA-1":"894d81e776225acd751e3b3c3d12cc9b6014e2a4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/LookupResponse.java",
+            "SHA-1":"033dc4307d59ef029c8a8937ca6aa8054fdea2a4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/console/RemoteExecutionDto.java",
+            "SHA-1":"9be415054f23b636cfffe54503f2a561ed2c44fc",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/metadata/MetadataService.java",
+            "SHA-1":"ea06fc10552ee7e0d04668f5cb260545f2839782",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/ReposiliteConstants.java",
+            "SHA-1":"3a2e9e5b6da85f03334b091bb713474da254096f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/ReposiliteExecutor.java",
+            "SHA-1":"a8108f663a9de608abeba86beaa0b96a8b3c82ef",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/ReposiliteServlet.java",
+            "SHA-1":"a51992fede109f4e34118b48f3876cbc8a9ae938",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/LookupApiEndpoint.java",
+            "SHA-1":"5e9bda0882866080d3a65929f260f565f83584e5",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/config/ConfigurationLoader.java",
+            "SHA-1":"5426964b3323df8cd3e09014f652723d16fcc4f1",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/resource/FrontendProvider.java",
+            "SHA-1":"df589eca2a6e967bea077ce58328bd4f56516907",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/ChAliasCommand.java",
+            "SHA-1":"0834cd5a8de83198332daf649933ab6f00180b7a",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/console/ConsoleThread.java",
+            "SHA-1":"7f1c938fab5840892e8b1ee836b30cb9a19a7d6f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/RepositoryStorage.java",
+            "SHA-1":"d39a5fe16e6b4abbd2c82b8d10e3da421d04eab5",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/ReposiliteWriter.java",
+            "SHA-1":"984da83f5f72020a37f3a024f38ee8c906f32230",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/RepositoryService.java",
+            "SHA-1":"0de0fd68fc1d9fb5f40b86a14609cdf7317d0040",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/ReposiliteHttpServer.java",
+            "SHA-1":"1183a9dce4bb71d9bab901bef2a9732e0b519b42",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/FileDetailsDto.java",
+            "SHA-1":"3be8c403ef65772797998900ac11b2ab15dd41a6",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/stats/StatsStorage.java",
+            "SHA-1":"679bf6e37a93474823ac098b7d73d70a3e685b7d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/LookupService.java",
+            "SHA-1":"2844f2f35e24a083cdcd9cacee0644645555f173",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/config/Configuration.java",
+            "SHA-1":"7d70a1995d7cf9e2df94ece8c74fc88474364857",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/ChmodCommand.java",
+            "SHA-1":"f9a9cdba5a79a18f054846cb5afaa50501f6a91c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/FileListDto.java",
+            "SHA-1":"bd6dd5982d702bd213e1340dfbe8bb6cc89cb079",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/AuthenticationConfiguration.java",
+            "SHA-1":"aa6fb826a847c01ba67d67bd3bdbf14f9a525039",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/console/StatusCommand.java",
+            "SHA-1":"3bfeae0fba7cd4198bb4d936af4ee325a5838d53",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/metadata/MetadataUtils.java",
+            "SHA-1":"cc799c5381a96bad685a13754ad8d6316b769b5d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/AuthService.java",
+            "SHA-1":"6a5a361ca6bf0322059ea93c0397507f1f548d7b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/console/ConsoleConfiguration.java",
+            "SHA-1":"caff0a444546ca7cab5c92a25c848d751a8dbb0f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/TokenService.java",
+            "SHA-1":"42a49248a364f0e017ef7fc7d4ae3494bd5a958c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/utils/FilesUtils.java",
+            "SHA-1":"a079557d27f2e7cddcca057c62d2ba6e73a462b2",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/stats/StatsService.java",
+            "SHA-1":"218124d0b84fd963c29155eb0484686eee0006da",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/stats/StatsCommand.java",
+            "SHA-1":"f485b5581b876f8a74be079a0a9ec22d7ce9d230",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/PostAuthHandler.java",
+            "SHA-1":"6cf63f6e584d271453093e08d8bd1ec7f69e4b69",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/DiskQuota.java",
+            "SHA-1":"e2e950a19b71bd994d64a9aa34eb3d7b05fce5d8",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/resource/WebJarsHandler.java",
+            "SHA-1":"3e2a5ee8e3e0eba1440cba92a32372d3d2bcc063",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/utils/OutputUtils.java",
+            "SHA-1":"350a6173b359e9f26de99b987bcc4a8967f58ba0",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/Token.java",
+            "SHA-1":"a346ba2c48b7836ed96500eff6abeb24cd33d85b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/metadata/SnapshotVersion.java",
+            "SHA-1":"db1511abc5405edfee328b2423e53926635dfc8b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/Reposilite.java",
+            "SHA-1":"f01c8c89217f1984804106974f9e162c87868019",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/error/ErrorDto.java",
+            "SHA-1":"16a1bb657c107f053ea96dd0cdc59fc39e32c544",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/stats/AggregatedStats.java",
+            "SHA-1":"5791926e70d8eaa010e4cdde3d97c7c972d3a9f2",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/metadata/Versioning.java",
+            "SHA-1":"f3178a578f7cdbcffe004763041d07af3ebdc400",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/utils/RunUtils.java",
+            "SHA-1":"10cd89239cf3e32e0b3f22110ce36ae8580438e3",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/TokenStorage.java",
+            "SHA-1":"3d723c60587dd6fa120f086f525138f66b02f612",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/metadata/Snapshot.java",
+            "SHA-1":"388e44bea048ce34f29f0e4d6ada4e849e9992d1",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/Repository.java",
+            "SHA-1":"f8e197a8e10a6aec623efe667265a089036a8837",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/console/Console.java",
+            "SHA-1":"2398679a4ebe4b7dd064de59d5a168213ab57ec6",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/console/VersionCommand.java",
+            "SHA-1":"6e14e099869798ab218ea8c65b7307bbc0a7c82b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/KeygenCommand.java",
+            "SHA-1":"d1226c85461b40a484d78810a4748266f9ae7f39",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/console/RemoteExecutionEndpoint.java",
+            "SHA-1":"69a5f933ca444591459d829a6094534c51726370",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/metadata/PurgeCommand.java",
+            "SHA-1":"dbd643e1ec293a745ecff071a096633b3f3e298d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/ReposiliteUtils.java",
+            "SHA-1":"9fb6e52e89f7fea2ee5557316e656f72de9ba448",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/repository/ProxyService.java",
+            "SHA-1":"5358210dd1732a36c72949d179aa64dbbdefcc89",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/metadata/MetadataComparator.java",
+            "SHA-1":"4177efd67ef653175525692ee20a291ca8131eda",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/TokenCollection.java",
+            "SHA-1":"6891041ce5dc708965403aa7eb2550e5255cf168",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/ReposiliteConfiguration.java",
+            "SHA-1":"b19583c04e25caf6fc9b0318ac9f3d68fc31abc7",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/stats/StatsEntity.java",
+            "SHA-1":"a0826737ede7415ce48c3bfc49786a25a6fda85e",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/auth/AuthDto.java",
+            "SHA-1":"0d10033e3073f233567fb47794a207d96b8de489",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/utils/TimeUtils.java",
+            "SHA-1":"42d8af78cff8b8be8a562825f3d60cba1399c1b5",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/reposilite-backend/src/main/java/org/panda_lang/reposilite/error/ResponseUtils.java",
+            "SHA-1":"d83b1deac5b717d701edbb9237f3254b508714e4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         }
+      ]
+   }
+}

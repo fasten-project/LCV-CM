@@ -1,0 +1,870 @@
+{
+   "plugin_name":"QMSTR",
+   "plugin_version":"0.0.1",
+   "input":{
+      "product":"com.github.theholywaffle:teamspeak3-api",
+      "version":"1.3.0-SNAPSHOT"
+   },
+   "created_at":"2021-03-12T12:03:20.232108804Z",
+   "payload":{
+      "package_metadata":{
+         
+      },
+      "fileMetadata":[
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/ChannelCommands.java",
+            "SHA-1":"eaadbd21f406ad47c2c45f1c2de5784e24f13bc6",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/InstanceInfo.java",
+            "SHA-1":"e571f2c231b73b115dbf9f3cc66c8055d1e3e1d2",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/DatabaseClient.java",
+            "SHA-1":"78a3f100c5ff2e2cedb243c42ccef653cb5138b1",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ClientJoinEvent.java",
+            "SHA-1":"3579736779faea1aa246705b47cb5becdaf9ce80",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/PrivilegeKeyCommands.java",
+            "SHA-1":"4f97b9a5fa26847bcc7cf65328432fd7a4fbe5b9",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/IOChannel.java",
+            "SHA-1":"c4538a23e43139bb65b532a5c4c29ded2340ab9f",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/CodecEncryptionMode.java",
+            "SHA-1":"ca39703719feda19a956b02fcc35bf15db33549e",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/VirtualServerCommands.java",
+            "SHA-1":"c6ee717d026f8290091376d7aaf7cbd0b2192adf",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ClientMovedEvent.java",
+            "SHA-1":"0a51ef7cea49622fa9076e90a13efb12d85ab946",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/BanCommands.java",
+            "SHA-1":"f63f980a078013d4882e37726573925fbcca0a35",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ServerEditedEvent.java",
+            "SHA-1":"2d201cda069de089fa3d43c8e74ce1380e4511e8",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/Command.java",
+            "SHA-1":"01ca38141d63e9e7894d9904952af3d1b2865dd4",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/parameter/OptionParam.java",
+            "SHA-1":"b27b63845d5d3e26df61a1b7528e1d95c65a2d75",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/ChannelProperty.java",
+            "SHA-1":"203caa4ccd198fca31e8c4cf25a305fbd9f027ec",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/HostMessageMode.java",
+            "SHA-1":"118d1be17e5650ca83be02738b1ad8c49d10a7c7",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/response/ResponseBuilder.java",
+            "SHA-1":"3307ad449469b136c896ceffc330e7633af61ac2",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/BaseEvent.java",
+            "SHA-1":"1f44793758187915425b5362a44b14b3d54f7be3",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/exception/TS3CommandFailedException.java",
+            "SHA-1":"84277bb4c8cbd837c602ead57a76661e5617e559",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/PrivilegeKeyUsedEvent.java",
+            "SHA-1":"4c98cbfad5fe86268e8e2bb1425d6e26ef2e0711",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/Codec.java",
+            "SHA-1":"f8ed5d5a0e68303c02c46a600c30b7de91fccc58",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/reconnect/ConnectionHandler.java",
+            "SHA-1":"ae0f25c3bf15886f5fba2ca933564fd6de19d91e",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/CustomPropertyCommands.java",
+            "SHA-1":"bdc01ee88e0d8bd645350e4816ec6956565399d4",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Version.java",
+            "SHA-1":"a2440c9eb0668c5eff10be70ec41fb583b7564c8",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/CreatedVirtualServer.java",
+            "SHA-1":"6e99c5fbafdcde3e80436b659f9c3a0184690d27",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/SSHChannel.java",
+            "SHA-1":"34cd35f5e43d270e93e3b35d45c5889adaa45f56",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/TS3Listener.java",
+            "SHA-1":"527e701d38665dee0c22309bd0cb9412192efecd",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/Property.java",
+            "SHA-1":"8f34f44e96534b8ece4c5cc493a6b27417e8fba9",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/TS3Api.java",
+            "SHA-1":"b0b3cecfb02fde0b986719c374323f78069ed253",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/ServerInstanceProperty.java",
+            "SHA-1":"1ec7da8c52560064283e789e7f9d909c4b4d0996",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/reconnect/ReconnectStrategy.java",
+            "SHA-1":"1c025da573e87623849304152986638bcbb12c50",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/PermissionInfo.java",
+            "SHA-1":"5af38784bccd112b4db27f61683ab238934f5ca4",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/FileTransferHelper.java",
+            "SHA-1":"728e10b42a8fbbfe279bc9697714fa15219f1b23",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/ReasonIdentifier.java",
+            "SHA-1":"7329925f9257f06008ad6f94a1872b0c6061269d",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/FileCommands.java",
+            "SHA-1":"b245354ed1f943636afe7496b4b5904884020318",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Binding.java",
+            "SHA-1":"2b86ad4d345a174d1479afc05ea4dc360f09be35",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/LogLevel.java",
+            "SHA-1":"15bb3db0056ccf649c92c74fc88426de608c9213",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/TS3ApiAsync.java",
+            "SHA-1":"d1ebefc1dd1ee19be0a6b8fc11b6530ea9e2b420",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/Connection.java",
+            "SHA-1":"2876320449f96e6b302aa760ff1b0b0233f5d09a",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/PrivilegeKey.java",
+            "SHA-1":"43a6c3ce4a6dc7d4c0c1a921025717d36b48eabd",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/CustomPropertyAssignment.java",
+            "SHA-1":"f605c3f3799b47ccbba648d32265fd0b33e0a429",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/IconFile.java",
+            "SHA-1":"a72f5d0118154de0616c8c42e306da47ab36871b",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/VirtualServerStatus.java",
+            "SHA-1":"874658cb5b0e07365968dc4206f413bd90cee0da",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/TS3Query.java",
+            "SHA-1":"974d1f6a68d8e339626b636499103455ff11d1d8",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/VirtualServer.java",
+            "SHA-1":"9ee913145adcf9d435b60fc03296f035a6c049ff",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/TextMessageTargetMode.java",
+            "SHA-1":"b09374473fe52048b2023509944431d8898abbc2",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/DatabaseClientInfo.java",
+            "SHA-1":"c77f9deeea6729775270750a7ad80941651c8e4d",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/TS3Event.java",
+            "SHA-1":"0e5ff40fc7fc4854fe3b1967553911f9114a4736",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/ComplaintCommands.java",
+            "SHA-1":"98c5a857bb5306530e822baaae9404bc66699dee",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/parameter/KeyValueParam.java",
+            "SHA-1":"f1801a0b10bdb7f04da262f0fed049a90927c95f",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/FileListEntry.java",
+            "SHA-1":"026f3eb0c44732c7625cdd25a892e4a4d37a95a9",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ChannelCreateEvent.java",
+            "SHA-1":"26772587db5298fbdfe2785ec95bd8c97adf9efa",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/TS3Config.java",
+            "SHA-1":"b50c19f26a0f3a40a076e4cf48e5d152df2d214d",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/exception/TS3Exception.java",
+            "SHA-1":"d501c4bb18fa5159942ebadc238edaec10d32865",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/ServerCommands.java",
+            "SHA-1":"504fdc5b1df20e734ce16246dad9b093157d2b3a",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/QueryCommands.java",
+            "SHA-1":"8e9079ff34e87ee4862d71b249aa9034d71a54db",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/parameter/ArrayParameter.java",
+            "SHA-1":"08f8e4ed79c1f38869cfa48ecc7f10217a0304f2",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/SocketChannel.java",
+            "SHA-1":"b6629e66889a690981e24283f115b45db57975a3",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/reconnect/ReconnectingConnectionHandler.java",
+            "SHA-1":"d43f5a6d062b53e77ee0623e9e9c01663195ade7",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ChannelDescriptionEditedEvent.java",
+            "SHA-1":"55debc64dd92f53471b9227d164362c44aff1fc1",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/StreamReader.java",
+            "SHA-1":"5385e7ca8d7f65be5e436def33c6b5431d2c869e",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/VirtualServerProperty.java",
+            "SHA-1":"8a8b92c833cd119122c35558ae9ca817ea9ebc66",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/reconnect/DisconnectingConnectionHandler.java",
+            "SHA-1":"b632186c012bf6b73c9efac08dab8850fafe3a20",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/PermissionCommands.java",
+            "SHA-1":"4b69e5534090d50dea4fdfe9d8abc52f81a0d0d1",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ChannelEditedEvent.java",
+            "SHA-1":"cdeb835a1e6812faf081b379e8593ea3b76cacb2",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/CommandBuilder.java",
+            "SHA-1":"b9c88dc8aa792eb7e2003674ce7a3712375c584c",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/TextMessageEvent.java",
+            "SHA-1":"0d4d901893e007ad22475c63462f79c9a0956939",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/EventManager.java",
+            "SHA-1":"cf73ab0321f0d6f0f3094b6d668f018d987934f6",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/FileTransferParameters.java",
+            "SHA-1":"73dce63967fcc980d798fde7b57bcae8503502d6",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Ban.java",
+            "SHA-1":"30b7359d8244be6b57f30613dda8430e89e287d6",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/exception/TS3FileTransferFailedException.java",
+            "SHA-1":"9893213ae9b5c00fda7322f8a507bece10d54079",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/parameter/ValueParam.java",
+            "SHA-1":"0f12c71cecdb12d51060a89b850d94fbbaa3876d",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/PrivilegeKeyType.java",
+            "SHA-1":"d93f1d275f66af2fb1274fac83aedc724f688c6c",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/DatabaseClientCommands.java",
+            "SHA-1":"53ffc947a0b9770c2894a252132b265aedd79236",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Wrapper.java",
+            "SHA-1":"b9df4011129dbde30ce0c1cdb8ef7760499bdfaa",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/TS3EventType.java",
+            "SHA-1":"d1a29451a56e32d8b3aa7f32423dce43d514226f",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/exception/TS3QueryShutDownException.java",
+            "SHA-1":"fb6b4fe87eeb6afc84659802d4aaa3ffa15cce78",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/ClientCommands.java",
+            "SHA-1":"8d7182d898a0dc7dc8a25de543081ab4b61da955",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ChannelMovedEvent.java",
+            "SHA-1":"6f4b6db27b346664ae1150daccf580838bfed633",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Permission.java",
+            "SHA-1":"55675f2a53f448c67f9d0abed71b6eaffde89058",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/CommandQueue.java",
+            "SHA-1":"ca056b6f87553cf140e5912c769ae56adfe100af",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Complaint.java",
+            "SHA-1":"d05ab1576fec0934b5cd9de97dc12f23d9042f13",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/exception/TS3ConnectionFailedException.java",
+            "SHA-1":"db309c04d5fb003f55a43e1d6a7e532433b04664",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/exception/TS3UnknownEventException.java",
+            "SHA-1":"16b28f67476e6a2dd2b60b63102dd1fa8914bbfa",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/StreamWriter.java",
+            "SHA-1":"812f72d7caf96d81ff4f37c584a933c03a5bbf5e",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Channel.java",
+            "SHA-1":"dd01f1efb3dd04d1f4aa183ecd1de57c9db61839",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/PermissionGroupType.java",
+            "SHA-1":"61fc5504f24c60966ecb330e37e61b3e39b5c4a6",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/ChannelGroupCommands.java",
+            "SHA-1":"d012c179877a984c8d6a44bf7400e418cfe5aaa5",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ConnectionInfo.java",
+            "SHA-1":"7cf2baee8a59d98de84c24ad622904572862092a",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ChannelDeletedEvent.java",
+            "SHA-1":"a57acbfc0f0fb5fe89c578c5249a783c639e3046",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/MessageCommands.java",
+            "SHA-1":"6d15da901a849e1cc7c105076a01a8bda4cf7a4b",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/TS3EventAdapter.java",
+            "SHA-1":"f3edffc7d621a7e3faf13dcacb8d71cba386150a",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/parameter/RawParam.java",
+            "SHA-1":"56e31313c807a7bdf348a235e84d68fdb339fec0",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ChannelGroup.java",
+            "SHA-1":"22c3207efeda90f67a135d782ff43466c452a250",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ChannelGroupClient.java",
+            "SHA-1":"d95569042b99f5d49a0478a9655241a7c311a6da",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/VirtualServerInfo.java",
+            "SHA-1":"6c8d8ca4f4aac8f1a1cd560ec4b1011ccc531996",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ServerGroup.java",
+            "SHA-1":"640cb85e9f1742701e48d6d119a3134b7163acdd",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ClientInfo.java",
+            "SHA-1":"52656be3141b93b64615d849a7a0a33d99b1a36c",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/response/DefaultArrayResponse.java",
+            "SHA-1":"cbd5197475a8c623d4537088d1a09d2dc11726fe",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/QueryError.java",
+            "SHA-1":"e3ff34853eee9fd4252ffd7d55eca0bc1386daa6",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ServerGroupClient.java",
+            "SHA-1":"b1ffb979a712858964bfb3362d4fd503e6d2be14",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/CommandFuture.java",
+            "SHA-1":"c14c661be8b839e8f039ddaedace9388588b4bd9",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/PermissionAssignment.java",
+            "SHA-1":"49f8b748f756e1f48e65235b241148db8ab30a4b",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/CommandEncoding.java",
+            "SHA-1":"b024c80fae90ae3a6a4c0cc955daf9987300f89f",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/ServerGroupCommands.java",
+            "SHA-1":"1f9e8d201a61ad363514c246dd3da141f86364f0",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/Snapshot.java",
+            "SHA-1":"3874f75b4fc61a8673ef7043dd0061cdf842d101",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ChannelInfo.java",
+            "SHA-1":"2da3bf8c6e0210b11c3c16a1237f95024be20743",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Client.java",
+            "SHA-1":"96e2ebb04fba1984f73dd7b603a14df40a5c3921",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/ServerGroupType.java",
+            "SHA-1":"d8b96a208c4db9516980720136b85ca75f431c61",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/FileTransfer.java",
+            "SHA-1":"41cdca092906280ce6d02bbfee09714a2124c0f5",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/HostBannerMode.java",
+            "SHA-1":"ca6bf6259b42da4bc6cd7158f310e1dcd36a42b4",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/ClientProperty.java",
+            "SHA-1":"a19ffb1067a05b6c90522c97c0ba50240e1a2860",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/HostInfo.java",
+            "SHA-1":"dea9417ab956687b6878f01fae28a30c643d3180",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Message.java",
+            "SHA-1":"7ea3dd0c28c7207f127d29f198c92f5f042131d4",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/commands/parameter/Parameter.java",
+            "SHA-1":"403d252aada8c5ff785ad9527ee5488e45a95bec",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ChannelBase.java",
+            "SHA-1":"abfe5a491896bdee8993f0f419448ce766bf83de",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ServerQueryInfo.java",
+            "SHA-1":"25c35665ffeb7260fefe457ec7554e771d5dc931",
+            "licenses":[
+               "unknown"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/KeepAlive.java",
+            "SHA-1":"0b65ec6afb83bdcdcb4c8fd8184a50af1d651cbc",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/exception/TS3UnknownErrorException.java",
+            "SHA-1":"8a5f29574447ffb5c4d12d00f711fee0441e708f",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/PermissionGroupDatabaseType.java",
+            "SHA-1":"1b7239bd92302875f253bff7ee0645685c6f38db",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ChannelPasswordChangedEvent.java",
+            "SHA-1":"379ec12efd28b29b7a49d9d8c7f4b01111a89d1c",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/FileInfo.java",
+            "SHA-1":"48da2313e39cf6b175c10087840c90875fb71cb7",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ClientLeaveEvent.java",
+            "SHA-1":"4632b66e40c285244aec88d8137ecd205658f01f",
+            "licenses":[
+               "MIT License"
+            ]
+         }
+      ]
+   }
+}

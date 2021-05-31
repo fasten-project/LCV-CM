@@ -1,0 +1,800 @@
+#FROM https://github.com/topics/maven
+
+
+https://github.com/liquidz/antq
+BUILD successfully
+Analyzer scancode-analyzer failed: exit status 2 (exit status 2)
+check full log
+
+https://github.com/arthurgregorio/web-budget
+[INFO] BUILD FAILURE
+check full log
+
+https://github.com/spring-cloud/spring-cloud-build
+json ok
+
+https://github.com/raydac/java-comment-preprocessor
+json ok
+
+https://github.com/Angular2Guy/Angular2AndJavaEE
+build failure
+
+https://github.com/mojohaus/build-helper-maven-plugin
+# where is this log?
+# @michele
+
+
+./michele-exp.sh https://github.com/arthurgregorio/web-budget && \
+./michele-exp.sh https://github.com/spring-cloud/spring-cloud-build && \
+./michele-exp.sh https://github.com/raydac/java-comment-preprocessor && \
+./michele-exp.sh https://github.com/Angular2Guy/Angular2AndJavaEE
+
+-------------DONE 2 GOOD----------------------
+
+https://github.com/delthas/JavaSkype
+empty payload
+
+https://github.com/MitchTalmadge/ASCII-Data
+empty payload
+
+https://github.com/wiverson/maven-jpackage-template
+error
+#26MB
+
+https://github.com/egineering-llc/gitflow-helper-maven-plugin
+json ok
+
+https://github.com/mojohaus/appassembler
+json ok
+
+https://github.com/apache/maven-enforcer
+[INFO] BUILD FAILURE
+
+
+
+
+https://github.com/intuit/maven-build-scanner
+#53% Java code
+empty payload
+
+https://github.com/syncdk/docker-compose-maven-plugin
+empty payload
+
+https://github.com/mojohaus/aspectj-maven-plugin
+json ok
+
+https://github.com/mojohaus/jaxb2-maven-plugin
+json ok
+
+https://github.com/kiegroup/optaplanner-quickstarts
+#license defined in a file called differently (LICENSE-Apache-2.0.txt)
+build failure - see full logs
+# here
+
+
+https://github.com/RadarCOVID/radar-covid-backend-configuration-server
+JSON ok
+
+https://github.com/Zlika/reproducible-build-maven-plugin
+JSON ok
+
+https://github.com/jcabi/jcabi-aether
+error see full log
+
+https://github.com/jenkinsci/plot-plugin
+build failure
+
+https://github.com/Drombler/drombler-fx
+build failure
+
+https://github.com/mojohaus/rpm-maven-plugin
+json ok
+
+
+
+https://github.com/drtrang/maven-archetype-springboot
+Build success
+analyzer failed
+
+
+https://github.com/Kaysoro/KaellyBot
+empty payload
+
+
+
+https://github.com/mojohaus/animal-sniffer
+# to repeat!! The log seems good with no errors
+23-03-2021 18:06 repeating now
+2021/03/23 09:16:28 Received a message: gooooo!!!!!
+2021/03/23 09:16:30 FASTEN reporter failed: couldn't get FileNodes, rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 10.20.15.33:9080: connect: connection refused"
+log seems ok
+24-03-2021 01:06 again same error
+2021/03/23 15:46:03 FASTEN reporter failed: couldn't get FileNodes, rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 10.20.8.52:9080: connect: connection refused"
+
+
+https://github.com/bsorrentino/maven-confluence-plugin
+# 56% Java
+2021/03/23 15:25:43 FASTEN reporter failed: couldn't get FileNodes, rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 10.20.12.25:9080: connect: connection refused"
+retry please
+
+
+# added 24-03-2021 00:17
+
+https://github.com/mojohaus/buildnumber-maven-plugin
+json ok
+
+https://github.com/jdillon/mvnsh
+error: The build could not read 1 project
+
+https://github.com/Carleslc/Simple-YAML
+json ok
+
+
+https://github.com/tedyoung/kid-bank
+empy json
+
+https://github.com/CycloneDX/cyclonedx-maven-plugin
+2021/03/24 00:24:26 FASTEN reporter failed: couldn't get FileNodes, rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 10.20.15.20:9080: connect: connection refused"
+to retry
+24-03-2021 13:25 retrying NOW
+Json ok now
+
+https://github.com/kiwigrid/helm-maven-plugin
+empty json
+
+https://github.com/ctron/rpm-builder
+2021/03/24 04:53:48 FASTEN reporter failed: couldn't get FileNodes, rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 10.20.0.159:9080: connect: connection refused"
+retry 24-03-2021 14:13
+now json ok
+(EPL 2.0)
+
+
+https://github.com/jinahya/executable-jar-with-maven-example
+json ok
+
+https://github.com/mugglmenzel/serverless-examples-cached-rds-ws
+empty payload
+retrying 24-03-2021 18:27
+
+https://github.com/openjfx/javafx-maven-archetypes
+empty payload
+retrying 24-03-2021 18:27
+
+
+
+https://github.com/Naoghuman/lib-i18n
+build failure
+
+
+#47% of Java
+
+#17.4MB
+https://github.com/ZHENFENG13/My-Blog
+[INFO] Replacing main artifact /var/qmstr/buildroot/project/target/my-blog-4.0.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- qmstr-maven-plugin:0.5:qmstr (qmstrpackage) @ my-blog ---
+[INFO] Processing artifact /var/qmstr/buildroot/project/target/my-blog-4.0.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.146 s
+[INFO] Finished at: 2021-03-16T09:47:37Z
+[INFO] ------------------------------------------------------------------------
+DEBUG: 2021/03/16 09:47:37 Connection to control service at localhost:50051 set up
+2021/03/16 09:47:42 Event: PHASE, Message: Activating analysis phase
+2021/03/16 09:47:42 Event: MODULE, Message: Running analyzer scancode-analyzer
+2021/03/16 10:07:02 Event: MODULE, Message: Analyzer scancode-analyzer successfully finished
+2021/03/16 10:07:02 Event: PHASE, Message: Switched to phase 2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   119  100    15  100   104     18    127 --:--:-- --:--:-- --:--:--   146
+
+
+
+#16kb
+https://github.com/Ardesco/Selenium-Maven-Template
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (226 kB at 3.5 MB/s)
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /var/qmstr/buildroot/project/target/maven-template-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- qmstr-maven-plugin:0.5:qmstr (qmstrpackage) @ maven-template ---
+[INFO] Processing artifact /var/qmstr/buildroot/project/target/maven-template-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  30.408 s
+[INFO] Finished at: 2021-03-16T10:20:27Z
+[INFO] ------------------------------------------------------------------------
+DEBUG: 2021/03/16 10:20:27 Connection to control service at localhost:50051 set up
+2021/03/16 10:20:28 Event: PHASE, Message: Switching to phase 2
+2021/03/16 10:20:28 Event: PHASE, Message: Activating analysis phase
+2021/03/16 10:20:28 Event: MODULE, Message: Running analyzer scancode-analyzer
+2021/03/16 10:26:27 Event: MODULE, Message: Analyzer scancode-analyzer failed: exit status 2 (exit status 2)
+2021/03/16 10:26:27 Event: PHASE, Message: Entering failure phase
+Server reported failure:
+Analyzer scancode-analyzer failed: exit status 2 (exit status 2)
+
+
+
+#86kb
+https://github.com/Baidu-AIP/java-sdk
+
+100 errors
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.206 s
+[INFO] Finished at: 2021-03-18T10:59:05Z
+
+
+[ERROR] /var/qmstr/buildroot/project/src/main/java/com/baidu/aip/kg/AipKnowledgeGraphic.java:34: error: unmappable character (0xE5) for encoding ANSI_X3.4-1968
+[ERROR]      * @param inputMappingFile - ?????????????????????????????????
+[ERROR]                                                 ^
+[ERROR]
+[ERROR] Command line was: /usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/javadoc @options @packages
+[ERROR]
+[ERROR] Refer to the generated Javadoc files in '/var/qmstr/buildroot/project/target/apidocs' dir.
+[ERROR]
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+#200kb
+https://github.com/lrwinx/shop
+
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.585 s
+[INFO] Finished at: 2021-03-12T11:39:43Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project order-service-api: Fatal error compiling: java.lang.ExceptionInInitializerError: com.sun.tools.javac.code.TypeTags -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR]
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :order-service-api
+michelescarlato@QMSTR-vm-big:~$
+
+#258kb
+https://github.com/gardncl/elements-of-programming-interviews
+
+empty
+2021/03/12 11:51:43 Result: {"plugin_name":"QMSTR","plugin_version":"0.0.1","input":{"product":"gardncl:datastructures","version":"1.0"},"created_at":"2021-03-12T11:51:42.939059728Z","payload":{"package_metadata":{}}}
+2021/03/12 11:51:43 FASTEN reporter completed successfully
+
+#260kb
+https://github.com/TheHolyWaffle/TeamSpeak-3-Java-API
+OK
+
+#307kb
+https://github.com/nnngu/nguSeckill
+empty
+2021/03/13 00:46:32 Result: {"plugin_name":"QMSTR","plugin_version":"0.0.1","input":{"product":"com.nnngu:nguSeckill","version":"1.0-SNAPSHOT"},"created_at":"2021-03-13T00:46:32.287026112Z","payload":{"package_metadata":{}}}
+2021/03/13 00:46:32 FASTEN reporter completed successfully
+
+#390kb
+https://github.com/javafx-maven-plugin/javafx-maven-plugin
+error
+
+[ERROR] /var/qmstr/buildroot/project/src/main/java/com/zenjava/javafx/maven/plugin/ListBundlersMojo.java:[21,33] package com.oracle.tools.packager does not exist
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+
+#493kb
+https://github.com/spring-petclinic/spring-framework-petclinic
+build FAILURE[INFO] --- qmstr-maven-plugin:0.5:qmstr (qmstrpackage) @ spring-framework-petclinic ---
+[INFO] Processing artifact /var/qmstr/buildroot/project/target/petclinic.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  53.724 s
+[INFO] Finished at: 2021-03-13T01:08:34Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.qmstr:qmstr-maven-plugin:0.5:qmstr (qmstrpackage) on project spring-framework-petclinic: qmstr: no package found -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+
+
+#664kb
+https://github.com/openjfx/samples
+FINQUA
+./michele-exp.sh https://github.com/openjfx/samples michele
+[INFO]
+[INFO] --- qmstr-maven-plugin:0.5:qmstr (qmstrpackage) @ samples ---
+[WARNING] Not a java project
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.427 s
+[INFO] Finished at: 2021-03-13T05:55:38Z
+[INFO] ------------------------------------------------------------------------
+DEBUG: 2021/03/13 05:55:38 Connection to control service at localhost:50051 set up
+2021/03/13 05:55:38 Event: PHASE, Message: Switching to phase 2
+2021/03/13 05:55:38 Event: PHASE, Message: Activating analysis phase
+2021/03/13 05:55:38 Event: MODULE, Message: Running analyzer scancode-analyzer
+2021/03/13 05:57:16 Event: PHASE, Message: Entering failure phase
+2021/03/13 05:57:16 Event: MODULE, Message: Analyzer scancode-analyzer failed: exit status 2 (exit status 2)
+Server reported failure:
+Analyzer scancode-analyzer failed: exit status 2 (exit status 2)
+
+
+#961kb
+https://github.com/thrsky/ThrskyShop
+[INFO] Packaging webapp
+[INFO] Assembling webapp [ThrskyShop] in [/var/qmstr/buildroot/project/target/ThrskyShop]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/qmstr/buildroot/project/src/main/webapp]
+[INFO] Webapp assembled in [187 msecs]
+[INFO] Building war: /var/qmstr/buildroot/project/target/ThrskyShop.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO]
+[INFO] --- qmstr-maven-plugin:0.5:qmstr (qmstrpackage) @ ThrskyShop ---
+[INFO] Processing artifact /var/qmstr/buildroot/project/target/ThrskyShop.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.046 s
+[INFO] Finished at: 2021-03-13T06:26:47Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.qmstr:qmstr-maven-plugin:0.5:qmstr (qmstrpackage) on project ThrskyShop: qmstr: no package found -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+
+#1.6MB
+https://github.com/yrojha4ever/JavaStud
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.109 s
+[INFO] Finished at: 2021-03-13T06:42:32Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/var/qmstr/buildroot/project). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+
+
+#2.4MB
+https://github.com/windwant/spring-dubbo-service
+empty
+2021/03/13 07:10:32 Result: {"plugin_name":"QMSTR","plugin_version":"0.0.1","input":{"product":"org.windwant.spring:util","version":"1.0-SNAPSHOT"},"created_at":"2021-03-13T07:10:32.788869566Z","payload":{"package_metadata":{}}}
+2021/03/13 07:10:32 FASTEN reporter completed successfully
+
+#2.9MB
+https://github.com/henryyan/kft-activiti-demo
+#
+[ERROR] /var/qmstr/buildroot/project/src/main/java/me/kafeitu/demo/activiti/webservice/LeaveWebService.java:[21,6] cannot find symbol
+  symbol:   class WebResult
+  location: interface me.kafeitu.demo.activiti.webservice.LeaveWebService
+[ERROR] /var/qmstr/buildroot/project/src/main/java/me/kafeitu/demo/activiti/webservice/LeaveWebserviceUtil.java:[36,9] cannot find symbol
+  symbol:   variable Endpoint
+  location: class me.kafeitu.demo.activiti.webservice.LeaveWebserviceUtil
+[INFO] 11 errors
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.041 s
+[INFO] Finished at: 2021-03-14T03:27:40Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project kft-activiti-demo: Compilation failure: Compilation failure:
+[ERROR] /var/qmstr/buildroot/project/src/main/java/me/kafeitu/demo/activiti/webservice/LeaveWebService.java:[3,17] package javax.jws does not exist
+[ERROR] /var/qmstr/buildroot/project/src/main/java/me/kafeitu/demo/activiti/webservice/LeaveWebService.java:[4,17] package javax.jws does not exist
+[ERROR] /var/qmstr/buildroot/project/src/main/java/me/kafeitu/demo/activiti/webservice/LeaveWebService.java:[5,17] package javax.jws does not exist
+[ERROR] /var/qmstr/buildroot/project/src/main/java/me/kafeitu/demo/activiti/webservice/LeaveWebService.java:[12,2] cannot find symbol
+[ERROR]   symbol: class WebService
+[ERROR] /var/qmstr/buildroot/project/src/main/java/me/kafeitu/demo/activiti/webservice/LeaveWebserviceUtil.java:[3,20] package javax.xml.ws does not exist
+[ERROR] /var/qmstr/buildroot/project/src/main/java/me/kafeitu/demo/activiti/webservice/LeaveWebServiceImpl.java:[4,17] package javax.jws does not exist
+[ERROR] /var/qmstr/buildroot/project/src/main/java/me/kafeitu/demo/activiti/webservice/LeaveWebServiceImpl.java:[15,2] cannot find symbol
+[ERROR]   symbol: class WebService
+[ERROR] /var/qmstr/buildroot/project/src/main/java/me/kafeitu/demo/activiti/webservice/LeaveWebService.java:[22,34] cannot find symbol
+[ERROR]   symbol:   class WebParam
+[ERROR]   location: interface me.kafeitu.demo.activiti.webservice.LeaveWebService
+[ERROR] /var/qmstr/buildroot/project/src/main/java/me/kafeitu/demo/activiti/webservice/LeaveWebService.java:[22,96] cannot find symbol
+[ERROR]   symbol:   class WebParam
+[ERROR]   location: interface me.kafeitu.demo.activiti.webservice.LeaveWebService
+[ERROR] /var/qmstr/buildroot/project/src/main/java/me/kafeitu/demo/activiti/webservice/LeaveWebService.java:[21,6] cannot find symbol
+[ERROR]   symbol:   class WebResult
+[ERROR]   location: interface me.kafeitu.demo.activiti.webservice.LeaveWebService
+[ERROR] /var/qmstr/buildroot/project/src/main/java/me/kafeitu/demo/activiti/webservice/LeaveWebserviceUtil.java:[36,9] cannot find symbol
+[ERROR]   symbol:   variable Endpoint
+[ERROR]   location: class me.kafeitu.demo.activiti.webservice.LeaveWebserviceUtil
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+#14-03-2021 12:50
+
+
+
+
+#3.3MB
+https://github.com/apache/maven-surefire
+14-03-2021 13:00
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.21/plexus-utils-3.0.21.jar (245 kB at 1.1 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.5/velocity-1.5.jar (392 kB at 1.6 MB/s)
+[INFO] Enabled default license matchers.
+[INFO] Will parse SCM ignores for exclusions...
+[INFO] Parsing exclusions from /var/qmstr/buildroot/project/.gitignore
+[INFO] Finished adding exclusions from SCM ignore files.
+[INFO] 85 implicit excludes (use -debug for more details).
+[INFO] 27 explicit excludes (use -debug for more details).
+[INFO] 7 resources included (use -debug for more details)
+[INFO] Rat check: Summary over all files. Unapproved: 1, unknown: 1, generated: 0, approved: 6 licenses.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Apache Maven Surefire 3.0.0-M6-SNAPSHOT:
+[INFO]
+[INFO] Apache Maven Surefire .............................. FAILURE [  5.323 s]
+[INFO] SureFire Logger API ................................ SKIPPED
+[INFO] SureFire API ....................................... SKIPPED
+[INFO] Surefire Extensions API ............................ SKIPPED
+[INFO] Surefire Extensions SPI ............................ SKIPPED
+[INFO] SureFire Booter .................................... SKIPPED
+[INFO] Maven Surefire Test-Grouping Support ............... SKIPPED
+[INFO] SureFire Providers ................................. SKIPPED
+[INFO] Shared JUnit3 Provider Code ........................ SKIPPED
+[INFO] Shared Java 5 Provider Base ........................ SKIPPED
+[INFO] Shared JUnit4 Provider Code ........................ SKIPPED
+[INFO] Shared JUnit48 Provider Code ....................... SKIPPED
+[INFO] SureFire JUnit Runner .............................. SKIPPED
+[INFO] SureFire JUnit4 Runner ............................. SKIPPED
+[INFO] Maven Surefire Common .............................. SKIPPED
+[INFO] SureFire JUnitCore Runner .......................... SKIPPED
+[INFO] SureFire JUnit Platform Runner ..................... SKIPPED
+[INFO] SureFire TestNG Utils .............................. SKIPPED
+[INFO] SureFire TestNG Runner ............................. SKIPPED
+[INFO] ShadeFire JUnit3 Provider .......................... SKIPPED
+[INFO] Surefire Report Parser ............................. SKIPPED
+[INFO] Maven Surefire Plugin .............................. SKIPPED
+[INFO] Maven Failsafe Plugin .............................. SKIPPED
+[INFO] Maven Surefire Report Plugin ....................... SKIPPED
+[INFO] Maven Surefire Integration Tests ................... SKIPPED
+[INFO] Surefire Shared Utils .............................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.694 s
+[INFO] Finished at: 2021-03-14T03:59:36Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.rat:apache-rat-plugin:0.13:check (rat-check) on project surefire: Too many files with unapproved license: 1 See RAT report in: /var/qmstr/buildroot/project/target/rat.txt -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+
+#4.9MB
+https://github.com/Manphil/shop
+[INFO] 108 errors
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.574 s
+[INFO] Finished at: 2021-03-14T04:59:10Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project shop: Compilation failure: Compilation failure:
+[ERROR] /var/qmstr/buildroot/project/src/main/java/com/neu/shop/service/impl/CateServiceImpl.java:[13,15] unmappable character (0xE6) for encoding US-ASCII
+..
+[ERROR] /var/qmstr/buildroot/project/src/main/java/com/neu/shop/controller/admin/AdminOrderController.java:[55,55] diamond operator is not supported in -source 6
+[ERROR]   (use -source 7 or higher to enable diamond operator)
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+
+#11.3MB
+https://github.com/ueboot/ueboot
+empty payload
+{"plugin_name":"QMSTR","plugin_version":"0.0.1","input":{"product":"com.ueboot:ueboot-core","version":"3.1.0-SNAPSHOT"},"created_at":"2021-03-15T04:06:34.986395628Z","payload":{"package_metadata":{}}}
+#21.1MB
+https://github.com/ORCID/ORCID-Source
+[ERROR]  class XmlAccessorType
+/var/qmstr/buildroot/project/orcid-utils/src/main/java/org/crossref/qrschema/_3/Year.java:[56,1] error: cannot find symbol
+[INFO] 100 errors
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for ORCID - Parent release-1.289.0:
+[INFO]
+[INFO] ORCID - Test ....................................... SUCCESS [  6.362 s]
+[INFO] ORCID - Parent ..................................... SUCCESS [  7.557 s]
+[INFO] ORCID - Utils ...................................... FAILURE [01:42 min]
+[INFO] ORCID - Persistence ................................ SKIPPED
+[INFO] ORCID - Core ....................................... SKIPPED
+[INFO] ORCID - API Commons ................................ SKIPPED
+[INFO] ORCID - Web ........................................ SKIPPED
+[INFO] ORCID - Public API ................................. SKIPPED
+[INFO] ORCID - Tier 2 Services Web ........................ SKIPPED
+[INFO] ORCID - Scheduler .................................. SKIPPED
+[INFO] ORCID - Integration Test ........................... SKIPPED
+[INFO] ORCID - Internal API ............................... SKIPPED
+[INFO] ORCID - ActiveMQ ................................... SKIPPED
+[INFO] ORCID - Message Listener ........................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:57 min
+[INFO] Finished at: 2021-03-15T08:19:12Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project orcid-utils: Compilation failure: Compilation failure:
+[ERROR] /var/qmstr/buildroot/project/orcid-utils/src/main/java/org/crossref/qrschema/_3/Volume.java:[11,32] error: package javax.xml.bind.annotation does not exist
+[ERROR]
+
+
+https://github.com/policeman-tools/forbidden-apis
+
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.180 s
+[INFO] Finished at: 2021-03-18T11:58:45Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/var/qmstr/buildroot/project). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR]
+
+
+https://github.com/eclipse/jkube
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Eclipse JKube 1.2.0-SNAPSHOT:
+[INFO]
+[INFO] Eclipse JKube ...................................... SUCCESS [  2.272 s]
+[INFO] JKube Kit :: Parent ................................ SUCCESS [  0.484 s]
+[INFO] JKube Kit :: Documentation ......................... SUCCESS [ 12.932 s]
+[INFO] JKube Kit :: Common :: Test ........................ SUCCESS [  1.686 s]
+[INFO] JKube Kit :: Common ................................ SUCCESS [ 10.132 s]
+[INFO] JKube Kit :: Common Maven .......................... FAILURE [  2.172 s]
+[INFO] JKube Kit :: Config :: Image ....................... SKIPPED
+[INFO] JKube Kit :: Config :: Resource .................... SKIPPED
+.....
+[INFO] OpenShift Maven Plugin :: Integration Tests ........ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.858 s
+[INFO] Finished at: 2021-03-18T12:01:21Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-enforcer-plugin:1.4.1:enforce (dependency-convergence) on project jkube-kit-common-maven: Some Enforcer rules have failed. Look above for specific messages explaining why the rule failed. -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+
+https://github.com/mojohaus/versions-maven-plugin
+JSON ok
+
+https://github.com/revelc/formatter-maven-plugin
+JSON ok
+
+https://github.com/Ekryd/sortpom
+# actually running on GKE
+# empty payload
+
+INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for SortPom 2.13.2-SNAPSHOT:
+[INFO]
+[INFO] SortPom ............................................ SUCCESS [  6.652 s]
+[INFO] SortPom Sorter ..................................... SUCCESS [  5.947 s]
+[INFO] SortPom Plugin ..................................... SUCCESS [  1.868 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23.705 s
+[INFO] Finished at: 2021-03-18T16:59:11Z
+[INFO] ------------------------------------------------------------------------
+DEBUG: 2021/03/18 16:59:12 Connection to control service at localhost:50051 set up
+2021/03/18 16:59:12 Event: PHASE, Message: Activating analysis phase
+2021/03/18 16:59:12 Event: MODULE, Message: Running analyzer scancode-analyzer
+2021/03/18 17:01:09 Event: MODULE, Message: Analyzer scancode-analyzer successfully finished
+2021/03/18 17:01:09 Event: PHASE, Message: Switched to phase 2
+
+
+https://github.com/qoomon/maven-git-versioning-extension
+# actually running on GKE
+# empty payload
+[INFO] Building jar: /var/qmstr/buildroot/project/target/formatter-maven-plugin-2.15.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-plugin-plugin:3.6.0:addPluginArtifactMetadata (default-addPluginArtifactMetadata) @ formatter-maven-plugin ---
+[INFO]
+[INFO] --- qmstr-maven-plugin:0.5:qmstr (qmstrpackage) @ formatter-maven-plugin ---
+[INFO] Processing artifact /var/qmstr/buildroot/project/target/formatter-maven-plugin-2.15.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:09 min
+[INFO] Finished at: 2021-03-18T16:00:00Z
+[INFO] ------------------------------------------------------------------------
+DEBUG: 2021/03/18 16:00:00 Connection to control service at localhost:50051 set up
+2021/03/18 16:00:00 Event: PHASE, Message: Switching to phase 2
+2021/03/18 16:00:02 Event: PHASE, Message: Activating analysis phase
+2021/03/18 16:00:02 Event: MODULE, Message: Running analyzer scancode-analyzer
+2021/03/18 16:02:21 Event: MODULE, Message: Analyzer scancode-analyzer successfully finished
+2021/03/18 16:02:21 Event: PHASE, Message: Switched to phase 2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   119  100    15  100   104     83    581 --:--:-- --:--:-- --:--:--   664
+
+
+
+https://github.com/jcgay/maven-color
+
+INFO] Required toolchain: jdk [ version='1.8' ]
+[ERROR] No toolchain found for type jdk
+[ERROR] Cannot find matching toolchain definitions for the following toolchain types:
+jdk [ version='1.8' ]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping maven-color-core
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping maven-color-gossip
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping maven-color-coverage-report
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for maven-color 2.1.2-SNAPSHOT:
+[INFO]
+[INFO] maven-color ........................................ FAILURE [  1.789 s]
+[INFO] maven-color-core ................................... SKIPPED
+[INFO] maven-color-gossip ................................. SKIPPED
+[INFO] maven-color-coverage-report ........................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.143 s
+[INFO] Finished at: 2021-03-19T00:02:24Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-toolchains-plugin:1.1:toolchain (default) on project maven-color: Cannot find matching toolchain definitions for the following toolchain types:
+[ERROR] jdk [ version='1.8' ]
+[ERROR] Please make sure you define the required toolchains in your ~/.m2/toolchains.xml file.
+[ERROR] -> [Help 1]
+[ERROR]
+
+
+https://github.com/gpedro/slack-webhook
+
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.jar (640 kB at 1.6 MB/s)
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /var/qmstr/buildroot/project/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR :
+[INFO] -------------------------------------------------------------
+[ERROR] Source option 5 is no longer supported. Use 6 or later.
+[ERROR] Target option 1.5 is no longer supported. Use 1.6 or later.
+[INFO] 2 errors
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.717 s
+[INFO] Finished at: 2021-03-18T23:59:07Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project slack-webhook: Compilation failure: Compilation failure:
+[ERROR] Source option 5 is no longer supported. Use 6 or later.
+[ERROR] Target option 1.5 is no longer supported. Use 1.6 or later.
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+
+https://github.com/jhg023/SimpleNet
+ok with json output
+project compliant (MIT license in inbound and in outbound)
+
+https://github.com/sayems/java.webdriver
+empty payload
+2021/03/19 14:25:36 Result: {"plugin_name":"QMSTR","plugin_version":"0.0.1","input":{"product":"org.sayem:java.webdriver","version":"1.0-SNAPSHOT"},"created_at":"2021-03-19T14:25:36.580121129Z","payload":{"package_metadata":{}}}
+
+https://github.com/jgitver/jgitver-maven-plugin
+error,
+full log
+
+https://github.com/Cosium/git-code-format-maven-plugin
+empty payload
+full log
+
+https://github.com/confluence-publisher/confluence-publisher
+error with full log (build failure)
+
+https://github.com/CryptoMorin/XSeries
+ok json
+
+https://github.com/SERG-Delft/jpacman-framework
+empty payload
+
+# run double in this way
+#  ./michele-exp.sh https://github.com/SERG-Delft/jpacman-framework && ./michele-exp.sh https://github.com/SERG-Delft/jpacman-framework
+
+
+https://github.com/faketime-java/faketime
+empy payload
+full log
+
+https://github.com/mojohaus/exec-maven-plugin
+json ok
+
+# ./scarlato-exp.sh https://github.com/faketime-java/faketime && ./scarlato-exp.sh https://github.com/mojohaus/exec-maven-plugin
+
+
+https://github.com/mojohaus/flatten-maven-plugin
+json ok
+1 above 1 licenses found are compatible. Apache-2.0
+
+
+
+https://github.com/arun-gupta/docker-java-sample
+empty
+full log
+
+https://github.com/SonarSource/sonar-scanner-maven
+json ok
+unknown license (but it is clear that is a GNU LGPL from the LICENSE file)
+
+# do it again
+# https://github.com/AdamBien/javaee8-essentials-archetype
+
+# 4 projects in 2 rows
+# ./michele-exp.sh https://github.com/mojohaus/flatten-maven-plugin && ./michele-exp.sh https://github.com/arun-gupta/docker-java-sample
+# ./scarlato-exp.sh https://github.com/AdamBien/javaee8-essentials-archetype && ./scarlato-exp.sh https://github.com/SonarSource/sonar-scanner-maven
+
+
+https://github.com/AdamBien/javaee8-essentials-archetype
+error and warning is not a java project.
+full log
+
+# do it again
+./scarlato-exp.sh https://github.com/SERG-Delft/jpacman-framework && ./scarlato-exp.sh https://github.com/arun-gupta/docker-java-sample
+both empty and full logs are in the dir
+
+
+FROM NOW ON
+ADDING ELEMENTS AT THE BEGINNING OF THE LIST

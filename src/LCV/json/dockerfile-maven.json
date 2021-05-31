@@ -1,0 +1,65 @@
+{
+   "plugin_name":"QMSTR",
+   "plugin_version":"0.0.1",
+   "input":{
+      "product":"com.spotify:dockerfile-maven-plugin",
+      "version":"1.4.14-SNAPSHOT"
+   },
+   "created_at":"2021-03-09T18:42:15.379059535Z",
+   "payload":{
+      "package_metadata":{
+         
+      },
+      "fileMetadata":[
+         {
+            "filename":"project/plugin/src/main/java/com/spotify/plugin/dockerfile/PushMojo.java",
+            "SHA-1":"72061e8a737c20370adfe7faa7450359ce94d25d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/plugin/src/main/java/com/spotify/plugin/dockerfile/LoggingProgressHandler.java",
+            "SHA-1":"85d1bcd815e56ff719929854bc176f41af5f47a6",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/plugin/src/main/java/com/spotify/plugin/dockerfile/TagMojo.java",
+            "SHA-1":"b8cf64d54797ea8bc2d3ff196ad3085d9cc1320d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/plugin/src/main/java/com/spotify/plugin/dockerfile/BuildMojo.java",
+            "SHA-1":"4e8f98a3655294c2a4afcc3e57ff7d0eb1d515b0",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/plugin/src/main/java/com/spotify/plugin/dockerfile/AbstractDockerMojo.java",
+            "SHA-1":"37995fc9a4121b11e28a986e0a1c4f9ff9600c92",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/plugin/src/main/java/com/spotify/plugin/dockerfile/MavenPomAuthSupplier.java",
+            "SHA-1":"023421d073e883c73d948b0cd90cb2b519697e1c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/plugin/src/main/java/com/spotify/plugin/dockerfile/MavenRegistryAuthSupplier.java",
+            "SHA-1":"71bc7d12766efc5783a0ef6899f03a1e37d460b9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         }
+      ]
+   }
+}

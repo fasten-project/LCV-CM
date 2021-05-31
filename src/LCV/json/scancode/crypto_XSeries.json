@@ -1,0 +1,3746 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "21.3.31",
+      "options": {
+        "input": [
+          "XSeries/"
+        ],
+        "--copyright": true,
+        "--email": true,
+        "--info": true,
+        "--json-pp": "json_reports/crypto_XSeries.json",
+        "--license": true,
+        "--package": true,
+        "--processes": "2",
+        "--url": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2021-05-26T055147.274249",
+      "end_timestamp": "2021-05-26T055157.127128",
+      "duration": 9.852891445159912,
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 27
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "XSeries",
+      "type": "directory",
+      "name": "XSeries",
+      "base_name": "XSeries",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "sha256": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 27,
+      "dirs_count": 11,
+      "size_count": 542052,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/.travis.yml",
+      "type": "file",
+      "name": ".travis.yml",
+      "base_name": ".travis",
+      "extension": ".yml",
+      "size": 76,
+      "date": "2021-05-26",
+      "sha1": "c6160a86f16d0746ccd69e216ded731c14528a32",
+      "md5": "447e808ead59b3b377cca68c02fc706b",
+      "sha256": "ba02ef60893f897edea70fc9c1b8371b38ec39ff6742ed0c30f8547a88351e10",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "ActionScript 3",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/CONTRIBUTING.md",
+      "type": "file",
+      "name": "CONTRIBUTING.md",
+      "base_name": "CONTRIBUTING",
+      "extension": ".md",
+      "size": 1968,
+      "date": "2021-05-26",
+      "sha1": "f7abf72a7f9d1152b6b238d5d51a137754ca082c",
+      "md5": "cfc68c6d2573f4a01d5948e4d29ebbd4",
+      "sha256": "92070893cdeb7c2f5ea984cc43a2e90b66063e7e308d4596517d14621bc01698",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/LICENSE.txt",
+      "type": "file",
+      "name": "LICENSE.txt",
+      "base_name": "LICENSE",
+      "extension": ".txt",
+      "size": 1079,
+      "date": "2021-05-26",
+      "sha1": "b06f059652be09829082987519380292698a76a6",
+      "md5": "c9806d2fe8c2992e7d76225fc0340827",
+      "sha256": "928d0cba3da2d07911961182b17efaee7a9fb270070e793c2af20a40c299dcc3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1,
+          "end_line": 1,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 5,
+          "end_line": 19,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 97.06,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/pom.xml",
+      "type": "file",
+      "name": "pom.xml",
+      "base_name": "pom",
+      "extension": ".xml",
+      "size": 5491,
+      "date": "2021-05-26",
+      "sha1": "4b219547a2fb3eff0b309f5f9ffe343db27d7ea8",
+      "md5": "1fb1f80ab7fb9f08aac57b3850eb4297",
+      "sha256": "334f40d19a38586636aafc64a092c19a2764247b959f9efc4296eb4e60432bba",
+      "mime_type": "text/xml",
+      "file_type": "XML 1.0 document, UTF-8 Unicode (with BOM) text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 62.5,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/bsd-new",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-new.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-new.yml",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 32,
+          "end_line": 38,
+          "matched_rule": {
+            "identifier": "bsd-new_531.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "is_license_intro": false,
+            "matcher": "3-seq",
+            "rule_length": 24,
+            "matched_length": 15,
+            "match_coverage": 62.5,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 81.82,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 33,
+          "end_line": 35,
+          "matched_rule": {
+            "identifier": "mit_470.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "is_license_intro": false,
+            "matcher": "3-seq",
+            "rule_length": 9,
+            "matched_length": 9,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 72.73,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 33,
+          "end_line": 35,
+          "matched_rule": {
+            "identifier": "mit_licensed2.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "3-seq",
+            "rule_length": 8,
+            "matched_length": 8,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 3.98,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "maven",
+          "namespace": "com.github.cryptomorin",
+          "name": "XSeries",
+          "version": "7.9.1.1",
+          "qualifiers": {},
+          "subpath": null,
+          "primary_language": "Java",
+          "description": "XSeries\nA set of utilities for Minecraft plugins",
+          "release_date": null,
+          "parties": [
+            {
+              "type": "person",
+              "role": "developper",
+              "name": "Crypto Morin",
+              "email": null,
+              "url": null
+            }
+          ],
+          "keywords": [],
+          "homepage_url": "https://www.spigotmc.org/threads/378136/",
+          "download_url": null,
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": "https://github.com/CryptoMorin/XSeries/issues",
+          "code_view_url": null,
+          "vcs_url": null,
+          "copyright": null,
+          "license_expression": "mit",
+          "declared_license": [
+            {
+              "name": "MIT License",
+              "url": "https://opensource.org/licenses/MIT",
+              "comments": null,
+              "distribution": "repo"
+            }
+          ],
+          "notice_text": null,
+          "root_path": "XSeries",
+          "dependencies": [
+            {
+              "purl": "pkg:maven/org.spigotmc/spigot",
+              "requirement": "1.16.5-R0.1-SNAPSHOT",
+              "scope": "provided",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [
+            "pkg:maven/com.github.cryptomorin/XSeries@7.9.1.1?classifier=sources"
+          ],
+          "purl": "pkg:maven/com.github.cryptomorin/XSeries@7.9.1.1",
+          "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/cryptomorin/XSeries/7.9.1.1/",
+          "repository_download_url": "https://repo1.maven.org/maven2/com/github/cryptomorin/XSeries/7.9.1.1/XSeries-7.9.1.1.jar",
+          "api_data_url": "https://repo1.maven.org/maven2/com/github/cryptomorin/XSeries/7.9.1.1/XSeries-7.9.1.1.pom"
+        }
+      ],
+      "emails": [],
+      "urls": [
+        {
+          "url": "http://maven.apache.org/xsd/maven-4.0.0.xsd",
+          "start_line": 4,
+          "end_line": 4
+        },
+        {
+          "url": "https://www.spigotmc.org/threads/378136/",
+          "start_line": 13,
+          "end_line": 13
+        },
+        {
+          "url": "https://github.com/CryptoMorin/XSeries/issues",
+          "start_line": 17,
+          "end_line": 17
+        },
+        {
+          "url": "https://opensource.org/licenses/MIT",
+          "start_line": 35,
+          "end_line": 35
+        },
+        {
+          "url": "https://oss.sonatype.org/content/repositories/snapshots",
+          "start_line": 49,
+          "end_line": 49
+        },
+        {
+          "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/",
+          "start_line": 53,
+          "end_line": 53
+        },
+        {
+          "url": "https://repo.codemc.org/repository/nms/",
+          "start_line": 60,
+          "end_line": 60
+        },
+        {
+          "url": "https://oss.sonatype.org/",
+          "start_line": 130,
+          "end_line": 130
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 4646,
+      "date": "2021-05-26",
+      "sha1": "72c94eeabd1510a5011a5f63f7eac0ae3ce2f4f3",
+      "md5": "3f655875a19a8700fc104c7b1fe84f0e",
+      "sha256": "058a38d9e582e31d5d35fd846b54ec65956124c8a8f2e10b108a47d105a89bf1",
+      "mime_type": "text/plain",
+      "file_type": "exported SGML document, ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://img.shields.io/badge/bukkit-1.16-dark_green.svg",
+          "start_line": 2,
+          "end_line": 2
+        },
+        {
+          "url": "https://shields.io/",
+          "start_line": 2,
+          "end_line": 2
+        },
+        {
+          "url": "https://img.shields.io/badge/java-8-dark_green.svg",
+          "start_line": 3,
+          "end_line": 3
+        },
+        {
+          "url": "https://travis-ci.com/CryptoMorin/XSeries.svg?branch=master",
+          "start_line": 4,
+          "end_line": 4
+        },
+        {
+          "url": "https://travis-ci.com/CryptoMorin/XSeries",
+          "start_line": 4,
+          "end_line": 4
+        },
+        {
+          "url": "https://img.shields.io/maven-central/v/com.github.cryptomorin/XSeries",
+          "start_line": 5,
+          "end_line": 5
+        },
+        {
+          "url": "https://www.spigotmc.org/threads/378136",
+          "start_line": 20,
+          "end_line": 20
+        },
+        {
+          "url": "https://github.com/CryptoMorin/XSeries.git",
+          "start_line": 28,
+          "end_line": 28
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/.github",
+      "type": "directory",
+      "name": ".github",
+      "base_name": ".github",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "sha256": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 2,
+      "dirs_count": 1,
+      "size_count": 1158,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/.github/ISSUE_TEMPLATE",
+      "type": "directory",
+      "name": "ISSUE_TEMPLATE",
+      "base_name": "ISSUE_TEMPLATE",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "sha256": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 1158,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/.github/ISSUE_TEMPLATE/bug-report.md",
+      "type": "file",
+      "name": "bug-report.md",
+      "base_name": "bug-report",
+      "extension": ".md",
+      "size": 836,
+      "date": "2021-05-26",
+      "sha1": "ebca195de3ad324adc2f2538a5dc7641f9e03a09",
+      "md5": "20297a3af4314a867c739295f6383272",
+      "sha256": "6a8d016cbb9da804df48278d1b46b6688eeb860eeb9d43c721d2ec831fe13a1f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://pastebin.com/",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/.github/ISSUE_TEMPLATE/feature-request.md",
+      "type": "file",
+      "name": "feature-request.md",
+      "base_name": "feature-request",
+      "extension": ".md",
+      "size": 322,
+      "date": "2021-05-26",
+      "sha1": "e896ba3743263951851294bdf072fc5bc0aeed8d",
+      "md5": "12bc05b0959d33296a3a406ca342e1d7",
+      "sha256": "cd5bac4c7991be8bf2324b188247613f09e2622445237a0b81223e6d8dd85428",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src",
+      "type": "directory",
+      "name": "src",
+      "base_name": "src",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "sha256": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 20,
+      "dirs_count": 8,
+      "size_count": 527634,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main",
+      "type": "directory",
+      "name": "main",
+      "base_name": "main",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "sha256": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 20,
+      "dirs_count": 7,
+      "size_count": 527634,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java",
+      "type": "directory",
+      "name": "java",
+      "base_name": "java",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "sha256": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 20,
+      "dirs_count": 6,
+      "size_count": 527634,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com",
+      "type": "directory",
+      "name": "com",
+      "base_name": "com",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "sha256": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 20,
+      "dirs_count": 5,
+      "size_count": 527634,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin",
+      "type": "directory",
+      "name": "cryptomorin",
+      "base_name": "cryptomorin",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "sha256": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 20,
+      "dirs_count": 4,
+      "size_count": 527634,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries",
+      "type": "directory",
+      "name": "xseries",
+      "base_name": "xseries",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "sha256": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 20,
+      "dirs_count": 3,
+      "size_count": 527634,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/NMSExtras.java",
+      "type": "file",
+      "name": "NMSExtras.java",
+      "base_name": "NMSExtras",
+      "extension": ".java",
+      "size": 16256,
+      "date": "2021-05-26",
+      "sha1": "3ba36a010af8883c7ba7d5a718f8d2b437f6b512",
+      "md5": "7f163d529a82343fe78c3b78642b4937",
+      "sha256": "0e3c6fd4c073584519b6df398121a386450e3294b0df3f1722d9d11e83538e36",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 11.36,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://wiki.vg/Protocol#Set_Experience",
+          "start_line": 95,
+          "end_line": 95
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Damage#Lightning_damage",
+          "start_line": 215,
+          "end_line": 215
+        },
+        {
+          "url": "https://wiki.vg/Protocol#Entity_Animation_.28clientbound.29",
+          "start_line": 258,
+          "end_line": 258
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/NoteBlockMusic.java",
+      "type": "file",
+      "name": "NoteBlockMusic.java",
+      "base_name": "NoteBlockMusic",
+      "extension": ".java",
+      "size": 29330,
+      "date": "2021-05-26",
+      "sha1": "f09d896184401fb9078f001ccdd134a8e11f0caa",
+      "md5": "2c2da2713063e55467117e5ecae9baf9",
+      "sha256": "9023b8dbe609eb05c11b4415f27462699f296a4414abd8147a0bb87dba6ac005",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 5.87,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://minecraft.gamepedia.com/Note_Block",
+          "start_line": 43,
+          "end_line": 43
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Note_Block#Notes",
+          "start_line": 129,
+          "end_line": 129
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Musical_tone",
+          "start_line": 288,
+          "end_line": 288
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sharp_",
+          "start_line": 290,
+          "end_line": 290
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Flat_",
+          "start_line": 291,
+          "end_line": 291
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Natural_",
+          "start_line": 292,
+          "end_line": 292
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pitch_",
+          "start_line": 295,
+          "end_line": 295
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Octave",
+          "start_line": 296,
+          "end_line": 296
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Duration_",
+          "start_line": 595,
+          "end_line": 595
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Timbre",
+          "start_line": 605,
+          "end_line": 605
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Movement_",
+          "start_line": 648,
+          "end_line": 648
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Section_",
+          "start_line": 649,
+          "end_line": 649
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Fermata",
+          "start_line": 650,
+          "end_line": 650
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Repetition_",
+          "start_line": 651,
+          "end_line": 651
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sequence_",
+          "start_line": 673,
+          "end_line": 673
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/ReflectionUtils.java",
+      "type": "file",
+      "name": "ReflectionUtils.java",
+      "base_name": "ReflectionUtils",
+      "extension": ".java",
+      "size": 8032,
+      "date": "2021-05-26",
+      "sha1": "f8e22ae8b2d2a5d8126e8cfda1d7016452182438",
+      "md5": "494833c2d16f83ed361eed49b9fb9713",
+      "sha256": "d9ecd9d92974df48526c66efe72097ad3803610747a82097a51b0411fd65508a",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 18.73,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://wiki.vg/Protocol",
+          "start_line": 42,
+          "end_line": 42
+        },
+        {
+          "url": "https://minidigger.github.io/MiniMappingViewer/#/spigot",
+          "start_line": 46,
+          "end_line": 46
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/SkullCacheListener.java",
+      "type": "file",
+      "name": "SkullCacheListener.java",
+      "base_name": "SkullCacheListener",
+      "extension": ".java",
+      "size": 5909,
+      "date": "2021-05-26",
+      "sha1": "ce63cd022d471aad784a1b7ca28eddee16eaaec3",
+      "md5": "75f1b0a5d741a9a408b728d6891bf05b",
+      "sha256": "b3645b7a54cdd5bf83f32f52a99db0b3d60a9382191c18ab671c36323f38d9b1",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 25.15,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://sessionserver.mojang.com/session/minecraft/profile/",
+          "start_line": 51,
+          "end_line": 51
+        },
+        {
+          "url": "https://api.mojang.com/users/profiles/minecraft/Username",
+          "start_line": 54,
+          "end_line": 54
+        },
+        {
+          "url": "https://api.mojang.com/user/profiles/ID",
+          "start_line": 55,
+          "end_line": 55
+        },
+        {
+          "url": "https://sessionserver.mojang.com/session/minecraft/profile/ID",
+          "start_line": 56,
+          "end_line": 56
+        },
+        {
+          "url": "https://api.mojang.com/users/profiles/minecraft/",
+          "start_line": 100,
+          "end_line": 100
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/SkullUtils.java",
+      "type": "file",
+      "name": "SkullUtils.java",
+      "base_name": "SkullUtils",
+      "extension": ".java",
+      "size": 8037,
+      "date": "2021-05-26",
+      "sha1": "40346c491522826aff150b5b1f47758467c1a3c9",
+      "md5": "deeb79ab44793ff8e7a5217e65174ecb",
+      "sha256": "45917a899bd938dbaab612d31a1df6209419e0f0d20205d6343ec7224f7f64c3",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 19.43,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/meta/SkullMeta.html",
+          "start_line": 45,
+          "end_line": 45
+        },
+        {
+          "url": "https://wiki.vg/Mojang_API",
+          "start_line": 46,
+          "end_line": 46
+        },
+        {
+          "url": "https://minecraft-heads.com/",
+          "start_line": 50,
+          "end_line": 50
+        },
+        {
+          "url": "https://textures.minecraft.net/texture/",
+          "start_line": 61,
+          "end_line": 61
+        },
+        {
+          "url": "https://help.minecraft.net/hc/en-us/articles/360034636712",
+          "start_line": 195,
+          "end_line": 195
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/XBiome.java",
+      "type": "file",
+      "name": "XBiome.java",
+      "base_name": "XBiome",
+      "extension": ".java",
+      "size": 14536,
+      "date": "2021-05-26",
+      "sha1": "ea3cead0b6821e90ef359ba96f92841f8e2d5514",
+      "md5": "a0d3d788c296f407f8e0c48cbb58b612",
+      "sha256": "70523aa9cfc37dc55bb4e724ba10907fc497f28ebd9b7db40a35dd6e1ca6c4b0",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 9.65,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://minecraft.gamepedia.com/Biome",
+          "start_line": 39,
+          "end_line": 39
+        },
+        {
+          "url": "https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html",
+          "start_line": 40,
+          "end_line": 40
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/XBlock.java",
+      "type": "file",
+      "name": "XBlock.java",
+      "base_name": "XBlock",
+      "extension": ".java",
+      "size": 24096,
+      "date": "2021-05-26",
+      "sha1": "6494d62ce68ce5001a4c9fed8be8b493e15de246",
+      "md5": "b7755d65c38f1e536b670c6209b0b65d",
+      "sha256": "da2a0da1431a21f0d822ad4f4cb55157e1d7b3e175be3782a43c693c3418a9ec",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 6.56,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/BlockState.html",
+          "start_line": 39,
+          "end_line": 39
+        },
+        {
+          "url": "https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/data/BlockData.html",
+          "start_line": 40,
+          "end_line": 40
+        },
+        {
+          "url": "https://hub.spigotmc.org/javadocs/spigot/org/bukkit/material/MaterialData.html",
+          "start_line": 41,
+          "end_line": 41
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/XEnchantment.java",
+      "type": "file",
+      "name": "XEnchantment.java",
+      "base_name": "XEnchantment",
+      "extension": ".java",
+      "size": 15601,
+      "date": "2021-05-26",
+      "sha1": "c65e02b296fc4be2dd144d510d866241c8abbd66",
+      "md5": "9ea3913ebb2c19952a7da87fa4b69520",
+      "sha256": "8594897a2bbe8c1dbf649cbcb021482e15cfc3a513aa6d710e1beceaaf8ded8f",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 9.73,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://github.com/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/enchantments/Enchantment.java",
+          "start_line": 47,
+          "end_line": 47
+        },
+        {
+          "url": "https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html",
+          "start_line": 48,
+          "end_line": 48
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Enchanting",
+          "start_line": 49,
+          "end_line": 49
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/XEntity.java",
+      "type": "file",
+      "name": "XEntity.java",
+      "base_name": "XEntity",
+      "extension": ".java",
+      "size": 24256,
+      "date": "2021-05-26",
+      "sha1": "3fd62876ef3f877715cc2c754b5a6dc76ff74f07",
+      "md5": "f2285216f64ab7ec24fb48af4cc708a5",
+      "sha256": "2c4bf44d654f212ae9ae3544796e1e658cd9db3e503dfbb5267fdc5a45a90787",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 7.95,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Entity.html",
+          "start_line": 53,
+          "end_line": 53
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Undead",
+          "start_line": 63,
+          "end_line": 63
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/XItemStack.java",
+      "type": "file",
+      "name": "XItemStack.java",
+      "base_name": "XItemStack",
+      "extension": ".java",
+      "size": 43812,
+      "date": "2021-05-26",
+      "sha1": "012c1c386dc899085af715d7783b0ae2ff975fca",
+      "md5": "e959fc524c975b2174c0b67a01c239bc",
+      "sha256": "41ef063664f25601d781ceabeaf5cc01841768bd0231626626e6fd29e5c19812",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 4.29,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemStack.html",
+          "start_line": 67,
+          "end_line": 67
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Attribute",
+          "start_line": 137,
+          "end_line": 137
+        },
+        {
+          "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/diff/src/main/java/org/bukkit/craftbukkit/block",
+          "start_line": 443,
+          "end_line": 443
+        },
+        {
+          "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/browse/src/main/java/org/bukkit/craftbukkit/inventory/CraftInventory.java",
+          "start_line": 758,
+          "end_line": 758
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/XMaterial.java",
+      "type": "file",
+      "name": "XMaterial.java",
+      "base_name": "XMaterial",
+      "extension": ".java",
+      "size": 69856,
+      "date": "2021-05-26",
+      "sha1": "bd6838bd87035e87062e3c008264e9f340ba9512",
+      "md5": "4d41535296805ff44de3a2fbb202ac81",
+      "sha256": "8e8f049a1241578dec83b59da2939b020f62e33bfdee1921e051589c5a30f326",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 7,
+          "end_line": 21,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 1.89,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2018",
+          "start_line": 4,
+          "end_line": 5
+        },
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 5
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://github.com/CryptoMorin/XSeries/blob/master/src/main/java/com/cryptomorin/xseries/XBlock.java",
+          "start_line": 49,
+          "end_line": 49
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Java_Edition_data_values/Pre-flattening",
+          "start_line": 51,
+          "end_line": 51
+        },
+        {
+          "url": "https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html",
+          "start_line": 52,
+          "end_line": 52
+        },
+        {
+          "url": "https://helpch.at/docs/1.12.2/index.html?org/bukkit/Material.html",
+          "start_line": 53,
+          "end_line": 53
+        },
+        {
+          "url": "https://minecraft-ids.grahamedgecombe.com/",
+          "start_line": 54,
+          "end_line": 54
+        },
+        {
+          "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/browse/src/main/java/org/bukkit/Material.java",
+          "start_line": 55,
+          "end_line": 55
+        },
+        {
+          "url": "https://www.spigotmc.org/threads/329630/",
+          "start_line": 56,
+          "end_line": 56
+        },
+        {
+          "url": "https://minecraft.fandom.com/wiki/Missing_Texture_Block",
+          "start_line": 60,
+          "end_line": 60
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Air",
+          "start_line": 87,
+          "end_line": 87
+        },
+        {
+          "url": "https://github.com/CryptoMorin/XSeries/issues/91",
+          "start_line": 448,
+          "end_line": 448
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Nether_Wart",
+          "start_line": 758,
+          "end_line": 758
+        },
+        {
+          "url": "https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/data/Levelled.html",
+          "start_line": 1174,
+          "end_line": 1174
+        },
+        {
+          "url": "https://minecraftitemids.com/types/spawn-egg",
+          "start_line": 1280,
+          "end_line": 1280
+        },
+        {
+          "url": "https://regexr.com/",
+          "start_line": 1784,
+          "end_line": 1784
+        },
+        {
+          "url": "https://www.minecraftinfo.com/idlist.htm",
+          "start_line": 1877,
+          "end_line": 1877
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/XMaterialUtil.java",
+      "type": "file",
+      "name": "XMaterialUtil.java",
+      "base_name": "XMaterialUtil",
+      "extension": ".java",
+      "size": 9902,
+      "date": "2021-05-26",
+      "sha1": "1b8f27f9feecf16d709d2613f7102ae0958493a0",
+      "md5": "46892ea0175e698950f93c508e20e6c8",
+      "sha256": "4ac211ce8c63265983372cac9fe6e622a1c8d3a5c2cfdb91236d0180ac71ec33",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/browse/src/main/java/org/bukkit/Material.java",
+          "start_line": 10,
+          "end_line": 10
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/XPotion.java",
+      "type": "file",
+      "name": "XPotion.java",
+      "base_name": "XPotion",
+      "extension": ".java",
+      "size": 15939,
+      "date": "2021-05-26",
+      "sha1": "32152ff42b5c5eb8079cbeeef7c75964445391b4",
+      "md5": "6df5b9d1067eab5064a59d6ac2b0d36e",
+      "sha256": "51977455d050b00f707333b0440a76e52d4472a20f499b9b5afd90f6253d57e0",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 9.17,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://github.com/EssentialsX/Essentials/blob/2.x/Essentials/src/com/earth2me/essentials/Potions.java",
+          "start_line": 51,
+          "end_line": 51
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Status_effect",
+          "start_line": 52,
+          "end_line": 52
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Potion",
+          "start_line": 53,
+          "end_line": 53
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/XSound.java",
+      "type": "file",
+      "name": "XSound.java",
+      "base_name": "XSound",
+      "extension": ".java",
+      "size": 54583,
+      "date": "2021-05-26",
+      "sha1": "acf9b66717f9139334e2f9d0a41ffb238e8c25b6",
+      "md5": "83b4b4e7cd7ab710a9278a2fd70e5e54",
+      "sha256": "c9d53c76b9f957589495df85c8fc78a35aac58e370602280726c8b74328bb74d",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, UTF-8 Unicode text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 2.46,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html",
+          "start_line": 54,
+          "end_line": 54
+        },
+        {
+          "url": "https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html",
+          "start_line": 55,
+          "end_line": 55
+        },
+        {
+          "url": "https://bukkit.org/threads/151517/",
+          "start_line": 56,
+          "end_line": 56
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Commands/play",
+          "start_line": 57,
+          "end_line": 57
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/messages",
+      "type": "directory",
+      "name": "messages",
+      "base_name": "messages",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "sha256": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 22819,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/messages/ActionBar.java",
+      "type": "file",
+      "name": "ActionBar.java",
+      "base_name": "ActionBar",
+      "extension": ".java",
+      "size": 11929,
+      "date": "2021-05-26",
+      "sha1": "865a24c92f229491d8665ad7688b0c49c9c82f9a",
+      "md5": "52315be5872f21e277959d841e96e279",
+      "sha256": "f7bd41a2236d333a8337d4c4ad08379bb0d56939eb404b4845c5ff40a9ee1cbe",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 13.47,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://minecraft.gamepedia.com/Heads-up_display",
+          "start_line": 49,
+          "end_line": 49
+        },
+        {
+          "url": "https://wiki.vg/Protocol#Title",
+          "start_line": 58,
+          "end_line": 58
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/messages/Titles.java",
+      "type": "file",
+      "name": "Titles.java",
+      "base_name": "Titles",
+      "extension": ".java",
+      "size": 10890,
+      "date": "2021-05-26",
+      "sha1": "d005a7e32b09e550b83ba4e1f031f44704fc6a31",
+      "md5": "edaba3cbceb175fd96688dead9750575",
+      "sha256": "ce67d63c52144e387ed94221c49758a8c8de04ef70bbe84ef91796b83faf62d1",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 14.95,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://minecraft.gamepedia.com/Commands/title",
+          "start_line": 48,
+          "end_line": 48
+        },
+        {
+          "url": "https://wiki.vg/Protocol#Title",
+          "start_line": 49,
+          "end_line": 49
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/particles",
+      "type": "directory",
+      "name": "particles",
+      "base_name": "particles",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "sha256": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 131522,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/particles/ParticleDisplay.java",
+      "type": "file",
+      "name": "ParticleDisplay.java",
+      "base_name": "ParticleDisplay",
+      "extension": ".java",
+      "size": 21305,
+      "date": "2021-05-26",
+      "sha1": "fbaf6448a514ad62f40a0de3956deb751e4251bf",
+      "md5": "f4588c42e2e3c62133fbb21e24b6739a",
+      "sha256": "acd0f8de646af7dc59e5f31b63bd09ba7dda38136cb055139caa056e2295d7a4",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 6.84,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/particles/XParticle.java",
+      "type": "file",
+      "name": "XParticle.java",
+      "base_name": "XParticle",
+      "extension": ".java",
+      "size": 110217,
+      "date": "2021-05-26",
+      "sha1": "ebc8c1e6b8cc4b54dacf4317d9ccbbf363dd2113",
+      "md5": "d5d06185a2e65a14de949fca707fdec6",
+      "sha256": "e1c878776cdffb15236fd5279f7dc3a5b9bef0ffc6ca75d1c8dc5c1cd1da1c43",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 1.31,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://www.spigotmc.org/threads/409003/",
+          "start_line": 91,
+          "end_line": 91
+        },
+        {
+          "url": "https://www.desmos.com/calculator",
+          "start_line": 96,
+          "end_line": 96
+        },
+        {
+          "url": "https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html",
+          "start_line": 98,
+          "end_line": 98
+        },
+        {
+          "url": "https://www.spigotmc.org/wiki/vector-programming-for-beginners/",
+          "start_line": 99,
+          "end_line": 99
+        },
+        {
+          "url": "https://www.spigotmc.org/threads/418399/",
+          "start_line": 100,
+          "end_line": 100
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Particles",
+          "start_line": 101,
+          "end_line": 101
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pMpQK7Y8CiM",
+          "start_line": 114,
+          "end_line": 114
+        },
+        {
+          "url": "https://www.spigotmc.org/threads/111238/",
+          "start_line": 262,
+          "end_line": 262
+        },
+        {
+          "url": "https://www.spigotmc.org/threads/176792/",
+          "start_line": 279,
+          "end_line": 279
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Double_pendulum",
+          "start_line": 422,
+          "end_line": 422
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chaos_theory",
+          "start_line": 423,
+          "end_line": 423
+        },
+        {
+          "url": "https://www.myphysicslab.com/pendulum/double-pendulum-en.html",
+          "start_line": 429,
+          "end_line": 429
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Wave_function",
+          "start_line": 750,
+          "end_line": 750
+        },
+        {
+          "url": "https://www.spigotmc.org/threads/146338/",
+          "start_line": 1034,
+          "end_line": 1034
+        },
+        {
+          "url": "https://www.spigotmc.org/threads/176695/",
+          "start_line": 1514,
+          "end_line": 1514
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hypercube",
+          "start_line": 1732,
+          "end_line": 1732
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iGO12Z5Lw8s",
+          "start_line": 1735,
+          "end_line": 1735
+        },
+        {
+          "url": "https://imgur.com/eziNk7x",
+          "start_line": 1809,
+          "end_line": 1809
+        },
+        {
+          "url": "https://imgur.com/Vb2HDQN",
+          "start_line": 1810,
+          "end_line": 1810
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Tesseract",
+          "start_line": 1812,
+          "end_line": 1812
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Rotation_matrix",
+          "start_line": 1813,
+          "end_line": 1813
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mandelbrot_set",
+          "start_line": 1976,
+          "end_line": 1976
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Julia_set",
+          "start_line": 2012,
+          "end_line": 2012
+        },
+        {
+          "url": "https://www.spigotmc.org/threads/158678/",
+          "start_line": 2155,
+          "end_line": 2155
+        },
+        {
+          "url": "https://www.deviantart.com/pwincessstar/art/701840646",
+          "start_line": 2303,
+          "end_line": 2303
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=n8W7RxW5KB4",
+          "start_line": 2322,
+          "end_line": 2322
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/unused",
+      "type": "directory",
+      "name": "unused",
+      "base_name": "unused",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "sha256": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "percentage_of_license_text": 0,
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 33148,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/unused/BossBar.java",
+      "type": "file",
+      "name": "BossBar.java",
+      "base_name": "BossBar",
+      "extension": ".java",
+      "size": 15028,
+      "date": "2021-05-26",
+      "sha1": "04f114f5d01dc6c974ccab2b98ab3b6dfdde9339",
+      "md5": "80aac26dc2c5cb48229ae8c2f4af42b9",
+      "sha256": "bea2fed010ca0cc333fd78b3c6097b1e67e50dea011c6a39613e490da000b8da",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 11.38,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "XSeries/src/main/java/com/cryptomorin/xseries/unused/ZEnchantment.java",
+      "type": "file",
+      "name": "ZEnchantment.java",
+      "base_name": "ZEnchantment",
+      "extension": ".java",
+      "size": 18120,
+      "date": "2021-05-26",
+      "sha1": "9931372449e264c12f0bcac1a86efbe14a54f869",
+      "md5": "4f397004db4303f59974f8d99d9efdc7",
+      "sha256": "d85ac9c422c30deed0ecae1956a9d7e5cb8ca53dbe125e89494667c09526a749",
+      "mime_type": "text/x-java",
+      "file_type": "Java source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://scancode-licensedb.aboutcode.org/mit",
+          "scancode_text_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "scancode_data_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.yml",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "is_license_intro": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "percentage_of_license_text": 9.76,
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2021",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "urls": [
+        {
+          "url": "https://github.com/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/enchantments/Enchantment.java",
+          "start_line": 48,
+          "end_line": 48
+        },
+        {
+          "url": "https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html",
+          "start_line": 49,
+          "end_line": 49
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Enchanting",
+          "start_line": 50,
+          "end_line": 50
+        },
+        {
+          "url": "https://minecraft.gamepedia.com/Java_Edition_1.13/Flattening",
+          "start_line": 63,
+          "end_line": 63
+        }
+      ],
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

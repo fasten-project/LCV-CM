@@ -1,0 +1,254 @@
+{
+   "plugin_name":"QMSTR",
+   "plugin_version":"0.0.1",
+   "input":{
+      "product":"org.codehaus.mojo.appassembler:appassembler-model",
+      "version":"2.1.1-SNAPSHOT"
+   },
+   "created_at":"2021-03-22T14:00:42.281633731Z",
+   "payload":{
+      "package_metadata":{
+         
+      },
+      "fileMetadata":[
+         {
+            "filename":"project/appassembler-booter/src/main/java/org/codehaus/mojo/appassembler/booter/AppassemblerBooter.java",
+            "SHA-1":"0d924007ebd29e757c45eaa4dd86c6788ac7096c",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/jsw/JavaServiceWrapperDaemonGenerator.java",
+            "SHA-1":"f93145d5d77c488f614e9f939a6a174500985a65",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/script/Platform.java",
+            "SHA-1":"a04ef0d1b09182f9e9ba4916dbf0dc42769a9cf2",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/script/DefaultScriptGenerator.java",
+            "SHA-1":"451c50c98d82a76d70272337c522a3f82a4ab95d",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/DaemonGenerationRequest.java",
+            "SHA-1":"2f7261f4c36278a53e7f445a656e25feba76dcb2",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/JvmSettings.java",
+            "SHA-1":"a0d2e61cd7f28d32818378cf7d8049a367672ee3",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/script/AbstactScriptDaemonGenerator.java",
+            "SHA-1":"6f16cbcf84529ed582aa9671002c7a9af7b5aff5",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/AbstractScriptGeneratorMojo.java",
+            "SHA-1":"30687ba0b674421fcc18db6b49ba2277330a7b24",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/GeneratorConfiguration.java",
+            "SHA-1":"a815bda0d7f8f8b3e4390bfea7c4deeb11172498",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/AssembleMojo.java",
+            "SHA-1":"4087b39b0bf077a45a89801dad91589c1148edb7",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/booter/AbstractBooterDaemonGenerator.java",
+            "SHA-1":"6c9ce030a040ad4abb8a3981e32f5e6e2a8a9af9",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/util/FormattedProperties.java",
+            "SHA-1":"fd2e4d4ba4c4c599380eafecd934f69232fa0163",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/util/FileFilterHelper.java",
+            "SHA-1":"d7be963efd2f83144e528835498e1c87321f44a3",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/Daemon.java",
+            "SHA-1":"f9009a41c9efb3e25e0a316cacedf889b7ee4430",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/DaemonGeneratorException.java",
+            "SHA-1":"15e62fbba708a04f0b028caf271008f0cf0a7bac",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/script/ScriptGenerator.java",
+            "SHA-1":"61c3408640227c80148596604750147cdcdf009c",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/DefaultDaemonGeneratorService.java",
+            "SHA-1":"2bc6a03a2f0356e3de759c69270bee69e7fdecdc",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/booter/UnixBooterDaemonGenerator.java",
+            "SHA-1":"5118143a457eb137de2d35ab346a2c513514b3d5",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/booter/WindowsBooterDaemonGenerator.java",
+            "SHA-1":"d7e322b2015b356810d0204536624b8338b9893c",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/DaemonGeneratorService.java",
+            "SHA-1":"7cbe7218e71fa740e4c12d3bbda502852ce6d7f9",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/merge/DaemonMerger.java",
+            "SHA-1":"1bf25adce660f1008fce9d5fa6087f817f770b15",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/CreateRepositoryMojo.java",
+            "SHA-1":"7e450ebca6771ed88d93917ed335bc109f430312",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/AbstractAppAssemblerMojo.java",
+            "SHA-1":"5695d641f226768fbfad1e05237ea90ab847e0ab",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/generic/GenericDaemonGenerator.java",
+            "SHA-1":"c26371ab4b94ba4e1b734f0ec275272e10c36e1f",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/standard/WindowsScriptDaemonGenerator.java",
+            "SHA-1":"151e996f3511735a6957f707e1abcec2c15b1adf",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/repository/FlatRepositoryLayout.java",
+            "SHA-1":"ef85c90843caa422415e45794d5b4a4741b60d19",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/standard/UnixScriptDaemonGenerator.java",
+            "SHA-1":"57e1b865588e2258ca17591634de8c642a28582d",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/util/DependencyFactory.java",
+            "SHA-1":"afee38423a6a548a037af733c8105ac8ea9e4342",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/daemontools/DaemonToolsDaemonGenerator.java",
+            "SHA-1":"b0a82d871f4aa27217f8325d4adcf6f0e06b5878",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/DaemonGenerator.java",
+            "SHA-1":"cc6b664fc9f994094ff5b21a2e1cadf957de9982",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/util/ArtifactUtils.java",
+            "SHA-1":"084b8f82615685ae890636420383a07742ae9d36",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/GenerateDaemonsMojo.java",
+            "SHA-1":"9993df1dfa2fdef1b8a9e4bbb57be42fdd94440c",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/daemon/merge/DefaultDaemonMerger.java",
+            "SHA-1":"c39b81843a59cf87ecc5e487b5726401326663c1",
+            "licenses":[
+               "MIT License"
+            ]
+         },
+         {
+            "filename":"project/appassembler-maven-plugin/src/main/java/org/codehaus/mojo/appassembler/Program.java",
+            "SHA-1":"cc2879d969b93fe8a8511b0ed7763aa0a91282db",
+            "licenses":[
+               "MIT License"
+            ]
+         }
+      ]
+   }
+}

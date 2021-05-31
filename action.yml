@@ -1,0 +1,5 @@
+name: 'lcvserver'
+description: 'Running LCVServer with tests'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

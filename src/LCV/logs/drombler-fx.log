@@ -1,0 +1,23 @@
+NAME                        READY   STATUS    RESTARTS   AGE
+qmstr-n7ms4                 4/4     Running   0          5m7s
+rabbitmq-controller-5vqhn   1/1     Running   0          5m8s
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.drombler.fx:drombler-fx-parent:2.0.0-SNAPSHOT: Could not find artifact org.drombler:drombler-oss-parent:pom:4.0.0-SNAPSHOT and 'parent.relativePath' points at no local POM @ org.drombler.fx:drombler-fx-parent:2.0.0-SNAPSHOT, /var/qmstr/buildroot/project/drombler-fx-parent/pom.xml, line 18, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.drombler.fx:drombler-fx:[unknown-version] (/var/qmstr/buildroot/project/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.drombler.fx:drombler-fx-parent:2.0.0-SNAPSHOT: Could not find artifact org.drombler:drombler-oss-parent:pom:4.0.0-SNAPSHOT and 'parent.relativePath' points at no local POM @ org.drombler.fx:drombler-fx-parent:2.0.0-SNAPSHOT, /var/qmstr/buildroot/project/drombler-fx-parent/pom.xml, line 18, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException

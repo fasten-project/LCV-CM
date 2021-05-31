@@ -1,0 +1,835 @@
+{
+   "plugin_name":"QMSTR",
+   "plugin_version":"0.0.1",
+   "input":{
+      "product":"org.bytedeco:javacpp",
+      "version":"1.5.5-SNAPSHOT"
+   },
+   "created_at":"2021-02-04T12:22:10.857799260Z",
+   "payload":{
+      "package_metadata":{
+         
+      },
+      "fileMetadata":[
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Declarator.java",
+            "SHA-1":"c0ad8d4b80bd7c3d002b17a3b9aa04734e0810d0",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/IntArrayIndexer.java",
+            "SHA-1":"d23a98f4cb3f5032ee33f6151cd6475660a9ce64",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/Raw.java",
+            "SHA-1":"9402bbad54fa59b08a0b6dac0c935666a243f9c3",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Type.java",
+            "SHA-1":"5f40ab7d7a17dbb4a1be98c09f118e0e09d29470",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/UIntIndexer.java",
+            "SHA-1":"9241bbced7acd6a54b81211bcc94d208bde06e57",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/HalfBufferIndexer.java",
+            "SHA-1":"0ddeccc679209ec2382f3b4fe77e6f005b282ee9",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/ULongBufferIndexer.java",
+            "SHA-1":"d60caeb423e2198562792341203f7bd507443c21",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/ReverseUnsafeRaw.java",
+            "SHA-1":"0d5677ef758bbe5adb5b10266627fec733fd0b19",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/LongRawIndexer.java",
+            "SHA-1":"b987fc4dd1114ac3e8de5001f1870ecb5f40bb93",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/DoublePointer.java",
+            "SHA-1":"8cdea42cd12f41801edf4b494ed85fe9ef749347",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/Bfloat16BufferIndexer.java",
+            "SHA-1":"80f51a2d0866c822b48ed9f86fc78799c46be87f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/UByteIndexer.java",
+            "SHA-1":"39222a86029b6e9675ada0a69f6586e8cb018d8d",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/ByteArrayIndexer.java",
+            "SHA-1":"b93ed814d717703546c9ae62d2aaf824d8ec0129",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/ByteRawIndexer.java",
+            "SHA-1":"89638ab7669817946c43a1d86bdc0f31b95c0baf",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/DeclarationList.java",
+            "SHA-1":"a785254a2d3a14905d3fdec201f04bc533debe14",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/LongArrayIndexer.java",
+            "SHA-1":"a13d4c2d8dc062ae51002d453a28795e2d485db1",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/ShortArrayIndexer.java",
+            "SHA-1":"f125903cd170c89ea1f2a8c2f09793e6f412dd69",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/ShortIndexer.java",
+            "SHA-1":"5589c495dfeaab33dcd61afd61e7124fda19cef5",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/ParseMojo.java",
+            "SHA-1":"ed88f29db4536d1cf9ea248ae7ac6fbc1742d3c1",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/CommandExecutor.java",
+            "SHA-1":"04c772c545c9577d9d02f44bde06b43a7f62b1f8",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/Pointer.java",
+            "SHA-1":"326fc36cb67f6c6135203c7b5e0b089564b66e79",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/UShortIndexer.java",
+            "SHA-1":"49ed2e60e69a2cd65b4eb14d44204b1586465e46",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/InfoMapper.java",
+            "SHA-1":"a898db6b8fff39e59930c8b4a375e0b0927822bf",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/Indexer.java",
+            "SHA-1":"cdea2da0abc1c537fc2f58571058af2fa0b9fe91",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/IntBufferIndexer.java",
+            "SHA-1":"2092e49fc6cfa032ae1d91edaaadbd29e2c69642",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/CharIndexer.java",
+            "SHA-1":"c0e821af0d9070813759b9cea0529acc0891dbea",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/ByteIndexer.java",
+            "SHA-1":"d890b417fe028bb5a5548166c65d02aaf9950b42",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/UByteArrayIndexer.java",
+            "SHA-1":"a64587abf6aefba6e87aa406ef8caf3649897013",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/InfoMap.java",
+            "SHA-1":"0039b885632b07abeb6afb953b048b2651fcf5ea",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/HalfRawIndexer.java",
+            "SHA-1":"f5b7ce869a61320cfae9b2764244c7cf37eb9be4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/EncodingFileWriter.java",
+            "SHA-1":"060e28960a35a15cfd6ff01061bab2936d869097",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/BooleanBufferIndexer.java",
+            "SHA-1":"0f85387f82952ab7f6e1fc3eee9f4a68660b30a8",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/DoubleRawIndexer.java",
+            "SHA-1":"ee83f10a20335244459f27a18f3bedff65fb319f",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/IndexedSet.java",
+            "SHA-1":"79eba3baadecd62e620e4b0bdcbad3f58b8e8b0b",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Parameters.java",
+            "SHA-1":"371abd88852b684713bc0722c2be62b4f0a0369a",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/CacheMojo.java",
+            "SHA-1":"b635fa1b4e9d094308417a595efa1de9a53a1d66",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/PointerPointer.java",
+            "SHA-1":"abe7049c65dd3bd04e3202c04afac374f3ca9854",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/CharPointer.java",
+            "SHA-1":"cb566a200d266a87284e6bdb040293616c5691b6",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/ShortBufferIndexer.java",
+            "SHA-1":"9209fd723d218e6c4aa3614731a1b317b665fd8c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/CharArrayIndexer.java",
+            "SHA-1":"4e940867bb38b9bc04b65fa654681b019e3fa90b",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/OneIndex.java",
+            "SHA-1":"49ba869d16c779e1abd46fbfdb07cd906c2ef71d",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/BuildEnabled.java",
+            "SHA-1":"3e3852fdc8832766f56d013829c999012c906646",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Generator.java",
+            "SHA-1":"5e0fb6c24f899aa3957d367937c4b57aa5357984",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Logger.java",
+            "SHA-1":"849efd4fba300caeb7317ed3b8f0cd7a0fad2ae9",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/LongPointer.java",
+            "SHA-1":"d8b223cc1e9b0c9eaa7331a4d58b9bc75e71b796",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Attribute.java",
+            "SHA-1":"ccfbe501c7ecc7264b910ee32c1f05508d6c218f",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/HyperslabIndex.java",
+            "SHA-1":"032327c9b69a0db440763ddf4235994765a88435",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/UIntRawIndexer.java",
+            "SHA-1":"255679af01b601ef6a6e96a7e87ec7457abd9681",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/ClassProperties.java",
+            "SHA-1":"e43dd0ae3e6a1cce711ca4ee8301930de442d801",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/FloatRawIndexer.java",
+            "SHA-1":"a77318868489929e5533644232ad2311dd936687",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/BoolPointer.java",
+            "SHA-1":"cbfc126b457be45f0aa014ef66fd2394001099fe",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/FloatIndexer.java",
+            "SHA-1":"118e1791fdc4204375c79164d9d01b8dfa01d3dc",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/ClassFilter.java",
+            "SHA-1":"a37c03cfbcdccfe074a117c0fd79471e7b4c6cb3",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Info.java",
+            "SHA-1":"edaef44a560555732043cf464e23feb5cddb52ee",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/UByteBufferIndexer.java",
+            "SHA-1":"050423cdf72adef360fe1d10f53a03db1b6c9714",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/ULongArrayIndexer.java",
+            "SHA-1":"a4a12a87eb8bde3e952719e51d49e78e3802c852",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/Loader.java",
+            "SHA-1":"bb6d0b5efae9a0833ff15122cf1770eff7388405",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/FunctionPointer.java",
+            "SHA-1":"4a998ce07f764c0370d1f4e690a6a9e77bceb6b4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/IntIndexer.java",
+            "SHA-1":"2ad2c25c0face90bdeb10cf989a44cce57077a08",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Parser.java",
+            "SHA-1":"d37aeac5b37e08a0a9bd6deb5aac00b6895308ca",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/ULongIndexer.java",
+            "SHA-1":"41eb27c8e3e7495150e4ed699bc09a10c6f84631",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/LoadEnabled.java",
+            "SHA-1":"b1df181e4a9dde1cf37f0e4de8fc1ddb94c160e9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/BuildMojo.java",
+            "SHA-1":"51549d15f02dc87ef2ce03468a828d404d1281ec",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/ShortPointer.java",
+            "SHA-1":"0d6956af030624a896c844902ab30f5ef00fbd0f",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/Bfloat16ArrayIndexer.java",
+            "SHA-1":"63cb32bfcd54408719754a00a4899ae84f43918b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/UByteRawIndexer.java",
+            "SHA-1":"bd37a2396ab84ed940f0125c6bddfccbc6400371",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/DoubleBufferIndexer.java",
+            "SHA-1":"ffb17cd4968956a9856588c4cea9736798900851",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/LongIndexer.java",
+            "SHA-1":"33e0b458472cf8b1b6545eb6ab224296287ce5fa",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Slf4jLogger.java",
+            "SHA-1":"36bd8414f2f9610800176abc3033543b62a13b68",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/DoubleIndexer.java",
+            "SHA-1":"a0275d4aae51bce7f4d6ea0c2dd24404ac09146c",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/ClassScanner.java",
+            "SHA-1":"079ed6d7611c894a4b8cc41acadc62516299373c",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/SizeTPointer.java",
+            "SHA-1":"26b503f4bf4a27227a04b9b034334ce970dcdf9b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/FloatPointer.java",
+            "SHA-1":"a28a4939774140278ba5ba5a2e4d5acb56440c14",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Tokenizer.java",
+            "SHA-1":"ca9ec7c81cd1fe1e5d941955741a2e2509ce34c4",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/FloatArrayIndexer.java",
+            "SHA-1":"73d2ba0653cdffed630edff497c6e4821d6f561f",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/BooleanPointer.java",
+            "SHA-1":"265963eabea05a7633e630e55cb12123f0ac14cc",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/CLongPointer.java",
+            "SHA-1":"f4f35eba2cdb4a289d843f40d60c73d863c488f2",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/HalfArrayIndexer.java",
+            "SHA-1":"93cbc100bb3d0a28f0d5f8b86449093c140f492b",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Builder.java",
+            "SHA-1":"a56684dbc730ff7283b50b0b0c0258dd9bb8a9c4",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/LongBufferIndexer.java",
+            "SHA-1":"0467e34836115b57e45704b1d0d79ef67083af2a",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/BooleanArrayIndexer.java",
+            "SHA-1":"04f53e692d9d95ca74d9e3b76e4fce490e163ce1",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/AdapterInformation.java",
+            "SHA-1":"6ce60044f13b9b7a4f7a503163609460e27ffc0c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/UShortArrayIndexer.java",
+            "SHA-1":"bbc4d54f488b202e102b7b4e289f99b53e955ee7",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/UShortBufferIndexer.java",
+            "SHA-1":"f120bf0f2bf5af6c2ccb3194255343a7dab74b27",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/IntRawIndexer.java",
+            "SHA-1":"03943f359934f523e8ce8f743d800c9b46a8cb64",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/UIntBufferIndexer.java",
+            "SHA-1":"43ede5f6a603b48f56dd4023444a44524b075891",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/CharBufferIndexer.java",
+            "SHA-1":"370eab0405c7f8e76afa2fc3684533a8bc851747",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/UnsafeRaw.java",
+            "SHA-1":"a9e007bb94ef2e318be42b8bf094418c95b7a0ed",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Token.java",
+            "SHA-1":"3e606329e0631bc80cd148d0b7130e11ffdef308",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/TokenIndexer.java",
+            "SHA-1":"069d73432ed80d3046707e9d902611e66af54bac",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/BooleanRawIndexer.java",
+            "SHA-1":"44e31b39c273e434de69cc0db72d11411667ba94",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/CharRawIndexer.java",
+            "SHA-1":"a74285ff9605835083f0932bc2c30f153e0d6796",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Declaration.java",
+            "SHA-1":"a83ec3374bc0ffa4c814f66d8ad2d55cfc2c0292",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/HalfIndexer.java",
+            "SHA-1":"fa872b4e578d5651f345e27d9066626dac1c547b",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/Bfloat16Indexer.java",
+            "SHA-1":"98af7b7fad4ac2eca3988fe8393e7db3ff690ccb",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/MethodInformation.java",
+            "SHA-1":"2239cb8b71c3ee593a7a89af41f319208e1126d9",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/ShortRawIndexer.java",
+            "SHA-1":"b721f72ad58598daf0f9ba70d1e27e8deddcaa18",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/DocTag.java",
+            "SHA-1":"23bacf7365adceafb479e7e77fcf4c41b474378e",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/StrideIndex.java",
+            "SHA-1":"6670f70c368bcbb3386fcb3d675239b9f78ea38d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/TemplateMap.java",
+            "SHA-1":"d20feb30366f48c0fd46039a53f49ffb3b896a1d",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/DoubleArrayIndexer.java",
+            "SHA-1":"82b2128bf1be130882c00d1c2089aac4ec6fb47e",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/ParserException.java",
+            "SHA-1":"725fe471c7dd2e60e2f4daf70c06eb99f957f3b7",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/UserClassLoader.java",
+            "SHA-1":"f11e8fe33ded5dc58740debc62a1671f25e92c3a",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/tools/Context.java",
+            "SHA-1":"1b1ebd9281873ac1aba2f64dd2fcb787cdd68a63",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/BooleanIndexer.java",
+            "SHA-1":"2d0654bc73e442976cb7759f59c033b65a812145",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/UIntArrayIndexer.java",
+            "SHA-1":"d3d8f568868204bc7015ca161f8cefb8935bf193",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/ULongRawIndexer.java",
+            "SHA-1":"370d736af4555360c8021dd1dc478a167a374d09",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/Index.java",
+            "SHA-1":"0a67e05c6eebfbafbaf066aba3d0df5f25fcf73d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/UShortRawIndexer.java",
+            "SHA-1":"7fcb522417f8df8c6634a5198d0485c0bff647b1",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/Indexable.java",
+            "SHA-1":"f0fc9cb7367c44eaf4a091aa062e644e20e7ddfa",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/BytePointer.java",
+            "SHA-1":"39d5268d94cefe09683c157bef8059efa72c3c1c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/PointerScope.java",
+            "SHA-1":"bbaa9f05e99a379600cc299986695b3a4c9eaaed",
+            "licenses":[
+               "Classpath exception to GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/IntPointer.java",
+            "SHA-1":"d66b644e422a6fadabfb4c834c86220a236aa483",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/ByteBufferIndexer.java",
+            "SHA-1":"79b1a37f857794a017ca0641eaf16336815d7216",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/Bfloat16RawIndexer.java",
+            "SHA-1":"d54ca849b47234cb19d97011b3c53ed465af7046",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/presets/javacpp.java",
+            "SHA-1":"98d2d4f88ae6d094a8c677eb3db3b416144f87f9",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/org/bytedeco/javacpp/indexer/FloatBufferIndexer.java",
+            "SHA-1":"b07b696df90b9f19cd118084da0666b504113925",
+            "licenses":[
+               "GPL 2.0 or later"
+            ]
+         }
+      ]
+   }
+}

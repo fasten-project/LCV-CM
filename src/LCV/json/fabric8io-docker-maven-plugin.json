@@ -1,0 +1,373 @@
+{
+   "plugin_name":"QMSTR",
+   "plugin_version":"0.0.1",
+   "input":{
+      "product":"io.fabric8:docker-maven-plugin",
+      "version":"0.34-SNAPSHOT"
+   },
+   "created_at":"2021-03-10T10:43:34.885677271Z",
+   "payload":{
+      "package_metadata":{
+         
+      },
+      "fileMetadata":[
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/access/util/RequestUtil.java",
+            "SHA-1":"4faf868551dc40c7d1a49d6b907da6e61e9afd78",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/assembly/AllFilesExecCustomizer.java",
+            "SHA-1":"0ae80d5a055a0f68a72765eabcebc7e3542a481f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/util/TimestampFactory.java",
+            "SHA-1":"736caee5dfd48770b01b9b1d847501fd6a429904",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/assembly/BuildDirs.java",
+            "SHA-1":"370d1bbbf28cf15da8e336b8f5121967e9c37b84",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/util/AutoPullMode.java",
+            "SHA-1":"aa0c31b8f826549afc8087ca650201bb2555ea28",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/StartMojo.java",
+            "SHA-1":"50bafcf226b6770f28f2ffca4ebce9f2d3ca84be",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/log/DefaultLogCallback.java",
+            "SHA-1":"7a9e9be575ef88ccfb1381674313fe3460f13aec",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/access/hc/util/AbstractNativeSocketFactory.java",
+            "SHA-1":"1ecb8b3a6a23f893e06208fa86ec927f9ceca2b9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/config/CleanupMode.java",
+            "SHA-1":"188db0e5b038f96b82ddbaf760987a0c4c3720bc",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/config/ConfigHelper.java",
+            "SHA-1":"c2e6b8b9fd07c9f020a435d790a47d6d80b40b7d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/service/ServiceHub.java",
+            "SHA-1":"265fd23bfb2aabe85d8b3814639207b4b3084dc8",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/service/MojoExecutionService.java",
+            "SHA-1":"43b6c4142d9604d42bef0c32354e0feb3142ec57",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/access/log/LogCallback.java",
+            "SHA-1":"e783b1bb7824d3829e1ce937925f759bcd63fd30",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/config/RestartPolicy.java",
+            "SHA-1":"9a56ea50f87758c00cff8f050bb6a8ea3485e70c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/log/LogOutput.java",
+            "SHA-1":"4e939d086efe1e4e09a0e4e53d92010fc94cefe7",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/model/Container.java",
+            "SHA-1":"73bcf4a9bc2fb098bdc28a6791526b07f048fc17",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/config/handler/ExternalConfigHandler.java",
+            "SHA-1":"8120ed2602f039204770634606c1975f087abedf",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/access/util/EnvCommand.java",
+            "SHA-1":"cdd9735baf980b8143405e0d0e403c5d62c3e275",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/config/AssemblyMode.java",
+            "SHA-1":"7e43b72f3cbfa3a01f46bf1e7ea2778a5dd3d850",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/access/hc/util/AbstractNativeClientBuilder.java",
+            "SHA-1":"43268af2ebfc6983fb464eb3209f45e9e5daefe1",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/config/NetworkConfig.java",
+            "SHA-1":"2a490f6fbe950852f10e1e71fa1485d8f1574be2",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/access/log/LogGetHandle.java",
+            "SHA-1":"adbb272f9d05163bc7d3107ad6b4aba45e6dbfc1",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/service/RunService.java",
+            "SHA-1":"2ec94809e50be2d74f3abaee04bec34109f9d246",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/assembly/MappingTrackArchiver.java",
+            "SHA-1":"59e54daeeb50748bdcab9cbd8d155d417d11217a",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/access/hc/http/HttpClientBuilder.java",
+            "SHA-1":"238a90ecc32058e6d4cb2830f839d8bdf6482b54",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/util/GavLabel.java",
+            "SHA-1":"3bf3d7ed2416236a7e4b1e6f377433d44c239ad2",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/RunMojo.java",
+            "SHA-1":"d923280494c37c0437b21679a41cbba15c9f5e48",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/WatchMojo.java",
+            "SHA-1":"daeb1fd5b29d97fa223fc263dead5f60228b0c97",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/access/hc/util/ClientBuilder.java",
+            "SHA-1":"d8a2507ecc69add273f10a6b611153ce5a71fb41",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/access/util/ExternalCommand.java",
+            "SHA-1":"134667737a30a21c234f9dc5c219a737654bfd5c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/assembly/ArchiverCustomizer.java",
+            "SHA-1":"3e784192f5b072f49cf03c828e146303503a7975",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/config/handler/property/PropertyConfigHandler.java",
+            "SHA-1":"a15db02b4bc5be7dca2821ced4db6ba29415a071",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/access/BuildOptions.java",
+            "SHA-1":"9f3630ec86c08b1cd085a836b5116e2240f7ceee",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/log/LogOutputSpecFactory.java",
+            "SHA-1":"326744f3607733f8f94aaec6ea30c7d2d2320428",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/access/log/LogRequestor.java",
+            "SHA-1":"69779f8307331907b388a5b73f6cef59c12145df",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/config/ArchiveCompression.java",
+            "SHA-1":"fa5f950c5c6b477a8114a99a8fc6be0651f2b88b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/util/ImageNameFormatter.java",
+            "SHA-1":"1d7a7ec5d7bb2815ba211d2fa1c742dbf5940cfc",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/config/RunVolumeConfiguration.java",
+            "SHA-1":"8a98cc354c60dec3069d2757ff5eabd705872241",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/service/ArchiveService.java",
+            "SHA-1":"7ad24147f17416dd032f121dde262aec24ff5d58",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/config/WatchMode.java",
+            "SHA-1":"f71785a5fef00526277feba713e4b1f991cb98f5",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/util/DockerFileUtil.java",
+            "SHA-1":"f2e0ee4f757aa48468964e6f9451b35c79baa1bf",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/RemoveMojo.java",
+            "SHA-1":"25e98021070d2bbfbd81400d2096edc51219d10e",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/config/BuildImageSelectMode.java",
+            "SHA-1":"b2b4518535137cef51666ee64237df7822d1834c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/config/handler/ImageConfigResolver.java",
+            "SHA-1":"7d3799ef42b125939ab0bbb7afddb180a57adced",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/log/LogOutputSpec.java",
+            "SHA-1":"6fd91f9a278f498f86ac81fb624b87a7de0ff989",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/config/handler/property/ConfigKey.java",
+            "SHA-1":"8cc560e988f2f83f89667a798938030f0a0d5e11",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/util/DeepCopy.java",
+            "SHA-1":"50eb58324ffd1780a32b58ffe1d68c83bbac1e87",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/log/LogDispatcher.java",
+            "SHA-1":"3a8bf6259524e9ac7d937b1272e3f8413bbc7003",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/access/util/LocalSocketUtil.java",
+            "SHA-1":"c1bd6ccb229e98db682e57e88c26f7b0dcc50f64",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/SourceMojo.java",
+            "SHA-1":"4b5610c1dc68011ef2e520f5513b0cf8fc22ebf4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/src/main/java/io/fabric8/maven/docker/assembly/AssemblyFiles.java",
+            "SHA-1":"b23e0cda0baf4e2a5b6add3b5df3fb47c1dca5eb",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         }
+      ]
+   }
+}

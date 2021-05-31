@@ -1,0 +1,1017 @@
+{
+   "plugin_name":"QMSTR",
+   "plugin_version":"0.0.1",
+   "input":{
+      "product":"com.igormaznitsa:jcp",
+      "version":"7.0.5-SNAPSHOT"
+   },
+   "created_at":"2021-03-22T12:54:34.182465899Z",
+   "payload":{
+      "package_metadata":{
+         
+      },
+      "fileMetadata":[
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/IfDefinedDirectiveHandler.java",
+            "SHA-1":"450a615aec84945c7c36c06ee979801627bb007a",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/xml/NodeContainer.java",
+            "SHA-1":"9c1615c76dba55ad17f7201d866cae76f6a70e00",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/xml/FunctionXML_SIZE.java",
+            "SHA-1":"f252b4a97c82a9d640d943d004e882db8d357ab9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/Value.java",
+            "SHA-1":"6dacb055946ba55cd749fcc975e96114152c01db",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/PostfixDirectiveHandler.java",
+            "SHA-1":"681eb025d18f528b4338e25584bbf8436a1f791d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/FileExtensionsHandler.java",
+            "SHA-1":"fe210b49854fca7c3c4a557d8658ce664d6f7a1f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/AbstractStrConverter.java",
+            "SHA-1":"49d27d82c78160de532ba70e1001a87ddca3e2d7",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorMOD.java",
+            "SHA-1":"ba3f5533fb51c07cb225faaa94d235828a04ac2f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/ClearTargetHandler.java",
+            "SHA-1":"96272198b03fb8a6ca7b72ea0e29171e5c5d79d2",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/GlobalDirectiveHandler.java",
+            "SHA-1":"6319a2a616b71f8b031fca02bb1968e1e660e81b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/extension/PreprocessorExtension.java",
+            "SHA-1":"08577f9a3667cf7fe4e0c194193242653332de2f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionISSUBSTR.java",
+            "SHA-1":"0e6f3ec9e42dbf8fc238f29abee0d62b8fdc03ec",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/AllowWhitespaceDirectiveHandler.java",
+            "SHA-1":"47b834b7163006a817ba012ed6a1aee19380e71b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionTRIMLINES.java",
+            "SHA-1":"3915ce730782b409dc4b0f09fbedc8c3187ade30",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionSTR2JS.java",
+            "SHA-1":"f5a1ba1bb7c3c10b3f9376b0ce8f68d50e548802",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/context/JCPSpecialVariableProcessor.java",
+            "SHA-1":"9dda8614ef3c8f79104ee1d6fef903b21776fc45",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionBINFILE.java",
+            "SHA-1":"2073d4cf9108bc211a2bc4db7cb095c9158f29d9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/OutdirDirectiveHandler.java",
+            "SHA-1":"b764a11b32e3b71a907006c1f5b4091a6d7de0b3",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/FlushDirectiveHandler.java",
+            "SHA-1":"6173d155a0158b5f24c1ff569e3314ef53e97549",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/GlobalElseDirectiveHandler.java",
+            "SHA-1":"17169e669a39788b3ca756ba2a469d9184838fcd",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/WhileDirectiveHandler.java",
+            "SHA-1":"d67971f5d312ab14f17a9268038e110d8254e82b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/ExpressionTree.java",
+            "SHA-1":"44fb81dc270d8a709eb2e3aa1e1270414317fc37",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/maven/PreprocessMojo.java",
+            "SHA-1":"66fda7559eb0aa18d9afbf2a0758b6d84252165a",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/KeepAttributesHandler.java",
+            "SHA-1":"bbe0891b219def8ce515c2c851ccc31945bd768e",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/ActionDirectiveHandler.java",
+            "SHA-1":"ba4735591b4e2fb07556dd3b5b841890e871dac7",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/InfoHelper.java",
+            "SHA-1":"98d380dbcc956df5341baa9a36bd94bedc293d0d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/BreakDirectiveHandler.java",
+            "SHA-1":"5151b55b6e2f05c7bbaefad7f5f9933b82cb11b3",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/DefinelDirectiveHandler.java",
+            "SHA-1":"189d8d523baa8f2c6148f0a92b43a23dde93c9b2",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/ExitIfDirectiveHandler.java",
+            "SHA-1":"8107faaf22f127607c2d7fa9df35566fa6e5cfe3",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/IfNDefDirectiveHandler.java",
+            "SHA-1":"0e0d3bba20a457298601ec08785e0ab6e92d6873",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorADD.java",
+            "SHA-1":"64437a6842ee450f509e7191359fa2986072572a",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/xml/AbstractXMLFunction.java",
+            "SHA-1":"3b90348861c83f9a7854ee061537dcec96bf0108",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionSTR2JSON.java",
+            "SHA-1":"b4ee3ccc94f290b4a74c32c76501cceca0b47271",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorNOTEQU.java",
+            "SHA-1":"f53d9342aba77c6c207adbc7cb4f1b6844ad716d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorSUB.java",
+            "SHA-1":"80d824bc35f1a89c419aa7d3cbb3bd5ac8b00312",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionROUND.java",
+            "SHA-1":"52a0417a5e5594b5c57b16448ff3202e25274954",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/ElseDirectiveHandler.java",
+            "SHA-1":"7ea3a53b209e71415fcf07ef9af8afe48d2da715",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/HelpHandler.java",
+            "SHA-1":"283d2b620ed653fd2ce39aeb8436791dcffb5b4b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionSTR2JAVA.java",
+            "SHA-1":"a23148bbfa3b272233e20ca5e970cff010fbee5d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionESC.java",
+            "SHA-1":"3129ab79b6a21b24ef2fe75134f116a926f782d6",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/xml/FunctionXML_NAME.java",
+            "SHA-1":"52a7c06a12fb8ff609a2c2bd13edc1b6e9c424b4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/AbortDirectiveHandler.java",
+            "SHA-1":"8c3b8149e0349608109258136eb38a846620fdd9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/EndIfDirectiveHandler.java",
+            "SHA-1":"0feeb5d20a3d41c12b10a735d63a6c54b8ffec34",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorLESS.java",
+            "SHA-1":"a05fb93bd60f34866694c02f912111c68e9284e1",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/ExpressionTreeElement.java",
+            "SHA-1":"4fef6260f54cf45fc75858665fee103cd5ca3639",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/ErrorDirectiveHandler.java",
+            "SHA-1":"8303007334c8904e3fe8a05fb5740bae78a52eb0",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionSTR2CSV.java",
+            "SHA-1":"6b3fd949988f7ded8d0fac7f1e7f43aefeeebf0c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/AbstractFunction.java",
+            "SHA-1":"dcb14b48b9347e7e0136fbaba13c315f341edc60",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/ant/PreprocessTask.java",
+            "SHA-1":"7728e90fceaf687623a6a65a5d8e262f3c8fc235",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/containers/TextFileDataContainer.java",
+            "SHA-1":"61f8ace4c96de9fbb857ff276c7840e1fd71829f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/UndefDirectiveHandler.java",
+            "SHA-1":"66570962c10a6d04365f48cca9de5d21bdf21854",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/GlobalVariableHandler.java",
+            "SHA-1":"0187b0f08ffb1c07e152b8c29d81969fed5602f0",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/DontOverwriteSameContentHandler.java",
+            "SHA-1":"6cb6e1131790ca49dd11d4d9c55b5d3067e7af32",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/EndDirectiveHandler.java",
+            "SHA-1":"38a660627a767376a1e5d251aca5a152a8600986",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/ExpressionParser.java",
+            "SHA-1":"858a35db192c7e1d5852b2420bbf61bd2963b17a",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/RemoveCommentsHandler.java",
+            "SHA-1":"23183c2fc08e42849e28e1c9f9c63f5e249ed63c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/containers/PreprocessingFlag.java",
+            "SHA-1":"119181e23656d5beab6796e923bf5144d1ec0a8b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/logger/SystemOutLogger.java",
+            "SHA-1":"b8781521cd9ea7aa1e5e1983c43e0febc45062b8",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionSTR2INT.java",
+            "SHA-1":"7a5d6c9012dabed0cedf4c30952f1d18656c3b41",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorOR.java",
+            "SHA-1":"374d4504123963836bb7435507862e1b33fcf73e",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/AbstractOperator.java",
+            "SHA-1":"0ac30f17482a6059b668eed519433ad3811b3e40",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/ExcludeFoldersHandler.java",
+            "SHA-1":"684dec3a744d07df3841f593ee7bb81b678a5e22",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/context/PreprocessingState.java",
+            "SHA-1":"91fb99bb79c14a9368ee5cddcdb199eb48038cd9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/containers/FileInfoContainer.java",
+            "SHA-1":"44c764162a65851d96559147d11ae84f0872538f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorMUL.java",
+            "SHA-1":"ea1ab4a5304bcb261486fbb6aa5036e7dd15b828",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/ContinueDirectiveHandler.java",
+            "SHA-1":"7a3de3565f750e14a99bbdb523f8c09ea64d5091",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/utils/PreprocessorUtils.java",
+            "SHA-1":"ce71f47cd4d3373a3a24d7c2c30d22450103ec91",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/ExitDirectiveHandler.java",
+            "SHA-1":"9312643ade31875e8f59040d7f1d1cfa4e973ba5",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorLESSEQU.java",
+            "SHA-1":"032d41a1d0e96b52bd7bfc8b71a6873f35837243",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/removers/JavaCommentsRemover.java",
+            "SHA-1":"67607f6a17034d07b0990fcab5919e0240916c4b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/context/EnvironmentVariableProcessor.java",
+            "SHA-1":"7857c2f2123979be64629cd827ede5ce32770110",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/AfterDirectiveProcessingBehaviour.java",
+            "SHA-1":"38afedb9eff91c83ea7afe15447b9b2db65e6e8f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/xml/FunctionXML_ROOT.java",
+            "SHA-1":"ca83d91ed3dc1f1c8032cf4e2e41214078719f22",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/InCharsetHandler.java",
+            "SHA-1":"70019581c921bf58dfdbea74329097eb31b11d95",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/PreserveIndentDirectiveHandler.java",
+            "SHA-1":"494fb61e1be5339ade8c5e3197b5fd8dd45a227c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/CommandLineHandler.java",
+            "SHA-1":"0da9a8bdf35e9e687930daa32a2c95d6061ac77e",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionIS.java",
+            "SHA-1":"7548732652584d3e5d8738ea7b469b34fe123129",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/OutDisabledDirectiveHandler.java",
+            "SHA-1":"9fa7c204c9f7bed5806e918ada72b09e038c8398",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorGREATEQU.java",
+            "SHA-1":"217d4eceb25d9ddca6c71fc0ad4e9a02e892cb29",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/NoAutoFlushHandler.java",
+            "SHA-1":"beb6f148f3d9a57333d5917adf707c7e8b3803f6",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/utils/GetUtils.java",
+            "SHA-1":"53484b41118b9f5c29b389079316be70fd6c3850",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/xml/FunctionXML_XLIST.java",
+            "SHA-1":"18576bff37b712ccb5503d687f5bba1f917c96e6",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/IfDefDirectiveHandler.java",
+            "SHA-1":"25bac1d0338fb9ec3662ab4fb8181cffd53005df",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorGREAT.java",
+            "SHA-1":"55c2b955e18c09360cb58c002835ace96664bcee",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/OutEnabledDirectiveHandler.java",
+            "SHA-1":"fb7db3469647be8888c25b414d4a09704102a5fd",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionSTR2WEB.java",
+            "SHA-1":"d632fada0a519348ececf5813a907cf382cea508",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionDefinedByUser.java",
+            "SHA-1":"80e1013f32ddfa49635c85385e2a77ae13a5c9a4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorDIV.java",
+            "SHA-1":"90f90ee1c595d7bf96baa3062a21cacbce0f11ac",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionSTR2GO.java",
+            "SHA-1":"453a9109b721eadc6b88f3853e7488cd94049344",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/exceptions/PreprocessorException.java",
+            "SHA-1":"f6eea74a723d0f174553f9bdc1a25333b8b81961",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/Variable.java",
+            "SHA-1":"5264e804c390bcdcfd4d34d7b693e167c3e9984c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/OutCharsetHandler.java",
+            "SHA-1":"a9497ee1df12a33d4ff57642d14744a35c093c7b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/IncludeDirectiveHandler.java",
+            "SHA-1":"02a2b3495ebbe5d0deb91b7919776a4da03ab523",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/context/PreprocessorContext.java",
+            "SHA-1":"a607bb13a9c47ac073163ebc05595f8d6aa224f8",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/KeepLineHandler.java",
+            "SHA-1":"b9aa1e915301db27960322a4891c6c3f4d073391",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorXOR.java",
+            "SHA-1":"9af20637c9320a47b0f16ecdf3a26ac5f461fb06",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/LocalDirectiveHandler.java",
+            "SHA-1":"d774f7b9e7cef81d3de3bf02b8ad546ed3a5e137",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionEVALFILE.java",
+            "SHA-1":"2d1b9611cd47321c5f5e55ac6edd2d35f1850cc9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/Expression.java",
+            "SHA-1":"dbd0d663650f27dccfbcecb4175c3a58444f0310",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionSTRLEN.java",
+            "SHA-1":"33f60aed7e9f17d230a5d399a75c3533d2da2164",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/maven/MavenPropertiesImporter.java",
+            "SHA-1":"700b4857887e00deb2cfe141fd0d080518a97acb",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorAND.java",
+            "SHA-1":"d5b25d0538f22dc1e9b73a562226080ee8b2d702",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/xml/FunctionXML_ATTR.java",
+            "SHA-1":"82df97d7bc9f734043224d2af0bb99c1dfeacc42",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/utils/ArrayUtils.java",
+            "SHA-1":"e93fb35f3a6ad5a7be54666207b413e041739010",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/CommentNextLineDirectiveHandler.java",
+            "SHA-1":"9cbb566d59a5f2b41ed46a5053c0f76ba15e7592",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/AbstractDirectiveHandler.java",
+            "SHA-1":"3edca5ea6cf2876fab182b6acfde8c7484777482",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/xml/FunctionXML_TEXT.java",
+            "SHA-1":"548b443f1e12d8a7b0b2daf1896dd2d171dac340",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/ExpressionItemPriority.java",
+            "SHA-1":"dadadcf3dffb30822e7d3ad2d365140e069f5732",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/WarningDirectiveHandler.java",
+            "SHA-1":"9fb59cda48dd4b2fe36418fb2a0b85cc839f7d8b",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorEQU.java",
+            "SHA-1":"c70eefbfc1ce11166d99853ecef8452f35647afa",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/UnknownAsFalseHandler.java",
+            "SHA-1":"e87e4fe20dc87642bc91dfef4059e313e663cb0d",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/xml/FunctionXML_OPEN.java",
+            "SHA-1":"ed2cb7c532dd93455eae0d001172707f0b4de3f2",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/GlobalVariableDefiningFileHandler.java",
+            "SHA-1":"63a8e14c4cc6962dd0035041a8f6e9886f096c5a",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/IfDirectiveHandler.java",
+            "SHA-1":"433373f2e75772411f052ce7cd3640581251b94a",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/EchoDirectiveHandler.java",
+            "SHA-1":"ae4278e395ba8af5e7a88c0e247f19c79adfe4bd",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/MsgDirectiveHandler.java",
+            "SHA-1":"8221533215115379dbede025c7d3de53dc241d76",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/SourceDirectoryHandler.java",
+            "SHA-1":"eac9474417ea7acb8df312611b4aecc356360930",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/utils/ResetablePrinter.java",
+            "SHA-1":"e6ae4bbde46b24f06f4f1063e234b31c2ae90445",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/ExcludedFileExtensionsHandler.java",
+            "SHA-1":"c137ae6794b3531e905b4e69a6d0c30becb8b877",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/DestinationDirectoryHandler.java",
+            "SHA-1":"9f1ad3c2c4dbc08960cbf88cd46e260e953ef59f",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/GlobalEndIfDirectiveHandler.java",
+            "SHA-1":"85e60c7ecf95bbe19c06492a414a9bb99b432d9c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/exceptions/FilePositionInfo.java",
+            "SHA-1":"dec8a8a925c5b74faa523c2ee1ed3e47c8d3113c",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/xml/FunctionXML_XELEMENT.java",
+            "SHA-1":"91d53148136c42def908fc950465e39987cbfedc",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/utils/IOUtils.java",
+            "SHA-1":"46276a4f8bb1842b377c721b6838f56813411980",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/DefineDirectiveHandler.java",
+            "SHA-1":"13f89deb7e4a4252e16d523fa4947ae2a8815b61",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionABS.java",
+            "SHA-1":"3a405cb2856d8672261b64a982307823131a6d39",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/OutNameDirectiveHandler.java",
+            "SHA-1":"6b1910e14ce37b5c1ca23686f12fa8160943c0d7",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/operators/OperatorNOT.java",
+            "SHA-1":"b2463e4499be9aeff318e110274fae23792066cf",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/VerboseHandler.java",
+            "SHA-1":"5548d51acec17f97f464c0cf7321a5713e386757",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/xml/FunctionXML_GET.java",
+            "SHA-1":"fc0b8933634d80684ca9a3b2652794968d0c3369",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/FunctionSTR2XML.java",
+            "SHA-1":"640e929d9fc71a68c55f1636b00f139d9295b0d4",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/context/SpecialVariableProcessor.java",
+            "SHA-1":"26a773da5e1f118f9afceb476acc6231905f32b5",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/ExpressionItem.java",
+            "SHA-1":"cbea78fb9e14c374fb8c4b188a4bcd043bb4b3e2",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/ExpressionItemType.java",
+            "SHA-1":"31fde1ba324a3bcab52f62970d5451eed84b6e6a",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/cmdline/CareForLastEolHandler.java",
+            "SHA-1":"d5184854e6c2dcbbf864456c8fc1f949fb6baff0",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/PrefixDirectiveHandler.java",
+            "SHA-1":"f5f54ed9ad8d08760775c43b1b20ea4b426b2042",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/functions/xml/FunctionXML_LIST.java",
+            "SHA-1":"25944c735a278da7a5adb0b0c4bba71d184b84bd",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/ExcludeIfDirectiveHandler.java",
+            "SHA-1":"4a4c19817e0454b78f48389450d345e712c7bbec",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/expression/ValueType.java",
+            "SHA-1":"84868a39d1ff1d713ee9d1b531e44aa01edc99c2",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/logger/PreprocessorLogger.java",
+            "SHA-1":"98994f5fb749a760f5205bdef3cf1bcae8306128",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/DirectiveArgumentType.java",
+            "SHA-1":"94647e883ccb5576ada45aaf46bc53be9cbb761a",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/directives/GlobalIfDirectiveHandler.java",
+            "SHA-1":"00dfc17e03a404149573d0e770cabcd76b92a9a9",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         },
+         {
+            "filename":"project/jcp/src/main/java/com/igormaznitsa/jcp/JcpPreprocessor.java",
+            "SHA-1":"3691469741cc1c5531f2444a52a1c1de873c0718",
+            "licenses":[
+               "Apache 2.0"
+            ]
+         }
+      ]
+   }
+}
