@@ -38,12 +38,9 @@ The array elements will be matched against the outbound license declared for tha
 
 [https://github.com/endocode/LCV-CM/blob/main/licenses.csv](https://github.com/endocode/LCV-CM/blob/main/licenses.csv) represents *True* with *1* and *False* with *0*, because originally this Matrix was thought to be imported as a Postgres table, that makes use of bit data type to represent them.
 
-## Acronyms used within the Matrix :
-
-TBD = To be defined: associations that still need to be defined.
-
-NS = Not Supported: momentarily referred to the `or later` notations used for certain licenses.
-Currently, LCV is supporting only specific licenses.
+## Compatibility rules within the Matrix :
+LCV provides three output flags: True, False `DUC`.
+True when a project is compliant, False when it is not, and DUC (depending on the use case).
 
 
 ## Running it with Docker:
