@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: LCV API with Postamn tests (using Newman)
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: LCVServer API with Newman test
+      id: hello
+      uses: ./
