@@ -28,7 +28,7 @@ To run the code with python3:
 python3 main.py  
 ```
 
-## How does the Matrix function
+## How does the Matrix function :
 The rows represent `inbound` licenses and the columns `outbound` licenses.
 
 The compatibility matrix functions in this way:
