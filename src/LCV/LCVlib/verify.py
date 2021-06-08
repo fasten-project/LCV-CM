@@ -158,11 +158,13 @@ def verifyFlag(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
             return verificationFlag
         if comparison == "II":
             verificationFlag = "DUC"
-            return verificationFlag
+            verificationFlagList.append(verificationFlag)
         if comparison == "DEP":
             verificationFlag = "DUC"
-            return verificationFlag
-
+            verificationFlagList.append(verificationFlag)
+    if ("DUC" in verificationFlagList):
+        verificationFlag = "DUC"
+        return verificationFlag
     if all(verificationFlagList):
         verificationFlag = True
         return verificationFlag
