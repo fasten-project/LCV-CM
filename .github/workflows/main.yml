@@ -3,7 +3,7 @@ name: LCV image building and tests with Postman
 on: [push]
 
 jobs:
-  hello_world_job:
+  lcv_tests_postman:
     runs-on: ubuntu-latest
     name: LCV API with Postman tests (using Newman)
     steps:
