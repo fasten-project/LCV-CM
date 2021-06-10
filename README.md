@@ -2,9 +2,9 @@
 
 This is the Python version of the License Compliance Verifier (LCV).
 
-LCV task is to establish if all the inbound licenses are compatible with the outbound or not, including a few special cases that will be matched as depending on the use case (DUC).
+LCV's task is to establish if all the inbound licenses are compatible with the outbound or not, including a few exceptional cases that will be matched depending on the use case (DUC).
 
-To perform the assessment it will check the Compatibility Matrix (CM) to retrieve compatibilities rules. 
+To perform the assessment, it will check the Compatibility Matrix (CM) to retrieve compatibilities rules. 
 
 LCV offers endpoints APIs to provide flag or verbose assessments.
 
@@ -16,14 +16,14 @@ E.g., Source code released under Apache 2.0 license can be used within a project
 The CM is represented in the [`licenses.csv`](https://github.com/fasten-project/LCV-CM/blob/develop/csv/licenses_tests.csv) file.
 The rows represent `inbound` licenses and the columns `outbound` licenses.
 
-The `LCV` will match all the elements of the inbound licenses array, against the outbound one and check the rules.
+The `LCV` will match all the inbound license array elements against the outbound one and check the rules.
 
-It generates an array containing this associations, and interprets in this way:
+It generates an array containing these associations and interprets in this way:
  - `True` if all the elements are true.
- - `False` if only one element contained is false (it doesn't matter what the other elements of the array are).
- - `DUC` if there is at least one `DUC` elements, and the rest are `True`.
+ - `False` if only one element contained is false (it does not matter what the other elements of the array are).
+ - `DUC` if there are at least one `DUC` element and the rest is `True`.
 
-The [`licenses.csv`](https://github.com/fasten-project/LCV-CM/blob/develop/csv/licenses_tests.csv) represents *True* with *1* and *False* with *0*, because originally this Matrix was thought to be imported as a Postgres table, that makes use of bit data type to represent them.
+The [`licenses.csv`](https://github.com/fasten-project/LCV-CM/blob/develop/csv/licenses_tests.csv) represents *True* with *1* and *False* with *0* because originally this Matrix was thought to be imported as a Postgres table, that makes use of bit data type to represent them.
 
 # Integration with FASTEN 
 
