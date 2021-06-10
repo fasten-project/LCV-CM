@@ -14,7 +14,7 @@ on:
       - develop
 
 env:
-  IMAGE_NAME: fasten.LCV.plugin
+  IMAGE_NAME: fasten.lcv.plugin
 
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v2
     - name: Build image
-      run:  docker build -t fasten.LCV.plugin -f DockerfileExternal .
+      run:  docker build -t fasten.lcv.plugin -f DockerfileExternal .
     - name: Log into registry
       run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ github.actor }} --password-stdin
     - name: Push image
