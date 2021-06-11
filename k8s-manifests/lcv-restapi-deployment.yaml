@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lcv-fasten-restapi
+  namespace: fasten
+spec:
+  selector:
+    matchLabels:
+      app: lcv-fasten-restapi
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: lcv-fasten-restapi
+    spec:
+      containers:
+        - name: lcv-fasten-restapi
+          image: docker.pkg.github.com/fasten-project/lcv-cm/fasten.lcv.plugin
+          args:
+          ports:
+            - containerPort: 3251
+          volumeMounts:
+          - mountPath: /mnt/fasten
+            name: fasten-mnt
+          resources:
+            requests:
+              memory: "4Gi"
+      imagePullSecrets:
+        - name: fasten.docker.registry
+      volumes:
+      - name: fasten-mnt
+        hostPath:
+         path: /mnt/fasten
+         type: Directory

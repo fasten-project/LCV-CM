@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: lcv-restapi-access
+  namespace: fasten
+spec:
+  type: NodePort
+  ports:
+  - nodePort: 33251
+    port: 3251
+    targetPort: 3251
+  selector:
+    app: lcv-fasten-restapi
