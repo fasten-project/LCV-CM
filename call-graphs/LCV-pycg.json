@@ -1,0 +1,142 @@
+{
+   "src.LCV.main":[
+      "LCVlib.verify.retrieveOutboundLicense",
+      "LCVlib.verify.RetrieveInboundLicenses",
+      "LCVlib.testlistsGithubAPI.GitHubURLList",
+      "<builtin>.int",
+      "LCVlib.testlistsJSONfiles.JSONPathList",
+      "<builtin>.len",
+      "LCVlib.verify.Compare",
+      "LCVlib.verify.CheckOutboundLicense",
+      "LCVlib.verify.CompareFlag",
+      "<builtin>.print"
+   ],
+   "LCVlib.testlistsJSONfiles.JSONPathList":[
+      "<builtin>.list"
+   ],
+   "LCVlib.testlistsGithubAPI.GitHubURLList":[
+      "<builtin>.list"
+   ],
+   "<builtin>.len":[
+
+   ],
+   "<builtin>.int":[
+
+   ],
+   "<builtin>.print":[
+
+   ],
+   "LCVlib.verify.retrieveOutboundLicense":[
+      "requests.get",
+      "<builtin>.print"
+   ],
+   "LCVlib.verify.CheckOutboundLicense":[
+      "<builtin>.print"
+   ],
+   "LCVlib.verify.RetrieveInboundLicenses":[
+      "<builtin>.open",
+      "json.load",
+      "<builtin>.print"
+   ],
+   "LCVlib.verify.CompareFlag":[
+      "<builtin>.len",
+      "LCVlib.verify.SPDXIdMapping",
+      "LCVlib.verify.verifyFlag",
+      "<builtin>.str",
+      "<builtin>.print"
+   ],
+   "LCVlib.verify.Compare":[
+      "LCVlib.verify.verify",
+      "LCVlib.verify.parseVerificationList",
+      "<builtin>.len",
+      "LCVlib.verify.SPDXIdMapping",
+      "<builtin>.str",
+      "<builtin>.print"
+   ],
+   "LCVlib.verify":[
+
+   ],
+   "LCVlib.verify.CSV_to_dataframe":[
+      "pandas.read_csv"
+   ],
+   "pandas.read_csv":[
+
+   ],
+   "requests.get":[
+
+   ],
+   "<builtin>.open":[
+
+   ],
+   "json.load":[
+
+   ],
+   "LCVlib.verify.SPDXIdMapping":[
+      "LCVlib.verify.CSV_to_dataframe",
+      "<builtin>.print"
+   ],
+   "LCVlib.verify.verify":[
+      "<builtin>.list",
+      "LCVlib.verify.CSV_to_dataframe",
+      "<builtin>.len"
+   ],
+   "<builtin>.list":[
+
+   ],
+   "LCVlib.verify.verifyFlag":[
+      "<builtin>.list",
+      "LCVlib.verify.CSV_to_dataframe",
+      "<builtin>.len",
+      "<builtin>.all"
+   ],
+   "<builtin>.all":[
+
+   ],
+   "<builtin>.str":[
+
+   ],
+   "LCVlib.verify.parseVerificationList":[
+      "<builtin>.len",
+      "<builtin>.str",
+      "<builtin>.print"
+   ],
+   "LCVlib.verify.CompareSPDX":[
+      "LCVlib.verify.verify",
+      "LCVlib.verify.parseVerificationList",
+      "<builtin>.len",
+      "<builtin>.str",
+      "<builtin>.print"
+   ],
+   "LCVlib.verify.CompareSPDXFlag":[
+      "<builtin>.len",
+      "<builtin>.str",
+      "LCVlib.verify.verifyFlag",
+      "<builtin>.print"
+   ],
+   "LCVlib.verify.runtimer":[
+      "<builtin>.range",
+      "time.sleep",
+      "sys.stdout.write",
+      "<builtin>.str",
+      "sys.stdout.flush",
+      "<builtin>.print"
+   ],
+   "<builtin>.range":[
+
+   ],
+   "sys.stdout.write":[
+
+   ],
+   "sys.stdout.flush":[
+
+   ],
+   "time.sleep":[
+
+   ],
+   "LCVlib.testlistsGithubAPI":[
+
+   ],
+   "LCVlib.testlistsJSONfiles":[
+
+   ]
+}

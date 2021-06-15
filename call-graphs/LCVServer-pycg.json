@@ -1,0 +1,266 @@
+{
+   "src.LCV.LCVServer":[
+      "os.path.abspath",
+      "<builtin>.int",
+      "dotenv.load_dotenv",
+      "<builtin>.str",
+      "os.environ.get",
+      "<builtin>.open",
+      "os.path.join",
+      "os.getpid",
+      "argparse.ArgumentParser",
+      "subprocess.Popen",
+      "os.path.dirname",
+      "flask.Flask"
+   ],
+   "os.path.dirname":[
+      
+   ],
+   "os.path.abspath":[
+      
+   ],
+   "os.path.join":[
+      
+   ],
+   "dotenv.load_dotenv":[
+      
+   ],
+   "os.environ.get":[
+      
+   ],
+   "os.getpid":[
+      
+   ],
+   "src.LCV.LCVServer.shutdown":[
+      "<builtin>.print",
+      "<builtin>.int",
+      "time.sleep",
+      "sys.stdout.write",
+      "<builtin>.str",
+      "os.kill",
+      "sys.stdout.flush",
+      "<builtin>.range"
+   ],
+   "<builtin>.print":[
+      
+   ],
+   "<builtin>.int":[
+      
+   ],
+   "<builtin>.range":[
+      
+   ],
+   "<builtin>.str":[
+      
+   ],
+   "sys.stdout.write":[
+      
+   ],
+   "sys.stdout.flush":[
+      
+   ],
+   "time.sleep":[
+      
+   ],
+   "os.kill":[
+      
+   ],
+   "src.LCV.LCVServer.PortAction.__call__":[
+      "argparse.ArgumentError",
+      "<builtin>.setattr"
+   ],
+   "argparse.ArgumentError":[
+      
+   ],
+   "<builtin>.setattr":[
+      
+   ],
+   "argparse.ArgumentParser":[
+      
+   ],
+   "src.LCV.LCVServer.GitHash":[
+      "subprocess.check_output",
+      "<builtin>.str"
+   ],
+   "subprocess.check_output":[
+      
+   ],
+   "flask.Flask":[
+      
+   ],
+   "src.LCV.LCVServer.APIEndpoints":[
+      "flask.render_template"
+   ],
+   "flask.render_template":[
+      
+   ],
+   "src.LCV.LCVServer.Outb":[
+      "flask.render_template"
+   ],
+   "src.LCV.LCVServer.GitHubOutboundLicense":[
+      "LCVlib.verify.retrieveOutboundLicense"
+   ],
+   "LCVlib.verify.retrieveOutboundLicense":[
+      "requests.get",
+      "<builtin>.print"
+   ],
+   "src.LCV.LCVServer.Compatibility":[
+      "flask.render_template"
+   ],
+   "src.LCV.LCVServer.Compliance":[
+      "LCVlib.verify.Compare",
+      "flask.jsonify"
+   ],
+   "LCVlib.verify.Compare":[
+      "<builtin>.print",
+      "<builtin>.str",
+      "LCVlib.verify.verify",
+      "LCVlib.verify.SPDXIdMapping",
+      "LCVlib.verify.parseVerificationList",
+      "<builtin>.len"
+   ],
+   "flask.jsonify":[
+      
+   ],
+   "src.LCV.LCVServer.CompatibilityFlag":[
+      "flask.render_template"
+   ],
+   "src.LCV.LCVServer.ComplianceFlag":[
+      "LCVlib.verify.CompareFlag",
+      "flask.jsonify"
+   ],
+   "LCVlib.verify.CompareFlag":[
+      "<builtin>.print",
+      "<builtin>.str",
+      "LCVlib.verify.verifyFlag",
+      "LCVlib.verify.SPDXIdMapping",
+      "<builtin>.len"
+   ],
+   "src.LCV.LCVServer.CompatibilitySPDX":[
+      "flask.render_template"
+   ],
+   "src.LCV.LCVServer.ComplianceSPDX":[
+      "LCVlib.verify.CompareSPDX",
+      "flask.jsonify"
+   ],
+   "LCVlib.verify.CompareSPDX":[
+      "<builtin>.print",
+      "<builtin>.str",
+      "LCVlib.verify.verify",
+      "LCVlib.verify.parseVerificationList",
+      "<builtin>.len"
+   ],
+   "src.LCV.LCVServer.CompatibilitySPDXFlag":[
+      "flask.render_template"
+   ],
+   "src.LCV.LCVServer.ComplianceSPDXFlag":[
+      "LCVlib.verify.CompareSPDXFlag",
+      "flask.jsonify"
+   ],
+   "LCVlib.verify.CompareSPDXFlag":[
+      "<builtin>.str",
+      "<builtin>.print",
+      "<builtin>.len",
+      "LCVlib.verify.verifyFlag"
+   ],
+   "src.LCV.LCVServer.LicensesInput":[
+      "LCVlib.verify.Compare",
+      "flask.jsonify"
+   ],
+   "src.LCV.LCVServer.LicensesInputFlag":[
+      "LCVlib.verify.CompareFlag",
+      "flask.jsonify"
+   ],
+   "src.LCV.LCVServer.GetGitHubOutboundLicense":[
+      "LCVlib.verify.retrieveOutboundLicense"
+   ],
+   "src.LCV.LCVServer.LicensesInputSPDX":[
+      "LCVlib.verify.CompareSPDX",
+      "flask.jsonify"
+   ],
+   "src.LCV.LCVServer.LicensesInputSPDXFlag":[
+      "LCVlib.verify.CompareSPDXFlag",
+      "flask.jsonify"
+   ],
+   "src.LCV.LCVServer.version":[
+      "src.LCV.LCVServer.GitHash",
+      "flask.jsonify"
+   ],
+   "src.LCV.LCVServer.shutd":[
+      "<builtin>.int",
+      "src.LCV.LCVServer.shutdown"
+   ],
+   "src.LCV.LCVServer.path":[
+      "<builtin>.str",
+      "os.getenv"
+   ],
+   "os.getenv":[
+      
+   ],
+   "<builtin>.open":[
+      
+   ],
+   "subprocess.Popen":[
+      
+   ],
+   "LCVlib.verify":[
+      
+   ],
+   "LCVlib.verify.CSV_to_dataframe":[
+      "pandas.read_csv"
+   ],
+   "pandas.read_csv":[
+      
+   ],
+   "requests.get":[
+      
+   ],
+   "LCVlib.verify.RetrieveInboundLicenses":[
+      "json.load",
+      "<builtin>.print",
+      "<builtin>.open"
+   ],
+   "json.load":[
+      
+   ],
+   "LCVlib.verify.SPDXIdMapping":[
+      "<builtin>.print",
+      "LCVlib.verify.CSV_to_dataframe"
+   ],
+   "LCVlib.verify.verify":[
+      "<builtin>.len",
+      "LCVlib.verify.CSV_to_dataframe",
+      "<builtin>.list"
+   ],
+   "<builtin>.list":[
+      
+   ],
+   "<builtin>.len":[
+      
+   ],
+   "LCVlib.verify.verifyFlag":[
+      "<builtin>.len",
+      "LCVlib.verify.CSV_to_dataframe",
+      "<builtin>.list",
+      "<builtin>.all"
+   ],
+   "<builtin>.all":[
+      
+   ],
+   "LCVlib.verify.CheckOutboundLicense":[
+      "<builtin>.print"
+   ],
+   "LCVlib.verify.parseVerificationList":[
+      "<builtin>.print",
+      "<builtin>.str",
+      "<builtin>.len"
+   ],
+   "LCVlib.verify.runtimer":[
+      "<builtin>.print",
+      "time.sleep",
+      "sys.stdout.write",
+      "<builtin>.str",
+      "sys.stdout.flush",
+      "<builtin>.range"
+   ]
+}

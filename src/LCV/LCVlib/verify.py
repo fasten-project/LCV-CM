@@ -25,14 +25,14 @@ def CSV_to_dataframe(CSVfilePath, column_names_list):
 def retrieveOutboundLicense(url):
     print("Retrieving outbound license from: "+url)
     response = requests.get(url).json()
-    content = response['license']['spdx_id']
-    if content == "NOASSERTION":
-        print(content)
+    OutboundLicense = response['license']['spdx_id']
+    if OutboundLicense == "NOASSERTION":
+        print(OutboundLicense)
         print("Outbound noassertion")
     else:
-        print("Outbound license: "+content)
+        print("Outbound license: "+OutboundLicense)
 
-    return content
+    return OutboundLicense
 
 
 def RetrieveInboundLicenses(JSONPath):
