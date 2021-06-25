@@ -18,8 +18,49 @@ def CSV_to_dataframe(CSVfilePath, column_names_list):
     """
     Import a CSV and transform it into a pandas dataframe selecting only the useful columns from the Compatibility Matrix
     """
-    df = pd.read_csv(CSVfilePath, usecols=column_names_list)
+    df = pd.read_csv(CSVfilePath, index_col=0, usecols=column_names_list)
     return df
+
+
+def verifyOSADL(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
+    print(InboundLicenses_cleaned)
+    InboundLicenses_cleaned.insert(0, 'License')
+    column_names_list = InboundLicenses_cleaned
+    verificationList = list()
+    print(CSVfilePath)
+
+    # retrieve data from CSV file
+    df = CSV_to_dataframe(CSVfilePath, column_names_list)
+    print(df)
+
+    df = df.loc[str(OutboundLicense)]
+    #print(str(OutboundLicense))
+    print("#######################")
+    print(df)
+    # https://www.geeksforgeeks.org/select-rows-columns-by-name-or-index-in-pandas-dataframe-using-loc-iloc/
+    # remember that there are issues retrieving license name with "-" or maybe "." in the middle: e.g. X11 and MIT no problem, Apache-2.0 problems.
+    print("#######################")
+    if (len(InboundLicenses_cleaned) == 1) and (InboundLicenses_cleaned[0] == OutboundLicense):
+        output = "For this project only " + \
+            InboundLicenses_cleaned[0] + \
+            " as the inbound license has been detected, and it is the same of the outbound license (" + \
+            OutboundLicense+"), implying that it is compatible. \nIt means that it is license compliant. "
+        verificationList.append(output)
+        return verificationList
+    '''
+    # HERE there are error related to the df.loc, number of indexes . ofc, investigate how to walk through the new df retrieved.
+    for license in InboundLicenses_cleaned:
+        comparison = df.loc[OutboundLicense,license]
+        if comparison == "No":
+            output = license+" is not compatible with " + \
+                OutboundLicense+" as an outbound license."
+            verificationList.append(output)
+        if comparison == "Yes":
+            output = license+" is compatible with " + \
+                OutboundLicense + " as an outbound license."
+            verificationList.append(output)
+    return verificationList
+    '''
 
 
 def retrieveOutboundLicense(url):
@@ -80,6 +121,7 @@ def verify(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
     verificationList = list()
     # retrieve data from CSV file
     df = CSV_to_dataframe(CSVfilePath, column_names_list)
+    print(df)
     df = df.set_index('License')
     if (len(InboundLicenses_cleaned) == 1) and (InboundLicenses_cleaned[0] == OutboundLicense):
         output = "For this project only " + \
@@ -243,6 +285,26 @@ def CompareSPDX(InboundLicenses_SPDX, OutboundLicense):
         CSVfilePath, InboundLicenses_SPDX, OutboundLicense)
     verificationList = parseVerificationList(verificationList)
     return verificationList
+
+def CompareSPDX_OSADL(InboundLicenses_SPDX, OutboundLicense):
+    if len(InboundLicenses_SPDX) == 1:
+        print("The SPDX id for the only inbound license detected is:")
+        print(InboundLicenses_SPDX[0])
+    else:
+        print("The SPDX IDs for the inbound licenses found are:")
+        print(InboundLicenses_SPDX)
+    print("#################")
+    print("Running the license compliance verification:")
+    print("Inbound license list :\n"+str(InboundLicenses_SPDX))
+    print("The outbound license is: "+OutboundLicense)
+    #CSVfilePath = "../../csv/licenses_tests.csv"
+    CSVfilePath = "../../csv/OSADL_csv.csv"
+    verificationList = verifyOSADL(
+        CSVfilePath, InboundLicenses_SPDX, OutboundLicense)
+    verificationList = parseVerificationList(verificationList)
+    return verificationList
+
+
 
 
 def CompareSPDXFlag(InboundLicenses_SPDX, OutboundLicense):
