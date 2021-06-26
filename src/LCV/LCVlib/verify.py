@@ -62,7 +62,8 @@ def verifyOSADL(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
     # HERE there are error related to the df.loc, number of indexes . ofc, investigate how to walk through the new df retrieved.
     for license in InboundLicenses_cleaned:
         print(license)
-        comparison = df.loc[OutboundLicense, license]
+        # The error is 100% in the following line of code Hyphens used as second parameter cause the KeyError. E.g. MIT inbound and AFL-2.1 outbound no errors. Doing reverse there is the key error.
+        comparison = df.loc[OutboundLicense, str(license)]
         print(comparison)
         if comparison == "No":
             output = license+" is not compatible with " + \
