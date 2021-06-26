@@ -61,6 +61,7 @@ def verifyOSADL(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
 
     # HERE there are error related to the df.loc, number of indexes . ofc, investigate how to walk through the new df retrieved.
     for license in InboundLicenses_cleaned:
+        print(license)
         comparison = df.loc[OutboundLicense, license]
         print(comparison)
         if comparison == "No":
