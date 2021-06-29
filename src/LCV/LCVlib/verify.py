@@ -29,7 +29,93 @@ def CSV_to_dataframeOSADL(CSVfilePath):
     """
     #df = pd.read_csv(CSVfilePath, index_col=0, usecols=column_names_list)
     df = pd.read_csv(CSVfilePath, index_col=0)
+    '''
+    df = df.transpose()
+    df.to_csv(r'/home/michelescarlato/gitrepo/LCV-CM-Fasten/LCV-CM/csv/OSADL_transposed.csv',
+              index=True, header=True)
+              '''
     return df
+
+
+def verifyOSADL_Transposed(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
+    column_names_list = [OutboundLicense]
+    column_names_list.insert(0, 'License')
+    verificationList = list()
+    # retrieve data from CSV file
+    #df = CSV_to_dataframeOSADL(CSVfilePath)
+    #print(df)
+    CSVfilePath = "/home/michelescarlato/gitrepo/LCV-CM-Fasten/LCV-CM/csv/OSADL_transposed.csv"
+    print(CSVfilePath)
+    df = CSV_to_dataframe(CSVfilePath, column_names_list)
+    print(df)
+
+    df = CSV_to_dataframe(CSVfilePath, column_names_list)
+    df = df.set_index('License')
+    if (len(InboundLicenses_cleaned) == 1) and (InboundLicenses_cleaned[0] == OutboundLicense):
+        output = "For this project only " + \
+            InboundLicenses_cleaned[0] + \
+            " as the inbound license has been detected, and it is the same of the outbound license (" + \
+            OutboundLicense+"), implying that it is compatible. \nIt means that it is license compliant. "
+        verificationList.append(output)
+        return verificationList
+    print(InboundLicenses_cleaned)
+    for license in InboundLicenses_cleaned:
+        comparison = df.loc[license, OutboundLicense]
+        if comparison == "No":
+            output = license+" is not compatible with " + \
+                OutboundLicense+" as an outbound license."
+            verificationList.append(output)
+        if comparison == "Yes":
+            output = license+" is compatible with " + \
+                OutboundLicense + " as an outbound license."
+            verificationList.append(output)
+        # OSADL Matrix could be shipped with empty field, resulting in nan.
+        if comparison == "-":
+            output = license+" is compatible with " + \
+                OutboundLicense + " as an outbound license."
+            verificationList.append(output)
+        if comparison == "?":
+            output = "There is insufficient information or knowledge whether the "+license+" as inbound license" + \
+                " is compatible with the " + OutboundLicense + " as outbound license. Therefore a general recommendation" + \
+                " on the compatibility of "+license+" as inbound with the " + \
+                OutboundLicense+" as outbound cannot be given."
+            verificationList.append(output)
+        if comparison == "Dep.":
+            output = "Depending compatibility of the "+license+" with the " + \
+                OutboundLicense + " license is explicitly stated in the " + \
+                OutboundLicense+" license checklist hosted by OSADL.org"
+            verificationList.append(output)
+        if comparison == "0":
+            output = license+" is not compatible with " + \
+                OutboundLicense+" as an outbound license."
+            verificationList.append(output)
+        if comparison == "NS":
+            output = license+" is not supported, because 'or later' notation."
+            verificationList.append(output)
+        if comparison == "1":
+            output = license+" is compatible with " + \
+                OutboundLicense + " as an outbound license."
+            verificationList.append(output)
+        if comparison == "TBD":
+            output = license+" compatibility with " + \
+                OutboundLicense + " still needs to be defined."
+            verificationList.append(output)
+        if comparison == "UNK":
+            output = "An UNKNOWN license has been found within the project. This cannot reveal license incompatibility"
+            verificationList.append(output)
+        if comparison == "II":
+            output = "There is insufficient information or knowledge whether the "+license+" as inbound license" + \
+                " is compatible with the " + OutboundLicense + " as outbound license. Therefore a general recommendation" + \
+                " on the compatibility of "+license+" as inbound with the " + \
+                OutboundLicense+" as outbound cannot be given."
+            verificationList.append(output)
+        if comparison == "DEP":
+            output = "Depending compatibility of the "+license+" with the " + \
+                OutboundLicense + " license is explicitly stated in the " + \
+                OutboundLicense+" license checklist hosted by OSADL.org"
+            verificationList.append(output)
+
+    return verificationList
 
 
 def verifyOSADL(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
