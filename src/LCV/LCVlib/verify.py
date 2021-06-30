@@ -238,6 +238,10 @@ def verify(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
     # retrieve data from CSV file
     df = CSV_to_dataframe(CSVfilePath, column_names_list)
     print(df)
+    # Create the array where the check is performed
+    Column_array = df.to_numpy()
+    print(Column_array)
+    # set the index upon the License column
     df = df.set_index('License')
     if (len(InboundLicenses_cleaned) == 1) and (InboundLicenses_cleaned[0] == OutboundLicense):
         output = "For this project only " + \
@@ -246,41 +250,45 @@ def verify(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
             OutboundLicense+"), implying that it is compatible. \nIt means that it is license compliant. "
         verificationList.append(output)
         return verificationList
-
+    # create array
     for license in InboundLicenses_cleaned:
-        comparison = df.loc[license, OutboundLicense]
-        if comparison == "0":
-            output = license+" is not compatible with " + \
-                OutboundLicense+" as an outbound license."
-            verificationList.append(output)
-        if comparison == "NS":
-            output = license+" is not supported, because 'or later' notation."
-            verificationList.append(output)
-        if comparison == "1":
-            output = license+" is compatible with " + \
-                OutboundLicense + " as an outbound license."
-            verificationList.append(output)
-        if comparison == "-":
-            output = license+" is compatible with " + \
-                OutboundLicense + " as an outbound license."
-            verificationList.append(output)
-        if comparison == "TBD":
-            output = license+" compatibility with " + \
-                OutboundLicense + " still needs to be defined."
-            verificationList.append(output)
-        if comparison == "UNK":
-            output = "An UNKNOWN license has been found within the project. This cannot reveal license incompatibility"
-            verificationList.append(output)
-        if comparison == "II":
-            output = "There is insufficient information or knowledge whether the "+license+" as inbound license" + \
-                " is compatible with the " + OutboundLicense + " as outbound license. Therefore a general recommendation" + \
-                " on the compatibility of "+license+" as inbound with the " + \
-                OutboundLicense+" as outbound cannot be given."
-            verificationList.append(output)
-        if comparison == "DEP":
-            output = "Depending compatibility of the "+license+" with the " + \
-                OutboundLicense + " license is explicitly stated in the " + \
-                OutboundLicense+" license checklist hosted by OSADL.org"
+        if (license in Column_array):
+            comparison = df.loc[license, OutboundLicense]
+            if comparison == "0":
+                output = license+" is not compatible with " + \
+                    OutboundLicense+" as an outbound license."
+                verificationList.append(output)
+            if comparison == "NS":
+                output = license+" is not supported, because 'or later' notation."
+                verificationList.append(output)
+            if comparison == "1":
+                output = license+" is compatible with " + \
+                    OutboundLicense + " as an outbound license."
+                verificationList.append(output)
+            if comparison == "-":
+                output = license+" is compatible with " + \
+                    OutboundLicense + " as an outbound license."
+                verificationList.append(output)
+            if comparison == "TBD":
+                output = license+" compatibility with " + \
+                    OutboundLicense + " still needs to be defined."
+                verificationList.append(output)
+            if comparison == "UNK":
+                output = "An UNKNOWN license has been found within the project. This cannot reveal license incompatibility"
+                verificationList.append(output)
+            if comparison == "II":
+                output = "There is insufficient information or knowledge whether the "+license+" as inbound license" + \
+                    " is compatible with the " + OutboundLicense + " as outbound license. Therefore a general recommendation" + \
+                    " on the compatibility of "+license+" as inbound with the " + \
+                    OutboundLicense+" as outbound cannot be given."
+                verificationList.append(output)
+            if comparison == "DEP":
+                output = "Depending compatibility of the "+license+" with the " + \
+                    OutboundLicense + " license is explicitly stated in the " + \
+                    OutboundLicense+" license checklist hosted by OSADL.org"
+                verificationList.append(output)
+        else:
+            output = ""+license+" is not present in the Compatibility Matrix"
             verificationList.append(output)
     return verificationList
 
