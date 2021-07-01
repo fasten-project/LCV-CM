@@ -425,7 +425,7 @@ def CompareSPDX_OSADL(InboundLicenses_SPDX, OutboundLicense):
     print("Inbound license list :\n"+str(InboundLicenses_SPDX))
     print("The outbound license is: "+OutboundLicense)
     #CSVfilePath = "../../csv/licenses_tests.csv"
-    CSVfilePath = "../../csv/OSADL_csv.csv"
+    CSVfilePath = "../../csv/OSADL.csv"
     verificationList = verifyOSADL(
         CSVfilePath, InboundLicenses_SPDX, OutboundLicense)
     verificationList = parseVerificationList(verificationList)
