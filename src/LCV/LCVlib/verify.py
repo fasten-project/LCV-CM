@@ -89,9 +89,9 @@ def verifyOSADL_Transposed(CSVfilePath, InboundLicenses_cleaned, OutboundLicense
                         OutboundLicense + " license is explicitly stated in the " + \
                         OutboundLicense+" license checklist hosted by OSADL.org"
                     verificationList.append(output)
-        else:
-            output = "The inbound license "+license+" is not present in the Compatibility Matrix"
-            verificationList.append(output)
+            else:
+                output = "The inbound license "+license+" is not present in the Compatibility Matrix"
+                verificationList.append(output)
     return verificationList
 
 
