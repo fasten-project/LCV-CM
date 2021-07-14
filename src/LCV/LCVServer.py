@@ -1,4 +1,4 @@
-from LCVlib.verify import retrieveOutboundLicense, Compare, CompareSPDX, CompareFlag, CompareSPDXFlag, CompareSPDX_OSADL
+from LCVlib.verify import retrieveOutboundLicense, CompareSPDX, CompareSPDXFlag, CompareSPDX_OSADL, Compare_OSADL
 import logging
 import signal
 import time
@@ -76,15 +76,6 @@ if args.shutdown:
 os.environ['PATH'] = PATH
 
 
-# Git hash of the head of the repository
-def GitHash(gitrepoName):
-    hash = check_output(["git", "ls-remote", "-h", gitrepoName])
-    hash = str(hash)
-    hashOutput = hash.split()
-    hashHead = hashOutput[0]
-    hashHead = hashHead[3:42]
-    return hashHead
-
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
@@ -107,38 +98,6 @@ def GitHubOutboundLicense():
         url = request.form['url']
         OutboundLicense = retrieveOutboundLicense(url)
         return OutboundLicense
-
-
-@app.route('/Compatibility')
-def Compatibility():
-    return render_template('compatibility.html')
-
-
-@app.route('/CompatibilityOutput', methods=['POST', 'GET'])
-def Compliance():
-    if request.method == 'POST':
-        InboundLicenses = request.form['inboundLicenses']
-        InboundLicenses = InboundLicenses.split(",")
-        OutboundLicense = request.form['outboundLicense']
-        verificationList = Compare(InboundLicenses, OutboundLicense)
-        # print(verificationList)
-        return jsonify(verificationList)
-
-
-@app.route('/CompatibilityFlag')
-def CompatibilityFlag():
-    return render_template('compatibilityFlag.html')
-
-
-@app.route('/CompatibilityFlagOutput', methods=['POST', 'GET'])
-def ComplianceFlag():
-    if request.method == 'POST':
-        InboundLicenses = request.form['inboundLicenses']
-        InboundLicenses = InboundLicenses.split(",")
-        OutboundLicense = request.form['outboundLicense']
-        verificationFlag = CompareFlag(InboundLicenses, OutboundLicense)
-        # print(verificationList)
-        return jsonify(verificationFlag)
 
 
 @app.route('/CompatibilitySPDX')
@@ -187,30 +146,6 @@ def ComplianceSPDXFlag():
         return jsonify(verificationFlag)
 
 
-@app.route('/LicensesInput', methods=['GET', 'POST'])
-# @app.route('/LicensesInput', methods=['POST'])
-def LicensesInput():
-    args = request.args
-    # print(args)  # For debugging
-    InboundLicenses = args['InboundLicenses']
-    InboundLicenses = InboundLicenses.split(",")
-    OutboundLicense = args['OutboundLicense']
-    verificationList = Compare(InboundLicenses, OutboundLicense)
-    return jsonify(verificationList)
-
-
-@app.route('/LicensesInputFlag', methods=['GET', 'POST'])
-# @app.route('/LicensesInput', methods=['POST'])
-def LicensesInputFlag():
-    args = request.args
-    # print(args)  # For debugging
-    InboundLicenses = args['InboundLicenses']
-    InboundLicenses = InboundLicenses.split(",")
-    OutboundLicense = args['OutboundLicense']
-    verificationFlag = CompareFlag(InboundLicenses, OutboundLicense)
-    return jsonify(verificationFlag)
-
-
 @app.route('/GetGitHubOutboundLicense', methods=['POST', 'GET'])
 def GetGitHubOutboundLicense():
     args = request.args
@@ -241,6 +176,16 @@ def LicensesInputSPDX_OSADL():
     verificationList = CompareSPDX_OSADL(InboundLicenses, OutboundLicense)
     return jsonify(verificationList)
 
+#this endpoint perform the check upon the OSADL.csv
+@app.route('/LicensesInput', methods=['POST', 'GET'])
+def LicensesInput():
+    args = request.args
+    print(args)  # For debugging
+    InboundLicenses = args['InboundLicenses']
+    InboundLicenses = InboundLicenses.split(";")
+    OutboundLicense = args['OutboundLicense']
+    verificationList = Compare_OSADL(InboundLicenses, OutboundLicense)
+    return jsonify(verificationList)
 
 @app.route('/LicensesInputSPDXFlag', methods=['GET', 'POST'])
 # @app.route('/LicensesInput', methods=['POST'])
@@ -253,14 +198,6 @@ def LicensesInputSPDXFlag():
     verificationFlag = CompareSPDXFlag(InboundLicenses, OutboundLicense)
     return jsonify(verificationFlag)
 
-# not strictly useful endpoints (at the moment)
-
-
-@app.route('/versionz')
-def version():
-    GitHeadHash = GitHash(GITREPO)
-    return jsonify(GitProject=GITREPO,
-                   GitHeadHash=GitHeadHash)
 
 
 @app.route('/shutdown/', defaults={"secs": "1"})
