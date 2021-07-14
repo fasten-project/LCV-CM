@@ -2,16 +2,16 @@ name: Publish Docker image
 
 on:
   push:
-    # Publish `opal-plugin` as Docker `latest` image.
+    # Publish `lcv-restapi` as Docker `latest` image.
     branches:
-      - develop
+      - maven-use-case
 
     # Publish `v1.2.3` tags as releases.
     tags:
       - v*
   pull_request:
     branches:
-      - develop
+      - maven-use-case
 
 env:
   IMAGE_NAME: fasten.lcv.plugin
