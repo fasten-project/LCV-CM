@@ -10,11 +10,13 @@
               <li><p>/LicensesInput?InboundLicenses=<span style="color:brown;">FirstInboundLicense,SecondInboundLicense; ... nInboundLicense</span>&<span style="color:tomato;">OutboundLicense=UniqueOutboundLicense</span></p>
             </ul>
             <p> Please use Postman to first verify that you are using the right syntax:
-            <p> This is an example of POST </p>
-            <p> lima.ewi.tudelft.nl/lcv/LicensesInput?InboundLicenses=The Apache Software License, Version verbose license name 2.0;not within aliases GPL 3.0;LGPL not alias 2.1&OutboundLicense=GPL never been an alias 3.0 </p>
+            <p> This is an example of POST: </p>
+            <ul>
+              <li><a href="http://lima.ewi.tudelft.nl/lcv/LicensesInput?InboundLicenses=The Apache Software License, Version verbose license name 2.0;not within aliases GPL 3.0;LGPL not alias 2.1&OutboundLicense=GPL never been an alias 3.0">http://lima.ewi.tudelft.nl/lcv/LicensesInput?InboundLicenses=The Apache Software License, Version verbose license name 2.0;not within aliases GPL 3.0;LGPL not alias 2.1&OutboundLicense=GPL never been an alias 3.0 </a></li>
+            </ul>
             <p> Please note that the separator used between inbound licenses is column `;`, and not anymore comma `,` (because many aliases have comma in the middle).
             <p> The screenshot below shows this post request and the lima server response </p>
-	    <p> <img src="postman.png" alt="Postman image"></p>
+            <p><img src="{{url_for('static', filename='postman.png')}}" width="712" height="450" align="middle" /></p>
 
         </ul>
    </body>
