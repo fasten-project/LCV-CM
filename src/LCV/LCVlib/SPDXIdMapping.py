@@ -135,8 +135,11 @@ def DynamicMapping(verbose_license):
             licenseName=word
         if word in versions:
             licenseVersion=word
-            if licenseVersion is "1" or "2" or "3" or "4" or "5":
-                licenseVersion = str(licenseVersion+".0")
+            if licenseVersion == str("1") or "2" or str("3") or "4" or "5":
+                print("License version:")
+                licenseVersion=str(float(licenseVersion))    
+                print(licenseVersion)
+
         if word == "Later" or word == "later":
             orLater=True
         if word == "Only" or word == "only":
@@ -170,6 +173,8 @@ def DynamicMapping(verbose_license):
             supposedLicense = licenseName+" "+licenseVersion+" only"
             #supposedLicenseSPDX = licenseName+"-"+licenseVersion+"-only"
     if supposedLicense is not None:
+        print("Supposed license:")
+        print(supposedLicense)
         IsAnAlias = IsInAliases(supposedLicense)
     #if supposedLicenseSPDX is not None:
         #IsSPDX = IsAnSPDX(supposedLicenseSPDX)
