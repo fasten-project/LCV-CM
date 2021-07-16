@@ -17,7 +17,7 @@ import csv
 
 licenses = ["AFL","AGPL","Apache","Artistic","BSD","BSL","bzip2","CC0","CDDL","CPL","curl","EFL","EPL","EUPL","FTL","GPL","HPND","IBM","ICU","IJG","IPL","ISC",
 "LGPL","Libpng","libtiff","MirOS","MIT","CMU","MPL","MS","NBPL","NTP","OpenSSL","OSL","Python","Qhull","RPL","SunPro","Unicode","UPL","WTFPL","X11","XFree86","Zlib","zlib-acknowledgement"]
-versions = ["1.0","1.0.5","1.0.6","1.1","1.5","2.0","2.1","3.0","3.1"]
+versions = ["1.0","1.0.5","1.0.6","1.1","1.5","2.0","2.1","3.0","3.1","1","2","3","4","5"]
 
 
 def CSV_to_dataframe(CSVfilePath, column_names_list):
@@ -97,6 +97,8 @@ def ConvertToSPDX(verbose_license):
             if IsSPDX :
                 print(license_mapped+" is an SPDX-id")
                 return license_mapped
+        else:
+            return license_name
 
 
 def StaticMappingList(InboundLicenses_cleaned):
