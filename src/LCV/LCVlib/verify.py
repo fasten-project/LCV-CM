@@ -90,6 +90,9 @@ def verifyOSADL_Transposed(CSVfilePath, InboundLicenses_cleaned, OutboundLicense
             else:
                 output = "The inbound license "+license+" is not present in the Compatibility Matrix"
                 verificationList.append(output)
+    else:
+        output = "The outbound license "+OutboundLicense+" is not present in the Compatibility Matrix"
+        verificationList.append(output)
     return verificationList
 
 def verifyFlag(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
@@ -214,8 +217,12 @@ def Compare_OSADL(InboundLicenses, OutboundLicense):
     print("InboundLicenses_SPDX:")
     print(InboundLicenses_SPDX)
     IsSPDX=IsAnSPDX(OutboundLicense)
+    print("OutboundLicense inside compare OSADL:")
+    print(OutboundLicense)
     if not IsSPDX:
         OutboundLicense_SPDX = ConvertToSPDX(OutboundLicense)
+        print("OutboundLicense_SPDX:")
+        print(OutboundLicense_SPDX)
     else:
         OutboundLicense_SPDX = OutboundLicense
 
