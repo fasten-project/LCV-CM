@@ -50,13 +50,11 @@ def StaticMapping(single_verbose_license):
     #IsAnAlias = False
     # @Michele you should insert a check upon the column of "scancode name",
     # if the license is there, enter the cycle
-    # if not, run the Dynamic Method.
+    # if not, run the Dynamic Method. <--- this is done in ConvertToSPDX function
+    ##########################################################
     # After the dynamic method, a keyerror should be handled
-    # you should provide an output without producing a KeyError
-    #IsAnAlias = IsInAliases(single_verbose_license)
-    #if IsAnAlias:
+    # you should provide an output without producing a KeyError <--- still should be handled
     single_verbose_license_SPDX_id = df.loc[single_verbose_license]['SPDX-ID']
-    #print(single_verbose_license_SPDX_id)
     if single_verbose_license_SPDX_id is not np.nan:
         return single_verbose_license_SPDX_id
     else:
@@ -69,13 +67,11 @@ def IsAnSPDX(license_name):
          for row in reader:
               for field in row:
                   if field == license_name:
-                      #print(license_name+" is a SPDX-id")
                       IsSPDX = True
                       return IsSPDX
 
 
 def ConvertToSPDX(verbose_license):
-    #print(verbose_license)
     IsAnAlias = False
     IsAnAlias = IsInAliases(verbose_license)
     # if verbose license is within aliases - run static mapping
@@ -93,17 +89,7 @@ def ConvertToSPDX(verbose_license):
         #print("After dynamicMapping in ConvertToSPDX")
         print("Dynamic mapping result: ")
         print(license_name)
-        #print(license_name_SPDX)
-    #for license in license_names:
-        # IF license IS An SPDX ID
-        #print(license)
-        #IsSPDX = IsAnSPDX(license_name_SPDX)
         IsAnAlias = IsInAliases(license_name)
-        '''
-        if IsSPDX :
-            print(license_name_SPDX+" is an SPDX-id")
-            return license_name_SPDX
-        '''
         if IsAnAlias:
             print(license_name)
             license_mapped = StaticMapping(license_name)
@@ -120,8 +106,6 @@ def StaticMappingList(InboundLicenses_cleaned):
     column_names_list = ['Scancode', 'SPDX-ID']
     df = CSV_to_dataframe(CSVfilePath, column_names_list)
     df = df.set_index('Scancode')
-    # @Michele you should insert a check upon the column of "scancode name", if the license is there, enter the cycle
-    # if not, provide an output without producing a KeyError
     for license in InboundLicenses_cleaned:
         newElement = df.loc[license]['SPDX-ID']
         if newElement is not np.nan:
@@ -131,7 +115,6 @@ def StaticMappingList(InboundLicenses_cleaned):
     return InboundLicenses_SPDX
 
 def DynamicMapping(verbose_license):
-    #print(verbose_license)
     licenseVersion = None
     licenseName = None
     orLater=False
