@@ -125,6 +125,7 @@ def DynamicMapping(verbose_license):
     supposedLicense = None
     affero=False
     lesser=False
+    general=False
 
     list_of_words = verbose_license.split()
     for word in list_of_words:
@@ -140,11 +141,15 @@ def DynamicMapping(verbose_license):
             affero=True
         if word == "Lesser" or word == "lesser":
             lesser=True
+        if word == "General" or word == "general":
+            general=True
     # after scanning the whole verbose license
     if affero:
         licenseName = "AGPL"
     if lesser:
         licenseName = "LGPL"
+    if general and not affero and not lesser:
+        licenseName = "GPL"
     if licenseName is not None and licenseVersion is None:
         supposedLicense = licenseName
         supposedLicenseSPDX = licenseName
