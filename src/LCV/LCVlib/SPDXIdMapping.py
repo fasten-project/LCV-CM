@@ -135,6 +135,8 @@ def DynamicMapping(verbose_license):
             licenseName=word
         if word in versions:
             licenseVersion=word
+            if licenseVersion is "1" or "2" or "3" or "4" or "5":
+                licenseVersion = str(licenseVersion+".0")
         if word == "Later" or word == "later":
             orLater=True
         if word == "Only" or word == "only":
