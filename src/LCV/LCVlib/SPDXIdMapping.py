@@ -128,6 +128,7 @@ def DynamicMapping(verbose_license):
     affero=False
     lesser=False
     general=False
+    academic=False
 
     list_of_words = verbose_license.split()
     for word in list_of_words:
@@ -150,7 +151,11 @@ def DynamicMapping(verbose_license):
             lesser=True
         if word == "General" or word == "general":
             general=True
+        if word == "Academic" or word == "academic":
+            academic=True
     # after scanning the whole verbose license
+    if academic:
+        licenseName = "AFL"
     if affero:
         licenseName = "AGPL"
     if lesser:
