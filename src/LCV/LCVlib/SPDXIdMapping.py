@@ -130,6 +130,7 @@ def DynamicMapping(verbose_license):
     general=False
     academic=False
     distribution=False
+    bzip=False
 
     list_of_words = verbose_license.split()
     for word in list_of_words:
@@ -156,9 +157,13 @@ def DynamicMapping(verbose_license):
             academic=True
         if word == "Distribution" or word == "distribution":
             distribution=True
+        if word == "2010":
+            bzip=True
     # after scanning the whole verbose license
     if academic:
         licenseName = "AFL"
+    if bzip:
+        licenseName = "bzip2-1.0.6"
     if distribution:
         licenseName = "CDDL"
     if affero:
@@ -187,12 +192,14 @@ def DynamicMapping(verbose_license):
         print(supposedLicense)
         IsAnAlias = IsInAliases(supposedLicense)
     #if supposedLicenseSPDX is not None:
-        #IsSPDX = IsAnSPDX(supposedLicenseSPDX)
+        IsSPDX = IsAnSPDX(supposedLicense)
     # the next three if could be simply the else of the last if - currently debugging
     if IsAnAlias: #and IsSPDX:
         return supposedLicense#,supposedLicenseSPDX
     #if IsAnAlias and not IsSPDX:
         #return supposedLicense,supposedLicenseSPDX
+    if IsSPDX:
+        return supposedLicense
     if not IsAnAlias:# and IsSPDX:
         return verbose_license#supposedLicense,supposedLicenseSPDX
     #if not IsAnAlias and not IsSPDX:
