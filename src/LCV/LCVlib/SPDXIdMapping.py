@@ -133,7 +133,7 @@ def DynamicMapping(verbose_license):
     bzip=False
     powerpc=False
     tiff=False
-    miros=true
+    miros=False
 
     list_of_words = verbose_license.split()
     for word in list_of_words:
@@ -167,7 +167,7 @@ def DynamicMapping(verbose_license):
         if word == "tiff" or word == "Tiff" or word == "TIFF":
             tiff=True
         if word == "MirOS" or word == "mirOS" or word == "Miros" or word == "miros":
-            miros=False
+            miros=True
 
     # after scanning the whole verbose license
     if academic:
