@@ -131,6 +131,7 @@ def DynamicMapping(verbose_license):
     academic=False
     distribution=False
     bzip=False
+    powerpc=False
 
     list_of_words = verbose_license.split()
     for word in list_of_words:
@@ -159,6 +160,8 @@ def DynamicMapping(verbose_license):
             distribution=True
         if word == "2010":
             bzip=True
+        if word == "PowerPC" or word == "powerpc" or word == "Power" or word == "power":
+            powerpc=True
     # after scanning the whole verbose license
     if academic:
         licenseName = "AFL"
@@ -166,6 +169,8 @@ def DynamicMapping(verbose_license):
         licenseName = "bzip2-1.0.6"
     if distribution:
         licenseName = "CDDL"
+    if powerpc:
+        licenseName = "IBM-pibs"
     if affero:
         licenseName = "AGPL"
     if lesser:
