@@ -134,6 +134,10 @@ def DynamicMapping(verbose_license):
     powerpc=False
     tiff=False
     miros=False
+    cmu=False
+    bsd=False
+    patent=False
+
 
     list_of_words = verbose_license.split()
     for word in list_of_words:
@@ -168,6 +172,13 @@ def DynamicMapping(verbose_license):
             tiff=True
         if word == "MirOS" or word == "mirOS" or word == "Miros" or word == "miros":
             miros=True
+        if word.lower() == "cmu":
+            cmu=True
+        if word.lower() == "bsd":
+            bsd=True
+        if word.lower() == "patent":
+            patent=True
+
 
     # after scanning the whole verbose license
     if academic:
@@ -182,6 +193,12 @@ def DynamicMapping(verbose_license):
         licenseName = "libtiff"
     if miros:
         licenseName = "MirOS"
+    if cmu:
+        licenseName = "MIT-CMU"
+    if bsd and patent:
+        licenseName = "BSD-2-Clause-Patent"
+
+
     if affero:
         licenseName = "AGPL"
     if lesser:
