@@ -137,6 +137,7 @@ def DynamicMapping(verbose_license):
     cmu=False
     bsd=False
     patent=False
+    uc=True
 
 
     list_of_words = verbose_license.split()
@@ -150,27 +151,27 @@ def DynamicMapping(verbose_license):
                 licenseVersion=str(float(licenseVersion))
                 print(licenseVersion)
 
-        if word == "Later" or word == "later":
+        if word.lower() == "later":
             orLater=True
-        if word == "Only" or word == "only":
+        if word.lower() == "only":
             only=True
-        if word == "Affero" or word == "affero":
+        if word.lower() == "affero":
             affero=True
-        if word == "Lesser" or word == "lesser":
+        if word.lower() == "lesser":
             lesser=True
-        if word == "General" or word == "general":
+        if word.lower() == "general":
             general=True
-        if word == "Academic" or word == "academic":
+        if word.lower() == "academic":
             academic=True
-        if word == "Distribution" or word == "distribution":
+        if word.lower() == "distribution":
             distribution=True
         if word == "2010":
             bzip=True
-        if word == "PowerPC" or word == "powerpc" or word == "Power" or word == "power":
+        if word.lower() == "powerpc" or word.lower() == "power":
             powerpc=True
-        if word == "tiff" or word == "Tiff" or word == "TIFF":
+        if word.lower() == "tiff":
             tiff=True
-        if word == "MirOS" or word == "mirOS" or word == "Miros" or word == "miros":
+        if word.lower() == "miros":
             miros=True
         if word.lower() == "cmu":
             cmu=True
@@ -178,6 +179,8 @@ def DynamicMapping(verbose_license):
             bsd=True
         if word.lower() == "patent":
             patent=True
+        if word.lower() == "uc":
+            uc=True
 
 
     # after scanning the whole verbose license
@@ -197,6 +200,8 @@ def DynamicMapping(verbose_license):
         licenseName = "MIT-CMU"
     if bsd and patent:
         licenseName = "BSD-2-Clause-Patent"
+    if bsd and uc:
+        licenseName = "BSD-4-Clause-UC"
 
 
     if affero:
