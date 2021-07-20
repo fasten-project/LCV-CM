@@ -119,12 +119,13 @@ def StaticMappingList(InboundLicenses_cleaned):
 def DynamicMapping(verbose_license):
     licenseVersion = None
     licenseName = None
+    supposedLicenseSPDX = None
+    supposedLicense = None
+
     orLater=False
     only=False
     IsAnAlias=False
     IsSPDX=False
-    supposedLicenseSPDX = None
-    supposedLicense = None
     affero=False
     lesser=False
     general=False
@@ -140,6 +141,8 @@ def DynamicMapping(verbose_license):
     uc=False
     ibm=False
     public=False
+    libpng=False
+    zlib=False
 
 
     list_of_words = verbose_license.split()
@@ -187,6 +190,10 @@ def DynamicMapping(verbose_license):
             ibm=True
         if word.lower() == "public":
             public=True
+        if word.lower() == "libpng" or word.lower() == "png":
+            libpng=True
+        if word.lower() == "zlib":
+            zlib=True
 
 
     # after scanning the whole verbose license try to assign spdx-id.
@@ -202,15 +209,26 @@ def DynamicMapping(verbose_license):
         licenseName = "libtiff"
     if miros:
         licenseName = "MirOS"
+        return licenseName
     if cmu:
         licenseName = "MIT-CMU"
+        return licenseName
     if bsd and patent:
         licenseName = "BSD-2-Clause-Patent"
+        return licenseName
     if bsd and uc:
         licenseName = "BSD-4-Clause-UC"
+        return licenseName
     if ibm and public:
         licenseName = "IPL-1.0"
-
+        return licenseName
+    if libpng and not zlib and licenseVersion is None:
+        licenseName = "Libpng"
+    if libpng and licenseVersion == "2.0":# and not zlib:
+        licenseName = "libpng-2.0"
+        return licenseName
+    if libpng and zlib:
+        licenseName = "Zlib"
 
     if affero:
         licenseName = "AGPL"
