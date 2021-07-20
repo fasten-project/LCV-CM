@@ -137,7 +137,9 @@ def DynamicMapping(verbose_license):
     cmu=False
     bsd=False
     patent=False
-    uc=True
+    uc=False
+    ibm=False
+    public=False
 
 
     list_of_words = verbose_license.split()
@@ -181,6 +183,10 @@ def DynamicMapping(verbose_license):
             patent=True
         if word.lower() == "uc":
             uc=True
+        if word.lower() == "ibm":
+            ibm=True
+        if word.lower() == "public":
+            public=True
 
 
     # after scanning the whole verbose license try to assign spdx-id.
@@ -202,6 +208,8 @@ def DynamicMapping(verbose_license):
         licenseName = "BSD-2-Clause-Patent"
     if bsd and uc:
         licenseName = "BSD-4-Clause-UC"
+    if ibm and public:
+        licenseName = "IPL-1.0"
 
 
     if affero:
