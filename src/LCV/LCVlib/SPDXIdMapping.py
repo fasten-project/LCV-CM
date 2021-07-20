@@ -183,7 +183,7 @@ def DynamicMapping(verbose_license):
             uc=True
 
 
-    # after scanning the whole verbose license
+    # after scanning the whole verbose license try to assign spdx-id.
     if academic:
         licenseName = "AFL"
     if bzip:
