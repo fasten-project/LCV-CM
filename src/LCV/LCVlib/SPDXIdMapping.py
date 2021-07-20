@@ -143,6 +143,7 @@ def DynamicMapping(verbose_license):
     public=False
     libpng=False
     zlib=False
+    eclipse=False
 
 
     list_of_words = verbose_license.split()
@@ -194,6 +195,8 @@ def DynamicMapping(verbose_license):
             libpng=True
         if word.lower() == "zlib":
             zlib=True
+        if word.lower() == "eclipse":
+            eclipse=True
 
 
     # after scanning the whole verbose license try to assign spdx-id.
@@ -226,6 +229,12 @@ def DynamicMapping(verbose_license):
         licenseName = "Libpng"
     if libpng and licenseVersion == "2.0":# and not zlib:
         licenseName = "libpng-2.0"
+        return licenseName
+    if eclipse and licenseVersion == "1.0":# and not zlib:
+        licenseName = "EPL-1.0"
+        return licenseName
+    if eclipse and licenseVersion == "2.0":# and not zlib:
+        licenseName = "EPL-2.0"
         return licenseName
     if libpng and zlib:
         licenseName = "Zlib"
