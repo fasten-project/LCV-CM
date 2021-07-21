@@ -151,6 +151,9 @@ def DynamicMapping(verbose_license):
     sleepycat=False
     ntp=False
     attribution=False
+    upl=False
+    permissive=False
+    universal=False
 
 
     list_of_words = verbose_license.split()
@@ -219,6 +222,12 @@ def DynamicMapping(verbose_license):
             ntp=True
         if word.lower() == "attribution":
             attribution=True
+        if word.lower() == "upl":
+            upl=True
+        if word.lower() == "permissive":
+            permissive=True
+        if word.lower() == "universal":
+            universal=True
 
     # after scanning the whole verbose license try to assign spdx-id.
     if academic:
@@ -292,6 +301,12 @@ def DynamicMapping(verbose_license):
         return licenseName
     if ntp and not attribution:
         licenseName = "NTP"
+        return licenseName
+    if upl:
+        licenseName = "UPL-1.0"
+        return licenseName
+    if universal and permissive:
+        licenseName = "UPL-1.0"
         return licenseName
 
     if affero:
