@@ -145,6 +145,8 @@ def DynamicMapping(verbose_license):
     zlib=False
     eclipse=False
     european=False
+    mozilla=False
+    exception=False
 
 
     list_of_words = verbose_license.split()
@@ -182,6 +184,7 @@ def DynamicMapping(verbose_license):
             miros=True
         if word.lower() == "cmu":
             cmu=True
+        # maybe you can add Berkeley?
         if word.lower() == "bsd":
             bsd=True
         if word.lower() == "patent":
@@ -196,11 +199,14 @@ def DynamicMapping(verbose_license):
             libpng=True
         if word.lower() == "zlib":
             zlib=True
-        if word.lower() == "eclipse":
+        if word.lower() == "eclipse" or word.lower() == "epl":
             eclipse=True
-        if word.lower() == "european":
+        if word.lower() == "european" or word.lower() == "eupl":
             european=True
-
+        if word.lower() == "mozilla" or word.lower() == "mpl":
+            mozilla=True
+        if word.lower() == "exception":
+            exception=True
 
     # after scanning the whole verbose license try to assign spdx-id.
     if academic:
@@ -251,7 +257,18 @@ def DynamicMapping(verbose_license):
     if european and licenseVersion == "1.2":
         licenseName = "EUPL-1.2"
         return licenseName
-
+    if mozilla and licenseVersion == "1.0":
+        licenseName = "MPL-1.0"
+        return licenseName
+    if mozilla and licenseVersion == "1.1":
+        licenseName = "MPL-1.1"
+        return licenseName
+    if mozilla and licenseVersion == "2.0" and not exception:
+        licenseName = "MPL-2.0"
+        return licenseName
+    if mozilla and licenseVersion == "2.0" and exception:
+        licenseName = "MPL-2.0-no-copyleft-exception"
+        return licenseName
 
     if affero:
         licenseName = "AGPL"
