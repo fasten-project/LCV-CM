@@ -17,7 +17,7 @@ import csv
 
 licenses = ["AFL","AGPL","Apache","Artistic","BSD","BSL","bzip2","CC0","CDDL","CPL","curl","EFL","EPL","EUPL","FTL","GPL","HPND","IBM","ICU","IJG","IPL","ISC",
 "LGPL","Libpng","libtiff","MirOS","MIT","CMU","MPL","MS","NBPL","NTP","OpenSSL","OSL","Python","Qhull","RPL","SunPro","Unicode","UPL","WTFPL","X11","XFree86","Zlib","zlib-acknowledgement"]
-versions = ["1.0","1.0.5","1.0.6","1.1","1.5","2.0","2.1","3.0","3.1","1","2","3","4","5"]
+versions = ["1.0","1.0.5","1.0.6","1.1","1.2","1.5","2.0","2.1","3.0","3.1","1","2","3","4","5"]
 
 
 def CSV_to_dataframe(CSVfilePath, column_names_list):
@@ -144,6 +144,7 @@ def DynamicMapping(verbose_license):
     libpng=False
     zlib=False
     eclipse=False
+    european=False
 
 
     list_of_words = verbose_license.split()
@@ -197,6 +198,8 @@ def DynamicMapping(verbose_license):
             zlib=True
         if word.lower() == "eclipse":
             eclipse=True
+        if word.lower() == "european":
+            european=True
 
 
     # after scanning the whole verbose license try to assign spdx-id.
@@ -238,6 +241,17 @@ def DynamicMapping(verbose_license):
         return licenseName
     if libpng and zlib:
         licenseName = "Zlib"
+
+    if european and licenseVersion == "1.0":
+        licenseName = "EUPL-1.0"
+        return licenseName
+    if european and licenseVersion == "1.1":
+        licenseName = "EUPL-1.1"
+        return licenseName
+    if european and licenseVersion == "1.2":
+        licenseName = "EUPL-1.2"
+        return licenseName
+
 
     if affero:
         licenseName = "AGPL"
