@@ -147,6 +147,7 @@ def DynamicMapping(verbose_license):
     european=False
     mozilla=False
     exception=False
+    database=False
 
 
     list_of_words = verbose_license.split()
@@ -185,8 +186,10 @@ def DynamicMapping(verbose_license):
         if word.lower() == "cmu":
             cmu=True
         # maybe you can add Berkeley?
-        if word.lower() == "bsd":
+        if word.lower() == "bsd" or word.lower() == "berkeley":
             bsd=True
+        if word.lower() == "database":
+            database=True
         if word.lower() == "patent":
             patent=True
         if word.lower() == "uc":
@@ -230,6 +233,9 @@ def DynamicMapping(verbose_license):
         return licenseName
     if bsd and uc:
         licenseName = "BSD-4-Clause-UC"
+        return licenseName
+    if bsd and database:
+        licenseName = "Sleepycat"
         return licenseName
     if ibm and public:
         licenseName = "IPL-1.0"
