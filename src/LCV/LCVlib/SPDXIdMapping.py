@@ -122,45 +122,47 @@ def DynamicMapping(verbose_license):
     supposedLicenseSPDX = None
     supposedLicense = None
 
-    orLater=False
-    only=False
-    IsAnAlias=False
-    IsSPDX=False
-    affero=False
-    lesser=False
-    general=False
     academic=False
-    distribution=False
-    bzip=False
-    powerpc=False
-    tiff=False
-    miros=False
-    cmu=False
+    affero=False
+    attribution=False
     bsd=False
-    patent=False
-    uc=False
-    ibm=False
-    public=False
-    libpng=False
-    zlib=False
+    bzip=False
+    cmu=False
+    commons=False
+    creative=False
+    database=False
+    distribution=False
     eclipse=False
     european=False
-    mozilla=False
     exception=False
-    database=False
-    sleepycat=False
+    general=False
+    ibm=False
+    IsAnAlias=False
+    IsSPDX=False
+    lesser=False
+    libpng=False
+    license=False
+    miros=False
+    mozilla=False
     ntp=False
-    attribution=False
-    upl=False
-    permissive=False
-    universal=False
-    creative=False
-    commons=False
-    zero=False
+    only=False
     openssl=False
+    orLater=False
+    patent=False
+    permissive=False
+    powerpc=False
+    public=False
     python=False
-    software=False
     qhull=False
+    reciprocal=False
+    sleepycat=False
+    software=False
+    tiff=False
+    uc=False
+    universal=False
+    upl=False
+    zero=False
+    zlib=False
 
 
     list_of_words = verbose_license.split()
@@ -249,6 +251,10 @@ def DynamicMapping(verbose_license):
             software=True
         if word.lower() == "qhull":
             qhull=True
+        if word.lower() == "license":
+            license=True
+        if word.lower() == "reciprocal":
+            reciprocal=True
 
     # after scanning the whole verbose license try to assign spdx-id.
     if academic:
@@ -347,6 +353,13 @@ def DynamicMapping(verbose_license):
     if qhull:
         licenseName = "Qhull"
         return licenseName
+    if reciprocal and public and license and licenseVersion == "1.5":
+        licenseName = "RPL-1.5"
+        return licenseName
+    if reciprocal and public and license and licenseVersion == "1.1":
+        licenseName = "RPL-1.1"
+        return licenseName
+
     if affero:
         licenseName = "AGPL"
     if lesser:
