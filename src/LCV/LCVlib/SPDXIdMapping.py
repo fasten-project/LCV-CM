@@ -148,6 +148,9 @@ def DynamicMapping(verbose_license):
     mozilla=False
     exception=False
     database=False
+    sleepycat=False
+    ntp=False
+    attribution=False
 
 
     list_of_words = verbose_license.split()
@@ -210,6 +213,12 @@ def DynamicMapping(verbose_license):
             mozilla=True
         if word.lower() == "exception":
             exception=True
+        if word.lower() == "sleepycat":
+            exception=True
+        if word.lower() == "ntp":
+            ntp=True
+        if word.lower() == "attribution":
+            attribution=True
 
     # after scanning the whole verbose license try to assign spdx-id.
     if academic:
@@ -274,6 +283,15 @@ def DynamicMapping(verbose_license):
         return licenseName
     if mozilla and licenseVersion == "2.0" and exception:
         licenseName = "MPL-2.0-no-copyleft-exception"
+        return licenseName
+    if sleepycat:
+        licenseName = "Sleepycat"
+        return licenseName
+    if ntp and attribution:
+        licenseName = "NTP-0"
+        return licenseName
+    if ntp and not attribution:
+        licenseName = "NTP"
         return licenseName
 
     if affero:
