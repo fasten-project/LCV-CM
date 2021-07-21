@@ -158,6 +158,8 @@ def DynamicMapping(verbose_license):
     commons=False
     zero=False
     openssl=False
+    python=False
+    software=False
 
 
     list_of_words = verbose_license.split()
@@ -240,6 +242,10 @@ def DynamicMapping(verbose_license):
             zero=True
         if word.lower() == "openssl":
             openssl=True
+        if word.lower() == "python":
+            python=True
+        if word.lower() == "software":
+            software=True
 
     # after scanning the whole verbose license try to assign spdx-id.
     if academic:
@@ -326,7 +332,12 @@ def DynamicMapping(verbose_license):
     if creative and zero:
         licenseName = "CC0-1.0"
         return licenseName
-
+    if python and software:
+        licenseName = "PSF-2.0"
+        return licenseName
+    if python and licenseVersion == "2.0" and not software:
+        licenseName = "Python-2.0"
+        return licenseName
     if openssl:
         licenseName = "OpenSSL"
         return licenseName
