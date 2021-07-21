@@ -157,6 +157,7 @@ def DynamicMapping(verbose_license):
     creative=False
     commons=False
     zero=False
+    openssl=False
 
 
     list_of_words = verbose_license.split()
@@ -237,6 +238,8 @@ def DynamicMapping(verbose_license):
             commons=True
         if word.lower() == "zero":
             zero=True
+        if word.lower() == "openssl":
+            openssl=True
 
     # after scanning the whole verbose license try to assign spdx-id.
     if academic:
@@ -322,6 +325,10 @@ def DynamicMapping(verbose_license):
         return licenseName
     if creative and zero:
         licenseName = "CC0-1.0"
+        return licenseName
+
+    if openssl:
+        licenseName = "OpenSSL"
         return licenseName
 
     if affero:
