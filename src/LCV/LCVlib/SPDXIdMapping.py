@@ -154,6 +154,9 @@ def DynamicMapping(verbose_license):
     upl=False
     permissive=False
     universal=False
+    creative=False
+    commons=False
+    zero=False
 
 
     list_of_words = verbose_license.split()
@@ -228,6 +231,12 @@ def DynamicMapping(verbose_license):
             permissive=True
         if word.lower() == "universal":
             universal=True
+        if word.lower() == "creative":
+            creative=True
+        if word.lower() == "commons":
+            commons=True
+        if word.lower() == "zero":
+            zero=True
 
     # after scanning the whole verbose license try to assign spdx-id.
     if academic:
@@ -307,6 +316,12 @@ def DynamicMapping(verbose_license):
         return licenseName
     if universal and permissive:
         licenseName = "UPL-1.0"
+        return licenseName
+    if creative and commons and universal:
+        licenseName = "CC0-1.0"
+        return licenseName
+    if creative and zero:
+        licenseName = "CC0-1.0"
         return licenseName
 
     if affero:
