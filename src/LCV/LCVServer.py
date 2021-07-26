@@ -1,4 +1,5 @@
 from LCVlib.verify import retrieveOutboundLicense, CompareSPDX, CompareSPDXFlag, CompareSPDX_OSADL, Compare_OSADL
+from LCVlib.SPDXIdMapping import ConvertToSPDX
 import logging
 import signal
 import time
@@ -186,6 +187,17 @@ def LicensesInput():
     OutboundLicense = args['OutboundLicense']
     verificationList = Compare_OSADL(InboundLicenses, OutboundLicense)
     return jsonify(verificationList)
+
+@app.route('/ConvertToSPDX', methods=['POST', 'GET'])
+def ConvertToSPDXEndpoint():
+    args = request.args
+    print(args)  # For debugging
+    VerboseLicense = args['VerboseLicense']
+    #InboundLicenses = InboundLicenses.split(";")
+    #OutboundLicense = args['OutboundLicense']
+    SPDXid=ConvertToSPDX(VerboseLicense)
+    return jsonify(SPDXid)
+
 
 @app.route('/LicensesInputSPDXFlag', methods=['GET', 'POST'])
 # @app.route('/LicensesInput', methods=['POST'])
