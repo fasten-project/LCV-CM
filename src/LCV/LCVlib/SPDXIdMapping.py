@@ -309,7 +309,7 @@ def DetectWithKeywords(verbose_license):
         if "mozilla" in MappedKeywords and licenseVersion == "1.1":
             licenseName = "MPL-1.1"
             return licenseName
-        if "mozilla" in MappedKeywords and licenseVersion == "2.0" and exception not in MappedKeywords:
+        if "mozilla" in MappedKeywords and licenseVersion == "2.0" and "exception" not in MappedKeywords:
             licenseName = "MPL-2.0"
             return licenseName
         if "mozilla" in MappedKeywords and "exception" in MappedKeywords and licenseVersion == "2.0":
