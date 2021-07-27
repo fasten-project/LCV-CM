@@ -15,7 +15,7 @@ import csv
 * SPDX-License-Identifier: MIT
 '''
 
-licenses = ["AFL","AGPL","Apache","Artistic","BSD","BSL","bzip2","CC0","CDDL","CPL","curl","EFL","EPL","EUPL","FTL","GPL","HPND","IBM","ICU","IJG","IPL","ISC",
+licenses = ["AFL","AGPL","Apache","Artistic","BSD","BSL","bzip2","CC0","CDDL","CPE","CPL","curl","EFL","EPL","EUPL","FTL","GPL","HPND","IBM","ICU","IJG","IPL","ISC",
 "LGPL","Libpng","libtiff","MirOS","MIT","CMU","MPL","MS","NBPL","NTP","OpenSSL","OSL","Python","Qhull","RPL","SunPro","Unicode","UPL","WTFPL","X11","XFree86","Zlib","zlib-acknowledgement"]
 versions = ["1.0","1.0.5","1.0.6","1.1","1.2","1.5","2.0","2.1","3.0","3.1","1","2","3","4","5"]
 
@@ -162,7 +162,7 @@ def DetectWithKeywords(verbose_license):
     orLater = False
     only = False
     DynamicMappingKeywordsList=[
-        "2010","academic","affero","attribution","berkeley","bsd","bzip","cmu","commons","creative","commons","database","distribution","eclipse","epl","eupl","european",
+        "2010","academic","affero","attribution","berkeley","bsd","bzip","classpath","cmu","cpe","commons","creative","commons","database","distribution","eclipse","epl","eupl","european",
         "exception","general","ibm","later","lesser","libpng","libary","license","miros","mozilla","mpl,""ntp","only","openssl","patent","python","png","power","powerpc","public","permissive","qhull",
         "reciprocal","software","tiff","uc","universal","upl","zlib","zero"]
 
@@ -215,6 +215,9 @@ def DetectWithKeywords(verbose_license):
             return licenseName
         if "bsd" in MappedKeywords and "database" in MappedKeywords:
             licenseName = "Sleepycat"
+            return licenseName
+        if "classpath" in MappedKeywords or "cpe" in MappedKeywords:
+            licenseName = "GPL-2.0-with-classpath-exception"
             return licenseName
         if "ibm" in MappedKeywords and "public" in MappedKeywords:
             licenseName = "IPL-1.0"
