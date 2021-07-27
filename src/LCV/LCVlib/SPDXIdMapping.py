@@ -42,21 +42,14 @@ def IsInAliases(single_verbose_license):
             return IsInAliases
 
 def StaticMapping(single_verbose_license):
-    #1540 entries
     CSVfilePath = "../../csv/spdx-id.csv"
     column_names_list = ['Scancode', 'SPDX-ID']
     df = CSV_to_dataframe(CSVfilePath, column_names_list)
     df = df.set_index('Scancode')
-    #IsAnAlias = False
-    # @Michele you should insert a check upon the column of "scancode name",
-    # if the license is there, enter the cycle
-    # if not, run the Dynamic Method. <--- this is done in ConvertToSPDX function
-    ##########################################################
-    # After the dynamic method, a keyerror should be handled
-    # you should provide an output without producing a KeyError <--- still should be handled
     single_verbose_license_SPDX_id = df.loc[single_verbose_license]['SPDX-ID']
     if single_verbose_license_SPDX_id is not np.nan:
         return single_verbose_license_SPDX_id
+    #probably this else shouldn't exist
     else:
         return single_verbose_license
 
@@ -86,7 +79,6 @@ def ConvertToSPDX(verbose_license):
     else:
         license_names = []
         license_name = DynamicMapping(verbose_license)
-        #print("After dynamicMapping in ConvertToSPDX")
         print("Dynamic mapping result: ")
         print(license_name)
         IsAnAlias = IsInAliases(license_name)
@@ -152,8 +144,18 @@ def DetectWithAcronyms(verbose_license):
     else:
         return verbose_license
 
+def ConformVersionNumber(licenseVersion):
+    pattern = 'v[+-]?([0-9]*[.])?[0-9]+'
+    matchObj = re.match(pattern,licenseVersion)
+    if matchObj:
+        licenseVersion = licenseVersion.replace('v','')
+        return licenseVersion
+    else:
+        return licenseVersion
+
+
 def DetectWithKeywords(verbose_license):
-    # probably you could declare globally this variable - inasmuch it is also used by the DetectWithAcronyms() function
+    # probably you could declare globally these variables - inasmuch it is also used by the DetectWithAcronyms() function
     licenseVersion = None
     licenseName = None
     supposedLicense = None
@@ -161,13 +163,16 @@ def DetectWithKeywords(verbose_license):
     only = False
     DynamicMappingKeywordsList=[
         "2010","academic","affero","attribution","berkeley","bsd","bzip","cmu","commons","creative","commons","database","distribution","eclipse","epl","eupl","european",
-        "exception","general","ibm","later","lesser","libpng","license","miros","mozilla","mpl,""ntp","only","openssl","patent","python","png","power","powerpc","public","permissive","qhull",
+        "exception","general","ibm","later","lesser","libpng","libary","license","miros","mozilla","mpl,""ntp","only","openssl","patent","python","png","power","powerpc","public","permissive","qhull",
         "reciprocal","software","tiff","uc","universal","upl","zlib","zero"]
 
     MappedKeywords=[]
     list_of_words = verbose_license.split()
     #check with keywords
     for word in list_of_words:
+        if bool(re.match('v', word, re.I)):
+             word = ConformVersionNumber(word)
+        print("After running ConformVersionNumber: "+word)
         if word.lower() in DynamicMappingKeywordsList:
             MappedKeywords.append(word.lower())
         if word in versions:
@@ -293,7 +298,7 @@ def DetectWithKeywords(verbose_license):
 
         if "affero" in MappedKeywords:
             licenseName = "AGPL"
-        if "lesser" in MappedKeywords:
+        if "lesser" or "library"in MappedKeywords:
             licenseName = "LGPL"
         if "general" in MappedKeywords and "affero" not in MappedKeywords and "lesser" not in MappedKeywords:
             licenseName = "GPL"
