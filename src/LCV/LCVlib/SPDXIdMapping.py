@@ -15,9 +15,10 @@ import csv
 * SPDX-License-Identifier: MIT
 '''
 
-licenses = ["AFL","AGPL","Apache","Artistic","BSD","BSL","bzip2","CC0","CDDL","CPE","CPL","curl","EFL","EPL","EUPL","FTL","GPL","HPND","IBM","ICU","IJG","IPL","ISC",
-"LGPL","Libpng","libtiff","MirOS","MIT","CMU","MPL","MS","NBPL","NTP","OpenSSL","OSL","Python","Qhull","RPL","SunPro","Unicode","UPL","WTFPL","X11","XFree86","Zlib","zlib-acknowledgement"]
-versions = ["1.0","1.0.5","1.0.6","1.1","1.2","1.5","2.0","2.1","3.0","3.1","1","2","3","4","5"]
+licenses = ["AFL", "AGPL", "Apache", "Artistic", "BSD", "BSL", "bzip2", "CC0", "CDDL", "CPE", "CPL", "curl", "EFL", "EPL", "EUPL", "FTL", "GPL", "HPND", "IBM", "ICU", "IJG", "IPL", "ISC",
+            "LGPL", "Libpng", "libtiff", "MirOS", "MIT", "CMU", "MPL", "MS", "NBPL", "NTP", "OpenSSL", "OSL", "Python", "Qhull", "RPL", "SunPro", "Unicode", "UPL", "WTFPL", "X11", "XFree86", "Zlib", "zlib-acknowledgement"]
+versions = ["1.0", "1.0.5", "1.0.6", "1.1", "1.2", "1.5",
+            "2.0", "2.1", "3.0", "3.1", "1", "2", "3", "4", "5"]
 
 
 def CSV_to_dataframe(CSVfilePath, column_names_list):
@@ -27,19 +28,22 @@ def CSV_to_dataframe(CSVfilePath, column_names_list):
     df = pd.read_csv(CSVfilePath, usecols=column_names_list)
     return df
 
+
 def IsInAliases(single_verbose_license):
     CSVfilePath = "../../csv/spdx-id.csv"
     IsInAliases = False
     with open(CSVfilePath, 'rt') as f:
         reader = csv.reader(f, delimiter=',')
         for row in reader:
-            if single_verbose_license == row[0]: # if the username shall be on column 3 (-> index 2)
-                print (single_verbose_license+" is a recognized Alias")
+            # if the username shall be on column 3 (-> index 2)
+            if single_verbose_license == row[0]:
+                print(single_verbose_license+" is a recognized Alias")
                 IsInAliases = True
                 return IsInAliases
         if not IsInAliases:
-            print (single_verbose_license+" is a not recognized Alias")
+            print(single_verbose_license+" is a not recognized Alias")
             return IsInAliases
+
 
 def StaticMapping(single_verbose_license):
     CSVfilePath = "../../csv/spdx-id.csv"
@@ -53,15 +57,16 @@ def StaticMapping(single_verbose_license):
     else:
         return single_verbose_license
 
+
 def IsAnSPDX(license_name):
     IsSPDX = False
     with open('../../csv/SPDX_license_name.csv', 'rt') as f:
-         reader = csv.reader(f)
-         for row in reader:
-              for field in row:
-                  if field == license_name:
-                      IsSPDX = True
-                      return IsSPDX
+        reader = csv.reader(f)
+        for row in reader:
+            for field in row:
+                if field == license_name:
+                    IsSPDX = True
+                    return IsSPDX
 
 
 def ConvertToSPDX(verbose_license):
@@ -72,7 +77,7 @@ def ConvertToSPDX(verbose_license):
         license = StaticMapping(verbose_license)
         # IF license IS An SPDX ID
         IsSPDX = IsAnSPDX(license)
-        if IsSPDX :
+        if IsSPDX:
             print(license+" is an SPDX-id")
             return license
     # if verbose license IS NOT within aliases - run dynamic mapping
@@ -86,7 +91,7 @@ def ConvertToSPDX(verbose_license):
             print(license_name)
             license_mapped = StaticMapping(license_name)
             IsSPDX = IsAnSPDX(license_mapped)
-            if IsSPDX :
+            if IsSPDX:
                 print(license_mapped+" is an SPDX-id")
                 return license_mapped
         else:
@@ -113,21 +118,21 @@ def DetectWithAcronyms(verbose_license):
     licenseVersion = None
     licenseName = None
     supposedLicense = None
-    only=False
-    orLater=False
+    only = False
+    orLater = False
 
     list_of_words = verbose_license.split()
     for word in list_of_words:
         if word in licenses:
-            licenseName=word
+            licenseName = word
         if word in versions:
-            licenseVersion=word
+            licenseVersion = word
             if licenseVersion == "1" or "2" or "3" or "4" or "5":
-                licenseVersion=str(float(licenseVersion))
+                licenseVersion = str(float(licenseVersion))
         if word.lower() == "later":
-            orLater=True
+            orLater = True
         if word.lower() == "only":
-            only=True
+            only = True
     if licenseName is not None and licenseVersion is None:
         supposedLicense = licenseName
     if not orLater and not only:
@@ -144,11 +149,12 @@ def DetectWithAcronyms(verbose_license):
     else:
         return verbose_license
 
+
 def ConformVersionNumber(licenseVersion):
     pattern = 'v[+-]?([0-9]*[.])?[0-9]+'
-    matchObj = re.match(pattern,licenseVersion)
+    matchObj = re.match(pattern, licenseVersion)
     if matchObj:
-        licenseVersion = licenseVersion.replace('v','')
+        licenseVersion = licenseVersion.replace('v', '')
         return licenseVersion
     else:
         return licenseVersion
@@ -161,13 +167,13 @@ def DetectWithKeywords(verbose_license):
     supposedLicense = None
     orLater = False
     only = False
-    DynamicMappingKeywordsList=[
-        "2010","2014","academic","affero","attribution","berkeley","bsd","bzip","classpath","clear","cmu","cpe","commons","creative","database","distribution","eclipse","epl","eupl","european",
-        "exception","general","ibm","later","lesser","libpng","libary","license","miros","mozilla","modification","mpi","mpl","ntp","nuclear","national","only","open","openssl","patent","python",
-        "png","power","powerpc","public","permissive","qhull","reciprocal","shortened","software","tiff","uc","universal",
-        "upl","views","warranty","zlib","zero"]
+    DynamicMappingKeywordsList = [
+        "2010", "2014", "academic", "affero", "attribution", "berkeley", "bsd", "bzip", "classpath", "clear", "cmu", "cpe", "commons", "creative", "database", "distribution", "eclipse", "epl", "eupl", "european",
+        "exception", "general", "ibm", "later", "lesser", "libpng", "libary", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "nuclear", "national", "only", "open", "openssl", "patent", "python",
+        "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened", "software", "tiff", "uc", "universal",
+        "upl", "views", "warranty", "zlib", "zero"]
 
-    MappedKeywords=[]
+    MappedKeywords = []
     list_of_words = verbose_license.split()
     for word in list_of_words:
         if '-' in word:
@@ -176,19 +182,18 @@ def DetectWithKeywords(verbose_license):
             for string in strings:
                 list_of_words.append(string)
 
-
     #check with keywords
     for word in list_of_words:
         if bool(re.match('v', word, re.I)):
-             word = ConformVersionNumber(word)
+            word = ConformVersionNumber(word)
         print("After running ConformVersionNumber: "+word)
         if word.lower() in DynamicMappingKeywordsList:
             MappedKeywords.append(word.lower())
         if word in versions:
             print(word)
-            licenseVersion=str(word)
+            licenseVersion = str(word)
             if licenseVersion == "1" or "2" or "3" or "4" or "5":
-                licenseVersion=str(float(licenseVersion))
+                licenseVersion = str(float(licenseVersion))
             MappedKeywords.append(licenseVersion)
     print("Mapped Keywords:")
     print(MappedKeywords)
@@ -239,7 +244,7 @@ def DetectWithKeywords(verbose_license):
                 if "warranty" in MappedKeywords:
                     licenseName = "BSD-3-Clause-No-Nuclear-Warranty"
                     return licenseName
-                licenseName= "BSD-3-Clause-No-Nuclear-License"
+                licenseName = "BSD-3-Clause-No-Nuclear-License"
                 return licenseName
             if "modification" in MappedKeywords:
                 licenseName = "BSD-3-Clause-Modification"
@@ -262,13 +267,12 @@ def DetectWithKeywords(verbose_license):
             if "patent" in MappedKeywords:
                 licenseName = "BSD-2-Clause-Patent"
                 return licenseName
-            if licenseVersion is "2.0":
+            if licenseVersion == "2.0":
                 licenseName = "BSD-2-Clause"
                 return licenseName
-            if licenseVersion is "3.0":
+            if licenseVersion == "3.0":
                 licenseName = "BSD-3-Clause"
                 return licenseName
-
 
         if "classpath" in MappedKeywords or "cpe" in MappedKeywords:
             licenseName = "GPL-2.0-with-classpath-exception"
@@ -355,7 +359,7 @@ def DetectWithKeywords(verbose_license):
 
         if "affero" in MappedKeywords:
             licenseName = "AGPL"
-        if "lesser" or "library"in MappedKeywords:
+        if "lesser" or "library" in MappedKeywords:
             licenseName = "LGPL"
         if "general" in MappedKeywords and "affero" not in MappedKeywords and "lesser" not in MappedKeywords:
             licenseName = "GPL"
@@ -383,21 +387,22 @@ def DynamicMapping(verbose_license):
     detectedWithAcronymsLicense = DetectWithAcronyms(verbose_license)
     IsSPDX = IsAnSPDX(detectedWithAcronymsLicense)
 
-    if IsSPDX :
+    if IsSPDX:
         print(detectedWithAcronymsLicense+" is an SPDX-id")
         return detectedWithAcronymsLicense
     IsAnAlias = IsInAliases(detectedWithAcronymsLicense)
     if IsAnAlias:
         print(detectedWithAcronymsLicense)
-        detectedWithAcronymsLicense = StaticMapping(detectedWithAcronymsLicense)
+        detectedWithAcronymsLicense = StaticMapping(
+            detectedWithAcronymsLicense)
         IsSPDX = IsAnSPDX(detectedWithAcronymsLicense)
-        if IsSPDX :
+        if IsSPDX:
             print(detectedWithAcronymsLicense+" is an SPDX-id")
             return detectedWithAcronymsLicense
 
     detectedWithKeywordsLicense = DetectWithKeywords(verbose_license)
     IsSPDX = IsAnSPDX(detectedWithKeywordsLicense)
-    if IsSPDX :
+    if IsSPDX:
       print(detectedWithKeywordsLicense+" is an SPDX-id")
       return detectedWithKeywordsLicense
     IsAnAlias = IsInAliases(detectedWithKeywordsLicense)
@@ -405,7 +410,7 @@ def DynamicMapping(verbose_license):
       print(detectedWithKeywordsLicense)
       detectedWithKeywordsLicense = StaticMapping(detectedWithKeywordsLicense)
       IsSPDX = IsAnSPDX(detectedWithKeywordsLicense)
-      if IsSPDX :
+      if IsSPDX:
           print(detectedWithKeywordsLicense+" is an SPDX-id")
           return detectedWithKeywordsLicense
     if not IsAnAlias:
