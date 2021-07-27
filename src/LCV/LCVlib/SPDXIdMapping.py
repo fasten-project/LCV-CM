@@ -162,12 +162,21 @@ def DetectWithKeywords(verbose_license):
     orLater = False
     only = False
     DynamicMappingKeywordsList=[
-        "2010","academic","affero","attribution","berkeley","bsd","bzip","classpath","cmu","cpe","commons","creative","commons","database","distribution","eclipse","epl","eupl","european",
-        "exception","general","ibm","later","lesser","libpng","libary","license","miros","mozilla","mpl,""ntp","only","openssl","patent","python","png","power","powerpc","public","permissive","qhull",
-        "reciprocal","software","tiff","uc","universal","upl","zlib","zero"]
+        "2010","2014","academic","affero","attribution","berkeley","bsd","bzip","classpath","clear","cmu","cpe","commons","creative","database","distribution","eclipse","epl","eupl","european",
+        "exception","general","ibm","later","lesser","libpng","libary","license","miros","mozilla","modification","mpi","mpl","ntp","nuclear","national","only","open","openssl","patent","python",
+        "png","power","powerpc","public","permissive","qhull","reciprocal","shortened","software","tiff","uc","universal",
+        "upl","views","warranty","zlib","zero"]
 
     MappedKeywords=[]
     list_of_words = verbose_license.split()
+    for word in list_of_words:
+        if '-' in word:
+            words = word.replace('-', ' ')
+            strings = words.split()
+            for string in strings:
+                list_of_words.append(string)
+
+
     #check with keywords
     for word in list_of_words:
         if bool(re.match('v', word, re.I)):
@@ -207,15 +216,60 @@ def DetectWithKeywords(verbose_license):
         if "cmu" in MappedKeywords:
             licenseName = "MIT-CMU"
             return licenseName
-        if "bsd" in MappedKeywords and "patent" in MappedKeywords:
-            licenseName = "BSD-2-Clause-Patent"
-            return licenseName
-        if "bsd" in MappedKeywords and "uc" in MappedKeywords:
-            licenseName = "BSD-4-Clause-UC"
-            return licenseName
-        if "bsd" in MappedKeywords and "database" in MappedKeywords:
-            licenseName = "Sleepycat"
-            return licenseName
+        if "bsd" in MappedKeywords:
+            if "open" and "mpi" in MappedKeywords:
+                licenseName = "BSD-3-Clause-Open-MPI"
+                return licenseName
+            if "patent" in MappedKeywords:
+                licenseName = "BSD-2-Clause-Patent"
+                return licenseName
+            if "uc" in MappedKeywords:
+                licenseName = "BSD-4-Clause-UC"
+                return licenseName
+            if "database" in MappedKeywords:
+                licenseName = "Sleepycat"
+                return licenseName
+            if "shortened" in MappedKeywords:
+                licenseName = "BSD-4-Clause-Shortened"
+                return licenseName
+            if "nuclear" in MappedKeywords:
+                if "2014" in MappedKeywords:
+                    licenseName = "BSD-3-Clause-No-Nuclear-License-2014"
+                    return licenseName
+                if "warranty" in MappedKeywords:
+                    licenseName = "BSD-3-Clause-No-Nuclear-Warranty"
+                    return licenseName
+                licenseName= "BSD-3-Clause-No-Nuclear-License"
+                return licenseName
+            if "modification" in MappedKeywords:
+                licenseName = "BSD-3-Clause-Modification"
+                return licenseName
+            if "national" in MappedKeywords:
+                licenseName = "BSD-3-Clause-LBNL"
+                return licenseName
+            if "clear" in MappedKeywords:
+                licenseName = "BSD-3-Clause-Clear"
+                return licenseName
+            if "attribution" in MappedKeywords:
+                licenseName = "BSD-3-Clause-Attribution"
+                return licenseName
+            if "military" in MappedKeywords:
+                licenseName = "BSD-3-Clause-No-Military-License"
+                return licenseName
+            if "views" in MappedKeywords:
+                licenseName = "BSD-2-Clause-Views"
+                return licenseName
+            if "patent" in MappedKeywords:
+                licenseName = "BSD-2-Clause-Patent"
+                return licenseName
+            if licenseVersion is "2.0":
+                licenseName = "BSD-2-Clause"
+                return licenseName
+            if licenseVersion is "3.0":
+                licenseName = "BSD-3-Clause"
+                return licenseName
+
+
         if "classpath" in MappedKeywords or "cpe" in MappedKeywords:
             licenseName = "GPL-2.0-with-classpath-exception"
             return licenseName
