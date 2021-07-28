@@ -46,6 +46,15 @@ versions = ["1.0","1.0.5","1.0.6","1.1","1.5","2.0","2.1","3.0","3.1"]
 
 # To do: excluding the "," from parsing - currently it remains attached to the License, word e.g.
 
+MappedKeywords=["general","library"]
+if ("general" in MappedKeywords) and (("affero" and "lesser" and "library") not in MappedKeywords):# and "lesser" not in MappedKeywords:
+    licenseName = "GPL"
+    print(licenseName)
+else:
+    licenseName = "AGPL"
+    print(licenseName)
+
+'''
 def DetectWithAcronyms(verbose_license):
     licenseVersion = None
     licenseName = None
@@ -232,8 +241,8 @@ def DetectWithKeywords(verbose_license):
         return verbose_license
 
 
-
-
+'''
+'''
 def DynamicMappingRefactoring(verbose_license):
     detectedWithAcronymsLicense = DetectWithAcronyms(verbose_license)
     IsSPDX = IsAnSPDX(detectedWithAcronymsLicense)
@@ -264,7 +273,7 @@ def DynamicMappingRefactoring(verbose_license):
           return detectedWithKeywordsLicense
     if not IsAnAlias:
         return verbose_license
-    '''
+
     if supposedLicense is not None:
         print("Supposed license:")
         print(supposedLicense)
@@ -284,8 +293,11 @@ def DynamicMappingRefactoring(verbose_license):
         #print("enters here")
         #return verbose_license,supposedLicenseSPDX
     '''
+
+'''
 for verbose_license in license_list:
     print("################")
     SPDX_id=DynamicMappingRefactoring(verbose_license)
     print("Resulting SPDX:")
     print(SPDX_id)
+'''
