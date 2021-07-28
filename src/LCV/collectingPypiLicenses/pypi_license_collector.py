@@ -22,10 +22,9 @@ import re
 
 
 def RetrievePypiLicenseInformation(packageName,packageVersion):
-    #GET https://pypi.org/pypi/standalone/json
+    #Example: GET https://pypi.org/pypi/standalone/1.0.1/json
     response = requests.get("https://pypi.org/pypi/"+packageName+"/"+packageVersion+"/json")
-    jsonResponse=response.json()
-    #data = json.loads(jsonResponse)
+    jsonResponse=response.json()    
     license=(jsonResponse["info"]["license"])
     return license
 
@@ -59,15 +58,3 @@ for package in packages:
     print(license)
     appendToFile(license)
     time.sleep(5)
-
-'''
-license = RetrievePypiLicenseInformation("standalone","1.0.1")
-print(license)
-appendToFile(license)
-'''
-
-'''
-for packageName in packages:
-    license = RetrievePypiLicenseInformation("standalone","1.0")
-    appendToFile(license)
-'''
