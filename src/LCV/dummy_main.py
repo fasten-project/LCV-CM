@@ -19,6 +19,38 @@ from LCVlib.verify import CSV_to_dataframeOSADL
 * SPDX-License-Identifier: MIT
 '''
 
+
+
+def RetrievePypiLicenseInformation(packageName,packageVersion):
+    #GET https://pypi.org/pypi/standalone/json
+    response = requests.get("https://pypi.org/pypi/"+packageName+"/"+packageVersion+"/json")
+    jsonResponse=response.json()
+    #data = json.loads(jsonResponse)
+    license=(jsonResponse["info"]["license"])
+    return license
+
+def appendToFile(license):
+    with open("pypi-license-list.txt", "a+") as file_object:
+        # Move read cursor to the start of file.
+        file_object.seek(0)
+        # If file is not empty then append '\n'
+        data = file_object.read(100)
+        if len(data) > 0 :
+            file_object.write("\n")
+        # Append text at the end of file
+        file_object.write(license)
+
+license = RetrievePypiLicenseInformation("standalone","1.0.1")
+print(license)
+appendToFile(license)
+'''
+for packageName in packages:
+    license = RetrievePypiLicenseInformation("standalone","1.0")
+    appendToFile(license)
+'''
+
+
+'''
 df = CSV_to_dataframeOSADL("../../csv/OSADL.csv")
 supported_licenses_OSADL = list(df.index)
 #print(supported_licenses_OSADL)
@@ -45,6 +77,15 @@ licenses = ["AFL","AGPL","Apache","Artistic","BSD","BSL","bzip2","CC0","CDDL","C
 versions = ["1.0","1.0.5","1.0.6","1.1","1.5","2.0","2.1","3.0","3.1"]
 
 # To do: excluding the "," from parsing - currently it remains attached to the License, word e.g.
+
+MappedKeywords=["general","library"]
+if ("general" in MappedKeywords) and (("affero" and "lesser" and "library") not in MappedKeywords):# and "lesser" not in MappedKeywords:
+    licenseName = "GPL"
+    print(licenseName)
+else:
+    licenseName = "AGPL"
+    print(licenseName)
+
 
 def DetectWithAcronyms(verbose_license):
     licenseVersion = None
@@ -232,8 +273,8 @@ def DetectWithKeywords(verbose_license):
         return verbose_license
 
 
-
-
+'''
+'''
 def DynamicMappingRefactoring(verbose_license):
     detectedWithAcronymsLicense = DetectWithAcronyms(verbose_license)
     IsSPDX = IsAnSPDX(detectedWithAcronymsLicense)
@@ -264,7 +305,7 @@ def DynamicMappingRefactoring(verbose_license):
           return detectedWithKeywordsLicense
     if not IsAnAlias:
         return verbose_license
-    '''
+
     if supposedLicense is not None:
         print("Supposed license:")
         print(supposedLicense)
@@ -284,8 +325,11 @@ def DynamicMappingRefactoring(verbose_license):
         #print("enters here")
         #return verbose_license,supposedLicenseSPDX
     '''
+
+'''
 for verbose_license in license_list:
     print("################")
     SPDX_id=DynamicMappingRefactoring(verbose_license)
     print("Resulting SPDX:")
     print(SPDX_id)
+'''

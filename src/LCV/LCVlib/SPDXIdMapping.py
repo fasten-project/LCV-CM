@@ -169,7 +169,7 @@ def DetectWithKeywords(verbose_license):
     only = False
     DynamicMappingKeywordsList = [
         "2010", "2014", "academic", "affero", "attribution", "berkeley", "bsd", "bzip", "classpath", "clear", "cmu", "cpe", "commons", "creative", "database", "distribution", "eclipse", "epl", "eupl", "european",
-        "exception", "general", "ibm", "later", "lesser", "libpng", "libary", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "nuclear", "national", "only", "open", "openssl", "patent", "python",
+        "exception", "general", "ibm", "later", "lesser", "libpng", "library", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "nuclear", "national", "only", "open", "openssl", "patent", "python",
         "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened", "software", "tiff", "uc", "universal",
         "upl", "views", "warranty", "zlib", "zero"]
 
@@ -361,8 +361,10 @@ def DetectWithKeywords(verbose_license):
             licenseName = "AGPL"
         if "lesser" or "library" in MappedKeywords:
             licenseName = "LGPL"
-        if "general" in MappedKeywords and "affero" not in MappedKeywords and "lesser" not in MappedKeywords:
+            print(licenseName)
+        if ("general" in MappedKeywords) and (("affero" and "lesser" and "library") not in MappedKeywords):# and "lesser" not in MappedKeywords:
             licenseName = "GPL"
+            print(licenseName)
     print("License Version")
     print(licenseVersion)
     if licenseName is not None and licenseVersion is None:
