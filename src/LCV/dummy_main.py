@@ -19,6 +19,38 @@ from LCVlib.verify import CSV_to_dataframeOSADL
 * SPDX-License-Identifier: MIT
 '''
 
+
+
+def RetrievePypiLicenseInformation(packageName,packageVersion):
+    #GET https://pypi.org/pypi/standalone/json
+    response = requests.get("https://pypi.org/pypi/"+packageName+"/"+packageVersion+"/json")
+    jsonResponse=response.json()
+    #data = json.loads(jsonResponse)
+    license=(jsonResponse["info"]["license"])
+    return license
+
+def appendToFile(license):
+    with open("pypi-license-list.txt", "a+") as file_object:
+        # Move read cursor to the start of file.
+        file_object.seek(0)
+        # If file is not empty then append '\n'
+        data = file_object.read(100)
+        if len(data) > 0 :
+            file_object.write("\n")
+        # Append text at the end of file
+        file_object.write(license)
+
+license = RetrievePypiLicenseInformation("standalone","1.0.1")
+print(license)
+appendToFile(license)
+'''
+for packageName in packages:
+    license = RetrievePypiLicenseInformation("standalone","1.0")
+    appendToFile(license)
+'''
+
+
+'''
 df = CSV_to_dataframeOSADL("../../csv/OSADL.csv")
 supported_licenses_OSADL = list(df.index)
 #print(supported_licenses_OSADL)
@@ -54,7 +86,7 @@ else:
     licenseName = "AGPL"
     print(licenseName)
 
-'''
+
 def DetectWithAcronyms(verbose_license):
     licenseVersion = None
     licenseName = None
