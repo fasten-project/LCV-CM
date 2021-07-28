@@ -46,14 +46,19 @@ with open('requirements.txt') as f:
     print(packages)
 
 for package in packages:
-    if '==' in package:
+    if ('==' in package):
         packages = package.replace('==', ' ')
-        strings = packages.split()
-        packageName=strings[0]
-        packageVersion=strings[1]
-        license = RetrievePypiLicenseInformation(packageName,packageVersion)
-        print(license)
-        appendToFile(license)
+    if ('>=' in package):
+        packages = package.replace('>=', ' ')
+    if ('=>' in package):
+        packages = package.replace('=>', ' ')
+    strings = packages.split()
+    packageName=strings[0]
+    packageVersion=strings[1]
+    license = RetrievePypiLicenseInformation(packageName,packageVersion)
+    print(license)
+    appendToFile(license)
+    time.sleep(5)
 
 '''
 license = RetrievePypiLicenseInformation("standalone","1.0.1")
