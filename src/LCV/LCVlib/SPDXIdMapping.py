@@ -169,7 +169,7 @@ def DetectWithKeywords(verbose_license):
     only = False
     DynamicMappingKeywordsList = [
         "2010", "2014", "academic", "affero", "attribution", "berkeley", "bsd", "bzip", "classpath", "clear", "cmu", "cpe", "commons", "creative", "database", "distribution", "eclipse", "epl", "eupl", "european",
-        "exception", "general", "ibm", "later", "lesser", "libpng", "library", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "nuclear", "national", "only", "open", "openssl", "patent", "python",
+        "exception","expat", "general", "ibm", "later", "lesser", "libpng", "library", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "nuclear", "national", "only", "open", "openssl", "patent", "python",
         "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened", "software", "tiff", "uc", "universal",
         "upl", "views", "warranty", "zlib", "zero"]
 
@@ -276,6 +276,9 @@ def DetectWithKeywords(verbose_license):
 
         if "classpath" in MappedKeywords or "cpe" in MappedKeywords:
             licenseName = "GPL-2.0-with-classpath-exception"
+            return licenseName
+        if "expat" in MappedKeywords:
+            licenseName = "MIT"
             return licenseName
         if "ibm" in MappedKeywords and "public" in MappedKeywords:
             licenseName = "IPL-1.0"
