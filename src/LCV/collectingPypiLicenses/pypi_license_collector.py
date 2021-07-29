@@ -24,7 +24,7 @@ import re
 def RetrievePypiLicenseInformation(packageName,packageVersion):
     #Example: GET https://pypi.org/pypi/standalone/1.0.1/json
     response = requests.get("https://pypi.org/pypi/"+packageName+"/"+packageVersion+"/json")
-    jsonResponse=response.json()    
+    jsonResponse=response.json()
     license=(jsonResponse["info"]["license"])
     return license
 
@@ -56,5 +56,6 @@ for package in packages:
     packageVersion=strings[1]
     license = RetrievePypiLicenseInformation(packageName,packageVersion)
     print(license)
-    appendToFile(license)
+    #TODO add a call to the LCV rest API endpoint /ConvertToSPDX  and add the response to the appendToFile parameter)
+    appendToFile(packageName+"=="+packageVersion+", detected pypi license:"+str(license))
     time.sleep(5)
