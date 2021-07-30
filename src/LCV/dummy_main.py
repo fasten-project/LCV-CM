@@ -29,8 +29,14 @@ def RetrievePypiLicenseInformation(packageName,packageVersion):
     license=(jsonResponse["info"]["license"])
     return license
 
+def APICallConvertToSPDX(license):
+    response = requests.get("https://lima.ewi.tudelft.nl/lcv/ConvertToSPDX?VerboseLicense="+license)
+    jsonResponse=response.json()
+    print(jsonResponse)
+    return jsonResponse
+
 def appendToFile(license):
-    with open("pypi-license-list.txt", "a+") as file_object:
+    with open("pypi-license-list-and-ConvertToSPDX.txt", "a+") as file_object:
         # Move read cursor to the start of file.
         file_object.seek(0)
         # If file is not empty then append '\n'
@@ -40,9 +46,12 @@ def appendToFile(license):
         # Append text at the end of file
         file_object.write(license)
 
-license = RetrievePypiLicenseInformation("standalone","1.0.1")
+license = RetrievePypiLicenseInformation("alabaster","0.7.10")
 print(license)
+possibleSPDX = APICallConvertToSPDX(license)
+print("Possible SPDX:"+possibleSPDX)
 appendToFile(license)
+
 '''
 for packageName in packages:
     license = RetrievePypiLicenseInformation("standalone","1.0")

@@ -28,8 +28,21 @@ def RetrievePypiLicenseInformation(packageName,packageVersion):
     license=(jsonResponse["info"]["license"])
     return license
 
+def APICallConvertToSPDX(license):
+    response = requests.get("https://lima.ewi.tudelft.nl/lcv/ConvertToSPDX?VerboseLicense="+license)
+    jsonResponse=response.json()
+    print(jsonResponse)
+    return jsonResponse
+
+def APICallIsAnSPDX(license):
+    #response = requests.get("https://lima.ewi.tudelft.nl/lcv/IsAnSPDX?VerboseLicense="+license)
+    response = requests.get("http://0.0.0.0:3251/IsAnSPDX?SPDXid="+license)
+    jsonResponse=response.json()
+    print(jsonResponse)
+    return jsonResponse
+
 def appendToFile(license):
-    with open("pypi-license-list.txt", "a+") as file_object:
+    with open("pypi-license-list-ConvertToSPDX.txt", "a+") as file_object:
         # Move read cursor to the start of file.
         file_object.seek(0)
         # If file is not empty then append '\n'
@@ -57,5 +70,14 @@ for package in packages:
     license = RetrievePypiLicenseInformation(packageName,packageVersion)
     print(license)
     #TODO add a call to the LCV rest API endpoint /ConvertToSPDX  and add the response to the appendToFile parameter)
-    appendToFile(packageName+"=="+packageVersion+", detected pypi license:"+str(license))
+    if license is not None:
+        possibleSPDX = APICallConvertToSPDX(license)
+        IsSPDX = APICallIsAnSPDX(possibleSPDX)
+        if IsSPDX:
+            IsSPDX = "SPDX conversion happened."
+        if not IsSPDX:
+            IsSPDX = "SPDX conversion NOT happened."
+        appendToFile(packageName+"=="+packageVersion+", detected pypi license:"+str(license)+",possible SPDX id:"+str(possibleSPDX)+", "+str(IsSPDX))
+    else:
+        appendToFile(packageName+"=="+packageVersion+", detected pypi license: None")
     time.sleep(5)

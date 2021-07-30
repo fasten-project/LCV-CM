@@ -184,6 +184,7 @@ def DetectWithKeywords(verbose_license):
 
     #check with keywords
     for word in list_of_words:
+        # check case insesitive starting with v words, to catch vX.X cases.
         if bool(re.match('v', word, re.I)):
             word = ConformVersionNumber(word)
         print("After running ConformVersionNumber: "+word)
