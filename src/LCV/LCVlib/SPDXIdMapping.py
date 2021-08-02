@@ -173,7 +173,7 @@ def DetectWithKeywords(verbose_license):
         "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened", "software", "tiff", "uc", "universal",
         "upl", "views", "warranty", "zlib", "zero",]
 
-    MappedKeywords = []
+    MappedKeywords = list()
     list_of_words = verbose_license.split()
     for word in list_of_words:
         if '-' in word:
@@ -363,7 +363,7 @@ def DetectWithKeywords(verbose_license):
 
         if "affero" in MappedKeywords:
             licenseName = "AGPL"
-        if "lesser" or "library" in MappedKeywords:
+        if "library" in MappedKeywords or "lesser" in MappedKeywords:
             licenseName = "LGPL"
             print(licenseName)
         if ("general" in MappedKeywords) and (("affero" and "lesser" and "library") not in MappedKeywords):# and "lesser" not in MappedKeywords:
