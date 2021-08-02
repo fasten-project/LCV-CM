@@ -30,13 +30,14 @@ def RetrievePypiLicenseInformation(packageName,packageVersion):
 
 def APICallConvertToSPDX(license):
     response = requests.get("https://lima.ewi.tudelft.nl/lcv/ConvertToSPDX?VerboseLicense="+license)
+    #response = requests.get("http://0.0.0.0:3251/ConvertToSPDX?VerboseLicense="+license)
     jsonResponse=response.json()
     #print(jsonResponse)
     return jsonResponse
 
 def APICallIsAnSPDX(license):
-    #response = requests.get("https://lima.ewi.tudelft.nl/lcv/IsAnSPDX?VerboseLicense="+license)
-    response = requests.get("http://0.0.0.0:3251/IsAnSPDX?SPDXid="+license)
+    response = requests.get("https://lima.ewi.tudelft.nl/lcv/IsAnSPDX?VerboseLicense="+license)
+    #response = requests.get("http://0.0.0.0:3251/IsAnSPDX?SPDXid="+license)
     jsonResponse=response.json()
     #print(jsonResponse)
     return jsonResponse
