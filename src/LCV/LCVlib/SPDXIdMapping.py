@@ -169,9 +169,9 @@ def DetectWithKeywords(verbose_license):
     only = False
     DynamicMappingKeywordsList = [
         "2010", "2014", "academic", "affero", "attribution", "berkeley", "bsd", "bzip", "classpath", "clear", "cmu", "cpe", "commons", "creative", "database", "distribution", "eclipse", "epl", "eupl", "european",
-        "exception","expat", "general", "ibm", "later", "lesser", "libpng", "library", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "nuclear", "national", "only", "open", "openssl", "patent", "python",
+        "exception","expat", "general", "ibm", "later", "lesser", "libpng", "library", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent", "python",
         "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened", "software", "tiff", "uc", "universal",
-        "upl", "views", "warranty", "zlib", "zero"]
+        "upl", "views", "warranty", "zlib", "zero",]
 
     MappedKeywords = []
     list_of_words = verbose_license.split()
@@ -271,7 +271,7 @@ def DetectWithKeywords(verbose_license):
             if licenseVersion == "2.0":
                 licenseName = "BSD-2-Clause"
                 return licenseName
-            if licenseVersion == "3.0":
+            if licenseVersion == "3.0" or "new" in MappedKeywords:
                 licenseName = "BSD-3-Clause"
                 return licenseName
 
