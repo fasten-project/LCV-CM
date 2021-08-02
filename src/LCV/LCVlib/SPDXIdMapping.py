@@ -169,7 +169,7 @@ def DetectWithKeywords(verbose_license):
     only = False
     DynamicMappingKeywordsList = [
         "2010", "2014", "academic", "affero", "attribution", "berkeley", "bsd", "bzip", "classpath", "clear", "cmu", "cpe", "commons", "creative", "database", "distribution", "eclipse", "epl", "eupl", "european",
-        "exception","expat", "general", "ibm", "later", "lesser", "libpng", "library", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent", "python",
+        "exception","expat", "general", "ibm", "later", "lesser", "libpng", "library", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent", "psf", "python",
         "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened", "software", "tiff", "uc", "universal",
         "upl", "views", "warranty", "zlib", "zero",]
 
@@ -341,6 +341,9 @@ def DetectWithKeywords(verbose_license):
             licenseName = "CC0-1.0"
             return licenseName
         if "python" in MappedKeywords and "software" in MappedKeywords:
+            licenseName = "PSF-2.0"
+            return licenseName
+        if "psf" in MappedKeywords:
             licenseName = "PSF-2.0"
             return licenseName
         if "python" in MappedKeywords and licenseVersion == "2.0" and "software" not in MappedKeywords:
