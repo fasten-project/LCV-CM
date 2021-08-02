@@ -31,14 +31,14 @@ def RetrievePypiLicenseInformation(packageName,packageVersion):
 def APICallConvertToSPDX(license):
     response = requests.get("https://lima.ewi.tudelft.nl/lcv/ConvertToSPDX?VerboseLicense="+license)
     jsonResponse=response.json()
-    print(jsonResponse)
+    #print(jsonResponse)
     return jsonResponse
 
 def APICallIsAnSPDX(license):
     #response = requests.get("https://lima.ewi.tudelft.nl/lcv/IsAnSPDX?VerboseLicense="+license)
     response = requests.get("http://0.0.0.0:3251/IsAnSPDX?SPDXid="+license)
     jsonResponse=response.json()
-    print(jsonResponse)
+    #print(jsonResponse)
     return jsonResponse
 
 def appendToFile(license):
@@ -68,16 +68,20 @@ for package in packages:
     packageName=strings[0]
     packageVersion=strings[1]
     license = RetrievePypiLicenseInformation(packageName,packageVersion)
-    print(license)
-    #TODO add a call to the LCV rest API endpoint /ConvertToSPDX  and add the response to the appendToFile parameter)
-    if license is not None:
+    #print(license)
+    if license is not None and not license == "":
         possibleSPDX = APICallConvertToSPDX(license)
         IsSPDX = APICallIsAnSPDX(possibleSPDX)
         if IsSPDX:
-            IsSPDX = "SPDX conversion happened."
+            IsSPDX = "Converted."
         if not IsSPDX:
-            IsSPDX = "SPDX conversion NOT happened."
-        appendToFile(packageName+"=="+packageVersion+", detected pypi license:"+str(license)+",possible SPDX id:"+str(possibleSPDX)+", "+str(IsSPDX))
+            IsSPDX = "NOT Converted."
+        #appendToFile(packageName+"=="+packageVersion+", detected pypi license:"+str(license)+",possible SPDX id:"+str(possibleSPDX)+", "+str(IsSPDX))
+        output=packageName+"=="+packageVersion+",\n"+str(license)+",\n"+str(possibleSPDX)+",\n"+str(IsSPDX)
+        print(output)
+        appendToFile(output)
     else:
-        appendToFile(packageName+"=="+packageVersion+", detected pypi license: None")
+        output=packageName+"=="+packageVersion+", detected pypi license: None"
+        print(output)
+        appendToFile(output)
     time.sleep(5)
