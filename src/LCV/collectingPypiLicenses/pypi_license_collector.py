@@ -42,7 +42,7 @@ def APICallIsAnSPDX(license):
     return jsonResponse
 
 def appendToFile(license):
-    with open("pypi-license-list-ConvertToSPDX.txt", "a+") as file_object:
+    with open("output/pypi-license-list-ConvertToSPDX.txt", "a+") as file_object:
         # Move read cursor to the start of file.
         file_object.seek(0)
         # If file is not empty then append '\n'
@@ -53,7 +53,7 @@ def appendToFile(license):
         file_object.write(license)
 
 
-with open('requirements.txt') as f:
+with open('input/requirements.txt') as f:
     packages = [line.rstrip() for line in f]
     print(packages)
 
