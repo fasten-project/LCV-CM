@@ -186,7 +186,10 @@ def DetectWithKeywords(verbose_license):
     for word in list_of_words:
         # check case insesitive starting with v words, to catch vX.X cases.
         if bool(re.match('v', word, re.I)):
-            word = ConformVersionNumber(word)
+            word = ConformVersionNumber(word)        
+        if "(" or ")" or "[" or "]" in word:
+            word = re.sub(r"[()]", "", word)
+            word = re.sub(r"[\[\]]", "", word)
         print("After running ConformVersionNumber: "+word)
         if word.lower() in DynamicMappingKeywordsList:
             MappedKeywords.append(word.lower())
