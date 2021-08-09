@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: lcv-fasten-restapi
-          image: docker.pkg.github.com/fasten-project/lcv-cm/fasten.lcv.plugin:412a9538          
+          image: ghcr.io/fasten-project/lcv-cm/fasten.lcv.plugin:2e4032e5          
           args:
           ports:
             - containerPort: 3251
