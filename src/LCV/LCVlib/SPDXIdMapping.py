@@ -169,7 +169,7 @@ def DetectWithKeywords(verbose_license):
     only = False
     DynamicMappingKeywordsList = [
         "2010", "2014", "academic", "affero", "attribution", "berkeley", "bsd", "bzip", "classpath", "clear", "cmu", "cpe", "commons", "creative", "database", "distribution", "eclipse", "epl", "eupl", "european",
-        "exception","expat", "general", "ibm", "later", "lesser", "libpng", "library", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent", "psf","psfl", "python",
+        "exception","expat", "general", "ibm", "later", "lesser","lgpl", "libpng", "library", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent", "psf","psfl", "python",
         "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened", "software", "tiff", "uc", "universal",
         "upl", "views", "warranty", "zlib", "zero",]
 
@@ -346,7 +346,7 @@ def DetectWithKeywords(verbose_license):
         if "python" in MappedKeywords and "software" in MappedKeywords:
             licenseName = "PSF-2.0"
             return licenseName
-        if "psf" or "psfl" in MappedKeywords:
+        if "psf" in MappedKeywords or "psfl" in MappedKeywords:
             licenseName = "PSF-2.0"
             return licenseName
         if "python" in MappedKeywords and licenseVersion == "2.0" and "software" not in MappedKeywords:
@@ -369,9 +369,20 @@ def DetectWithKeywords(verbose_license):
 
         if "affero" in MappedKeywords:
             licenseName = "AGPL"
-        if "library" in MappedKeywords or "lesser" in MappedKeywords:
+        if "library" in MappedKeywords or "lesser" in MappedKeywords or "lgpl" in MappedKeywords:
             licenseName = "LGPL"
             print(licenseName)
+            if orLater:
+                if licenseVersion == "2.0" or licenseVersion == "2.1" or licenseVersion == "3.0":
+                    licenseName = "LGPL-"+licenseVersion+"-or-later"
+                    print("inside or later")
+                    return licenseName
+            if only:
+                if licenseVersion == "2.0" or licenseVersion == "2.1" or licenseVersion == "3.0":
+                    licenseName = "LGPL-"+licenseVersion+"-only"
+                    print("inside only")
+                    return licenseName
+
         if ("general" in MappedKeywords) and (("affero" and "lesser" and "library") not in MappedKeywords):# and "lesser" not in MappedKeywords:
             licenseName = "GPL"
             print(licenseName)
