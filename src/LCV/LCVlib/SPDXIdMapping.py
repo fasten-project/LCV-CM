@@ -170,7 +170,7 @@ def DetectWithKeywords(verbose_license):
     DynamicMappingKeywordsList = [
         "2010", "2014", "academic", "affero", "attribution", "berkeley", "bsd", "bzip", "classpath", "clear", "cmu", "cpe", "commons", "creative", "database", "distribution", "eclipse", "epl", "eupl", "european",
         "exception","expat", "general", "ibm", "later", "lesser","lgpl", "libpng", "library", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent", "psf","psfl", "python",
-        "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened", "software", "tiff", "uc", "universal",
+        "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened","simplified","software", "tiff", "uc", "universal",
         "upl", "views", "warranty", "zlib", "zero",]
 
     MappedKeywords = list()
@@ -228,6 +228,9 @@ def DetectWithKeywords(verbose_license):
         if "bsd" in MappedKeywords:
             if "open" and "mpi" in MappedKeywords:
                 licenseName = "BSD-3-Clause-Open-MPI"
+                return licenseName
+            if "simplified" in MappedKeywords:
+                licenseName = "BSD-2-Clause"
                 return licenseName
             if "patent" in MappedKeywords:
                 licenseName = "BSD-2-Clause-Patent"
@@ -300,7 +303,6 @@ def DetectWithKeywords(verbose_license):
             return licenseName
         if "libpng" in MappedKeywords and "zlib" in MappedKeywords:
             licenseName = "Zlib"
-
         if "european" in MappedKeywords and licenseVersion == "1.0":
             licenseName = "EUPL-1.0"
             return licenseName
@@ -365,13 +367,10 @@ def DetectWithKeywords(verbose_license):
             if licenseVersion == "1.1":
                 licenseName = "RPL-1.1"
                 return licenseName
-        #if "reciprocal" in MappedKeywords and "public" in MappedKeywords and "license" in MappedKeywords:
-
         if "affero" in MappedKeywords:
             licenseName = "AGPL"
         if "library" in MappedKeywords or "lesser" in MappedKeywords or "lgpl" in MappedKeywords:
             licenseName = "LGPL"
-            print(licenseName)
             if orLater:
                 if licenseVersion == "2.0" or licenseVersion == "2.1" or licenseVersion == "3.0":
                     licenseName = "LGPL-"+licenseVersion+"-or-later"
@@ -385,7 +384,6 @@ def DetectWithKeywords(verbose_license):
 
         if ("general" in MappedKeywords) and (("affero" and "lesser" and "library") not in MappedKeywords):# and "lesser" not in MappedKeywords:
             licenseName = "GPL"
-            print(licenseName)
     print("License Version")
     print(licenseVersion)
     if licenseName is not None and licenseVersion is None:
