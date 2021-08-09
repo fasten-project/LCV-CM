@@ -169,7 +169,7 @@ def DetectWithKeywords(verbose_license):
     only = False
     DynamicMappingKeywordsList = [
         "2010", "2014", "academic", "affero", "attribution", "berkeley", "bsd", "bzip", "classpath", "clear", "cmu", "cpe", "commons", "creative", "database", "distribution", "eclipse", "epl", "eupl", "european",
-        "exception","expat", "general", "ibm", "later", "lesser", "libpng", "library", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent", "psf", "python",
+        "exception","expat", "general", "ibm", "later", "lesser", "libpng", "library", "license", "miros", "mozilla", "modification", "mpi", "mpl", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent", "psf","psfl", "python",
         "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened", "software", "tiff", "uc", "universal",
         "upl", "views", "warranty", "zlib", "zero",]
 
@@ -186,7 +186,7 @@ def DetectWithKeywords(verbose_license):
     for word in list_of_words:
         # check case insesitive starting with v words, to catch vX.X cases.
         if bool(re.match('v', word, re.I)):
-            word = ConformVersionNumber(word)        
+            word = ConformVersionNumber(word)
         if "(" or ")" or "[" or "]" in word:
             word = re.sub(r"[()]", "", word)
             word = re.sub(r"[\[\]]", "", word)
@@ -346,7 +346,7 @@ def DetectWithKeywords(verbose_license):
         if "python" in MappedKeywords and "software" in MappedKeywords:
             licenseName = "PSF-2.0"
             return licenseName
-        if "psf" in MappedKeywords:
+        if "psf" or "psfl" in MappedKeywords:
             licenseName = "PSF-2.0"
             return licenseName
         if "python" in MappedKeywords and licenseVersion == "2.0" and "software" not in MappedKeywords:
