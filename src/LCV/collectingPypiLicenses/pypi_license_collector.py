@@ -69,20 +69,22 @@ for package in packages:
     packageName=strings[0]
     packageVersion=strings[1]
     license = RetrievePypiLicenseInformation(packageName,packageVersion)
-    #print(license)
     if license is not None and not license == "":
         possibleSPDX = license
         IsSPDX = APICallIsAnSPDX(license)
         if IsSPDX:
             IsSPDX = "Pypi provided an SPDX id."
         else:
-            possibleSPDX = APICallConvertToSPDX(license)
+            if "+" in license:
+                licenseMod=license.replace("+", "%2B")
+                possibleSPDX = APICallConvertToSPDX(licenseMod)
+            else:
+                possibleSPDX = APICallConvertToSPDX(license)
             IsSPDX = APICallIsAnSPDX(possibleSPDX)
             if IsSPDX:
                 IsSPDX = "Converted."
             if not IsSPDX:
                 IsSPDX = "NOT Converted."
-        #appendToFile(packageName+"=="+packageVersion+", detected pypi license:"+str(license)+",possible SPDX id:"+str(possibleSPDX)+", "+str(IsSPDX))
         output=packageName+"=="+packageVersion+",\n"+str(license)+",\n"+str(possibleSPDX)+",\n"+str(IsSPDX)
         print(output)
         appendToFile(output)
