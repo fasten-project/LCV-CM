@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 import re
 import csv
+from LCVlib.VerboseLicenseParsing import DetectWithAcronyms, DetectWithKeywords, ConformVersionNumber
 
 '''
 * SPDX-FileCopyrightText: 2021 Michele Scarlato <michele.scarlato@endocode.com>
@@ -113,7 +114,7 @@ def StaticMappingList(InboundLicenses_cleaned):
             InboundLicenses_SPDX.append(license)
     return InboundLicenses_SPDX
 
-
+'''
 def DetectWithAcronyms(verbose_license):
     licenseVersion = None
     licenseName = None
@@ -148,8 +149,8 @@ def DetectWithAcronyms(verbose_license):
         return supposedLicense
     else:
         return verbose_license
-
-
+'''
+'''
 def ConformVersionNumber(licenseVersion):
     pattern = 'v[+-]?([0-9]*[.])?[0-9]+'
     matchObj = re.match(pattern, licenseVersion)
@@ -158,8 +159,8 @@ def ConformVersionNumber(licenseVersion):
         return licenseVersion
     else:
         return licenseVersion
-
-
+'''
+'''
 def DetectWithKeywords(verbose_license):
     # probably you could declare globally these variables - inasmuch it is also used by the DetectWithAcronyms() function
     licenseVersion = None
@@ -402,7 +403,7 @@ def DetectWithKeywords(verbose_license):
         return supposedLicense
     else:
         return verbose_license
-
+'''
 
 def DynamicMapping(verbose_license):
     detectedWithAcronymsLicense = DetectWithAcronyms(verbose_license)
