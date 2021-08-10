@@ -93,16 +93,13 @@ def DetectWithKeywords(verbose_license):
     list_of_words = verbose_license.split()
     for word in list_of_words:
         if '-' in word:
+            list_of_words.remove(word)
             words = word.replace('-', ' ')
             strings = words.split()
             for string in strings:
                 list_of_words.append(string)
-
-    #check with keywords
-    for word in list_of_words:
-        # check case insesitive starting with v words, to catch vX.X cases.
-        if bool(re.match('v', word, re.I)):
-            word = ConformVersionNumber(word)
+            print("list_of_words")
+            print(list_of_words)
         #@me it should be considered also the "V" case
         if 'v' in word:
             words = word.replace('v', ' ')
@@ -115,8 +112,14 @@ def DetectWithKeywords(verbose_license):
                 # append all the splitted words to the matching list
                 for word in words:
                     list_of_words.append(word)
+    #check with keywords
+    for word in list_of_words:
+        # check case insesitive starting with v words, to catch vX.X cases.
+        if bool(re.match('v', word, re.I)):
+            word = ConformVersionNumber(word)
 
-
+        if word.lower() in literalVersions:
+            licenseVersion = (str(NumberDict[word.lower()]))
         if "(" or ")" or "[" or "]" in word:
             word = re.sub(r"[()]", "", word)
             word = re.sub(r"[\[\]]", "", word)
@@ -124,14 +127,18 @@ def DetectWithKeywords(verbose_license):
         if word.lower() in DynamicMappingKeywordsList:
             MappedKeywords.append(word.lower())
         if word in versions:
-            print(word)
             licenseVersion = str(word)
+        if licenseVersion is not None:
             if licenseVersion == "1" or "2" or "3" or "4" or "5":
                 licenseVersion = str(float(licenseVersion))
-            MappedKeywords.append(licenseVersion)
+                MappedKeywords.append(licenseVersion)
+            else:
+                MappedKeywords.append(licenseVersion)
+                print(MappedKeywords)
+    MappedKeywords = list(set(MappedKeywords))
     print("Mapped Keywords:")
     print(MappedKeywords)
-    #If there are keywords matched
+    #If there are keywords matched --> this can be a dictionary and nested dictionary in case of double match
     if len(MappedKeywords):
         if "later" in MappedKeywords:
             orLater = True
