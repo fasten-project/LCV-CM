@@ -1,3 +1,4 @@
+# this module was used for d4.4 - to parse QMSTR Json's report and detect the outbound license using Github API
 '''
 * SPDX-FileCopyrightText: 2021 Michele Scarlato <michele.scarlato@endocode.com>
 *
