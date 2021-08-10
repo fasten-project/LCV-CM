@@ -25,6 +25,17 @@ def DetectWithAcronyms(verbose_license):
 
     list_of_words = verbose_license.split()
     for word in list_of_words:
+        if 'v' in word:
+            words = word.replace('v', ' ')
+            strings = words.split()
+            # check if after 'v' there is a digit
+            word2 = strings[1]
+            if word2[0].isdigit():
+                word = ConformLicenseNameAndVersionNumber(word)
+                words = word.split()
+                # append all the splitted words to the matching list
+                for word in words:
+                    list_of_words.append(word)
         if word in licenses:
             licenseName = word
         if word in versions:
@@ -61,6 +72,15 @@ def ConformVersionNumber(licenseVersion):
     else:
         return licenseVersion
 
+def ConformLicenseNameAndVersionNumber(licenseName):
+    pattern = '\w+v[0-9]?.?[0-9]'
+    matchObj = re.match(pattern, licenseName)
+    if matchObj:
+        licenseName = licenseName.replace('v', ' ')
+        return licenseName
+    else:
+        return licenseName
+
 
 def DetectWithKeywords(verbose_license):
     # probably you could declare globally these variables - inasmuch it is also used by the DetectWithAcronyms() function
@@ -83,10 +103,24 @@ def DetectWithKeywords(verbose_license):
         # check case insesitive starting with v words, to catch vX.X cases.
         if bool(re.match('v', word, re.I)):
             word = ConformVersionNumber(word)
+        #@me it should be considered also the "V" case
+        if 'v' in word:
+            words = word.replace('v', ' ')
+            strings = words.split()
+            # check if after 'v' there is a digit
+            word2 = strings[1]
+            if word2[0].isdigit():
+                word = ConformLicenseNameAndVersionNumber(word)
+                words = word.split()
+                # append all the splitted words to the matching list
+                for word in words:
+                    list_of_words.append(word)
+
+
         if "(" or ")" or "[" or "]" in word:
             word = re.sub(r"[()]", "", word)
             word = re.sub(r"[\[\]]", "", word)
-        print("After running ConformVersionNumber: "+word)
+        #print("After running ConformVersionNumber: "+word)
         if word.lower() in DynamicMappingKeywordsList:
             MappedKeywords.append(word.lower())
         if word in versions:
@@ -272,11 +306,10 @@ def DetectWithKeywords(verbose_license):
                     licenseName = "LGPL-"+licenseVersion+"-or-later"
                     print("inside or later")
                     return licenseName
-            if only:
-                if licenseVersion == "2.0" or licenseVersion == "2.1" or licenseVersion == "3.0":
-                    licenseName = "LGPL-"+licenseVersion+"-only"
-                    print("inside only")
-                    return licenseName
+            if licenseVersion == "2.0" or licenseVersion == "2.1" or licenseVersion == "3.0":
+                licenseName = "LGPL-"+licenseVersion+"-only"
+                print("inside only")
+                return licenseName
 
         if ("general" in MappedKeywords) and (("affero" and "lesser" and "library") not in MappedKeywords):# and "lesser" not in MappedKeywords:
             licenseName = "GPL"
