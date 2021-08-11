@@ -311,11 +311,18 @@ def DetectWithKeywords(verbose_license):
             if orLater:
                 if licenseVersion == "2.0" or licenseVersion == "2.1" or licenseVersion == "3.0":
                     licenseName = "LGPL-"+licenseVersion+"-or-later"
-                    print("inside or later")
                     return licenseName
             if licenseVersion == "2.0" or licenseVersion == "2.1" or licenseVersion == "3.0":
                 licenseName = "LGPL-"+licenseVersion+"-only"
-                print("inside only")
+                return licenseName
+        if "gpl" in MappedKeywords:
+            licenseName = "GPL"
+            if orLater:
+                if licenseVersion == "2.0" or licenseVersion == "2.1" or licenseVersion == "3.0":
+                    licenseName = "GPL-"+licenseVersion+"-or-later"
+                    return licenseName
+            if licenseVersion == "2.0" or licenseVersion == "2.1" or licenseVersion == "3.0":
+                licenseName = "GPL-"+licenseVersion+"-only"
                 return licenseName
 
         if ("general" in MappedKeywords) and (("affero" and "lesser" and "library") not in MappedKeywords):# and "lesser" not in MappedKeywords:
