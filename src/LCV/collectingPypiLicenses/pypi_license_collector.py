@@ -23,9 +23,15 @@ import re
 def RetrievePypiLicenseInformationPackage(packageName):
     #Example: GET https://pypi.org/pypi/standalone/1.0.1/json
     response = requests.get("https://pypi.org/pypi/"+packageName+"/json")
-    jsonResponse=response.json()
-    license=(jsonResponse["info"]["license"])
-    return license
+    if response.status_code == 200:
+        jsonResponse=response.json()
+        license=(jsonResponse["info"]["license"])
+        return license
+    else:
+        output=packageName+", 404"
+        print(output)
+        appendToFile(output)
+
 
 def RetrievePypiLicenseInformationPackageVersion(packageName,packageVersion):
     #Example: GET https://pypi.org/pypi/standalone/1.0.1/json
