@@ -20,8 +20,14 @@ import re
 '''
 
 
+def RetrievePypiLicenseInformationPackage(packageName):
+    #Example: GET https://pypi.org/pypi/standalone/1.0.1/json
+    response = requests.get("https://pypi.org/pypi/"+packageName+"/json")
+    jsonResponse=response.json()
+    license=(jsonResponse["info"]["license"])
+    return license
 
-def RetrievePypiLicenseInformation(packageName,packageVersion):
+def RetrievePypiLicenseInformationPackageVersion(packageName,packageVersion):
     #Example: GET https://pypi.org/pypi/standalone/1.0.1/json
     response = requests.get("https://pypi.org/pypi/"+packageName+"/"+packageVersion+"/json")
     jsonResponse=response.json()
@@ -43,7 +49,7 @@ def APICallIsAnSPDX(license):
     return jsonResponse
 
 def appendToFile(license):
-    with open("output/pypi-license-list-ConvertToSPDX.txt", "a+") as file_object:
+    with open("output/whole-pypi-package-list-ConvertToSPDX.txt", "a+") as file_object:
         # Move read cursor to the start of file.
         file_object.seek(0)
         # If file is not empty then append '\n'
@@ -53,7 +59,46 @@ def appendToFile(license):
         # Append text at the end of file
         file_object.write(license)
 
+N = 10
+with open('input/whole_pypi_package_list.txt') as f:
+    #packages = [line.rstrip() for line in f]
+    packages=[]
+    packages_unstripped = [next(f) for line in range(N)]
+    print(packages_unstripped)
+    for package in packages_unstripped:
+        packages.append(package.rstrip())
+    print(packages)
 
+for package in packages:
+    license = RetrievePypiLicenseInformationPackage(package)
+    if license is not None and not license == "":
+        possibleSPDX = license
+        IsSPDX = APICallIsAnSPDX(license)
+        if IsSPDX:
+            IsSPDX = "Pypi provided an SPDX id."
+        else:
+            if "+" in license:
+                licenseMod=license.replace("+", "%2B")
+                possibleSPDX = APICallConvertToSPDX(licenseMod)
+            else:
+                possibleSPDX = APICallConvertToSPDX(license)
+            IsSPDX = APICallIsAnSPDX(possibleSPDX)
+            if IsSPDX:
+                IsSPDX = "Converted."
+            if not IsSPDX:
+                IsSPDX = "NOT Converted."
+        output=package+",\n"+str(license)+",\n"+str(possibleSPDX)+",\n"+str(IsSPDX)
+        print(output)
+        appendToFile(output)
+    else:
+        output=package+", detected pypi license: None"
+        print(output)
+        appendToFile(output)
+    time.sleep(5)
+
+
+'''
+# for requirements.txt, where package versions are specified.
 with open('input/requirements.txt') as f:
     packages = [line.rstrip() for line in f]
     print(packages)
@@ -68,7 +113,7 @@ for package in packages:
     strings = packages.split()
     packageName=strings[0]
     packageVersion=strings[1]
-    license = RetrievePypiLicenseInformation(packageName,packageVersion)
+    license = RetrievePypiLicenseInformationPackageVersion(packageName,packageVersion)
     if license is not None and not license == "":
         possibleSPDX = license
         IsSPDX = APICallIsAnSPDX(license)
@@ -93,3 +138,4 @@ for package in packages:
         print(output)
         appendToFile(output)
     time.sleep(5)
+'''
