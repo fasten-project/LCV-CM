@@ -35,8 +35,8 @@ def RetrievePypiLicenseInformationPackageVersion(packageName,packageVersion):
     return license
 
 def APICallConvertToSPDX(license):
-    response = requests.get("https://lima.ewi.tudelft.nl/lcv/ConvertToSPDX?VerboseLicense="+license)
-    #response = requests.get("http://0.0.0.0:3251/ConvertToSPDX?VerboseLicense="+license)
+    #response = requests.get("https://lima.ewi.tudelft.nl/lcv/ConvertToSPDX?VerboseLicense="+license)
+    response = requests.get("http://0.0.0.0:3251/ConvertToSPDX?VerboseLicense="+license)
     jsonResponse=response.json()
     #print(jsonResponse)
     return jsonResponse
@@ -59,11 +59,11 @@ def appendToFile(license):
         # Append text at the end of file
         file_object.write(license)
 
-N = 10
+#N = 10
 with open('input/whole_pypi_package_list.txt') as f:
-    #packages = [line.rstrip() for line in f]
     packages=[]
-    packages_unstripped = [next(f) for line in range(N)]
+    #packages_unstripped = [next(f) for line in range(N)]
+    packages_unstripped = f.readlines()[0:99]
     print(packages_unstripped)
     for package in packages_unstripped:
         packages.append(package.rstrip())
