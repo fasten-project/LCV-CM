@@ -159,6 +159,9 @@ def DetectWithKeywords(verbose_license):
         if "miros" in MappedKeywords:
             licenseName = "MirOS"
             return licenseName
+        if "mit" in MappedKeywords:
+            licenseName = "MIT"
+            return licenseName
         if "cmu" in MappedKeywords:
             licenseName = "MIT-CMU"
             return licenseName
