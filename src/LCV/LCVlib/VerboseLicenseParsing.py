@@ -25,17 +25,19 @@ def DetectWithAcronyms(verbose_license):
 
     list_of_words = verbose_license.split()
     for word in list_of_words:
-        if 'v' in word:
-            words = word.replace('v', ' ')
-            strings = words.split()
-            # check if after 'v' there is a digit
-            word2 = strings[1]
-            if word2[0].isdigit():
-                word = ConformLicenseNameAndVersionNumber(word)
-                words = word.split()
-                # append all the splitted words to the matching list
-                for word in words:
-                    list_of_words.append(word)
+        if len(list_of_words) < 10:
+            if 'v' in word:
+                print(len(list_of_words))
+                words = word.replace('v', ' ')
+                strings = words.split()
+                # check if after 'v' there is a digit
+                word2 = strings[1]
+                if word2[0].isdigit():
+                    word = ConformLicenseNameAndVersionNumber(word)
+                    words = word.split()
+                    # append all the splitted words to the matching list
+                    for word in words:
+                        list_of_words.append(word)
         if word in licenses:
             licenseName = word
         if word in versions:
@@ -101,17 +103,18 @@ def DetectWithKeywords(verbose_license):
             print("list_of_words")
             print(list_of_words)
         #@me it should be considered also the "V" case
-        if 'v' in word:
-            words = word.replace('v', ' ')
-            strings = words.split()
-            # check if after 'v' there is a digit
-            word2 = strings[1]
-            if word2[0].isdigit():
-                word = ConformLicenseNameAndVersionNumber(word)
-                words = word.split()
-                # append all the splitted words to the matching list
-                for word in words:
-                    list_of_words.append(word)
+        if len(list_of_words) < 10:
+            if 'v' in word:
+                words = word.replace('v', ' ')
+                strings = words.split()
+                # check if after 'v' there is a digit
+                word2 = strings[1]
+                if word2[0].isdigit():
+                    word = ConformLicenseNameAndVersionNumber(word)
+                    words = word.split()
+                    # append all the splitted words to the matching list
+                    for word in words:
+                        list_of_words.append(word)
     #check with keywords
     for word in list_of_words:
         # check case insesitive starting with v words, to catch vX.X cases.
@@ -328,7 +331,7 @@ def DetectWithKeywords(verbose_license):
                 licenseName = "GPL-"+licenseVersion+"-only"
                 return licenseName
 
-        if ("general" in MappedKeywords) and (("affero" and "lesser" and "library") not in MappedKeywords):# and "lesser" not in MappedKeywords:
+        if ("general" in MappedKeywords) and "affero" not in MappedKeywords and "lesser" not in MappedKeywords and "library" not in MappedKeywords:# and "lesser" not in MappedKeywords:
             licenseName = "GPL"
     print("License Version")
     print(licenseVersion)
