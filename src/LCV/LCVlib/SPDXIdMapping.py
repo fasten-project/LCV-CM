@@ -15,12 +15,7 @@ from LCVlib.CommonLists import *
 *
 * SPDX-License-Identifier: MIT
 '''
-'''
-licenses = ["AFL", "AGPL", "Apache", "Artistic", "BSD", "BSL", "bzip2", "CC0", "CDDL", "CPE", "CPL", "curl", "EFL", "EPL", "EUPL", "FTL", "GPL", "HPND", "IBM", "ICU", "IJG", "IPL", "ISC",
-            "LGPL", "Libpng", "libtiff", "MirOS", "MIT", "CMU", "MPL", "MS", "NBPL", "NTP", "OpenSSL", "OSL", "Python", "Qhull", "RPL", "SunPro", "Unicode", "UPL", "WTFPL", "X11", "XFree86", "Zlib", "zlib-acknowledgement"]
-versions = ["1.0", "1.0.5", "1.0.6", "1.1", "1.2", "1.5",
-            "2.0", "2.1", "3.0", "3.1", "1", "2", "3", "4", "5"]
-'''
+
 
 def CSV_to_dataframe(CSVfilePath, column_names_list):
     """
@@ -52,7 +47,7 @@ def StaticMapping(single_verbose_license):
     df = df.set_index('Scancode')
     single_verbose_license_SPDX_id = df.loc[single_verbose_license]['SPDX-ID']
     if single_verbose_license_SPDX_id is not np.nan:
-        return single_verbose_license_SPDX_id    
+        return single_verbose_license_SPDX_id
     else:
         return single_verbose_license
 
