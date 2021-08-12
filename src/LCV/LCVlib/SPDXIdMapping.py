@@ -36,7 +36,6 @@ def IsInAliases(single_verbose_license):
     with open(CSVfilePath, 'rt') as f:
         reader = csv.reader(f, delimiter=',')
         for row in reader:
-            # if the username shall be on column 3 (-> index 2)
             if single_verbose_license == row[0]:
                 print(single_verbose_license+" is a recognized Alias")
                 IsInAliases = True
@@ -53,8 +52,7 @@ def StaticMapping(single_verbose_license):
     df = df.set_index('Scancode')
     single_verbose_license_SPDX_id = df.loc[single_verbose_license]['SPDX-ID']
     if single_verbose_license_SPDX_id is not np.nan:
-        return single_verbose_license_SPDX_id
-    #probably this else shouldn't exist
+        return single_verbose_license_SPDX_id    
     else:
         return single_verbose_license
 
@@ -115,9 +113,6 @@ def StaticMappingList(InboundLicenses_cleaned):
     return InboundLicenses_SPDX
 
 def DynamicMapping(verbose_license):
-    #print("List of licenses and versions detectable")
-    #print(licenses)
-    #print(versions)
     detectedWithAcronymsLicense = DetectWithAcronyms(verbose_license)
     IsSPDX = IsAnSPDX(detectedWithAcronymsLicense)
 
