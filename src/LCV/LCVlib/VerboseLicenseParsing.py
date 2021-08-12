@@ -16,6 +16,24 @@ from LCVlib.CommonLists import *
 * SPDX-License-Identifier: MIT
 '''
 
+def detectV(list_of_words,word):
+    if len(list_of_words) < 10:
+        if 'v' in word or 'V' in word:
+            words = re.compile("v", re.IGNORECASE)
+            words = words.sub(" ", word)
+            strings = words.split()
+            # check if after 'v' there is a digit
+            word2 = strings[1]
+            if word2[0].isdigit():
+                # run the conversion
+                word = ConformLicenseNameAndVersionNumber(word)
+                words = word.split()
+                # append all the splitted words to the matching list
+                for word in words:
+                    list_of_words.append(word)
+    return list_of_words
+
+
 def DetectWithAcronyms(verbose_license):
     licenseVersion = None
     licenseName = None
@@ -25,6 +43,20 @@ def DetectWithAcronyms(verbose_license):
 
     list_of_words = verbose_license.split()
     for word in list_of_words:
+        startWithV = bool(re.match('v', word, re.I))
+        print(startWithV)
+        if not startWithV:
+            #print(word)
+            #print(word)
+            list_of_words = detectV(list_of_words,word)
+        if startWithV:
+            print(word)
+            word = ConformVersionNumber(word)
+            if word.isdigit():
+                licenseVersion=word
+
+        #list_of_words = detectV(list_of_words,word)
+        '''
         if len(list_of_words) < 10:
             if 'v' in word:
                 print(len(list_of_words))
@@ -38,6 +70,7 @@ def DetectWithAcronyms(verbose_license):
                     # append all the splitted words to the matching list
                     for word in words:
                         list_of_words.append(word)
+        '''
         if word in licenses:
             licenseName = word
         if word in versions:
@@ -67,18 +100,26 @@ def DetectWithAcronyms(verbose_license):
 
 def ConformVersionNumber(licenseVersion):
     pattern = 'v[+-]?([0-9]*[.])?[0-9]+'
-    matchObj = re.match(pattern, licenseVersion)
+    matchObj = re.match(pattern, licenseVersion,re.IGNORECASE)
     if matchObj:
-        licenseVersion = licenseVersion.replace('v', '')
+        licenseVersionV = re.compile("v", re.IGNORECASE)
+        licenseVersionV = licenseVersionV.sub("", licenseVersion)
+        licenseVersion = licenseVersionV
+        #licenseVersion = licenseVersion.replace('v', '')
+        print(licenseVersion)
         return licenseVersion
     else:
         return licenseVersion
 
 def ConformLicenseNameAndVersionNumber(licenseName):
     pattern = '\w+v[0-9]?.?[0-9]'
-    matchObj = re.match(pattern, licenseName)
+    matchObj = re.match(pattern, licenseName,re.IGNORECASE)
     if matchObj:
-        licenseName = licenseName.replace('v', ' ')
+        licenseNameV = re.compile("v", re.IGNORECASE)
+        licenseNameV = licenseNameV.sub("", licenseName)
+        licenseName = licenseNameV
+        #licenseName.replace('v', ' ')
+        #licenseName = licenseName.replace('V', ' ')
         return licenseName
     else:
         return licenseName
@@ -103,6 +144,13 @@ def DetectWithKeywords(verbose_license):
             print("list_of_words")
             print(list_of_words)
         #@me it should be considered also the "V" case
+        startWithV = bool(re.match('v', word, re.I))
+        #print(startWithV)
+        if not startWithV:
+            #print(word)
+            #print(word)
+            list_of_words = detectV(list_of_words,word)
+        '''
         if len(list_of_words) < 10:
             if 'v' in word:
                 words = word.replace('v', ' ')
@@ -115,6 +163,7 @@ def DetectWithKeywords(verbose_license):
                     # append all the splitted words to the matching list
                     for word in words:
                         list_of_words.append(word)
+        '''
     #check with keywords
     for word in list_of_words:
         # check case insesitive starting with v words, to catch vX.X cases.
