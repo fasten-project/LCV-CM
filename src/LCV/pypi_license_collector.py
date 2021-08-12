@@ -28,9 +28,11 @@ def RetrievePypiLicenseInformationPackage(packageName):
         license=(jsonResponse["info"]["license"])
         return license
     else:
-        output=packageName+", 404"
+        license = "404"
+        output=packageName+", 404 - page not found"
         print(output)
         appendToFile(output)
+        return license
 
 
 def RetrievePypiLicenseInformationPackageVersion(packageName,packageVersion):
@@ -69,7 +71,7 @@ def appendToFile(license):
 with open('whole_pypi_package_list.txt') as f:
     packages=[]
     #packages_unstripped = [next(f) for line in range(N)]
-    packages_unstripped = f.readlines()[225:226]
+    packages_unstripped = f.readlines()[67:68]
     print(packages_unstripped)
     for package in packages_unstripped:
         packages.append(package.rstrip())
@@ -77,7 +79,7 @@ with open('whole_pypi_package_list.txt') as f:
 
 for package in packages:
     license = RetrievePypiLicenseInformationPackage(package)
-    if license is not None and not license == "":
+    if license is not None and not license == "" and not license == "404":
         # trying to catch long license declarations
         # TODO append some special output to indicate that here the margin of error is higher
         if "www." in license:
@@ -103,10 +105,12 @@ for package in packages:
         output=package+",\n"+str(license)+",\n"+str(possibleSPDX)+",\n"+str(IsSPDX)
         print(output)
         appendToFile(output)
-    else:
+    if license is None:
         output=package+", detected pypi license: None"
         print(output)
         appendToFile(output)
+    if license is "404":
+        print("404 - page not found")
     time.sleep(5)
 
 
