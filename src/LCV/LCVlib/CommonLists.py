@@ -20,7 +20,7 @@ versions = ["1.0", "1.0.5", "1.0.6", "1.1", "1.2", "1.5",
 literalVersions = ["one","two","three","four","five"]
 
 DynamicMappingKeywordsList = [
-    "2010", "2014", "academic", "affero", "attribution", "berkeley", "bsd", "bzip", "classpath", "clear", "cmu", "cpe", "commons", "creative",
+    "2010", "2014", "academic", "affero", "apache", "attribution", "berkeley", "bsd", "bzip", "classpath", "clear", "cmu", "cpe", "commons", "creative",
     "database", "distribution", "eclipse", "epl", "eupl", "european",
     "exception","expat", "general", "gpl", "ibm", "later", "lesser","lgpl", "libpng", "library", "license", "miros", "mit", "mozilla", "modification", "mpi",
     "mpl", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent", "psf","psfl", "python",
