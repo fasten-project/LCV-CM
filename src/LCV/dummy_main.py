@@ -21,6 +21,10 @@ from LCVlib.verify import CSV_to_dataframeOSADL
 
 
 
+licenseSPDX = ConvertToSPDX("GPLv3")
+print(licenseSPDX)
+
+'''
 def RetrievePypiLicenseInformation(packageName,packageVersion):
     #GET https://pypi.org/pypi/standalone/json
     response = requests.get("https://pypi.org/pypi/"+packageName+"/"+packageVersion+"/json")
@@ -51,7 +55,7 @@ print(license)
 possibleSPDX = APICallConvertToSPDX(license)
 print("Possible SPDX:"+possibleSPDX)
 appendToFile(license)
-
+'''
 '''
 for packageName in packages:
     license = RetrievePypiLicenseInformation("standalone","1.0")
