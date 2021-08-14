@@ -36,7 +36,7 @@ def IsInAliases(single_verbose_license):
                 IsInAliases = True
                 return IsInAliases
         if not IsInAliases:
-            print(single_verbose_license+" is a not recognized Alias")
+            #print(single_verbose_license+" is a not recognized Alias")
             return IsInAliases
 
 
