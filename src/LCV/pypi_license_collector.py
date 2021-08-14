@@ -50,8 +50,8 @@ def APICallConvertToSPDX(license):
     return jsonResponse
 
 def APICallIsAnSPDX(license):
-    response = requests.get("https://lima.ewi.tudelft.nl/lcv/IsAnSPDX?SPDXid="+license)
-    #response = requests.get("http://0.0.0.0:3251/IsAnSPDX?SPDXid="+license)
+    #response = requests.get("https://lima.ewi.tudelft.nl/lcv/IsAnSPDX?SPDXid="+license)
+    response = requests.get("http://0.0.0.0:3251/IsAnSPDX?SPDXid="+license)
     jsonResponse=response.json()
     #print(jsonResponse)
     return jsonResponse
@@ -71,7 +71,7 @@ def appendToFile(license):
 with open('whole_pypi_package_list.txt') as f:
     packages=[]
     #packages_unstripped = [next(f) for line in range(N)]
-    packages_unstripped = f.readlines()[67:68]
+    packages_unstripped = f.readlines()[0:300]
     print(packages_unstripped)
     for package in packages_unstripped:
         packages.append(package.rstrip())
