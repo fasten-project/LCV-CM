@@ -58,6 +58,7 @@ def APICallIsAnSPDX(license):
 
 def appendToFile(license):
     with open("collectingPypiLicenses/output/whole-pypi-package-list-ConvertToSPDX.txt", "a+") as file_object:
+    #with open("collectingPypiLicenses/output/Re-factoring-testing.txt", "a+") as file_object:
         # Move read cursor to the start of file.
         file_object.seek(0)
         # If file is not empty then append '\n'
@@ -71,7 +72,7 @@ def appendToFile(license):
 with open('whole_pypi_package_list.txt') as f:
     packages=[]
     #packages_unstripped = [next(f) for line in range(N)]
-    packages_unstripped = f.readlines()[0:300]
+    packages_unstripped = f.readlines()[501:600]
     print(packages_unstripped)
     for package in packages_unstripped:
         packages.append(package.rstrip())
@@ -79,6 +80,7 @@ with open('whole_pypi_package_list.txt') as f:
 
 for package in packages:
     license = RetrievePypiLicenseInformationPackage(package)
+    print("License retrieved:"+license)
     if license is not None and not license == "" and not license == "404":
         # trying to catch long license declarations
         # TODO append some special output to indicate that here the margin of error is higher
@@ -97,62 +99,62 @@ for package in packages:
                 possibleSPDX = APICallConvertToSPDX(licenseMod)
             else:
                 possibleSPDX = APICallConvertToSPDX(license)
-            IsSPDX = APICallIsAnSPDX(possibleSPDX)
-            if IsSPDX:
-                IsSPDX = "Converted."
-            if not IsSPDX:
-                IsSPDX = "NOT Converted."
+            if possibleSPDX is not None:
+                IsSPDX = APICallIsAnSPDX(possibleSPDX)
+                if IsSPDX:
+                    IsSPDX = "Converted."
+                if not IsSPDX:
+                    IsSPDX = "NOT Converted."
         output=package+",\n"+str(license)+",\n"+str(possibleSPDX)+",\n"+str(IsSPDX)
         print(output)
         appendToFile(output)
-    if license is None:
+    if license is None or license == "":
         output=package+", detected pypi license: None"
         print(output)
         appendToFile(output)
-    if license is "404":
+    if license == "404":
         print("404 - page not found")
     time.sleep(5)
 
 
-'''
-# for requirements.txt, where package versions are specified.
-with open('input/requirements.txt') as f:
-    packages = [line.rstrip() for line in f]
-    print(packages)
+def ScanningRequirementsTXT():
+    # for requirements.txt, where package versions are specified.
+    with open('input/requirements.txt') as f:
+        packages = [line.rstrip() for line in f]
+        print(packages)
 
-for package in packages:
-    if ('==' in package):
-        packages = package.replace('==', ' ')
-    if ('>=' in package):
-        packages = package.replace('>=', ' ')
-    if ('=>' in package):
-        packages = package.replace('=>', ' ')
-    strings = packages.split()
-    packageName=strings[0]
-    packageVersion=strings[1]
-    license = RetrievePypiLicenseInformationPackageVersion(packageName,packageVersion)
-    if license is not None and not license == "":
-        possibleSPDX = license
-        IsSPDX = APICallIsAnSPDX(license)
-        if IsSPDX:
-            IsSPDX = "Pypi provided an SPDX id."
-        else:
-            if "+" in license:
-                licenseMod=license.replace("+", "%2B")
-                possibleSPDX = APICallConvertToSPDX(licenseMod)
-            else:
-                possibleSPDX = APICallConvertToSPDX(license)
-            IsSPDX = APICallIsAnSPDX(possibleSPDX)
+    for package in packages:
+        if ('==' in package):
+            packages = package.replace('==', ' ')
+        if ('>=' in package):
+            packages = package.replace('>=', ' ')
+        if ('=>' in package):
+            packages = package.replace('=>', ' ')
+        strings = packages.split()
+        packageName=strings[0]
+        packageVersion=strings[1]
+        license = RetrievePypiLicenseInformationPackageVersion(packageName,packageVersion)
+        if license is not None and not license == "":
+            possibleSPDX = license
+            IsSPDX = APICallIsAnSPDX(license)
             if IsSPDX:
-                IsSPDX = "Converted."
-            if not IsSPDX:
-                IsSPDX = "NOT Converted."
-        output=packageName+"=="+packageVersion+",\n"+str(license)+",\n"+str(possibleSPDX)+",\n"+str(IsSPDX)
-        print(output)
-        appendToFile(output)
-    else:
-        output=packageName+"=="+packageVersion+", detected pypi license: None"
-        print(output)
-        appendToFile(output)
-    time.sleep(5)
-'''
+                IsSPDX = "Pypi provided an SPDX id."
+            else:
+                if "+" in license:
+                    licenseMod=license.replace("+", "%2B")
+                    possibleSPDX = APICallConvertToSPDX(licenseMod)
+                else:
+                    possibleSPDX = APICallConvertToSPDX(license)
+                IsSPDX = APICallIsAnSPDX(possibleSPDX)
+                if IsSPDX:
+                    IsSPDX = "Converted."
+                if not IsSPDX:
+                    IsSPDX = "NOT Converted."
+            output=packageName+"=="+packageVersion+",\n"+str(license)+",\n"+str(possibleSPDX)+",\n"+str(IsSPDX)
+            print(output)
+            appendToFile(output)
+        else:
+            output=packageName+"=="+packageVersion+", detected pypi license: None"
+            print(output)
+            appendToFile(output)
+        time.sleep(5)
