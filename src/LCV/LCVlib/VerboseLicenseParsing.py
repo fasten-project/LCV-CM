@@ -332,6 +332,8 @@ def DetectWithKeywords(verbose_license):
                 return licenseName
         if "affero" in MappedKeywords:
             licenseName = "AGPL"
+        if "agpl" in MappedKeywords:
+            licenseName = "AGPL"
         if "library" in MappedKeywords or "lesser" in MappedKeywords or "lgpl" in MappedKeywords:
             licenseName = "LGPL"
             if orLater:
