@@ -131,6 +131,11 @@ def DetectWithKeywords(verbose_license):
             word = ConformVersionNumber(word)
             if word.isdigit():
                 licenseVersion=word
+        endWithPlus = word.endswith('+')
+        if endWithPlus:
+            orLater=True            
+            word=word.replace('+', ' ')
+            list_of_words.append(word)
     #check with keywords
     for word in list_of_words:
         # check case insesitive starting with v words, to catch vX.X cases.
