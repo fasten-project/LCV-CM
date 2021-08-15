@@ -118,38 +118,9 @@ def DynamicMapping(verbose_license):
     #IsSPDX = IsAnSPDX(detectedWithKeywordsLicense)
     if IsAnSPDX(detectedWithKeywordsLicense):
         return detectedWithKeywordsLicense
-    '''
-    IsSPDX = IsAnSPDX(detectedWithAcronymsLicense)
-
-    if IsSPDX:
-        print(detectedWithAcronymsLicense+" is an SPDX-id")
-        return detectedWithAcronymsLicense
-    IsAnAlias = IsInAliases(detectedWithAcronymsLicense)
-    if IsAnAlias:
-        print(detectedWithAcronymsLicense)
-        detectedWithAcronymsLicense = StaticMapping(
-            detectedWithAcronymsLicense)
-        IsSPDX = IsAnSPDX(detectedWithAcronymsLicense)
-        if IsSPDX:
-            print(detectedWithAcronymsLicense+" is an SPDX-id")
-            return detectedWithAcronymsLicense
-
-    #detectedWithKeywordsLicense = DetectWithKeywords(verbose_license)
-    IsSPDX = IsAnSPDX(detectedWithKeywordsLicense)
-    if IsSPDX:
-      print(detectedWithKeywordsLicense+" is an SPDX-id")
-      return detectedWithKeywordsLicense
-    IsAnAlias = IsInAliases(detectedWithKeywordsLicense)
-    if IsAnAlias:
-      print(detectedWithKeywordsLicense)
-      detectedWithKeywordsLicense = StaticMapping(detectedWithKeywordsLicense)
-      IsSPDX = IsAnSPDX(detectedWithKeywordsLicense)
-      if IsSPDX:
-          print(detectedWithKeywordsLicense+" is an SPDX-id")
-          return detectedWithKeywordsLicense
-    if not IsAnAlias:
+    else:
         return verbose_license
-'''
+    
 def MappingResultCheck(detectedLicense):
     IsSPDX = IsAnSPDX(detectedLicense)
     if IsSPDX:
@@ -164,3 +135,5 @@ def MappingResultCheck(detectedLicense):
         if IsSPDX:
             print(detectedLicense+" is an SPDX-id")
             return detectedLicense
+    if not IsAnAlias:
+        return detectedLicense
