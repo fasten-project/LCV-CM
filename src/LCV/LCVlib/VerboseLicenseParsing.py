@@ -115,6 +115,9 @@ def DetectWithKeywords(verbose_license):
     MappedKeywords = list()
     list_of_words = verbose_license.split()
     for word in list_of_words:
+        if "(" or ")" or "[" or "]" in word:
+            word = re.sub(r"[()]", "", word)
+            word = re.sub(r"[\[\]]", "", word)
         if '-' in word:
             list_of_words.remove(word)
             words = word.replace('-', ' ')
@@ -133,7 +136,7 @@ def DetectWithKeywords(verbose_license):
                 licenseVersion=word
         endWithPlus = word.endswith('+')
         if endWithPlus:
-            orLater=True            
+            orLater=True
             word=word.replace('+', ' ')
             list_of_words.append(word)
     #check with keywords
@@ -144,9 +147,7 @@ def DetectWithKeywords(verbose_license):
 
         if word.lower() in literalVersions:
             licenseVersion = (str(NumberDict[word.lower()]))
-        if "(" or ")" or "[" or "]" in word:
-            word = re.sub(r"[()]", "", word)
-            word = re.sub(r"[\[\]]", "", word)
+
         #print("After running ConformVersionNumber: "+word)
         if word.lower() in DynamicMappingKeywordsList:
             MappedKeywords.append(word.lower())
