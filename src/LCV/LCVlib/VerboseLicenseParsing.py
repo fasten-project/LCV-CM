@@ -340,6 +340,14 @@ def DetectWithKeywords(verbose_license):
             licenseName = "AGPL"
         if "agpl" in MappedKeywords:
             licenseName = "AGPL"
+            if licenseVersion in licenses:
+                if orLater:
+                    licenseName = "AGPL-"+licenseVersion+"-or-later"
+                    return licenseName
+                else:
+                    licenseName = "AGPL-"+licenseVersion+"-only"
+                    return licenseName
+
         if "library" in MappedKeywords or "lesser" in MappedKeywords or "lgpl" in MappedKeywords:
             licenseName = "LGPL"
             if orLater:
