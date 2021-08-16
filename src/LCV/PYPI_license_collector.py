@@ -72,7 +72,7 @@ def appendToFile(license):
 with open('whole_pypi_package_list.txt') as f:
     packages=[]
     #packages_unstripped = [next(f) for line in range(N)]
-    packages_unstripped = f.readlines()[501:600]
+    packages_unstripped = f.readlines()[601:700]
     print(packages_unstripped)
     for package in packages_unstripped:
         packages.append(package.rstrip())
