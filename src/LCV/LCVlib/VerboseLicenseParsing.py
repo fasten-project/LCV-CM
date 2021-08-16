@@ -104,6 +104,16 @@ def ConformLicenseNameAndVersionNumber(licenseName):
     else:
         return licenseName
 
+def SeparateLicenseNameAndVersionNumber(licenseName):
+    pattern = '\w+[0-9]?.?[0-9]'
+    matchObj = re.match(pattern, licenseName,re.IGNORECASE)
+    if matchObj:
+        # Add a space between license name and version
+        res = re.sub("[A-Za-z]+", lambda ele: " " + ele[0] + " ", licenseName)
+        return res
+    else:
+        return licenseName
+
 
 def DetectWithKeywords(verbose_license):
     # probably you could declare globally these variables - inasmuch it is also used by the DetectWithAcronyms() function
@@ -144,7 +154,12 @@ def DetectWithKeywords(verbose_license):
         # check case insesitive starting with v words, to catch vX.X cases.
         if bool(re.match('v', word, re.I)):
             word = ConformVersionNumber(word)
-
+        # check cases like GPL2, Apache1, LGPL3 cases.
+        if bool(re.match('\w+[0-9]?.?[0-9]', word, re.I)):            
+            word = SeparateLicenseNameAndVersionNumber(word)
+            strings = word.split()
+            for string in strings:
+                list_of_words.append(string)
         if word.lower() in literalVersions:
             licenseVersion = (str(NumberDict[word.lower()]))
 
@@ -359,7 +374,7 @@ def DetectWithKeywords(verbose_license):
             if licenseVersion == "2.0" or licenseVersion == "2.1" or licenseVersion == "3.0":
                 licenseName = "LGPL-"+licenseVersion+"-only"
                 return licenseName
-        if "gpl" in MappedKeywords:
+        if "gpl" in MappedKeywords or "general" in MappedKeywords and "affero" not in MappedKeywords and "lesser" not in MappedKeywords and "library" not in MappedKeywords:
             licenseName = "GPL"
             if orLater:
                 if licenseVersion == "2.0" or licenseVersion == "2.1" or licenseVersion == "3.0":
@@ -369,8 +384,9 @@ def DetectWithKeywords(verbose_license):
                 licenseName = "GPL-"+licenseVersion+"-only"
                 return licenseName
 
-        if ("general" in MappedKeywords) and "affero" not in MappedKeywords and "lesser" not in MappedKeywords and "library" not in MappedKeywords:# and "lesser" not in MappedKeywords:
+        if "general" in MappedKeywords and "affero" not in MappedKeywords and "lesser" not in MappedKeywords and "library" not in MappedKeywords:
             licenseName = "GPL"
+
     print("License Version")
     print(licenseVersion)
     if licenseName is not None and licenseVersion is None:
