@@ -336,6 +336,8 @@ def DetectWithKeywords(verbose_license):
             if licenseVersion == "1.1":
                 licenseName = "RPL-1.1"
                 return licenseName
+        if "unlicense" in MappedKeywords:
+            licenseName = "Unlicense"
         if "affero" in MappedKeywords:
             licenseName = "AGPL"
         if "agpl" in MappedKeywords:

@@ -24,7 +24,7 @@ DynamicMappingKeywordsList = [
     "database", "distribution", "eclipse", "epl", "eupl", "european",
     "exception","expat", "general", "gpl", "ibm", "later", "lesser","lgpl", "libpng", "library", "license", "miros", "mit", "mozilla", "modification", "mpi",
     "mpl", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent", "psf","psfl", "python",
-    "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened","simplified","software", "tiff", "uc", "universal",
+    "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened","simplified","software", "tiff", "uc", "universal","unlicense",
     "upl", "views", "warranty", "zlib", "zero","AFL", "AGPL", "Apache", "Artistic", "BSD", "BSL", "bzip2", "CC0", "CDDL", "CPE", "CPL", "curl",
     "EFL", "EPL", "EUPL", "FTL", "GPL", "HPND", "IBM", "ICU", "IJG", "IPL", "ISC", "LGPL", "Libpng", "libtiff", "MirOS", "MIT", "CMU", "MPL",
     "MS", "NBPL", "NTP", "OpenSSL", "OSL", "Python", "Qhull", "RPL", "SunPro", "Unicode",
