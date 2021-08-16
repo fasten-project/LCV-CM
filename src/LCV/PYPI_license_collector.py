@@ -72,7 +72,7 @@ def appendToFile(license):
 with open('whole_pypi_package_list.txt') as f:
     packages=[]
     #packages_unstripped = [next(f) for line in range(N)]
-    packages_unstripped = f.readlines()[601:700]
+    packages_unstripped = f.readlines()[801:1000]
     print(packages_unstripped)
     for package in packages_unstripped:
         packages.append(package.rstrip())
@@ -80,7 +80,7 @@ with open('whole_pypi_package_list.txt') as f:
 
 for package in packages:
     license = RetrievePypiLicenseInformationPackage(package)
-    print("License retrieved:"+license)
+    #print("License retrieved:"+license)
     if license is not None and not license == "" and not license == "404":
         # trying to catch long license declarations
         # TODO append some special output to indicate that here the margin of error is higher
