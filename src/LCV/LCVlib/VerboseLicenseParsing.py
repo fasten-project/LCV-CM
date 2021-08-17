@@ -99,9 +99,10 @@ def ConformLicenseNameAndVersionNumber(licenseName):
         return licenseName
 
 def SeparateLicenseNameAndVersionNumber(licenseName):
-    pattern = '\w+[0-9].?[0-9]?'
+    pattern = '[Aa-zZ]+[0-9].?[0-9]?'
     matchObj = re.match(pattern, licenseName,re.IGNORECASE)
     if matchObj:
+        print(licenseName+"inside matchObj")
         # Add a space between license name and version
         res = re.sub("[A-Za-z]+", lambda ele: " " + ele[0] + " ", licenseName)
         return res
@@ -150,12 +151,14 @@ def DetectWithKeywords(verbose_license):
             word = ConformVersionNumber(word)
         # check cases like GPL2, Apache1, LGPL3 cases.
 
-        if bool(re.match('\w+[0-9].?[0-9]?', word, re.I)):
-            if word not in versions:
-                word = SeparateLicenseNameAndVersionNumber(word)
-                strings = word.split()
-                for string in strings:
-                    list_of_words.append(string)
+        if bool(re.match('[Aa-zZ]+[0-9].?[0-9]?', word, re.I)):
+            #if word not in versions:
+            #if not word.isdigit():
+            print(word)
+            word = SeparateLicenseNameAndVersionNumber(word)
+            strings = word.split()
+            for string in strings:
+                list_of_words.append(string)
 
         if word.lower() in literalVersions:
             licenseVersion = (str(NumberDict[word.lower()]))
