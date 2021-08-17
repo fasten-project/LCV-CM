@@ -1,14 +1,8 @@
 #!/usr/bin/python
 # import urllib.request
-import requests
-import json
-import time
-import sys
-import pandas as pd
-import numpy as np
 import re
-import csv
-from LCVlib.CommonLists import *
+
+from LCVlib.CommonLists import licenses, versions, literalVersions, NumberDict, DynamicMappingKeywordsList
 
 '''
 * SPDX-FileCopyrightText: 2021 Michele Scarlato <michele.scarlato@endocode.com>
@@ -105,7 +99,7 @@ def ConformLicenseNameAndVersionNumber(licenseName):
         return licenseName
 
 def SeparateLicenseNameAndVersionNumber(licenseName):
-    pattern = '\w+[0-9]?.?[0-9]'
+    pattern = '\w+[0-9].?[0-9]?'
     matchObj = re.match(pattern, licenseName,re.IGNORECASE)
     if matchObj:
         # Add a space between license name and version
@@ -155,11 +149,14 @@ def DetectWithKeywords(verbose_license):
         if bool(re.match('v', word, re.I)):
             word = ConformVersionNumber(word)
         # check cases like GPL2, Apache1, LGPL3 cases.
-        if bool(re.match('\w+[0-9]?.?[0-9]', word, re.I)):            
-            word = SeparateLicenseNameAndVersionNumber(word)
-            strings = word.split()
-            for string in strings:
-                list_of_words.append(string)
+
+        if bool(re.match('\w+[0-9].?[0-9]?', word, re.I)):
+            if word not in versions:
+                word = SeparateLicenseNameAndVersionNumber(word)
+                strings = word.split()
+                for string in strings:
+                    list_of_words.append(string)
+
         if word.lower() in literalVersions:
             licenseVersion = (str(NumberDict[word.lower()]))
 
