@@ -57,7 +57,7 @@ def APICallIsAnSPDX(license):
     return jsonResponse
 
 def appendToFile(license):
-    with open("collectingPypiLicenses/output/whole-pypi-package-list-ConvertToSPDX.txt", "a+") as file_object:
+    with open("collectingPypiLicenses/output/whole-pypi-package-list-ConvertToSPDX"+str(startLine)+"-"+str(endLine)+".txt", "a+") as file_object:
     #with open("collectingPypiLicenses/output/Re-factoring-testing.txt", "a+") as file_object:
         # Move read cursor to the start of file.
         file_object.seek(0)
@@ -68,11 +68,12 @@ def appendToFile(license):
         # Append text at the end of file
         file_object.write(license)
 
-#N = 10
+startLine= 1701
+endLine= 1900
 with open('whole_pypi_package_list.txt') as f:
     packages=[]
     #packages_unstripped = [next(f) for line in range(N)]
-    packages_unstripped = f.readlines()[801:1000]
+    packages_unstripped = f.readlines()[startLine:endLine]
     print(packages_unstripped)
     for package in packages_unstripped:
         packages.append(package.rstrip())
