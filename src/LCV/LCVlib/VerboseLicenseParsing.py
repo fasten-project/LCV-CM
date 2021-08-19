@@ -123,8 +123,10 @@ def DetectWithKeywords(verbose_license):
     list_of_words = verbose_license.split()
     for word in list_of_words:
         if "(" or ")" or "[" or "]" in word:
+            list_of_words.remove(word)
             word = re.sub(r"[()]", "", word)
             word = re.sub(r"[\[\]]", "", word)
+            list_of_words.append(word)
         #probably here I can use a list of separators, e.g. "-", ">=" ..
         # and check if elements of the list are contained in word,
         # then replace them, split and append.
