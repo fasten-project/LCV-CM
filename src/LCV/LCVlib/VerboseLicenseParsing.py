@@ -123,6 +123,9 @@ def DetectWithKeywords(verbose_license):
         if "(" or ")" or "[" or "]" in word:
             word = re.sub(r"[()]", "", word)
             word = re.sub(r"[\[\]]", "", word)
+        #probably here I can use a list of separators, e.g. "-", ">=" ..
+        # and check if elements of the list are contained in word,
+        # then replace them, split and append.
         if '-' in word:
             list_of_words.remove(word)
             words = word.replace('-', ' ')
@@ -131,7 +134,13 @@ def DetectWithKeywords(verbose_license):
                 list_of_words.append(string)
             print("list_of_words")
             print(list_of_words)
-        #@me it should be considered also the "V" case
+        if '>=' in word:
+            orLater = True
+            list_of_words.remove(word)
+            words = word.replace('>=', ' ')
+            strings = words.split()
+            for string in strings:
+                list_of_words.append(string)
         startWithV = bool(re.match('v', word, re.I))
         if not startWithV:
             list_of_words = detectV(list_of_words,word)
