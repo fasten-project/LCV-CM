@@ -4,6 +4,8 @@ import re
 
 from LCVlib.CommonLists import licenses, versions, literalVersions, NumberDict, DynamicMappingKeywordsList
 
+from LCVlib.CheckAliasAndSPDXId import IsAnSPDX
+
 '''
 * SPDX-FileCopyrightText: 2021 Michele Scarlato <michele.scarlato@endocode.com>
 *
@@ -126,8 +128,9 @@ def DetectWithKeywords(verbose_license):
         #probably here I can use a list of separators, e.g. "-", ">=" ..
         # and check if elements of the list are contained in word,
         # then replace them, split and append.
-        if '-' in word:
-            list_of_words.remove(word)
+        if not IsAnSPDX(word) and '-' in word:
+            if word in list_of_words:
+                list_of_words.remove(word)
             words = word.replace('-', ' ')
             strings = words.split()
             for string in strings:
@@ -353,12 +356,23 @@ def DetectWithKeywords(verbose_license):
         if "qhull" in MappedKeywords:
             licenseName = "Qhull"
             return licenseName
-        if "reciprocal" in MappedKeywords and "public" in MappedKeywords and "license" in MappedKeywords:
-            if licenseVersion == "1.5":
-                licenseName = "RPL-1.5"
+        if "reciprocal" in MappedKeywords:
+            if "public" in MappedKeywords and "license" in MappedKeywords:
+                if licenseVersion == "1.5":
+                    licenseName = "RPL-1.5"
+                    return licenseName
+                if licenseVersion == "1.1":
+                    licenseName = "RPL-1.1"
+                    return licenseName
+            if "microsoft" in MappedKeywords:
+                licenseName = "MS-RL"
                 return licenseName
-            if licenseVersion == "1.1":
-                licenseName = "RPL-1.1"
+        if "microsoft" in MappedKeywords:
+            if "reciprocal" in MappedKeywords:
+                licenseName = "MS-RL"
+                return licenseName
+            if "public" in MappedKeywords:
+                licenseName = "MS-PL"
                 return licenseName
         if "unlicense" in MappedKeywords:
             licenseName = "Unlicense"
