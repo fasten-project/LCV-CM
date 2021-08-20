@@ -114,7 +114,7 @@ def SeparateLicenseNameAndVersionNumber(licenseName):
 def RemoveParenthesisAndSpecialChars(verbose_license):
     for char in list_of_parenthesis:
         if char in verbose_license:
-            verbose_license = verbose_license.replace(char, '')            
+            verbose_license = verbose_license.replace(char, '')
     return verbose_license
 
 
@@ -223,6 +223,9 @@ def DetectWithKeywords(verbose_license):
         if "apache" in MappedKeywords:
             if licenseVersion == "2.0":
                 licenseName = "Apache-2.0"
+            return licenseName
+        if "beer" in MappedKeywords:
+            licenseName = "Beerware"
             return licenseName
         if "distribution" in MappedKeywords:
             licenseName = "CDDL"
