@@ -19,6 +19,8 @@ versions = ["1.0", "1.0.5", "1.0.6", "1.1", "1.2", "1.5",
             "2.0", "2.1", "3.0", "3.1", "1", "2", "3", "4", "5"]
 literalVersions = ["one","two","three","four","five"]
 
+list_of_parenthesis=['(', ')','[', ']']
+
 DynamicMappingKeywordsList = [
     "2010", "2014", "academic", "affero","agpl", "apache", "attribution", "berkeley", "bsd", "bzip", "classpath", "clear", "cmu", "cpe", "commons", "creative",
     "database", "distribution", "eclipse", "epl", "eupl", "european",

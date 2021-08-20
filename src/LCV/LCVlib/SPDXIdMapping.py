@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import re
 import csv
-from LCVlib.VerboseLicenseParsing import DetectWithAcronyms, DetectWithKeywords, ConformVersionNumber
+from LCVlib.VerboseLicenseParsing import DetectWithAcronyms, DetectWithKeywords, ConformVersionNumber, RemoveParenthesis
 from LCVlib.CommonLists import *
 '''
 * SPDX-FileCopyrightText: 2021 Michele Scarlato <michele.scarlato@endocode.com>
@@ -72,7 +72,7 @@ def ConvertToSPDX(verbose_license):
         # IF license IS An SPDX ID
         IsSPDX = IsAnSPDX(license)
         if IsSPDX:
-            print(license+" is an SPDX-id")            
+            print(license+" is an SPDX-id")
             return license
     # if verbose license IS NOT within aliases - run dynamic mapping
     else:
@@ -117,6 +117,7 @@ def DynamicMapping(verbose_license):
     if IsAnSPDX(detectedWithAcronymsLicense):
         return detectedWithAcronymsLicense
     else:
+        verbose_license = RemoveParenthesis(verbose_license)
         detectedWithKeywordsLicense = DetectWithKeywords(verbose_license)
         detectedWithKeywordsLicense = MappingResultCheck(detectedWithKeywordsLicense)
         #IsSPDX = IsAnSPDX(detectedWithKeywordsLicense)

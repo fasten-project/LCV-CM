@@ -2,7 +2,7 @@
 # import urllib.request
 import re
 
-from LCVlib.CommonLists import licenses, versions, literalVersions, NumberDict, DynamicMappingKeywordsList
+from LCVlib.CommonLists import licenses, versions, literalVersions, NumberDict, DynamicMappingKeywordsList, list_of_parenthesis
 
 from LCVlib.CheckAliasAndSPDXId import IsAnSPDX
 
@@ -111,6 +111,13 @@ def SeparateLicenseNameAndVersionNumber(licenseName):
     else:
         return licenseName
 
+def RemoveParenthesis(verbose_license):
+    for char in list_of_parenthesis:
+        if char in verbose_license:
+            verbose_license = verbose_license.replace(char, '')            
+    return verbose_license
+
+
 
 def DetectWithKeywords(verbose_license):
     # probably you could declare globally these variables - inasmuch it is also used by the DetectWithAcronyms() function
@@ -121,12 +128,20 @@ def DetectWithKeywords(verbose_license):
     only = False
     MappedKeywords = list()
     list_of_words = verbose_license.split()
+
     for word in list_of_words:
+        '''
         if "(" or ")" or "[" or "]" in word:
+            print(list_of_words)
+            print(word)
             list_of_words.remove(word)
-            word = re.sub(r"[()]", "", word)
-            word = re.sub(r"[\[\]]", "", word)
+            word = re.sub(r"[(]", "", word)
+            word = re.sub(r"[)]", "", word)
+            word = re.sub(r"[\[]", "", word)
+            word = re.sub(r"[\]]", "", word)
+            print(word)
             list_of_words.append(word)
+            '''
         #probably here I can use a list of separators, e.g. "-", ">=" ..
         # and check if elements of the list are contained in word,
         # then replace them, split and append.
@@ -136,7 +151,7 @@ def DetectWithKeywords(verbose_license):
             words = word.replace('-', ' ')
             strings = words.split()
             for string in strings:
-                list_of_words.append(string)            
+                list_of_words.append(string)
             continue
         if '>=' in word:
             orLater = True
