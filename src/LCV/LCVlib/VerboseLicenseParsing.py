@@ -111,7 +111,7 @@ def SeparateLicenseNameAndVersionNumber(licenseName):
     else:
         return licenseName
 
-def RemoveParenthesis(verbose_license):
+def RemoveParenthesisAndSpecialChars(verbose_license):
     for char in list_of_parenthesis:
         if char in verbose_license:
             verbose_license = verbose_license.replace(char, '')            

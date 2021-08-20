@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import re
 import csv
-from LCVlib.VerboseLicenseParsing import DetectWithAcronyms, DetectWithKeywords, ConformVersionNumber, RemoveParenthesis
+from LCVlib.VerboseLicenseParsing import DetectWithAcronyms, DetectWithKeywords, ConformVersionNumber, RemoveParenthesisAndSpecialChars
 from LCVlib.CommonLists import *
 '''
 * SPDX-FileCopyrightText: 2021 Michele Scarlato <michele.scarlato@endocode.com>
@@ -117,7 +117,7 @@ def DynamicMapping(verbose_license):
     if IsAnSPDX(detectedWithAcronymsLicense):
         return detectedWithAcronymsLicense
     else:
-        verbose_license = RemoveParenthesis(verbose_license)
+        verbose_license = RemoveParenthesisAndSpecialChars(verbose_license)
         detectedWithKeywordsLicense = DetectWithKeywords(verbose_license)
         detectedWithKeywordsLicense = MappingResultCheck(detectedWithKeywordsLicense)
         #IsSPDX = IsAnSPDX(detectedWithKeywordsLicense)
