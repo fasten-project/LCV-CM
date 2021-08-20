@@ -136,9 +136,8 @@ def DetectWithKeywords(verbose_license):
             words = word.replace('-', ' ')
             strings = words.split()
             for string in strings:
-                list_of_words.append(string)
-            print("list_of_words")
-            print(list_of_words)
+                list_of_words.append(string)            
+            continue
         if '>=' in word:
             orLater = True
             list_of_words.remove(word)
@@ -156,11 +155,13 @@ def DetectWithKeywords(verbose_license):
         endWithPlus = word.endswith('+')
         if endWithPlus:
             orLater=True
-            word=word.replace('+', ' ')
+            if word in list_of_words:
+                list_of_words.remove(word)
+            word=word.replace('+', '')
             list_of_words.append(word)
     #check with keywords
     for word in list_of_words:
-        # check case insesitive starting with v words, to catch vX.X cases.
+        # check case insensitive starting with v words, to catch vX.X cases.
         if bool(re.match('v', word, re.I)):
             word = ConformVersionNumber(word)
         # check cases like GPL2, Apache1, LGPL3 cases.
