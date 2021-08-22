@@ -28,6 +28,6 @@ while(re.findall(endingSpecChars, verbose_license)):
 '''
 # test the ConvertToSPDX method
 
-licenseSPDX = ConvertToSPDX("MIT license, ! ")
+licenseSPDX = ConvertToSPDX("cecill b al ")
 print(licenseSPDX)
 

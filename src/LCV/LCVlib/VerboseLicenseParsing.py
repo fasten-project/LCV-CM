@@ -2,7 +2,7 @@
 # import urllib.request
 import re
 
-from LCVlib.CommonLists import licenses, versions, literalVersions, NumberDict, DynamicMappingKeywordsList, list_of_parenthesis
+from LCVlib.CommonLists import licenses, versions, literalVersions, NumberDict, DynamicMappingKeywordsList, list_of_parenthesis, LicenseLetterVersion
 
 from LCVlib.CheckAliasAndSPDXId import IsAnSPDX
 
@@ -135,19 +135,6 @@ def DetectWithKeywords(verbose_license):
     list_of_words = verbose_license.split()
 
     for word in list_of_words:
-
-        '''
-        if "(" or ")" or "[" or "]" in word:
-            print(list_of_words)
-            print(word)
-            list_of_words.remove(word)
-            word = re.sub(r"[(]", "", word)
-            word = re.sub(r"[)]", "", word)
-            word = re.sub(r"[\[]", "", word)
-            word = re.sub(r"[\]]", "", word)
-            print(word)
-            list_of_words.append(word)
-            '''
         #probably here I can use a list of separators, e.g. "-", ">=" ..
         # and check if elements of the list are contained in word,
         # then replace them, split and append.
@@ -204,6 +191,8 @@ def DetectWithKeywords(verbose_license):
             MappedKeywords.append(word.lower())
         if word in versions:
             licenseVersion = str(word)
+        if word.lower() in LicenseLetterVersion:
+            MappedKeywords.append(word.lower())
         if licenseVersion is not None:
             if licenseVersion == "1" or "2" or "3" or "4" or "5":
                 licenseVersion = str(float(licenseVersion))
@@ -302,6 +291,17 @@ def DetectWithKeywords(verbose_license):
                 return licenseName
             if licenseVersion == "3.0" or "new" in MappedKeywords:
                 licenseName = "BSD-3-Clause"
+                return licenseName
+        if "cecill" in MappedKeywords:
+            print("inside cecill")
+            if "b" in MappedKeywords:
+                licenseName = "CECILL-B"
+                return licenseName
+            if "c" in MappedKeywords:
+                licenseName = "CECILL-C"
+                return licenseName
+            if licenseVersion in versions:
+                licenseName = "CECILL-"+licenseVersion                
                 return licenseName
 
         if "classpath" in MappedKeywords or "cpe" in MappedKeywords:
