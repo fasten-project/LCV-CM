@@ -185,8 +185,6 @@ def DetectWithKeywords(verbose_license):
 
         if word.lower() in literalVersions:
             licenseVersion = (str(NumberDict[word.lower()]))
-
-        #print("After running ConformVersionNumber: "+word)
         if word.lower() in DynamicMappingKeywordsList:
             MappedKeywords.append(word.lower())
         if word in versions:
@@ -200,6 +198,7 @@ def DetectWithKeywords(verbose_license):
             else:
                 MappedKeywords.append(licenseVersion)
                 print(MappedKeywords)
+    # remove duplicates from the MappedKeywords
     MappedKeywords = list(set(MappedKeywords))
     print("Mapped Keywords:")
     print(MappedKeywords)

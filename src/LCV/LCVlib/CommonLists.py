@@ -41,3 +41,12 @@ NumberDict = {
   "four": "4",
   "five": "5"
 }
+
+DynamicMappingKeywordsDict = {
+    "bsd":
+    {
+        "simplified": "BSD-2-Clause",
+        "patent": "BSD-2-Clause-Patent",
+        "uc": "BSD-4-Clause-UC"
+    }
+}
