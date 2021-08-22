@@ -112,6 +112,11 @@ def SeparateLicenseNameAndVersionNumber(licenseName):
         return licenseName
 
 def RemoveParenthesisAndSpecialChars(verbose_license):
+    # remove special characters from the end of the word
+    endingSpecChars= '[,!.?](?:\s+)?$'
+    while(re.findall(endingSpecChars, verbose_license)):
+        verbose_license = re.sub(endingSpecChars,'', verbose_license)
+        print(verbose_license)
     for char in list_of_parenthesis:
         if char in verbose_license:
             verbose_license = verbose_license.replace(char, '')
@@ -130,6 +135,7 @@ def DetectWithKeywords(verbose_license):
     list_of_words = verbose_license.split()
 
     for word in list_of_words:
+
         '''
         if "(" or ")" or "[" or "]" in word:
             print(list_of_words)
