@@ -301,7 +301,7 @@ def DetectWithKeywords(verbose_license):
                 licenseName = "CECILL-C"
                 return licenseName
             if licenseVersion in versions:
-                licenseName = "CECILL-"+licenseVersion                
+                licenseName = "CECILL-"+licenseVersion
                 return licenseName
 
         if "classpath" in MappedKeywords or "cpe" in MappedKeywords:
@@ -424,7 +424,7 @@ def DetectWithKeywords(verbose_license):
             if licenseVersion == "2.0" or licenseVersion == "2.1" or licenseVersion == "3.0":
                 licenseName = "LGPL-"+licenseVersion+"-only"
                 return licenseName
-        if "gpl" in MappedKeywords or "general" in MappedKeywords and "affero" not in MappedKeywords and "lesser" not in MappedKeywords and "library" not in MappedKeywords:
+        if "gpl" in MappedKeywords or "general" or "gnu" in MappedKeywords and "affero" not in MappedKeywords and "lesser" not in MappedKeywords and "library" not in MappedKeywords:
             licenseName = "GPL"
             if orLater:
                 if licenseVersion == "2.0" or licenseVersion == "2.1" or licenseVersion == "3.0":
