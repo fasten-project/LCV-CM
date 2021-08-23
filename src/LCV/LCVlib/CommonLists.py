@@ -23,7 +23,7 @@ literalVersions = ["one","two","three","four","five"]
 list_of_parenthesis=['(', ')','[', ']',';', ',','"','\'']
 
 DynamicMappingKeywordsList = [
-    "2010", "2014", "academic", "affero","agpl", "apache", "attribution","beer"
+    "a", "2010", "2014", "academic", "affero","agpl", "apache", "attribution","beer"
     "berkeley", "bsd", "bzip", "cecill", "classpath", "clear", "cmu", "cpe", "commons", "creative",
     "database", "distribution", "eclipse", "epl", "eupl", "european",
     "exception","expat", "general", "gpl", "gnu", "ibm", "later", "lesser","lgpl", "libpng", "library", "license", "miros","microsoft", "mit", "mozilla", "modification", "mpi",
@@ -45,8 +45,16 @@ NumberDict = {
 DynamicMappingKeywordsDict = {
     "bsd":
     {
+        "open": {"mpi": "BSD-3-Clause-Open-MPI"},
         "simplified": "BSD-2-Clause",
         "patent": "BSD-2-Clause-Patent",
-        "uc": "BSD-4-Clause-UC"
-    }
+        "uc": "BSD-4-Clause-UC",
+        "nuclear":
+        {
+            "2014": "BSD-3-Clause-No-Nuclear-License-2014",
+            "warranty": "BSD-3-Clause-No-Nuclear-Warranty",
+            "a": "BSD-3-Clause-No-Nuclear-License"
+        }
+    },
+    "mit": "MIT"
 }

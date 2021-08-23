@@ -156,74 +156,25 @@ def DetectWithKeywords(verbose_license):
     MappedKeywords = list(set(MappedKeywords))
     print("Mapped Keywords:")
     print(MappedKeywords)
-    #If there are keywords matched --> this can be a dictionary and nested dictionary in case of double match
     if len(MappedKeywords):
-        if "later" in MappedKeywords:
+        '''if "later" in MappedKeywords:
             orLater = True
         if "only" in MappedKeywords:
-            only = True
-        print("found this")
-        print([v for k,v in DynamicMappingKeywordsDict.items() if k in MappedKeywords])
-        #[k for k, v in champ_dict.items() if v in champ_ids]
-        '''
-        if "bsd" in MappedKeywords:
-            if "open" and "mpi" in MappedKeywords:
-                licenseName = "BSD-3-Clause-Open-MPI"
-                return licenseName
-            if "simplified" in MappedKeywords:
-                licenseName = "BSD-2-Clause"
-                return licenseName
-            if "patent" in MappedKeywords:
-                licenseName = "BSD-2-Clause-Patent"
-                return licenseName
-            if "uc" in MappedKeywords:
-                licenseName = "BSD-4-Clause-UC"
-                return licenseName
-            if "database" in MappedKeywords:
-                licenseName = "Sleepycat"
-                return licenseName
-            if "shortened" in MappedKeywords:
-                licenseName = "BSD-4-Clause-Shortened"
-                return licenseName
-            if "nuclear" in MappedKeywords:
-                if "2014" in MappedKeywords:
-                    licenseName = "BSD-3-Clause-No-Nuclear-License-2014"
-                    return licenseName
-                if "warranty" in MappedKeywords:
-                    licenseName = "BSD-3-Clause-No-Nuclear-Warranty"
-                    return licenseName
-                licenseName = "BSD-3-Clause-No-Nuclear-License"
-                return licenseName
-            if "modification" in MappedKeywords:
-                licenseName = "BSD-3-Clause-Modification"
-                return licenseName
-            if "national" in MappedKeywords:
-                licenseName = "BSD-3-Clause-LBNL"
-                return licenseName
-            if "clear" in MappedKeywords:
-                licenseName = "BSD-3-Clause-Clear"
-                return licenseName
-            if "attribution" in MappedKeywords:
-                licenseName = "BSD-3-Clause-Attribution"
-                return licenseName
-            if "military" in MappedKeywords:
-                licenseName = "BSD-3-Clause-No-Military-License"
-                return licenseName
-            if "views" in MappedKeywords:
-                licenseName = "BSD-2-Clause-Views"
-                return licenseName
-            if "patent" in MappedKeywords:
-                licenseName = "BSD-2-Clause-Patent"
-                return licenseName
-            if licenseVersion == "2.0":
-                licenseName = "BSD-2-Clause"
-                return licenseName
-            if licenseVersion == "3.0" or "new" in MappedKeywords:
-                licenseName = "BSD-3-Clause"
-                return licenseName
-        '''
-    print("License Version")
-    print(licenseVersion)
+            only = True'''
+        SubDict = DynamicMappingKeywordsDict
+
+        for i in range(0, len(MappedKeywords)):
+            print(i)
+            print(MappedKeywords)
+            for key in MappedKeywords:
+                print("Searching for:"+key)
+                #1st nested level
+                if key in SubDict:
+                    MappedKeywords.remove(key)
+                    SubDict = SubDict.get(key)
+                    if IsAnSPDX(str(SubDict)):
+                        return str(SubDict)
+
     if licenseName is not None and licenseVersion is None:
         supposedLicense = licenseName
     # check if is or later or only, if not, just assign license name and license version
@@ -241,5 +192,11 @@ def DetectWithKeywords(verbose_license):
     else:
         return verbose_license
 
-licenseSPDX = ConvertToSPDXTesting("bsd new")
+licenseSPDX = ConvertToSPDXTesting("bsd nuclear warranty")
 print(licenseSPDX)
+'''
+lista = [v for k, v in DynamicMappingKeywordsDict.items() if k in MappedKeywords]
+
+diction = dict(lista[0])
+print(diction)
+'''
