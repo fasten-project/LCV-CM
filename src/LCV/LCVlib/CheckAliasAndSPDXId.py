@@ -38,3 +38,11 @@ def IsAnSPDX(license_name):
                 if field.lower() == license_name.lower():
                     IsSPDX = True
                     return IsSPDX
+def ConformWithSPDX(license_name):
+    with open('../../csv/SPDX_license_name.csv', 'rt') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            for field in row:
+                if field.lower() == license_name.lower():
+                    license_name = field
+                    return license_name

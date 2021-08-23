@@ -24,7 +24,7 @@ list_of_parenthesis=['(', ')','[', ']',';', ',','"','\'']
 
 DynamicMappingKeywordsList = [
     "2010", "2014", "academic", "affero","agpl", "apache", "attribution","beer"
-    "berkeley", "bsd", "bzip","cecill" ,"classpath", "clear", "cmu", "cpe", "commons", "creative",
+    "berkeley", "bsd", "bzip", "cecill", "classpath", "clear", "cmu", "cpe", "commons", "creative",
     "database", "distribution", "eclipse", "epl", "eupl", "european",
     "exception","expat", "general", "gpl", "gnu", "ibm", "later", "lesser","lgpl", "libpng", "library", "license", "miros","microsoft", "mit", "mozilla", "modification", "mpi",
     "mpl", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent", "psf","psfl", "python",

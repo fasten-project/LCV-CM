@@ -4,7 +4,7 @@ import re
 
 from LCVlib.CommonLists import licenses, versions, literalVersions, NumberDict, DynamicMappingKeywordsList, list_of_parenthesis, LicenseLetterVersion
 
-from LCVlib.CheckAliasAndSPDXId import IsAnSPDX
+from LCVlib.CheckAliasAndSPDXId import IsAnSPDX, ConformWithSPDX
 
 '''
 * SPDX-FileCopyrightText: 2021 Michele Scarlato <michele.scarlato@endocode.com>
@@ -138,7 +138,11 @@ def DetectWithKeywords(verbose_license):
         #probably here I can use a list of separators, e.g. "-", ">=" ..
         # and check if elements of the list are contained in word,
         # then replace them, split and append.
+        if IsAnSPDX(word):
+            word = ConformWithSPDX(word)
+            return word
         if not IsAnSPDX(word) and '-' in word:
+            print("inside removal - ")
             if word in list_of_words:
                 list_of_words.remove(word)
             words = word.replace('-', ' ')
