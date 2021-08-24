@@ -48,7 +48,8 @@ DynamicMappingKeywordsDict = {
         "3.0": "BSD-3-Clause",
         "attribution": "BSD-3-Clause-Attribution",
         "clear": "BSD-3-Clause-Clear",
-        "database" : "Sleepycat",
+        "database": "Sleepycat",
+        "sleepycat": "Sleepycat",
         "military": "BSD-3-Clause-No-Military-License",
         "modification": "BSD-3-Clause-Modification",
         "national": "BSD-3-Clause-LBNL",
@@ -100,6 +101,25 @@ DynamicMappingKeywordsDict = {
     "ibm": "IPL-1.0",
     "libpng": {
         "2.0": "libpng-2.0",
+        "zlib": "Zlib",
     },
+    "eclipse": {
+        "1.0": "EPL-1.0",
+        "2.0": "EPL-2.0",
+    },
+    "european": {
+        "1.0": "EUPL-1.0",
+        "1.1": "EUPL-1.1"
+    },
+    "mozilla": {
+        "1.0": "MPL-1.0",
+        "1.1": "MPL-1.1",
+        "2.0": "MPL-2.0",
+        "exception": "MPL-2.0-no-copyleft-exception",
+    },
+    "ntp": {
+        
+    }
+
 
 }
