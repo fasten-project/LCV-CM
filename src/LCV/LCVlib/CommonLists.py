@@ -23,7 +23,7 @@ literalVersions = ["one","two","three","four","five"]
 list_of_parenthesis=['(', ')','[', ']',';', ',','"','\'']
 
 DynamicMappingKeywordsList = [
-    "a", "2010", "2014", "academic", "affero","agpl", "apache", "attribution","beer"
+    "a", "2010", "2014", "academic", "affero", "agpl", "apache", "attribution","beer"
     "berkeley", "bsd", "bzip", "cecill", "classpath", "clear", "cmu", "cpe", "commons", "creative",
     "database", "distribution", "eclipse", "epl", "eupl", "european",
     "exception","expat", "general", "gpl", "gnu", "ibm", "later", "lesser","lgpl", "libpng", "library", "license", "miros","microsoft", "mit", "mozilla", "modification", "mpi",
@@ -56,5 +56,14 @@ DynamicMappingKeywordsDict = {
             "a": "BSD-3-Clause-No-Nuclear-License"
         }
     },
-    "mit": "MIT"
+    "mit": "MIT",
+    "academic": "AFL",
+    "bzip" : "bzip2-1.0.6",
+    "2010" : "bzip2-1.0.6", #not sure about this association - it could mislead some identification.
+    "apache" :
+        {
+            "1.0" : "Apache-1.0"
+            "2.0" : "Apache-2.0"
+        }
+
 }
