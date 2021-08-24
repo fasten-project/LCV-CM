@@ -23,7 +23,7 @@ literalVersions = ["one","two","three","four","five"]
 list_of_parenthesis=['(', ')','[', ']',';', ',','"','\'']
 
 DynamicMappingKeywordsList = [
-    "a", "2010", "2014", "academic", "affero", "agpl", "apache", "attribution","beer"
+    "a", "2007" ,"2010", "2014", "academic", "affero", "agpl", "apache", "attribution","beer"
     "berkeley", "bsd", "bzip", "cecill", "classpath", "clear", "cmu", "cpe", "commons", "creative",
     "database", "distribution", "eclipse", "epl", "eupl", "european",
     "exception","expat", "general", "gpl", "gnu", "ibm", "later", "lesser","lgpl", "libpng", "library", "license", "miros","microsoft", "mit", "mozilla", "modification", "mpi",
@@ -43,27 +43,63 @@ NumberDict = {
 }
 
 DynamicMappingKeywordsDict = {
-    "bsd":
-    {
+    "bsd": {
+        "2.0": "BSD-2-Clause",
+        "3.0": "BSD-3-Clause",
+        "attribution": "BSD-3-Clause-Attribution",
+        "clear": "BSD-3-Clause-Clear",
+        "database" : "Sleepycat",
+        "military": "BSD-3-Clause-No-Military-License",
+        "modification": "BSD-3-Clause-Modification",
+        "national": "BSD-3-Clause-LBNL",
+        "new": "BSD-3-Clause",
+        "nuclear": {
+                    "2014": "BSD-3-Clause-No-Nuclear-License-2014",
+                    "warranty": "BSD-3-Clause-No-Nuclear-Warranty",
+                    "": "BSD-3-Clause-No-Nuclear-License", #TODO how to set a default value for a not matching key.
+                },
         "open": {"mpi": "BSD-3-Clause-Open-MPI"},
-        "simplified": "BSD-2-Clause",
         "patent": "BSD-2-Clause-Patent",
+        "shortened": "BSD-4-Clause-Shortened",
+        "simplified": "BSD-2-Clause",
         "uc": "BSD-4-Clause-UC",
-        "nuclear":
-        {
-            "2014": "BSD-3-Clause-No-Nuclear-License-2014",
-            "warranty": "BSD-3-Clause-No-Nuclear-Warranty",
-            "a": "BSD-3-Clause-No-Nuclear-License"
-        }
+        "views": "BSD-2-Clause-Views",
     },
-    "mit": "MIT",
     "academic": "AFL",
-    "bzip" : "bzip2-1.0.6",
-    "2010" : "bzip2-1.0.6", #not sure about this association - it could mislead some identification.
-    "apache" :
-        {
-            "1.0" : "Apache-1.0"
+    "bzip" : {
+            "2007" : "bzip2-1.0.5",
+            "1.0.5" : "bzip2-1.0.5",
+            "2010" : "bzip2-1.0.6",
+            "1.0.6" : "bzip2-1.0.6",
+    },
+    "apache" : {
+            "1.0" : "Apache-1.0",
             "2.0" : "Apache-2.0"
-        }
+    },
+    "beer" : "Beerware",
+    "cecill": {
+        "b": "CECILL-B",
+        "c": "CECILL-C",
+        "1.0": "CECILL-1.0",
+        "1.1": "CECILL-1.1",
+        "2.0": "CECILL-2.0",
+        "2.1": "CECILL-2.1",
+    },
+    "distribution": {
+        "1.0" : "CDDL-1.0",
+        "1.1" : "CDDL-1.1",
+    },
+    "powerpc" : "IBM-pibs",
+    "power" : "IBM-pibs",
+    "tiff" : "libtiff",
+    "miros" : "MirOS",
+    "mit" : "MIT",
+    "cmu": "MIT-CMU",
+    "classpath": "GPL-2.0-with-classpath-exception",
+    "expat": "MIT",
+    "ibm": "IPL-1.0",
+    "libpng": {
+        "2.0": "libpng-2.0",
+    },
 
 }

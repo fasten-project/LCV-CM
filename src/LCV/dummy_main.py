@@ -92,6 +92,9 @@ def DetectWithKeywords(verbose_license):
         #probably here I can use a list of separators, e.g. "-", ">=" ..
         # and check if elements of the list are contained in word,
         # then replace them, split and append.
+        if IsAnSPDX(word):
+            word = ConformWithSPDX(word)
+            return word
         if not IsAnSPDX(word) and '-' in word:
             if word in list_of_words:
                 list_of_words.remove(word)
@@ -157,14 +160,14 @@ def DetectWithKeywords(verbose_license):
     print("Mapped Keywords:")
     print(MappedKeywords)
     if len(MappedKeywords):
-        '''if "later" in MappedKeywords:
+        if "later" in MappedKeywords:
             orLater = True
         if "only" in MappedKeywords:
-            only = True'''
-        SubDict = DynamicMappingKeywordsDict
+            only = True
 
+        SubDict = DynamicMappingKeywordsDict
         for i in range(0, len(MappedKeywords)):
-            print(i)
+            print("Iteration:"+str((i+1)))
             print(MappedKeywords)
             for key in MappedKeywords:
                 print("Searching for:"+key)
@@ -192,7 +195,7 @@ def DetectWithKeywords(verbose_license):
     else:
         return verbose_license
 
-licenseSPDX = ConvertToSPDXTesting("bsd nuclear warranty")
+licenseSPDX = ConvertToSPDXTesting("libpng")
 print(licenseSPDX)
 '''
 lista = [v for k, v in DynamicMappingKeywordsDict.items() if k in MappedKeywords]
