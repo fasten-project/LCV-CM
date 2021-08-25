@@ -118,7 +118,7 @@ DynamicMappingKeywordsDict = {
         "exception": "MPL-2.0-no-copyleft-exception",
     },
     "ntp": {
-        
+
     }
 
 
