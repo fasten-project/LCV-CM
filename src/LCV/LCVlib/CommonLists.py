@@ -24,12 +24,12 @@ list_of_parenthesis=['(', ')','[', ']',';', ',','"','\'']
 
 DynamicMappingKeywordsList = [
     "a", "2007" ,"2010", "2014", "academic", "affero", "agpl", "apache", "attribution","beer"
-    "berkeley", "bsd", "bzip", "cc", "cecill", "classpath", "clear", "cmu", "cpe", "commons", "creative",
+    "berkeley", "by", "bsd", "bzip", "cc", "cecill", "classpath", "clear", "clause", "cmu", "cpe", "commons", "creative",
     "database", "distribution", "eclipse", "epl", "eupl", "european",
     "exception","expat", "general", "gpl", "gnu", "ibm", "iscl", "later", "lesser","lgpl", "libpng",
     "library", "license", "miros","microsoft", "mit", "mozilla", "modification", "mpi",
-    "mpl", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent","pddc", "psf","psfl", "python",
-    "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened","simplified",
+    "mpl", "nc", "nd", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent","pddc", "psf","psfl", "python",
+    "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "sa", "shortened","simplified",
     "software", "tiff", "uc", "universal","unlicense","upl", "views", "warranty", "zlib", "zero","AFL",
     "AGPL", "Apache", "Artistic", "BSD", "BSL", "bzip2", "CC0", "CDDL", "CPE", "CPL", "curl",
     "EFL", "EPL", "EUPL", "FTL", "GPL", "HPND", "IBM", "ICU", "IJG", "IPL", "ISC", "LGPL", "Libpng",
@@ -86,7 +86,7 @@ DynamicMappingKeywordsDict = {
             "1.0": "CC-BY-1.0",
             "2.0": "CC-BY-2.0",
             "2.5": "CC-BY-2.5",
-            "au": "CC-BY-2.5-AU",
+            "au" : "CC-BY-2.5-AU",
             "at" : "CC-BY-3.0-AT",
             "de" : "CC-BY-3.0-DE",
             "nl" : "CC-BY-3.0-NL",
