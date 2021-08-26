@@ -166,6 +166,19 @@ def DetectWithKeywords(verbose_license):
             only = True
 
         SubDict = DynamicMappingKeywordsDict
+        MappedKeywords.append("")
+        for i in range(0, len(MappedKeywords)):
+            print("Iteration:"+str((i+1)))
+            print(MappedKeywords)
+            for key in MappedKeywords:
+                if key != "":
+                    print("Searching for:"+key)
+                    #1st nested level
+                    if key in SubDict:
+                        MappedKeywords.remove(key)
+                        SubDict = SubDict.get(key)
+                        if IsAnSPDX(str(SubDict)):
+                            return str(SubDict)
         for i in range(0, len(MappedKeywords)):
             print("Iteration:"+str((i+1)))
             print(MappedKeywords)
@@ -195,7 +208,7 @@ def DetectWithKeywords(verbose_license):
     else:
         return verbose_license
 
-licenseSPDX = ConvertToSPDXTesting("libpng")
+licenseSPDX = ConvertToSPDXTesting("bsd nuclear warranty")
 print(licenseSPDX)
 '''
 lista = [v for k, v in DynamicMappingKeywordsDict.items() if k in MappedKeywords]
