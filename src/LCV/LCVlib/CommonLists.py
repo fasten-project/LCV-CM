@@ -26,7 +26,7 @@ DynamicMappingKeywordsList = [
     "a", "2007" ,"2010", "2014", "academic", "affero", "agpl", "apache", "attribution","beer"
     "berkeley", "bsd", "bzip", "cecill", "classpath", "clear", "cmu", "cpe", "commons", "creative",
     "database", "distribution", "eclipse", "epl", "eupl", "european",
-    "exception","expat", "general", "gpl", "gnu", "ibm", "later", "lesser","lgpl", "libpng", "library", "license", "miros","microsoft", "mit", "mozilla", "modification", "mpi",
+    "exception","expat", "general", "gpl", "gnu", "ibm", "iscl", "later", "lesser","lgpl", "libpng", "library", "license", "miros","microsoft", "mit", "mozilla", "modification", "mpi",
     "mpl", "ntp", "new", "nuclear", "national", "only", "open", "openssl", "patent", "psf","psfl", "python",
     "png", "power", "powerpc", "public", "permissive", "qhull", "reciprocal", "shortened","simplified","software", "tiff", "uc", "universal","unlicense",
     "upl", "views", "warranty", "zlib", "zero","AFL", "AGPL", "Apache", "Artistic", "BSD", "BSL", "bzip2", "CC0", "CDDL", "CPE", "CPL", "curl",

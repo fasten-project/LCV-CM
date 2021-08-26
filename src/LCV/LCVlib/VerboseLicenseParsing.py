@@ -406,6 +406,9 @@ def DetectWithKeywords(verbose_license):
                 return licenseName
         if "unlicense" in MappedKeywords:
             licenseName = "Unlicense"
+        if "iscl" in MappedKeywords:
+            licenseName = "ISC"
+            return licenseName
         if "affero" in MappedKeywords:
             licenseName = "AGPL"
         if "agpl" in MappedKeywords:
