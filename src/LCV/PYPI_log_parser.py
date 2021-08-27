@@ -22,15 +22,20 @@ from LCVlib.SPDXIdMapping import StaticMappingList,IsAnSPDX,StaticMapping,Dynami
 '''
 
 
-excluded_not_converted= ["GPL","LGPL","AGPL", "AFL", "GNU", "Creative Commons",
+excluded_not_converted= ["ASL","GPL","LGPL","AGPL", "AFL", "GNU", "Creative Commons",
 "Private","UNKNOWN","BSD","Apache","MPL","None", "CC-BY-NC-SA", "Python", "Marsyas",
 "License", "LICENCE","LICENSE","LICENSE.txt","Dual License", "Proprietary", "todo","TODO",
 "Artistic","ZPL","ASK FOR PERMISSIONS","Public Domain", "Private","Proprietary License",
-"PSL", "All Rights Reserved", "WPI", "CeCILL","OSI"]
+"PSL", "All Rights Reserved", "WPI", "CeCILL","OSI","LUMS", "UCSD", "EUPL" , "EULA", "CDDL",
+"commercial","undefined","CC-BY-SA"]
 
 already_fixed= ["GNU v3", "MIT;", "CC0","APL", "CeCILL-B", "zlib",
 "CC BY-SA 3.0", "CC by 4.0", "EUPL v1.2 or later", "BEERWARE",
-"cc-by-sa-4.0", "beer", "ISCL", "Attribution-NonCommercial-ShareAlike 4.0 International" ]
+"cc-by-sa-4.0", "beer", "ISCL", "Attribution-NonCommercial-ShareAlike 4.0 International", "Attribution-ShareAlike 4.0 International CC BY-SA 4.0",
+"Attribution-NonCommercial-NoDerivatives 4.0 International CC BY-NC-ND 4.0",
+"CC BY-NC-SA 4.0", "CCSA-4.0", "CC BY-NC 4.0","IBM", "wxWindows","CC BY-NC-ND 4.0",]
+
+
 
 FinalList = []
 for filename in glob.glob('collectingPypiLicenses/output/*.txt'):
