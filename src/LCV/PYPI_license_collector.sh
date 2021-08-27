@@ -68,8 +68,8 @@ def appendToFile(license):
         # Append text at the end of file
         file_object.write(license)
 
-startLine= 161001
-endLine=   170000
+
+
 with open('whole_pypi_package_list.txt') as f:
     packages=[]
     packages_unstripped = f.readlines()[startLine:endLine]
