@@ -166,9 +166,11 @@ DynamicMappingKeywordsDict = {
     "classpath": "GPL-2.0-with-classpath-exception",
     "expat": "MIT",
     "ibm": "IPL-1.0",
+    "iscl": "ISC",
     "libpng": {
         "2.0": "libpng-2.0",
         "zlib": "Zlib",
+        "": "Libpng",
     },
     "eclipse": {
         "1.0": "EPL-1.0",
@@ -176,7 +178,8 @@ DynamicMappingKeywordsDict = {
     },
     "european": {
         "1.0": "EUPL-1.0",
-        "1.1": "EUPL-1.1"
+        "1.1": "EUPL-1.1",
+        "1.2": "EUPL-1.2",
     },
     "mozilla": {
         "1.0": "MPL-1.0",
@@ -185,8 +188,33 @@ DynamicMappingKeywordsDict = {
         "exception": "MPL-2.0-no-copyleft-exception",
     },
     "ntp": {
-
-    }
-
-
+        "attribution": "NTP-0",
+        "": "NTP",
+    },
+    "openssl": "OpenSSL",
+    "upl": "UPL-1.0",
+    "python" : {
+        "software" : "PSF-2.0",
+        "" : {
+            "2.0": "Python-2.0",
+        },
+    },
+    "psf": "PSF-2.0",
+    "psfl": "PSF-2.0",
+    "qhull": "Qhull",
+    "reciprocal": {
+        "public": {
+            "license":{
+                "1.5" : "RPL-1.5",
+                "1.1" : "RPL-1.1",
+            }
+        },
+        "microsoft": "MS-RL",
+    },
+    "microsoft": {
+        "reciprocal":"MS-RL",
+        "public":"MS-PL",
+    },
+    "unlicense": "Unlicense",
+    "wxwindows": "wxWindows",
 }
