@@ -13,6 +13,8 @@ import re
 import glob
 import os
 from LCVlib.SPDXIdMapping import StaticMappingList,IsAnSPDX,StaticMapping,DynamicMapping,IsInAliases,ConvertToSPDX
+from LCVlib.pypi_license_retrieval import *
+
 #from LCVlib.verify import CSV_to_dataframeOSADL
 
 '''
@@ -25,7 +27,7 @@ from LCVlib.SPDXIdMapping import StaticMappingList,IsAnSPDX,StaticMapping,Dynami
 excluded_not_converted= ["ASL","GPL","LGPL","AGPL", "AFL", "GNU", "Creative Commons",
 "Private","UNKNOWN","BSD","Apache","MPL","None", "CC-BY-NC-SA", "Python", "Marsyas",
 "License", "LICENCE","LICENSE","LICENSE.txt","Dual License", "Proprietary", "todo","TODO",
-"Artistic","ZPL","ASK FOR PERMISSIONS","NA","public","Public Domain", "Private","Proprietary License",
+"Artistic","ZPL","ASK FOR PERMISSIONS","NA","OSL","public","Public Domain", "Private","Proprietary License",
 "PSL", "All Rights Reserved", "WPI", "CeCILL","OSI","LUMS", "UCSD", "EUPL" , "EULA", "CDDL",
 "commercial","undefined","CC-BY-SA", "Free", "Freeware", "EPL", "RPL", "TBD", "Custom", "COPYING", "COPYRIGHT",
 ]
@@ -45,11 +47,12 @@ already_fixed= ["GNU v3", "MIT;", "CC0","APL", "CeCILL-B", "zlib",
 
 
 FinalList = []
-for filename in glob.glob('collectingPypiLicenses/output/*.txt'):
+for filename in glob.glob('collectingPypiLicenses/output/xstatic.txt'):
    with open(os.path.join(os.getcwd(), filename), 'r') as f:
        lines = f.readlines()
        for index, line in enumerate(lines):  # enumerate the list and loop through it
         if "NOT Converted" in line:  # check if the current line has your substring
+            #print("inside not converted")
             LineList= (lines[max(0,index-3):index])
             for i in range(0, len(LineList)):
                 for line in LineList:
@@ -59,16 +62,38 @@ for filename in glob.glob('collectingPypiLicenses/output/*.txt'):
                         LineList.append(modLine)
             output = LineList[0]+ " " + LineList[1]
             FinalList.append(output)
+
+            if "same as" in output:
+                #print("inside same as")
+                FinalList.remove(output)
+                #print(LineList[1])
+                license = LineList[1]
+                package = LineList[0]
+                strippedName = []
+                strippedName = license.split()
+                for i in range(0, len(strippedName)):
+                    for name in strippedName:
+                        if name == "same":# if name == "as":
+                            strippedName.remove(name)
+                        if name == "as":
+                            strippedName.remove(name)
+                #print(strippedName)
+                licenseName =''.join(strippedName)
+                licenseName = licenseName.lower()
+                #print(licenseName)
+                license = RetrievePypiLicenseInformationPackage(licenseName)
+                time.sleep(1)
+                output = "output:"+package+ " " + license
+                #print(output)
+                FinalList.append(output)
+
+
             for excluded in excluded_not_converted:
                 if excluded.lower() in output.lower():
-                    #print (excluded.lower())
-                    #print (output.lower())
                     if output in FinalList:
                         FinalList.remove(output)
             for fixed in already_fixed:
                 if fixed.lower() in output.lower():
-                    #print (excluded.lower())
-                    #print (output.lower())
                     if output in FinalList:
                         FinalList.remove(output)
 for output in FinalList:
