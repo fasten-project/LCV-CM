@@ -16,7 +16,7 @@ import csv
 licenses = ["AFL", "AGPL", "Apache", "Artistic", "BSD", "BSL", "bzip2", "CC0", "CDDL", "CPE", "CPL", "curl", "EFL", "EPL", "EUPL", "FTL", "GPL", "HPND", "IBM", "ICU", "IJG", "IPL", "ISC",
             "LGPL", "Libpng", "libtiff", "MirOS", "MIT", "CMU", "MPL", "MS", "NBPL", "NTP", "OpenSSL", "OSL", "Python", "Qhull", "RPL", "SunPro", "Unicode", "UPL", "WTFPL", "X11", "XFree86", "Zlib", "zlib-acknowledgement"]
 versions = ["1.0", "1.0.5", "1.0.6", "1.1", "1.2", "1.5",
-            "2.0", "2.1", "3.0", "3.1", "1", "2", "3", "4", "5"]
+            "2.0", "2.1", "3.0", "3.1", "4.0", "5.0", "1", "2", "3", "4", "5",]
 LicenseLetterVersion = ["b","c"]
 literalVersions = ["one","two","three","four","five"]
 
