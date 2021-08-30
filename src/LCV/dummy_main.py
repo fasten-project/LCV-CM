@@ -77,6 +77,26 @@ def MappingResultCheck(detectedLicense):
     #if not IsAnAlias:
     return detectedLicense
 
+def ConvertCreativeCommons(MappedKeywords):
+    print("inside ConvertCreativeCommons")
+    CCMappedKeywords = []
+    CCMappedKeywords.append("cc")
+    print(CCMappedKeywords)
+    CCMappedKeywords.append("by")
+    print(CCMappedKeywords)
+    if "nc" in MappedKeywords:
+        CCMappedKeywords.append("nc")
+        print(CCMappedKeywords)
+    if "nd" in MappedKeywords:
+        CCMappedKeywords.append("nd")
+        print(CCMappedKeywords)
+    if "sa" in MappedKeywords:
+        CCMappedKeywords.append("sa")
+        print(CCMappedKeywords)
+    for version in versions:
+        if version in MappedKeywords:
+            CCMappedKeywords.append(version)
+    return CCMappedKeywords
 
 def DetectWithKeywords(verbose_license):
     # probably you could declare globally these variables - inasmuch it is also used by the DetectWithAcronyms() function
@@ -159,6 +179,9 @@ def DetectWithKeywords(verbose_license):
     MappedKeywords = list(set(MappedKeywords))
     print("Mapped Keywords:")
     print(MappedKeywords)
+    if "cc" in MappedKeywords:
+        if "by" in MappedKeywords:
+            MappedKeywords = ConvertCreativeCommons(MappedKeywords)
     if len(MappedKeywords):
         if "later" in MappedKeywords:
             orLater = True
@@ -166,19 +189,20 @@ def DetectWithKeywords(verbose_license):
             only = True
 
         SubDict = DynamicMappingKeywordsDict
-        MappedKeywords.append("")
+        #MappedKeywords.append("")
         for i in range(0, len(MappedKeywords)):
             print("Iteration:"+str((i+1)))
             print(MappedKeywords)
+            n = 0
             for key in MappedKeywords:
-                if key != "":
-                    print("Searching for:"+key)
-                    #1st nested level
-                    if key in SubDict:
-                        MappedKeywords.remove(key)
-                        SubDict = SubDict.get(key)
-                        if IsAnSPDX(str(SubDict)):
-                            return str(SubDict)
+                print("Searching for:"+MappedKeywords[n])
+                if MappedKeywords[n] in SubDict:
+                    SubDict = SubDict.get(MappedKeywords[n])
+                    if IsAnSPDX(str(SubDict)):
+                        return str(SubDict)
+                    MappedKeywords.remove(MappedKeywords[n])
+            n = n+1
+        MappedKeywords.append("")
         for i in range(0, len(MappedKeywords)):
             print("Iteration:"+str((i+1)))
             print(MappedKeywords)
@@ -208,7 +232,7 @@ def DetectWithKeywords(verbose_license):
     else:
         return verbose_license
 
-licenseSPDX = ConvertToSPDXTesting("bsd nuclear warranty")
+licenseSPDX = ConvertToSPDXTesting("libpng")
 print(licenseSPDX)
 '''
 lista = [v for k, v in DynamicMappingKeywordsDict.items() if k in MappedKeywords]
