@@ -3,6 +3,8 @@ import sys
 #from LCVlib.testlistsJSONfiles import JSONPathList
 #from LCVlib.verify import retrieveOutboundLicense, CheckOutboundLicense
 #from LCVlib.verify import RetrieveInboundLicenses, Compare, CompareFlag
+from dotenv import load_dotenv
+from os import environ, path
 import requests
 import json
 import time
@@ -18,6 +20,16 @@ from LCVlib.SPDXIdMapping import StaticMappingList,IsAnSPDX,StaticMapping,Dynami
 *
 * SPDX-License-Identifier: MIT
 '''
+
+# Load .env file
+basedir = path.abspath(path.dirname(__file__))
+load_dotenv(path.join(basedir, '.env'))
+# Load parametrs from .env file
+startLine = environ.get('START_LINE')
+endLine = environ.get('END_LINE')
+
+print("Scanning from line:"+startLine)
+print("to line:"+endLine)
 
 
 def RetrievePypiLicenseInformationPackage(packageName):
@@ -68,11 +80,10 @@ def appendToFile(license):
         # Append text at the end of file
         file_object.write(license)
 
-startLine= 161001
-endLine=   170000
+
 with open('whole_pypi_package_list.txt') as f:
     packages=[]
-    packages_unstripped = f.readlines()[startLine:endLine]
+    packages_unstripped = f.readlines()[int(startLine):int(endLine)]
     print(packages_unstripped)
     for package in packages_unstripped:
         packages.append(package.rstrip())
