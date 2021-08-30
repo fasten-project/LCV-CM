@@ -93,6 +93,15 @@ for package in packages:
     license = RetrievePypiLicenseInformationPackage(package)
     #print("License retrieved:"+license)
     if license is not None and not license == "" and not license == "404":
+        if "same as" in license:
+            strippedName = []
+            strippedName = license.split()
+            for name in strippedName:
+                if name is "same" or name is "as":
+                    strippedName.remove(name)
+            licenseName =''.join(strippedName)
+            licenseName = licenseName.lower()
+            license = RetrievePypiLicenseInformationPackage(licenseName)
         # trying to catch long license declarations
         # TODO append some special output to indicate that here the margin of error is higher
         if "www." in license:
