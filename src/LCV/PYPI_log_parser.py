@@ -41,13 +41,13 @@ already_fixed= ["GNU v3", "MIT;", "CC0","APL", "CeCILL-B", "zlib",
 "CC BY-NC-SA 4.0", "CCSA-4.0", "CC BY-NC 4.0","IBM", "CC4.0-BY-NC-SA",
 "wxWindows","CC BY-NC-ND 4.0","ICS",
 "https://creativecommons.org/publicdomain/zero/1.0/",
-"SIL OFL 1.1",
+"SIL OFL 1.1", "NIST", "D-FSL",
 ]
 
 
 
 FinalList = []
-for filename in glob.glob('collectingPypiLicenses/output/xstatic.txt'):
+for filename in glob.glob('collectingPypiLicenses/output/whole*.txt'):
    with open(os.path.join(os.getcwd(), filename), 'r') as f:
        lines = f.readlines()
        for index, line in enumerate(lines):  # enumerate the list and loop through it
@@ -86,8 +86,6 @@ for filename in glob.glob('collectingPypiLicenses/output/xstatic.txt'):
                 output = "output:"+package+ " " + license
                 #print(output)
                 FinalList.append(output)
-
-
             for excluded in excluded_not_converted:
                 if excluded.lower() in output.lower():
                     if output in FinalList:
