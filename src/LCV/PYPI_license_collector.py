@@ -13,6 +13,7 @@ import pandas as pd
 import numpy as np
 import re
 from LCVlib.SPDXIdMapping import StaticMappingList,IsAnSPDX,StaticMapping,DynamicMapping,IsInAliases,ConvertToSPDX
+from LCVlib.VerboseLicenseParsing import RemoveParenthesisAndSpecialChars
 #from LCVlib.verify import CSV_to_dataframeOSADL
 
 '''
@@ -91,7 +92,7 @@ with open('whole_pypi_package_list.txt') as f:
 
 for package in packages:
     license = RetrievePypiLicenseInformationPackage(package)
-    #print("License retrieved:"+license)
+    license = RemoveParenthesisAndSpecialChars(license)    
     if license is not None and not license == "" and not license == "404":
         if "same as" in license:
             strippedName = []
