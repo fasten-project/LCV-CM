@@ -14,6 +14,7 @@ import numpy as np
 import re
 from LCVlib.SPDXIdMapping import StaticMappingList,IsAnSPDX,StaticMapping,DynamicMapping,IsInAliases,ConvertToSPDX
 from LCVlib.VerboseLicenseParsing import RemoveParenthesisAndSpecialChars
+from LCVlib.CommonLists import *
 #from LCVlib.verify import CSV_to_dataframeOSADL
 
 '''
@@ -92,7 +93,6 @@ with open('whole_pypi_package_list.txt') as f:
 
 for package in packages:
     license = RetrievePypiLicenseInformationPackage(package)
-    license = RemoveParenthesisAndSpecialChars(license)    
     if license is not None and not license == "" and not license == "404":
         if "same as" in license:
             strippedName = []
@@ -110,6 +110,9 @@ for package in packages:
             print("XXXXXXXXXXXXXXXX")
             print(TryingConversion)
             license=TryingConversion
+        for char in list_of_parenthesis:
+            if char in license:
+                license = RemoveParenthesisAndSpecialChars(license)            
         possibleSPDX = license
         IsSPDX = APICallIsAnSPDX(license)
         if IsSPDX:

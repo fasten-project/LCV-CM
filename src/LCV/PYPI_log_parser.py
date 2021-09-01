@@ -41,7 +41,7 @@ already_fixed= ["GNU v3", "MIT;", "CC0","APL", "CeCILL-B", "zlib",
 "CC BY-NC-SA 4.0", "CCSA-4.0", "CC BY-NC 4.0","IBM", "CC4.0-BY-NC-SA",
 "wxWindows","CC BY-NC-ND 4.0","ICS",
 "https://creativecommons.org/publicdomain/zero/1.0/",
-"SIL OFL 1.1", "NIST", "D-FSL",
+"SIL OFL 1.1", "NIST", "D-FSL", "Unlisence",
 ]
 
 
