@@ -12,6 +12,7 @@ import sys
 import pandas as pd
 import numpy as np
 import re
+import fileinput
 from LCVlib.SPDXIdMapping import StaticMappingList,IsAnSPDX,StaticMapping,DynamicMapping,IsInAliases,ConvertToSPDX
 from LCVlib.VerboseLicenseParsing import RemoveParenthesisAndSpecialChars
 from LCVlib.CommonLists import *
@@ -92,6 +93,7 @@ with open('whole_pypi_package_list.txt') as f:
     print(packages)
 
 for package in packages:
+    output = None
     license = RetrievePypiLicenseInformationPackage(package)
     if license is not None and not license == "" and not license == "404":
         if "same as" in license:
@@ -112,7 +114,7 @@ for package in packages:
             license=TryingConversion
         for char in list_of_parenthesis:
             if char in license:
-                license = RemoveParenthesisAndSpecialChars(license)            
+                license = RemoveParenthesisAndSpecialChars(license)
         possibleSPDX = license
         IsSPDX = APICallIsAnSPDX(license)
         if IsSPDX:
@@ -129,8 +131,17 @@ for package in packages:
                     IsSPDX = "Converted."
                 if not IsSPDX:
                     IsSPDX = "NOT Converted."
-        output=package+",\n"+str(license)+",\n"+str(possibleSPDX)+",\n"+str(IsSPDX)
-        print(output)
+        line_number = 0
+        # add line number
+        with open('whole_pypi_package_list.txt', 'r') as g:
+            for line in g:
+                line_number += 1
+                if re.search(rf"\b(?=\w){package}\b(?!\w)", line, re.IGNORECASE):
+                    output=str(line_number)+" "+package+",\n"+str(license)+",\n"+str(possibleSPDX)+",\n"+str(IsSPDX)
+                    print(output)
+        if output is None:
+                output=package+",\n"+str(license)+",\n"+str(possibleSPDX)+",\n"+str(IsSPDX)
+                print(output)
         appendToFile(output)
     if license is None or license == "":
         output=package+", detected pypi license: None"
