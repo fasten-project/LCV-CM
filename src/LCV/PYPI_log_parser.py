@@ -24,17 +24,17 @@ from LCVlib.pypi_license_retrieval import *
 '''
 
 
-excluded_not_converted= ["ASL","GPL","LGPL","AGPL", "AFL", "GNU", "Creative Commons",
-"Private","UNKNOWN","BSD","Apache","MPL","None", "CC-BY-NC-SA", "Python", "Marsyas",
-"License", "LICENCE","LICENSE","LICENSE.txt","Dual License", "Proprietary", "todo","TODO",
+excluded_not_converted= ["ASL","GPL","LGPL","AGPL", "AFL", "BOLA", "GNU", "Creative Commons",
+"Private","UNKNOWN","BSD","Apache","MPL","None", "other", "CC-BY-NC-SA", "Python", "Marsyas",
+"License", "LICENCE","LICENSE","LICENSE.txt","Dual License", "Proprietary", "todo", "TODO",
 "Artistic","ZPL","ASK FOR PERMISSIONS","NA","OSL","public","Public Domain", "Private","Proprietary License",
 "PSL", "All Rights Reserved", "WPI", "CeCILL","OSI","LUMS", "UCSD", "EUPL" , "EULA", "CDDL",
-"commercial","undefined","CC-BY-SA", "Free", "Freeware", "EPL", "RPL", "TBD", "Custom", "COPYING", "COPYRIGHT",
+"commercial","undefined","CC-BY-SA", "Free", "Freeware", "EPL", "RPL", "TBD", "Custom", "COPYING", "COPYRIGHT", "SSPL"
 ]
 
 already_fixed= ["GNU v3", "MIT;", "CC0","APL", "CeCILL-B", "zlib",
 "CC BY-SA 3.0", "CC by 4.0", "EUPL v1.2 or later", "BEERWARE",
-"cc-by-sa-4.0", "beer", "ISCL",
+"cc-by-sa-4.0", "beer", "ISCL", "ISC-style", "SSPL"
 "Attribution-NonCommercial-ShareAlike 4.0 International",
 "Attribution-ShareAlike 4.0 International CC BY-SA 4.0", "CC BY-SA 4.0",
 "Attribution-NonCommercial-NoDerivatives 4.0 International CC BY-NC-ND 4.0",
