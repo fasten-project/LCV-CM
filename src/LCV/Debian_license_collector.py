@@ -36,7 +36,7 @@ def RetrievePackageFilesAndDirectory(packageName):
     if response.status_code == 200:
         jsonResponse=response.json()
         with open('collectingDebianLicenses/'+packageName+'.json', 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
+            json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
         return jsonResponse
 
     else:
@@ -46,7 +46,7 @@ def RetrievePackageFilesAndDirectory(packageName):
         return jsonResponse
 
 def CreateDirectory(directory):
-    parent_dir = "./collectingDebianLicenses/"
+    parent_dir = "./collectingDebianLicenses/"+packageName
     path = os.path.join(parent_dir, directory)
     try:
         os.makedirs(path, exist_ok = True)
@@ -77,15 +77,7 @@ def RetrieveFilesCheckusm(directory,fileName):
             jsonResponse=response.json()
             with open('collectingDebianLicenses/'+packageName+'.json', 'w', encoding='utf-8') as f:
                 json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
-                return jsonResponse
-    '''
-    response = requests.get("https://sources.debian.org/api/src/"+fileName+"/")
-    if response.status_code == 200:
-        jsonResponse=response.json()
-        with open('collectingDebianLicenses/'+fileName+'.json', 'w', encoding='utf-8') as f:
-            json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
-    return jsonResponse
-    '''
+                return jsonResponse    
 
 data = RetrievePackageFilesAndDirectory(packageName)
 
@@ -93,7 +85,7 @@ with open('collectingDebianLicenses/'+packageName+'.json', 'r') as f:
     print("Opening file")
     dict = json.load(f)
     subDict = dict["content"]
-    print(SubDict)
+    print(subDict)
 
 for item in subDict:
     if item["type"] == "directory":
@@ -103,6 +95,6 @@ for item in subDict:
         print(directory)
     if item["type"] == "file":
         fileName = item["name"]
-        data = RetrieveFileCheckusm(fileName)
+        #data = RetrieveFilesCheckusm(directory,fileName)
         print("Checking for checksum:")
         print(data)
