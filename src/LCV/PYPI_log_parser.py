@@ -24,10 +24,10 @@ from LCVlib.pypi_license_retrieval import *
 '''
 
 
-excluded_not_converted= ["ASL","GPL","LGPL","AGPL", "AFL", "BOLA", "GNU", "Creative Commons",
-"Private","UNKNOWN","BSD","Apache","MPL","None", "other", "CC-BY-NC-SA", "Python", "Marsyas",
+excluded_not_converted= ["ASL","GPL","LGPL","AGPL", "AFL","ASF", "BOLA", "GNU", "Creative Commons", "Copyleft",
+"Private","UNKNOWN","BSD","Apache","MPL","LPPL","None", "other", "CC-BY-NC-SA", "Python", "Marsyas", "Mozilla",
 "License", "LICENCE","LICENSE","LICENSE.txt","Dual License", "Proprietary", "todo", "TODO",
-"Artistic","ZPL","ASK FOR PERMISSIONS","NA","OSL","public","Public Domain", "Private","Proprietary License",
+"Artistic","ZPL","ASK FOR PERMISSIONS","NA","nothing","opensource","OSL","public","Public Domain", "Private","Proprietary License",
 "PSL", "All Rights Reserved", "WPI", "CeCILL","OSI","LUMS", "UCSD", "EUPL" , "EULA", "CDDL",
 "commercial","undefined","CC-BY-SA", "Free", "Freeware", "EPL", "RPL", "TBD", "Custom", "COPYING", "COPYRIGHT", "SSPL"
 ]
@@ -39,7 +39,7 @@ already_fixed= ["GNU v3", "MIT;", "CC0","APL", "CeCILL-B", "zlib",
 "Attribution-ShareAlike 4.0 International CC BY-SA 4.0", "CC BY-SA 4.0",
 "Attribution-NonCommercial-NoDerivatives 4.0 International CC BY-NC-ND 4.0",
 "CC BY-NC-SA 4.0", "CCSA-4.0", "CC BY-NC 4.0","IBM", "CC4.0-BY-NC-SA",
-"wxWindows","CC BY-NC-ND 4.0","ICS",
+"wxWindows","CC BY-NC-ND 4.0","ICS", "MIT/Expat", "MIT/X",
 "https://creativecommons.org/publicdomain/zero/1.0/",
 "SIL OFL 1.1", "NIST", "D-FSL", "Unlisence",
 ]
