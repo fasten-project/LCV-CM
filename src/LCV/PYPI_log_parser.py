@@ -24,23 +24,24 @@ from LCVlib.pypi_license_retrieval import *
 '''
 
 
-excluded_not_converted= ["ASL","GPL","LGPL","AGPL", "AFL","ASF", "BOLA", "GNU", "Creative Commons", "Copyleft",
+excluded_not_converted= ["ASL","GPL","LGPL","AGPL", "AFL","ASF", "BOLA", "GNU", "Creative Commons", "Copyleft", "ChokChaisak",
 "Private","UNKNOWN","BSD","Apache","MPL","LPPL","None", "other", "CC-BY-NC-SA", "Python", "Marsyas", "Mozilla",
-"License", "LICENCE","LICENSE","LICENSE.txt","Dual License", "Proprietary", "todo", "TODO",
+"License", "LICENCE","LICENSE","LICENSE.txt","Dual License", "Open Source", "Proprietary", "todo", "TODO",
 "Artistic","ZPL","ASK FOR PERMISSIONS","NA","nothing","opensource","OSL","public","Public Domain", "Private","Proprietary License",
-"PSL", "All Rights Reserved", "WPI", "CeCILL","OSI","LUMS", "UCSD", "EUPL" , "EULA", "CDDL",
-"commercial","undefined","CC-BY-SA", "Free", "Freeware", "EPL", "RPL", "TBD", "Custom", "COPYING", "COPYRIGHT", "SSPL"
+"PSL", "All Rights Reserved", "WPI", "CeCILL","OSI","LUMS", "UCSD", "EUPL" , "EULA", "CDDL", "Harvard University", "Harvard", "N/A",
+"TBA", "closed",
+"commercial","undefined","CC-BY-SA", "Free", "Freeware", "EPL", "RPL", "TBD", "Custom", "COPYING", "COPYRIGHT", "SSPL", "LICENCSE"
 ]
 
-already_fixed= ["GNU v3", "MIT;", "CC0","APL", "CeCILL-B", "zlib",
+already_fixed= ["GNU v3", "MIT;", "CC0","CC-0","APL", "CeCILL-B", "zlib","boost",
 "CC BY-SA 3.0", "CC by 4.0", "EUPL v1.2 or later", "BEERWARE",
 "cc-by-sa-4.0", "beer", "ISCL", "ISC-style", "SSPL"
 "Attribution-NonCommercial-ShareAlike 4.0 International",
-"Attribution-ShareAlike 4.0 International CC BY-SA 4.0", "CC BY-SA 4.0",
+"Attribution-ShareAlike 4.0 International CC BY-SA 4.0", "CC BY-SA 4.0", "CC BY-ND 4.0",
 "Attribution-NonCommercial-NoDerivatives 4.0 International CC BY-NC-ND 4.0",
 "CC BY-NC-SA 4.0", "CCSA-4.0", "CC BY-NC 4.0","IBM", "CC4.0-BY-NC-SA",
 "wxWindows","CC BY-NC-ND 4.0","ICS", "MIT/Expat", "MIT/X",
-"https://creativecommons.org/publicdomain/zero/1.0/",
+"https://creativecommons.org/publicdomain/zero/1.0/", "QPL-1.0",
 "SIL OFL 1.1", "NIST", "D-FSL", "Unlisence",
 ]
 
