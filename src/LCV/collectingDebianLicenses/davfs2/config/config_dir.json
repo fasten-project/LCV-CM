@@ -1,52 +1,8 @@
 {
     "content": [
         {
-            "hidden": true,
-            "name": ".pc",
-            "stat": {
-                "perms": "rwxr-xr-x",
-                "size": 104,
-                "symlink_dest": null,
-                "type": "d"
-            },
-            "type": "directory"
-        },
-        {
             "hidden": false,
-            "name": "ABOUT-NLS",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 94012,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "AUTHORS",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 2743,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "BUGS",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 396,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "COPYING",
+            "name": "COPYING.davfs2",
             "stat": {
                 "perms": "rw-r--r--",
                 "size": 35148,
@@ -57,29 +13,7 @@
         },
         {
             "hidden": false,
-            "name": "ChangeLog",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 52397,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "FAQ",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 4805,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "INSTALL",
+            "name": "INSTALL.davfs2",
             "stat": {
                 "perms": "rw-r--r--",
                 "size": 5007,
@@ -90,98 +24,10 @@
         },
         {
             "hidden": false,
-            "name": "Makefile.am",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 1175,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "Makefile.in",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 28685,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "NEWS",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 15569,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "README",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 10672,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "README.translators",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 3415,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "THANKS",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 587,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "TODO",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 192,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "aclocal.m4",
-            "stat": {
-                "perms": "rw-r--r--",
-                "size": 42232,
-                "symlink_dest": null,
-                "type": "-"
-            },
-            "type": "file"
-        },
-        {
-            "hidden": false,
-            "name": "bootstrap",
+            "name": "compile",
             "stat": {
                 "perms": "rwxr-xr-x",
-                "size": 460,
+                "size": 7383,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -189,21 +35,43 @@
         },
         {
             "hidden": false,
-            "name": "config",
+            "name": "config.guess",
             "stat": {
                 "perms": "rwxr-xr-x",
-                "size": 4096,
+                "size": 44283,
                 "symlink_dest": null,
-                "type": "d"
+                "type": "-"
             },
-            "type": "directory"
+            "type": "file"
         },
         {
             "hidden": false,
-            "name": "config.h.in",
+            "name": "config.rpath",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 18574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config.sub",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "davfs2.m4",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 10724,
+                "size": 5127,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -211,10 +79,10 @@
         },
         {
             "hidden": false,
-            "name": "configure",
+            "name": "depcomp",
             "stat": {
                 "perms": "rwxr-xr-x",
-                "size": 323001,
+                "size": 23568,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -222,10 +90,10 @@
         },
         {
             "hidden": false,
-            "name": "configure.ac",
+            "name": "gettext.m4",
             "stat": {
                 "perms": "rw-r--r--",
-                "size": 2740,
+                "size": 15859,
                 "symlink_dest": null,
                 "type": "-"
             },
@@ -233,63 +101,140 @@
         },
         {
             "hidden": false,
-            "name": "debian",
+            "name": "iconv.m4",
             "stat": {
-                "perms": "rwxr-xr-x",
-                "size": 4096,
+                "perms": "rw-r--r--",
+                "size": 9274,
                 "symlink_dest": null,
-                "type": "d"
+                "type": "-"
             },
-            "type": "directory"
+            "type": "file"
         },
         {
             "hidden": false,
-            "name": "etc",
+            "name": "install-sh",
             "stat": {
                 "perms": "rwxr-xr-x",
-                "size": 94,
+                "size": 15368,
                 "symlink_dest": null,
-                "type": "d"
+                "type": "-"
             },
-            "type": "directory"
+            "type": "file"
         },
         {
             "hidden": false,
-            "name": "man",
+            "name": "intlmacosx.m4",
             "stat": {
-                "perms": "rwxr-xr-x",
-                "size": 4096,
+                "perms": "rw-r--r--",
+                "size": 2533,
                 "symlink_dest": null,
-                "type": "d"
+                "type": "-"
             },
-            "type": "directory"
+            "type": "file"
         },
         {
             "hidden": false,
-            "name": "po",
+            "name": "lib-ld.m4",
             "stat": {
-                "perms": "rwxr-xr-x",
-                "size": 4096,
+                "perms": "rw-r--r--",
+                "size": 3683,
                 "symlink_dest": null,
-                "type": "d"
+                "type": "-"
             },
-            "type": "directory"
+            "type": "file"
         },
         {
             "hidden": false,
-            "name": "src",
+            "name": "lib-link.m4",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33059,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lib-prefix.m4",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "missing",
             "stat": {
                 "perms": "rwxr-xr-x",
-                "size": 4096,
+                "size": 6878,
                 "symlink_dest": null,
-                "type": "d"
+                "type": "-"
             },
-            "type": "directory"
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mkinstalldirs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neon.m4",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nls.m4",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "po.m4",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "progtest.m4",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
         }
     ],
-    "directory": "1.6.0-1",
+    "directory": "config",
     "package": "davfs2",
-    "path": "davfs2/1.6.0-1",
+    "path": "davfs2/1.6.0-1/config",
     "pkg_infos": {
         "area": "main",
         "copyright": true,
