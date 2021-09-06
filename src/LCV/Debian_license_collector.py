@@ -26,8 +26,10 @@ from LCVlib.CommonLists import *
 '''
 
 packageName = "davfs2"
-
-
+packageVersion = "latest"
+parent_dir = "collectingDebianLicenses/"
+dir = "collectingDebianLicenses/davfs2/"
+#dir = "/home/michelescarlato/gitrepo/LCV-CM-Fasten/src/LCV/collectingDebianLicenses/davfs2/"
 
 def RetrievePackageFilesAndDirectory(packageName):
     #Example: GET https://Debian.org/Debian/standalone/1.0.1/json
@@ -35,66 +37,134 @@ def RetrievePackageFilesAndDirectory(packageName):
     time.sleep(2)
     if response.status_code == 200:
         jsonResponse=response.json()
-        with open('collectingDebianLicenses/'+packageName+'.json', 'w', encoding='utf-8') as f:
+        with open('collectingDebianLicenses/'+packageName+'/'+packageName+'.json', 'w', encoding='utf-8') as f:
             json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
         return jsonResponse
-
     else:
         jsonResponse = "404"
         #output= jsonResponse+", 404 - page not found"
         #print(output)
         return jsonResponse
 
-def CreateDirectory(directory):
-    parent_dir = "./collectingDebianLicenses/"+packageName
-    path = os.path.join(parent_dir, directory)
+def CreateDirectory(root,directory):
+    #parent_dir = "./collectingDebianLicenses/"+packageName
+    path = os.path.join(root, directory)
     try:
         os.makedirs(path, exist_ok = True)
         print("Directory '%s' created successfully" % directory)
+        print(path)
+        return path
     except OSError as error:
         print("Directory '%s' can not be created" % directory)
 
 
-def RetrieveFilesCheckusm(directory,fileName):
-    if directory is not None:
-        response = requests.get("https://sources.debian.org/api/src/"+directory+"/"+fileName+"/")
-        time.sleep(2)
-        if response.status_code == 200:
-            jsonResponse=response.json()
-            with open('collectingDebianLicenses/'+directory+'/'+packageName+'.json', 'w', encoding='utf-8') as f:
+def RetrieveFilesInfo(path):
+    fileName = path
+    path = packageName+"/"+packageVersion+"/"+path
+    print(path)
+    response = requests.get("https://sources.debian.org/api/src/"+path+"/")
+    #response = requests.get("https://sources.debian.org/api/src/"+packageName+"/"+packageVersion+"/"+fileName+"/")
+    time.sleep(2)
+    if response.status_code == 200:
+        jsonResponse=response.json()
+        #print(jsonResponse)
+        with open('collectingDebianLicenses/'+packageName+'/'+fileName+'.json', 'w', encoding='utf-8') as f:
+            json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
+        return jsonResponse
+        '''
+        fname = 'collectingDebianLicenses/'+packageName+fileName+'_dir.json'
+        if os.path.isfile(fname):
+            with open('collectingDebianLicenses/'+path+'.json', 'w', encoding='utf-8') as f:
                 json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
                 return jsonResponse
-        else:
-            jsonResponse = "404"
-            output = jsonResponse+", 404 - page not found"
-            #print(output)
-            #appendToFile(output)
-            return output
+        '''
     else:
-        response = requests.get("https://sources.debian.org/api/src/"+fileName+"/")
-        time.sleep(2)
-        if response.status_code == 200:
-            jsonResponse=response.json()
-            with open('collectingDebianLicenses/'+packageName+'.json', 'w', encoding='utf-8') as f:
+        jsonResponse = "404"
+        output = jsonResponse+", 404 - page not found"
+        #print(output)
+        #appendToFile(output)
+        return output
+
+def RetrieveDirectoryInfo(path):
+    directory = path
+    path = packageName+"/"+packageVersion+"/"+path
+    response = requests.get("https://sources.debian.org/api/src/"+path+"/")
+    time.sleep(2)
+    if response.status_code == 200:
+        jsonResponse=response.json()
+        fname = 'collectingDebianLicenses/'+packageName+directory+directory+'_dir.json'
+        if os.path.isfile(fname):
+            with open(fname, 'w', encoding='utf-8') as f:
                 json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
-                return jsonResponse    
+                return jsonResponse
+    else:
+        jsonResponse = "404"
+        output = jsonResponse+", 404 - page not found"
+        #print(output)
+        #appendToFile(output)
+        return output
 
-data = RetrievePackageFilesAndDirectory(packageName)
+#data = RetrievePackageFilesAndDirectory(packageName)
 
-with open('collectingDebianLicenses/'+packageName+'.json', 'r') as f:
-    print("Opening file")
-    dict = json.load(f)
-    subDict = dict["content"]
-    print(subDict)
+def ScanJson(root,jsonFile):
+    fname = root+"/"+jsonFile
+    #print(os.path.isfile(fname))
+    if os.path.isfile(fname):
+        with open(root+"/"+jsonFile, 'r') as f:
+            print("Opening file")
+            print(jsonFile)
+            dict = json.load(f)
+            #print(dict)
+            subDict = dict["content"]
+            #print(subDict)
+        for item in subDict:
+            if item["type"] == "directory":
+                directory = item["name"]
+                #print("Creating directory")
+                path=CreateDirectory(root,directory)
+                path = path.replace("collectingDebianLicenses/"+packageName+"","")
+                print (path)
+                RetrieveDirectoryInfo(path)
+                #print(directory)
+            if item["type"] == "file":
+                fileName = item["name"]
+                print(fileName)
+                print(root)
+                path = root+fileName
+                path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                print(path)
+                RetrieveFilesInfo(path)
+                #data = RetrieveFilesCheckusm(directory,fileName)
+                #print("Checking for checksum:")
+                #print(data)
 
-for item in subDict:
-    if item["type"] == "directory":
-        directory = item["name"]
-        print("CreateDirectory")
-        CreateDirectory(directory)
-        print(directory)
-    if item["type"] == "file":
-        fileName = item["name"]
-        #data = RetrieveFilesCheckusm(directory,fileName)
-        print("Checking for checksum:")
-        print(data)
+
+
+CreateDirectory(parent_dir,packageName)
+RetrievePackageFilesAndDirectory(packageName)
+
+'''
+packageNameJson = packageName+".json"
+ScanJson(parent_dir,packageNameJson)
+'''
+for (root,dirs,files) in os.walk(dir, topdown=True):
+        print (root)
+        print (dirs)
+        print (files)
+        print ('--------------------------------')
+        for file in files:
+            if ".json" in file:
+                print (file+" is a json file")
+                #pathToJsonFile = root+"/"+file
+                #print(pathToJsonFile)
+                ScanJson(root, file)
+                time.sleep(3)
+
+
+'''
+files = os.listdir(dir)
+for f in files:
+    print(f)
+    if "_dir" in f:
+        print(f+" contains directory information")
+'''
