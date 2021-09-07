@@ -93,11 +93,20 @@ for (root,dirs,files) in os.walk(dir, topdown=True):
             print("This is an empty dir")
             RetrieveDirectoryInfo(root+"/"+directory)
             time.sleep(1)
-        for file in os.listdir(root+"/"+directory):
-            print("Inside "+directory+" there is :"+file)
-            if "_dir.json" in file:
-                path = dir
-                path = path.replace("collectingDebianLicenses/"+packageName+"/","")
-                print(path)
-                ScanJsonDir(root,file)
-                time.sleep(1)
+            for file in os.listdir(root+"/"+directory):
+                print("Inside "+directory+" there is :"+file)
+                if "_dir.json" in file:
+                    #path = dir
+                    #path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                    #print(path)
+                    ScanJsonDir(root,file)
+                    time.sleep(1)
+        else:
+            for file in os.listdir(root+"/"+directory):
+                print("Inside "+directory+" there is :"+file)
+                if "_dir.json" in file:
+                    #path = dir
+                    #path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                    #print(path)
+                    ScanJsonDir(root,file)
+                    time.sleep(1)
