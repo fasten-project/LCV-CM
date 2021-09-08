@@ -28,22 +28,25 @@ from LCVlib.DebianAPILib import *
 
 packageName = "davfs2"
 packageVersion = "latest"
-parent_dir = "collectingDebianLicenses/"
-dir = "collectingDebianLicenses/davfs2/"
+parent_dir = "collectingDebianLicenses"
+dir = "collectingDebianLicenses/davfs2"
 #dir = "/home/michelescarlato/gitrepo/LCV-CM-Fasten/src/LCV/collectingDebianLicenses/davfs2/"
+
 
 
 CreateDirectory(parent_dir,packageName)
 RetrievePackageFilesAndDirectory(packageName)
 #parse davfs2_pkg.json
-ScanJsonDir(dir,packageName+"_pkg.json")
 
+ScanJsonDir(dir,packageName+"_pkg.json")
 
 #this loop create the first layer of files and directories
 for (root,dirs,files) in os.walk(dir, topdown=True):
     if not os.listdir(root):
         print("This is an empty dir")
         root = root.replace("collectingDebianLicenses/"+packageName+"/","")
+        print("here root is:")
+        print(root)
         RetrieveDirectoryInfoNotRecursive(root)
     for directory in dirs:
         print(".. looping through directory ..: " +root+directory)
