@@ -45,22 +45,6 @@ for (root,dirs,files) in os.walk(dir, topdown=True):
         print("This is an empty dir")
         root = root.replace("collectingDebianLicenses/"+packageName+"/","")
         RetrieveDirectoryInfoNotRecursive(root)
-    print ("root: ")
-    print (root)
-    print (len(root+"/"))
-    print ("dirs: ")
-    print (dirs)
-    print ("files: ")
-    print (files)
-    print ('--------------------------------')
-    for file in files:
-        print(".. looping through files .. " +file)
-        if "_dir.json" in file:
-            path = dir
-            path = path.replace("collectingDebianLicenses/"+packageName+"/","")
-            print(path)
-            ScanJsonDir(root+"/",file)
-            time.sleep(1)
     for directory in dirs:
         print(".. looping through directory ..: " +root+directory)
         for file in os.listdir(root+"/"+directory):
@@ -70,7 +54,15 @@ for (root,dirs,files) in os.walk(dir, topdown=True):
         else:
             for file in os.listdir(root+"/"+directory):
                 print("Inside "+directory+" there is :"+file)
-
+    for file in files:
+        print(".. looping through files .. " +file)
+        if "_dir.json" in file:
+            path = dir
+            path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+            print(path)
+            ScanJsonDir(root+"/",file)
+            time.sleep(1)
+"""
 #this loop create the second layer of files and directories
 for (root,dirs,files) in os.walk(dir, topdown=True):
     print("######### Second for ##############")
@@ -78,14 +70,6 @@ for (root,dirs,files) in os.walk(dir, topdown=True):
         print("This is an empty dir")
         root = root.replace("collectingDebianLicenses/"+packageName+"/","")
         RetrieveDirectoryInfoNotRecursive(root)
-    print ("root: ")
-    print (root)
-    #print (len(root+"/"))
-    print ("dirs: ")
-    print (dirs)
-    print ("files: ")
-    print (files)
-    print ('--------------------------------')
     for directory in dirs:
         print(".. looping through directory ..: " +root+directory)
         #if len(root+"/"+directory) == 0:
@@ -110,3 +94,4 @@ for (root,dirs,files) in os.walk(dir, topdown=True):
                     #print(path)
                     ScanJsonDir(root,file)
                     time.sleep(1)
+"""
