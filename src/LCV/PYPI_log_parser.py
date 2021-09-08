@@ -35,8 +35,9 @@ excluded_not_converted= ["ASL","GPL","LGPL","AGPL", "AFL","ASF", "BOLA", "GNU", 
 
 already_fixed= ["GNU v3", "MIT;", "CC0","CCO","CC-0","APL", "CeCILL-B", "zlib","boost",
 "CC BY-SA 3.0", "CC by 4.0", "EUPL v1.2 or later", "BEERWARE",
-"cc-by-sa-4.0", "beer", "ISCL", "ISC-style","MIT.txt", "SSPL"
+"cc-by-sa-4.0", "beer", "ISCL", "ISC-style","MIT.txt", "SSPL", "BUSL 1.1",
 "Attribution-NonCommercial-ShareAlike 4.0 International",
+"LPGL 2.1 or later",
 "Attribution-ShareAlike 4.0 International CC BY-SA 4.0", "CC BY-SA 4.0", "CC BY-ND 4.0",
 "Attribution-NonCommercial-NoDerivatives 4.0 International CC BY-NC-ND 4.0",
 "CC BY-NC-SA 4.0", "CCSA-4.0", "CC BY-NC 4.0","IBM", "CC4.0-BY-NC-SA",
