@@ -51,12 +51,12 @@ for (root,dirs,files) in os.walk(dir, topdown=True):
     for directory in dirs:
         print(".. looping through directory ..: " +root+directory)
         for file in os.listdir(root+"/"+directory):
-        #if len(root+"/"+directory) == 0:
-            print("This is an empty dir")
-            RetrieveDirectoryInfo(root+"/"+directory)
-        else:
-            for file in os.listdir(root+"/"+directory):
-                print("Inside "+directory+" there is :"+file)
+            if not os.listdir(root+"/"+directory):
+                print("This is an empty dir")
+                RetrieveDirectoryInfo(root+"/"+directory)
+            else:
+                for file in os.listdir(root+"/"+directory):
+                    print("Inside "+directory+" there is :"+file)
     for file in files:
         print(".. looping through files .. " +file)
         if "_dir.json" in file:
@@ -64,37 +64,4 @@ for (root,dirs,files) in os.walk(dir, topdown=True):
             path = path.replace("collectingDebianLicenses/"+packageName+"/","")
             print(path)
             ScanJsonDir(root+"/",file)
-            time.sleep(1)
-"""
-#this loop create the second layer of files and directories
-for (root,dirs,files) in os.walk(dir, topdown=True):
-    print("######### Second for ##############")
-    if not os.listdir(root):
-        print("This is an empty dir")
-        root = root.replace("collectingDebianLicenses/"+packageName+"/","")
-        RetrieveDirectoryInfoNotRecursive(root)
-    for directory in dirs:
-        print(".. looping through directory ..: " +root+directory)
-        #if len(root+"/"+directory) == 0:
-        if not os.listdir(root+"/"+directory):
-            print("This is an empty dir")
-            RetrieveDirectoryInfo(root+"/"+directory)
-            time.sleep(1)
-            for file in os.listdir(root+"/"+directory):
-                print("Inside "+directory+" there is :"+file)
-                if "_dir.json" in file:
-                    #path = dir
-                    #path = path.replace("collectingDebianLicenses/"+packageName+"/","")
-                    #print(path)
-                    ScanJsonDir(root,file)
-                    time.sleep(1)
-        else:
-            for file in os.listdir(root+"/"+directory):
-                print("Inside "+directory+" there is :"+file)
-                if "_dir.json" in file:
-                    #path = dir
-                    #path = path.replace("collectingDebianLicenses/"+packageName+"/","")
-                    #print(path)
-                    ScanJsonDir(root,file)
-                    time.sleep(1)
-"""
+            time.sleep(0.2)

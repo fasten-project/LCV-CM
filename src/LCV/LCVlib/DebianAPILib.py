@@ -31,7 +31,7 @@ packageVersion = "latest"
 def RetrievePackageFilesAndDirectory(packageName):
     print("https://sources.debian.org/api/src/"+packageName+"/latest/")
     response = requests.get("https://sources.debian.org/api/src/"+packageName+"/latest/")
-    time.sleep(1)
+    time.sleep(0.2)
     if response.status_code == 200:
         jsonResponse=response.json()
         with open('collectingDebianLicenses/'+packageName+'/'+packageName+'_pkg.json', 'w', encoding='utf-8') as f:
@@ -56,7 +56,6 @@ def CreateDirectory(root,directory):
     except OSError as error:
         print("Directory '%s' can not be created" % directory)
 
-
 def RetrieveFilesInfo(path):
     fileName = path
     path = packageName+"/"+packageVersion+"/"+path
@@ -64,7 +63,7 @@ def RetrieveFilesInfo(path):
     print("https://sources.debian.org/api/src/"+path+"/")
     response = requests.get("https://sources.debian.org/api/src/"+path+"/")
     #response = requests.get("https://sources.debian.org/api/src/"+packageName+"/"+packageVersion+"/"+fileName+"/")
-    time.sleep(1)
+    time.sleep(0.2)
     if response.status_code == 200:
         jsonResponse=response.json()
         #print(jsonResponse)
@@ -84,7 +83,7 @@ def RetrieveDirectoryInfo(path):
     path = packageName+"/"+packageVersion+"/"+path
     print("https://sources.debian.org/api/src/"+path+"/")
     response = requests.get("https://sources.debian.org/api/src/"+path+"/")
-    time.sleep(1)
+    time.sleep(0.2)
     if response.status_code == 200:
         print("status code 200")
         jsonResponse=response.json()
@@ -114,7 +113,7 @@ def RetrieveDirectoryInfoNotRecursive(path):
     path = packageName+"/"+packageVersion+"/"+path
     print("https://sources.debian.org/api/src/"+path+"/")
     response = requests.get("https://sources.debian.org/api/src/"+path+"/")
-    time.sleep(1)
+    time.sleep(0.2)
     if response.status_code == 200:
         print("status code 200")
         jsonResponse=response.json()
@@ -134,9 +133,6 @@ def RetrieveDirectoryInfoNotRecursive(path):
         jsonResponse = "404"
         output = jsonResponse+", 404 - page not found"
         return output
-
-
-
 
 def ScanJsonDir(root,jsonFile):
     fname = root+"/"+jsonFile
@@ -164,7 +160,7 @@ def ScanJsonDir(root,jsonFile):
                 path = path.replace("collectingDebianLicenses/"+packageName+"/","")
                 print (path)
                 print ("Inside of type directory in ScanJsonDir")
-                time.sleep(1)
+                time.sleep(0.2)
                 RetrieveDirectoryInfoNotRecursive(path)
             if item["type"] == "file":
                 fileName = item["name"]
@@ -172,7 +168,12 @@ def ScanJsonDir(root,jsonFile):
                 #print(root)
                 path = root+"/"+fileName
                 path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                print("Path generated inside of ScanJsonDir for file type")
                 print(path)
+                if "//" in path:
+                    path = path.replace("//","/")
+                    print("ModPath:")
+                    print(path)
                 RetrieveFilesInfo(path)
 
 def ScanJsonFile(root,jsonFile):
