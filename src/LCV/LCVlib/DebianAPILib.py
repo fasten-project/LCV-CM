@@ -31,7 +31,7 @@ packageVersion = "latest"
 def RetrievePackageFilesAndDirectory(packageName):
     print("https://sources.debian.org/api/src/"+packageName+"/latest/")
     response = requests.get("https://sources.debian.org/api/src/"+packageName+"/latest/")
-    time.sleep(2)
+    time.sleep(1)
     if response.status_code == 200:
         jsonResponse=response.json()
         with open('collectingDebianLicenses/'+packageName+'/'+packageName+'_pkg.json', 'w', encoding='utf-8') as f:
@@ -44,6 +44,10 @@ def RetrievePackageFilesAndDirectory(packageName):
 
 def CreateDirectory(root,directory):
     path = os.path.join(root, directory)
+    print("Inside create directory:")
+    print("root :"+root)
+    print("directory :"+directory)
+    print("path :"+path)
     try:
         os.makedirs(path, exist_ok = True)
         print("Directory '%s' created successfully" % directory)
@@ -100,6 +104,7 @@ def RetrieveDirectoryInfo(path):
 def RetrieveDirectoryInfoNotRecursive(path):
     #print("Inside of DirectoryInfo")
     directory = path
+    print(directory)
     fileName = path
     fileName = fileName.replace("/"," ")
     fileNameList = fileName.split()
@@ -119,12 +124,12 @@ def RetrieveDirectoryInfoNotRecursive(path):
         #if os.path.isfile(fname):
         with open(fname, 'w', encoding='utf-8') as f:
             json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
-            root = 'collectingDebianLicenses/'+packageName+'/'+directory+'/'
+            root = 'collectingDebianLicenses/'+packageName+'/'+directory
             jsonFile = fileName+'_dir.json'
             print(root)
             print(jsonFile)
-            ScanJsonDir(root,jsonFile)
-            return jsonResponse
+        ScanJsonDir(root,jsonFile)
+        return jsonResponse
     else:
         jsonResponse = "404"
         output = jsonResponse+", 404 - page not found"
@@ -134,29 +139,38 @@ def RetrieveDirectoryInfoNotRecursive(path):
 
 
 def ScanJsonDir(root,jsonFile):
-    fname = root+jsonFile
+    fname = root+"/"+jsonFile
     print("Fname is:")
     print(fname)
     #print(os.path.isfile(fname))
     #print("inside dir.json and pkg.json loop")
     if os.path.isfile(fname):
-        with open(root+"/"+jsonFile, 'r') as f:
+        with open(fname, 'r') as f:
             print("Opening file")
-            print(jsonFile)
+            print(fname)
+            #print(f)
+            currentPath = os.getcwd()
+            print("Current Path:")
+            print(currentPath)
+            #if fname == None or f == '':
+            #    print('I got a null or empty string value for data in a file')
             dict = json.load(f)
+            print(dict)
             subDict = dict["content"]
         for item in subDict:
             if item["type"] == "directory":
                 directory = item["name"]
                 path = CreateDirectory(root,directory)
                 path = path.replace("collectingDebianLicenses/"+packageName+"/","")
-                #print (path)
+                print (path)
+                print ("Inside of type directory in ScanJsonDir")
+                time.sleep(1)
                 RetrieveDirectoryInfoNotRecursive(path)
             if item["type"] == "file":
                 fileName = item["name"]
                 #print(fileName)
                 #print(root)
-                path = root+fileName
+                path = root+"/"+fileName
                 path = path.replace("collectingDebianLicenses/"+packageName+"/","")
                 print(path)
                 RetrieveFilesInfo(path)
