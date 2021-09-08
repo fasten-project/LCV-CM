@@ -119,6 +119,11 @@ def RetrieveDirectoryInfoNotRecursive(path):
         #if os.path.isfile(fname):
         with open(fname, 'w', encoding='utf-8') as f:
             json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
+            root = 'collectingDebianLicenses/'+packageName+'/'+directory+'/'
+            jsonFile = fileName+'_dir.json'
+            print(root)
+            print(jsonFile)
+            ScanJsonDir(root,jsonFile)
             return jsonResponse
     else:
         jsonResponse = "404"
