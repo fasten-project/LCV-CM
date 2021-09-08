@@ -60,7 +60,7 @@ def RetrieveFilesInfo(path):
     print("https://sources.debian.org/api/src/"+path+"/")
     response = requests.get("https://sources.debian.org/api/src/"+path+"/")
     #response = requests.get("https://sources.debian.org/api/src/"+packageName+"/"+packageVersion+"/"+fileName+"/")
-    time.sleep(2)
+    time.sleep(1)
     if response.status_code == 200:
         jsonResponse=response.json()
         #print(jsonResponse)
@@ -80,7 +80,7 @@ def RetrieveDirectoryInfo(path):
     path = packageName+"/"+packageVersion+"/"+path
     print("https://sources.debian.org/api/src/"+path+"/")
     response = requests.get("https://sources.debian.org/api/src/"+path+"/")
-    time.sleep(2)
+    time.sleep(1)
     if response.status_code == 200:
         print("status code 200")
         jsonResponse=response.json()
@@ -103,13 +103,13 @@ def RetrieveDirectoryInfoNotRecursive(path):
     fileName = path
     fileName = fileName.replace("/"," ")
     fileNameList = fileName.split()
-    print(fileNameList)
+    #print(fileNameList)
     fileName = fileNameList[-1]
-    print(fileName)
+    #print(fileName)
     path = packageName+"/"+packageVersion+"/"+path
     print("https://sources.debian.org/api/src/"+path+"/")
     response = requests.get("https://sources.debian.org/api/src/"+path+"/")
-    time.sleep(2)
+    time.sleep(1)
     if response.status_code == 200:
         print("status code 200")
         jsonResponse=response.json()
@@ -143,10 +143,10 @@ def ScanJsonDir(root,jsonFile):
         for item in subDict:
             if item["type"] == "directory":
                 directory = item["name"]
-                path=CreateDirectory(root,directory)
+                path = CreateDirectory(root,directory)
                 path = path.replace("collectingDebianLicenses/"+packageName+"/","")
                 #print (path)
-                RetrieveDirectoryInfo(path)
+                RetrieveDirectoryInfoNotRecursive(path)
             if item["type"] == "file":
                 fileName = item["name"]
                 #print(fileName)
