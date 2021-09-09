@@ -83,5 +83,5 @@ for (root,dirs,files) in os.walk(dir, topdown=True):
             path = dir
             path = path.replace("collectingDebianLicenses/"+packageName+"/","")
             print(path)
-            ScanJsonDir(root+"/",file)
+            ScanJsonDir(packageName,root+"/",file)
             time.sleep(0.2)
