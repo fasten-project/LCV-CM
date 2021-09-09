@@ -1,0 +1,101 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "speling_fixes",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "389-adminutil",
+    "path": "389-adminutil/1.1.23-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/389-adminutil/1.1.23-1/",
+        "metric": {
+            "size": 1940
+        },
+        "pts_link": "https://tracker.debian.org/pkg/389-adminutil",
+        "sloc": [
+            [
+                "sh",
+                11469
+            ],
+            [
+                "ansic",
+                9796
+            ],
+            [
+                "perl",
+                127
+            ],
+            [
+                "makefile",
+                107
+            ],
+            [
+                "cpp",
+                6
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=pkg-fedora-ds/389-adminutil.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.23-1"
+}

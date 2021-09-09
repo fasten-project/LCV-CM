@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "footer.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "header.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "help",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8192,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tokens.map",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8401,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "en",
+    "package": "389-admin-console",
+    "path": "389-admin-console/1.1.12-1/help/en",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/389-admin-console/1.1.12-1/",
+        "metric": {
+            "size": 1252
+        },
+        "pts_link": "https://tracker.debian.org/pkg/389-admin-console",
+        "sloc": [
+            [
+                "java",
+                9359
+            ],
+            [
+                "xml",
+                97
+            ],
+            [
+                "makefile",
+                32
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-fedora-ds/389-admin-console.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.12-1"
+}

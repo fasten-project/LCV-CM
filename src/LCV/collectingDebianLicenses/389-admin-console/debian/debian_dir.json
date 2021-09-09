@@ -1,0 +1,126 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "389-admin-console.lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2963,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 793,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "389-admin-console",
+    "path": "389-admin-console/1.1.12-1/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/389-admin-console/1.1.12-1/",
+        "metric": {
+            "size": 1252
+        },
+        "pts_link": "https://tracker.debian.org/pkg/389-admin-console",
+        "sloc": [
+            [
+                "java",
+                9359
+            ],
+            [
+                "xml",
+                97
+            ],
+            [
+                "makefile",
+                32
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-fedora-ds/389-admin-console.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.12-1"
+}
