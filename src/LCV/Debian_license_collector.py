@@ -26,11 +26,31 @@ from LCVlib.DebianAPILib import *
 * SPDX-License-Identifier: MIT
 '''
 
-packageName = "davfs2"
+
+# create a for that loops from START_LINE up to END_LINE
+
+# Load .env file
+basedir = path.abspath(path.dirname(__file__))
+load_dotenv(path.join(basedir, '.env'))
+# Load parametrs from .env file
+startLine = environ.get('START_LINE')
+endLine = environ.get('END_LINE')
+
+print("Scanning from line:"+startLine)
+print("to line:"+endLine)
+
+
+
+
+packageName = GetPackageName(0)
+packageName = packageName.strip()
 packageVersion = "latest"
 parent_dir = "collectingDebianLicenses"
-dir = "collectingDebianLicenses/davfs2"
+dir = "collectingDebianLicenses/"+packageName
 #dir = "/home/michelescarlato/gitrepo/LCV-CM-Fasten/src/LCV/collectingDebianLicenses/davfs2/"
+
+
+
 
 
 
@@ -38,7 +58,7 @@ CreateDirectory(parent_dir,packageName)
 RetrievePackageFilesAndDirectory(packageName)
 #parse davfs2_pkg.json
 
-ScanJsonDir(dir,packageName+"_pkg.json")
+ScanJsonDir(packageName,dir,packageName+"_pkg.json")
 
 #this loop create the first layer of files and directories
 for (root,dirs,files) in os.walk(dir, topdown=True):
@@ -47,13 +67,13 @@ for (root,dirs,files) in os.walk(dir, topdown=True):
         root = root.replace("collectingDebianLicenses/"+packageName+"/","")
         print("here root is:")
         print(root)
-        RetrieveDirectoryInfoNotRecursive(root)
+        RetrieveDirectoryInfoNotRecursive(packageName,root)
     for directory in dirs:
         print(".. looping through directory ..: " +root+directory)
         for file in os.listdir(root+"/"+directory):
             if not os.listdir(root+"/"+directory):
                 print("This is an empty dir")
-                RetrieveDirectoryInfo(root+"/"+directory)
+                RetrieveDirectoryInfo(packageName,root+"/"+directory)
             else:
                 for file in os.listdir(root+"/"+directory):
                     print("Inside "+directory+" there is :"+file)
