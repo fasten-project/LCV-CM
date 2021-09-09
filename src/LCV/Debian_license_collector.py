@@ -41,8 +41,8 @@ print("to line:"+endLine)
 
 
 
-
-packageName = GetPackageName(startLine)
+i = int(startLine)
+packageName = GetPackageName(i)
 packageName = packageName.strip()
 packageVersion = "latest"
 parent_dir = "collectingDebianLicenses"
