@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "binaries",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0.0.25b-1",
+    "package": "0ad-data",
+    "path": "0ad-data/0.0.25b-1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/0ad-data/0.0.25b-1/",
+        "metric": {
+            "size": 3220944
+        },
+        "pts_link": "https://tracker.debian.org/pkg/0ad-data",
+        "sloc": [
+            [
+                "xml",
+                92
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/0ad-data",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.25b-1"
+}
