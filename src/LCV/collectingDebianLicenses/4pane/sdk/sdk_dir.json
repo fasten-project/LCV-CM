@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bzip",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fswatcher",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 60,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rsvg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "sdk",
+    "package": "4pane",
+    "path": "4pane/7.0-1/sdk",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/4pane/7.0-1/",
+        "metric": {
+            "size": 10044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/4pane",
+        "sloc": [
+            [
+                "cpp",
+                38264
+            ],
+            [
+                "sh",
+                4110
+            ],
+            [
+                "ansic",
+                3620
+            ],
+            [
+                "makefile",
+                157
+            ],
+            [
+                "xml",
+                27
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/dghart/4pane-debian-dir/tree/master/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "7.0-1"
+}
