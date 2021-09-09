@@ -1,0 +1,197 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "arm-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1804,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cmake-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cmake-freebsd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-sse-i386-build.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "issue188.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 634,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "issue261.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "musl-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1088,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr270.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 447,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rpath.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 527,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "win-shared-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13512,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "0ad",
+    "path": "0ad/0.0.25b-1/libraries/source/nvtt/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/0ad/0.0.25b-1/",
+        "metric": {
+            "size": 122380
+        },
+        "pts_link": "https://tracker.debian.org/pkg/0ad",
+        "sloc": [
+            [
+                "cpp",
+                254495
+            ],
+            [
+                "ansic",
+                195857
+            ],
+            [
+                "javascript",
+                19067
+            ],
+            [
+                "python",
+                14541
+            ],
+            [
+                "sh",
+                6225
+            ],
+            [
+                "perl",
+                4832
+            ],
+            [
+                "xml",
+                849
+            ],
+            [
+                "makefile",
+                742
+            ],
+            [
+                "java",
+                533
+            ],
+            [
+                "ruby",
+                229
+            ],
+            [
+                "php",
+                190
+            ],
+            [
+                "erlang",
+                46
+            ],
+            [
+                "pascal",
+                30
+            ],
+            [
+                "sql",
+                21
+            ],
+            [
+                "tcl",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/0ad",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.25b-1"
+}
