@@ -41,47 +41,49 @@ print("to line:"+endLine)
 
 
 
-i = int(startLine)
-packageName = GetPackageName(i)
-packageName = packageName.strip()
-packageVersion = "latest"
-parent_dir = "collectingDebianLicenses"
-dir = "collectingDebianLicenses/"+packageName
-#dir = "/home/michelescarlato/gitrepo/LCV-CM-Fasten/src/LCV/collectingDebianLicenses/davfs2/"
+for i in range(int(startLine),int(endLine)):
+    p = int(i)
+    print(p)
+    packageName = GetPackageName(p)
+    packageName = packageName.strip()
+    packageVersion = "latest"
+    parent_dir = "collectingDebianLicenses"
+    dir = "collectingDebianLicenses/"+packageName
+    #dir = "/home/michelescarlato/gitrepo/LCV-CM-Fasten/src/LCV/collectingDebianLicenses/davfs2/"
 
 
 
 
 
 
-CreateDirectory(parent_dir,packageName)
-RetrievePackageFilesAndDirectory(packageName)
-#parse davfs2_pkg.json
+    CreateDirectory(parent_dir,packageName)
+    RetrievePackageFilesAndDirectory(packageName)
+    #parse davfs2_pkg.json
 
-ScanJsonDir(packageName,dir,packageName+"_pkg.json")
+    ScanJsonDir(packageName,dir,packageName+"_pkg.json")
 
-#this loop create the first layer of files and directories
-for (root,dirs,files) in os.walk(dir, topdown=True):
-    if not os.listdir(root):
-        print("This is an empty dir")
-        root = root.replace("collectingDebianLicenses/"+packageName+"/","")
-        print("here root is:")
-        print(root)
-        RetrieveDirectoryInfoNotRecursive(packageName,root)
-    for directory in dirs:
-        print(".. looping through directory ..: " +root+directory)
-        for file in os.listdir(root+"/"+directory):
-            if not os.listdir(root+"/"+directory):
-                print("This is an empty dir")
-                RetrieveDirectoryInfo(packageName,root+"/"+directory)
-            else:
-                for file in os.listdir(root+"/"+directory):
-                    print("Inside "+directory+" there is :"+file)
-    for file in files:
-        print(".. looping through files .. " +file)
-        if "_dir.json" in file:
-            path = dir
-            path = path.replace("collectingDebianLicenses/"+packageName+"/","")
-            print(path)
-            ScanJsonDir(packageName,root+"/",file)
-            time.sleep(0.2)
+    #this loop create the first layer of files and directories
+    for (root,dirs,files) in os.walk(dir, topdown=True):
+        if not os.listdir(root):
+            print("This is an empty dir")
+            root = root.replace("collectingDebianLicenses/"+packageName+"/","")
+            print("here root is:")
+            print(root)
+            RetrieveDirectoryInfoNotRecursive(packageName,root)
+        for directory in dirs:
+            print(".. looping through directory ..: " +root+directory)
+            for file in os.listdir(root+"/"+directory):
+                if not os.listdir(root+"/"+directory):
+                    print("This is an empty dir")
+                    RetrieveDirectoryInfo(packageName,root+"/"+directory)
+                else:
+                    for file in os.listdir(root+"/"+directory):
+                        print("Inside "+directory+" there is :"+file)
+        for file in files:
+            print(".. looping through files .. " +file)
+            if "_dir.json" in file:
+                path = dir
+                path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                print(path)
+                ScanJsonDir(packageName,root+"/",file)
+                time.sleep(0.2)
