@@ -25,8 +25,19 @@ from LCVlib.CommonLists import *
 * SPDX-License-Identifier: MIT
 '''
 
-packageName = "davfs2"
+#packageName = "0ad"
 packageVersion = "latest"
+
+
+def GetPackageName(line_number):
+    fp = open("clean_whole_debian_packages_list.txt")
+    for i, packageName in enumerate(fp):
+        if i == line_number:
+            fp.close()
+            print(packageName)
+            return packageName
+
+
 
 def RetrievePackageFilesAndDirectory(packageName):
     print("https://sources.debian.org/api/src/"+packageName+"/latest/")
@@ -56,13 +67,12 @@ def CreateDirectory(root,directory):
     except OSError as error:
         print("Directory '%s' can not be created" % directory)
 
-def RetrieveFilesInfo(path):
+def RetrieveFilesInfo(packageName,path):
     fileName = path
     path = packageName+"/"+packageVersion+"/"+path
     #print(path)
     print("https://sources.debian.org/api/src/"+path+"/")
     response = requests.get("https://sources.debian.org/api/src/"+path+"/")
-    #response = requests.get("https://sources.debian.org/api/src/"+packageName+"/"+packageVersion+"/"+fileName+"/")
     time.sleep(0.2)
     if response.status_code == 200:
         jsonResponse=response.json()
@@ -77,7 +87,7 @@ def RetrieveFilesInfo(path):
         #appendToFile(output)
         return output
 
-def RetrieveDirectoryInfo(path):
+def RetrieveDirectoryInfo(packageName,path):
     #print("Inside of DirectoryInfo")
     directory = path
     path = packageName+"/"+packageVersion+"/"+path
@@ -100,7 +110,7 @@ def RetrieveDirectoryInfo(path):
         output = jsonResponse+", 404 - page not found"
         return output
 
-def RetrieveDirectoryInfoNotRecursive(path):
+def RetrieveDirectoryInfoNotRecursive(packageName,path):
     #print("Inside of DirectoryInfo")
     directory = path
     print(directory)
@@ -127,14 +137,14 @@ def RetrieveDirectoryInfoNotRecursive(path):
             jsonFile = fileName+'_dir.json'
             print(root)
             print(jsonFile)
-        ScanJsonDir(root,jsonFile)
+        ScanJsonDir(packageName,root,jsonFile)
         return jsonResponse
     else:
         jsonResponse = "404"
         output = jsonResponse+", 404 - page not found"
         return output
 
-def ScanJsonDir(root,jsonFile):
+def ScanJsonDir(packageName,root,jsonFile):
     fname = root+"/"+jsonFile
     print("Fname is:")
     print(fname)
@@ -161,7 +171,7 @@ def ScanJsonDir(root,jsonFile):
                 print (path)
                 print ("Inside of type directory in ScanJsonDir")
                 time.sleep(0.2)
-                RetrieveDirectoryInfoNotRecursive(path)
+                RetrieveDirectoryInfoNotRecursive(packageName,path)
             if item["type"] == "file":
                 fileName = item["name"]
                 #print(fileName)
@@ -174,8 +184,9 @@ def ScanJsonDir(root,jsonFile):
                     path = path.replace("//","/")
                     print("ModPath:")
                     print(path)
-                RetrieveFilesInfo(path)
+                RetrieveFilesInfo(packageName,path)
 
-def ScanJsonFile(root,jsonFile):
+# currently not used
+def ScanJsonFile(packageName,root,jsonFile):
     print("this is from inside ScanJsonFile")
     return
