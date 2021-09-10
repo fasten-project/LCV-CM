@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cctz",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "get_current_time_chrono.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_current_time_posix.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_util.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4052,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1016,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "zoneinfo.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "internal",
+    "package": "abseil",
+    "path": "abseil/0~20200923.3-3/absl/time/internal",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/abseil/0%7E20200923.3-3/",
+        "metric": {
+            "size": 12268
+        },
+        "pts_link": "https://tracker.debian.org/pkg/abseil",
+        "sloc": [
+            [
+                "cpp",
+                128506
+            ],
+            [
+                "pascal",
+                1127
+            ],
+            [
+                "sh",
+                635
+            ],
+            [
+                "python",
+                397
+            ],
+            [
+                "makefile",
+                32
+            ],
+            [
+                "ansic",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/abseil",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0~20200923.3-3"
+}

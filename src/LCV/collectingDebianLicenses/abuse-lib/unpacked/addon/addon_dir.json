@@ -1,0 +1,61 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "deathmat",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "example",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 60,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "addon",
+    "package": "abuse-lib",
+    "path": "abuse-lib/2.00-18/unpacked/addon",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 364,
+        "license": "/copyright/license/abuse-lib/2.00-18/",
+        "metric": {
+            "size": 6776
+        },
+        "pts_link": "https://tracker.debian.org/pkg/abuse-lib",
+        "sloc": [
+            [
+                "lisp",
+                5618
+            ],
+            [
+                "makefile",
+                41
+            ],
+            [
+                "sh",
+                17
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k",
+            "lenny",
+            "squeeze"
+        ]
+    },
+    "type": "directory",
+    "version": "2.00-18"
+}

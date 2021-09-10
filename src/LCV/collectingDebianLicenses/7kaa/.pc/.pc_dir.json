@@ -1,0 +1,115 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_system_libuuid.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "7kaa",
+    "path": "7kaa/2.15.4p1+dfsg-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/7kaa/2.15.4p1+dfsg-1/",
+        "metric": {
+            "size": 131632
+        },
+        "pts_link": "https://tracker.debian.org/pkg/7kaa",
+        "sloc": [
+            [
+                "cpp",
+                133170
+            ],
+            [
+                "sh",
+                4791
+            ],
+            [
+                "asm",
+                3523
+            ],
+            [
+                "ansic",
+                1801
+            ],
+            [
+                "perl",
+                1651
+            ],
+            [
+                "makefile",
+                1153
+            ],
+            [
+                "pascal",
+                27
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/7kaa",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.15.4p1+dfsg-1"
+}

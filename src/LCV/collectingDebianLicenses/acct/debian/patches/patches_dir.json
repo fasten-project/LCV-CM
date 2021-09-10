@@ -1,0 +1,121 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_do-not-split-html-info.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_414300-lastcomm-fields-descr.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 415,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_cross-build-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6878,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_Fix-spelling-errors.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3067,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_Adapt_dump.acct.8-manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_adapt_dump-utmp.8-manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "acct",
+    "path": "acct/6.6.4-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acct/6.6.4-4/",
+        "metric": {
+            "size": 4368
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acct",
+        "sloc": [
+            [
+                "ansic",
+                15912
+            ],
+            [
+                "sh",
+                11380
+            ],
+            [
+                "cpp",
+                290
+            ],
+            [
+                "makefile",
+                147
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/acct",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "6.6.4-4"
+}
