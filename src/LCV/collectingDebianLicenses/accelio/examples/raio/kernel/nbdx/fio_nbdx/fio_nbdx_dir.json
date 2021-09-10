@@ -1,0 +1,133 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "raio_rd_bw.fio",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 542,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "raio_rd_lat.fio",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "raio_wr_bw.fio",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 490,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "raio_wr_lat.fio",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_f_io_rd_bw.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_f_io_rd_lat.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_f_io_wr_bw.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_f_io_wr_lat.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "fio_nbdx",
+    "package": "accelio",
+    "path": "accelio/1.7-2/examples/raio/kernel/nbdx/fio_nbdx",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/accelio/1.7-2/",
+        "metric": {
+            "size": 4948
+        },
+        "pts_link": "https://tracker.debian.org/pkg/accelio",
+        "sloc": [
+            [
+                "ansic",
+                70794
+            ],
+            [
+                "sh",
+                1824
+            ],
+            [
+                "makefile",
+                1012
+            ],
+            [
+                "python",
+                705
+            ],
+            [
+                "cpp",
+                31
+            ]
+        ],
+        "suites": [
+            "sid",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "1.7-2"
+}

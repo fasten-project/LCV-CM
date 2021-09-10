@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Office",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "openoffice",
+    "package": "accessodf",
+    "path": "accessodf/0.1.1~b-2/accessodf-addon/src/main/oxt/registry/data/org/openoffice",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/accessodf/0.1.1%7Eb-2/",
+        "metric": {
+            "size": 896
+        },
+        "pts_link": "https://tracker.debian.org/pkg/accessodf",
+        "sloc": [
+            [
+                "java",
+                5623
+            ],
+            [
+                "xml",
+                627
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/a11y-team/accessodf",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.1~b-2"
+}
