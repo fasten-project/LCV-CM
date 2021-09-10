@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "imdct.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "liba52",
+    "package": "a52dec",
+    "path": "a52dec/0.7.4-20/.pc/50_fix_imdct_error_msg.diff/liba52",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/a52dec/0.7.4-20/",
+        "metric": {
+            "size": 1472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/a52dec",
+        "sloc": [
+            [
+                "sh",
+                6772
+            ],
+            [
+                "ansic",
+                4948
+            ],
+            [
+                "makefile",
+                167
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/a52dec",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7.4-20"
+}

@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "edam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metadata",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "upstream",
+    "package": "abacas",
+    "path": "abacas/1.3.1-9/debian/upstream",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/abacas/1.3.1-9/",
+        "metric": {
+            "size": 7724
+        },
+        "pts_link": "https://tracker.debian.org/pkg/abacas",
+        "sloc": [
+            [
+                "sh",
+                44
+            ],
+            [
+                "perl",
+                9
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/abacas",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3.1-9"
+}
