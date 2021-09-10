@@ -1,0 +1,131 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "abuse.desktop",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dirs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "menu",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1501,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "abuse-sdl",
+    "path": "abuse-sdl/1:0.7.1-1/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 4687,
+        "license": "/copyright/license/abuse-sdl/1:0.7.1-1/",
+        "metric": {
+            "size": 3724
+        },
+        "pts_link": "https://tracker.debian.org/pkg/abuse-sdl",
+        "sloc": [
+            [
+                "cpp",
+                45707
+            ],
+            [
+                "makefile",
+                203
+            ],
+            [
+                "sh",
+                86
+            ],
+            [
+                "lisp",
+                30
+            ]
+        ],
+        "suites": [
+            "lenny",
+            "squeeze"
+        ],
+        "vcs_browser": "http://svn.debian.org/wsvn/pkg-games/packages/trunk/abuse-sdl/?op=log",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1:0.7.1-1"
+}

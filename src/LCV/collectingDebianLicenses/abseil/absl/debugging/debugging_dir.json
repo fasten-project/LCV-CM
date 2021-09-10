@@ -1,0 +1,271 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD.bazel",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6053,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "failure_signal_handler.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11646,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "failure_signal_handler.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5485,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "failure_signal_handler_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "internal",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "leak_check.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "leak_check.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "leak_check_disable.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "leak_check_fail_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "leak_check_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stacktrace.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stacktrace.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symbolize.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symbolize.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symbolize_darwin.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symbolize_elf.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symbolize_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symbolize_unimplemented.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symbolize_win32.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2702,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debugging",
+    "package": "abseil",
+    "path": "abseil/0~20200923.3-3/absl/debugging",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/abseil/0%7E20200923.3-3/",
+        "metric": {
+            "size": 12268
+        },
+        "pts_link": "https://tracker.debian.org/pkg/abseil",
+        "sloc": [
+            [
+                "cpp",
+                128506
+            ],
+            [
+                "pascal",
+                1127
+            ],
+            [
+                "sh",
+                635
+            ],
+            [
+                "python",
+                397
+            ],
+            [
+                "makefile",
+                32
+            ],
+            [
+                "ansic",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/abseil",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0~20200923.3-3"
+}
