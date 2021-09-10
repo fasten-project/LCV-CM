@@ -1,0 +1,108 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CVS",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_a.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "private1.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 864,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "public1.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_tests",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 943,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test",
+    "package": "abicheck",
+    "path": "abicheck/1.2-6/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/abicheck/1.2-6/",
+        "metric": {
+            "size": 256
+        },
+        "pts_link": "https://tracker.debian.org/pkg/abicheck",
+        "sloc": [
+            [
+                "perl",
+                2667
+            ],
+            [
+                "makefile",
+                71
+            ],
+            [
+                "ansic",
+                45
+            ],
+            [
+                "sh",
+                28
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1.2-6"
+}

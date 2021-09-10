@@ -1,0 +1,157 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build-system-python3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18702,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_gfortran-9_compile_error.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "further_latex_fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2823,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_response.pdf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tests-python3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testsuite_autopkgtest.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "abinit",
+    "path": "abinit/9.2.2-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/abinit/9.2.2-1/",
+        "metric": {
+            "size": 416828
+        },
+        "pts_link": "https://tracker.debian.org/pkg/abinit",
+        "sloc": [
+            [
+                "xml",
+                667132
+            ],
+            [
+                "f90",
+                543145
+            ],
+            [
+                "python",
+                77716
+            ],
+            [
+                "perl",
+                7479
+            ],
+            [
+                "ansic",
+                4040
+            ],
+            [
+                "sh",
+                1868
+            ],
+            [
+                "javascript",
+                692
+            ],
+            [
+                "fortran",
+                557
+            ],
+            [
+                "cpp",
+                450
+            ],
+            [
+                "objc",
+                323
+            ],
+            [
+                "makefile",
+                73
+            ],
+            [
+                "csh",
+                42
+            ],
+            [
+                "pascal",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debichem-team/abinit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.2.2-1"
+}

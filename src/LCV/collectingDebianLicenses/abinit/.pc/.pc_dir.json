@@ -1,0 +1,190 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build-system-python3.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fix_gfortran-9_compile_error.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "further_latex_fixes.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "remove_response.pdf.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tests-python3.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "testsuite_autopkgtest.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 18,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "abinit",
+    "path": "abinit/9.2.2-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/abinit/9.2.2-1/",
+        "metric": {
+            "size": 416828
+        },
+        "pts_link": "https://tracker.debian.org/pkg/abinit",
+        "sloc": [
+            [
+                "xml",
+                667132
+            ],
+            [
+                "f90",
+                543145
+            ],
+            [
+                "python",
+                77716
+            ],
+            [
+                "perl",
+                7479
+            ],
+            [
+                "ansic",
+                4040
+            ],
+            [
+                "sh",
+                1868
+            ],
+            [
+                "javascript",
+                692
+            ],
+            [
+                "fortran",
+                557
+            ],
+            [
+                "cpp",
+                450
+            ],
+            [
+                "objc",
+                323
+            ],
+            [
+                "makefile",
+                73
+            ],
+            [
+                "csh",
+                42
+            ],
+            [
+                "pascal",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debichem-team/abinit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.2.2-1"
+}

@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "format",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "source",
+    "package": "abcde",
+    "path": "abcde/2.9.3-1/debian/source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/abcde/2.9.3-1/",
+        "metric": {
+            "size": 584
+        },
+        "pts_link": "https://tracker.debian.org/pkg/abcde",
+        "sloc": [
+            [
+                "sh",
+                4761
+            ],
+            [
+                "perl",
+                272
+            ],
+            [
+                "python",
+                216
+            ],
+            [
+                "makefile",
+                79
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://git.einval.com/cgi-bin/gitweb.cgi?p=abcde.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.9.3-1"
+}

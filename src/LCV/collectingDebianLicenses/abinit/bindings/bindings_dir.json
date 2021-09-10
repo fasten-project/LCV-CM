@@ -1,0 +1,234 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AUTHORS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "COPYING",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ChangeLog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "INSTALL",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "NEWS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autogen.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1645,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "config.mk.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6177,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config.sh.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1745,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "configure.ac",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libpaw",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "quicktest.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 867,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wipeout.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bindings",
+    "package": "abinit",
+    "path": "abinit/9.2.2-1/bindings",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/abinit/9.2.2-1/",
+        "metric": {
+            "size": 416828
+        },
+        "pts_link": "https://tracker.debian.org/pkg/abinit",
+        "sloc": [
+            [
+                "xml",
+                667132
+            ],
+            [
+                "f90",
+                543145
+            ],
+            [
+                "python",
+                77716
+            ],
+            [
+                "perl",
+                7479
+            ],
+            [
+                "ansic",
+                4040
+            ],
+            [
+                "sh",
+                1868
+            ],
+            [
+                "javascript",
+                692
+            ],
+            [
+                "fortran",
+                557
+            ],
+            [
+                "cpp",
+                450
+            ],
+            [
+                "objc",
+                323
+            ],
+            [
+                "makefile",
+                73
+            ],
+            [
+                "csh",
+                42
+            ],
+            [
+                "pascal",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debichem-team/abinit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.2.2-1"
+}
