@@ -1,0 +1,139 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-enable-pic.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 820,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-soname.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-link-against-lm.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50_fix_imdct_error_msg.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 832,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "A00-a52-state-t-public.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "A01-thread-safe.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "A04-modern-gcc-cflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-globals-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "a52dec",
+    "path": "a52dec/0.7.4-20/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/a52dec/0.7.4-20/",
+        "metric": {
+            "size": 1472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/a52dec",
+        "sloc": [
+            [
+                "sh",
+                6772
+            ],
+            [
+                "ansic",
+                4948
+            ],
+            [
+                "makefile",
+                167
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/a52dec",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7.4-20"
+}

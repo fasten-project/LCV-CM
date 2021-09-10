@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00_typos_and_small_fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_makefile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aa3d",
+    "path": "aa3d/1.0-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 3,
+        "license": "/copyright/license/aa3d/1.0-8/",
+        "metric": {
+            "size": 100
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aa3d",
+        "sloc": [
+            [
+                "ansic",
+                92
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "squeeze",
+            "stretch",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "1.0-8"
+}

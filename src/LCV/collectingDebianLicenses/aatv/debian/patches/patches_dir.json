@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "10_manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20_security_fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aatv",
+    "path": "aatv/0.3-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 49,
+        "license": "/copyright/license/aatv/0.3-4/",
+        "metric": {
+            "size": 284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aatv",
+        "sloc": [
+            [
+                "ansic",
+                570
+            ],
+            [
+                "sh",
+                330
+            ],
+            [
+                "makefile",
+                20
+            ]
+        ],
+        "suites": [
+            "lenny"
+        ]
+    },
+    "type": "directory",
+    "version": "0.3-4"
+}

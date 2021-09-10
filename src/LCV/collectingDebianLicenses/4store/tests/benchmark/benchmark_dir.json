@@ -1,0 +1,123 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "benchmark.rq",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2706,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flush-all-caches.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "http.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lists",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "queries",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "run-benchmark-old.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1947,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "benchmark",
+    "package": "4store",
+    "path": "4store/1.1.6+20151109-2.1/tests/benchmark",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/4store/1.1.6+20151109-2.1/",
+        "metric": {
+            "size": 82396
+        },
+        "pts_link": "https://tracker.debian.org/pkg/4store",
+        "sloc": [
+            [
+                "ansic",
+                65689
+            ],
+            [
+                "sh",
+                2916
+            ],
+            [
+                "perl",
+                2245
+            ],
+            [
+                "makefile",
+                281
+            ],
+            [
+                "python",
+                213
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/collab-maint/4store.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.6+20151109-2.1"
+}
