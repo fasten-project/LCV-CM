@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_change-perl-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_fix-w3c-error.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4230,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_fhs-compliance.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 73,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "2vcard",
+    "path": "2vcard/0.6-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/2vcard/0.6-4/",
+        "metric": {
+            "size": 204
+        },
+        "pts_link": "https://tracker.debian.org/pkg/2vcard",
+        "sloc": [
+            [
+                "perl",
+                514
+            ],
+            [
+                "makefile",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/2vcard",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6-4"
+}

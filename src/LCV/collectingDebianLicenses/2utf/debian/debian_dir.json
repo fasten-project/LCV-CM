@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 12,
+                "symlink_dest": "../changelog",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "conffiles",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 12,
+                "symlink_dest": "../copyright",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postinst",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postrm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2864,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "2utf",
+    "path": "2utf/1.10/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 344,
+        "license": "/copyright/license/2utf/1.10/",
+        "metric": {
+            "size": 432
+        },
+        "pts_link": "https://tracker.debian.org/pkg/2utf",
+        "sloc": [
+            [
+                "ansic",
+                3611
+            ],
+            [
+                "makefile",
+                375
+            ],
+            [
+                "sh",
+                42
+            ]
+        ],
+        "suites": [
+            "slink"
+        ]
+    },
+    "type": "directory",
+    "version": "1.10"
+}

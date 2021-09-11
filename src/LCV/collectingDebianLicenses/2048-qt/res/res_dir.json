@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "2048-qt.desktop",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fonts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 60,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "icons",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 117,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "man",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "res",
+    "package": "2048-qt",
+    "path": "2048-qt/0.1.6-2/res",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/2048-qt/0.1.6-2/",
+        "metric": {
+            "size": 4088
+        },
+        "pts_link": "https://tracker.debian.org/pkg/2048-qt",
+        "sloc": [
+            [
+                "cpp",
+                102
+            ],
+            [
+                "sh",
+                6
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/alejandro/2048-qt",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.6-2"
+}
