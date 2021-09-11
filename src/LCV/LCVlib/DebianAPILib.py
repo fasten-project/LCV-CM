@@ -42,7 +42,7 @@ def GetPackageName(line_number):
 def RetrievePackageFilesAndDirectory(packageName):
     print("https://sources.debian.org/api/src/"+packageName+"/latest/")
     response = requests.get("https://sources.debian.org/api/src/"+packageName+"/latest/")
-    time.sleep(0.2)
+    time.sleep(1.2)
     if response.status_code == 200:
         jsonResponse=response.json()
         with open('collectingDebianLicenses/'+packageName+'/'+packageName+'_pkg.json', 'w', encoding='utf-8') as f:
@@ -73,7 +73,7 @@ def RetrieveFilesInfo(packageName,path):
     #print(path)
     print("https://sources.debian.org/api/src/"+path+"/")
     response = requests.get("https://sources.debian.org/api/src/"+path+"/")
-    time.sleep(0.2)
+    time.sleep(1.2)
     if response.status_code == 200:
         jsonResponse=response.json()
         #print(jsonResponse)
@@ -93,7 +93,7 @@ def RetrieveDirectoryInfo(packageName,path):
     path = packageName+"/"+packageVersion+"/"+path
     print("https://sources.debian.org/api/src/"+path+"/")
     response = requests.get("https://sources.debian.org/api/src/"+path+"/")
-    time.sleep(0.2)
+    time.sleep(1.2)
     if response.status_code == 200:
         print("status code 200")
         jsonResponse=response.json()
@@ -123,7 +123,7 @@ def RetrieveDirectoryInfoNotRecursive(packageName,path):
     path = packageName+"/"+packageVersion+"/"+path
     print("https://sources.debian.org/api/src/"+path+"/")
     response = requests.get("https://sources.debian.org/api/src/"+path+"/")
-    time.sleep(0.2)
+    time.sleep(1.2)
     if response.status_code == 200:
         print("status code 200")
         jsonResponse=response.json()
@@ -170,7 +170,7 @@ def ScanJsonDir(packageName,root,jsonFile):
                 path = path.replace("collectingDebianLicenses/"+packageName+"/","")
                 print (path)
                 print ("Inside of type directory in ScanJsonDir")
-                time.sleep(0.2)
+                time.sleep(1.2)
                 RetrieveDirectoryInfoNotRecursive(packageName,path)
             if item["type"] == "file":
                 fileName = item["name"]
