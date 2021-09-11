@@ -14,6 +14,11 @@ from LCVlib.SPDXIdMapping import StaticMapping, DynamicMapping, ConvertToSPDX, I
 * SPDX-License-Identifier: MIT
 '''
 
+#dictOutput.fromkeys([message, status, inbound, outbound])
+
+keys = ["message","status","inbound","outbound"]
+dictOutput = dict.fromkeys(keys, None)
+#print(dictOutput)
 
 def CSV_to_dataframe(CSVfilePath, column_names_list):
     """
@@ -64,16 +69,30 @@ def verifyOSADL_Transposed(CSVfilePath, InboundLicenses_cleaned, OutboundLicense
             if (license in supported_licenses_OSADL):
                 comparison = df.loc[license, OutboundLicense]
                 if comparison == "No":
-                    output = license+" is not compatible with " + \
+                    output =license+" is not compatible with " + \
                         OutboundLicense+" as an outbound license."
+                    """
+                    dictOutput['message'] = output
+                    dictOutput['status'] = "not compatible"
+                    dictOutput['inbound'] = license
+                    dictOutput['outbound'] = OutboundLicense
+                    """
+                    #verificationList.append(dictOutput)
                     verificationList.append(output)
                 if comparison == "Yes":
-                    output = license+" is compatible with " + \
+                    output =license+" is compatible with " + \
                         OutboundLicense + " as an outbound license."
+                    """
+                    dictOutput['message'] = output
+                    dictOutput['status'] = "compatible"
+                    dictOutput['inbound'] = license
+                    dictOutput['outbound'] = OutboundLicense
+                    verificationList.append(dictOutput)
+                    """
                     verificationList.append(output)
                 # OSADL Matrix could be shipped with empty field, resulting in nan.
                 if comparison == "-":
-                    output = license+" is compatible with " + \
+                    output =license+" is compatible with " + \
                         OutboundLicense + " as an outbound license."
                     verificationList.append(output)
                 if comparison == "?":
