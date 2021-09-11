@@ -54,7 +54,7 @@ for i in range(int(startLine),int(endLine)):
     packageVersion = "latest"
     parent_dir = "collectingDebianLicenses"
     dir = "collectingDebianLicenses/"+packageName
-    if not os.listdir(dir):
+    if not os.path.isdir(dir):
         CreateDirectory(parent_dir,packageName)
         RetrievePackageFilesAndDirectory(packageName)
         #parse davfs2_pkg.json
