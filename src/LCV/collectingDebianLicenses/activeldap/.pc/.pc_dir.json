@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bad_shebang",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gem_sux",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "activeldap",
+    "path": "activeldap/1.2.2-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 4523,
+        "license": "/copyright/license/activeldap/1.2.2-1/",
+        "metric": {
+            "size": 6732
+        },
+        "pts_link": "https://tracker.debian.org/pkg/activeldap",
+        "sloc": [
+            [
+                "ruby",
+                27236
+            ],
+            [
+                "makefile",
+                11
+            ],
+            [
+                "sh",
+                1
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://svn.debian.org/viewsvn/pkg-ruby-extras/trunk/activeldap/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.2.2-1"
+}

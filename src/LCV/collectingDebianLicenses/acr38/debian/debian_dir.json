@@ -1,0 +1,216 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4066,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1639,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gbp.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libacr38u.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libacr38u.postinst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libacr38u.postrm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1040,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libacr38u.udev",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libacr38ucontrol-dev.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libacr38ucontrol0.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libacr38ucontrol0.symbols",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 81,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "update-patches.mk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "acr38",
+    "path": "acr38/1.7.11-1/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 574,
+        "license": "/copyright/license/acr38/1.7.11-1/",
+        "metric": {
+            "size": 1804
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acr38",
+        "sloc": [
+            [
+                "sh",
+                9151
+            ],
+            [
+                "ansic",
+                4031
+            ],
+            [
+                "makefile",
+                52
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/acr38.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.11-1"
+}
