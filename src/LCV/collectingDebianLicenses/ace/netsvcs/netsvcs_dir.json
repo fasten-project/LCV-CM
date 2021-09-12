@@ -1,0 +1,130 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ACE-netsvcs.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 908,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clients",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "servers",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "netsvcs",
+    "package": "ace",
+    "path": "ace/7.0.3+dfsg-2/netsvcs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ace/7.0.3+dfsg-2/",
+        "metric": {
+            "size": 47108
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ace",
+        "sloc": [
+            [
+                "cpp",
+                336421
+            ],
+            [
+                "perl",
+                31282
+            ],
+            [
+                "ansic",
+                11704
+            ],
+            [
+                "sh",
+                1911
+            ],
+            [
+                "python",
+                529
+            ],
+            [
+                "yacc",
+                511
+            ],
+            [
+                "xml",
+                330
+            ],
+            [
+                "lex",
+                158
+            ],
+            [
+                "lisp",
+                116
+            ],
+            [
+                "makefile",
+                89
+            ],
+            [
+                "csh",
+                20
+            ],
+            [
+                "tcl",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ace",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "7.0.3+dfsg-2"
+}
