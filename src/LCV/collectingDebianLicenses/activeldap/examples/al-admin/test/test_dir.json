@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fixtures",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "functional",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "integration",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "run-test.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_helper.rb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unit",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "test",
+    "package": "activeldap",
+    "path": "activeldap/1.2.2-1/examples/al-admin/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 4523,
+        "license": "/copyright/license/activeldap/1.2.2-1/",
+        "metric": {
+            "size": 6732
+        },
+        "pts_link": "https://tracker.debian.org/pkg/activeldap",
+        "sloc": [
+            [
+                "ruby",
+                27236
+            ],
+            [
+                "makefile",
+                11
+            ],
+            [
+                "sh",
+                1
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://svn.debian.org/viewsvn/pkg-ruby-extras/trunk/activeldap/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.2.2-1"
+}

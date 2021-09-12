@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "ac_adapter.patch",
+    "package": "acpitool",
+    "path": "acpitool/0.5.1-6/.pc/ac_adapter.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acpitool/0.5.1-6/",
+        "metric": {
+            "size": 868
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acpitool",
+        "sloc": [
+            [
+                "sh",
+                3366
+            ],
+            [
+                "cpp",
+                2506
+            ],
+            [
+                "makefile",
+                20
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/acpitool",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.1-6"
+}
