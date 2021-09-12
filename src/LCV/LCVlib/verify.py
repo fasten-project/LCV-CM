@@ -295,6 +295,55 @@ def CompareSPDXFlag(InboundLicenses_SPDX, OutboundLicense):
         CSVfilePath, InboundLicenses_SPDX, OutboundLicense)
     return verificationFlag
 
+def Compare_OSADLFlag(InboundLicenses, OutboundLicense):
+    IsSPDX= IsAnSPDX(OutboundLicense)
+    print("Is "+OutboundLicense+" an SPDX?")
+    print(IsSPDX)
+    if not IsSPDX:
+        OutboundLicense = ConvertToSPDX(OutboundLicense)
+        print("after SPDX conversion")
+        print(OutboundLicense)
+    print(InboundLicenses)
+    InboundLicenses_SPDX=[]
+    for license in InboundLicenses:
+        IsSPDX= IsAnSPDX(license)
+        print("Is "+license+" an SPDX?")
+        print(IsSPDX)
+        if not IsSPDX:
+            license_spdx = ConvertToSPDX(license)
+            print("dentro for ")
+            print(license_spdx)
+            InboundLicenses_SPDX.append(license_spdx)
+        else:
+            InboundLicenses_SPDX.append(license)
+    print("InboundLicenses_SPDX:")
+    print(InboundLicenses_SPDX)
+    IsSPDX=IsAnSPDX(OutboundLicense)
+    print("OutboundLicense inside compare OSADL:")
+    print(OutboundLicense)
+    if not IsSPDX:
+        OutboundLicense_SPDX = ConvertToSPDX(OutboundLicense)
+        print("OutboundLicense_SPDX:")
+        print(OutboundLicense_SPDX)
+    else:
+        OutboundLicense_SPDX = OutboundLicense
+
+    if len(InboundLicenses_SPDX) == 1:
+        print("The SPDX id for the only inbound license detected is:")
+        print(InboundLicenses_SPDX[0])
+    else:
+        print("The SPDX IDs for the inbound licenses found are:")
+        print(InboundLicenses_SPDX)
+    print("#################")
+    print("Running the license compliance verification:")
+    print("Inbound license list :\n"+str(InboundLicenses_SPDX))
+    print("The outbound license is: ", OutboundLicense)
+    CSVfilePath = "../../csv/OSADL_transposed.csv"
+    verificationFlag = verifyFlag(
+        CSVfilePath, InboundLicenses_SPDX, OutboundLicense)
+    return verificationFlag
+
+
 
 def parseVerificationList(verificationList):
     notCompatible = "is not compatible"
