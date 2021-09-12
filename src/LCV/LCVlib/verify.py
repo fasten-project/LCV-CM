@@ -14,12 +14,6 @@ from LCVlib.SPDXIdMapping import StaticMapping, DynamicMapping, ConvertToSPDX, I
 * SPDX-License-Identifier: MIT
 '''
 
-#dictOutput.fromkeys([message, status, inbound, outbound])
-
-keys = ["message","status","inbound","outbound"]
-dictOutput = dict.fromkeys(keys, None)
-#print(dictOutput)
-
 def CSV_to_dataframe(CSVfilePath, column_names_list):
     """
     Import a CSV and transform it into a pandas dataframe selecting only the useful columns from the Compatibility Matrix
@@ -49,11 +43,14 @@ print(supported_licenses_OSADL)
 
 def verifyOSADL_Transposed(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
     verificationList = list()
+    keys = ["message","status","inbound","outbound"]
+    dictOutput = dict.fromkeys(keys, None)
+
+    print(InboundLicenses_cleaned)
+    print(OutboundLicense)
     if (OutboundLicense in supported_licenses_OSADL):
         column_names_list = [OutboundLicense]
         column_names_list.insert(0, 'License')
-        # df = CSV_to_dataframe(CSVfilePath, column_names_list)
-        # Column_array = df.to_numpy()
         # retrieve data from CSV file
         CSVfilePath = "../../csv/OSADL_transposed.csv"
         df = CSV_to_dataframe(CSVfilePath, column_names_list)
@@ -71,43 +68,61 @@ def verifyOSADL_Transposed(CSVfilePath, InboundLicenses_cleaned, OutboundLicense
                 if comparison == "No":
                     output =license+" is not compatible with " + \
                         OutboundLicense+" as an outbound license."
-                    """
                     dictOutput['message'] = output
                     dictOutput['status'] = "not compatible"
                     dictOutput['inbound'] = license
                     dictOutput['outbound'] = OutboundLicense
-                    """
-                    #verificationList.append(dictOutput)
-                    verificationList.append(output)
+                    verificationList.append(dictOutput)
+                    dictOutput = dict.fromkeys(keys, None)
+
                 if comparison == "Yes":
                     output =license+" is compatible with " + \
                         OutboundLicense + " as an outbound license."
-                    """
                     dictOutput['message'] = output
                     dictOutput['status'] = "compatible"
                     dictOutput['inbound'] = license
                     dictOutput['outbound'] = OutboundLicense
                     verificationList.append(dictOutput)
-                    """
-                    verificationList.append(output)
+                    dictOutput = dict.fromkeys(keys, None)
                 # OSADL Matrix could be shipped with empty field, resulting in nan.
                 if comparison == "-":
                     output =license+" is compatible with " + \
                         OutboundLicense + " as an outbound license."
-                    verificationList.append(output)
+                    dictOutput['message'] = output
+                    dictOutput['status'] = "compatible"
+                    dictOutput['inbound'] = license
+                    dictOutput['outbound'] = OutboundLicense
+                    verificationList.append(dictOutput)
+                    dictOutput = dict.fromkeys(keys, None)
                 if comparison == "?":
                     output = "There is insufficient information or knowledge whether the "+license+" as inbound license" + \
                         " is compatible with the " + OutboundLicense + " as outbound license. Therefore a general recommendation" + \
                         " on the compatibility of "+license+" as inbound with the " + \
                         OutboundLicense+" as outbound cannot be given."
-                    verificationList.append(output)
+                    dictOutput['message'] = output
+                    dictOutput['status'] = "insufficient information"
+                    dictOutput['inbound'] = license
+                    dictOutput['outbound'] = OutboundLicense
+                    verificationList.append(dictOutput)
+                    dictOutput = dict.fromkeys(keys, None)
                 if comparison == "Dep.":
                     output = "Depending compatibility of the "+license+" with the " + \
                         OutboundLicense + " license is explicitly stated in the " + \
                         OutboundLicense+" license checklist hosted by OSADL.org"
-                    verificationList.append(output)
+                    dictOutput['message'] = output
+                    dictOutput['status'] = "Depending on the use case"
+                    dictOutput['inbound'] = license
+                    dictOutput['outbound'] = OutboundLicense
+                    verificationList.append(dictOutput)
+                    dictOutput = dict.fromkeys(keys, None)
             else:
                 output = "The inbound license "+license+" is not present in the Compatibility Matrix"
+                dictOutput['message'] = output
+                dictOutput['status'] = license+" is not present in the Compatibility Matrix"
+                dictOutput['inbound'] = license
+                dictOutput['outbound'] = OutboundLicense
+                verificationList.append(dictOutput)
+                dictOutput = dict.fromkeys(keys, None)
                 verificationList.append(output)
     else:
         output = "The outbound license "+OutboundLicense+" is not present in the Compatibility Matrix"
