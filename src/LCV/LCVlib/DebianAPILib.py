@@ -232,7 +232,9 @@ def ScanJsonDirChecksum(packageName,root,jsonFile):
                 print(fname)
             # this control is required to scan nested directories
             #if os.path.isfile(fname):
-
+            if not os.path.isdir('collectingDebianLicensesChecksum/'+packageName+"/"+directory+"/"):
+                print("creating directory")
+                CreateDirectory("collectingDebianLicensesChecksum",packageName+"/"+directory)
             with open(fname, 'w', encoding='utf-8') as f:
                 json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
                 #root = 'collectingDebianLicensesChecksum/'+packageName+'/'+directory

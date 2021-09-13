@@ -68,6 +68,12 @@ for i in range(int(startLine),int(endLine)):
     for (root,dirs,files) in os.walk(dir, topdown=True):
         for directory in dirs:
             print(".. looping through directory ..: " +root+directory)
+            """
+            if not os.path.isdir(parent_dirChecksum):
+                print("creating directory")
+                currentDirectory=root.replace(dir,"")
+                CreateDirectory(parent_dirChecksum+currentDirectory,packageName)
+            """
             for file in os.listdir(root+"/"+directory):
                 if not os.listdir(root+"/"+directory):
                     print("This is an empty dir")
