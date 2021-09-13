@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cherry-pick-17504aa-make-sure-strings-match-along-lines.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "no-standalone-test-but-autopkgtests.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 44,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "ack-grep",
+    "path": "ack-grep/2.14-4/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 232,
+        "license": "/copyright/license/ack-grep/2.14-4/",
+        "metric": {
+            "size": 1496
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ack-grep",
+        "sloc": [
+            [
+                "perl",
+                8016
+            ],
+            [
+                "ansic",
+                21
+            ],
+            [
+                "fortran",
+                11
+            ],
+            [
+                "makefile",
+                9
+            ],
+            [
+                "sh",
+                5
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-perl/packages/ack-grep.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.14-4"
+}

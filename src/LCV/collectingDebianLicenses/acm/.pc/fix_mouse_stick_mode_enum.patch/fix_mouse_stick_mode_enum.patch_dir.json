@@ -1,0 +1,53 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "fix_mouse_stick_mode_enum.patch",
+    "package": "acm",
+    "path": "acm/6.0+20200416-1/.pc/fix_mouse_stick_mode_enum.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acm/6.0+20200416-1/",
+        "metric": {
+            "size": 5940
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acm",
+        "sloc": [
+            [
+                "ansic",
+                49163
+            ],
+            [
+                "tcl",
+                941
+            ],
+            [
+                "makefile",
+                643
+            ],
+            [
+                "sh",
+                594
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "6.0+20200416-1"
+}

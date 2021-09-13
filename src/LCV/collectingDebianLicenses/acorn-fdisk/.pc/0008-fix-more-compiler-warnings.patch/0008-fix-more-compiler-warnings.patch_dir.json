@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fdisk.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0008-fix-more-compiler-warnings.patch",
+    "package": "acorn-fdisk",
+    "path": "acorn-fdisk/3.0.6-12/.pc/0008-fix-more-compiler-warnings.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acorn-fdisk/3.0.6-12/",
+        "metric": {
+            "size": 1068
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acorn-fdisk",
+        "sloc": [
+            [
+                "ansic",
+                5422
+            ],
+            [
+                "makefile",
+                99
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/acorn-fdisk",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.6-12"
+}

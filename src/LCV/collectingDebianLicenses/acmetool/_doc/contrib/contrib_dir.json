@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "APKBUILD",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dns.hook",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ovh.hook",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "perm.example",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2527,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "response-file.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tinydns.hook",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6758,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "contrib",
+    "package": "acmetool",
+    "path": "acmetool/0.2.1-4/_doc/contrib",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acmetool/0.2.1-4/",
+        "metric": {
+            "size": 784
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acmetool",
+        "sloc": [
+            [
+                "sh",
+                349
+            ],
+            [
+                "makefile",
+                105
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/acmetool",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.1-4"
+}

@@ -1,0 +1,108 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix_inventory.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_mouse_stick_mode_enum.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_paths_in_acm_tcl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hardening1.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set_default_object_dir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "acm",
+    "path": "acm/6.0+20200416-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acm/6.0+20200416-1/",
+        "metric": {
+            "size": 5940
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acm",
+        "sloc": [
+            [
+                "ansic",
+                49163
+            ],
+            [
+                "tcl",
+                941
+            ],
+            [
+                "makefile",
+                643
+            ],
+            [
+                "sh",
+                594
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "6.0+20200416-1"
+}

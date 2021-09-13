@@ -1,0 +1,146 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "after_success",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3941,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "before_cache",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "before_install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "boulder.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3348,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check-copr-token",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 425,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crosscompile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dist-readme.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 736,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make_debian_env",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make_rpm_spec",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1356,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".travis",
+    "package": "acmetool",
+    "path": "acmetool/0.2.1-4/.travis",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acmetool/0.2.1-4/",
+        "metric": {
+            "size": 784
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acmetool",
+        "sloc": [
+            [
+                "sh",
+                349
+            ],
+            [
+                "makefile",
+                105
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/acmetool",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.1-4"
+}
