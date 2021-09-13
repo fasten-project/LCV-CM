@@ -1,0 +1,86 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pkg-js",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "require",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smoketest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "acorn",
+    "path": "acorn/8.1.0+ds+~cs23.9.6-1/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acorn/8.1.0+ds+%7Ecs23.9.6-1/",
+        "metric": {
+            "size": 4160
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acorn",
+        "sloc": [
+            [
+                "javascript",
+                68230
+            ],
+            [
+                "xml",
+                124
+            ],
+            [
+                "makefile",
+                100
+            ],
+            [
+                "sh",
+                11
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/js-team/acorn",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "8.1.0+ds+~cs23.9.6-1"
+}

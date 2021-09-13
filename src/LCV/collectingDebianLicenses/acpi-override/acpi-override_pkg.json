@@ -1,0 +1,78 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "GPL-2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acpi-override",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 143,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0.1+nmu1",
+    "package": "acpi-override",
+    "path": "acpi-override/0.1+nmu1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acpi-override/0.1+nmu1/",
+        "metric": {
+            "size": 52
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acpi-override",
+        "sloc": [
+            [
+                "sh",
+                15
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.1+nmu1"
+}

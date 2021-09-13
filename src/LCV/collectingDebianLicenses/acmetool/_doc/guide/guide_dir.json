@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ENTER",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 107,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acmetool.8.adoc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "img",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "include-man.xsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "index.adoc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "style.css",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 776,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "to-xhtml.xsl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "guide",
+    "package": "acmetool",
+    "path": "acmetool/0.2.1-4/_doc/guide",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acmetool/0.2.1-4/",
+        "metric": {
+            "size": 784
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acmetool",
+        "sloc": [
+            [
+                "sh",
+                349
+            ],
+            [
+                "makefile",
+                105
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/acmetool",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.1-4"
+}

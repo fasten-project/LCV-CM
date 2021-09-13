@@ -1,0 +1,157 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build-cross-gettext-musl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build-define-ENODATA.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build-no-PATH_MAX.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build-require-autoconf-version.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 705,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "getfacl-fix-uninitialized-variable.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "l10n-update-fr.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "man-fix-typos.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2554,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "man-ref-mount.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "man-setfacl-restore-stdin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1526,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "acl",
+    "path": "acl/2.3.1-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acl/2.3.1-1/",
+        "metric": {
+            "size": 3264
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acl",
+        "sloc": [
+            [
+                "ansic",
+                5898
+            ],
+            [
+                "sh",
+                5116
+            ],
+            [
+                "perl",
+                279
+            ],
+            [
+                "makefile",
+                51
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://git.hadrons.org/cgit/debian/pkgs/acl.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.1-1"
+}

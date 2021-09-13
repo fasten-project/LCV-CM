@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "asus-wireless.sh.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ibm.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "key-constants.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1695,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "state-funcs.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "undock.sh.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "acpi-support",
+    "path": "acpi-support/0.143-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acpi-support/0.143-5/",
+        "metric": {
+            "size": 828
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acpi-support",
+        "sloc": [
+            [
+                "sh",
+                816
+            ],
+            [
+                "ansic",
+                131
+            ],
+            [
+                "makefile",
+                38
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/acpi-support",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.143-5"
+}

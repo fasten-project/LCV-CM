@@ -1,0 +1,112 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "default-config.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1687,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-warning-in-CleanVariable.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-php-image-graph.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update-external-links.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-trim-to-avoid-signature-problems.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "acidbase",
+    "path": "acidbase/1.4.5-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 4138,
+        "license": "/copyright/license/acidbase/1.4.5-2/",
+        "metric": {
+            "size": 3248
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acidbase",
+        "sloc": [
+            [
+                "php",
+                27852
+            ],
+            [
+                "perl",
+                2003
+            ],
+            [
+                "sql",
+                413
+            ],
+            [
+                "sh",
+                93
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/acidbase.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.5-2"
+}

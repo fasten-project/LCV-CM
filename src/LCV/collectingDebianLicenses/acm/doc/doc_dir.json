@@ -1,0 +1,86 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ACM-Bibliography",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acm.man",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "charts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "manual",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "doc",
+    "package": "acm",
+    "path": "acm/6.0+20200416-1/doc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acm/6.0+20200416-1/",
+        "metric": {
+            "size": 5940
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acm",
+        "sloc": [
+            [
+                "ansic",
+                49163
+            ],
+            [
+                "tcl",
+                941
+            ],
+            [
+                "makefile",
+                643
+            ],
+            [
+                "sh",
+                594
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "6.0+20200416-1"
+}

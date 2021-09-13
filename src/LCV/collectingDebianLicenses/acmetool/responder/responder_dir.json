@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dns.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1680,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "http.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9569,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reshttp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "responder.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "responder",
+    "package": "acmetool",
+    "path": "acmetool/0.2.1-4/responder",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acmetool/0.2.1-4/",
+        "metric": {
+            "size": 784
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acmetool",
+        "sloc": [
+            [
+                "sh",
+                349
+            ],
+            [
+                "makefile",
+                105
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/acmetool",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.1-4"
+}

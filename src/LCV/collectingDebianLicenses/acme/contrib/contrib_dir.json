@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "joe_syntax",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "toacme",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ultraedit_wordfile",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "contrib",
+    "package": "acme",
+    "path": "acme/1:0.97~svn20201116+ds-1/contrib",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acme/1:0.97%7Esvn20201116+ds-1/",
+        "metric": {
+            "size": 1976
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acme",
+        "sloc": [
+            [
+                "ansic",
+                9670
+            ],
+            [
+                "sh",
+                114
+            ],
+            [
+                "makefile",
+                99
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/myczko-guest/acme",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:0.97~svn20201116+ds-1"
+}

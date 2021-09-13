@@ -1,0 +1,148 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "experimental",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "hess_rhf_mp2_seg.sial",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 370544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hess_rhf_mp2_seg.sio",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1400952,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hess_uhf_mp2_seg.sial",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 502704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hess_uhf_mp2_seg.sio",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2165724,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hess_uhf_scf.sial",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hess_uhf_scf.sio",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 832516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "variant",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "hess",
+    "package": "aces3",
+    "path": "aces3/3.0.8-7/src/aces/aces_sial/hess",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aces3/3.0.8-7/",
+        "metric": {
+            "size": 775084
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aces3",
+        "sloc": [
+            [
+                "f90",
+                5133741
+            ],
+            [
+                "fortran",
+                381059
+            ],
+            [
+                "ansic",
+                22951
+            ],
+            [
+                "pascal",
+                7515
+            ],
+            [
+                "cpp",
+                4349
+            ],
+            [
+                "makefile",
+                1715
+            ],
+            [
+                "csh",
+                292
+            ],
+            [
+                "sh",
+                144
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debichem-team/aces3",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.8-7"
+}
