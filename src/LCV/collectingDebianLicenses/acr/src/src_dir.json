@@ -1,0 +1,100 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "acr",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acr-cat",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acr-install",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1834,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acr-sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 86869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8085,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vim",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 87,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "src",
+    "package": "acr",
+    "path": "acr/1.9.4-1/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acr/1.9.4-1/",
+        "metric": {
+            "size": 520
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acr",
+        "sloc": [
+            [
+                "sh",
+                4459
+            ],
+            [
+                "makefile",
+                42
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1.9.4-1"
+}

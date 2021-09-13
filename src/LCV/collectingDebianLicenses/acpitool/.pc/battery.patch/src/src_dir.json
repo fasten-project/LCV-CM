@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "acpitool.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3075,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "battery.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "src",
+    "package": "acpitool",
+    "path": "acpitool/0.5.1-6/.pc/battery.patch/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acpitool/0.5.1-6/",
+        "metric": {
+            "size": 868
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acpitool",
+        "sloc": [
+            [
+                "sh",
+                3366
+            ],
+            [
+                "cpp",
+                2506
+            ],
+            [
+                "makefile",
+                20
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/acpitool",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.1-6"
+}

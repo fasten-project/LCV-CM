@@ -1,0 +1,45 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "chroot",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "engine",
+    "package": "acbuild",
+    "path": "acbuild/0.4.0+dfsg-3/.pc/import-path.patch/engine",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acbuild/0.4.0+dfsg-3/",
+        "metric": {
+            "size": 740
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acbuild",
+        "sloc": [
+            [
+                "sh",
+                170
+            ],
+            [
+                "makefile",
+                24
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/acbuild",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.0+dfsg-3"
+}

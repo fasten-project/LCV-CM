@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Do-not-assume-fixed-line-lengths-for-proc-acpi-wakeu.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ac_adapter.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "battery.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-typos-in-source.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "typos.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1010,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wakeup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "acpitool",
+    "path": "acpitool/0.5.1-6/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acpitool/0.5.1-6/",
+        "metric": {
+            "size": 868
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acpitool",
+        "sloc": [
+            [
+                "sh",
+                3366
+            ],
+            [
+                "cpp",
+                2506
+            ],
+            [
+                "makefile",
+                20
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/acpitool",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.1-6"
+}

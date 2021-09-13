@@ -1,0 +1,56 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update-egg-info.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "actdiag",
+    "path": "actdiag/2.0.0+dfsg-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/actdiag/2.0.0+dfsg-1/",
+        "metric": {
+            "size": 264
+        },
+        "pts_link": "https://tracker.debian.org/pkg/actdiag",
+        "sloc": [
+            [
+                "python",
+                1256
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "2.0.0+dfsg-1"
+}

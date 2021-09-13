@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Link-libacr38ucontrol-against-libpcsclite.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Install-files-in-DESTDIR.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Also-check-usbfs-under-dev.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Fix-driver-name-in-Info.plist.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "acr38",
+    "path": "acr38/1.7.11-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 574,
+        "license": "/copyright/license/acr38/1.7.11-1/",
+        "metric": {
+            "size": 1804
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acr38",
+        "sloc": [
+            [
+                "sh",
+                9151
+            ],
+            [
+                "ansic",
+                4031
+            ],
+            [
+                "makefile",
+                52
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/acr38.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.11-1"
+}

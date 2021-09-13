@@ -1,0 +1,258 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "al-admin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "config.yaml.example",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "example.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "example.jpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12342,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "groupadd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 845,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "groupdel",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "groupls",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1052,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "groupmod",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lpasswd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objects",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ouadd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "useradd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "useradd-binary",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "userdel",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "userls",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usermod",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usermod-binary-add",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usermod-binary-add-time",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usermod-binary-del",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1021,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usermod-lang-add",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 909,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "examples",
+    "package": "activeldap",
+    "path": "activeldap/1.2.2-1/examples",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 4523,
+        "license": "/copyright/license/activeldap/1.2.2-1/",
+        "metric": {
+            "size": 6732
+        },
+        "pts_link": "https://tracker.debian.org/pkg/activeldap",
+        "sloc": [
+            [
+                "ruby",
+                27236
+            ],
+            [
+                "makefile",
+                11
+            ],
+            [
+                "sh",
+                1
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://svn.debian.org/viewsvn/pkg-ruby-extras/trunk/activeldap/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.2.2-1"
+}

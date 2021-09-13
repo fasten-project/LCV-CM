@@ -53,14 +53,3 @@ with open(fnameList, 'w', encoding='utf-8') as f:
     #json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
     for item in packageNameList:
         f.write("%s\n" % item)
-
-
-
-
-
-
-# parse x:
-#y = json.loads(x)
-
-# the result is a Python dictionary:
-#print(y["age"])
