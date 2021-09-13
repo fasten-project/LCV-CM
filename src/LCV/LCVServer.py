@@ -8,6 +8,7 @@ from os import environ, path
 import os
 from flask import request, jsonify, render_template, url_for#,redirect
 import subprocess
+import re
 from subprocess import check_output
 import flask
 import argparse
@@ -183,7 +184,8 @@ def LicensesInput():
     args = request.args
     print(args)  # For debugging
     InboundLicenses = args['InboundLicenses']
-    InboundLicenses = InboundLicenses.split(";")
+    #InboundLicenses = InboundLicenses.split(";")
+    InboundLicenses = re.split(";OR", InboundLicenses)
     OutboundLicense = args['OutboundLicense']
     verificationList = Compare_OSADL(InboundLicenses, OutboundLicense)
     return jsonify(verificationList)
@@ -211,7 +213,7 @@ def IsAnSPDXEndpoint():
 @app.route('/LicensesInputSPDXFlag', methods=['GET', 'POST'])
 # @app.route('/LicensesInput', methods=['POST'])
 def LicensesInputSPDXFlag():
-    args = request.args    
+    args = request.args
     InboundLicenses = args['InboundLicenses']
     InboundLicenses = InboundLicenses.split(",")
     OutboundLicense = args['OutboundLicense']
