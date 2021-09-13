@@ -1,0 +1,93 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aces",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "main",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 85,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sia",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "src",
+    "package": "aces3",
+    "path": "aces3/3.0.8-7/.pc/default_directories.patch/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aces3/3.0.8-7/",
+        "metric": {
+            "size": 775084
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aces3",
+        "sloc": [
+            [
+                "f90",
+                5133741
+            ],
+            [
+                "fortran",
+                381059
+            ],
+            [
+                "ansic",
+                22951
+            ],
+            [
+                "pascal",
+                7515
+            ],
+            [
+                "cpp",
+                4349
+            ],
+            [
+                "makefile",
+                1715
+            ],
+            [
+                "csh",
+                292
+            ],
+            [
+                "sh",
+                144
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debichem-team/aces3",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.8-7"
+}

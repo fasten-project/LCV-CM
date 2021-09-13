@@ -1,0 +1,195 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CasAuthenticationProvider.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CasAuthenticationToken.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CasAuthoritiesPopulator.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CasProxyDecider.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ProxyUntrustedException.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StatelessTicketCache.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TicketResponse.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TicketValidator.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cache",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "package.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "populator",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "proxy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 116,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ticketvalidator",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 111,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "cas",
+    "package": "acegi-security",
+    "path": "acegi-security/1.0.7-3/.pc/no_cas.patch/core/src/main/java/org/acegisecurity/providers/cas",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 7730,
+        "license": "/copyright/license/acegi-security/1.0.7-3/",
+        "metric": {
+            "size": 7104
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acegi-security",
+        "sloc": [
+            [
+                "java",
+                41983
+            ],
+            [
+                "xml",
+                10521
+            ],
+            [
+                "jsp",
+                455
+            ],
+            [
+                "sql",
+                165
+            ],
+            [
+                "sh",
+                72
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=pkg-java/acegi-security.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.7-3"
+}

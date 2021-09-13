@@ -1,0 +1,160 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "activemq-client-jar.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 639,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "activemq-spring.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "disable-broker-test-dependency.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 990,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "enable-activemq-jdbc-store-module.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init-debian-default-values.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2069,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "java11.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "maven-xbean-plugin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1028,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "activemq",
+    "path": "activemq/5.16.1-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/activemq/5.16.1-1/",
+        "metric": {
+            "size": 75288
+        },
+        "pts_link": "https://tracker.debian.org/pkg/activemq",
+        "sloc": [
+            [
+                "java",
+                414748
+            ],
+            [
+                "xml",
+                21989
+            ],
+            [
+                "jsp",
+                1826
+            ],
+            [
+                "sh",
+                1151
+            ],
+            [
+                "cs",
+                347
+            ],
+            [
+                "cpp",
+                316
+            ],
+            [
+                "python",
+                238
+            ],
+            [
+                "ruby",
+                92
+            ],
+            [
+                "php",
+                75
+            ],
+            [
+                "perl",
+                71
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/activemq",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.16.1-1"
+}
