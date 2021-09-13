@@ -1,0 +1,205 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-laptop-mode.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-acpi-lock.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 90,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-thinkpad-standby-led.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-proc-sysfs-save-state.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 698,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-irda-stop.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-tosh-save-brightness.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "55-down-interfaces.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1668,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "60-generate-modules-list.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 792,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "65-services-stop.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "70-modules-unload.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "75-console-switch.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "80-video-vesa-state.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "81-video-pci-state.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "85-alsa-state.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "90-framebuffer-stop.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "suspend.d",
+    "package": "acpi-support",
+    "path": "acpi-support/0.143-5/debian/examples/acpi/suspend.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acpi-support/0.143-5/",
+        "metric": {
+            "size": 828
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acpi-support",
+        "sloc": [
+            [
+                "sh",
+                816
+            ],
+            [
+                "ansic",
+                131
+            ],
+            [
+                "makefile",
+                38
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/acpi-support",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.143-5"
+}

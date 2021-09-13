@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "asus-keyboard-backlight-down",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asus-keyboard-backlight-up",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asus-wireless-off",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 73,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asus-wireless-on",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ibm-wireless",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 223,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lenovo-undock",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thinkpad-cmos",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tosh-wireless",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "events",
+    "package": "acpi-support",
+    "path": "acpi-support/0.143-5/events",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acpi-support/0.143-5/",
+        "metric": {
+            "size": 828
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acpi-support",
+        "sloc": [
+            [
+                "sh",
+                816
+            ],
+            [
+                "ansic",
+                131
+            ],
+            [
+                "makefile",
+                38
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/acpi-support",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.143-5"
+}
