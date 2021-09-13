@@ -10,6 +10,7 @@ import sys
 import pandas as pd
 import numpy as np
 import re
+import os
 from LCVlib.SPDXIdMapping import StaticMappingList, IsAnSPDX, StaticMapping, DynamicMapping, IsInAliases, ConvertToSPDX
 from LCVlib.CheckAliasAndSPDXId import *
 from LCVlib.CommonLists import *
@@ -22,6 +23,12 @@ from LCVlib.verify import CSV_to_dataframeOSADL
 *
 * SPDX-License-Identifier: MIT
 '''
+
+currentPath = os.getcwd()
+print("Current Path:")
+print(currentPath)
+
+"""
 
 license = "GPL99"
 OutboundLicense = "Diesel95"
@@ -41,3 +48,4 @@ dictOutput['outbound'] = OutboundLicense
 
 print(dictOutput)
 #print(dictOutput)
+"""
