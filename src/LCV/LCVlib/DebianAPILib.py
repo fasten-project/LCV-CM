@@ -27,7 +27,7 @@ from LCVlib.CommonLists import *
 
 #packageName = "0ad"
 packageVersion = "latest"
-
+debianVersion = "bullseye"
 
 def GetPackageName(line_number):
     fp = open("clean_whole_debian_packages_list.txt")
@@ -204,3 +204,50 @@ def ScanJsonDir(packageName,root,jsonFile):
 def ScanJsonFile(packageName,root,jsonFile):
     print("this is from inside ScanJsonFile")
     return
+
+def ScanJsonDirChecksum(packageName,root,jsonFile):
+    fname = root+"/"+jsonFile
+    directory = root.replace("collectingDebianLicenses/"+packageName+"/","")
+    print("Fname is:")
+    print(fname)
+    if os.path.isfile(fname):
+        with open(fname, 'r') as f:
+            print("Opening file")
+            print(fname)
+            dict = json.load(f)
+            print(dict)
+            #subDict = dict["content"]
+            checksum = dict["checksum"]
+
+        response = requests.get("https://sources.debian.org/copyright/api/sha256/?checksum="+checksum+"&package="+packageName+"&suite="+debianVersion, timeout=None)
+        time.sleep(1.2)
+        if response.status_code == 200:
+            print("status code 200")
+            jsonResponse=response.json()
+            #print(jsonResponse)
+            fname = 'collectingDebianLicensesChecksum/'+packageName+"/"+directory+"/"+jsonFile
+            if "//" in fname:
+                fname = fname.replace("//","/")
+                print("ModFname:")
+                print(fname)
+            # this control is required to scan nested directories
+            #if os.path.isfile(fname):
+
+            with open(fname, 'w', encoding='utf-8') as f:
+                json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
+                #root = 'collectingDebianLicensesChecksum/'+packageName+'/'+directory
+                #jsonFile = fileName+'_dir.json'
+                #print(root)
+                #print(jsonFile)
+            #ScanJsonDirChecksum(packageName,root,jsonFile)
+            return jsonResponse
+        else:
+            jsonResponse = "404"
+            output = jsonResponse+", 404 - page not found"
+            return output
+
+
+# currently not used
+
+def RetrieveChecksum(path):
+    return checksum
