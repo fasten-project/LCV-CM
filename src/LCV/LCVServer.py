@@ -185,7 +185,7 @@ def LicensesInput():
     print(args)  # For debugging
     InboundLicenses = args['InboundLicenses']
     #InboundLicenses = InboundLicenses.split(";")
-    InboundLicenses = re.split(";OR", InboundLicenses)
+    InboundLicenses = re.split(';|OR', InboundLicenses)
     OutboundLicense = args['OutboundLicense']
     verificationList = Compare_OSADL(InboundLicenses, OutboundLicense)
     return jsonify(verificationList)
