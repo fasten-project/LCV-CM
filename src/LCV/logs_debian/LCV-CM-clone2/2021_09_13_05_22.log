@@ -1,0 +1,461 @@
+Scanning from line:-1
+to line:2
+0
+0ad
+
+Fname is:
+collectingDebianLicenses/0ad/0ad_pkg.json
+Opening file
+collectingDebianLicenses/0ad/0ad_pkg.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': True, 'name': '.pc', 'stat': {'perms': 'rwxr-xr-x', 'size': 4096, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'LICENSE.txt', 'stat': {'perms': 'rw-r--r--', 'size': 2913, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'README.txt', 'stat': {'perms': 'rw-r--r--', 'size': 2044, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'binaries', 'stat': {'perms': 'rwxr-xr-x', 'size': 42, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'build', 'stat': {'perms': 'rwxr-xr-x', 'size': 4096, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'debian', 'stat': {'perms': 'rwxr-xr-x', 'size': 4096, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'libraries', 'stat': {'perms': 'rwxr-xr-x', 'size': 27, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'license_dbghelp.txt', 'stat': {'perms': 'rw-r--r--', 'size': 10104, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'license_gpl-2.0.txt', 'stat': {'perms': 'rw-r--r--', 'size': 17987, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'license_lgpl-2.1.txt', 'stat': {'perms': 'rw-r--r--', 'size': 26434, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'license_mit.txt', 'stat': {'perms': 'rw-r--r--', 'size': 1065, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'source', 'stat': {'perms': 'rwxr-xr-x', 'size': 4096, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}], 'directory': '0.0.25b-1', 'package': '0ad', 'path': '0ad/0.0.25b-1', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a directory found in the :collectingDebianLicenses/0ad/.pc
+collectingDebianLicenses/0ad/.pc
+Directory already exist
+This is the path of a file found in the :collectingDebianLicenses/0ad/LICENSE.txt
+collectingDebianLicenses/0ad/LICENSE.txt
+File already exist
+This is the path of a file found in the :collectingDebianLicenses/0ad/README.txt
+collectingDebianLicenses/0ad/README.txt
+File already exist
+This is the path of a directory found in the :collectingDebianLicenses/0ad/binaries
+collectingDebianLicenses/0ad/binaries
+Directory already exist
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build
+collectingDebianLicenses/0ad/build
+Inside create directory:
+root :collectingDebianLicenses/0ad
+directory :build
+path :collectingDebianLicenses/0ad/build
+Directory 'build' created successfully
+build
+Inside of type directory in ScanJsonDir
+build
+https://sources.debian.org/api/src/0ad/latest/build/
+status code 200
+collectingDebianLicenses/0ad/build
+build_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/build_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/build_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'android', 'stat': {'perms': 'rwxr-xr-x', 'size': 4096, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'arclint', 'stat': {'perms': 'rwxr-xr-x', 'size': 107, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'bin', 'stat': {'perms': 'rwxr-xr-x', 'size': 6, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'coverage', 'stat': {'perms': 'rwxr-xr-x', 'size': 27, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'errorlist', 'stat': {'perms': 'rwxr-xr-x', 'size': 33, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'jenkins', 'stat': {'perms': 'rwxr-xr-x', 'size': 83, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'premake', 'stat': {'perms': 'rwxr-xr-x', 'size': 133, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'resources', 'stat': {'perms': 'rwxr-xr-x', 'size': 4096, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'svn_revision', 'stat': {'perms': 'rwxr-xr-x', 'size': 37, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'workspaces', 'stat': {'perms': 'rwxr-xr-x', 'size': 71, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}], 'directory': 'build', 'package': '0ad', 'path': '0ad/0.0.25b-1/build', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android
+collectingDebianLicenses/0ad/build/android
+Inside create directory:
+root :collectingDebianLicenses/0ad/build
+directory :android
+path :collectingDebianLicenses/0ad/build/android
+Directory 'android' created successfully
+build/android
+Inside of type directory in ScanJsonDir
+build/android
+https://sources.debian.org/api/src/0ad/latest/build/android/
+status code 200
+collectingDebianLicenses/0ad/build/android
+android_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/android_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/android_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'boost-android-build.patch', 'stat': {'perms': 'rw-r--r--', 'size': 1610, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'js185-android-build.patch', 'stat': {'perms': 'rw-r--r--', 'size': 763, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'libxml2-android-build.patch', 'stat': {'perms': 'rw-r--r--', 'size': 1111, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'sdl-project', 'stat': {'perms': 'rwxr-xr-x', 'size': 130, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'setup-libs.sh', 'stat': {'perms': 'rwxr-xr-x', 'size': 4962, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}], 'directory': 'android', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/boost-android-build.patch
+collectingDebianLicenses/0ad/build/android/boost-android-build.patch
+Path generated inside of ScanJsonDir for FILE type
+build/android/boost-android-build.patch
+https://sources.debian.org/api/src/0ad/latest/build/android/boost-android-build.patch/
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/js185-android-build.patch
+collectingDebianLicenses/0ad/build/android/js185-android-build.patch
+Path generated inside of ScanJsonDir for FILE type
+build/android/js185-android-build.patch
+https://sources.debian.org/api/src/0ad/latest/build/android/js185-android-build.patch/
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/libxml2-android-build.patch
+collectingDebianLicenses/0ad/build/android/libxml2-android-build.patch
+Path generated inside of ScanJsonDir for FILE type
+build/android/libxml2-android-build.patch
+https://sources.debian.org/api/src/0ad/latest/build/android/libxml2-android-build.patch/
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android/sdl-project
+collectingDebianLicenses/0ad/build/android/sdl-project
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/android
+directory :sdl-project
+path :collectingDebianLicenses/0ad/build/android/sdl-project
+Directory 'sdl-project' created successfully
+build/android/sdl-project
+Inside of type directory in ScanJsonDir
+build/android/sdl-project
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/
+status code 200
+collectingDebianLicenses/0ad/build/android/sdl-project
+sdl-project_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/sdl-project/sdl-project_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/sdl-project/sdl-project_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'AndroidManifest.xml', 'stat': {'perms': 'rw-r--r--', 'size': 1122, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'Makefile', 'stat': {'perms': 'rw-r--r--', 'size': 2065, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'jni', 'stat': {'perms': 'rwxr-xr-x', 'size': 45, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'project.properties', 'stat': {'perms': 'rw-r--r--', 'size': 18, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'res', 'stat': {'perms': 'rwxr-xr-x', 'size': 116, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'src', 'stat': {'perms': 'rwxr-xr-x', 'size': 24, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}], 'directory': 'sdl-project', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android/sdl-project', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/sdl-project/AndroidManifest.xml
+collectingDebianLicenses/0ad/build/android/sdl-project/AndroidManifest.xml
+Path generated inside of ScanJsonDir for FILE type
+build/android/sdl-project/AndroidManifest.xml
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/AndroidManifest.xml/
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/sdl-project/Makefile
+collectingDebianLicenses/0ad/build/android/sdl-project/Makefile
+Path generated inside of ScanJsonDir for FILE type
+build/android/sdl-project/Makefile
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/Makefile/
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android/sdl-project/jni
+collectingDebianLicenses/0ad/build/android/sdl-project/jni
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/android/sdl-project
+directory :jni
+path :collectingDebianLicenses/0ad/build/android/sdl-project/jni
+Directory 'jni' created successfully
+build/android/sdl-project/jni
+Inside of type directory in ScanJsonDir
+build/android/sdl-project/jni
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/jni/
+status code 200
+collectingDebianLicenses/0ad/build/android/sdl-project/jni
+jni_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/sdl-project/jni/jni_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/sdl-project/jni/jni_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'Android.mk', 'stat': {'perms': 'rw-r--r--', 'size': 37, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'src', 'stat': {'perms': 'rwxr-xr-x', 'size': 65, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}], 'directory': 'jni', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android/sdl-project/jni', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/sdl-project/jni/Android.mk
+collectingDebianLicenses/0ad/build/android/sdl-project/jni/Android.mk
+Path generated inside of ScanJsonDir for FILE type
+build/android/sdl-project/jni/Android.mk
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/jni/Android.mk/
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android/sdl-project/jni/src
+collectingDebianLicenses/0ad/build/android/sdl-project/jni/src
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/android/sdl-project/jni
+directory :src
+path :collectingDebianLicenses/0ad/build/android/sdl-project/jni/src
+Directory 'src' created successfully
+build/android/sdl-project/jni/src
+Inside of type directory in ScanJsonDir
+build/android/sdl-project/jni/src
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/jni/src/
+status code 200
+collectingDebianLicenses/0ad/build/android/sdl-project/jni/src
+src_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/sdl-project/jni/src/src_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/sdl-project/jni/src/src_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'Android.mk', 'stat': {'perms': 'rw-r--r--', 'size': 385, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'pyrogenesis_wrapper.cpp', 'stat': {'perms': 'rw-r--r--', 'size': 961, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}], 'directory': 'src', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android/sdl-project/jni/src', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/sdl-project/jni/src/Android.mk
+collectingDebianLicenses/0ad/build/android/sdl-project/jni/src/Android.mk
+Path generated inside of ScanJsonDir for FILE type
+build/android/sdl-project/jni/src/Android.mk
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/jni/src/Android.mk/
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/sdl-project/jni/src/pyrogenesis_wrapper.cpp
+collectingDebianLicenses/0ad/build/android/sdl-project/jni/src/pyrogenesis_wrapper.cpp
+Path generated inside of ScanJsonDir for FILE type
+build/android/sdl-project/jni/src/pyrogenesis_wrapper.cpp
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/jni/src/pyrogenesis_wrapper.cpp/
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/sdl-project/project.properties
+collectingDebianLicenses/0ad/build/android/sdl-project/project.properties
+Path generated inside of ScanJsonDir for FILE type
+build/android/sdl-project/project.properties
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/project.properties/
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android/sdl-project/res
+collectingDebianLicenses/0ad/build/android/sdl-project/res
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/android/sdl-project
+directory :res
+path :collectingDebianLicenses/0ad/build/android/sdl-project/res
+Directory 'res' created successfully
+build/android/sdl-project/res
+Inside of type directory in ScanJsonDir
+build/android/sdl-project/res
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/res/
+status code 200
+collectingDebianLicenses/0ad/build/android/sdl-project/res
+res_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/sdl-project/res/res_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/sdl-project/res/res_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'drawable-hdpi', 'stat': {'perms': 'rwxr-xr-x', 'size': 29, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'drawable-ldpi', 'stat': {'perms': 'rwxr-xr-x', 'size': 29, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'drawable-mdpi', 'stat': {'perms': 'rwxr-xr-x', 'size': 29, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'layout', 'stat': {'perms': 'rwxr-xr-x', 'size': 21, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'values', 'stat': {'perms': 'rwxr-xr-x', 'size': 24, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}], 'directory': 'res', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android/sdl-project/res', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-hdpi
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-hdpi
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/android/sdl-project/res
+directory :drawable-hdpi
+path :collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-hdpi
+Directory 'drawable-hdpi' created successfully
+build/android/sdl-project/res/drawable-hdpi
+Inside of type directory in ScanJsonDir
+build/android/sdl-project/res/drawable-hdpi
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/res/drawable-hdpi/
+status code 200
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-hdpi
+drawable-hdpi_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-hdpi/drawable-hdpi_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-hdpi/drawable-hdpi_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'icon.png', 'stat': {'perms': 'rw-r--r--', 'size': 4147, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}], 'directory': 'drawable-hdpi', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android/sdl-project/res/drawable-hdpi', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-hdpi/icon.png
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-hdpi/icon.png
+Path generated inside of ScanJsonDir for FILE type
+build/android/sdl-project/res/drawable-hdpi/icon.png
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/res/drawable-hdpi/icon.png/
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-ldpi
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-ldpi
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/android/sdl-project/res
+directory :drawable-ldpi
+path :collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-ldpi
+Directory 'drawable-ldpi' created successfully
+build/android/sdl-project/res/drawable-ldpi
+Inside of type directory in ScanJsonDir
+build/android/sdl-project/res/drawable-ldpi
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/res/drawable-ldpi/
+status code 200
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-ldpi
+drawable-ldpi_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-ldpi/drawable-ldpi_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-ldpi/drawable-ldpi_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'icon.png', 'stat': {'perms': 'rw-r--r--', 'size': 1723, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}], 'directory': 'drawable-ldpi', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android/sdl-project/res/drawable-ldpi', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-ldpi/icon.png
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-ldpi/icon.png
+Path generated inside of ScanJsonDir for FILE type
+build/android/sdl-project/res/drawable-ldpi/icon.png
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/res/drawable-ldpi/icon.png/
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-mdpi
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-mdpi
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/android/sdl-project/res
+directory :drawable-mdpi
+path :collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-mdpi
+Directory 'drawable-mdpi' created successfully
+build/android/sdl-project/res/drawable-mdpi
+Inside of type directory in ScanJsonDir
+build/android/sdl-project/res/drawable-mdpi
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/res/drawable-mdpi/
+status code 200
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-mdpi
+drawable-mdpi_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-mdpi/drawable-mdpi_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-mdpi/drawable-mdpi_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'icon.png', 'stat': {'perms': 'rw-r--r--', 'size': 2574, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}], 'directory': 'drawable-mdpi', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android/sdl-project/res/drawable-mdpi', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-mdpi/icon.png
+collectingDebianLicenses/0ad/build/android/sdl-project/res/drawable-mdpi/icon.png
+Path generated inside of ScanJsonDir for FILE type
+build/android/sdl-project/res/drawable-mdpi/icon.png
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/res/drawable-mdpi/icon.png/
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android/sdl-project/res/layout
+collectingDebianLicenses/0ad/build/android/sdl-project/res/layout
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/android/sdl-project/res
+directory :layout
+path :collectingDebianLicenses/0ad/build/android/sdl-project/res/layout
+Directory 'layout' created successfully
+build/android/sdl-project/res/layout
+Inside of type directory in ScanJsonDir
+build/android/sdl-project/res/layout
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/res/layout/
+status code 200
+collectingDebianLicenses/0ad/build/android/sdl-project/res/layout
+layout_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/sdl-project/res/layout/layout_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/sdl-project/res/layout/layout_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'main.xml', 'stat': {'perms': 'rw-r--r--', 'size': 394, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}], 'directory': 'layout', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android/sdl-project/res/layout', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/sdl-project/res/layout/main.xml
+collectingDebianLicenses/0ad/build/android/sdl-project/res/layout/main.xml
+Path generated inside of ScanJsonDir for FILE type
+build/android/sdl-project/res/layout/main.xml
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/res/layout/main.xml/
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android/sdl-project/res/values
+collectingDebianLicenses/0ad/build/android/sdl-project/res/values
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/android/sdl-project/res
+directory :values
+path :collectingDebianLicenses/0ad/build/android/sdl-project/res/values
+Directory 'values' created successfully
+build/android/sdl-project/res/values
+Inside of type directory in ScanJsonDir
+build/android/sdl-project/res/values
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/res/values/
+status code 200
+collectingDebianLicenses/0ad/build/android/sdl-project/res/values
+values_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/sdl-project/res/values/values_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/sdl-project/res/values/values_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'strings.xml', 'stat': {'perms': 'rw-r--r--', 'size': 108, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}], 'directory': 'values', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android/sdl-project/res/values', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/sdl-project/res/values/strings.xml
+collectingDebianLicenses/0ad/build/android/sdl-project/res/values/strings.xml
+Path generated inside of ScanJsonDir for FILE type
+build/android/sdl-project/res/values/strings.xml
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/res/values/strings.xml/
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android/sdl-project/src
+collectingDebianLicenses/0ad/build/android/sdl-project/src
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/android/sdl-project
+directory :src
+path :collectingDebianLicenses/0ad/build/android/sdl-project/src
+Directory 'src' created successfully
+build/android/sdl-project/src
+Inside of type directory in ScanJsonDir
+build/android/sdl-project/src
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/src/
+status code 200
+collectingDebianLicenses/0ad/build/android/sdl-project/src
+src_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/sdl-project/src/src_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/sdl-project/src/src_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'org', 'stat': {'perms': 'rwxr-xr-x', 'size': 27, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}], 'directory': 'src', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android/sdl-project/src', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android/sdl-project/src/org
+collectingDebianLicenses/0ad/build/android/sdl-project/src/org
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/android/sdl-project/src
+directory :org
+path :collectingDebianLicenses/0ad/build/android/sdl-project/src/org
+Directory 'org' created successfully
+build/android/sdl-project/src/org
+Inside of type directory in ScanJsonDir
+build/android/sdl-project/src/org
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/src/org/
+status code 200
+collectingDebianLicenses/0ad/build/android/sdl-project/src/org
+org_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/sdl-project/src/org/org_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/sdl-project/src/org/org_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'libsdl', 'stat': {'perms': 'rwxr-xr-x', 'size': 24, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}], 'directory': 'org', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android/sdl-project/src/org', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl
+collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/android/sdl-project/src/org
+directory :libsdl
+path :collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl
+Directory 'libsdl' created successfully
+build/android/sdl-project/src/org/libsdl
+Inside of type directory in ScanJsonDir
+build/android/sdl-project/src/org/libsdl
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/src/org/libsdl/
+status code 200
+collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl
+libsdl_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl/libsdl_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl/libsdl_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'app', 'stat': {'perms': 'rwxr-xr-x', 'size': 37, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}], 'directory': 'libsdl', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android/sdl-project/src/org/libsdl', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl/app
+collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl/app
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl
+directory :app
+path :collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl/app
+Directory 'app' created successfully
+build/android/sdl-project/src/org/libsdl/app
+Inside of type directory in ScanJsonDir
+build/android/sdl-project/src/org/libsdl/app
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/src/org/libsdl/app/
+status code 200
+collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl/app
+app_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl/app/app_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl/app/app_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'SDLActivity.java', 'stat': {'perms': 'rw-r--r--', 'size': 27259, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}], 'directory': 'app', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/android/sdl-project/src/org/libsdl/app', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl/app/SDLActivity.java
+collectingDebianLicenses/0ad/build/android/sdl-project/src/org/libsdl/app/SDLActivity.java
+Path generated inside of ScanJsonDir for FILE type
+build/android/sdl-project/src/org/libsdl/app/SDLActivity.java
+https://sources.debian.org/api/src/0ad/latest/build/android/sdl-project/src/org/libsdl/app/SDLActivity.java/
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/android/setup-libs.sh
+collectingDebianLicenses/0ad/build/android/setup-libs.sh
+Path generated inside of ScanJsonDir for FILE type
+build/android/setup-libs.sh
+https://sources.debian.org/api/src/0ad/latest/build/android/setup-libs.sh/
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/arclint
+collectingDebianLicenses/0ad/build/arclint
+Inside create directory:
+root :collectingDebianLicenses/0ad/build
+directory :arclint
+path :collectingDebianLicenses/0ad/build/arclint
+Directory 'arclint' created successfully
+build/arclint
+Inside of type directory in ScanJsonDir
+build/arclint
+https://sources.debian.org/api/src/0ad/latest/build/arclint/
+status code 200
+collectingDebianLicenses/0ad/build/arclint
+arclint_dir.json
+Fname is:
+collectingDebianLicenses/0ad/build/arclint/arclint_dir.json
+Opening file
+collectingDebianLicenses/0ad/build/arclint/arclint_dir.json
+Current Path:
+/home/michelescarlato/gitrepo-endocode/LCV-CM/src/LCV
+{'content': [{'hidden': False, 'name': 'LICENCE.txt', 'stat': {'perms': 'rw-r--r--', 'size': 397, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'README.md', 'stat': {'perms': 'rw-r--r--', 'size': 1278, 'symlink_dest': None, 'type': '-'}, 'type': 'file'}, {'hidden': False, 'name': 'configs', 'stat': {'perms': 'rwxr-xr-x', 'size': 34, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'dummies', 'stat': {'perms': 'rwxr-xr-x', 'size': 54, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}, {'hidden': False, 'name': 'pyrolint', 'stat': {'perms': 'rwxr-xr-x', 'size': 129, 'symlink_dest': None, 'type': 'd'}, 'type': 'directory'}], 'directory': 'arclint', 'package': '0ad', 'path': '0ad/0.0.25b-1/build/arclint', 'pkg_infos': {'area': 'main', 'copyright': True, 'ctags_count': 0, 'license': '/copyright/license/0ad/0.0.25b-1/', 'metric': {'size': 122380}, 'pts_link': 'https://tracker.debian.org/pkg/0ad', 'sloc': [['cpp', 254495], ['ansic', 195857], ['javascript', 19067], ['python', 14541], ['sh', 6225], ['perl', 4832], ['xml', 849], ['makefile', 742], ['java', 533], ['ruby', 229], ['php', 190], ['erlang', 46], ['pascal', 30], ['sql', 21], ['tcl', 4]], 'suites': ['bookworm', 'sid'], 'vcs_browser': 'https://salsa.debian.org/games-team/0ad', 'vcs_type': 'git'}, 'type': 'directory', 'version': '0.0.25b-1'}
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/arclint/LICENCE.txt
+collectingDebianLicenses/0ad/build/arclint/LICENCE.txt
+Path generated inside of ScanJsonDir for FILE type
+build/arclint/LICENCE.txt
+https://sources.debian.org/api/src/0ad/latest/build/arclint/LICENCE.txt/
+This is the path of a file found in the :collectingDebianLicenses/0ad/build/arclint/README.md
+collectingDebianLicenses/0ad/build/arclint/README.md
+Path generated inside of ScanJsonDir for FILE type
+build/arclint/README.md
+https://sources.debian.org/api/src/0ad/latest/build/arclint/README.md/
+This is the path of a directory found in the :collectingDebianLicenses/0ad/build/arclint/configs
+collectingDebianLicenses/0ad/build/arclint/configs
+Inside create directory:
+root :collectingDebianLicenses/0ad/build/arclint
+directory :configs
+path :collectingDebianLicenses/0ad/build/arclint/configs
+Directory 'configs' created successfully
+build/arclint/configs
+Inside of type directory in ScanJsonDir
+build/arclint/configs
+https://sources.debian.org/api/src/0ad/latest/build/arclint/configs/
