@@ -210,6 +210,10 @@ def ScanJsonDirChecksum(packageName,root,jsonFile):
     directory = root.replace("collectingDebianLicenses/"+packageName+"/","")
     print("Fname is:")
     print(fname)
+    if "//" in fname:
+        fname = fname.replace("//","/")
+        print("ModFname:")
+        print(fname)
     if os.path.isfile(fname):
         with open(fname, 'r') as f:
             print("Opening file")
