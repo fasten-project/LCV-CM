@@ -1,0 +1,204 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "duplexDynamicIncludedDestLocalBroker.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "duplexLocalBroker.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2099,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jms",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 117,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "localBroker-custom-factory.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "localBroker-plain.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "localBroker.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multicast",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "reconnect-broker1.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reconnect-broker2.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remoteBroker.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1782,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh-reconnect-broker1.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh-reconnect-broker2.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "network",
+    "package": "activemq",
+    "path": "activemq/5.16.1-1/activemq-unit-tests/src/test/resources/org/apache/activemq/network",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/activemq/5.16.1-1/",
+        "metric": {
+            "size": 75288
+        },
+        "pts_link": "https://tracker.debian.org/pkg/activemq",
+        "sloc": [
+            [
+                "java",
+                414748
+            ],
+            [
+                "xml",
+                21989
+            ],
+            [
+                "jsp",
+                1826
+            ],
+            [
+                "sh",
+                1151
+            ],
+            [
+                "cs",
+                347
+            ],
+            [
+                "cpp",
+                316
+            ],
+            [
+                "python",
+                238
+            ],
+            [
+                "ruby",
+                92
+            ],
+            [
+                "php",
+                75
+            ],
+            [
+                "perl",
+                71
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/activemq",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.16.1-1"
+}
