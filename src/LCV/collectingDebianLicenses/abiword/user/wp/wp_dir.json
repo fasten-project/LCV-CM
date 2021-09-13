@@ -1,0 +1,925 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clipart",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dictionary",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "readme.abw",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readme.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5009,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 841,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-CP1254",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-KOI8-R",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1066,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-KOI8-U",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1065,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-KOI8-UB",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1065,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-am-ET",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-ar",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-ar-EG",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-ar-SA",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-bg-BG",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-ca-ES",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-cs-CZ",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-da-DK",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-de",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-de-AT",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-de-CH",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-de-DE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-div-MV",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-el-GR",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-en",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-en-AU",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 865,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-en-CA",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-en-GB",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-en-IE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-en-NZ",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-en-US",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-en-ZA",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-es",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-es-ES",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-es-MX",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-eu",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-eu-ES",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 908,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-fa-IR",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-fi-FI",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-fr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-fr-BE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-fr-CA",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-fr-CH",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-fr-FR",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-gl-ES",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-he",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-he-IL",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-hu-HU",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-it-IT",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-ja-JP",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-kk-KZ",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-lt-LT",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-nb-NO",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-nl-NL",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-nn-NO",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-pl-PL",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-ps",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-pt-BR",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-pt-PT",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-ro",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-ro-RO",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-ru",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-ru-RU",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-sk-SK",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-sk-SK.CP1250",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-sl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-sv",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-sv-SE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-syr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-tr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-tr-TR",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-tr-TR.CP1254",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-uk-UA",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-ur-PK",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-yi",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-zh-CN",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.profile-zh-TW",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "templates",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "wp",
+    "package": "abiword",
+    "path": "abiword/3.0.5~dfsg-1/user/wp",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/abiword/3.0.5%7Edfsg-1/",
+        "metric": {
+            "size": 63916
+        },
+        "pts_link": "https://tracker.debian.org/pkg/abiword",
+        "sloc": [
+            [
+                "cpp",
+                478066
+            ],
+            [
+                "ansic",
+                16753
+            ],
+            [
+                "makefile",
+                5818
+            ],
+            [
+                "xml",
+                3796
+            ],
+            [
+                "yacc",
+                1818
+            ],
+            [
+                "lex",
+                1104
+            ],
+            [
+                "perl",
+                812
+            ],
+            [
+                "python",
+                413
+            ],
+            [
+                "php",
+                183
+            ],
+            [
+                "sh",
+                160
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/abiword",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.5~dfsg-1"
+}
