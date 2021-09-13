@@ -83,15 +83,17 @@ for i in range(int(startLine),int(endLine)):
                         print("Inside "+directory+" there is :"+file)
         for file in files:
             print(".. looping through files .. " +file)
-            if "_dir.json" in file:
-                print("this is a json of a dir" )
-                #continue
-            if "_pkg.json" in file:
-                print("this is a json of a package" )
+            if "_dir.json" in file or "_pkg.json" in file:
+                print("this is not json of a file" )
                 #continue
             else:
                 path = dir
                 path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                print("inside of files")
+                print("path:")
                 print(path)
+                print("root:")
+                print(root)
+
                 ScanJsonDirChecksum(packageName,root+"/",file)
                 time.sleep(1.2)
