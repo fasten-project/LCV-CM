@@ -1,0 +1,107 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "openid",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "other",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pom.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "portlet",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "webwork",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "sandbox",
+    "package": "acegi-security",
+    "path": "acegi-security/1.0.7-3/sandbox",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 7730,
+        "license": "/copyright/license/acegi-security/1.0.7-3/",
+        "metric": {
+            "size": 7104
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acegi-security",
+        "sloc": [
+            [
+                "java",
+                41983
+            ],
+            [
+                "xml",
+                10521
+            ],
+            [
+                "jsp",
+                455
+            ],
+            [
+                "sql",
+                165
+            ],
+            [
+                "sh",
+                72
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=pkg-java/acegi-security.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.7-3"
+}
