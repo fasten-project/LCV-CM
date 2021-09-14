@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty-ads",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "adabrowse",
+    "path": "adabrowse/4.0.3-14/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adabrowse/4.0.3-14/",
+        "metric": {
+            "size": 2804
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adabrowse",
+        "sloc": [
+            [
+                "ada",
+                29769
+            ],
+            [
+                "makefile",
+                116
+            ],
+            [
+                "sh",
+                4
+            ],
+            [
+                "ansic",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://git.codelabs.ch/?p=debian/adabrowse.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.0.3-14"
+}
