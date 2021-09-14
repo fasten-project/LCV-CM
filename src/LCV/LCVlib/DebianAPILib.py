@@ -41,7 +41,7 @@ def GetPackageName(line_number):
 
 def RetrievePackageFilesAndDirectory(packageName):
     print("https://sources.debian.org/api/src/"+packageName+"/latest/")
-    response = requests.get("https://sources.debian.org/api/src/"+packageName+"/latest/", timeout=None)
+    response = requests.get("https://sources.debian.org/api/src/"+packageName+"/latest/", timeout=10)
     time.sleep(1.2)
     if response.status_code == 200:
         jsonResponse=response.json()
@@ -72,7 +72,7 @@ def RetrieveFilesInfo(packageName,path):
     path = packageName+"/"+packageVersion+"/"+path
     #print(path)
     print("https://sources.debian.org/api/src/"+path+"/")
-    response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=None)
+    response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=10)
     time.sleep(1.2)
     if response.status_code == 200:
         jsonResponse=response.json()
@@ -92,7 +92,7 @@ def RetrieveDirectoryInfo(packageName,path):
     directory = path
     path = packageName+"/"+packageVersion+"/"+path
     print("https://sources.debian.org/api/src/"+path+"/")
-    response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=None)
+    response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=10)
     time.sleep(1.2)
     if response.status_code == 200:
         print("status code 200")
@@ -122,7 +122,7 @@ def RetrieveDirectoryInfoNotRecursive(packageName,path):
     #print(fileName)
     path = packageName+"/"+packageVersion+"/"+path
     print("https://sources.debian.org/api/src/"+path+"/")
-    response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=None)
+    response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=10)
     time.sleep(1.2)
     if response.status_code == 200:
         print("status code 200")
@@ -223,7 +223,7 @@ def ScanJsonDirChecksum(packageName,root,jsonFile):
             #subDict = dict["content"]
             checksum = dict["checksum"]
 
-        response = requests.get("https://sources.debian.org/copyright/api/sha256/?checksum="+checksum+"&package="+packageName+"&suite="+debianVersion, timeout=None)
+        response = requests.get("https://sources.debian.org/copyright/api/sha256/?checksum="+checksum+"&package="+packageName+"&suite="+debianVersion, timeout=10)
         time.sleep(1.2)
         if response.status_code == 200:
             print("status code 200")
