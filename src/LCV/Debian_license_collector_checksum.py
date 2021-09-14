@@ -65,6 +65,21 @@ for i in range(int(startLine),int(endLine)):
         print(parent_dirChecksum+" already exists")
     #this loop creates the first layer of files and directories
     for (root,dirs,files) in os.walk(dir, topdown=True):
+        for file in files:
+            print(".. looping through files .. " +file)
+            if "_dir.json" in file or "_pkg.json" in file:
+                print("this is not json of a file" )
+                continue
+            if ".json" in file:
+                path = dir
+                pathChecksum = root.replace("collectingDebianLicenses","collectingDebianLicensesChecksum")
+                pathChecksum = pathChecksum+"/"+file
+                print(pathChecksum)
+                if not os.path.isfile(pathChecksum):
+                    path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                    print("Running ScanJsonDirChecksum upon :"+root+"/"+file)
+                    ScanJsonDirChecksum(root,packageName,file)
+                    time.sleep(1.2)
         for directory in dirs:
             print(root)
             print(dirs)
@@ -87,6 +102,7 @@ for i in range(int(startLine),int(endLine)):
                         print("Running ScanJsonDirChecksum upon :"+root+"/"+directory+"/"+file)
                         ScanJsonDirChecksum(root+"/"+directory,packageName,file)
                         time.sleep(1.2)
+        """
         for file in files:
             print(".. looping through files .. " +file)
             if "_dir.json" in file or "_pkg.json" in file:
@@ -102,3 +118,4 @@ for i in range(int(startLine),int(endLine)):
                     print("Running ScanJsonDirChecksum upon :"+root+"/"+directory+"/"+file)
                     ScanJsonDirChecksum(root+"/"+directory,packageName,file)
                     time.sleep(1.2)
+        """
