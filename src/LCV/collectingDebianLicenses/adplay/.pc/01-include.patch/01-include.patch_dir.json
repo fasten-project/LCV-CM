@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "01-include.patch",
+    "package": "adplay",
+    "path": "adplay/1.8.1-2/.pc/01-include.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adplay/1.8.1-2/",
+        "metric": {
+            "size": 336
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adplay",
+        "sloc": [
+            [
+                "cpp",
+                1011
+            ],
+            [
+                "ansic",
+                880
+            ],
+            [
+                "makefile",
+                24
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/adplay",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8.1-2"
+}
