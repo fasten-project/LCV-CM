@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "helpers",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "recover-aes-128",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "recover-aes-256",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smoke",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "aeskeyfind",
+    "path": "aeskeyfind/1:1.0-11/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aeskeyfind/1:1.0-11/",
+        "metric": {
+            "size": 196
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aeskeyfind",
+        "sloc": [
+            [
+                "ansic",
+                577
+            ],
+            [
+                "python",
+                53
+            ],
+            [
+                "sh",
+                47
+            ],
+            [
+                "makefile",
+                17
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/aeskeyfind",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.0-11"
+}

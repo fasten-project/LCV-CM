@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "java",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "resources",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "main",
+    "package": "activemq-activeio",
+    "path": "activemq-activeio/3.1.4-3/activeio-core/src/main",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/activemq-activeio/3.1.4-3/",
+        "metric": {
+            "size": 688
+        },
+        "pts_link": "https://tracker.debian.org/pkg/activemq-activeio",
+        "sloc": [
+            [
+                "java",
+                5222
+            ],
+            [
+                "xml",
+                393
+            ],
+            [
+                "sh",
+                7
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-java/activemq-activeio.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.1.4-3"
+}

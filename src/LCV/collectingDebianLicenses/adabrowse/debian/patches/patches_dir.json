@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-gnatmake.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-use-gnatgcc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-drop-util-nl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-project.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "typos.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9739,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "adabrowse",
+    "path": "adabrowse/4.0.3-14/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adabrowse/4.0.3-14/",
+        "metric": {
+            "size": 2804
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adabrowse",
+        "sloc": [
+            [
+                "ada",
+                29769
+            ],
+            [
+                "makefile",
+                116
+            ],
+            [
+                "sh",
+                4
+            ],
+            [
+                "ansic",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://git.codelabs.ch/?p=debian/adabrowse.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.0.3-14"
+}

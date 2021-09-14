@@ -1,0 +1,131 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "demux_without_barcodes",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fewer_file1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fewer_file2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 105,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "file2_only",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ident_and_demux",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "negative_window",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "se_interleaved",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "se_interleaved_input",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "bad_args",
+    "package": "adapterremoval",
+    "path": "adapterremoval/2.3.2-1/tests/regression/misc/bad_args",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adapterremoval/2.3.2-1/",
+        "metric": {
+            "size": 8464
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adapterremoval",
+        "sloc": [
+            [
+                "cpp",
+                21475
+            ],
+            [
+                "python",
+                428
+            ],
+            [
+                "makefile",
+                200
+            ],
+            [
+                "sh",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/adapterremoval",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.2-1"
+}

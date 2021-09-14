@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "gen_aes_dump.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen_aes_key.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aes_extraction.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "helpers",
+    "package": "aeskeyfind",
+    "path": "aeskeyfind/1:1.0-11/debian/tests/helpers",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aeskeyfind/1:1.0-11/",
+        "metric": {
+            "size": 196
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aeskeyfind",
+        "sloc": [
+            [
+                "ansic",
+                577
+            ],
+            [
+                "python",
+                53
+            ],
+            [
+                "sh",
+                47
+            ],
+            [
+                "makefile",
+                17
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/aeskeyfind",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.0-11"
+}

@@ -1,0 +1,98 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "info.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "input_1.fastq",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "input_2.fastq",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "your_output.paired.truncated",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "your_output.settings",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "keep_mate1",
+    "package": "adapterremoval",
+    "path": "adapterremoval/2.3.2-1/tests/regression/pe/incl_adapter/combined_output/interleaved/keep_mate1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adapterremoval/2.3.2-1/",
+        "metric": {
+            "size": 8464
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adapterremoval",
+        "sloc": [
+            [
+                "cpp",
+                21475
+            ],
+            [
+                "python",
+                428
+            ],
+            [
+                "makefile",
+                200
+            ],
+            [
+                "sh",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/adapterremoval",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.2-1"
+}

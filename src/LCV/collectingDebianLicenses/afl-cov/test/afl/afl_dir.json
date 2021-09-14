@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "afl-cov-generator-live.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "afl-cov-generator-parallel.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "afl-cov-generator.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "e3ae6747",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "server-access-parallel-redir.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server-access-redir.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 711,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "afl",
+    "package": "afl-cov",
+    "path": "afl-cov/0.6.2-1/test/afl",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/afl-cov/0.6.2-1/",
+        "metric": {
+            "size": 5152
+        },
+        "pts_link": "https://tracker.debian.org/pkg/afl-cov",
+        "sloc": [
+            [
+                "python",
+                1174
+            ],
+            [
+                "sh",
+                55
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/afl-cov",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6.2-1"
+}

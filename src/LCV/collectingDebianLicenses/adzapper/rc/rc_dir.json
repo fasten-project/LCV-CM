@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "patterns",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153755,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proxy-home.pac",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proxy-zip.pac",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "squid",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 139,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "rc",
+    "package": "adzapper",
+    "path": "adzapper/20090301.dfsg.1-0.2/rc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adzapper/20090301.dfsg.1-0.2/",
+        "metric": {
+            "size": 720
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adzapper",
+        "sloc": [
+            [
+                "perl",
+                3664
+            ],
+            [
+                "sh",
+                126
+            ],
+            [
+                "makefile",
+                50
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "20090301.dfsg.1-0.2"
+}

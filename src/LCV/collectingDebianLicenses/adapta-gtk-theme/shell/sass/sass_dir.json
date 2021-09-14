@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cinnamon",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "common",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 57,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "compile-gresource.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnome-shell",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "parse-sass.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "sass",
+    "package": "adapta-gtk-theme",
+    "path": "adapta-gtk-theme/3.95.0.11-2/shell/sass",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adapta-gtk-theme/3.95.0.11-2/",
+        "metric": {
+            "size": 5388
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adapta-gtk-theme",
+        "sloc": [
+            [
+                "xml",
+                2600
+            ],
+            [
+                "makefile",
+                1905
+            ],
+            [
+                "sh",
+                1059
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/adapta-gtk-theme",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.95.0.11-2"
+}

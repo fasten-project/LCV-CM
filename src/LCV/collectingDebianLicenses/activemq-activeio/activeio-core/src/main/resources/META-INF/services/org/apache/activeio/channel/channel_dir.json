@@ -1,0 +1,133 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "datagram",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multicast",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nio",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nio-async",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 85,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nio-sync",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "socket",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vmpipe",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "channel",
+    "package": "activemq-activeio",
+    "path": "activemq-activeio/3.1.4-3/activeio-core/src/main/resources/META-INF/services/org/apache/activeio/channel",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/activemq-activeio/3.1.4-3/",
+        "metric": {
+            "size": 688
+        },
+        "pts_link": "https://tracker.debian.org/pkg/activemq-activeio",
+        "sloc": [
+            [
+                "java",
+                5222
+            ],
+            [
+                "xml",
+                393
+            ],
+            [
+                "sh",
+                7
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-java/activemq-activeio.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.1.4-3"
+}

@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "collector",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "counter.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gauge.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "histogram.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2731,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "label.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metric_registry.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "timer.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1991,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "telemetry",
+    "package": "actor-framework",
+    "path": "actor-framework/0.18.0~rc1-1/libcaf_core/test/telemetry",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/actor-framework/0.18.0%7Erc1-1/",
+        "metric": {
+            "size": 8800
+        },
+        "pts_link": "https://tracker.debian.org/pkg/actor-framework",
+        "sloc": [
+            [
+                "cpp",
+                77371
+            ],
+            [
+                "sh",
+                509
+            ],
+            [
+                "python",
+                187
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ]
+    },
+    "type": "directory",
+    "version": "0.18.0~rc1-1"
+}
