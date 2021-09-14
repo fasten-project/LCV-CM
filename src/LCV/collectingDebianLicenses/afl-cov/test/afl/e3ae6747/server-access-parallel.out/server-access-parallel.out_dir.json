@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "afl_access_master.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "afl_access_slave.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 605,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fuzzer01",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fuzzer02",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "server-access-parallel.out",
+    "package": "afl-cov",
+    "path": "afl-cov/0.6.2-1/test/afl/e3ae6747/server-access-parallel.out",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/afl-cov/0.6.2-1/",
+        "metric": {
+            "size": 5152
+        },
+        "pts_link": "https://tracker.debian.org/pkg/afl-cov",
+        "sloc": [
+            [
+                "python",
+                1174
+            ],
+            [
+                "sh",
+                55
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/afl-cov",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6.2-1"
+}

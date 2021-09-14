@@ -1,0 +1,130 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.persistent.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_qemu_support.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libcompcov",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "patches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "unsigaction",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 73,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "qemu_mode",
+    "package": "aflplusplus",
+    "path": "aflplusplus/2.68c-1/qemu_mode",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aflplusplus/2.68c-1/",
+        "metric": {
+            "size": 6568
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aflplusplus",
+        "sloc": [
+            [
+                "ansic",
+                76508
+            ],
+            [
+                "cpp",
+                5346
+            ],
+            [
+                "sh",
+                2877
+            ],
+            [
+                "python",
+                1663
+            ],
+            [
+                "makefile",
+                491
+            ],
+            [
+                "java",
+                43
+            ],
+            [
+                "sql",
+                40
+            ],
+            [
+                "xml",
+                3
+            ],
+            [
+                "javascript",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/aflplusplus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.68c-1"
+}

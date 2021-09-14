@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fuzz_bitmap",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fuzzer_stats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plot_data",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "queue",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 12288,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "fuzzer02",
+    "package": "afl-cov",
+    "path": "afl-cov/0.6.2-1/test/afl/e3ae6747/server-access-parallel.out/fuzzer02",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/afl-cov/0.6.2-1/",
+        "metric": {
+            "size": 5152
+        },
+        "pts_link": "https://tracker.debian.org/pkg/afl-cov",
+        "sloc": [
+            [
+                "python",
+                1174
+            ],
+            [
+                "sh",
+                55
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/afl-cov",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6.2-1"
+}

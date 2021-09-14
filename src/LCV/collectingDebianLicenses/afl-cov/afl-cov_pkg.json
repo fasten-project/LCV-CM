@@ -1,0 +1,170 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "COPYING",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 7,
+                "symlink_dest": "LICENSE",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CREDITS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 875,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ChangeLog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LICENSE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18047,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 9,
+                "symlink_dest": "README.md",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "VERSION",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "afl-cov",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43460,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "doc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 107,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0.6.2-1",
+    "package": "afl-cov",
+    "path": "afl-cov/0.6.2-1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/afl-cov/0.6.2-1/",
+        "metric": {
+            "size": 5152
+        },
+        "pts_link": "https://tracker.debian.org/pkg/afl-cov",
+        "sloc": [
+            [
+                "python",
+                1174
+            ],
+            [
+                "sh",
+                55
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/afl-cov",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6.2-1"
+}

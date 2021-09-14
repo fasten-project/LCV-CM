@@ -1,0 +1,109 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4615,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.llvm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7982,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "afl-clang-fast.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "afl-llvm-pass.so.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4933,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "afl-llvm-rt.o.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "llvm_mode",
+    "package": "afl",
+    "path": "afl/2.52b-5/llvm_mode",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/afl/2.52b-5/",
+        "metric": {
+            "size": 2212
+        },
+        "pts_link": "https://tracker.debian.org/pkg/afl",
+        "sloc": [
+            [
+                "ansic",
+                8495
+            ],
+            [
+                "sh",
+                770
+            ],
+            [
+                "makefile",
+                250
+            ],
+            [
+                "cpp",
+                85
+            ],
+            [
+                "sql",
+                40
+            ],
+            [
+                "perl",
+                26
+            ],
+            [
+                "xml",
+                3
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/afl",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.52b-5"
+}

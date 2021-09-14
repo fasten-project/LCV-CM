@@ -1,0 +1,143 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "afio_pack_gpg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "afio_pack_gpg_zip",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1733,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "afio_unpack_gpg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "afio_unpack_gpg_zip",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gpg_decrypt_unzip",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 90,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gpg_zip_encrypt",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "my_passphrasefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pgp_read",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pgp_write",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 930,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "script3",
+    "package": "afio",
+    "path": "afio/2.5.2-1/script3",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/afio/2.5.2-1/",
+        "metric": {
+            "size": 760
+        },
+        "pts_link": "https://tracker.debian.org/pkg/afio",
+        "sloc": [
+            [
+                "ansic",
+                4972
+            ],
+            [
+                "sh",
+                139
+            ],
+            [
+                "makefile",
+                85
+            ],
+            [
+                "awk",
+                19
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/afio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5.2-1"
+}

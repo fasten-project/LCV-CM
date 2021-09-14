@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1088,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backup",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "restore",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "x.dot",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "x.home",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "script2",
+    "package": "afio",
+    "path": "afio/2.5.2-1/script2",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/afio/2.5.2-1/",
+        "metric": {
+            "size": 760
+        },
+        "pts_link": "https://tracker.debian.org/pkg/afio",
+        "sloc": [
+            [
+                "ansic",
+                4972
+            ],
+            [
+                "sh",
+                139
+            ],
+            [
+                "makefile",
+                85
+            ],
+            [
+                "awk",
+                19
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/afio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5.2-1"
+}

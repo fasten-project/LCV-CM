@@ -1,0 +1,801 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bash-cmd-exec.var",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bash-uninit-mem.var",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ffmpeg-h264-bad-ptr-800m.mp4",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10377,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ffmpeg-h264-bad-read.mp4",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ffmpeg-h264-call-stack-overflow.mp4",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1259,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file-fpu-exception.elf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "firefox-bmp-leak.bmp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 892,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "firefox-chrome-leak.jpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1771,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "firefox-gif-leak.gif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "firefox-gif-leak2.gif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jxrlib-crash.jxr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 512,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jxrlib-crash2.jxr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jxrlib-crash3.jxr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jxrlib-crash4.jxr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 526,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lesspipe-cpio-bad-write.cpio",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 512,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libjpeg-sos-leak.jpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libjpeg-turbo-dht-leak.jpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libtiff-bad-write.tif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 360,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libtiff-uninit-mem.tif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libtiff-uninit-mem2.tif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libtiff-uninit-mem3.tif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libtiff-uninit-mem4.tif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libxml2-bad-read.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "msie-dht-leak.jpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "msie-jxr-mem-leak.jxr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "msie-png-mem-leak.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "msie-tiff-mem-leak.tif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "msie-zlib-dos.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openssl-null-ptr.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openssl-null-ptr2.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "photoshop-mem-leak.jpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-bad-free.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-bad-ptr.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-bad-ptr2.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 116,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-bad-ptr3.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-heap-overflow.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-heap-overwrite.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-negative-memset.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr1.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr10.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr11.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr12.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr13.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr14.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr15.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 172,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr2.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr3.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr4.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr5.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr6.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr7.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr8.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-null-ptr9.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 85,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-oob-read.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-oob-write.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-stack-buf-overflow.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-stack-exhaustion.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-unint-mem.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite-use-after-free.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strings-bfd-badptr.elf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strings-bfd-badptr2.elf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strings-stack-overflow",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strings-unchecked-ctr.elf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 141,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tcpdump-arp-crash.pcap",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tcpdump-ppp-crash.pcap",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unrtf-arbitrary-read.rtf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unzip-t-mem-corruption.zip",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 344,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "vuln_samples",
+    "package": "aflplusplus",
+    "path": "aflplusplus/2.68c-1/docs/vuln_samples",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aflplusplus/2.68c-1/",
+        "metric": {
+            "size": 6568
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aflplusplus",
+        "sloc": [
+            [
+                "ansic",
+                76508
+            ],
+            [
+                "cpp",
+                5346
+            ],
+            [
+                "sh",
+                2877
+            ],
+            [
+                "python",
+                1663
+            ],
+            [
+                "makefile",
+                491
+            ],
+            [
+                "java",
+                43
+            ],
+            [
+                "sql",
+                40
+            ],
+            [
+                "xml",
+                3
+            ],
+            [
+                "javascript",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/aflplusplus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.68c-1"
+}
