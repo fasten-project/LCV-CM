@@ -1,0 +1,97 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "connector",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "io",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "localrepo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "locator",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "log",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "spi",
+    "package": "aether",
+    "path": "aether/1.13.1-3/aether-spi/src/main/java/org/sonatype/aether/spi",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aether/1.13.1-3/",
+        "metric": {
+            "size": 5436
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aether",
+        "sloc": [
+            [
+                "java",
+                36385
+            ],
+            [
+                "xml",
+                826
+            ],
+            [
+                "sh",
+                7
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-java/aether.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13.1-3"
+}

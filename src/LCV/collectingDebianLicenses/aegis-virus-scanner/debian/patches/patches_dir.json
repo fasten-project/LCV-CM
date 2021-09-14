@@ -1,0 +1,60 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10Makefile.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aegis-virus-scanner",
+    "path": "aegis-virus-scanner/0.1.1-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 38,
+        "license": "/copyright/license/aegis-virus-scanner/0.1.1-1/",
+        "metric": {
+            "size": 140
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aegis-virus-scanner",
+        "sloc": [
+            [
+                "perl",
+                611
+            ],
+            [
+                "makefile",
+                64
+            ],
+            [
+                "sh",
+                46
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k",
+            "sarge"
+        ]
+    },
+    "type": "directory",
+    "version": "0.1.1-1"
+}

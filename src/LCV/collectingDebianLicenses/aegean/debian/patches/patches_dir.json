@@ -1,0 +1,136 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "2to3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add_hardening",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2890,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "adjust_datapath",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 685,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_m64_on_some_archs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 936,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "follow_links",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "includepaths",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_license",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aegean",
+    "path": "aegean/0.16.0+dfsg-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aegean/0.16.0+dfsg-2/",
+        "metric": {
+            "size": 8444
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aegean",
+        "sloc": [
+            [
+                "ansic",
+                12050
+            ],
+            [
+                "python",
+                465
+            ],
+            [
+                "sh",
+                315
+            ],
+            [
+                "makefile",
+                308
+            ],
+            [
+                "perl",
+                151
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/aegean",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.16.0+dfsg-2"
+}

@@ -1,0 +1,97 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Use-Debian-s-snappy-package.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Use-Debian-s-googletest-package.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Re-add-path-normalization-to-URN-parser.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Add-missing-include.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 164,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aff4",
+    "path": "aff4/0.24.post1-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aff4/0.24.post1-4/",
+        "metric": {
+            "size": 2524
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aff4",
+        "sloc": [
+            [
+                "sh",
+                11655
+            ],
+            [
+                "cpp",
+                5439
+            ],
+            [
+                "python",
+                2834
+            ],
+            [
+                "makefile",
+                91
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/aff4",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.24.post1-4"
+}
