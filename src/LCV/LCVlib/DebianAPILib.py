@@ -162,44 +162,45 @@ def ScanJsonDir(packageName,root,jsonFile):
             #    print('I got a null or empty string value for data in a file')
             dict = json.load(f)
             print(dict)
-            subDict = dict["content"]
-        for item in subDict:
-            if item["type"] == "directory":
-                directory = item["name"]
-                path = root + "/" + directory
-                print("This is the path of a directory found in the :"+ path)
-                print(path)
-                if "//" in path:
-                    path = path.replace("//","/")
-                    print("ModPath:")
-                    print(path)
-                if not os.path.isdir(path):
-                    path = CreateDirectory(root,directory)
-                    path = path.replace("collectingDebianLicenses/"+packageName+"/","")
-                    print (path)
-                    print ("Inside of type directory in ScanJsonDir")
-                    time.sleep(1.2)
-                    RetrieveDirectoryInfoNotRecursive(packageName,path)
-                else:
-                    print("Directory already exist")
-            if item["type"] == "file":
-                fileName = item["name"]
-                path = root+"/"+fileName
-                print("This is the path of a file found in the :"+ path)
-                print(path)
-                if "//" in path:
-                    path = path.replace("//","/")
-                    print("ModPath:")
-                    print(path)
-                if not os.path.isfile(path+".json"):
-                    #print(fileName)
-                    #print(root)
-                    path = path.replace("collectingDebianLicenses/"+packageName+"/","")
-                    print("Path generated inside of ScanJsonDir for FILE type")
-                    print(path)
-                    RetrieveFilesInfo(packageName,path)
-                else:
-                    print("File already exist")
+            if "content" in dict:
+                subDict = dict["content"]
+                for item in subDict:
+                    if item["type"] == "directory":
+                        directory = item["name"]
+                        path = root + "/" + directory
+                        print("This is the path of a directory found in the :"+ path)
+                        print(path)
+                        if "//" in path:
+                            path = path.replace("//","/")
+                            print("ModPath:")
+                            print(path)
+                        if not os.path.isdir(path):
+                            path = CreateDirectory(root,directory)
+                            path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                            print (path)
+                            print ("Inside of type directory in ScanJsonDir")
+                            time.sleep(1.2)
+                            RetrieveDirectoryInfoNotRecursive(packageName,path)
+                        else:
+                            print("Directory already exist")
+                    if item["type"] == "file":
+                        fileName = item["name"]
+                        path = root+"/"+fileName
+                        print("This is the path of a file found in the :"+ path)
+                        print(path)
+                        if "//" in path:
+                            path = path.replace("//","/")
+                            print("ModPath:")
+                            print(path)
+                        if not os.path.isfile(path+".json"):
+                            #print(fileName)
+                            #print(root)
+                            path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                            print("Path generated inside of ScanJsonDir for FILE type")
+                            print(path)
+                            RetrieveFilesInfo(packageName,path)
+                        else:
+                            print("File already exist")
 # currently not used
 def ScanJsonFile(packageName,root,jsonFile):
     print("this is from inside ScanJsonFile")
