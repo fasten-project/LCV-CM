@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "collector",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "label.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "label_view.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metric.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metric_family.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metric_registry.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "telemetry",
+    "package": "actor-framework",
+    "path": "actor-framework/0.18.0~rc1-1/libcaf_core/src/telemetry",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/actor-framework/0.18.0%7Erc1-1/",
+        "metric": {
+            "size": 8800
+        },
+        "pts_link": "https://tracker.debian.org/pkg/actor-framework",
+        "sloc": [
+            [
+                "cpp",
+                77371
+            ],
+            [
+                "sh",
+                509
+            ],
+            [
+                "python",
+                187
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ]
+    },
+    "type": "directory",
+    "version": "0.18.0~rc1-1"
+}

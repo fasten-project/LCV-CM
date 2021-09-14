@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "detail",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 69,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "io",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "policy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "src",
+    "package": "actor-framework",
+    "path": "actor-framework/0.18.0~rc1-1/libcaf_io/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/actor-framework/0.18.0%7Erc1-1/",
+        "metric": {
+            "size": 8800
+        },
+        "pts_link": "https://tracker.debian.org/pkg/actor-framework",
+        "sloc": [
+            [
+                "cpp",
+                77371
+            ],
+            [
+                "sh",
+                509
+            ],
+            [
+                "python",
+                187
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ]
+    },
+    "type": "directory",
+    "version": "0.18.0~rc1-1"
+}

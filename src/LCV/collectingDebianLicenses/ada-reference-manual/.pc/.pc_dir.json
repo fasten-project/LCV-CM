@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "ada-reference-manual",
+    "path": "ada-reference-manual/1:2020.1commit85143dcb-2/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ada-reference-manual/1:2020.1commit85143dcb-2/",
+        "metric": {
+            "size": 19680
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ada-reference-manual",
+        "sloc": [
+            [
+                "ada",
+                29703
+            ],
+            [
+                "makefile",
+                207
+            ],
+            [
+                "python",
+                109
+            ],
+            [
+                "lisp",
+                30
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ada-reference-manual",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2020.1commit85143dcb-2"
+}
