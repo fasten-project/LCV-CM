@@ -44,7 +44,9 @@ print(supported_licenses_OSADL)
 def verifyOSADL_Transposed(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
     verificationList = list()
     keys = ["message","status","inbound","outbound"]
+    keysNotPresent = ["message","status","license"]
     dictOutput = dict.fromkeys(keys, None)
+    dictOutputNotPresent = dict.fromkeys(keysNotPresent, None)
 
     print(InboundLicenses_cleaned)
     print(OutboundLicense)
@@ -117,16 +119,22 @@ def verifyOSADL_Transposed(CSVfilePath, InboundLicenses_cleaned, OutboundLicense
                     dictOutput = dict.fromkeys(keys, None)
             else:
                 output = "The inbound license "+license+" is not present in the Compatibility Matrix"
-                dictOutput['message'] = output
-                dictOutput['status'] = license+" is not present in the Compatibility Matrix"
-                dictOutput['inbound'] = license
-                dictOutput['outbound'] = OutboundLicense
-                verificationList.append(dictOutput)
-                dictOutput = dict.fromkeys(keys, None)
-                verificationList.append(output)
+                dictOutputNotPresent['message'] = output
+                dictOutputNotPresent['status'] = license+" is not present in the Compatibility Matrix"
+                dictOutputNotPresent['license'] = license
+                #dictOutputNotPresent['outbound'] = OutboundLicense
+                verificationList.append(dictOutputNotPresent)
+                dictOutputNotPresent = dict.fromkeys(keysNotPresent, None)
+                #verificationList.append(output)
     else:
         output = "The outbound license "+OutboundLicense+" is not present in the Compatibility Matrix"
-        verificationList.append(output)
+        dictOutputNotPresent['message'] = output
+        dictOutputNotPresent['status'] = OutboundLicense+" is not present in the Compatibility Matrix"
+        dictOutputNotPresent['license'] = OutboundLicense
+        #dictOutputNotPresent['outbound'] = OutboundLicense
+        verificationList.append(dictOutputNotPresent)
+        dictOutputNotPresent = dict.fromkeys(keysNotPresent, None)
+        #verificationList.append(output)
     return verificationList
 
 def verifyFlag(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
