@@ -205,52 +205,37 @@ def ScanJsonFile(packageName,root,jsonFile):
     print("this is from inside ScanJsonFile")
     return
 
-def ScanJsonDirChecksum(packageName,root,jsonFile):
+def ScanJsonDirChecksum(root,packageName,jsonFile):
     fname = root+"/"+jsonFile
-    directory = root.replace("collectingDebianLicenses/"+packageName+"/","")
-    print("Fname is:")
     print(fname)
+    directory = root.replace("collectingDebianLicenses/"+packageName+"/","")
     if "//" in fname:
         fname = fname.replace("//","/")
-        print("ModFname:")
         print(fname)
     if os.path.isfile(fname):
         with open(fname, 'r') as f:
             print("Opening file")
             print(fname)
             dict = json.load(f)
-            print(dict)
-            #subDict = dict["content"]
-            checksum = dict["checksum"]
+            if "checksum" in dict:
+                checksum = dict["checksum"]
+                response = requests.get("https://sources.debian.org/copyright/api/sha256/?checksum="+checksum+"&package="+packageName+"&suite="+debianVersion, timeout=10)
+                print("https://sources.debian.org/copyright/api/sha256/?checksum="+checksum+"&package="+packageName+"&suite="+debianVersion)
+                #time.sleep(1.2)
+                if response.status_code == 200:
+                    print("status code 200")
+                    jsonResponse=response.json()
+                    fname = fname.replace("collectingDebianLicenses","collectingDebianLicensesChecksum")
+                    with open(fname, 'w', encoding='utf-8') as f:
+                        json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
+                    print(jsonResponse)
+                    print("\n\n\n")
 
-        response = requests.get("https://sources.debian.org/copyright/api/sha256/?checksum="+checksum+"&package="+packageName+"&suite="+debianVersion, timeout=10)
-        time.sleep(1.2)
-        if response.status_code == 200:
-            print("status code 200")
-            jsonResponse=response.json()
-            #print(jsonResponse)
-            fname = 'collectingDebianLicensesChecksum/'+packageName+"/"+directory+"/"+jsonFile
-            if "//" in fname:
-                fname = fname.replace("//","/")
-                print("ModFname:")
-                print(fname)
-            # this control is required to scan nested directories
-            #if os.path.isfile(fname):
-            if not os.path.isdir('collectingDebianLicensesChecksum/'+packageName+"/"+directory+"/"):
-                print("creating directory")
-                CreateDirectory("collectingDebianLicensesChecksum",packageName+"/"+directory)
-            with open(fname, 'w', encoding='utf-8') as f:
-                json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
-                #root = 'collectingDebianLicensesChecksum/'+packageName+'/'+directory
-                #jsonFile = fileName+'_dir.json'
-                #print(root)
-                #print(jsonFile)
-            #ScanJsonDirChecksum(packageName,root,jsonFile)
-            return jsonResponse
-        else:
-            jsonResponse = "404"
-            output = jsonResponse+", 404 - page not found"
-            return output
+                    return jsonResponse
+                else:
+                    jsonResponse = "404"
+                    output = jsonResponse+", 404 - page not found"
+                    return output
 
 
 # currently not used

@@ -66,32 +66,39 @@ for i in range(int(startLine),int(endLine)):
     #this loop creates the first layer of files and directories
     for (root,dirs,files) in os.walk(dir, topdown=True):
         for directory in dirs:
+            print(root)
+            print(dirs)
             print(".. looping through directory ..: " +root+"/"+directory)
             rootCheckusm = root.replace("collectingDebianLicenses","collectingDebianLicensesChecksum/")
             if not os.path.isdir(rootCheckusm+"/"+directory):
                 print("creating directory:"+rootCheckusm+"/"+directory)
                 CreateDirectory("",rootCheckusm+"/"+directory)
             for file in os.listdir(root+"/"+directory):
-                if not os.listdir(rootCheckusm+"/"+directory):
-                    print("This is an empty dir")
-                    #RetrieveDirectoryInfo(packageName,root+"/"+directory)
-                else:
-                    for file in os.listdir(root+"/"+directory):
-                        print("Inside "+directory+" there is :"+file)
+                if "_dir.json" in file or "_pkg.json" in file:
+                    print(file+" is not json of a file" )
+                    continue
+                if ".json" in file:
+                    path = dir
+                    pathChecksum = root.replace("collectingDebianLicenses","collectingDebianLicensesChecksum")
+                    pathChecksum = pathChecksum+"/"+directory+"/"+file
+                    print(pathChecksum)
+                    if not os.path.isfile(pathChecksum):
+                        path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                        print("Running ScanJsonDirChecksum upon :"+root+"/"+directory+"/"+file)
+                        ScanJsonDirChecksum(root+"/"+directory,packageName,file)
+                        time.sleep(1.2)
         for file in files:
             print(".. looping through files .. " +file)
             if "_dir.json" in file or "_pkg.json" in file:
                 print("this is not json of a file" )
-                #continue
-            else:
+                continue
+            if ".json" in file:
                 path = dir
-                path = path.replace("collectingDebianLicenses/"+packageName+"/","")
-                """
-                print("inside of files")
-                print("path:")
-                print(path)
-                print("root:")
-                print(root)
-                """
-                ScanJsonDirChecksum(packageName,root+"/",file)
-                time.sleep(1.2)
+                pathChecksum = root.replace("collectingDebianLicenses","collectingDebianLicensesChecksum")
+                pathChecksum = pathChecksum+"/"+directory+"/"+file
+                print(pathChecksum)
+                if not os.path.isfile(pathChecksum):
+                    path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                    print("Running ScanJsonDirChecksum upon :"+root+"/"+directory+"/"+file)
+                    ScanJsonDirChecksum(root+"/"+directory,packageName,file)
+                    time.sleep(1.2)
