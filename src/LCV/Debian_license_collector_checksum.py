@@ -61,21 +61,18 @@ for i in range(int(startLine),int(endLine)):
     if not os.path.isdir(parent_dirChecksum):
         print("creating directory")
         CreateDirectory(parent_dirChecksum,packageName)
-        #RetrievePackageFilesAndDirectoryChecksum(packageName)
-    #parse davfs2_pkg.json
-    #ScanJsonDirChecksum(packageName,dir,packageName+"_pkg.json")
-    #this loop create the first layer of files and directories
+    else:
+        print(parent_dirChecksum+" already exists")
+    #this loop creates the first layer of files and directories
     for (root,dirs,files) in os.walk(dir, topdown=True):
         for directory in dirs:
-            print(".. looping through directory ..: " +root+directory)
-            """
-            if not os.path.isdir(parent_dirChecksum):
-                print("creating directory")
-                currentDirectory=root.replace(dir,"")
-                CreateDirectory(parent_dirChecksum+currentDirectory,packageName)
-            """
+            print(".. looping through directory ..: " +root+"/"+directory)
+            rootCheckusm = root.replace("collectingDebianLicenses","collectingDebianLicensesChecksum/")
+            if not os.path.isdir(rootCheckusm+"/"+directory):
+                print("creating directory:"+rootCheckusm+"/"+directory)
+                CreateDirectory("",rootCheckusm+"/"+directory)
             for file in os.listdir(root+"/"+directory):
-                if not os.listdir(root+"/"+directory):
+                if not os.listdir(rootCheckusm+"/"+directory):
                     print("This is an empty dir")
                     #RetrieveDirectoryInfo(packageName,root+"/"+directory)
                 else:
@@ -89,11 +86,12 @@ for i in range(int(startLine),int(endLine)):
             else:
                 path = dir
                 path = path.replace("collectingDebianLicenses/"+packageName+"/","")
+                """
                 print("inside of files")
                 print("path:")
                 print(path)
                 print("root:")
                 print(root)
-
+                """
                 ScanJsonDirChecksum(packageName,root+"/",file)
                 time.sleep(1.2)
