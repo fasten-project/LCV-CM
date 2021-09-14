@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "nsaccess.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nsnames.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nsparse.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nsutils.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24411,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "namespace",
+    "package": "acpica-unix",
+    "path": "acpica-unix/20200925-5/.pc/0040-Support-DSDT-SSDT-in-a-big-endian-world.patch/source/components/namespace",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acpica-unix/20200925-5/",
+        "metric": {
+            "size": 46232
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acpica-unix",
+        "sloc": [
+            [
+                "ansic",
+                130058
+            ],
+            [
+                "sh",
+                4386
+            ],
+            [
+                "yacc",
+                4272
+            ],
+            [
+                "lex",
+                1329
+            ],
+            [
+                "makefile",
+                1326
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/acpica-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20200925-5"
+}
