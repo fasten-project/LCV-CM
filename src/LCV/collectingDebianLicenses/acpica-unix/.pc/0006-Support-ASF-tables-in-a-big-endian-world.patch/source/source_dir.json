@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "common",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "source",
+    "package": "acpica-unix",
+    "path": "acpica-unix/20200925-5/.pc/0006-Support-ASF-tables-in-a-big-endian-world.patch/source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acpica-unix/20200925-5/",
+        "metric": {
+            "size": 46232
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acpica-unix",
+        "sloc": [
+            [
+                "ansic",
+                130058
+            ],
+            [
+                "sh",
+                4386
+            ],
+            [
+                "yacc",
+                4272
+            ],
+            [
+                "lex",
+                1329
+            ],
+            [
+                "makefile",
+                1326
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/acpica-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20200925-5"
+}

@@ -1,0 +1,751 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Add-in-basic-infrastructure-for-big-endian-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Modify-utility-functions-to-be-endian-agnostic.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7920,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Always-display-table-header-content-in-human-readabl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Re-enable-support-for-big-endian-machines.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-Support-MADT-aka-APIC-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-Support-ASF-tables-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0007-Support-CPEP-tables-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0008-Support-DBG2-table-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10014,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0009-Support-DMAR-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6038,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0010-Support-DRTM-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4172,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0011-Support-EINJ-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0012-Support-ERST-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0013-Support-FADT-aka-FACP-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0014-Support-most-FPDTs-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0015-Support-GTDT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0016-Support-HEST-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2593,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0017-Support-RSDT-RSD-PTR-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0018-Support-XSDT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1412,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0019-Support-SRAT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0020-Support-SLIT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0021-Support-MSCT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0022-Support-MPST-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0023-Support-NFIT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7820,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0024-Support-SDEV-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0025-Support-HMAT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0026-Support-PDTT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0027-Support-PPTT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4097,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0028-Support-PCCT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1982,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0029-Support-WDAT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1584,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0030-Support-TCPA-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0031-Support-STAO-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0032-Support-SLIC-and-MSDM-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1025,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0033-Support-MCFG-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1985,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0034-Support-LPIT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0035-Support-PMTT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0036-Support-IORT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0037-Support-IVRS-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3390,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0038-Support-TPM2-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0039-Add-partial-big-endian-support-for-WPBT-tables.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0040-Support-DSDT-SSDT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 129007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0041-Support-MTMR-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0042-Support-VRTC-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0043-Support-S3PT-in-a-big-endian-world.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0044-Correct-an-endian-ness-problem-when-converting-ASL-t.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1554,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0045-Correct-a-couple-of-endianness-issues-previously-uns.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OPT_LDFLAGS.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add-testing.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm7hl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "armv7-str-fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 880,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cve-2017-13693.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cve-2017-13694.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cve-2017-13695.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbtest.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "f23-harden.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "facp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1460,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_ftbfs_debian-hurd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_ftbfs_debian-kfreebsd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_ftbfs_mips64el.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "int-format.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12881,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "str-trunc-warn.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ull-32bit.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 662,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unaligned.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "acpica-unix",
+    "path": "acpica-unix/20200925-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acpica-unix/20200925-5/",
+        "metric": {
+            "size": 46232
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acpica-unix",
+        "sloc": [
+            [
+                "ansic",
+                130058
+            ],
+            [
+                "sh",
+                4386
+            ],
+            [
+                "yacc",
+                4272
+            ],
+            [
+                "lex",
+                1329
+            ],
+            [
+                "makefile",
+                1326
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/acpica-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20200925-5"
+}

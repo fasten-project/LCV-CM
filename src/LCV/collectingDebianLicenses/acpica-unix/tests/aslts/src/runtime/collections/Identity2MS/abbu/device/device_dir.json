@@ -1,0 +1,135 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Info.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "device.asl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "device_abbu.asl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "device_aslts.asl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ns_dv00.asl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12793,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ns_dv10.asl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19414,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ns_dv20.asl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ns_dv30.asl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "device",
+    "package": "acpica-unix",
+    "path": "acpica-unix/20200925-5/tests/aslts/src/runtime/collections/Identity2MS/abbu/device",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/acpica-unix/20200925-5/",
+        "metric": {
+            "size": 46232
+        },
+        "pts_link": "https://tracker.debian.org/pkg/acpica-unix",
+        "sloc": [
+            [
+                "ansic",
+                130058
+            ],
+            [
+                "sh",
+                4386
+            ],
+            [
+                "yacc",
+                4272
+            ],
+            [
+                "lex",
+                1329
+            ],
+            [
+                "makefile",
+                1326
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/acpica-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20200925-5"
+}
