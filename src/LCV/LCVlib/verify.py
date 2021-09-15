@@ -119,8 +119,8 @@ def verifyOSADL_Transposed(CSVfilePath, InboundLicenses_cleaned, OutboundLicense
                     dictOutput = dict.fromkeys(keys, None)
             else:
                 output = "The inbound license "+license+" is not present in the Compatibility Matrix"
-                dictOutputNotPresent['message'] = output
-                dictOutputNotPresent['status'] = license+" is not present in the Compatibility Matrix"
+                dictOutputNotPresent['message'] = license+" is not present in the Compatibility Matrix"
+                dictOutputNotPresent['status'] = "unknown"
                 dictOutputNotPresent['license'] = license
                 #dictOutputNotPresent['outbound'] = OutboundLicense
                 verificationList.append(dictOutputNotPresent)
