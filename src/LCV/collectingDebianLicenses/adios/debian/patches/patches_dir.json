@@ -1,0 +1,233 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debian_paths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deprecate_numpy17.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exclude_cmake.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "missing-header.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mpi4py_fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mpi_in_place.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1891,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netcdf-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netcdf-order.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 584,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "numpy_paths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pkgconfig.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "py3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16965,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21591,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python_wrapper.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unaligned-access.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "adios",
+    "path": "adios/1.13.1-28.2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adios/1.13.1-28.2/",
+        "metric": {
+            "size": 23688
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adios",
+        "sloc": [
+            [
+                "ansic",
+                133236
+            ],
+            [
+                "f90",
+                8791
+            ],
+            [
+                "sh",
+                7783
+            ],
+            [
+                "python",
+                7648
+            ],
+            [
+                "xml",
+                3793
+            ],
+            [
+                "makefile",
+                2994
+            ],
+            [
+                "cpp",
+                2340
+            ],
+            [
+                "java",
+                626
+            ],
+            [
+                "sed",
+                16
+            ],
+            [
+                "perl",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org:/science-team/adios.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13.1-28.2"
+}

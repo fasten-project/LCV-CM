@@ -1,0 +1,70 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "vim",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "xxd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "adlint",
+    "package": "adlint",
+    "path": "adlint/3.2.14-2/share/sample/vim-7.3/adlint",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adlint/3.2.14-2/",
+        "metric": {
+            "size": 15152
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adlint",
+        "sloc": [
+            [
+                "ruby",
+                59918
+            ],
+            [
+                "ansic",
+                3843
+            ],
+            [
+                "yacc",
+                2187
+            ],
+            [
+                "makefile",
+                134
+            ],
+            [
+                "sh",
+                1
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb?p=pkg-ruby-extras/adlint.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.14-2"
+}

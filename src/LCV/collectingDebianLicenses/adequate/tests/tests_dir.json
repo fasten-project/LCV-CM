@@ -1,0 +1,103 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "coverage.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testpkg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "uml-guest-init",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "adequate",
+    "path": "adequate/0.15.6/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adequate/0.15.6/",
+        "metric": {
+            "size": 344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adequate",
+        "sloc": [
+            [
+                "perl",
+                1129
+            ],
+            [
+                "python",
+                351
+            ],
+            [
+                "makefile",
+                113
+            ],
+            [
+                "sh",
+                89
+            ],
+            [
+                "ansic",
+                29
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/adequate",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.15.6"
+}

@@ -1,0 +1,96 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "adduser.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "adduser.conf.5",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4892,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deluser.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deluser.conf.5",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "po4a",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "doc",
+    "package": "adduser",
+    "path": "adduser/3.118/doc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adduser/3.118/",
+        "metric": {
+            "size": 1968
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adduser",
+        "sloc": [
+            [
+                "perl",
+                2290
+            ],
+            [
+                "sh",
+                124
+            ],
+            [
+                "makefile",
+                57
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/adduser",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.118"
+}
