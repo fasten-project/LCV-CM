@@ -1,0 +1,55 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "airport2config",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "101-a2c_fix_typo.patch",
+    "package": "airport-utils",
+    "path": "airport-utils/2-8/.pc/101-a2c_fix_typo.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/airport-utils/2-8/",
+        "metric": {
+            "size": 4048
+        },
+        "pts_link": "https://tracker.debian.org/pkg/airport-utils",
+        "sloc": [
+            [
+                "java",
+                30844
+            ],
+            [
+                "xml",
+                571
+            ],
+            [
+                "sh",
+                563
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/airport-utils",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2-8"
+}

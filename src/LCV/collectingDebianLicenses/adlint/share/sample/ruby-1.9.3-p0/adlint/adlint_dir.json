@@ -1,0 +1,565 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "GNUmakefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "adlint_traits.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "core",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "enc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "enc-trans",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-bigdecimal",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-continuation",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-coverage",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-curses",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-date",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-dbm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-digest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-digest-bubblebabble",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-digest-md5",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-digest-rmd160",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-digest-sha1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-digest-sha2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-dl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-dl-callback",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-etc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-fcntl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-fiber",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-fiddle",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-gdbm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-iconv",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-io-console",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-io-nonblock",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-io-wait",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-json-generator",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-json-parser",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-mathn-complex",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-mathn-rational",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-nkf",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-openssl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-pathname",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-psych",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-pty",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-racc-cparse",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-readline",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-ripper",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-sdbm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-socket",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-stringio",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-strscan",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-syck",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-syslog",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ext-zlib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "adlint",
+    "package": "adlint",
+    "path": "adlint/3.2.14-2/share/sample/ruby-1.9.3-p0/adlint",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adlint/3.2.14-2/",
+        "metric": {
+            "size": 15152
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adlint",
+        "sloc": [
+            [
+                "ruby",
+                59918
+            ],
+            [
+                "ansic",
+                3843
+            ],
+            [
+                "yacc",
+                2187
+            ],
+            [
+                "makefile",
+                134
+            ],
+            [
+                "sh",
+                1
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb?p=pkg-ruby-extras/adlint.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.14-2"
+}

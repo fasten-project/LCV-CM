@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "sun",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "com",
+    "package": "akuma",
+    "path": "akuma/1.10-3/.pc/01-java9-compatibility.patch/src/main/java/com",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/akuma/1.10-3/",
+        "metric": {
+            "size": 180
+        },
+        "pts_link": "https://tracker.debian.org/pkg/akuma",
+        "sloc": [
+            [
+                "java",
+                655
+            ],
+            [
+                "xml",
+                99
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/akuma",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.10-3"
+}

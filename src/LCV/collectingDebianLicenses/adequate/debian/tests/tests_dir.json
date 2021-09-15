@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 269,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "full-test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smoke-test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "adequate",
+    "path": "adequate/0.15.6/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adequate/0.15.6/",
+        "metric": {
+            "size": 344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adequate",
+        "sloc": [
+            [
+                "perl",
+                1129
+            ],
+            [
+                "python",
+                351
+            ],
+            [
+                "makefile",
+                113
+            ],
+            [
+                "sh",
+                89
+            ],
+            [
+                "ansic",
+                29
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/adequate",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.15.6"
+}

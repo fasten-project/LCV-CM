@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "server",
+    "package": "akonadi4",
+    "path": "akonadi4/1.13.0-12/.pc/upstream_dont_leak_old_external_payload_files.patch/server",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/akonadi4/1.13.0-12/",
+        "metric": {
+            "size": 3472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/akonadi4",
+        "sloc": [
+            [
+                "cpp",
+                31519
+            ],
+            [
+                "xml",
+                1225
+            ],
+            [
+                "php",
+                521
+            ],
+            [
+                "sh",
+                69
+            ],
+            [
+                "makefile",
+                16
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/kde/akonadi/tree/akonadi4",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13.0-12"
+}

@@ -1,0 +1,141 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "config-mysql-fs.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config-postgresql-fs.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config-sqlite-db.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xdgconfig",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "xdgconfig-mysql.fs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "xdgconfig-postgresql.fs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "xdgconfig-sqlite.db",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "xdglocal",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "unittestenv",
+    "package": "akonadi-search",
+    "path": "akonadi-search/4:21.08.1-1/agent/autotests/unittestenv",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/akonadi-search/4:21.08.1-1/",
+        "metric": {
+            "size": 1356
+        },
+        "pts_link": "https://tracker.debian.org/pkg/akonadi-search",
+        "sloc": [
+            [
+                "cpp",
+                9533
+            ],
+            [
+                "xml",
+                73
+            ],
+            [
+                "makefile",
+                18
+            ],
+            [
+                "sh",
+                1
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/kde/akonadi-search",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4:21.08.1-1"
+}

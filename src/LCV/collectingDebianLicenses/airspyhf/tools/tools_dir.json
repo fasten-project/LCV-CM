@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "52-airspyhf.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tools",
+    "package": "airspyhf",
+    "path": "airspyhf/1.6.8-3/tools",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/airspyhf/1.6.8-3/",
+        "metric": {
+            "size": 328
+        },
+        "pts_link": "https://tracker.debian.org/pkg/airspyhf",
+        "sloc": [
+            [
+                "ansic",
+                2819
+            ],
+            [
+                "xml",
+                18
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-hamradio-team/airspyhf",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.8-3"
+}

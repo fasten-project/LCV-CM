@@ -1,0 +1,213 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "adequate-test-pnc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lib.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libadequate.pc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prog.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symsize.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-non-obsolete-conffile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-obsolete-conffile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_no_pyc.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_pyc.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_pyshared_no_pyc.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "true",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "undef.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verscript-global",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verscript-local",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "testpkg",
+    "package": "adequate",
+    "path": "adequate/0.15.6/tests/testpkg",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/adequate/0.15.6/",
+        "metric": {
+            "size": 344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/adequate",
+        "sloc": [
+            [
+                "perl",
+                1129
+            ],
+            [
+                "python",
+                351
+            ],
+            [
+                "makefile",
+                113
+            ],
+            [
+                "sh",
+                89
+            ],
+            [
+                "ansic",
+                29
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/adequate",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.15.6"
+}

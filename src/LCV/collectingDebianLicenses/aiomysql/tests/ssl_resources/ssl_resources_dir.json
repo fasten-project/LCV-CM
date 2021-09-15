@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 950,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 124,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tls.cnf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 116,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ssl_resources",
+    "package": "aiomysql",
+    "path": "aiomysql/0.0.20-2/tests/ssl_resources",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aiomysql/0.0.20-2/",
+        "metric": {
+            "size": 868
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aiomysql",
+        "sloc": [
+            [
+                "python",
+                6713
+            ],
+            [
+                "makefile",
+                202
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/modules/aiomysql",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.20-2"
+}
