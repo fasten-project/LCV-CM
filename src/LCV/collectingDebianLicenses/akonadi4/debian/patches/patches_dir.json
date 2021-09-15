@@ -1,0 +1,211 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "postgresql-data-checksums.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 724,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postgresql9.4.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-MOVEcomplete.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2998,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-do_not_crash_when_setmntent_returns_NULL.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-fix_buffer_overflow_in_AKTEST_FAKESERVER_MAIN.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-fix_typo_in_if_condition.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-prevent-QTimer-negative-interval.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 983,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-use-QAtomicInt.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream_dont_call_insert_from_Q_ASSERT.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1023,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream_dont_leak_old_external_payload_files.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream_opt-0002-intern-entity-strings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8501,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream_opt-0003-QMutexLocker.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4009,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream_opt-0004-one-hash-lookup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1453,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream_opt-0005-optimize-queries.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "akonadi4",
+    "path": "akonadi4/1.13.0-12/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/akonadi4/1.13.0-12/",
+        "metric": {
+            "size": 3472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/akonadi4",
+        "sloc": [
+            [
+                "cpp",
+                31519
+            ],
+            [
+                "xml",
+                1225
+            ],
+            [
+                "php",
+                521
+            ],
+            [
+                "sh",
+                69
+            ],
+            [
+                "makefile",
+                16
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/kde/akonadi/tree/akonadi4",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13.0-12"
+}
