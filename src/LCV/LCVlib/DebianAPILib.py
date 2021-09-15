@@ -41,8 +41,11 @@ def GetPackageName(line_number):
 
 def RetrievePackageFilesAndDirectory(packageName):
     print("https://sources.debian.org/api/src/"+packageName+"/latest/")
-    response = requests.get("https://sources.debian.org/api/src/"+packageName+"/latest/", timeout=10)
-    time.sleep(1.2)
+    try:
+        response = requests.get("https://sources.debian.org/api/src/"+packageName+"/latest/", timeout=10)
+        time.sleep(1.2)
+    except requests.exceptions.ReadTimeout:
+        print ("Timeout occurred")
     if response.status_code == 200:
         jsonResponse=response.json()
         with open('collectingDebianLicenses/'+packageName+'/'+packageName+'_pkg.json', 'w', encoding='utf-8') as f:
@@ -72,8 +75,11 @@ def RetrieveFilesInfo(packageName,path):
     path = packageName+"/"+packageVersion+"/"+path
     #print(path)
     print("https://sources.debian.org/api/src/"+path+"/")
-    response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=10)
-    time.sleep(1.2)
+    try:
+        response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=10)
+        time.sleep(1.2)
+    except requests.exceptions.ReadTimeout:
+        print ("Timeout occurred")
     if response.status_code == 200:
         jsonResponse=response.json()
         #print(jsonResponse)
@@ -92,8 +98,12 @@ def RetrieveDirectoryInfo(packageName,path):
     directory = path
     path = packageName+"/"+packageVersion+"/"+path
     print("https://sources.debian.org/api/src/"+path+"/")
-    response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=10)
-    time.sleep(1.2)
+    try:
+        response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=10)
+        time.sleep(1.2)
+    except requests.exceptions.ReadTimeout:
+        print ("Timeout occurred")
+
     if response.status_code == 200:
         print("status code 200")
         jsonResponse=response.json()
@@ -122,8 +132,11 @@ def RetrieveDirectoryInfoNotRecursive(packageName,path):
     #print(fileName)
     path = packageName+"/"+packageVersion+"/"+path
     print("https://sources.debian.org/api/src/"+path+"/")
-    response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=10)
-    time.sleep(1.2)
+    try:
+        response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=10)
+        time.sleep(1.2)
+    except requests.exceptions.ReadTimeout:
+        print ("Timeout occurred")
     if response.status_code == 200:
         print("status code 200")
         jsonResponse=response.json()
@@ -220,8 +233,11 @@ def ScanJsonDirChecksum(root,packageName,jsonFile):
             dict = json.load(f)
             if "checksum" in dict:
                 checksum = dict["checksum"]
-                response = requests.get("https://sources.debian.org/copyright/api/sha256/?checksum="+checksum+"&package="+packageName+"&suite="+debianVersion, timeout=10)
-                print("https://sources.debian.org/copyright/api/sha256/?checksum="+checksum+"&package="+packageName+"&suite="+debianVersion)
+                try:
+                    response = requests.get("https://sources.debian.org/copyright/api/sha256/?checksum="+checksum+"&package="+packageName+"&suite="+debianVersion, timeout=10)
+                    print("https://sources.debian.org/copyright/api/sha256/?checksum="+checksum+"&package="+packageName+"&suite="+debianVersion)
+                except requests.exceptions.ReadTimeout:
+                    print ("Timeout occurred")
                 #time.sleep(1.2)
                 if response.status_code == 200:
                     print("status code 200")
