@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6529,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arden-analyze",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arden-create",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10287,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arden-filter",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "core",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "doc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "2to3_new.patch",
+    "package": "arden",
+    "path": "arden/1.0-5/.pc/2to3_new.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arden/1.0-5/",
+        "metric": {
+            "size": 2004
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arden",
+        "sloc": [
+            [
+                "python",
+                1547
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/arden",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0-5"
+}

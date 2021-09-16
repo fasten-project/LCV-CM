@@ -1,0 +1,235 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2518,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gbp.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gir1.2-amtk-5.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libamtk-5-0.docs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libamtk-5-0.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libamtk-5-0.symbols",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libamtk-5-common.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libamtk-5-dev.doc-base",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 269,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libamtk-5-dev.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libamtk-5-dev.links",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "upstream",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "amtk",
+    "path": "amtk/5.2.0-1/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amtk/5.2.0-1/",
+        "metric": {
+            "size": 3416
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amtk",
+        "sloc": [
+            [
+                "sh",
+                4798
+            ],
+            [
+                "ansic",
+                2958
+            ],
+            [
+                "makefile",
+                229
+            ],
+            [
+                "python",
+                192
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/gnome-team/amtk",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.2.0-1"
+}

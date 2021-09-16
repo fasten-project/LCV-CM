@@ -1,0 +1,223 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build_darwin_android.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_darwin_android_core.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_darwin_ios.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2973,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_darwin_ios_core.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_linux.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_linux_core.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 950,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_linux_core_internal.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_linux_getopts.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_linux_package_cpp.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_openwrt.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5989,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_windows.bat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1988,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_windows_android_core.bat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_windows_android_samples.cmd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10602,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_windows_core.bat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sconscript_windows_minimal.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3941,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "build_scripts",
+    "package": "alljoyn-services-1604",
+    "path": "alljoyn-services-1604/16.04-5/build_scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alljoyn-services-1604/16.04-5/",
+        "metric": {
+            "size": 7624
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alljoyn-services-1604",
+        "sloc": [
+            [
+                "cpp",
+                20701
+            ],
+            [
+                "java",
+                18611
+            ],
+            [
+                "xml",
+                3661
+            ],
+            [
+                "objc",
+                3170
+            ],
+            [
+                "python",
+                2375
+            ],
+            [
+                "ansic",
+                903
+            ],
+            [
+                "sh",
+                492
+            ],
+            [
+                "makefile",
+                76
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-iot-team/alljoyn/alljoyn-services-1604.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "16.04-5"
+}

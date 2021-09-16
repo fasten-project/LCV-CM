@@ -1,0 +1,157 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "add-linux-pthread.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc7.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 922,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hardening.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-bsymbolic.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-alljoyn_config.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "soname.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spelling.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3267,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-global-build_core.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2971,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alljoyn-services-1604",
+    "path": "alljoyn-services-1604/16.04-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alljoyn-services-1604/16.04-5/",
+        "metric": {
+            "size": 7624
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alljoyn-services-1604",
+        "sloc": [
+            [
+                "cpp",
+                20701
+            ],
+            [
+                "java",
+                18611
+            ],
+            [
+                "xml",
+                3661
+            ],
+            [
+                "objc",
+                3170
+            ],
+            [
+                "python",
+                2375
+            ],
+            [
+                "ansic",
+                903
+            ],
+            [
+                "sh",
+                492
+            ],
+            [
+                "makefile",
+                76
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-iot-team/alljoyn/alljoyn-services-1604.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "16.04-5"
+}

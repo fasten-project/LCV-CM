@@ -1,0 +1,234 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Do-not-run-windows-and-mac-cleaning-tasks.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Don-t-call-assemble-hardware-target.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Don-t-download-any-external-example-files.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Don-t-follow-symlinked-jar-files.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Don-t-run-extra-options-on-ARM.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Don-t-use-functions-from-jtouchbar.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Ignore-Apple-specific-check-from-apple-lib.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Install-appdata.xml-into-propriate-folder.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Prevent-more-downloads-while-package-build.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Remove-MacOS-think_different-handling.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Remove-copying-of-bundled-files.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Use-arduino-builder-from-system.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Use-old-rsyntaxtextarea.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Use-packaged-libastyle.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Use-system-library-astylej.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Use-system-library-listserialsj.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "debian-hacks",
+    "package": "arduino",
+    "path": "arduino/2:1.8.16+dfsg1-1/.pc/debian-hacks",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arduino/2:1.8.16+dfsg1-1/",
+        "metric": {
+            "size": 23964
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arduino",
+        "sloc": [
+            [
+                "java",
+                26564
+            ],
+            [
+                "python",
+                8872
+            ],
+            [
+                "cpp",
+                3573
+            ],
+            [
+                "xml",
+                1265
+            ],
+            [
+                "sh",
+                551
+            ],
+            [
+                "perl",
+                90
+            ],
+            [
+                "ansic",
+                89
+            ],
+            [
+                "makefile",
+                52
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/electronics-team/arduino/arduino",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:1.8.16+dfsg1-1"
+}

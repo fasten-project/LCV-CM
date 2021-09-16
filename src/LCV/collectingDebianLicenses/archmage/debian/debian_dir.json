@@ -1,0 +1,172 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "archmage.lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "archmage.maintscript",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "archmage.postinst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8883,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1148,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gbp.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manpages",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "upstream",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "archmage",
+    "path": "archmage/1:0.4.2.1-1/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/archmage/1:0.4.2.1-1/",
+        "metric": {
+            "size": 440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/archmage",
+        "sloc": [
+            [
+                "python",
+                732
+            ],
+            [
+                "sh",
+                13
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/applications/archmage",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:0.4.2.1-1"
+}

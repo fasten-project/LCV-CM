@@ -1,0 +1,61 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "010_fix-typos-in-manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "archmbox",
+    "path": "archmbox/4.10.0-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/archmbox/4.10.0-5/",
+        "metric": {
+            "size": 404
+        },
+        "pts_link": "https://tracker.debian.org/pkg/archmbox",
+        "sloc": [
+            [
+                "perl",
+                986
+            ],
+            [
+                "sh",
+                400
+            ],
+            [
+                "makefile",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/archmbox",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.10.0-5"
+}

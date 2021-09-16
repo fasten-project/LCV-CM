@@ -1,0 +1,123 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "alsa-base.maintscript",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 810,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "alsa-base.postrm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 181876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "debian",
+    "package": "alsa-base",
+    "path": "alsa-base/1.0.27+1/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alsa-base/1.0.27+1/",
+        "metric": {
+            "size": 212
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alsa-base",
+        "sloc": [
+            [
+                "sh",
+                5
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/viewvc/pkg-alsa/trunk/alsa-base/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.0.27+1"
+}

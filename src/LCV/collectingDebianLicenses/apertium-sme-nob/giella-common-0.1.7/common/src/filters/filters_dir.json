@@ -1,0 +1,809 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "block-mwe-compounds.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extract-OLang_ENG-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extract-OLang_FIN-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extract-OLang_NNO-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extract-OLang_NOB-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extract-OLang_SME-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extract-OLang_SWE-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extract-Sem_Plc-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-optional-NGminip-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-optional-adv_comp-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-optional-homonymy-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-optional-hyph-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-optional-transitivity-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 211,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-optional-v1-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-optional-variant-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-ABBR-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 120,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-ACR-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-CLB-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-MT-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-MinusSpell-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-NA-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-NG-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-NGminip-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-OLang_ENG-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-OLang_FIN-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-OLang_NNO-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-OLang_NOB-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-OLang_SME-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-OLang_SWE-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-OLang_UND-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-Orth_IPA-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-Orth_Strd-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-PUNCT-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-Prop-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-RCmpnd-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-UseCirc-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 163,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-Use_GC-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-Use_GC-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-Use_PMatch-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 798,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-Use_PMatch-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 871,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-Use_minusGC-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-Use_minusGC-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-Use_minus_PMatch-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-Use_minus_PMatch-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-adv_comp-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-homonymy-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-hyphenated-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-hyphenation-marks.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-infl_boundary-marks.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-infl_deriv-borders.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-mwe-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-mwe-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-non_hyphenated-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-nonfirst_infl_boundary-marks.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-number-string-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-orthography-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-transitivity-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-usage-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-usage_except_NGminip-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-usage_except_speller-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-use_marg-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-variant-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-variant-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-word-boundary.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 262,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reorder-subpos-tags.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "replace-hyphenation-chars.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tag-lowercase_error-strings.regex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "filters",
+    "package": "apertium-sme-nob",
+    "path": "apertium-sme-nob/0.6.1+ds.1-2/giella-common-0.1.7/common/src/filters",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apertium-sme-nob/0.6.1+ds.1-2/",
+        "metric": {
+            "size": 146080
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apertium-sme-nob",
+        "sloc": [
+            [
+                "xml",
+                10220
+            ],
+            [
+                "python",
+                9562
+            ],
+            [
+                "sh",
+                6721
+            ],
+            [
+                "perl",
+                4076
+            ],
+            [
+                "makefile",
+                2364
+            ],
+            [
+                "sed",
+                210
+            ],
+            [
+                "awk",
+                141
+            ],
+            [
+                "csh",
+                48
+            ],
+            [
+                "exp",
+                13
+            ],
+            [
+                "javascript",
+                11
+            ],
+            [
+                "lisp",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apertium-sme-nob",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6.1+ds.1-2"
+}

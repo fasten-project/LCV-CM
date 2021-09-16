@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pytest.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "runtest.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "aioprocessing",
+    "path": "aioprocessing/2.0.0-1/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aioprocessing/2.0.0-1/",
+        "metric": {
+            "size": 252
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aioprocessing",
+        "sloc": [
+            [
+                "python",
+                1716
+            ],
+            [
+                "sh",
+                13
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/davesteele/aioprocessing",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.0-1"
+}

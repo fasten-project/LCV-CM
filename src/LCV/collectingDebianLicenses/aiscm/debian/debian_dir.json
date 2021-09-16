@@ -1,0 +1,154 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aiscm.doc-base",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aiscm.lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4623,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1012,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "upstream",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "aiscm",
+    "path": "aiscm/0.22.1-1/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aiscm/0.22.1-1/",
+        "metric": {
+            "size": 7092
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aiscm",
+        "sloc": [
+            [
+                "lisp",
+                7406
+            ],
+            [
+                "sh",
+                4184
+            ],
+            [
+                "ansic",
+                3619
+            ],
+            [
+                "makefile",
+                265
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/wedesoft/aiscm",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.22.1-1"
+}

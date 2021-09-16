@@ -1,0 +1,270 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_bin_dir.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "02_initd.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "03_fix_man.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "04_use-default-python.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "05_ssh-port.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "06_fix-IOError.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "07_use_psyco.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "10_hostname-login.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "15_add-configure-file.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "20_bugfixes-tweaks-by-blt.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "25_CVE-2009-1629.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "30_utf8-support.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "35_fix-sarissa.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "40_more-ctrl-catches.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "90_token_based_access_control.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "91_terminate_on_idle.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "93_useless-sys.path-call_LP795159.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "ajaxterm",
+    "path": "ajaxterm/0.10-13/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ajaxterm/0.10-13/",
+        "metric": {
+            "size": 844
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ajaxterm",
+        "sloc": [
+            [
+                "python",
+                10425
+            ],
+            [
+                "sh",
+                96
+            ],
+            [
+                "makefile",
+                51
+            ]
+        ],
+        "suites": [
+            "buster",
+            "stretch"
+        ],
+        "vcs_browser": "http://git.kirya.net/?p=debian/ajaxterm.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.10-13"
+}

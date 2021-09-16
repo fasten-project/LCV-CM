@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "content",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "locale",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "skin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "chrome",
+    "package": "allow-html-temp",
+    "path": "allow-html-temp/6.3.3-1~exp1/chrome",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/allow-html-temp/6.3.3-1%7Eexp1/",
+        "metric": {
+            "size": 692
+        },
+        "pts_link": "https://tracker.debian.org/pkg/allow-html-temp",
+        "sloc": [
+            [
+                "javascript",
+                1811
+            ],
+            [
+                "makefile",
+                26
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/webext-team/allow-html-temp",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "6.3.3-1~exp1"
+}

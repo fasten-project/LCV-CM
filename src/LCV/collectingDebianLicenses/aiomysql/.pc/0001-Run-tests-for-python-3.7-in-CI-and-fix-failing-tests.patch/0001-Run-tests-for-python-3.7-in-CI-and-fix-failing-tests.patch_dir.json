@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".travis.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aiomysql",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0001-Run-tests-for-python-3.7-in-CI-and-fix-failing-tests.patch",
+    "package": "aiomysql",
+    "path": "aiomysql/0.0.20-2/.pc/0001-Run-tests-for-python-3.7-in-CI-and-fix-failing-tests.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aiomysql/0.0.20-2/",
+        "metric": {
+            "size": 868
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aiomysql",
+        "sloc": [
+            [
+                "python",
+                6713
+            ],
+            [
+                "makefile",
+                202
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/modules/aiomysql",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.20-2"
+}

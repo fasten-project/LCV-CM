@@ -1,0 +1,1590 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "HiAndLowPass.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12528,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "__convolv.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "__fluidsynth1.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "__plugin_modulation.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "__readable.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_add_filters.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1356,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_amp1.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_amp2.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_amp3.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_amp4.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_amp_coefficient_ratio.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_biquad_filter.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7656,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_calc_dsp_statistics.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 761,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_channelstrip.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3883,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_cron.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_dialog_test.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_dsp_plugin_communication.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_dump_latency.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_dump_midiregion.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 646,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_dump_playlists.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_export_plugins_on_save.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_export_tracks.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_fan_out_instrument.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_find_nonzero_sample.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_fir.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_hook_test.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_insert_region_gaps.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_midi_lfo.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_midi_rec_start.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_midi_rewrite.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1914,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_midifilter.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 967,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_midigenerator.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_midigenerator2.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_new_playlist.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_noisegen.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2627,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_osc_hook_example.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1360,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_plot_graph.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 807,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_pong.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7075,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_rawmidi.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_region_transients.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_remember_file.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_rewind.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_rgh_midi_track_trick.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2698,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_route_template_generic_audio.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_route_template_generic_midi.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_session_load_hook.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1120,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_session_test.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_smash.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_sort_tracks_by_name.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_spike_synth.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_split_benchmark.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_stereo_to_mono.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_system_exec.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_tempo_map_dump.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_toggle_monitor_section.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 255,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_transparent_regions.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_vamp_example.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_vamp_note_example.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_vamp_onset_example.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_vamp_tempomap_example.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2864,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_varispeed_callback.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 776,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_vca_slave_assign.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "a-noise.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "a_mute.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "a_slow_mute.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1933,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ab_switch.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "access_action.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1084,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "addscopes.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amp5.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avldrums_midimap.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bounce_replace.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3069,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bypass_all_plugins.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collapse_playlists.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "create_drum_tracks.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "delete_xrun_markers.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "export_mp4chaps.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "faders_to_trims.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1843,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jump_to_marker.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1986,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lfo_automation.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8047,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "list_plugins.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ltc_reader.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metering_point.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1620,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "midi_cc_to_automation.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "midi_remap.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2995,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "midimon.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6474,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mixer_screenshot.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mixer_settings_recall.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mixer_settings_store.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10698,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mute_all_tracks.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "normalize_all_tracks.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "notch_bank.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "periodic_backup.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "post_export_save_hook.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 899,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preare_record_example.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2470,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_unknown_procs.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1504,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reset_mixer.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rubberband_swing.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5941,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_chanmap.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1191,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_fader_automation.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1632,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_foreach_track.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_group_color.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_import_files.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_plugin_automation.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_plugin_reorder.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_pluginutils.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_portengine.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_region_gain.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_region_gain2.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_replaceplugin.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_selection.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_set_region_fades.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_showhide_track.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 911,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_thin_automation.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_timecode.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_track_props.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_vamp_plugin_index.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "s_whoami.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scl_to_mts.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scope.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7223,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "select_every_2nd_region.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1843,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "send_to_bus.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "session_template_advanced.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "session_template_record.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set_automation_mode.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "singen.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spectrogram.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10811,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "split_all_markers.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3747,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stop_at_marker.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "store_recall_mixer.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17372,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "synth1.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tomsloop.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11875,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "track_organizer.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3644,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tx_raw_midi_from_file.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4259,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vamp_audio_to_midi.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "voice_activate.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1703,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wscript",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "x-fade.lua",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "ardour",
+    "path": "ardour/1:6.5.0+ds0-1/share/scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ardour/1:6.5.0+ds0-1/",
+        "metric": {
+            "size": 102700
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ardour",
+        "sloc": [
+            [
+                "cpp",
+                569181
+            ],
+            [
+                "xml",
+                123660
+            ],
+            [
+                "ansic",
+                81199
+            ],
+            [
+                "python",
+                34176
+            ],
+            [
+                "javascript",
+                15330
+            ],
+            [
+                "sh",
+                4679
+            ],
+            [
+                "asm",
+                1347
+            ],
+            [
+                "perl",
+                889
+            ],
+            [
+                "php",
+                772
+            ],
+            [
+                "makefile",
+                253
+            ],
+            [
+                "objc",
+                28
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/ardour",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:6.5.0+ds0-1"
+}

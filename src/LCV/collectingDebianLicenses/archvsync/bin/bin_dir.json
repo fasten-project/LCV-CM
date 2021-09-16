@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "common",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ftpsync",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25331,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ftpsync-cron",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1485,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include-git",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include-install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include-tar",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1983,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rsync-ssl-tunnel",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "runmirrors",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9936,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bin",
+    "package": "archvsync",
+    "path": "archvsync/20180513+nmu1/bin",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/archvsync/20180513+nmu1/",
+        "metric": {
+            "size": 236
+        },
+        "pts_link": "https://tracker.debian.org/pkg/archvsync",
+        "sloc": [
+            [
+                "sh",
+                883
+            ],
+            [
+                "makefile",
+                80
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/mirror/archvsync.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20180513+nmu1"
+}

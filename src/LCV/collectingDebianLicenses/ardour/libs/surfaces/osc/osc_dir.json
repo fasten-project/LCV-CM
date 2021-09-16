@@ -1,0 +1,248 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "interface.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 192760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc_controllable.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc_controllable.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2021,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc_cue_observer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7834,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc_cue_observer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2439,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc_global_observer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20055,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc_global_observer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3014,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc_gui.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33956,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc_gui.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3809,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc_route_observer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc_route_observer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3077,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc_select_observer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc_select_observer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4512,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wscript",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1020,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "osc",
+    "package": "ardour",
+    "path": "ardour/1:6.5.0+ds0-1/libs/surfaces/osc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ardour/1:6.5.0+ds0-1/",
+        "metric": {
+            "size": 102700
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ardour",
+        "sloc": [
+            [
+                "cpp",
+                569181
+            ],
+            [
+                "xml",
+                123660
+            ],
+            [
+                "ansic",
+                81199
+            ],
+            [
+                "python",
+                34176
+            ],
+            [
+                "javascript",
+                15330
+            ],
+            [
+                "sh",
+                4679
+            ],
+            [
+                "asm",
+                1347
+            ],
+            [
+                "perl",
+                889
+            ],
+            [
+                "php",
+                772
+            ],
+            [
+                "makefile",
+                253
+            ],
+            [
+                "objc",
+                28
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/ardour",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:6.5.0+ds0-1"
+}

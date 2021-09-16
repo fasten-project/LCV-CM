@@ -1,0 +1,56 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_remove_remote_images.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aiorpcx",
+    "path": "aiorpcx/0.22.1-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aiorpcx/0.22.1-1/",
+        "metric": {
+            "size": 552
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aiorpcx",
+        "sloc": [
+            [
+                "python",
+                6388
+            ],
+            [
+                "makefile",
+                18
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/aiorpcx",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.22.1-1"
+}

@@ -1,0 +1,149 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ardour-toolkit-theme",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "expand.svg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "index.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "js",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 111,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "main.css",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manifest.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "toolkit",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "mixer",
+    "package": "ardour",
+    "path": "ardour/1:6.5.0+ds0-1/share/web_surfaces/builtin/mixer",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ardour/1:6.5.0+ds0-1/",
+        "metric": {
+            "size": 102700
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ardour",
+        "sloc": [
+            [
+                "cpp",
+                569181
+            ],
+            [
+                "xml",
+                123660
+            ],
+            [
+                "ansic",
+                81199
+            ],
+            [
+                "python",
+                34176
+            ],
+            [
+                "javascript",
+                15330
+            ],
+            [
+                "sh",
+                4679
+            ],
+            [
+                "asm",
+                1347
+            ],
+            [
+                "perl",
+                889
+            ],
+            [
+                "php",
+                772
+            ],
+            [
+                "makefile",
+                253
+            ],
+            [
+                "objc",
+                28
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/ardour",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:6.5.0+ds0-1"
+}

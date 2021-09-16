@@ -1,0 +1,47 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ssl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "default",
+    "package": "archvsync",
+    "path": "archvsync/20180513+nmu1/tests/etc/default",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/archvsync/20180513+nmu1/",
+        "metric": {
+            "size": 236
+        },
+        "pts_link": "https://tracker.debian.org/pkg/archvsync",
+        "sloc": [
+            [
+                "sh",
+                883
+            ],
+            [
+                "makefile",
+                80
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/mirror/archvsync.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20180513+nmu1"
+}

@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Ensure-determinstic-dict-ordering-to-ensure-builds-a.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Remove-external-reference-to-s3.amazonaws.com.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alabaster",
+    "path": "alabaster/0.7.12-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alabaster/0.7.12-1/",
+        "metric": {
+            "size": 220
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alabaster",
+        "sloc": [
+            [
+                "python",
+                134
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "experimental",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/jbouse-debian/alabaster",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7.12-1"
+}

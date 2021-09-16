@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "myscript",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plugin.id",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script1.ini",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 386,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "script1.arcdef",
+    "package": "arcjobtool",
+    "path": "arcjobtool/0.3.0-1/share/arcjobtool/definitions/script1.arcdef",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1380,
+        "license": "/copyright/license/arcjobtool/0.3.0-1/",
+        "metric": {
+            "size": 1408
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arcjobtool",
+        "sloc": [
+            [
+                "python",
+                3761
+            ],
+            [
+                "sh",
+                103
+            ],
+            [
+                "makefile",
+                49
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://svn.nordugrid.org/trac/packaging/browser/debian/arcjobtool",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "0.3.0-1"
+}

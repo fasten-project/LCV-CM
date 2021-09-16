@@ -1,0 +1,96 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "teixlite",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 74,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "xhtml",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "xml.cat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xml.dcl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xslfo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "xml",
+    "package": "alml",
+    "path": "alml/2005.01.01-2.2/share/sgml/xml",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 258,
+        "license": "/copyright/license/alml/2005.01.01-2.2/",
+        "metric": {
+            "size": 6456
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alml",
+        "sloc": [
+            [
+                "perl",
+                29024
+            ],
+            [
+                "makefile",
+                228
+            ],
+            [
+                "sh",
+                70
+            ],
+            [
+                "xml",
+                23
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k"
+        ]
+    },
+    "type": "directory",
+    "version": "2005.01.01-2.2"
+}

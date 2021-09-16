@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "configure.ac",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3059,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0001_guest-session-Make-path-to-lightdm-guest-session-exe.patch",
+    "package": "arctica-greeter",
+    "path": "arctica-greeter/0.99.1.5-2/.pc/0001_guest-session-Make-path-to-lightdm-guest-session-exe.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arctica-greeter/0.99.1.5-2/",
+        "metric": {
+            "size": 9320
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arctica-greeter",
+        "sloc": [
+            [
+                "makefile",
+                306
+            ],
+            [
+                "sh",
+                287
+            ],
+            [
+                "xml",
+                131
+            ],
+            [
+                "python",
+                74
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-remote-team/arctica-greeter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.99.1.5-2"
+}

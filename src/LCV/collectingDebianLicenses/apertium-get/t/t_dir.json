@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "regression-tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tests.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1294,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trunk.expected",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 412,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unarg.expected",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1910,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "t",
+    "package": "apertium-get",
+    "path": "apertium-get/1.0.0-2/t",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apertium-get/1.0.0-2/",
+        "metric": {
+            "size": 156
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apertium-get",
+        "sloc": [
+            [
+                "sh",
+                454
+            ],
+            [
+                "python",
+                294
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apertium-get",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.0-2"
+}
