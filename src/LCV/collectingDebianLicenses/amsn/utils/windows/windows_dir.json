@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "NSIS",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 143,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "launcher",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "winflash",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 106,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "winutils",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 123,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "windows",
+    "package": "amsn",
+    "path": "amsn/0.98.9-1/utils/windows",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 10387,
+        "license": "/copyright/license/amsn/0.98.9-1/",
+        "metric": {
+            "size": 34976
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amsn",
+        "sloc": [
+            [
+                "tcl",
+                122014
+            ],
+            [
+                "ansic",
+                32228
+            ],
+            [
+                "cpp",
+                17363
+            ],
+            [
+                "xml",
+                6681
+            ],
+            [
+                "objc",
+                1251
+            ],
+            [
+                "sh",
+                825
+            ],
+            [
+                "makefile",
+                498
+            ],
+            [
+                "perl",
+                215
+            ],
+            [
+                "python",
+                126
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ]
+    },
+    "type": "directory",
+    "version": "0.98.9-1"
+}
