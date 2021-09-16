@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "install-missing-files.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-httpdomain-sphinx-ext.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-wsmeext.sphinxext.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aodh",
+    "path": "aodh/12.0.0-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aodh/12.0.0-2/",
+        "metric": {
+            "size": 1936
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aodh",
+        "sloc": [
+            [
+                "python",
+                12689
+            ],
+            [
+                "sh",
+                361
+            ],
+            [
+                "makefile",
+                201
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/aodh",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "12.0.0-2"
+}

@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "c",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "driver",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "index.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 474,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tech",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "devel",
+    "package": "aolserver4",
+    "path": "aolserver4/4.5.1-18.1/docs/devel",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aolserver4/4.5.1-18.1/",
+        "metric": {
+            "size": 12008
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aolserver4",
+        "sloc": [
+            [
+                "ansic",
+                45126
+            ],
+            [
+                "tcl",
+                5533
+            ],
+            [
+                "sh",
+                1037
+            ],
+            [
+                "makefile",
+                380
+            ],
+            [
+                "pascal",
+                219
+            ],
+            [
+                "php",
+                13
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "http://svn.debian.org/viewsvn/collab-maint/deb-maint/aolserver/aolserver4/trunk",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "4.5.1-18.1"
+}
