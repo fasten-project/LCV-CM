@@ -1,0 +1,253 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "MacOSX",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "check_defines.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3027,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "denoiser.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "genfiles",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "id2ip",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kadnodescreate.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logfilter",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make_store",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mldonkey_importer.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sanity",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 22430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stats.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version_bumper",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "whitespace_fixer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wikify_latest_changelog",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "year_bumper",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "amule",
+    "path": "amule/1:2.3.3-1/src/utils/scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amule/1:2.3.3-1/",
+        "metric": {
+            "size": 25616
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amule",
+        "sloc": [
+            [
+                "cpp",
+                115467
+            ],
+            [
+                "ansic",
+                8603
+            ],
+            [
+                "sh",
+                6244
+            ],
+            [
+                "makefile",
+                1698
+            ],
+            [
+                "php",
+                1680
+            ],
+            [
+                "perl",
+                958
+            ],
+            [
+                "yacc",
+                820
+            ],
+            [
+                "ruby",
+                729
+            ],
+            [
+                "objc",
+                692
+            ],
+            [
+                "lex",
+                626
+            ],
+            [
+                "java",
+                413
+            ],
+            [
+                "xml",
+                27
+            ],
+            [
+                "python",
+                26
+            ],
+            [
+                "awk",
+                21
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/amule",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.3.3-1"
+}

@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "02-fix_spell_errors.patch",
+    "package": "ams",
+    "path": "ams/2.2.0-1/.pc/02-fix_spell_errors.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ams/2.2.0-1/",
+        "metric": {
+            "size": 3560
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ams",
+        "sloc": [
+            [
+                "cpp",
+                20035
+            ],
+            [
+                "sh",
+                4154
+            ],
+            [
+                "makefile",
+                429
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/ams",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.2.0-1"
+}

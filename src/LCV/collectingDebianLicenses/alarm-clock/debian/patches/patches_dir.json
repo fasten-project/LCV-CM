@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix-FTBFS-with-gcc-4.5.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-autostart",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-desktop-file.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libnotify0.7.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 85,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alarm-clock",
+    "path": "alarm-clock/1.2.5-1.2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 284,
+        "license": "/copyright/license/alarm-clock/1.2.5-1.2/",
+        "metric": {
+            "size": 4060
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alarm-clock",
+        "sloc": [
+            [
+                "sh",
+                10807
+            ],
+            [
+                "ansic",
+                3996
+            ],
+            [
+                "makefile",
+                94
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.ryan52.info/?p=alarm-clock;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.5-1.2"
+}

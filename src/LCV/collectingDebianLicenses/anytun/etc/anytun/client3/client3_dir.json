@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "config",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2099,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "post-up.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "client3",
+    "package": "anytun",
+    "path": "anytun/0.3.8-1/etc/anytun/client3",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/anytun/0.3.8-1/",
+        "metric": {
+            "size": 1492
+        },
+        "pts_link": "https://tracker.debian.org/pkg/anytun",
+        "sloc": [
+            [
+                "cpp",
+                9225
+            ],
+            [
+                "sh",
+                712
+            ],
+            [
+                "makefile",
+                398
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/anytun",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.8-1"
+}

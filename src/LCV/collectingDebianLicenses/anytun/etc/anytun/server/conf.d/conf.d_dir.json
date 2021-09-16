@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "client1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "client2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "client3",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "conf.d",
+    "package": "anytun",
+    "path": "anytun/0.3.8-1/etc/anytun/server/conf.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/anytun/0.3.8-1/",
+        "metric": {
+            "size": 1492
+        },
+        "pts_link": "https://tracker.debian.org/pkg/anytun",
+        "sloc": [
+            [
+                "cpp",
+                9225
+            ],
+            [
+                "sh",
+                712
+            ],
+            [
+                "makefile",
+                398
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/anytun",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.8-1"
+}

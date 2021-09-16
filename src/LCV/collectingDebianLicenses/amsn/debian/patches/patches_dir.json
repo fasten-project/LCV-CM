@@ -1,0 +1,149 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_patching_amsn.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 305,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_amsn_remote.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_amsn_remote-CLI.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 557,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_autoupdate.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1548,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_checkupdate.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_recognize_kfreebsd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_fix_ftbfs4hurd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "amsn",
+    "path": "amsn/0.98.9-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 10387,
+        "license": "/copyright/license/amsn/0.98.9-1/",
+        "metric": {
+            "size": 34976
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amsn",
+        "sloc": [
+            [
+                "tcl",
+                122014
+            ],
+            [
+                "ansic",
+                32228
+            ],
+            [
+                "cpp",
+                17363
+            ],
+            [
+                "xml",
+                6681
+            ],
+            [
+                "objc",
+                1251
+            ],
+            [
+                "sh",
+                825
+            ],
+            [
+                "makefile",
+                498
+            ],
+            [
+                "perl",
+                215
+            ],
+            [
+                "python",
+                126
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ]
+    },
+    "type": "directory",
+    "version": "0.98.9-1"
+}

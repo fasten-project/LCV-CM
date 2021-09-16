@@ -1,0 +1,100 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "examples",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "faq.apt.vm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "index.apt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "usage.apt.vm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "apt",
+    "package": "antlr4",
+    "path": "antlr4/4.7.2-5/antlr4-maven-plugin/src/site/apt",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/antlr4/4.7.2-5/",
+        "metric": {
+            "size": 7124
+        },
+        "pts_link": "https://tracker.debian.org/pkg/antlr4",
+        "sloc": [
+            [
+                "java",
+                44593
+            ],
+            [
+                "javascript",
+                1112
+            ],
+            [
+                "xml",
+                1088
+            ],
+            [
+                "cs",
+                71
+            ],
+            [
+                "python",
+                62
+            ],
+            [
+                "sh",
+                29
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/antlr4",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.7.2-5"
+}

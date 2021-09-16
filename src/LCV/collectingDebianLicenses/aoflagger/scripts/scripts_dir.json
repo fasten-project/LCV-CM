@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "docker",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 125,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "makerelease.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-clang-format.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "aoflagger",
+    "path": "aoflagger/3.1.0-1/scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aoflagger/3.1.0-1/",
+        "metric": {
+            "size": 4792
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aoflagger",
+        "sloc": [
+            [
+                "cpp",
+                52162
+            ],
+            [
+                "python",
+                152
+            ],
+            [
+                "sh",
+                60
+            ],
+            [
+                "makefile",
+                17
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-astro-team/aoflagger",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.1.0-1"
+}

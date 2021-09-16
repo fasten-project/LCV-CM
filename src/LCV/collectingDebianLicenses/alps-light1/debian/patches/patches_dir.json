@@ -1,0 +1,100 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "add-missing-destdir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 727,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-LIBADD.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regen-autotools.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-plot.h-from-makefile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alps-light1",
+    "path": "alps-light1/1.2.2-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 3812,
+        "license": "/copyright/license/alps-light1/1.2.2-2/",
+        "metric": {
+            "size": 4376
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alps-light1",
+        "sloc": [
+            [
+                "cpp",
+                19838
+            ],
+            [
+                "sh",
+                8509
+            ],
+            [
+                "ansic",
+                495
+            ],
+            [
+                "makefile",
+                465
+            ],
+            [
+                "perl",
+                110
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k"
+        ]
+    },
+    "type": "directory",
+    "version": "1.2.2-2"
+}

@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Client",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 23,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Implementation",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "TieKnot.hs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6526,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "game-src",
+    "package": "allure",
+    "path": "allure/0.9.5.0-2/GameDefinition/game-src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/allure/0.9.5.0-2/",
+        "metric": {
+            "size": 1068
+        },
+        "pts_link": "https://tracker.debian.org/pkg/allure",
+        "sloc": [
+            [
+                "haskell",
+                8885
+            ],
+            [
+                "makefile",
+                210
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/allure",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.5.0-2"
+}

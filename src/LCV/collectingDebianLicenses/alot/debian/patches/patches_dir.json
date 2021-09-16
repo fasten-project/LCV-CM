@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Fix-mailcap-rendering-for-e-mails-without-Content-Ty.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2223,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0001-Fix-utf8-encoding-with-a-text-plain-mailcap-entry.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0001-Use-local-intersphinx-inventories.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1040,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-debian-Remove-test_no_spawn_no_stdin_attached-as-rec.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-alot-UnicodeEncodeError-for-search-queries-with-non-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 879,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-tests-crypto_test.py-Use-gpg-rather-than-gpg2.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-add-patch-that-fixes-a-race-condition-in-tests-close.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 419,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alot",
+    "path": "alot/0.9.1-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alot/0.9.1-2/",
+        "metric": {
+            "size": 1728
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alot",
+        "sloc": [
+            [
+                "python",
+                11107
+            ],
+            [
+                "makefile",
+                132
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/applications/alot",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.1-2"
+}

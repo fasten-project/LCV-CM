@@ -1,0 +1,123 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-no-simple-base-string.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1172,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-no-unknown-char-context.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-utf-8-formatstrings.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-fix-component-pathname.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1724,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-convert-utf-8.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 999,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-alb_xml2sexp_path.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "albert",
+    "path": "albert/1:0.4.10-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 2009,
+        "license": "/copyright/license/albert/1:0.4.10-4/",
+        "metric": {
+            "size": 1388
+        },
+        "pts_link": "https://tracker.debian.org/pkg/albert",
+        "sloc": [
+            [
+                "lisp",
+                13593
+            ],
+            [
+                "ansic",
+                7729
+            ],
+            [
+                "xml",
+                843
+            ],
+            [
+                "sh",
+                166
+            ],
+            [
+                "makefile",
+                52
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k",
+            "lenny"
+        ]
+    },
+    "type": "directory",
+    "version": "1:0.4.10-4"
+}
