@@ -41,7 +41,7 @@ supported_licenses_OSADL = list(df.index)
 print(supported_licenses_OSADL)
 # create a list of licenses presents in our original matrix
 
-def verifyOSADL_Transposed(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
+def verifyOSADL_Transposed(CSVfilePath, InboundLicenses_cleaned, OutboundLicense, InboundLicenses, OutboundLicenseAlias):
     verificationList = list()
     keys = ["message","status","inbound","outbound"]
     keysNotPresent = ["message","status","license"]
@@ -127,26 +127,29 @@ def verifyOSADL_Transposed(CSVfilePath, InboundLicenses_cleaned, OutboundLicense
                 dictOutput = dict.fromkeys(keys, None)
                 #verificationList.append(output)
     else:
+        index = 0
         for license in InboundLicenses_cleaned:
             if (license in supported_licenses_OSADL):
-                output = "The outbound license "+OutboundLicense+" is not present in the Compatibility Matrix, while the inbound "+license+" is present."
+                output = "The outbound license "+OutboundLicenseAlias+" is not present in the Compatibility Matrix, while the inbound "+license+" is present."
                 dictOutput['message'] = output
                 dictOutput['status'] = "unknown"
                 dictOutput['inbound'] = license
-                dictOutput['outbound'] = OutboundLicense
+                dictOutput['outbound'] = OutboundLicenseAlias
                 #dictOutputNotPresent['outbound'] = OutboundLicense
                 verificationList.append(dictOutput)
                 dictOutput = dict.fromkeys(keys, None)
                 #verificationList.append(output)
+                index += 1
             else:
-                output = "The outbound license "+OutboundLicense+" and the inbound "+license+" are not present in the Compatibility Matrix"
+                output = "The outbound license "+OutboundLicenseAlias+" and the inbound "+str(InboundLicenses[index])+" are not present in the Compatibility Matrix"
                 dictOutput['message'] = output
                 dictOutput['status'] = "unknown"
-                dictOutput['inbound'] = license
-                dictOutput['outbound'] = OutboundLicense
+                dictOutput['inbound'] = str(InboundLicenses[index])
+                dictOutput['outbound'] = OutboundLicenseAlias
                 #dictOutputNotPresent['outbound'] = OutboundLicense
                 verificationList.append(dictOutput)
                 dictOutput = dict.fromkeys(keys, None)
+                index += 1
                 #verificationList.append(output)
     return verificationList
 
@@ -294,7 +297,7 @@ def Compare_OSADL(InboundLicenses, OutboundLicense):
     #CSVfilePath = "../../csv/licenses_tests.csv"
     CSVfilePath = "../../csv/OSADL_transposed.csv"
     verificationList = verifyOSADL_Transposed(
-        CSVfilePath, InboundLicenses_SPDX, OutboundLicense_SPDX)
+        CSVfilePath, InboundLicenses_SPDX, OutboundLicense_SPDX, InboundLicenses, OutboundLicense)
     verificationList = parseVerificationList(verificationList)
     return verificationList
 
