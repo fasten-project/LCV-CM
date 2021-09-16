@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "27542cee.0",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 3,
+                "symlink_dest": "crt",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ce275665.0",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 3,
+                "symlink_dest": "crt",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "crt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ssl",
+    "package": "archvsync",
+    "path": "archvsync/20180513+nmu1/tests/etc/default/ssl",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/archvsync/20180513+nmu1/",
+        "metric": {
+            "size": 236
+        },
+        "pts_link": "https://tracker.debian.org/pkg/archvsync",
+        "sloc": [
+            [
+                "sh",
+                883
+            ],
+            [
+                "makefile",
+                80
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/mirror/archvsync.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20180513+nmu1"
+}

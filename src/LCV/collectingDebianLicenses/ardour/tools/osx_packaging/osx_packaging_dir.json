@@ -1,0 +1,226 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Ardour.icns",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 212599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "COPYING",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Info.plist.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "InfoPlist.strings.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Resources",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dmgbg.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dmgbg.xcf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 183473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dmgbgMB.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dmgbgMBxj.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4799,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dmgbgxj.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dmgbgxj.xcf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 342158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osx_build",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "startup_script",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "typeArdour.icns",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "osx_packaging",
+    "package": "ardour",
+    "path": "ardour/1:6.5.0+ds0-1/tools/osx_packaging",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ardour/1:6.5.0+ds0-1/",
+        "metric": {
+            "size": 102700
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ardour",
+        "sloc": [
+            [
+                "cpp",
+                569181
+            ],
+            [
+                "xml",
+                123660
+            ],
+            [
+                "ansic",
+                81199
+            ],
+            [
+                "python",
+                34176
+            ],
+            [
+                "javascript",
+                15330
+            ],
+            [
+                "sh",
+                4679
+            ],
+            [
+                "asm",
+                1347
+            ],
+            [
+                "perl",
+                889
+            ],
+            [
+                "php",
+                772
+            ],
+            [
+                "makefile",
+                253
+            ],
+            [
+                "objc",
+                28
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/ardour",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:6.5.0+ds0-1"
+}

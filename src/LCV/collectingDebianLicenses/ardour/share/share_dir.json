@@ -1,0 +1,193 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "export",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mcp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "midi_maps",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "osc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "osc_interfaces",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "patchfiles",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20480,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "plugin_metadata",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8192,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "templates",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "us2400",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "web_surfaces",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "share",
+    "package": "ardour",
+    "path": "ardour/1:6.5.0+ds0-1/share",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ardour/1:6.5.0+ds0-1/",
+        "metric": {
+            "size": 102700
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ardour",
+        "sloc": [
+            [
+                "cpp",
+                569181
+            ],
+            [
+                "xml",
+                123660
+            ],
+            [
+                "ansic",
+                81199
+            ],
+            [
+                "python",
+                34176
+            ],
+            [
+                "javascript",
+                15330
+            ],
+            [
+                "sh",
+                4679
+            ],
+            [
+                "asm",
+                1347
+            ],
+            [
+                "perl",
+                889
+            ],
+            [
+                "php",
+                772
+            ],
+            [
+                "makefile",
+                253
+            ],
+            [
+                "objc",
+                28
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/ardour",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:6.5.0+ds0-1"
+}
