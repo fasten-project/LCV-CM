@@ -44,17 +44,18 @@ def RetrievePackageFilesAndDirectory(packageName):
     try:
         response = requests.get("https://sources.debian.org/api/src/"+packageName+"/latest/", timeout=10)
         time.sleep(1.2)
+        if response.status_code == 200:
+            jsonResponse=response.json()
+            with open('collectingDebianLicenses/'+packageName+'/'+packageName+'_pkg.json', 'w', encoding='utf-8') as f:
+                print("writing file")
+                json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
+            return jsonResponse
+        else:
+            jsonResponse = "404"
+            return jsonResponse
     except requests.exceptions.ReadTimeout:
         print ("Timeout occurred")
-    if response.status_code == 200:
-        jsonResponse=response.json()
-        with open('collectingDebianLicenses/'+packageName+'/'+packageName+'_pkg.json', 'w', encoding='utf-8') as f:
-            print("writing file")
-            json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
-        return jsonResponse
-    else:
-        jsonResponse = "404"
-        return jsonResponse
+
 
 def CreateDirectory(root,directory):
     path = os.path.join(root, directory)
@@ -78,20 +79,20 @@ def RetrieveFilesInfo(packageName,path):
     try:
         response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=10)
         time.sleep(1.2)
+        if response.status_code == 200:
+            jsonResponse=response.json()
+            #print(jsonResponse)
+            with open('collectingDebianLicenses/'+packageName+'/'+fileName+'.json', 'w', encoding='utf-8') as f:
+                json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
+            return jsonResponse
+        else:
+            jsonResponse = "404"
+            output = jsonResponse+", 404 - page not found"
+            #print(output)
+            #appendToFile(output)
+            return output
     except requests.exceptions.ReadTimeout:
         print ("Timeout occurred")
-    if response.status_code == 200:
-        jsonResponse=response.json()
-        #print(jsonResponse)
-        with open('collectingDebianLicenses/'+packageName+'/'+fileName+'.json', 'w', encoding='utf-8') as f:
-            json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
-        return jsonResponse
-    else:
-        jsonResponse = "404"
-        output = jsonResponse+", 404 - page not found"
-        #print(output)
-        #appendToFile(output)
-        return output
 
 def RetrieveDirectoryInfo(packageName,path):
     #print("Inside of DirectoryInfo")
@@ -101,24 +102,26 @@ def RetrieveDirectoryInfo(packageName,path):
     try:
         response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=10)
         time.sleep(1.2)
+        if response.status_code == 200:
+            print("status code 200")
+            jsonResponse=response.json()
+            #print(jsonResponse)
+            fname = 'collectingDebianLicenses/'+packageName+"/"+directory+"/"+directory+'_dir.json'
+            # this control is required to scan nested directories
+            #if os.path.isfile(fname):
+            if os.path.isfile(fname):
+                with open(fname, 'w', encoding='utf-8') as f:
+                    json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
+                    return jsonResponse
+        else:
+            jsonResponse = "404"
+            output = jsonResponse+", 404 - page not found"
+            return output
     except requests.exceptions.ReadTimeout:
         print ("Timeout occurred")
 
-    if response.status_code == 200:
-        print("status code 200")
-        jsonResponse=response.json()
-        #print(jsonResponse)
-        fname = 'collectingDebianLicenses/'+packageName+"/"+directory+"/"+directory+'_dir.json'
-        # this control is required to scan nested directories
-        #if os.path.isfile(fname):
-        if os.path.isfile(fname):
-            with open(fname, 'w', encoding='utf-8') as f:
-                json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
-                return jsonResponse
-    else:
-        jsonResponse = "404"
-        output = jsonResponse+", 404 - page not found"
-        return output
+
+
 
 def RetrieveDirectoryInfoNotRecursive(packageName,path):
     #print("Inside of DirectoryInfo")
@@ -135,27 +138,28 @@ def RetrieveDirectoryInfoNotRecursive(packageName,path):
     try:
         response = requests.get("https://sources.debian.org/api/src/"+path+"/", timeout=10)
         time.sleep(1.2)
+        if response.status_code == 200:
+            print("status code 200")
+            jsonResponse=response.json()
+            #print(jsonResponse)
+            fname = 'collectingDebianLicenses/'+packageName+"/"+directory+"/"+fileName+'_dir.json'
+            # this control is required to scan nested directories
+            #if os.path.isfile(fname):
+            with open(fname, 'w', encoding='utf-8') as f:
+                json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
+                root = 'collectingDebianLicenses/'+packageName+'/'+directory
+                jsonFile = fileName+'_dir.json'
+                print(root)
+                print(jsonFile)
+            ScanJsonDir(packageName,root,jsonFile)
+            return jsonResponse
+        else:
+            jsonResponse = "404"
+            output = jsonResponse+", 404 - page not found"
+            return output
     except requests.exceptions.ReadTimeout:
         print ("Timeout occurred")
-    if response.status_code == 200:
-        print("status code 200")
-        jsonResponse=response.json()
-        #print(jsonResponse)
-        fname = 'collectingDebianLicenses/'+packageName+"/"+directory+"/"+fileName+'_dir.json'
-        # this control is required to scan nested directories
-        #if os.path.isfile(fname):
-        with open(fname, 'w', encoding='utf-8') as f:
-            json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
-            root = 'collectingDebianLicenses/'+packageName+'/'+directory
-            jsonFile = fileName+'_dir.json'
-            print(root)
-            print(jsonFile)
-        ScanJsonDir(packageName,root,jsonFile)
-        return jsonResponse
-    else:
-        jsonResponse = "404"
-        output = jsonResponse+", 404 - page not found"
-        return output
+
 
 def ScanJsonDir(packageName,root,jsonFile):
     fname = root+"/"+jsonFile
@@ -236,23 +240,23 @@ def ScanJsonDirChecksum(root,packageName,jsonFile):
                 try:
                     response = requests.get("https://sources.debian.org/copyright/api/sha256/?checksum="+checksum+"&package="+packageName+"&suite="+debianVersion, timeout=10)
                     print("https://sources.debian.org/copyright/api/sha256/?checksum="+checksum+"&package="+packageName+"&suite="+debianVersion)
+                    if response.status_code == 200:
+                        print("status code 200")
+                        jsonResponse=response.json()
+                        fname = fname.replace("collectingDebianLicenses","collectingDebianLicensesChecksum")
+                        with open(fname, 'w', encoding='utf-8') as f:
+                            json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
+                        print(jsonResponse)
+                        print("\n\n\n")
+
+                        return jsonResponse
+                    else:
+                        jsonResponse = "404"
+                        output = jsonResponse+", 404 - page not found"
+                        return output
                 except requests.exceptions.ReadTimeout:
                     print ("Timeout occurred")
                 #time.sleep(1.2)
-                if response.status_code == 200:
-                    print("status code 200")
-                    jsonResponse=response.json()
-                    fname = fname.replace("collectingDebianLicenses","collectingDebianLicensesChecksum")
-                    with open(fname, 'w', encoding='utf-8') as f:
-                        json.dump(jsonResponse, f, ensure_ascii=False, indent=4)
-                    print(jsonResponse)
-                    print("\n\n\n")
-
-                    return jsonResponse
-                else:
-                    jsonResponse = "404"
-                    output = jsonResponse+", 404 - page not found"
-                    return output
 
 
 # currently not used
