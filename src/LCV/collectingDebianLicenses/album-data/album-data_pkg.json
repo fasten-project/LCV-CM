@@ -1,0 +1,65 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "data-4.05.tar.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6468036,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "4.05-7.2",
+    "package": "album-data",
+    "path": "album-data/4.05-7.2",
+    "pkg_infos": {
+        "area": "non-free",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/album-data/4.05-7.2/",
+        "metric": {
+            "size": 6456
+        },
+        "pts_link": "https://tracker.debian.org/pkg/album-data",
+        "sloc": [
+            [
+                "makefile",
+                56
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/collab-maint/album-data.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.05-7.2"
+}
