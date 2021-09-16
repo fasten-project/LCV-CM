@@ -1,0 +1,61 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Enabled-extended-namehints-in-alsa.conf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alsa-lib",
+    "path": "alsa-lib/1.2.5.1-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alsa-lib/1.2.5.1-1/",
+        "metric": {
+            "size": 7676
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alsa-lib",
+        "sloc": [
+            [
+                "ansic",
+                95122
+            ],
+            [
+                "sh",
+                4387
+            ],
+            [
+                "makefile",
+                673
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/alsa-team/alsa-lib",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.5.1-1"
+}

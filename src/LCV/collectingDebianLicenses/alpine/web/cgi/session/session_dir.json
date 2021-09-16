@@ -1,0 +1,237 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".htaccess",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 852,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_htaccess",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 852,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "alpine.tcl",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 13,
+                "symlink_dest": "../alpine.tcl",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "greeting.tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10706,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init.tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logon.tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5020,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logout",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "logout.tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1619,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "monitor.tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "queryauth.tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2985,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setauth.tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setauth2.tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setpassphrase.tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "startup.tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tclsh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 8,
+                "symlink_dest": "../tclsh",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "session",
+    "package": "alpine",
+    "path": "alpine/2.24+dfsg1-1/web/cgi/session",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alpine/2.24+dfsg1-1/",
+        "metric": {
+            "size": 36496
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alpine",
+        "sloc": [
+            [
+                "ansic",
+                365361
+            ],
+            [
+                "tcl",
+                26295
+            ],
+            [
+                "sh",
+                4910
+            ],
+            [
+                "javascript",
+                3789
+            ],
+            [
+                "makefile",
+                1926
+            ],
+            [
+                "perl",
+                159
+            ],
+            [
+                "python",
+                119
+            ],
+            [
+                "xml",
+                93
+            ],
+            [
+                "exp",
+                69
+            ],
+            [
+                "sed",
+                16
+            ],
+            [
+                "cpp",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/alpine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.24+dfsg1-1"
+}

@@ -1,0 +1,193 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ansilib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 148,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "c-client",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "charset",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dmail",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "imapd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ipopd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mailutil",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 139,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mlock",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mtest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 138,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "osdep",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 142,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tmail",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "src",
+    "package": "alpine",
+    "path": "alpine/2.24+dfsg1-1/imap/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alpine/2.24+dfsg1-1/",
+        "metric": {
+            "size": 36496
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alpine",
+        "sloc": [
+            [
+                "ansic",
+                365361
+            ],
+            [
+                "tcl",
+                26295
+            ],
+            [
+                "sh",
+                4910
+            ],
+            [
+                "javascript",
+                3789
+            ],
+            [
+                "makefile",
+                1926
+            ],
+            [
+                "perl",
+                159
+            ],
+            [
+                "python",
+                119
+            ],
+            [
+                "xml",
+                93
+            ],
+            [
+                "exp",
+                69
+            ],
+            [
+                "sed",
+                16
+            ],
+            [
+                "cpp",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/alpine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.24+dfsg1-1"
+}
