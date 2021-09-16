@@ -127,15 +127,27 @@ def verifyOSADL_Transposed(CSVfilePath, InboundLicenses_cleaned, OutboundLicense
                 dictOutput = dict.fromkeys(keys, None)
                 #verificationList.append(output)
     else:
-        output = "The outbound license "+OutboundLicense+" is not present in the Compatibility Matrix"
-        dictOutput['message'] = output
-        dictOutput['status'] = "unknown"
-        #dictOutput['inbound'] = license
-        dictOutput['outbound'] = OutboundLicense
-        #dictOutputNotPresent['outbound'] = OutboundLicense
-        verificationList.append(dictOutput)
-        dictOutput = dict.fromkeys(keys, None)
-        #verificationList.append(output)
+        for license in InboundLicenses_cleaned:
+            if (license in supported_licenses_OSADL):
+                output = "The outbound license "+OutboundLicense+" is not present in the Compatibility Matrix, while the inbound "+license+" is present."
+                dictOutput['message'] = output
+                dictOutput['status'] = "unknown"
+                dictOutput['inbound'] = license
+                dictOutput['outbound'] = OutboundLicense
+                #dictOutputNotPresent['outbound'] = OutboundLicense
+                verificationList.append(dictOutput)
+                dictOutput = dict.fromkeys(keys, None)
+                #verificationList.append(output)
+            else:
+                output = "The outbound license "+OutboundLicense+" and the inbound "+license+" are not present in the Compatibility Matrix"
+                dictOutput['message'] = output
+                dictOutput['status'] = "unknown"
+                dictOutput['inbound'] = license
+                dictOutput['outbound'] = OutboundLicense
+                #dictOutputNotPresent['outbound'] = OutboundLicense
+                verificationList.append(dictOutput)
+                dictOutput = dict.fromkeys(keys, None)
+                #verificationList.append(output)
     return verificationList
 
 def verifyFlag(CSVfilePath, InboundLicenses_cleaned, OutboundLicense):
