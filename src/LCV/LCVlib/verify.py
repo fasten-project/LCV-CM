@@ -42,6 +42,9 @@ print(supported_licenses_OSADL)
 # create a list of licenses presents in our original matrix
 
 def verifyOSADL_Transposed_Maven(CSVfilePath, InboundLicenses_cleaned, OutboundLicense, InboundLicenses, OutboundLicenseAlias):
+    #removes leading and trailing spaces introduced with the OR operator
+    InboundLicenses = [x.strip(' ') for x in InboundLicenses]
+    print(InboundLicenses)
     verificationList = list()
     keys = ["message","status","inbound","outbound","inbound_SPDX","outbound_SPDX"]
     #keysNotPresent = ["message","status","license"]
@@ -173,7 +176,7 @@ def verifyOSADL_Transposed_Maven(CSVfilePath, InboundLicenses_cleaned, OutboundL
                     dictOutput['inbound_SPDX'] = license
                 if IsAnSPDX(OutboundLicense):
                     dictOutput['outbound_SPDX'] = OutboundLicense
-                dictOutput['outbound'] = OutboundLicenseAlias                
+                dictOutput['outbound'] = OutboundLicenseAlias
                 verificationList.append(dictOutput)
                 dictOutput = dict.fromkeys(keys, None)
                 index += 1
