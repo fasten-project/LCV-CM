@@ -43,10 +43,10 @@ print(supported_licenses_OSADL)
 
 def verifyOSADL_Transposed_Maven(CSVfilePath, InboundLicenses_cleaned, OutboundLicense, InboundLicenses, OutboundLicenseAlias):
     verificationList = list()
-    keys = ["message","status","inbound","outbound"]
-    keysNotPresent = ["message","status","license"]
+    keys = ["message","status","inbound","outbound","inbound_SPDX","outbound_SPDX"]
+    #keysNotPresent = ["message","status","license"]
     dictOutput = dict.fromkeys(keys, None)
-    dictOutputNotPresent = dict.fromkeys(keysNotPresent, None)
+    #dictOutputNotPresent = dict.fromkeys(keysNotPresent, None)
 
     print(InboundLicenses_cleaned)
     print(OutboundLicense)
@@ -61,79 +61,103 @@ def verifyOSADL_Transposed_Maven(CSVfilePath, InboundLicenses_cleaned, OutboundL
             output = "For this project only " + \
                 InboundLicenses_cleaned[0] + \
                 " as the inbound license has been detected, and it is the same of the outbound license (" + \
-                OutboundLicense+"), implying that it is compatible. \nIt means that it is license compliant. "
+                OutboundLicenseAlias+"), implying that it is compatible. \nIt means that it is license compliant. "
             verificationList.append(output)
             return verificationList
+        index = 0
         for license in InboundLicenses_cleaned:
             if (license in supported_licenses_OSADL):
                 comparison = df.loc[license, OutboundLicense]
                 if comparison == "No":
-                    output =license+" is not compatible with " + \
-                        OutboundLicense+" as an outbound license."
+                    output =str(InboundLicenses[index])+" is not compatible with " + \
+                        OutboundLicenseAlias+" as an outbound license."
                     dictOutput['message'] = output
                     dictOutput['status'] = "not compatible"
-                    dictOutput['inbound'] = license
-                    dictOutput['outbound'] = OutboundLicense
+                    dictOutput['inbound'] = str(InboundLicenses[index])
+                    dictOutput['inbound_SPDX'] = license
+                    dictOutput['outbound_SPDX'] = OutboundLicense
+                    dictOutput['outbound'] = OutboundLicenseAlias
                     verificationList.append(dictOutput)
                     dictOutput = dict.fromkeys(keys, None)
+                    index +=1
 
                 if comparison == "Yes":
-                    output =license+" is compatible with " + \
-                        OutboundLicense + " as an outbound license."
+                    output =str(InboundLicenses[index])+" is compatible with " + \
+                        OutboundLicenseAlias + " as an outbound license."
                     dictOutput['message'] = output
                     dictOutput['status'] = "compatible"
-                    dictOutput['inbound'] = license
-                    dictOutput['outbound'] = OutboundLicense
+                    dictOutput['inbound'] = str(InboundLicenses[index])
+                    dictOutput['inbound_SPDX'] = license
+                    dictOutput['outbound_SPDX'] = OutboundLicense
+                    dictOutput['outbound'] = OutboundLicenseAlias
                     verificationList.append(dictOutput)
                     dictOutput = dict.fromkeys(keys, None)
+                    index +=1
                 # OSADL Matrix could be shipped with empty field, resulting in nan.
                 if comparison == "-":
-                    output =license+" is compatible with " + \
-                        OutboundLicense + " as an outbound license."
+                    output =str(InboundLicenses[index])+" is compatible with " + \
+                        OutboundLicenseAlias + " as an outbound license."
                     dictOutput['message'] = output
                     dictOutput['status'] = "compatible"
-                    dictOutput['inbound'] = license
-                    dictOutput['outbound'] = OutboundLicense
+                    dictOutput['inbound'] = str(InboundLicenses[index])
+                    dictOutput['inbound_SPDX'] = license
+                    dictOutput['outbound_SPDX'] = OutboundLicense
+                    dictOutput['outbound'] = OutboundLicenseAlias
                     verificationList.append(dictOutput)
                     dictOutput = dict.fromkeys(keys, None)
+                    index +=1
                 if comparison == "?":
-                    output = "There is insufficient information or knowledge whether the "+license+" as inbound license" + \
-                        " is compatible with the " + OutboundLicense + " as outbound license. Therefore a general recommendation" + \
-                        " on the compatibility of "+license+" as inbound with the " + \
+                    output = "There is insufficient information or knowledge whether the "+str(InboundLicenses[index])+" as inbound license" + \
+                        " is compatible with the " + OutboundLicenseAlias + " as outbound license. Therefore a general recommendation" + \
+                        " on the compatibility of "+str(InboundLicenses[index])+" as inbound with the " + \
                         OutboundLicense+" as outbound cannot be given."
                     dictOutput['message'] = output
                     dictOutput['status'] = "insufficient information"
-                    dictOutput['inbound'] = license
-                    dictOutput['outbound'] = OutboundLicense
+                    dictOutput['inbound'] = str(InboundLicenses[index])
+                    dictOutput['inbound_SPDX'] = license
+                    dictOutput['outbound_SPDX'] = OutboundLicense
+                    dictOutput['outbound'] = OutboundLicenseAlias
                     verificationList.append(dictOutput)
                     dictOutput = dict.fromkeys(keys, None)
+                    index +=1
                 if comparison == "Dep.":
-                    output = "Depending compatibility of the "+license+" with the " + \
-                        OutboundLicense + " license is explicitly stated in the " + \
-                        OutboundLicense+" license checklist hosted by OSADL.org"
+                    output = "Depending compatibility of the "+str(InboundLicenses[index])+" with the " + \
+                        OutboundLicenseAlias + " license is explicitly stated in the " + \
+                        OutboundLicenseAlias+" license checklist hosted by OSADL.org"
                     dictOutput['message'] = output
                     dictOutput['status'] = "Depending on the use case"
-                    dictOutput['inbound'] = license
-                    dictOutput['outbound'] = OutboundLicense
+                    dictOutput['inbound'] = str(InboundLicenses[index])
+                    dictOutput['inbound_SPDX'] = license
+                    dictOutput['outbound_SPDX'] = OutboundLicense
+                    dictOutput['outbound'] = OutboundLicenseAlias
                     verificationList.append(dictOutput)
                     dictOutput = dict.fromkeys(keys, None)
+                    index +=1
             else:
-                output = "The inbound license "+license+" is not present in the Compatibility Matrix"
+                output = "The inbound license "+str(InboundLicenses[index])+" is not present in the Compatibility Matrix"
                 dictOutput['message'] = output
                 dictOutput['status'] = "unknown"
-                dictOutput['inbound'] = license
-                dictOutput['outbound'] = OutboundLicense
+                dictOutput['inbound'] = str(InboundLicenses[index])
+                if IsAnSPDX(license):
+                    dictOutput['inbound_SPDX'] = license
+                dictOutput['outbound_SPDX'] = OutboundLicense
+                dictOutput['outbound'] = OutboundLicenseAlias
                 verificationList.append(dictOutput)
                 dictOutput = dict.fromkeys(keys, None)
+                index +=1
                 #verificationList.append(output)
     else:
         index = 0
         for license in InboundLicenses_cleaned:
             if (license in supported_licenses_OSADL):
-                output = "The outbound license "+OutboundLicenseAlias+" is not present in the Compatibility Matrix, while the inbound "+license+" is present."
+                output = "The outbound license "+OutboundLicenseAlias+" is not present in the Compatibility Matrix, while the inbound "+str(InboundLicenses[index])+" is present."
                 dictOutput['message'] = output
                 dictOutput['status'] = "unknown"
                 dictOutput['inbound'] = license
+                if IsAnSPDX(license):
+                    dictOutput['inbound_SPDX'] = license
+                if IsAnSPDX(OutboundLicense):
+                    dictOutput['outbound_SPDX'] = OutboundLicense
                 dictOutput['outbound'] = OutboundLicenseAlias
                 #dictOutputNotPresent['outbound'] = OutboundLicense
                 verificationList.append(dictOutput)
@@ -145,8 +169,11 @@ def verifyOSADL_Transposed_Maven(CSVfilePath, InboundLicenses_cleaned, OutboundL
                 dictOutput['message'] = output
                 dictOutput['status'] = "unknown"
                 dictOutput['inbound'] = str(InboundLicenses[index])
-                dictOutput['outbound'] = OutboundLicenseAlias
-                #dictOutputNotPresent['outbound'] = OutboundLicense
+                if IsAnSPDX(license):
+                    dictOutput['inbound_SPDX'] = license
+                if IsAnSPDX(OutboundLicense):
+                    dictOutput['outbound_SPDX'] = OutboundLicense
+                dictOutput['outbound'] = OutboundLicenseAlias                
                 verificationList.append(dictOutput)
                 dictOutput = dict.fromkeys(keys, None)
                 index += 1
