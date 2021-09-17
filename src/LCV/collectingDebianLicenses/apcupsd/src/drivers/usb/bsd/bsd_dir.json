@@ -1,0 +1,111 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bsd-usb.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bsd-usb.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2878,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hidutils.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hidutils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bsd",
+    "package": "apcupsd",
+    "path": "apcupsd/3.14.14-3.1/src/drivers/usb/bsd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apcupsd/3.14.14-3.1/",
+        "metric": {
+            "size": 7480
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apcupsd",
+        "sloc": [
+            [
+                "ansic",
+                24826
+            ],
+            [
+                "cpp",
+                9230
+            ],
+            [
+                "sh",
+                4484
+            ],
+            [
+                "makefile",
+                1189
+            ],
+            [
+                "tcl",
+                368
+            ],
+            [
+                "objc",
+                317
+            ],
+            [
+                "php",
+                107
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/alteholz/apcupsd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.14.14-3.1"
+}

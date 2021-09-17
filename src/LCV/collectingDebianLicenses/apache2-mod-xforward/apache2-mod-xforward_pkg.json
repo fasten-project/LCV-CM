@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mod_xforward.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "0.6-1",
+    "package": "apache2-mod-xforward",
+    "path": "apache2-mod-xforward/0.6-1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apache2-mod-xforward/0.6-1/",
+        "metric": {
+            "size": 60
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache2-mod-xforward",
+        "sloc": [
+            [
+                "ansic",
+                226
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "0.6-1"
+}

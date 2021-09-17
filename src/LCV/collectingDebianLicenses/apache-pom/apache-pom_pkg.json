@@ -1,0 +1,96 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pom.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "site-pom.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3214,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "18-1",
+    "package": "apache-pom",
+    "path": "apache-pom/18-1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apache-pom/18-1/",
+        "metric": {
+            "size": 108
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache-pom",
+        "sloc": [
+            [
+                "xml",
+                490
+            ],
+            [
+                "sh",
+                8
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-java/apache-pom.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "18-1"
+}

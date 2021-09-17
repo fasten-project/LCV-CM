@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apacheds.bat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1720,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apacheds.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10594,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cpappend.bat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1356,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "log4j.properties",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "archive",
+    "package": "apache-directory-server",
+    "path": "apache-directory-server/2.0.0~M24-4/installers-maven-plugin/src/main/resources/org/apache/directory/server/installers/archive",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apache-directory-server/2.0.0%7EM24-4/",
+        "metric": {
+            "size": 37180
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache-directory-server",
+        "sloc": [
+            [
+                "java",
+                225080
+            ],
+            [
+                "xml",
+                8871
+            ],
+            [
+                "sh",
+                1598
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/apache-directory-server",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.0~M24-4"
+}

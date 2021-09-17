@@ -1,0 +1,220 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "adj-sint-consistency.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "analyse-all-stages.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apertium-da-nb.da-nb.dix",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 739720,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apertium-dan-nor.nno.dixBEFORETRIM",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4906154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apertium-dan-nor.nob.dixBEFORETRIM",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4732404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cuento.da.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cuento.nb.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cx_helpers.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dan-nor-bidix-candidates",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3162091,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "full.nb.dix",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8935142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generation-test.da-nb.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2852,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nb-da.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nbkorpus5000.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 525927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "precommit-testvoc.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sortedbidixes",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "testvoc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 113,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "dev",
+    "package": "apertium-dan-nor",
+    "path": "apertium-dan-nor/1.4.1-2/dev",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apertium-dan-nor/1.4.1-2/",
+        "metric": {
+            "size": 72700
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apertium-dan-nor",
+        "sloc": [
+            [
+                "sh",
+                698
+            ],
+            [
+                "xml",
+                373
+            ],
+            [
+                "makefile",
+                336
+            ],
+            [
+                "python",
+                108
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apertium-dan-nor",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.1-2"
+}

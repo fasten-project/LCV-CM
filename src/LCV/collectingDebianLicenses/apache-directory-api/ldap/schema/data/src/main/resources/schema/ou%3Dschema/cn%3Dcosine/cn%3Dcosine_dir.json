@@ -1,0 +1,187 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ou%3Dattributetypes",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ou%3Dattributetypes.ldif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ou%3Dcomparators.ldif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ou%3Dditcontentrules.ldif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ou%3Dditstructurerules.ldif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ou%3Dmatchingrules.ldif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ou%3Dmatchingruleuse.ldif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ou%3Dnameforms.ldif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ou%3Dnormalizers.ldif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ou%3Dobjectclasses",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ou%3Dobjectclasses.ldif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ou%3Dsyntaxcheckers.ldif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ou%3Dsyntaxes.ldif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "cn=cosine",
+    "package": "apache-directory-api",
+    "path": "apache-directory-api/1.0.0-2/ldap/schema/data/src/main/resources/schema/ou=schema/cn=cosine",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apache-directory-api/1.0.0-2/",
+        "metric": {
+            "size": 23436
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache-directory-api",
+        "sloc": [
+            [
+                "java",
+                197482
+            ],
+            [
+                "xml",
+                7651
+            ],
+            [
+                "perl",
+                108
+            ],
+            [
+                "makefile",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/apache-directory-api",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.0-2"
+}

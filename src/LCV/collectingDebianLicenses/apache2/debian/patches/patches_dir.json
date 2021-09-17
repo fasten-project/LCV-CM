@@ -1,0 +1,191 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "buffer-http-request-bodies-for-tlsv13.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4736,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_suexec-custom.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2721,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "customize_apxs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fhs_compliance.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2021,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no_LD_LIBRARY_PATH.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reproducible_builds.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spelling-errors.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "suexec-CVE-2007-1742.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "suexec-custom.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5827,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tlsv13-add-logno.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 899,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "apache2",
+    "path": "apache2/2.4.49-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apache2/2.4.49-1/",
+        "metric": {
+            "size": 58036
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache2",
+        "sloc": [
+            [
+                "ansic",
+                204296
+            ],
+            [
+                "perl",
+                11325
+            ],
+            [
+                "sh",
+                6141
+            ],
+            [
+                "php",
+                1316
+            ],
+            [
+                "javascript",
+                1314
+            ],
+            [
+                "awk",
+                749
+            ],
+            [
+                "makefile",
+                686
+            ],
+            [
+                "lex",
+                374
+            ],
+            [
+                "yacc",
+                161
+            ],
+            [
+                "python",
+                72
+            ],
+            [
+                "xml",
+                1
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apache-team/apache2",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.4.49-1"
+}

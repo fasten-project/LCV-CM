@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CVE-2007-1349",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DBD%3A%3APg_mem_leak_workaround.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1890,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian_libperl_debug_fix.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "r_dir_config_fix.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mod-perl",
+    "package": "apache",
+    "path": "apache/1.3.34-4.1+etch1/debian/patches/mod-perl",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 90,
+        "license": "/copyright/license/apache/1.3.34-4.1+etch1/",
+        "metric": {
+            "size": 4824
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache",
+        "sloc": [
+            [
+                "sh",
+                1273
+            ],
+            [
+                "makefile",
+                686
+            ],
+            [
+                "perl",
+                215
+            ]
+        ],
+        "suites": [
+            "etch"
+        ]
+    },
+    "type": "directory",
+    "version": "1.3.34-4.1+etch1"
+}

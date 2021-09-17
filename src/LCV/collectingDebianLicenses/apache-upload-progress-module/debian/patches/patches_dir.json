@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Add-support-for-Apache-2.4-log-API.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 803,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-unixd_-functions-are-prefixed-with-ap_-in-Apache-2.4.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Add-missing-header-for-tolower-toupper.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Add-missing-header-for-ap_hook_-functions.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 561,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "apache-upload-progress-module",
+    "path": "apache-upload-progress-module/0.2-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apache-upload-progress-module/0.2-2/",
+        "metric": {
+            "size": 284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache-upload-progress-module",
+        "sloc": [
+            [
+                "ansic",
+                3433
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/apache-upload-progress-module.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2-2"
+}

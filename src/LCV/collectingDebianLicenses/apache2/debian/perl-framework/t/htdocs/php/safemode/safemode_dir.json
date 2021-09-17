@@ -1,0 +1,180 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "badenv.php",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "error",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "hello.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "noexec",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "nofile",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "protected.php",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "putenv.php",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readfile.php",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readpass.php",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "system.php",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "safemode",
+    "package": "apache2",
+    "path": "apache2/2.4.49-1/debian/perl-framework/t/htdocs/php/safemode",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apache2/2.4.49-1/",
+        "metric": {
+            "size": 58036
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache2",
+        "sloc": [
+            [
+                "ansic",
+                204296
+            ],
+            [
+                "perl",
+                11325
+            ],
+            [
+                "sh",
+                6141
+            ],
+            [
+                "php",
+                1316
+            ],
+            [
+                "javascript",
+                1314
+            ],
+            [
+                "awk",
+                749
+            ],
+            [
+                "makefile",
+                686
+            ],
+            [
+                "lex",
+                374
+            ],
+            [
+                "yacc",
+                161
+            ],
+            [
+                "python",
+                72
+            ],
+            [
+                "xml",
+                1
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apache-team/apache2",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.4.49-1"
+}

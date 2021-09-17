@@ -1,0 +1,153 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-copy-prefork.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57912,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-rename-prefork-to-itk.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5584,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-add-mpm-to-build-system.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 934,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-correct-output-makefile-location.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-add-copyright.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2047,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-base-functionality.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7957,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-max-clients-per-vhost.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2666,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-capabilities.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-nice.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-handle-waitpid-eintr.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "apache2-mpm-itk",
+    "path": "apache2-mpm-itk/2.2.6-02-1+lenny7/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1,
+        "license": "/copyright/license/apache2-mpm-itk/2.2.6-02-1+lenny7/",
+        "metric": {
+            "size": 224
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache2-mpm-itk",
+        "sloc": [
+            [
+                "makefile",
+                58
+            ],
+            [
+                "sh",
+                52
+            ]
+        ],
+        "suites": [
+            "lenny"
+        ]
+    },
+    "type": "directory",
+    "version": "2.2.6-02-1+lenny7"
+}

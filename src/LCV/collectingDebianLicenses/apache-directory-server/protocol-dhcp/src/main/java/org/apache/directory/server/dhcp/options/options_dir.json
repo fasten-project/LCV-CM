@@ -1,0 +1,220 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AddressListOption.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "AddressOption.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ByteOption.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DhcpOption.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "IntOption.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2338,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OptionsField.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3658,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ShortOption.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "StringOption.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dhcp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "linklayer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 142,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "misc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "package-info.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1031,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "perhost",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "perinterface",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tcp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 145,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "vendor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "options",
+    "package": "apache-directory-server",
+    "path": "apache-directory-server/2.0.0~M24-4/protocol-dhcp/src/main/java/org/apache/directory/server/dhcp/options",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apache-directory-server/2.0.0%7EM24-4/",
+        "metric": {
+            "size": 37180
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache-directory-server",
+        "sloc": [
+            [
+                "java",
+                225080
+            ],
+            [
+                "xml",
+                8871
+            ],
+            [
+                "sh",
+                1598
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/apache-directory-server",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.0~M24-4"
+}
