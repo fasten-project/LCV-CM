@@ -1,0 +1,585 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "AUTHORS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "COPYING",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ChangeLog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "INSTALL",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "NEWS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop.h.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 111046,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_arms.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_asst.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_bootstrap.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_conversions.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_data.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72613,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_db.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_db_mysql.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_db_sqlite.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13528,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_fexact.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55911,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_hist.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_internal.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3834,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_linear_algebra.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22850,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_linear_constraint.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9067,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_mapply.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26120,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_mcmc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16744,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_missing_data.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_mle.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_model.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26753,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_name.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8067,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_output.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15658,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_rake.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30090,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_regression.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_settings.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_sort.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10478,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_stats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_tests.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_update.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apop_vtables.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apophenia.map",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7810,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apophenia.pc.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 320,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asprintf.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cmd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 120,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "configure.ac",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "docs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "eg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "model",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rpm.spec",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "transform",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "1.0+ds-8",
+    "package": "apophenia",
+    "path": "apophenia/1.0+ds-8",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apophenia/1.0+ds-8/",
+        "metric": {
+            "size": 2968
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apophenia",
+        "sloc": [
+            [
+                "ansic",
+                19483
+            ],
+            [
+                "makefile",
+                372
+            ],
+            [
+                "awk",
+                124
+            ],
+            [
+                "sh",
+                105
+            ],
+            [
+                "sed",
+                32
+            ]
+        ],
+        "suites": [
+            "bullseye"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apophenia",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0+ds-8"
+}

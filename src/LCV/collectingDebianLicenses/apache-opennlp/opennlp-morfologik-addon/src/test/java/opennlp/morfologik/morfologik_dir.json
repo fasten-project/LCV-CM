@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "builder",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lemmatizer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tagdict",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "morfologik",
+    "package": "apache-opennlp",
+    "path": "apache-opennlp/1.9.3-1/opennlp-morfologik-addon/src/test/java/opennlp/morfologik",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apache-opennlp/1.9.3-1/",
+        "metric": {
+            "size": 13004
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache-opennlp",
+        "sloc": [
+            [
+                "java",
+                75804
+            ],
+            [
+                "xml",
+                61582
+            ],
+            [
+                "sh",
+                34
+            ],
+            [
+                "makefile",
+                24
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apache-opennlp",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.9.3-1"
+}

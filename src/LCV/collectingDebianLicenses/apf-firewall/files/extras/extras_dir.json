@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dshield",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "get_ports",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "importconf",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "extras",
+    "package": "apf-firewall",
+    "path": "apf-firewall/9.7+rev1-5.1/files/extras",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apf-firewall/9.7+rev1-5.1/",
+        "metric": {
+            "size": 536
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apf-firewall",
+        "sloc": [
+            [
+                "sh",
+                2065
+            ],
+            [
+                "makefile",
+                41
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "9.7+rev1-5.1"
+}

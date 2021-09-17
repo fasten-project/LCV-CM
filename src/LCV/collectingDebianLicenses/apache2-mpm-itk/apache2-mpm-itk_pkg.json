@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "COPYRIGHT",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31777,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "patches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "2.2.6-02-1+lenny7",
+    "package": "apache2-mpm-itk",
+    "path": "apache2-mpm-itk/2.2.6-02-1+lenny7",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1,
+        "license": "/copyright/license/apache2-mpm-itk/2.2.6-02-1+lenny7/",
+        "metric": {
+            "size": 224
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache2-mpm-itk",
+        "sloc": [
+            [
+                "makefile",
+                58
+            ],
+            [
+                "sh",
+                52
+            ]
+        ],
+        "suites": [
+            "lenny"
+        ]
+    },
+    "type": "directory",
+    "version": "2.2.6-02-1+lenny7"
+}

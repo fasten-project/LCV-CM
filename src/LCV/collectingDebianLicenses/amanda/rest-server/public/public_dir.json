@@ -1,0 +1,167 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "404.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "500.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "css",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dispatch.cgi",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dispatch.fcgi",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "favicon.ico",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "images",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "javascripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "public",
+    "package": "amanda",
+    "path": "amanda/1:3.5.1-8/rest-server/public",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amanda/1:3.5.1-8/",
+        "metric": {
+            "size": 30836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amanda",
+        "sloc": [
+            [
+                "ansic",
+                265630
+            ],
+            [
+                "perl",
+                114269
+            ],
+            [
+                "xml",
+                16058
+            ],
+            [
+                "sh",
+                8667
+            ],
+            [
+                "makefile",
+                2795
+            ],
+            [
+                "awk",
+                502
+            ],
+            [
+                "lex",
+                407
+            ],
+            [
+                "yacc",
+                347
+            ],
+            [
+                "javascript",
+                135
+            ],
+            [
+                "tcl",
+                118
+            ],
+            [
+                "sql",
+                19
+            ],
+            [
+                "sed",
+                16
+            ],
+            [
+                "php",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/amanda",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:3.5.1-8"
+}

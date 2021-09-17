@@ -1,0 +1,226 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Kconfig",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 771,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aloop-kernel.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aloop.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 66,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dummy.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mpu401",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mtpav.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mts64.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 967,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opl3",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "opl4",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 126,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pcsp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "portman2x4.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 949,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "serial-u16550.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 90,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "serialmidi.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "virmidi.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vx",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 116,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "drivers",
+    "package": "alsa-driver",
+    "path": "alsa-driver/1.0.23+dfsg-2/drivers",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 77491,
+        "license": "/copyright/license/alsa-driver/1.0.23+dfsg-2/",
+        "metric": {
+            "size": 28448
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alsa-driver",
+        "sloc": [
+            [
+                "ansic",
+                473525
+            ],
+            [
+                "sh",
+                3307
+            ],
+            [
+                "makefile",
+                2661
+            ],
+            [
+                "python",
+                1527
+            ],
+            [
+                "perl",
+                1316
+            ],
+            [
+                "awk",
+                66
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://svn.debian.org/wsvn/pkg-alsa/trunk/alsa-driver/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.0.23+dfsg-2"
+}

@@ -1,0 +1,255 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa-enabled.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa-enabled.pod",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa-exec.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa-exec.pod",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2936,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa-features-abi.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa-features-abi.pod",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa-status.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa-status.pod",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa_enabled.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa_exec.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5478,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa_features_abi.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa_status.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17814,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cJSON.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cJSON.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "po",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "binutils",
+    "package": "apparmor",
+    "path": "apparmor/3.0.3-2/binutils",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apparmor/3.0.3-2/",
+        "metric": {
+            "size": 29116
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apparmor",
+        "sloc": [
+            [
+                "ansic",
+                21429
+            ],
+            [
+                "python",
+                20615
+            ],
+            [
+                "sh",
+                10677
+            ],
+            [
+                "cpp",
+                5732
+            ],
+            [
+                "yacc",
+                2067
+            ],
+            [
+                "makefile",
+                1745
+            ],
+            [
+                "perl",
+                1256
+            ],
+            [
+                "lex",
+                1131
+            ],
+            [
+                "pascal",
+                1098
+            ],
+            [
+                "ruby",
+                374
+            ],
+            [
+                "exp",
+                250
+            ],
+            [
+                "java",
+                212
+            ],
+            [
+                "xml",
+                159
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apparmor-team/apparmor/tree/debian/experimental",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.3-2"
+}

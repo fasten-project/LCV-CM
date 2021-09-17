@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001Remove_copying_modes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002Fix-dictionary-files.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 408607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "apertium-cy-en",
+    "path": "apertium-cy-en/0.1.1~r57554-7/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apertium-cy-en/0.1.1%7Er57554-7/",
+        "metric": {
+            "size": 9364
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apertium-cy-en",
+        "sloc": [
+            [
+                "xml",
+                199
+            ],
+            [
+                "makefile",
+                105
+            ],
+            [
+                "sh",
+                57
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apertium-cy-en",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.1~r57554-7"
+}

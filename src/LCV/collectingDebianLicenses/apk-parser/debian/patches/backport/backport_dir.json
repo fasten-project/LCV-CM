@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "02-Parse-the-debuggable-information.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-Don-t-crash-with-a-buffer-underflow-when-packageCount-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-README-reworked.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "backport",
+    "package": "apk-parser",
+    "path": "apk-parser/2.6.10+ds-4/debian/patches/backport",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apk-parser/2.6.10+ds-4/",
+        "metric": {
+            "size": 996
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apk-parser",
+        "sloc": [
+            [
+                "java",
+                7397
+            ],
+            [
+                "xml",
+                167
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/apk-parser",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6.10+ds-4"
+}

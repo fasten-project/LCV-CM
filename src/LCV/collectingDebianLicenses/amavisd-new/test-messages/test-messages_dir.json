@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sample.tar.gz.compl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test-messages",
+    "package": "amavisd-new",
+    "path": "amavisd-new/1:2.11.1-5/test-messages",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amavisd-new/1:2.11.1-5/",
+        "metric": {
+            "size": 12440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amavisd-new",
+        "sloc": [
+            [
+                "perl",
+                33785
+            ],
+            [
+                "sh",
+                523
+            ],
+            [
+                "sql",
+                158
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/amavisd-new",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.11.1-5"
+}

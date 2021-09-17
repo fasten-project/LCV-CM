@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "LICENSE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.org",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apache-mode.el",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42354,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "2.2.0-3",
+    "package": "apache-mode-el",
+    "path": "apache-mode-el/2.2.0-3",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apache-mode-el/2.2.0-3/",
+        "metric": {
+            "size": 176
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache-mode-el",
+        "sloc": [
+            [
+                "lisp",
+                2252
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/emacsen-team/apache-mode-el",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.2.0-3"
+}

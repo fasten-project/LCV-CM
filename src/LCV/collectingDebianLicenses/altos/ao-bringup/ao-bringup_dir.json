@@ -1,0 +1,744 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".gitignore",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ao_bringup.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 948,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ao_init.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 899,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ao_led_blink.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ao_radio_init.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ao_radio_test.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ao_radio_xmit.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cal-accel",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2056,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cal-freq",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cal-freq-file",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-telebt",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get-radio-cal",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "telemega.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "telemega.gdb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-baro",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-chaoskey",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-easymega",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-easymega-v1.0",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-easymini",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-easymotor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 720,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-easytimer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 645,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-flash",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-gps",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1820,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-igniter",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-igniters",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-igniters-nowait",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 372,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-telegps-v1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-telegps-v2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-telemega",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-telemega-v1.0",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-telemega-v2.0",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-telemega-v3.0",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-telemetrum",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-telemetrum-v2.0",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-telemini",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testplan",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_chaoskey",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 753,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_easymega",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1331,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_easymega_v1.0",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_easymini",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_easymotor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_easytimer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telebt",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telebt_v1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telebt_v3",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_teledongle",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_teledongle_v0.2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telefireeight",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telegps",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telegps_v1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telelco",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telemega",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telemega_v1.0",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1164,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telemega_v2.0",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1401,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telemega_v3.0",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1401,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telemetrum",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telemetrum_v1.1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telemetrum_v2.0",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_telemini",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1526,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_teleminiv2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_teleshield",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "turnon_teleterra",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ao-bringup",
+    "package": "altos",
+    "path": "altos/1.9.7-2/ao-bringup",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/altos/1.9.7-2/",
+        "metric": {
+            "size": 71120
+        },
+        "pts_link": "https://tracker.debian.org/pkg/altos",
+        "sloc": [
+            [
+                "ansic",
+                99507
+            ],
+            [
+                "java",
+                41267
+            ],
+            [
+                "makefile",
+                7089
+            ],
+            [
+                "sh",
+                3743
+            ],
+            [
+                "xml",
+                2069
+            ],
+            [
+                "pascal",
+                1947
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "http://git.gag.com/?p=fw/altos",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.9.7-2"
+}

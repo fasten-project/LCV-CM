@@ -1,0 +1,227 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CVS",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "exim_args",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exim_init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 178,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exim_send",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 433,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libmilter_args",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libmilter_init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libmilter_send",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postfix_args",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postfix_init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postfix_send",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 542,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postfix_send_smtp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4334,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "qmail_args",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "qmail_init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "qmail_send",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sendmail_args",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sendmail_init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sendmail_send",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mta",
+    "package": "amavis",
+    "path": "amavis/0.3.12pre5.20020310-5/amavis/mta",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 577,
+        "license": "/copyright/license/amavis/0.3.12pre5.20020310-5/",
+        "metric": {
+            "size": 1644
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amavis",
+        "sloc": [
+            [
+                "sh",
+                3492
+            ],
+            [
+                "ansic",
+                955
+            ],
+            [
+                "perl",
+                933
+            ],
+            [
+                "makefile",
+                137
+            ]
+        ],
+        "suites": [
+            "woody"
+        ]
+    },
+    "type": "directory",
+    "version": "0.3.12pre5.20020310-5"
+}

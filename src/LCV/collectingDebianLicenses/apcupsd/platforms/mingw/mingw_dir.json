@@ -1,0 +1,199 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apccontrol.bat",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apcupsd.cat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apcupsd.conf.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13088,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apcupsd.inf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4744,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apcupsd_x64.cat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build-win32-cross-tools",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 12769,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "commfailure.vbs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3865,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3819,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "installer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "offbattery.vbs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4116,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "onbattery.vbs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "winusb",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "mingw",
+    "package": "apcupsd",
+    "path": "apcupsd/3.14.14-3.1/platforms/mingw",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apcupsd/3.14.14-3.1/",
+        "metric": {
+            "size": 7480
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apcupsd",
+        "sloc": [
+            [
+                "ansic",
+                24826
+            ],
+            [
+                "cpp",
+                9230
+            ],
+            [
+                "sh",
+                4484
+            ],
+            [
+                "makefile",
+                1189
+            ],
+            [
+                "tcl",
+                368
+            ],
+            [
+                "objc",
+                317
+            ],
+            [
+                "php",
+                107
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/alteholz/apcupsd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.14.14-3.1"
+}

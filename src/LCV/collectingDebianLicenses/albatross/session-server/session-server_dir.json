@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".cvsignore",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TODO",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 382,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "al-session-daemon",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8425,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rc.d-script",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 868,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "session-server",
+    "package": "albatross",
+    "path": "albatross/1.36-5.5/session-server",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1822,
+        "license": "/copyright/license/albatross/1.36-5.5/",
+        "metric": {
+            "size": 2472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/albatross",
+        "sloc": [
+            [
+                "python",
+                7437
+            ],
+            [
+                "makefile",
+                149
+            ],
+            [
+                "sh",
+                132
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ]
+    },
+    "type": "directory",
+    "version": "1.36-5.5"
+}

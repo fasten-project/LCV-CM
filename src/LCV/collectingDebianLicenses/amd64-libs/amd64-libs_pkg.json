@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fetch-and-build",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pkgs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 78,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sources.list.deb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "srcs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 106,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "1.4+nmu1",
+    "package": "amd64-libs",
+    "path": "amd64-libs/1.4+nmu1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 2,
+        "license": "/copyright/license/amd64-libs/1.4+nmu1/",
+        "metric": {
+            "size": 832
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amd64-libs",
+        "sloc": [
+            [
+                "sh",
+                302
+            ],
+            [
+                "makefile",
+                54
+            ]
+        ],
+        "suites": [
+            "lenny",
+            "squeeze"
+        ]
+    },
+    "type": "directory",
+    "version": "1.4+nmu1"
+}

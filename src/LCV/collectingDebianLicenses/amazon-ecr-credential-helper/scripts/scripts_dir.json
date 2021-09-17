@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build_binary.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_variant.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gogenerate",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hack",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "shared_env",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 983,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "amazon-ecr-credential-helper",
+    "path": "amazon-ecr-credential-helper/0.5.0-1/scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amazon-ecr-credential-helper/0.5.0-1/",
+        "metric": {
+            "size": 380
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amazon-ecr-credential-helper",
+        "sloc": [
+            [
+                "makefile",
+                101
+            ],
+            [
+                "sh",
+                92
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/awslabs/amazon-ecr-credential-helper/tree/debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.0-1"
+}

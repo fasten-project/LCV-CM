@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-fix-sequence-typo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-add-documentation-for-systemd-unit",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30_fix-build-with-boost1.74.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "anytun",
+    "path": "anytun/0.3.8-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/anytun/0.3.8-1/",
+        "metric": {
+            "size": 1492
+        },
+        "pts_link": "https://tracker.debian.org/pkg/anytun",
+        "sloc": [
+            [
+                "cpp",
+                9225
+            ],
+            [
+                "sh",
+                712
+            ],
+            [
+                "makefile",
+                398
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/anytun",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.8-1"
+}

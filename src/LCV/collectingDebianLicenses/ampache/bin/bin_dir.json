@@ -1,0 +1,162 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".htaccess",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "catalog_update.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4735,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "delete_disabled.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dump_album_art.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1415,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_filenames.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "migrate_config.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print_tags.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sort_files.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_playlists.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1973,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_tags.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bin",
+    "package": "ampache",
+    "path": "ampache/3.6-rzb2752+dfsg-5/bin",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 7947,
+        "license": "/copyright/license/ampache/3.6-rzb2752+dfsg-5/",
+        "metric": {
+            "size": 7240
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ampache",
+        "sloc": [
+            [
+                "php",
+                29813
+            ],
+            [
+                "sql",
+                894
+            ],
+            [
+                "sh",
+                119
+            ],
+            [
+                "makefile",
+                45
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ]
+    },
+    "type": "directory",
+    "version": "3.6-rzb2752+dfsg-5"
+}

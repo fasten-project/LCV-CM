@@ -1,0 +1,188 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "av1_txfm_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blend_a64_hmask_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blend_a64_vmask_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5822,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cfl_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "convolve_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "convolve_neon.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7732,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "intrapred_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jnt_convolve_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52084,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mem_neon.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reconinter_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "transpose_neon.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17008,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wiener_convolve_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14501,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "arm",
+    "package": "aom",
+    "path": "aom/1.0.0.errata1-3/av1/common/arm",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aom/1.0.0.errata1-3/",
+        "metric": {
+            "size": 19056
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aom",
+        "sloc": [
+            [
+                "ansic",
+                209262
+            ],
+            [
+                "cpp",
+                91816
+            ],
+            [
+                "asm",
+                11682
+            ],
+            [
+                "python",
+                3376
+            ],
+            [
+                "perl",
+                1816
+            ],
+            [
+                "sh",
+                1335
+            ],
+            [
+                "makefile",
+                38
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/aom",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.0.errata1-3"
+}

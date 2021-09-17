@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "images",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "templates",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "theme.cfg.php",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1959,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "coda",
+    "package": "ampache-themes",
+    "path": "ampache-themes/3.6.1-2/coda",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ampache-themes/3.6.1-2/",
+        "metric": {
+            "size": 14216
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ampache-themes",
+        "sloc": [
+            [
+                "php",
+                15
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "3.6.1-2"
+}

@@ -1,0 +1,123 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-UBUNTU-SAUCE-AppArmor-Add-profile-introspection-file.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-UBUNTU-SAUCE-AppArmor-basic-networking-rules.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17961,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-apparmor-Fix-quieting-of-audit-messages-for-network-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-UBUNTU-SAUCE-apparmor-Add-the-ability-to-mediate-mou.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "3.10",
+    "package": "apparmor",
+    "path": "apparmor/3.0.3-2/kernel-patches/3.10",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apparmor/3.0.3-2/",
+        "metric": {
+            "size": 29116
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apparmor",
+        "sloc": [
+            [
+                "ansic",
+                21429
+            ],
+            [
+                "python",
+                20615
+            ],
+            [
+                "sh",
+                10677
+            ],
+            [
+                "cpp",
+                5732
+            ],
+            [
+                "yacc",
+                2067
+            ],
+            [
+                "makefile",
+                1745
+            ],
+            [
+                "perl",
+                1256
+            ],
+            [
+                "lex",
+                1131
+            ],
+            [
+                "pascal",
+                1098
+            ],
+            [
+                "ruby",
+                374
+            ],
+            [
+                "exp",
+                250
+            ],
+            [
+                "java",
+                212
+            ],
+            [
+                "xml",
+                159
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apparmor-team/apparmor/tree/debian/experimental",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.3-2"
+}

@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "configure.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "const.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 411,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "desktop.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 834,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mayhem-segfault.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "support-runstatedir-option.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2178,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "amoebax",
+    "path": "amoebax/0.2.1+dfsg-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amoebax/0.2.1+dfsg-5/",
+        "metric": {
+            "size": 12976
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amoebax",
+        "sloc": [
+            [
+                "cpp",
+                14521
+            ],
+            [
+                "sh",
+                3739
+            ],
+            [
+                "makefile",
+                450
+            ],
+            [
+                "objc",
+                157
+            ],
+            [
+                "ansic",
+                99
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/amoebax",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.1+dfsg-5"
+}

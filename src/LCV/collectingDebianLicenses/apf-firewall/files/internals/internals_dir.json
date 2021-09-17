@@ -1,0 +1,134 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "compat.0.9.5",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 312,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cports.common",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "functions.apf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "icmp.types",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "internals.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multicast.networks",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "private.networks",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rab.ports",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reserved.networks",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 829,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "internals",
+    "package": "apf-firewall",
+    "path": "apf-firewall/9.7+rev1-5.1/files/internals",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apf-firewall/9.7+rev1-5.1/",
+        "metric": {
+            "size": 536
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apf-firewall",
+        "sloc": [
+            [
+                "sh",
+                2065
+            ],
+            [
+                "makefile",
+                41
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "9.7+rev1-5.1"
+}

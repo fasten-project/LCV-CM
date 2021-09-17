@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "clang-ftbfs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 860,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-path-for-data.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-segfault-on-non-fasta-input.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hardening.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4230,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mayhem.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ampliconnoise",
+    "path": "ampliconnoise/1.29-9/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ampliconnoise/1.29-9/",
+        "metric": {
+            "size": 6040
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ampliconnoise",
+        "sloc": [
+            [
+                "ansic",
+                18080
+            ],
+            [
+                "sh",
+                2899
+            ],
+            [
+                "perl",
+                2089
+            ],
+            [
+                "makefile",
+                235
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/ampliconnoise",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.29-9"
+}

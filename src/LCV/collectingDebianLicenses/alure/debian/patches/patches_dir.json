@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Link-FLAC-correctly.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compiler-flags-change.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-build-with-gcc-4.7.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alure",
+    "path": "alure/1.2-7/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alure/1.2-7/",
+        "metric": {
+            "size": 868
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alure",
+        "sloc": [
+            [
+                "cpp",
+                4333
+            ],
+            [
+                "ansic",
+                629
+            ],
+            [
+                "javascript",
+                535
+            ],
+            [
+                "makefile",
+                41
+            ],
+            [
+                "sh",
+                35
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/alure",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2-7"
+}

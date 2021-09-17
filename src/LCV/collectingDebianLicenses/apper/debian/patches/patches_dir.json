@@ -1,0 +1,154 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_Install-apper-binary-as-TARGET-instead-of-PROGRAM.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 994,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_fix-build-with-editorigins.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 680,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_Update-AppStream-metainfo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_Fix-build-against-Qt-5.11.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_Fix-proxy-file-watching.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_Fix-apperd-metadata.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 529,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_Removed-background-gradient.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_Fix-postupdate-crash-iterator.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 904,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09_Fix-FTBFS-Qt5_14.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "apper",
+    "path": "apper/1.0.0-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apper/1.0.0-3/",
+        "metric": {
+            "size": 9968
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apper",
+        "sloc": [
+            [
+                "cpp",
+                14382
+            ],
+            [
+                "xml",
+                970
+            ],
+            [
+                "makefile",
+                15
+            ],
+            [
+                "sh",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkgutopia-team/apper",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.0-3"
+}

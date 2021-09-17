@@ -1,0 +1,193 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".htaccess",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 501,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "alpine",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 122,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "alpine.tcl",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 20,
+                "symlink_dest": "../config/alpine.tcl",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "favicon.ico",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "greeting.tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "images",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "motd.sample",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pub",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 113,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "session",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sounds",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tclsh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 12,
+                "symlink_dest": "../bin/tclsh",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "cgi",
+    "package": "alpine",
+    "path": "alpine/2.24+dfsg1-1/web/cgi",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alpine/2.24+dfsg1-1/",
+        "metric": {
+            "size": 36496
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alpine",
+        "sloc": [
+            [
+                "ansic",
+                365361
+            ],
+            [
+                "tcl",
+                26295
+            ],
+            [
+                "sh",
+                4910
+            ],
+            [
+                "javascript",
+                3789
+            ],
+            [
+                "makefile",
+                1926
+            ],
+            [
+                "perl",
+                159
+            ],
+            [
+                "python",
+                119
+            ],
+            [
+                "xml",
+                93
+            ],
+            [
+                "exp",
+                69
+            ],
+            [
+                "sed",
+                16
+            ],
+            [
+                "cpp",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/alpine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.24+dfsg1-1"
+}

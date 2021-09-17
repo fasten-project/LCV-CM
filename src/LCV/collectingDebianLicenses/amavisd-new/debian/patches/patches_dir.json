@@ -1,0 +1,165 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0009-Fix-an-unescaped-brace-in-amavisd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 765,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0010-fix-882324.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1027,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20_safe_path_at_init.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 846,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30_conf.d_support_builtin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "40_fix_paths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "45_misc_doc_changes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2763,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "60-amavisd-snmp-subagent_paths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "85-clarify_fqdn_error.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 796,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "90_fix_snmp_subagent_warning",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "95_amavisd_helpers_fixes",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "amavisd-new",
+    "path": "amavisd-new/1:2.11.1-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amavisd-new/1:2.11.1-5/",
+        "metric": {
+            "size": 12440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amavisd-new",
+        "sloc": [
+            [
+                "perl",
+                33785
+            ],
+            [
+                "sh",
+                523
+            ],
+            [
+                "sql",
+                158
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/amavisd-new",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.11.1-5"
+}

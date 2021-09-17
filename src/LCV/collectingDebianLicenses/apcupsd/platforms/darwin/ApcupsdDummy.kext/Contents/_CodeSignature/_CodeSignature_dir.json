@@ -1,0 +1,100 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CodeDirectory",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CodeRequirements",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CodeResources",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2004,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CodeSignature",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "_CodeSignature",
+    "package": "apcupsd",
+    "path": "apcupsd/3.14.14-3.1/platforms/darwin/ApcupsdDummy.kext/Contents/_CodeSignature",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apcupsd/3.14.14-3.1/",
+        "metric": {
+            "size": 7480
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apcupsd",
+        "sloc": [
+            [
+                "ansic",
+                24826
+            ],
+            [
+                "cpp",
+                9230
+            ],
+            [
+                "sh",
+                4484
+            ],
+            [
+                "makefile",
+                1189
+            ],
+            [
+                "tcl",
+                368
+            ],
+            [
+                "objc",
+                317
+            ],
+            [
+                "php",
+                107
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/alteholz/apcupsd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.14.14-3.1"
+}

@@ -1,0 +1,121 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bil",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "corpus-stat-en-eo.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1090,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "corpus-stat-eo-en.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2095,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elpaki.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "enwiki.crp.txt.bz2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 746614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "eowiki.crp.txt.bz2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 783619,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "esperantowiki-xml2txt.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "corpa",
+    "package": "apertium-eo-en",
+    "path": "apertium-eo-en/1.0.0~r63833-3/corpa",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apertium-eo-en/1.0.0%7Er63833-3/",
+        "metric": {
+            "size": 28044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apertium-eo-en",
+        "sloc": [
+            [
+                "xml",
+                32398
+            ],
+            [
+                "python",
+                364
+            ],
+            [
+                "sh",
+                318
+            ],
+            [
+                "makefile",
+                131
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apertium-eo-en",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.0~r63833-3"
+}

@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "doc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pith",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "40_fix_browser_hardcoded_paths.patch",
+    "package": "alpine",
+    "path": "alpine/2.24+dfsg1-1/.pc/40_fix_browser_hardcoded_paths.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alpine/2.24+dfsg1-1/",
+        "metric": {
+            "size": 36496
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alpine",
+        "sloc": [
+            [
+                "ansic",
+                365361
+            ],
+            [
+                "tcl",
+                26295
+            ],
+            [
+                "sh",
+                4910
+            ],
+            [
+                "javascript",
+                3789
+            ],
+            [
+                "makefile",
+                1926
+            ],
+            [
+                "perl",
+                159
+            ],
+            [
+                "python",
+                119
+            ],
+            [
+                "xml",
+                93
+            ],
+            [
+                "exp",
+                69
+            ],
+            [
+                "sed",
+                16
+            ],
+            [
+                "cpp",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/alpine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.24+dfsg1-1"
+}

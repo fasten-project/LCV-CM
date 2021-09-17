@@ -1,0 +1,156 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian-only",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-6cfc6eee-python-3.10.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "apparmor",
+    "path": "apparmor/3.0.3-2/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apparmor/3.0.3-2/",
+        "metric": {
+            "size": 29116
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apparmor",
+        "sloc": [
+            [
+                "ansic",
+                21429
+            ],
+            [
+                "python",
+                20615
+            ],
+            [
+                "sh",
+                10677
+            ],
+            [
+                "cpp",
+                5732
+            ],
+            [
+                "yacc",
+                2067
+            ],
+            [
+                "makefile",
+                1745
+            ],
+            [
+                "perl",
+                1256
+            ],
+            [
+                "lex",
+                1131
+            ],
+            [
+                "pascal",
+                1098
+            ],
+            [
+                "ruby",
+                374
+            ],
+            [
+                "exp",
+                250
+            ],
+            [
+                "java",
+                212
+            ],
+            [
+                "xml",
+                159
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apparmor-team/apparmor/tree/debian/experimental",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.3-2"
+}

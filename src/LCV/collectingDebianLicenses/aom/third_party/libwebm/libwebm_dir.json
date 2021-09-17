@@ -1,0 +1,144 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AUTHORS.TXT",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Android.mk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 584,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LICENSE.TXT",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PATENTS.TXT",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.libaom",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mkvmuxer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mkvparser",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "libwebm",
+    "package": "aom",
+    "path": "aom/1.0.0.errata1-3/third_party/libwebm",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aom/1.0.0.errata1-3/",
+        "metric": {
+            "size": 19056
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aom",
+        "sloc": [
+            [
+                "ansic",
+                209262
+            ],
+            [
+                "cpp",
+                91816
+            ],
+            [
+                "asm",
+                11682
+            ],
+            [
+                "python",
+                3376
+            ],
+            [
+                "perl",
+                1816
+            ],
+            [
+                "sh",
+                1335
+            ],
+            [
+                "makefile",
+                38
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/aom",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.0.errata1-3"
+}

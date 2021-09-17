@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "format",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include-binaries",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "source",
+    "package": "apophenia",
+    "path": "apophenia/1.0+ds-8/debian/source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apophenia/1.0+ds-8/",
+        "metric": {
+            "size": 2968
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apophenia",
+        "sloc": [
+            [
+                "ansic",
+                19483
+            ],
+            [
+                "makefile",
+                372
+            ],
+            [
+                "awk",
+                124
+            ],
+            [
+                "sh",
+                105
+            ],
+            [
+                "sed",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apophenia",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0+ds-8"
+}

@@ -1,0 +1,160 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile.global.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.module.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "httptime.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ld-fix.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ns.mak.in.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2342,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nsinstall-man.sh.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nsproxy.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tcl8.6.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aolserver4",
+    "path": "aolserver4/4.5.1-18.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aolserver4/4.5.1-18.1/",
+        "metric": {
+            "size": 12008
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aolserver4",
+        "sloc": [
+            [
+                "ansic",
+                45126
+            ],
+            [
+                "tcl",
+                5533
+            ],
+            [
+                "sh",
+                1037
+            ],
+            [
+                "makefile",
+                380
+            ],
+            [
+                "pascal",
+                219
+            ],
+            [
+                "php",
+                13
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "http://svn.debian.org/viewsvn/collab-maint/deb-maint/aolserver/aolserver4/trunk",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "4.5.1-18.1"
+}

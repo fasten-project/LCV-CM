@@ -1,0 +1,127 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "alpine.tcl",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 13,
+                "symlink_dest": "../alpine.tcl",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "getach.tcl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2711,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "standard.css",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2750,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "standard.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tclsh",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 8,
+                "symlink_dest": "../tclsh",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "pub",
+    "package": "alpine",
+    "path": "alpine/2.24+dfsg1-1/web/cgi/pub",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alpine/2.24+dfsg1-1/",
+        "metric": {
+            "size": 36496
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alpine",
+        "sloc": [
+            [
+                "ansic",
+                365361
+            ],
+            [
+                "tcl",
+                26295
+            ],
+            [
+                "sh",
+                4910
+            ],
+            [
+                "javascript",
+                3789
+            ],
+            [
+                "makefile",
+                1926
+            ],
+            [
+                "perl",
+                159
+            ],
+            [
+                "python",
+                119
+            ],
+            [
+                "xml",
+                93
+            ],
+            [
+                "exp",
+                69
+            ],
+            [
+                "sed",
+                16
+            ],
+            [
+                "cpp",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/alpine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.24+dfsg1-1"
+}

@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "etc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "platforms",
+    "package": "apcupsd",
+    "path": "apcupsd/3.14.14-3.1/.pc/14-update-conf.patch/platforms",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apcupsd/3.14.14-3.1/",
+        "metric": {
+            "size": 7480
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apcupsd",
+        "sloc": [
+            [
+                "ansic",
+                24826
+            ],
+            [
+                "cpp",
+                9230
+            ],
+            [
+                "sh",
+                4484
+            ],
+            [
+                "makefile",
+                1189
+            ],
+            [
+                "tcl",
+                368
+            ],
+            [
+                "objc",
+                317
+            ],
+            [
+                "php",
+                107
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/alteholz/apcupsd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.14.14-3.1"
+}

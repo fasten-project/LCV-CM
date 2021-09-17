@@ -1,0 +1,169 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "adj-sint-consistency.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "analyse-all-stages.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cross",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 101,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lex-learn-unigram.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "precommit-testvoc.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1243,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "swe-noun-consistency.awk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "swe-verb-consistency.awk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testvoc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 113,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "vr-fix-bidix.awk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 880,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wikidata.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wikipedia.nouns.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "dev",
+    "package": "apertium-swe-nor",
+    "path": "apertium-swe-nor/0.3.1-1/dev",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apertium-swe-nor/0.3.1-1/",
+        "metric": {
+            "size": 50056
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apertium-swe-nor",
+        "sloc": [
+            [
+                "sh",
+                735
+            ],
+            [
+                "xml",
+                459
+            ],
+            [
+                "makefile",
+                371
+            ],
+            [
+                "awk",
+                160
+            ],
+            [
+                "python",
+                108
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apertium-swe-nor",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.1-1"
+}

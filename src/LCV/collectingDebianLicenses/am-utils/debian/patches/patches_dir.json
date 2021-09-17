@@ -1,0 +1,181 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix-texi.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "force-autofs4.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "force-nfs-mount-version-4.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernel-version.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 952,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "localconfig-link.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "localconfig.h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mk-amd-map_tmpfile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3887,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pawd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "recent_libtool.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sun2amd-manpage-section.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-real-hostname-in-mount-struct.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "am-utils",
+    "path": "am-utils/6.2+rc20110530-3.2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/am-utils/6.2+rc20110530-3.2/",
+        "metric": {
+            "size": 6188
+        },
+        "pts_link": "https://tracker.debian.org/pkg/am-utils",
+        "sloc": [
+            [
+                "ansic",
+                40635
+            ],
+            [
+                "sh",
+                13284
+            ],
+            [
+                "perl",
+                2429
+            ],
+            [
+                "makefile",
+                884
+            ],
+            [
+                "lex",
+                722
+            ],
+            [
+                "yacc",
+                594
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ]
+    },
+    "type": "directory",
+    "version": "6.2+rc20110530-3.2"
+}

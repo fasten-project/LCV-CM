@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "index.bare.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1951,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "messaging.bare.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "security.bare.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3959,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "transactions.bare.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "transport.bare.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11377,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "types.bare.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "1-0r0-3.1",
+    "package": "amqp-specs",
+    "path": "amqp-specs/1-0r0-3.1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amqp-specs/1-0r0-3.1/",
+        "metric": {
+            "size": 664
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amqp-specs",
+        "sloc": [
+            [
+                "xml",
+                8807
+            ],
+            [
+                "makefile",
+                14
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/collab-maint/amqp-specs.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1-0r0-3.1"
+}

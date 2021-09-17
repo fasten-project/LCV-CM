@@ -1,0 +1,155 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "blend_a64_mask_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fwd_txfm_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "intrapred_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "loopfilter_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26867,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sad4d_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9695,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sad_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subpel_variance_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6086,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subtract_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "variance_neon.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14479,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "arm",
+    "package": "aom",
+    "path": "aom/1.0.0.errata1-3/aom_dsp/arm",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aom/1.0.0.errata1-3/",
+        "metric": {
+            "size": 19056
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aom",
+        "sloc": [
+            [
+                "ansic",
+                209262
+            ],
+            [
+                "cpp",
+                91816
+            ],
+            [
+                "asm",
+                11682
+            ],
+            [
+                "python",
+                3376
+            ],
+            [
+                "perl",
+                1816
+            ],
+            [
+                "sh",
+                1335
+            ],
+            [
+                "makefile",
+                38
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/aom",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.0.errata1-3"
+}

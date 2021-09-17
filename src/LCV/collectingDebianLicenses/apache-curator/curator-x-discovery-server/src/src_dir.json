@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "main",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "site",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "src",
+    "package": "apache-curator",
+    "path": "apache-curator/2.7.1-3/curator-x-discovery-server/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apache-curator/2.7.1-3/",
+        "metric": {
+            "size": 5924
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apache-curator",
+        "sloc": [
+            [
+                "java",
+                38526
+            ],
+            [
+                "xml",
+                1337
+            ],
+            [
+                "sh",
+                40
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/apache-curator",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.7.1-3"
+}

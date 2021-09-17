@@ -1,0 +1,229 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "check-all.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rt-tester.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2-l1-2rt-sameprio.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1613,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2-l1-pi.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2-l1-signal.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t2-l2-2rt-deadlock.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1484,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3-l1-pi-1rt.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3-l1-pi-2rt.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1566,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3-l1-pi-3rt.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3-l1-pi-signal.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1706,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3-l1-pi-steal.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1715,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t3-l2-pi.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t4-l2-pi-deboost.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t5-l4-pi-boost-deboost-setsched.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3050,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t5-l4-pi-boost-deboost.tst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "rt-tester",
+    "package": "apex",
+    "path": "apex/1.6.10/scripts/rt-tester",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 14682,
+        "license": "/copyright/license/apex/1.6.10/",
+        "metric": {
+            "size": 13624
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apex",
+        "sloc": [
+            [
+                "ansic",
+                195323
+            ],
+            [
+                "cpp",
+                4449
+            ],
+            [
+                "perl",
+                4109
+            ],
+            [
+                "makefile",
+                1665
+            ],
+            [
+                "sh",
+                1256
+            ],
+            [
+                "yacc",
+                967
+            ],
+            [
+                "asm",
+                952
+            ],
+            [
+                "lex",
+                739
+            ],
+            [
+                "python",
+                286
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "squeeze",
+            "stretch",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "1.6.10"
+}
