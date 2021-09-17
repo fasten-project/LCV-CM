@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "create_file",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "paml",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "paup",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "phylip",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 116,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "test",
+    "package": "altree",
+    "path": "altree/1.3.1-10/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/altree/1.3.1-10/",
+        "metric": {
+            "size": 11044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/altree",
+        "sloc": [
+            [
+                "perl",
+                3482
+            ],
+            [
+                "ansic",
+                1716
+            ],
+            [
+                "sh",
+                187
+            ],
+            [
+                "pascal",
+                66
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/altree",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3.1-10"
+}

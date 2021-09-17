@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manpage-typos",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "manpage-users",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pidfile-location",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "amavisd-milter",
+    "path": "amavisd-milter/1.7.1-2/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amavisd-milter/1.7.1-2/",
+        "metric": {
+            "size": 480
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amavisd-milter",
+        "sloc": [
+            [
+                "ansic",
+                3109
+            ],
+            [
+                "makefile",
+                98
+            ],
+            [
+                "sh",
+                97
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/haraldj-guest/amavisd-milter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.1-2"
+}

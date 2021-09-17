@@ -1,0 +1,86 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ASUS%20Google%20Nexus%207%20ALC5642.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 38,
+                "symlink_dest": "../../Tegra/rt5640/Google-Nexus-7.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Acer%20Iconia%20Tab%20A500%20WM8903.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 33,
+                "symlink_dest": "../../Tegra/wm8903/Acer-A500.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Compal%20PAZ00.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 32,
+                "symlink_dest": "../../Tegra/alc5632/alc5632.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GoogleNyanBig.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 34,
+                "symlink_dest": "../../Tegra/max98090/max98090.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GoogleNyanBlaze.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 34,
+                "symlink_dest": "../../Tegra/max98090/max98090.conf",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tegra",
+    "package": "alsa-ucm-conf",
+    "path": "alsa-ucm-conf/1.2.5.1-1/ucm2/conf.d/tegra",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alsa-ucm-conf/1.2.5.1-1/",
+        "metric": {
+            "size": 1044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alsa-ucm-conf",
+        "sloc": [
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/alsa-team/alsa-ucm-conf",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.5.1-1"
+}

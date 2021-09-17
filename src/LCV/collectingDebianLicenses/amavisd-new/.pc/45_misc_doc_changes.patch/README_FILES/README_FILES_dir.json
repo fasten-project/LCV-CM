@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.courier",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.exim_v3",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7031,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.milter",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11814,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "README_FILES",
+    "package": "amavisd-new",
+    "path": "amavisd-new/1:2.11.1-5/.pc/45_misc_doc_changes.patch/README_FILES",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amavisd-new/1:2.11.1-5/",
+        "metric": {
+            "size": 12440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amavisd-new",
+        "sloc": [
+            [
+                "perl",
+                33785
+            ],
+            [
+                "sh",
+                523
+            ],
+            [
+                "sql",
+                158
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/amavisd-new",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.11.1-5"
+}

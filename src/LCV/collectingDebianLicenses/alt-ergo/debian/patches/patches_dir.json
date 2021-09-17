@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-dont-activate-debug-flag",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Fix-compilation-with-camlzip-1.08.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alt-ergo",
+    "path": "alt-ergo/2.0.0-7/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alt-ergo/2.0.0-7/",
+        "metric": {
+            "size": 2224
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alt-ergo",
+        "sloc": [
+            [
+                "ml",
+                28606
+            ],
+            [
+                "sh",
+                12
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/alt-ergo",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.0-7"
+}

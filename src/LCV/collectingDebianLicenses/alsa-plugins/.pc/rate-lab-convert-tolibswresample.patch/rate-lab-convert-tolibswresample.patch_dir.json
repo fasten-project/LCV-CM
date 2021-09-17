@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "configure.ac",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "doc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rate-lav",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "rate-lab-convert-tolibswresample.patch",
+    "package": "alsa-plugins",
+    "path": "alsa-plugins/1.2.5-2/.pc/rate-lab-convert-tolibswresample.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alsa-plugins/1.2.5-2/",
+        "metric": {
+            "size": 2644
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alsa-plugins",
+        "sloc": [
+            [
+                "ansic",
+                12015
+            ],
+            [
+                "sh",
+                4159
+            ],
+            [
+                "makefile",
+                302
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/alsa-team/alsa-plugins",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.5-2"
+}

@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disclaimer.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 737,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postfix-altermime-howto.sgml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postfix_filter.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "docs",
+    "package": "altermime",
+    "path": "altermime/0.3.10-12/debian/docs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/altermime/0.3.10-12/",
+        "metric": {
+            "size": 1324
+        },
+        "pts_link": "https://tracker.debian.org/pkg/altermime",
+        "sloc": [
+            [
+                "ansic",
+                17094
+            ],
+            [
+                "makefile",
+                82
+            ],
+            [
+                "sh",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/altermime",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.10-12"
+}

@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0006-Fix-link-order.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_remove-ladspa-sdk.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30358,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_multiarch-dirs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 883,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_dpkg-buildflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 920,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_fix-eq-name.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_fix-caps-error.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alsaequal",
+    "path": "alsaequal/0.6-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alsaequal/0.6-8/",
+        "metric": {
+            "size": 328
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alsaequal",
+        "sloc": [
+            [
+                "ansic",
+                2374
+            ],
+            [
+                "makefile",
+                167
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/alsaequal",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6-8"
+}

@@ -1,0 +1,237 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "NEWS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ample.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8898,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "default",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dirs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "docs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init.d",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "salsa-ci.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "upstream",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "ample",
+    "path": "ample/0.5.7-12/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ample/0.5.7-12/",
+        "metric": {
+            "size": 696
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ample",
+        "sloc": [
+            [
+                "ansic",
+                2885
+            ],
+            [
+                "sh",
+                255
+            ],
+            [
+                "makefile",
+                203
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ample",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.7-12"
+}

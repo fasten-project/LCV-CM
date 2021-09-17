@@ -1,0 +1,170 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "autofs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "checkmount",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fh_dref",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "hn_dref",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mount",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mtab",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "nfs_prot",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sa_dref",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "transp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 60,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "trap",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "umount",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 109,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "conf",
+    "package": "am-utils",
+    "path": "am-utils/6.2+rc20110530-3.2/conf",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/am-utils/6.2+rc20110530-3.2/",
+        "metric": {
+            "size": 6188
+        },
+        "pts_link": "https://tracker.debian.org/pkg/am-utils",
+        "sloc": [
+            [
+                "ansic",
+                40635
+            ],
+            [
+                "sh",
+                13284
+            ],
+            [
+                "perl",
+                2429
+            ],
+            [
+                "makefile",
+                884
+            ],
+            [
+                "lex",
+                722
+            ],
+            [
+                "yacc",
+                594
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ]
+    },
+    "type": "directory",
+    "version": "6.2+rc20110530-3.2"
+}

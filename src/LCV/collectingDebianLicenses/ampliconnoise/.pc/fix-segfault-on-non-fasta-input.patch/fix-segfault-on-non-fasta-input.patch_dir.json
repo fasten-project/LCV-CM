@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "FastaUnique",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "NDist",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Perseus",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "PerseusD",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "SeqDist",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "SeqNoise",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "fix-segfault-on-non-fasta-input.patch",
+    "package": "ampliconnoise",
+    "path": "ampliconnoise/1.29-9/.pc/fix-segfault-on-non-fasta-input.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ampliconnoise/1.29-9/",
+        "metric": {
+            "size": 6040
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ampliconnoise",
+        "sloc": [
+            [
+                "ansic",
+                18080
+            ],
+            [
+                "sh",
+                2899
+            ],
+            [
+                "perl",
+                2089
+            ],
+            [
+                "makefile",
+                235
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/ampliconnoise",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.29-9"
+}

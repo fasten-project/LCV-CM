@@ -1,0 +1,145 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "amaddclient.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amanda-auth.7",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amgpgcrypt.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amserverconfig.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amsuntar.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xml-source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 149,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "man",
+    "package": "amanda",
+    "path": "amanda/1:3.5.1-8/.pc/09-debian-change-from-amandabackup-to-backup-doc/man",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amanda/1:3.5.1-8/",
+        "metric": {
+            "size": 30836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amanda",
+        "sloc": [
+            [
+                "ansic",
+                265630
+            ],
+            [
+                "perl",
+                114269
+            ],
+            [
+                "xml",
+                16058
+            ],
+            [
+                "sh",
+                8667
+            ],
+            [
+                "makefile",
+                2795
+            ],
+            [
+                "awk",
+                502
+            ],
+            [
+                "lex",
+                407
+            ],
+            [
+                "yacc",
+                347
+            ],
+            [
+                "javascript",
+                135
+            ],
+            [
+                "tcl",
+                118
+            ],
+            [
+                "sql",
+                19
+            ],
+            [
+                "sed",
+                16
+            ],
+            [
+                "php",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/amanda",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:3.5.1-8"
+}

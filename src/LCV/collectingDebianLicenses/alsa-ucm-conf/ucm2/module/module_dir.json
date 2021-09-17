@@ -1,0 +1,152 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "snd_acp3x_rn.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 15,
+                "symlink_dest": "lib/linked.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snd_soc_apq8016_sbc.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 40,
+                "symlink_dest": "../Qualcomm/apq8016-sbc/apq8016-sbc.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snd_soc_apq8096.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 32,
+                "symlink_dest": "../Qualcomm/apq8096/apq8096.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snd_soc_omap_abe_twl6040.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 36,
+                "symlink_dest": "../OMAP/abe-twl6040/abe-twl6040.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snd_soc_rk3399_gru_sound.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 50,
+                "symlink_dest": "../Rockchip/rk3399-gru-sound/rk3399-gru-sound.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snd_soc_rockchip_max98090.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 34,
+                "symlink_dest": "../Rockchip/max98090/max98090.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snd_soc_sdm845.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 30,
+                "symlink_dest": "../Qualcomm/sdm845/sdm845.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snd_soc_snow.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 25,
+                "symlink_dest": "../Samsung/snow/snow.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snd_soc_tegra_alc5632.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 29,
+                "symlink_dest": "../Tegra/alc5632/alc5632.conf",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "snd_soc_tegra_max98090.conf",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 31,
+                "symlink_dest": "../Tegra/max98090/max98090.conf",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "module",
+    "package": "alsa-ucm-conf",
+    "path": "alsa-ucm-conf/1.2.5.1-1/ucm2/module",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alsa-ucm-conf/1.2.5.1-1/",
+        "metric": {
+            "size": 1044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alsa-ucm-conf",
+        "sloc": [
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/alsa-team/alsa-ucm-conf",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.5.1-1"
+}

@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "amavis-mc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amavis-services",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amavisd-release",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 12645,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amavisd-signer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 37729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amavisd-submit",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "95_amavisd_helpers_fixes",
+    "package": "amavisd-new",
+    "path": "amavisd-new/1:2.11.1-5/.pc/95_amavisd_helpers_fixes",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amavisd-new/1:2.11.1-5/",
+        "metric": {
+            "size": 12440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amavisd-new",
+        "sloc": [
+            [
+                "perl",
+                33785
+            ],
+            [
+                "sh",
+                523
+            ],
+            [
+                "sql",
+                158
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/amavisd-new",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.11.1-5"
+}

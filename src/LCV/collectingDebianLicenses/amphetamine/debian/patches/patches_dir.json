@@ -1,0 +1,162 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "000_data_path.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19961,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "000_no_lxt.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 504,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "010_bugs.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "010_etc_dir.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3838,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "010_missing_headers.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "010_newline.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11906,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "020_assumed_sizeof_long.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "append-buildflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cross-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "format-string.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "amphetamine",
+    "path": "amphetamine/0.8.10-21/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amphetamine/0.8.10-21/",
+        "metric": {
+            "size": 1108
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amphetamine",
+        "sloc": [
+            [
+                "cpp",
+                9038
+            ],
+            [
+                "makefile",
+                106
+            ],
+            [
+                "sh",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/amphetamine",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.8.10-21"
+}

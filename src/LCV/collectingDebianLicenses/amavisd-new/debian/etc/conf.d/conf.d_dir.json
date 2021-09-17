@@ -1,0 +1,143 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1610,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-domain_id",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-node_id",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15-av_scanners",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15-content_filter_mode",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20-debian_defaults",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "25-amavis_helpers",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-template_localization",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-user",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "conf.d",
+    "package": "amavisd-new",
+    "path": "amavisd-new/1:2.11.1-5/debian/etc/conf.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amavisd-new/1:2.11.1-5/",
+        "metric": {
+            "size": 12440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amavisd-new",
+        "sloc": [
+            [
+                "perl",
+                33785
+            ],
+            [
+                "sh",
+                523
+            ],
+            [
+                "sql",
+                158
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/amavisd-new",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.11.1-5"
+}

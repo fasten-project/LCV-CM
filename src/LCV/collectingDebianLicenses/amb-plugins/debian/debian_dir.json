@@ -1,0 +1,148 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dirs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gbp.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 130,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 96,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "amb-plugins",
+    "path": "amb-plugins/0.8.1-7/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amb-plugins/0.8.1-7/",
+        "metric": {
+            "size": 356
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amb-plugins",
+        "sloc": [
+            [
+                "cpp",
+                5065
+            ],
+            [
+                "makefile",
+                85
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-multimedia/amb-plugins.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.8.1-7"
+}

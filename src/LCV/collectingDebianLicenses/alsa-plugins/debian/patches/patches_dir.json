@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "arcam-av_uses_pthreads.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 899,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rate-lab-convert-tolibswresample.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alsa-plugins",
+    "path": "alsa-plugins/1.2.5-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alsa-plugins/1.2.5-2/",
+        "metric": {
+            "size": 2644
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alsa-plugins",
+        "sloc": [
+            [
+                "ansic",
+                12015
+            ],
+            [
+                "sh",
+                4159
+            ],
+            [
+                "makefile",
+                302
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/alsa-team/alsa-plugins",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.5-2"
+}

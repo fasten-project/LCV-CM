@@ -1,0 +1,212 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Qpid",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "README.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.source",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "RabbitMQ",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 69,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1064,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 928,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 890,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4040,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright_hints",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gbp.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 617,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "legacy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 122,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "amqp-specs",
+    "path": "amqp-specs/1-0r0-3.1/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/amqp-specs/1-0r0-3.1/",
+        "metric": {
+            "size": 664
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amqp-specs",
+        "sloc": [
+            [
+                "xml",
+                8807
+            ],
+            [
+                "makefile",
+                14
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/collab-maint/amqp-specs.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1-0r0-3.1"
+}

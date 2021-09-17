@@ -1,0 +1,116 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "010_hyphen-as-minus.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "020_makefile-build-subdirs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "030_makefile-debian-location.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 528,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "040_add-pidfile-option.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4846,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "050_add-user-group.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "060_fix-spelling-error-manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ample",
+    "path": "ample/0.5.7-12/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ample/0.5.7-12/",
+        "metric": {
+            "size": 696
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ample",
+        "sloc": [
+            [
+                "ansic",
+                2885
+            ],
+            [
+                "sh",
+                255
+            ],
+            [
+                "makefile",
+                203
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ample",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.5.7-12"
+}

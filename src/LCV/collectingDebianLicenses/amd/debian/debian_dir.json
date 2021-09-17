@@ -1,0 +1,109 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16916,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postrm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preinst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1504,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "amd",
+    "path": "amd/1:0.3/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 3,
+        "license": "/copyright/license/amd/1:0.3/",
+        "metric": {
+            "size": 44
+        },
+        "pts_link": "https://tracker.debian.org/pkg/amd",
+        "sloc": [
+            [
+                "makefile",
+                35
+            ],
+            [
+                "sh",
+                29
+            ]
+        ],
+        "suites": [
+            "sarge"
+        ]
+    },
+    "type": "directory",
+    "version": "1:0.3"
+}

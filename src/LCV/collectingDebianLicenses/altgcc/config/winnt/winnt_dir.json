@@ -1,0 +1,215 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "config-nt.bat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config-nt.sed",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dirent.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6358,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dirent.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fixinc-nt.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "headers.mak",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1735,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ld.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libgcc.mak",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mklibgcc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1953,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oldnames.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spawnv.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1331,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "win-nt.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "x-winnt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xm-winnt.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1829,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "winnt",
+    "package": "altgcc",
+    "path": "altgcc/1:2.7.2.3-2/config/winnt",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 31300,
+        "license": "/copyright/license/altgcc/1:2.7.2.3-2/",
+        "metric": {
+            "size": 29796
+        },
+        "pts_link": "https://tracker.debian.org/pkg/altgcc",
+        "sloc": [
+            [
+                "ansic",
+                331122
+            ],
+            [
+                "sh",
+                11441
+            ],
+            [
+                "yacc",
+                7861
+            ],
+            [
+                "asm",
+                5153
+            ],
+            [
+                "makefile",
+                1846
+            ],
+            [
+                "objc",
+                476
+            ],
+            [
+                "cpp",
+                307
+            ],
+            [
+                "sed",
+                261
+            ],
+            [
+                "pascal",
+                95
+            ]
+        ],
+        "suites": [
+            "sarge",
+            "woody"
+        ]
+    },
+    "type": "directory",
+    "version": "1:2.7.2.3-2"
+}

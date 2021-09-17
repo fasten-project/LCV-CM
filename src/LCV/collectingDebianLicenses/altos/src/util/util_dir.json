@@ -1,0 +1,183 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ao-make-product.5c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atmosphere.5c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check-avr-mem",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 238,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check-stack",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gps-cksum",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 247,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-altitude",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-altitude-pa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-kalman",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1331,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-whiten",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sirf-cksum",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 914,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "skytraq-cksum",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ublox-cksum",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 947,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "util",
+    "package": "altos",
+    "path": "altos/1.9.7-2/src/util",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/altos/1.9.7-2/",
+        "metric": {
+            "size": 71120
+        },
+        "pts_link": "https://tracker.debian.org/pkg/altos",
+        "sloc": [
+            [
+                "ansic",
+                99507
+            ],
+            [
+                "java",
+                41267
+            ],
+            [
+                "makefile",
+                7089
+            ],
+            [
+                "sh",
+                3743
+            ],
+            [
+                "xml",
+                2069
+            ],
+            [
+                "pascal",
+                1947
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "http://git.gag.com/?p=fw/altos",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.9.7-2"
+}

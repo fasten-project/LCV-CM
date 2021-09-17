@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strncpy.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2928,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alttab",
+    "path": "alttab/1.5.0-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alttab/1.5.0-2/",
+        "metric": {
+            "size": 952
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alttab",
+        "sloc": [
+            [
+                "ansic",
+                3948
+            ],
+            [
+                "sh",
+                1259
+            ],
+            [
+                "makefile",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/alttab",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.0-2"
+}

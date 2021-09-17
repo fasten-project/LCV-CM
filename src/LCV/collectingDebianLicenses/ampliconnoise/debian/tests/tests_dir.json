@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Run.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1835,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-unit-test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "ampliconnoise",
+    "path": "ampliconnoise/1.29-9/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ampliconnoise/1.29-9/",
+        "metric": {
+            "size": 6040
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ampliconnoise",
+        "sloc": [
+            [
+                "ansic",
+                18080
+            ],
+            [
+                "sh",
+                2899
+            ],
+            [
+                "perl",
+                2089
+            ],
+            [
+                "makefile",
+                235
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/ampliconnoise",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.29-9"
+}
