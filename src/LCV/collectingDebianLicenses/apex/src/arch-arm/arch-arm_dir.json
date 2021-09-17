@@ -1,0 +1,141 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Kconfig",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "NOTES",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 261,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "entry",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "linux",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rom",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "arch-arm",
+    "package": "apex",
+    "path": "apex/1.6.10/src/arch-arm",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 14682,
+        "license": "/copyright/license/apex/1.6.10/",
+        "metric": {
+            "size": 13624
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apex",
+        "sloc": [
+            [
+                "ansic",
+                195323
+            ],
+            [
+                "cpp",
+                4449
+            ],
+            [
+                "perl",
+                4109
+            ],
+            [
+                "makefile",
+                1665
+            ],
+            [
+                "sh",
+                1256
+            ],
+            [
+                "yacc",
+                967
+            ],
+            [
+                "asm",
+                952
+            ],
+            [
+                "lex",
+                739
+            ],
+            [
+                "python",
+                286
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "squeeze",
+            "stretch",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "1.6.10"
+}

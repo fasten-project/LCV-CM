@@ -1,0 +1,234 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "adhoc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "apophenia-bin.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apophenia-bin.manpages",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apophenia-doc.doc-base",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 776,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apophenia-doc.docs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apophenia-doc.examples",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 66,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apophenia-doc.links",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libapophenia2-dev.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 87,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libapophenia2.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libapophenia2.symbols",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 705,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "apophenia",
+    "path": "apophenia/1.0+ds-8/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apophenia/1.0+ds-8/",
+        "metric": {
+            "size": 2968
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apophenia",
+        "sloc": [
+            [
+                "ansic",
+                19483
+            ],
+            [
+                "makefile",
+                372
+            ],
+            [
+                "awk",
+                124
+            ],
+            [
+                "sh",
+                105
+            ],
+            [
+                "sed",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apophenia",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0+ds-8"
+}

@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "autopilot",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 66,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "demos",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "meson.build",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "appmenu-gtk-module",
+    "path": "appmenu-gtk-module/0.7.6-2/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/appmenu-gtk-module/0.7.6-2/",
+        "metric": {
+            "size": 544
+        },
+        "pts_link": "https://tracker.debian.org/pkg/appmenu-gtk-module",
+        "sloc": [
+            [
+                "ansic",
+                5714
+            ],
+            [
+                "python",
+                227
+            ],
+            [
+                "xml",
+                20
+            ],
+            [
+                "makefile",
+                15
+            ],
+            [
+                "sh",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-edu-ayatana-team/appmenu-gtk-module",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7.6-2"
+}

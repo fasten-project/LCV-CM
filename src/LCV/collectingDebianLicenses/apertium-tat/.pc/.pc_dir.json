@@ -1,0 +1,97 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_remove_libdir.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "apertium-tat",
+    "path": "apertium-tat/0.1.0~r60887-2/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apertium-tat/0.1.0%7Er60887-2/",
+        "metric": {
+            "size": 6988
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apertium-tat",
+        "sloc": [
+            [
+                "python",
+                368
+            ],
+            [
+                "makefile",
+                135
+            ],
+            [
+                "xml",
+                90
+            ],
+            [
+                "sh",
+                86
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apertium-tat",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.0~r60887-2"
+}

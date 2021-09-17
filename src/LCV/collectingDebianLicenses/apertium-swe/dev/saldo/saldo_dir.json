@@ -1,0 +1,108 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fullform",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "maybe-missing-from-saldo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7881,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "saldo-to-dix.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 21698,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scrape-paradigms.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "swe-words-paradigms.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2255558,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "saldo",
+    "package": "apertium-swe",
+    "path": "apertium-swe/0.7.0~r69513-2/dev/saldo",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apertium-swe/0.7.0%7Er69513-2/",
+        "metric": {
+            "size": 18472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apertium-swe",
+        "sloc": [
+            [
+                "python",
+                487
+            ],
+            [
+                "makefile",
+                56
+            ],
+            [
+                "xml",
+                41
+            ],
+            [
+                "sh",
+                35
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apertium-swe",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7.0~r69513-2"
+}

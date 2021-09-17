@@ -1,0 +1,255 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "clone.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clone.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exec_i.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exec_i.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 57,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exec_u.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exec_u.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fd-over-unix",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "globbing",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kill.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kill.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pread",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readv",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sendfile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_others.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "zombie.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "zombie.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "TODO",
+    "package": "apparmor",
+    "path": "apparmor/3.0.3-2/tests/regression/apparmor/TODO",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apparmor/3.0.3-2/",
+        "metric": {
+            "size": 29116
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apparmor",
+        "sloc": [
+            [
+                "ansic",
+                21429
+            ],
+            [
+                "python",
+                20615
+            ],
+            [
+                "sh",
+                10677
+            ],
+            [
+                "cpp",
+                5732
+            ],
+            [
+                "yacc",
+                2067
+            ],
+            [
+                "makefile",
+                1745
+            ],
+            [
+                "perl",
+                1256
+            ],
+            [
+                "lex",
+                1131
+            ],
+            [
+                "pascal",
+                1098
+            ],
+            [
+                "ruby",
+                374
+            ],
+            [
+                "exp",
+                250
+            ],
+            [
+                "java",
+                212
+            ],
+            [
+                "xml",
+                159
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apparmor-team/apparmor/tree/debian/experimental",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.3-2"
+}

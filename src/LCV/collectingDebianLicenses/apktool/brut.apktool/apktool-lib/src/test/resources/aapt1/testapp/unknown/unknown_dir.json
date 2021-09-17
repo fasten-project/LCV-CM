@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "hidden.file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lib_bug603",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "non%7Fprintable.file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stored.file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unk_folder",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "unknown",
+    "package": "apktool",
+    "path": "apktool/2.5.0+dfsg.1-2/brut.apktool/apktool-lib/src/test/resources/aapt1/testapp/unknown",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apktool/2.5.0+dfsg.1-2/",
+        "metric": {
+            "size": 11392
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apktool",
+        "sloc": [
+            [
+                "java",
+                12597
+            ],
+            [
+                "xml",
+                407
+            ],
+            [
+                "sh",
+                200
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/android-tools-team/apktool",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5.0+dfsg.1-2"
+}

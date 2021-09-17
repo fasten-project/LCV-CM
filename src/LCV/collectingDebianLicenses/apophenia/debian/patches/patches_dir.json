@@ -1,0 +1,190 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debianization-adhoc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debianization-bug-597187_757967_841636-mysql_config.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debianization-bug-gcc9-XXX.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1046,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debianization-documentation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 814,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debianization-help2man.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debianization.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-bug-793998-tests_distribution_tests-2.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 733,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-correction-spelling-error-in-source.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-enhancement-eg_test_updating.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-fix-implicit-model-ols_log_likelihood.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1401,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-fix-typo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 526,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-mysql-8.0.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "apophenia",
+    "path": "apophenia/1.0+ds-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apophenia/1.0+ds-8/",
+        "metric": {
+            "size": 2968
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apophenia",
+        "sloc": [
+            [
+                "ansic",
+                19483
+            ],
+            [
+                "makefile",
+                372
+            ],
+            [
+                "awk",
+                124
+            ],
+            [
+                "sh",
+                105
+            ],
+            [
+                "sed",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apophenia",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0+ds-8"
+}

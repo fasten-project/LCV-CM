@@ -1,0 +1,60 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "legacy.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2962,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "apmd",
+    "path": "apmd/3.2.2-15/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apmd/3.2.2-15/",
+        "metric": {
+            "size": 508
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apmd",
+        "sloc": [
+            [
+                "ansic",
+                2884
+            ],
+            [
+                "makefile",
+                594
+            ],
+            [
+                "sh",
+                192
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "3.2.2-15"
+}

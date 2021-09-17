@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "pull-profile-from-ubuntu",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "put-profile-in-complain-mode",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 584,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "apparmor-profiles-extra",
+    "path": "apparmor-profiles-extra/1.34/debian/scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apparmor-profiles-extra/1.34/",
+        "metric": {
+            "size": 116
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apparmor-profiles-extra",
+        "sloc": [
+            [
+                "sh",
+                135
+            ],
+            [
+                "makefile",
+                26
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apparmor-team/apparmor-profiles-extra",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.34"
+}

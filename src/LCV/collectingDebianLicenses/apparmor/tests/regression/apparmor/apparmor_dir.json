@@ -1,0 +1,1982 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AppArmor.rtf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10943,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8650,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TODO",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "aa_exec.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa_exec_wrapper.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa_policy_cache.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5793,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aa_policy_cache.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3870,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "access.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "access.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "at_secure.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "at_secure.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7778,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "capabilities.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10046,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changehat.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changehat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1096,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changehat.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changehat_fail.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changehat_fork.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changehat_fork.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2255,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changehat_misc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changehat_misc.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changehat_misc2.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1735,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changehat_pthread.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changehat_twice.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changehat_wrapper.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changeprofile.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 962,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changeprofile.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4870,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chdir.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chdir.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 755,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chgrp.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chmod.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 823,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chown.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clone.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clone.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "coredump.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "coredump.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 976,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus.inc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2831,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_common.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_common.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_eavesdrop.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_eavesdrop.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_message.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_message.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_service.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_service.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3619,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_unrequested_reply.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5957,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_unrequested_reply.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deleted.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3521,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deleted.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dropprivs_wrapper.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "env_check.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 896,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "env_check.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "environ.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "environ.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3867,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "epilogue.inc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exec.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exec.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exec_qual.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 671,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exec_qual.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exec_qual2.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1046,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exec_stack.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fchdir.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fchdir.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fchgrp.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fchmod.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fchown.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fd_inheritance.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1419,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fd_inheritance.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2619,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fd_inheritor.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1382,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fork.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fork.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "i18n.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "introspect.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "introspect.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1585,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1604,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link_subset.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link_subset.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "longpath.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mkdir.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mkdir.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1813,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mkprofile.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 15110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mount.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mount.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mult_mount.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "named_pipe.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "named_pipe.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "namespaces.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "net_raw.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "net_raw.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 657,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netdomain",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "nnp.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5715,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "onexec.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "open.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "open.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1664,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openat.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "openat.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2841,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "owlsm.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pipe.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pipe.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pivot_root.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pivot_root.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prologue.inc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 13582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptrace.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptrace.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1990,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptrace_helper.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptrace_v5.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptrace_v6.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pwrite.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pwrite.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "query_label.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "query_label.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8065,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readdir.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2922,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readdir.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1556,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regex.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rename.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 754,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rename.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rw.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1759,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rw.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sd_flags.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3949,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setattr.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "socketpair.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4745,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "socketpair.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stackonexec.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9016,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stackprofile.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strace.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "swap.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1019,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "swap.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1671,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symlink.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symlink.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3939,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_chroot.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_ioperm.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_iopl.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 922,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_mknod.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1056,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_mlockall.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_ptrace.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_query_module.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_reboot.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_setdomainname.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1909,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_sethostname.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_setpriority.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_setscheduler.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_sysctl.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2547,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syscall_sysctl.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sysctl_proc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tcp.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tcp.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "transition.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10932,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unix_fd_client.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unix_fd_server.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3753,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unix_fd_server.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unix_socket.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unix_socket.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unix_socket_abstract.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2417,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unix_socket_autobind.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2769,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unix_socket_client.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unix_socket_common.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unix_socket_common.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unix_socket_pathname.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unix_socket_unnamed.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2294,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unlink.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unlink.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 947,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uservars.inc.source",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 584,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uservars.inc.system",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 521,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xattrs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xattrs.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xattrs_profile.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xattrs_profile.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "apparmor",
+    "package": "apparmor",
+    "path": "apparmor/3.0.3-2/tests/regression/apparmor",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apparmor/3.0.3-2/",
+        "metric": {
+            "size": 29116
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apparmor",
+        "sloc": [
+            [
+                "ansic",
+                21429
+            ],
+            [
+                "python",
+                20615
+            ],
+            [
+                "sh",
+                10677
+            ],
+            [
+                "cpp",
+                5732
+            ],
+            [
+                "yacc",
+                2067
+            ],
+            [
+                "makefile",
+                1745
+            ],
+            [
+                "perl",
+                1256
+            ],
+            [
+                "lex",
+                1131
+            ],
+            [
+                "pascal",
+                1098
+            ],
+            [
+                "ruby",
+                374
+            ],
+            [
+                "exp",
+                250
+            ],
+            [
+                "java",
+                212
+            ],
+            [
+                "xml",
+                159
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apparmor-team/apparmor/tree/debian/experimental",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.3-2"
+}

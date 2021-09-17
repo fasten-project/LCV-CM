@@ -1,0 +1,147 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.org",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hash-count",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "latest-pending.results",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "latest-regression.results",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pending-tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regression-tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update-latest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wiki-tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "t",
+    "package": "apertium-swe-nor",
+    "path": "apertium-swe-nor/0.3.1-1/t",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apertium-swe-nor/0.3.1-1/",
+        "metric": {
+            "size": 50056
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apertium-swe-nor",
+        "sloc": [
+            [
+                "sh",
+                735
+            ],
+            [
+                "xml",
+                459
+            ],
+            [
+                "makefile",
+                371
+            ],
+            [
+                "awk",
+                160
+            ],
+            [
+                "python",
+                108
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apertium-swe-nor",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.1-1"
+}

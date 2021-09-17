@@ -1,0 +1,152 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apex.lds.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmu-alloc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmu.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6485,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "relocate-simple.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reset.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10723,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sdramboot.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stacklimit.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "entry",
+    "package": "apex",
+    "path": "apex/1.6.10/src/arch-arm/entry",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 14682,
+        "license": "/copyright/license/apex/1.6.10/",
+        "metric": {
+            "size": 13624
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apex",
+        "sloc": [
+            [
+                "ansic",
+                195323
+            ],
+            [
+                "cpp",
+                4449
+            ],
+            [
+                "perl",
+                4109
+            ],
+            [
+                "makefile",
+                1665
+            ],
+            [
+                "sh",
+                1256
+            ],
+            [
+                "yacc",
+                967
+            ],
+            [
+                "asm",
+                952
+            ],
+            [
+                "lex",
+                739
+            ],
+            [
+                "python",
+                286
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "squeeze",
+            "stretch",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "1.6.10"
+}

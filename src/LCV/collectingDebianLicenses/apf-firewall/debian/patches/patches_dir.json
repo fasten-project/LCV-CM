@@ -1,0 +1,101 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_fix_path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_make_interpreter.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rab.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reserved.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "support-kernel-3-and-later.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "apf-firewall",
+    "path": "apf-firewall/9.7+rev1-5.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apf-firewall/9.7+rev1-5.1/",
+        "metric": {
+            "size": 536
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apf-firewall",
+        "sloc": [
+            [
+                "sh",
+                2065
+            ],
+            [
+                "makefile",
+                41
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "9.7+rev1-5.1"
+}
