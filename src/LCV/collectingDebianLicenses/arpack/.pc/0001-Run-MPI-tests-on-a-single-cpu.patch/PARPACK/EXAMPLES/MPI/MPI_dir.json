@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 977,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "MPI",
+    "package": "arpack",
+    "path": "arpack/3.8.0-1/.pc/0001-Run-MPI-tests-on-a-single-cpu.patch/PARPACK/EXAMPLES/MPI",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arpack/3.8.0-1/",
+        "metric": {
+            "size": 7044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arpack",
+        "sloc": [
+            [
+                "fortran",
+                50852
+            ],
+            [
+                "cpp",
+                3147
+            ],
+            [
+                "python",
+                1339
+            ],
+            [
+                "f90",
+                1068
+            ],
+            [
+                "ansic",
+                612
+            ],
+            [
+                "makefile",
+                395
+            ],
+            [
+                "sh",
+                157
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/arpack",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.8.0-1"
+}

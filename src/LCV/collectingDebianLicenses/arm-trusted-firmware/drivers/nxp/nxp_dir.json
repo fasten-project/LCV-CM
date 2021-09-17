@@ -1,0 +1,259 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "auth",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "console",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 134,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "crypto",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "csu",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dcfg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 125,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ddr",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "drivers.mk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flexspi",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gic",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 87,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gpio",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "i2c",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "interconnect",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pmu",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "qspi",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sec_mon",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sfp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 131,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "timer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 73,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tzc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "nxp",
+    "package": "arm-trusted-firmware",
+    "path": "arm-trusted-firmware/2.5+dfsg-2/drivers/nxp",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arm-trusted-firmware/2.5+dfsg-2/",
+        "metric": {
+            "size": 27344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arm-trusted-firmware",
+        "sloc": [
+            [
+                "ansic",
+                308092
+            ],
+            [
+                "asm",
+                22306
+            ],
+            [
+                "makefile",
+                1697
+            ],
+            [
+                "python",
+                304
+            ],
+            [
+                "sh",
+                33
+            ],
+            [
+                "javascript",
+                10
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/arm-trusted-firmware",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5+dfsg-2"
+}

@@ -1,0 +1,116 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aarch32",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "aarch64",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "board_arm_trusted_boot.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5881,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "board_common.mk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3086,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "protpk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rotpk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "common",
+    "package": "arm-trusted-firmware",
+    "path": "arm-trusted-firmware/2.5+dfsg-2/plat/arm/board/common",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arm-trusted-firmware/2.5+dfsg-2/",
+        "metric": {
+            "size": 27344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arm-trusted-firmware",
+        "sloc": [
+            [
+                "ansic",
+                308092
+            ],
+            [
+                "asm",
+                22306
+            ],
+            [
+                "makefile",
+                1697
+            ],
+            [
+                "python",
+                304
+            ],
+            [
+                "sh",
+                33
+            ],
+            [
+                "javascript",
+                10
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/arm-trusted-firmware",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5+dfsg-2"
+}

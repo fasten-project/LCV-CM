@@ -1,0 +1,182 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aarch64",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "build_axf.ld.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 988,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fpga_bl31_setup.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6650,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fpga_console.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 923,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fpga_def.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fpga_gicv3.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fpga_pm.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2841,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fpga_private.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fpga_topology.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "platform.mk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rom_trampoline.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "arm_fpga",
+    "package": "arm-trusted-firmware",
+    "path": "arm-trusted-firmware/2.5+dfsg-2/plat/arm/board/arm_fpga",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arm-trusted-firmware/2.5+dfsg-2/",
+        "metric": {
+            "size": 27344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arm-trusted-firmware",
+        "sloc": [
+            [
+                "ansic",
+                308092
+            ],
+            [
+                "asm",
+                22306
+            ],
+            [
+                "makefile",
+                1697
+            ],
+            [
+                "python",
+                304
+            ],
+            [
+                "sh",
+                33
+            ],
+            [
+                "javascript",
+                10
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/arm-trusted-firmware",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5+dfsg-2"
+}

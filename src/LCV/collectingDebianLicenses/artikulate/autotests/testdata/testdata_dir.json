@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "contributorrepository",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "courses",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "testdata.qrc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 207,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "testdata",
+    "package": "artikulate",
+    "path": "artikulate/4:21.08.0-1/autotests/testdata",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/artikulate/4:21.08.0-1/",
+        "metric": {
+            "size": 3956
+        },
+        "pts_link": "https://tracker.debian.org/pkg/artikulate",
+        "sloc": [
+            [
+                "cpp",
+                11894
+            ],
+            [
+                "xml",
+                3125
+            ],
+            [
+                "sh",
+                5
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/kde/artikulate",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4:21.08.0-1"
+}

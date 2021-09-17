@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "MPI",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 143,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "TESTS",
+    "package": "arpack",
+    "path": "arpack/3.8.0-1/PARPACK/TESTS",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arpack/3.8.0-1/",
+        "metric": {
+            "size": 7044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arpack",
+        "sloc": [
+            [
+                "fortran",
+                50852
+            ],
+            [
+                "cpp",
+                3147
+            ],
+            [
+                "python",
+                1339
+            ],
+            [
+                "f90",
+                1068
+            ],
+            [
+                "ansic",
+                612
+            ],
+            [
+                "makefile",
+                395
+            ],
+            [
+                "sh",
+                157
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/arpack",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.8.0-1"
+}

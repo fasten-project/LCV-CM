@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "expected",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "requirements.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "resalloc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 73,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "resallocserver",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "setup.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "resalloc",
+    "package": "argparse-manpage",
+    "path": "argparse-manpage/1.2.2-1/examples/resalloc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/argparse-manpage/1.2.2-1/",
+        "metric": {
+            "size": 356
+        },
+        "pts_link": "https://tracker.debian.org/pkg/argparse-manpage",
+        "sloc": [
+            [
+                "python",
+                1818
+            ],
+            [
+                "makefile",
+                29
+            ],
+            [
+                "sh",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/freeipa-team/argparse-manpage",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.2-1"
+}

@@ -1,0 +1,160 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "amlogic",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cert_create",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "encrypt_fw",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fiptool",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "marvell",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "memory",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "nxp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "renesas",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sptool",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "stm32image",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tools",
+    "package": "arm-trusted-firmware",
+    "path": "arm-trusted-firmware/2.5+dfsg-2/tools",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arm-trusted-firmware/2.5+dfsg-2/",
+        "metric": {
+            "size": 27344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arm-trusted-firmware",
+        "sloc": [
+            [
+                "ansic",
+                308092
+            ],
+            [
+                "asm",
+                22306
+            ],
+            [
+                "makefile",
+                1697
+            ],
+            [
+                "python",
+                304
+            ],
+            [
+                "sh",
+                33
+            ],
+            [
+                "javascript",
+                10
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/arm-trusted-firmware",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5+dfsg-2"
+}

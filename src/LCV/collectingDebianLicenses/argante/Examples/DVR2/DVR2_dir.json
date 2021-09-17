@@ -1,0 +1,133 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "argante",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 13,
+                "symlink_dest": "../../argante",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "conf",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "modules",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 13,
+                "symlink_dest": "../../modules",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tools",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "work",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 11,
+                "symlink_dest": "../DVR/work",
+                "type": "l"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "DVR2",
+    "package": "argante",
+    "path": "argante/1.001.1396-1/Examples/DVR2",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 2943,
+        "license": "/copyright/license/argante/1.001.1396-1/",
+        "metric": {
+            "size": 3008
+        },
+        "pts_link": "https://tracker.debian.org/pkg/argante",
+        "sloc": [
+            [
+                "ansic",
+                27590
+            ],
+            [
+                "yacc",
+                1177
+            ],
+            [
+                "perl",
+                1007
+            ],
+            [
+                "sh",
+                633
+            ],
+            [
+                "modula3",
+                260
+            ],
+            [
+                "lex",
+                170
+            ],
+            [
+                "makefile",
+                123
+            ],
+            [
+                "python",
+                78
+            ]
+        ],
+        "suites": [
+            "woody"
+        ]
+    },
+    "type": "directory",
+    "version": "1.001.1396-1"
+}

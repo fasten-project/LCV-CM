@@ -1,0 +1,70 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "arpwatch.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arpwatch.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20711,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "52_allow-specifying-a-custom-pcap-filter.patch",
+    "package": "arpwatch",
+    "path": "arpwatch/2.1a15-8/.pc/52_allow-specifying-a-custom-pcap-filter.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arpwatch/2.1a15-8/",
+        "metric": {
+            "size": 1988
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arpwatch",
+        "sloc": [
+            [
+                "sh",
+                3047
+            ],
+            [
+                "ansic",
+                2811
+            ],
+            [
+                "makefile",
+                90
+            ],
+            [
+                "awk",
+                90
+            ],
+            [
+                "perl",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/arpwatch",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.1a15-8"
+}

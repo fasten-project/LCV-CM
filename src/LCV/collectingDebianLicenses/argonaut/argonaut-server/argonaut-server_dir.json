@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Argonaut",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "bin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "man",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "argonaut-server",
+    "package": "argonaut",
+    "path": "argonaut/1.3-2/argonaut-server",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/argonaut/1.3-2/",
+        "metric": {
+            "size": 1048
+        },
+        "pts_link": "https://tracker.debian.org/pkg/argonaut",
+        "sloc": [
+            [
+                "perl",
+                7221
+            ],
+            [
+                "sh",
+                436
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/argonaut",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3-2"
+}

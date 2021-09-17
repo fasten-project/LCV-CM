@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "languages",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "languages.qrc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "languages.qrc.license",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "schemes",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "data",
+    "package": "artikulate",
+    "path": "artikulate/4:21.08.0-1/data",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/artikulate/4:21.08.0-1/",
+        "metric": {
+            "size": 3956
+        },
+        "pts_link": "https://tracker.debian.org/pkg/artikulate",
+        "sloc": [
+            [
+                "cpp",
+                11894
+            ],
+            [
+                "xml",
+                3125
+            ],
+            [
+                "sh",
+                5
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/kde/artikulate",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4:21.08.0-1"
+}

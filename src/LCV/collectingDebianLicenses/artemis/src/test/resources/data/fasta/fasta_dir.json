@@ -1,0 +1,129 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "NV.fasta",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1063805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "NV.fasta.fai",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clostridium_cellulosi.fa.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 693590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "indexed-fasta.fa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1614520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "indexed-fasta.fa.fai",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "non-indexed-fasta.fa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1614520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.fa.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "fasta",
+    "package": "artemis",
+    "path": "artemis/18.1.0+dfsg-3/src/test/resources/data/fasta",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/artemis/18.1.0+dfsg-3/",
+        "metric": {
+            "size": 42672
+        },
+        "pts_link": "https://tracker.debian.org/pkg/artemis",
+        "sloc": [
+            [
+                "java",
+                469596
+            ],
+            [
+                "xml",
+                3304
+            ],
+            [
+                "sh",
+                1328
+            ],
+            [
+                "perl",
+                83
+            ],
+            [
+                "makefile",
+                55
+            ],
+            [
+                "sql",
+                47
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/artemis",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "18.1.0+dfsg-3"
+}

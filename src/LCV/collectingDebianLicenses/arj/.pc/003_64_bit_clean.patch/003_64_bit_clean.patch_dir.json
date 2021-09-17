@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "arj_arcv.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arj_proc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arj_proc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "003_64_bit_clean.patch",
+    "package": "arj",
+    "path": "arj/3.10.22-24/.pc/003_64_bit_clean.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arj/3.10.22-24/",
+        "metric": {
+            "size": 3832
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arj",
+        "sloc": [
+            [
+                "ansic",
+                33001
+            ],
+            [
+                "makefile",
+                1999
+            ],
+            [
+                "sh",
+                1587
+            ],
+            [
+                "asm",
+                436
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://git.hadrons.org/cgit/debian/pkgs/arj.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.10.22-24"
+}

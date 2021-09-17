@@ -1,0 +1,237 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aarch64",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "arm_config.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 951,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm_def.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21073,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm_dyn_cfg_helpers.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 504,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm_fconf_getter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 593,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm_fconf_io_storage.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm_reclaim_init.ld.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm_sip_svc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 945,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm_spm_def.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm_tzc_dram.ld.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 703,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fconf_arm_sp_getter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 732,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fconf_ethosn_getter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fconf_nv_cntr_getter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fconf_sdei_getter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fconf_sec_intr_config.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plat_arm.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smccc_def.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "common",
+    "package": "arm-trusted-firmware",
+    "path": "arm-trusted-firmware/2.5+dfsg-2/include/plat/arm/common",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arm-trusted-firmware/2.5+dfsg-2/",
+        "metric": {
+            "size": 27344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arm-trusted-firmware",
+        "sloc": [
+            [
+                "ansic",
+                308092
+            ],
+            [
+                "asm",
+                22306
+            ],
+            [
+                "makefile",
+                1697
+            ],
+            [
+                "python",
+                304
+            ],
+            [
+                "sh",
+                33
+            ],
+            [
+                "javascript",
+                10
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/arm-trusted-firmware",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5+dfsg-2"
+}

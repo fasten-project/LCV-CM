@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".gitignore",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copr_cli",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "expected-output.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fake-deps",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "setup.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 965,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "copr",
+    "package": "argparse-manpage",
+    "path": "argparse-manpage/1.2.2-1/examples/copr",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/argparse-manpage/1.2.2-1/",
+        "metric": {
+            "size": 356
+        },
+        "pts_link": "https://tracker.debian.org/pkg/argparse-manpage",
+        "sloc": [
+            [
+                "python",
+                1818
+            ],
+            [
+                "makefile",
+                29
+            ],
+            [
+                "sh",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/freeipa-team/argparse-manpage",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.2-1"
+}

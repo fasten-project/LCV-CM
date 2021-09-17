@@ -1,0 +1,219 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "NEWS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arptables-legacy-restore.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arptables-legacy-save.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arptables.manpages",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arptables.postinst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arptables.prerm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 750,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dirs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gitlab-ci.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "arptables",
+    "path": "arptables/0.0.5-3/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arptables/0.0.5-3/",
+        "metric": {
+            "size": 356
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arptables",
+        "sloc": [
+            [
+                "ansic",
+                4447
+            ],
+            [
+                "perl",
+                81
+            ],
+            [
+                "makefile",
+                64
+            ],
+            [
+                "sh",
+                29
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-netfilter-team/pkg-arptables",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.5-3"
+}

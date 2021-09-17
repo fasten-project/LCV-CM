@@ -1,0 +1,171 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "drivers",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "include",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 101,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "platform.mk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2006,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sq_bl31_setup.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sq_ccn.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sq_gicv3.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sq_helpers.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sq_psci.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sq_spm.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sq_topology.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sq_xlat_setup.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1698,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "synquacer",
+    "package": "arm-trusted-firmware",
+    "path": "arm-trusted-firmware/2.5+dfsg-2/plat/socionext/synquacer",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arm-trusted-firmware/2.5+dfsg-2/",
+        "metric": {
+            "size": 27344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arm-trusted-firmware",
+        "sloc": [
+            [
+                "ansic",
+                308092
+            ],
+            [
+                "asm",
+                22306
+            ],
+            [
+                "makefile",
+                1697
+            ],
+            [
+                "python",
+                304
+            ],
+            [
+                "sh",
+                33
+            ],
+            [
+                "javascript",
+                10
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/arm-trusted-firmware",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5+dfsg-2"
+}

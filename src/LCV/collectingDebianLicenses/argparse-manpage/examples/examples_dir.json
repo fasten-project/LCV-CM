@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "copr",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "old_format",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "raw-description",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "resalloc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "examples",
+    "package": "argparse-manpage",
+    "path": "argparse-manpage/1.2.2-1/examples",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/argparse-manpage/1.2.2-1/",
+        "metric": {
+            "size": 356
+        },
+        "pts_link": "https://tracker.debian.org/pkg/argparse-manpage",
+        "sloc": [
+            [
+                "python",
+                1818
+            ],
+            [
+                "makefile",
+                29
+            ],
+            [
+                "sh",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/freeipa-team/argparse-manpage",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.2-1"
+}

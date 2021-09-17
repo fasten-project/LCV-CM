@@ -1,0 +1,226 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "asm_macros_common.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bl_common.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bl_common.ld.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5727,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "desc_image_load.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ep_info.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fdt_fixup.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fdt_wrappers.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "image_decompress.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "interrupt_props.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 644,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nv_cntr_ids.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "param_header.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "romlib.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "runtime_svc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tbbr",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "uuid.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "common",
+    "package": "arm-trusted-firmware",
+    "path": "arm-trusted-firmware/2.5+dfsg-2/include/common",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arm-trusted-firmware/2.5+dfsg-2/",
+        "metric": {
+            "size": 27344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arm-trusted-firmware",
+        "sloc": [
+            [
+                "ansic",
+                308092
+            ],
+            [
+                "asm",
+                22306
+            ],
+            [
+                "makefile",
+                1697
+            ],
+            [
+                "python",
+                304
+            ],
+            [
+                "sh",
+                33
+            ],
+            [
+                "javascript",
+                10
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/arm-trusted-firmware",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5+dfsg-2"
+}

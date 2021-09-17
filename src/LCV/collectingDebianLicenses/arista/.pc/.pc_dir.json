@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0001-fix_video_icon_crash.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "1001-bytecompile_nautilus_extension.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "arista",
+    "path": "arista/0.9.7-5/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 558,
+        "license": "/copyright/license/arista/0.9.7-5/",
+        "metric": {
+            "size": 2160
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arista",
+        "sloc": [
+            [
+                "python",
+                3616
+            ],
+            [
+                "sh",
+                20
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/arista.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.7-5"
+}

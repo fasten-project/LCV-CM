@@ -1,0 +1,143 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Fix-spelling-errors.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Update-perl-path-in-shebangs.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Use-ieee-data-package.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 66,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-wide-char-warning.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fixmanpages.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "arp-scan",
+    "path": "arp-scan/1.9.7-2/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arp-scan/1.9.7-2/",
+        "metric": {
+            "size": 1672
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arp-scan",
+        "sloc": [
+            [
+                "ansic",
+                3618
+            ],
+            [
+                "sh",
+                959
+            ],
+            [
+                "perl",
+                856
+            ],
+            [
+                "makefile",
+                17
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/arp-scan",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.9.7-2"
+}

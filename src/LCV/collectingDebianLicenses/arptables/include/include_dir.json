@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "arptables.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arptables_common.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libarptc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "linux",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "include",
+    "package": "arptables",
+    "path": "arptables/0.0.5-3/include",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arptables/0.0.5-3/",
+        "metric": {
+            "size": 356
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arptables",
+        "sloc": [
+            [
+                "ansic",
+                4447
+            ],
+            [
+                "perl",
+                81
+            ],
+            [
+                "makefile",
+                64
+            ],
+            [
+                "sh",
+                29
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-netfilter-team/pkg-arptables",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.5-3"
+}

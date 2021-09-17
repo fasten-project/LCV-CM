@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ModulesInitd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ModulesSystemd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "ClientDaemon",
+    "package": "argonaut",
+    "path": "argonaut/1.3-2/argonaut-client/Argonaut/ClientDaemon",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/argonaut/1.3-2/",
+        "metric": {
+            "size": 1048
+        },
+        "pts_link": "https://tracker.debian.org/pkg/argonaut",
+        "sloc": [
+            [
+                "perl",
+                7221
+            ],
+            [
+                "sh",
+                436
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/argonaut",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3-2"
+}

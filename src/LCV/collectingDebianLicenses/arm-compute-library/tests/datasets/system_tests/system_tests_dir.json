@@ -1,0 +1,142 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "alexnet",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "googlenet",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lenet5",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mobilenet",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "resnet12",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "squeezenet",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 143,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "vgg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "yolo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 23,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "system_tests",
+    "package": "arm-compute-library",
+    "path": "arm-compute-library/20.08+dfsg-5/tests/datasets/system_tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arm-compute-library/20.08+dfsg-5/",
+        "metric": {
+            "size": 40020
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arm-compute-library",
+        "sloc": [
+            [
+                "cpp",
+                430531
+            ],
+            [
+                "lisp",
+                44077
+            ],
+            [
+                "ansic",
+                25855
+            ],
+            [
+                "cs",
+                5724
+            ],
+            [
+                "python",
+                1030
+            ],
+            [
+                "sh",
+                348
+            ],
+            [
+                "makefile",
+                42
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "20.08+dfsg-5"
+}

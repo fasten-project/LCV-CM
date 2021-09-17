@@ -1,0 +1,63 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "setup.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "use_debian_packaged_libs_for_extension.patch",
+    "package": "ariba",
+    "path": "ariba/2.14.6+ds-1/.pc/use_debian_packaged_libs_for_extension.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ariba/2.14.6+ds-1/",
+        "metric": {
+            "size": 22484
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ariba",
+        "sloc": [
+            [
+                "python",
+                14240
+            ],
+            [
+                "cpp",
+                733
+            ],
+            [
+                "xml",
+                101
+            ],
+            [
+                "sh",
+                57
+            ],
+            [
+                "makefile",
+                13
+            ],
+            [
+                "perl",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/ariba",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.14.6+ds-1"
+}

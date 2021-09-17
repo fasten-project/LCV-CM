@@ -1,0 +1,193 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aarch64",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "include",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 122,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ls1043_bl1_setup.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ls1043_bl2_setup.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ls1043_bl31_setup.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ls1043_err.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ls1043_psci.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ls1043_security.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ls1043_stack_protector.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 608,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ls1043_topology.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1879,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ls_gic.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform.mk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tsp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "ls1043",
+    "package": "arm-trusted-firmware",
+    "path": "arm-trusted-firmware/2.5+dfsg-2/plat/layerscape/board/ls1043",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arm-trusted-firmware/2.5+dfsg-2/",
+        "metric": {
+            "size": 27344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arm-trusted-firmware",
+        "sloc": [
+            [
+                "ansic",
+                308092
+            ],
+            [
+                "asm",
+                22306
+            ],
+            [
+                "makefile",
+                1697
+            ],
+            [
+                "python",
+                304
+            ],
+            [
+                "sh",
+                33
+            ],
+            [
+                "javascript",
+                10
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/arm-trusted-firmware",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5+dfsg-2"
+}

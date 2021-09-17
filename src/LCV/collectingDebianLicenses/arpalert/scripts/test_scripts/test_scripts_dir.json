@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "broadping.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "just_one_arp_request.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "send_flood_local",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testcharge.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test_scripts",
+    "package": "arpalert",
+    "path": "arpalert/2.0.12-5/scripts/test_scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arpalert/2.0.12-5/",
+        "metric": {
+            "size": 3560
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arpalert",
+        "sloc": [
+            [
+                "ansic",
+                4456
+            ],
+            [
+                "sh",
+                517
+            ],
+            [
+                "makefile",
+                116
+            ],
+            [
+                "perl",
+                35
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/alteholz/arpalert",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.12-5"
+}

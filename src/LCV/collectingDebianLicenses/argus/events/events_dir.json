@@ -1,0 +1,116 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "argus-extip.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 735,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "argus-lsof.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "argus-snmp.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "argus-vmstat.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "events",
+    "package": "argus",
+    "path": "argus/2:3.0.8.2-2/events",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/argus/2:3.0.8.2-2/",
+        "metric": {
+            "size": 3072
+        },
+        "pts_link": "https://tracker.debian.org/pkg/argus",
+        "sloc": [
+            [
+                "ansic",
+                38749
+            ],
+            [
+                "sh",
+                3751
+            ],
+            [
+                "lex",
+                466
+            ],
+            [
+                "yacc",
+                372
+            ],
+            [
+                "makefile",
+                356
+            ],
+            [
+                "perl",
+                34
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "2:3.0.8.2-2"
+}

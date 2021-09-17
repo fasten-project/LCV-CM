@@ -1,0 +1,96 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "act",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "art",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bamview",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dnaplotter",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debianize_launcher_scripts.patch",
+    "package": "artemis",
+    "path": "artemis/18.1.0+dfsg-3/.pc/debianize_launcher_scripts.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/artemis/18.1.0+dfsg-3/",
+        "metric": {
+            "size": 42672
+        },
+        "pts_link": "https://tracker.debian.org/pkg/artemis",
+        "sloc": [
+            [
+                "java",
+                469596
+            ],
+            [
+                "xml",
+                3304
+            ],
+            [
+                "sh",
+                1328
+            ],
+            [
+                "perl",
+                83
+            ],
+            [
+                "makefile",
+                55
+            ],
+            [
+                "sql",
+                47
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/artemis",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "18.1.0+dfsg-3"
+}

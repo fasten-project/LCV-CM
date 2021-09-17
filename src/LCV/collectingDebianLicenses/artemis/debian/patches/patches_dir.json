@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debianize_launcher_scripts.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "missing_htsjdk_dependency_in_pom.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no_install_of_provided_jars.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3262,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "running_build_tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "samreader.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-lang3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "using_system_jars_in_pom.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "artemis",
+    "path": "artemis/18.1.0+dfsg-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/artemis/18.1.0+dfsg-3/",
+        "metric": {
+            "size": 42672
+        },
+        "pts_link": "https://tracker.debian.org/pkg/artemis",
+        "sloc": [
+            [
+                "java",
+                469596
+            ],
+            [
+                "xml",
+                3304
+            ],
+            [
+                "sh",
+                1328
+            ],
+            [
+                "perl",
+                83
+            ],
+            [
+                "makefile",
+                55
+            ],
+            [
+                "sql",
+                47
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/artemis",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "18.1.0+dfsg-3"
+}

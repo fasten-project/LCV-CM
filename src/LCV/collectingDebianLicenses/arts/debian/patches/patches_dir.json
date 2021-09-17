@@ -1,0 +1,175 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_admin_cleanup.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3838,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_am_maintainer_mode_extra.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11_path_max_hurd.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12_cleanup_artsc-config.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "13_check_tmp_dir.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "14_remove_config.h_headers.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15_no_warning.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "97_automake_cleanup.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "98_buildprep.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 668612,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "99_CVE-2015-7543.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "patches",
+    "package": "arts",
+    "path": "arts/1.5.9-3+deb6u1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 9848,
+        "license": "/copyright/license/arts/1.5.9-3+deb6u1/",
+        "metric": {
+            "size": 8440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arts",
+        "sloc": [
+            [
+                "ansic",
+                44670
+            ],
+            [
+                "cpp",
+                33776
+            ],
+            [
+                "sh",
+                10486
+            ],
+            [
+                "perl",
+                3470
+            ],
+            [
+                "makefile",
+                372
+            ],
+            [
+                "yacc",
+                347
+            ],
+            [
+                "lex",
+                160
+            ]
+        ],
+        "suites": [
+            "squeeze-lts"
+        ],
+        "vcs_browser": "http://svn.debian.org/wsvn/pkg-kde/branches/kde3-legacy/packages/arts",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.5.9-3+deb6u1"
+}

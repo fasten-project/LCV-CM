@@ -1,0 +1,137 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "as31-fix-duplicate-line.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "as31-mkstemps.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elide_errant_text",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 569,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "helptext",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regenerate_parser.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 105063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update-version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 194555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update_sizebuf_types.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "as31",
+    "path": "as31/2.3.1-7/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/as31/2.3.1-7/",
+        "metric": {
+            "size": 1356
+        },
+        "pts_link": "https://tracker.debian.org/pkg/as31",
+        "sloc": [
+            [
+                "asm",
+                5377
+            ],
+            [
+                "ansic",
+                1510
+            ],
+            [
+                "yacc",
+                919
+            ],
+            [
+                "sh",
+                335
+            ],
+            [
+                "makefile",
+                78
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://git.gag.com/?p=debian/as31",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.1-7"
+}

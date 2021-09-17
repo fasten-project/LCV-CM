@@ -1,0 +1,103 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 316,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TensorFlowSupport.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TfParser.cpp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 148738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TfParser.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "armnnTfParser",
+    "package": "armnn",
+    "path": "armnn/20.08-9/src/armnnTfParser",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/armnn/20.08-9/",
+        "metric": {
+            "size": 20472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/armnn",
+        "sloc": [
+            [
+                "cpp",
+                211547
+            ],
+            [
+                "python",
+                2756
+            ],
+            [
+                "sh",
+                285
+            ],
+            [
+                "makefile",
+                38
+            ],
+            [
+                "asm",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/deeplearning-team/armnn",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20.08-9"
+}

@@ -1,0 +1,133 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AHLL",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 15,
+                "symlink_dest": "../hll/examples",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "DVR",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 122,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "DVR1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 136,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "DVR2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 122,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "IPC",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 57,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Mini-HTTP",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 9,
+                "symlink_dest": "AHLL/http",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "RSIS",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 20,
+                "symlink_dest": "../compiler/examples",
+                "type": "l"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "Examples",
+    "package": "argante",
+    "path": "argante/1.001.1396-1/Examples",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 2943,
+        "license": "/copyright/license/argante/1.001.1396-1/",
+        "metric": {
+            "size": 3008
+        },
+        "pts_link": "https://tracker.debian.org/pkg/argante",
+        "sloc": [
+            [
+                "ansic",
+                27590
+            ],
+            [
+                "yacc",
+                1177
+            ],
+            [
+                "perl",
+                1007
+            ],
+            [
+                "sh",
+                633
+            ],
+            [
+                "modula3",
+                260
+            ],
+            [
+                "lex",
+                170
+            ],
+            [
+                "makefile",
+                123
+            ],
+            [
+                "python",
+                78
+            ]
+        ],
+        "suites": [
+            "woody"
+        ]
+    },
+    "type": "directory",
+    "version": "1.001.1396-1"
+}

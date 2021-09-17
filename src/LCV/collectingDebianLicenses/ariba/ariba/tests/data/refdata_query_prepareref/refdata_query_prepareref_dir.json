@@ -1,0 +1,206 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00.info.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00.rename_info",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00.version_info.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01.filter.check_genes.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01.filter.check_metadata.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01.filter.check_metadata.tsv",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01.filter.check_noncoding.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02.cdhit.all.fa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02.cdhit.clusters.pickle",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 314,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02.cdhit.clusters.tsv",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02.cdhit.gene.fa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02.cdhit.gene.varonly.fa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 898,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02.cdhit.noncoding.fa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02.cdhit.noncoding.varonly.fa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "refdata_query_prepareref",
+    "package": "ariba",
+    "path": "ariba/2.14.6+ds-1/ariba/tests/data/refdata_query_prepareref",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ariba/2.14.6+ds-1/",
+        "metric": {
+            "size": 22484
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ariba",
+        "sloc": [
+            [
+                "python",
+                14240
+            ],
+            [
+                "cpp",
+                733
+            ],
+            [
+                "xml",
+                101
+            ],
+            [
+                "sh",
+                57
+            ],
+            [
+                "makefile",
+                13
+            ],
+            [
+                "perl",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/ariba",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.14.6+ds-1"
+}

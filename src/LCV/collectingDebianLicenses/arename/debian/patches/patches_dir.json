@@ -1,0 +1,118 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Silence-Unescaped-left-brace-in-regex-warning.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "VERSION.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cope-with-slashes-in-tag-names.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "possible-precedence-issue-with-control-flow-operator.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 646,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spelling.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unsilent-pod2man.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 956,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "arename",
+    "path": "arename/4.0-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 30,
+        "license": "/copyright/license/arename/4.0-4/",
+        "metric": {
+            "size": 704
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arename",
+        "sloc": [
+            [
+                "sh",
+                619
+            ],
+            [
+                "perl",
+                570
+            ],
+            [
+                "makefile",
+                152
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-perl/packages/arename.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.0-4"
+}

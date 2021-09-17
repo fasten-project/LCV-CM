@@ -1,0 +1,213 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ConvertConstantsBFloatTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5210,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ConvertConstantsFloatToHalfTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1978,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ConvertConstantsHalfToFloatTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Fp32NetworkToBf16ConverterTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Fp32NetworkToFp16ConverterTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1569,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "InsertDebugLayerTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "MovePermuteUpTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "MoveTransposeUpTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OptimizeConsecutiveReshapesTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OptimizeInverseConversionsTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OptimizeInversePermutesTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PermuteAndBatchToSpaceAsDepthToSpaceTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11585,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PermuteAsReshapeTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SquashEqualSiblingsTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TransposeAsReshapeTests.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "optimizations",
+    "package": "armnn",
+    "path": "armnn/20.08-9/src/armnn/test/optimizations",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/armnn/20.08-9/",
+        "metric": {
+            "size": 20472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/armnn",
+        "sloc": [
+            [
+                "cpp",
+                211547
+            ],
+            [
+                "python",
+                2756
+            ],
+            [
+                "sh",
+                285
+            ],
+            [
+                "makefile",
+                38
+            ],
+            [
+                "asm",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/deeplearning-team/armnn",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20.08-9"
+}

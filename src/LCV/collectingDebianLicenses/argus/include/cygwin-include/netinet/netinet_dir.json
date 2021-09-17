@@ -1,0 +1,149 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "icmp6.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "if_ether.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1984,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "igmp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ip6.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ip_icmp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ip_var.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tcp_var.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tcpip.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1033,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "udp_var.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1086,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "netinet",
+    "package": "argus",
+    "path": "argus/2:3.0.8.2-2/include/cygwin-include/netinet",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/argus/2:3.0.8.2-2/",
+        "metric": {
+            "size": 3072
+        },
+        "pts_link": "https://tracker.debian.org/pkg/argus",
+        "sloc": [
+            [
+                "ansic",
+                38749
+            ],
+            [
+                "sh",
+                3751
+            ],
+            [
+                "lex",
+                466
+            ],
+            [
+                "yacc",
+                372
+            ],
+            [
+                "makefile",
+                356
+            ],
+            [
+                "perl",
+                34
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "2:3.0.8.2-2"
+}

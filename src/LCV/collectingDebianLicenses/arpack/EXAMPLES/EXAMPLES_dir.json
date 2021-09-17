@@ -1,0 +1,177 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BAND",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "COMPLEX",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "MATRIX_MARKET",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "NONSYM",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "PYARPACK",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.CALLING-ARPACK-FROM-C-OR-CPP",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SIMPLE",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "SVD",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "SYM",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "EXAMPLES",
+    "package": "arpack",
+    "path": "arpack/3.8.0-1/EXAMPLES",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arpack/3.8.0-1/",
+        "metric": {
+            "size": 7044
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arpack",
+        "sloc": [
+            [
+                "fortran",
+                50852
+            ],
+            [
+                "cpp",
+                3147
+            ],
+            [
+                "python",
+                1339
+            ],
+            [
+                "f90",
+                1068
+            ],
+            [
+                "ansic",
+                612
+            ],
+            [
+                "makefile",
+                395
+            ],
+            [
+                "sh",
+                157
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/arpack",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.8.0-1"
+}

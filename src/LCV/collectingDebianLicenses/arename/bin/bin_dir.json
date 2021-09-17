@@ -1,0 +1,173 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "createpack.hook.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "createpack.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "critic.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dist.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exists_in.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gendoc.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "genperlscripts.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gentestsdata.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "getversion.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uninstall.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 975,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "updatewebsite.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bin",
+    "package": "arename",
+    "path": "arename/4.0-4/bin",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 30,
+        "license": "/copyright/license/arename/4.0-4/",
+        "metric": {
+            "size": 704
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arename",
+        "sloc": [
+            [
+                "sh",
+                619
+            ],
+            [
+                "perl",
+                570
+            ],
+            [
+                "makefile",
+                152
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-perl/packages/arename.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.0-4"
+}

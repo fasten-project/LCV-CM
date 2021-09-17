@@ -1,0 +1,75 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "aribas",
+    "path": "aribas/1.64-6/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aribas/1.64-6/",
+        "metric": {
+            "size": 1928
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aribas",
+        "sloc": [
+            [
+                "ansic",
+                26078
+            ],
+            [
+                "pascal",
+                384
+            ],
+            [
+                "asm",
+                201
+            ],
+            [
+                "lisp",
+                133
+            ],
+            [
+                "makefile",
+                45
+            ],
+            [
+                "sh",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "buster",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/debian-science/packages/aribas.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.64-6"
+}

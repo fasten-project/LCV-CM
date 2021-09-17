@@ -1,0 +1,979 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arbgcomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arbgnsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arbgsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arbnsmat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arbnspen.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arbscomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arbsmat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arbsnsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arbspen.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6331,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arbssym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3843,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arch.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arcomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ardfmat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9066,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ardgcomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5723,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ardgnsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ardgsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6075,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ardnsmat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12994,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ardnspen.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7163,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ardscomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4374,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ardsmat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ardsnsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ardspen.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4627,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ardssym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3844,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arerror.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "argcomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3879,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "argeig.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5906,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "argnsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "argsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arhbmat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlcomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlgcomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlgnsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlgsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlnames.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4906,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlnsmat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlnspen.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17764,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlscomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlsmat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlsnsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4676,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlspdef.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25976,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlspen.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11999,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlssym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlsupm.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5799,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arlutil.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "armat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 951,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arpackf.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arrgcomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arrgeig.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arrgnsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arrgsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5490,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arrscomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10061,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arrseig.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arrsnsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23107,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arrssym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11027,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arscomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arseig.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5923,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arsnsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arssym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arugcomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5718,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arugnsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arugsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arunsmat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arunspen.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aruscomp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arusmat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12975,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arusnsym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aruspen.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arussym.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3837,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blas1c.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blas1f.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "caupp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ceupp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lapackc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lapackf.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "naupp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "neupp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13084,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "saupp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "seupp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7999,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "superluc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "umfpackc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "umfpackf.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4091,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "include",
+    "package": "arpack++",
+    "path": "arpack++/2.3-10/include",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arpack++/2.3-10/",
+        "metric": {
+            "size": 4556
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arpack++",
+        "sloc": [
+            [
+                "cpp",
+                16612
+            ],
+            [
+                "sh",
+                8819
+            ],
+            [
+                "ansic",
+                2312
+            ],
+            [
+                "makefile",
+                258
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/arpackcpp",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3-10"
+}

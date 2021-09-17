@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 247,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arpt_CLASSIFY.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arpt_MARK.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arpt_mangle.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arpt_standard.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "extensions",
+    "package": "arptables",
+    "path": "arptables/0.0.5-3/extensions",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arptables/0.0.5-3/",
+        "metric": {
+            "size": 356
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arptables",
+        "sloc": [
+            [
+                "ansic",
+                4447
+            ],
+            [
+                "perl",
+                81
+            ],
+            [
+                "makefile",
+                64
+            ],
+            [
+                "sh",
+                29
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-netfilter-team/pkg-arptables",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.5-3"
+}

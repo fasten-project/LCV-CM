@@ -1,0 +1,127 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "argus_auth.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "argus_code.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 147274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "argus_filter.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 87217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "argus_util.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114617,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "grammar.y",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 14718,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scanner.l",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11783,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "common",
+    "package": "argus",
+    "path": "argus/2:3.0.8.2-2/common",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/argus/2:3.0.8.2-2/",
+        "metric": {
+            "size": 3072
+        },
+        "pts_link": "https://tracker.debian.org/pkg/argus",
+        "sloc": [
+            [
+                "ansic",
+                38749
+            ],
+            [
+                "sh",
+                3751
+            ],
+            [
+                "lex",
+                466
+            ],
+            [
+                "yacc",
+                372
+            ],
+            [
+                "makefile",
+                356
+            ],
+            [
+                "perl",
+                34
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "2:3.0.8.2-2"
+}

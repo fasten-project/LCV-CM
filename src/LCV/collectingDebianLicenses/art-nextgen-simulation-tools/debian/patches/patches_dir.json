@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "adapt_path_to_perl_scripts.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-test-comparison.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 899,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spellings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "art-nextgen-simulation-tools",
+    "path": "art-nextgen-simulation-tools/20160605+dfsg-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/art-nextgen-simulation-tools/20160605+dfsg-4/",
+        "metric": {
+            "size": 16032
+        },
+        "pts_link": "https://tracker.debian.org/pkg/art-nextgen-simulation-tools",
+        "sloc": [
+            [
+                "cpp",
+                7952
+            ],
+            [
+                "perl",
+                524
+            ],
+            [
+                "sh",
+                210
+            ],
+            [
+                "makefile",
+                46
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/art-nextgen-simulation-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20160605+dfsg-4"
+}

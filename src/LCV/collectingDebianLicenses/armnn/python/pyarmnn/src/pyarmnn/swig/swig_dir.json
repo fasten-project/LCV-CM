@@ -1,0 +1,147 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "armnn.i",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "armnn_caffeparser.i",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "armnn_onnxparser.i",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "armnn_tfliteparser.i",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4898,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "armnn_tfparser.i",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "armnn_version.i",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "standard_header.i",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "typemaps",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 141,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "swig",
+    "package": "armnn",
+    "path": "armnn/20.08-9/python/pyarmnn/src/pyarmnn/swig",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/armnn/20.08-9/",
+        "metric": {
+            "size": 20472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/armnn",
+        "sloc": [
+            [
+                "cpp",
+                211547
+            ],
+            [
+                "python",
+                2756
+            ],
+            [
+                "sh",
+                285
+            ],
+            [
+                "makefile",
+                38
+            ],
+            [
+                "asm",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/deeplearning-team/armnn",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20.08-9"
+}

@@ -1,0 +1,79 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aif-job-execute",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aif-job-processor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6720,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "environment",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52650,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plugins",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "arno-iptables-firewall",
+    "package": "arno-iptables-firewall",
+    "path": "arno-iptables-firewall/2.1.1-3/share/arno-iptables-firewall",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arno-iptables-firewall/2.1.1-3/",
+        "metric": {
+            "size": 1504
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arno-iptables-firewall",
+        "sloc": [
+            [
+                "sh",
+                6106
+            ],
+            [
+                "makefile",
+                14
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/arno-iptables-firewall",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.1.1-3"
+}

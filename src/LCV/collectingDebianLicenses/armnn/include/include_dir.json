@@ -1,0 +1,147 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "armnn",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "armnnCaffeParser",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 37,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "armnnDeserializer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "armnnOnnxParser",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "armnnQuantizer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "armnnSerializer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "armnnTfLiteParser",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "armnnTfParser",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "armnnUtils",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 151,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "include",
+    "package": "armnn",
+    "path": "armnn/20.08-9/include",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/armnn/20.08-9/",
+        "metric": {
+            "size": 20472
+        },
+        "pts_link": "https://tracker.debian.org/pkg/armnn",
+        "sloc": [
+            [
+                "cpp",
+                211547
+            ],
+            [
+                "python",
+                2756
+            ],
+            [
+                "sh",
+                285
+            ],
+            [
+                "makefile",
+                38
+            ],
+            [
+                "asm",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/deeplearning-team/armnn",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20.08-9"
+}

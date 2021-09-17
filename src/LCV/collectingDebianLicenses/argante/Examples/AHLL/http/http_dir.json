@@ -1,0 +1,122 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "READ_ME_FIRST",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "custom.ahh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 803,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "httpd.ahl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "httpd.img",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49632,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 13,
+                "symlink_dest": "../../include",
+                "type": "l"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "http",
+    "package": "argante",
+    "path": "argante/1.001.1396-1/Examples/AHLL/http",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 2943,
+        "license": "/copyright/license/argante/1.001.1396-1/",
+        "metric": {
+            "size": 3008
+        },
+        "pts_link": "https://tracker.debian.org/pkg/argante",
+        "sloc": [
+            [
+                "ansic",
+                27590
+            ],
+            [
+                "yacc",
+                1177
+            ],
+            [
+                "perl",
+                1007
+            ],
+            [
+                "sh",
+                633
+            ],
+            [
+                "modula3",
+                260
+            ],
+            [
+                "lex",
+                170
+            ],
+            [
+                "makefile",
+                123
+            ],
+            [
+                "python",
+                78
+            ]
+        ],
+        "suites": [
+            "woody"
+        ]
+    },
+    "type": "directory",
+    "version": "1.001.1396-1"
+}
