@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_readme.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "b43-fwcutter",
+    "path": "b43-fwcutter/1:019-7/.pc",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/b43-fwcutter/1:019-7/",
+        "metric": {
+            "size": 352
+        },
+        "pts_link": "https://tracker.debian.org/pkg/b43-fwcutter",
+        "sloc": [
+            [
+                "ansic",
+                1929
+            ],
+            [
+                "sh",
+                336
+            ],
+            [
+                "python",
+                67
+            ],
+            [
+                "makefile",
+                57
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/b43-fwcutter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:019-7"
+}
