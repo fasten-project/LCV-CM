@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".gitignore",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".ruby-gemset",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".ruby-version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "benchmark.rb",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sample-data",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "benchmark",
+    "package": "asciidoctor",
+    "path": "asciidoctor/2.0.16-1/benchmark",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asciidoctor/2.0.16-1/",
+        "metric": {
+            "size": 4920
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asciidoctor",
+        "sloc": [
+            [
+                "ruby",
+                43017
+            ],
+            [
+                "sh",
+                121
+            ],
+            [
+                "xml",
+                53
+            ],
+            [
+                "javascript",
+                48
+            ],
+            [
+                "makefile",
+                25
+            ],
+            [
+                "ml",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/asciidoctor",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.16-1"
+}

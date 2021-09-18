@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix_asciidoc_api_doc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "normpath-not-realpath.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testasciidoc_path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 261,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testasciidoc_usage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vim-asciidoc-add_dummy_ftdetect.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "asciidoc",
+    "path": "asciidoc/9.0.0~rc2-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asciidoc/9.0.0%7Erc2-1/",
+        "metric": {
+            "size": 6468
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asciidoc",
+        "sloc": [
+            [
+                "xml",
+                17263
+            ],
+            [
+                "python",
+                6945
+            ],
+            [
+                "sh",
+                467
+            ],
+            [
+                "makefile",
+                184
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/asciidoc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.0.0~rc2-1"
+}

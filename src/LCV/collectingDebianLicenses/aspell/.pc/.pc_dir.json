@@ -1,0 +1,184 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_debctrl_filter.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "02_u-deva_common_data.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "03_ddtp_filter.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "04_gcc43_build_fix.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "07_filter.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "08_filters-info-installdir.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "09_debian-dictdir.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "1000-objstack-assert-that-the-alloc-size-will-fit-within-.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "aspell",
+    "path": "aspell/0.60.8-3/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aspell/0.60.8-3/",
+        "metric": {
+            "size": 15008
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aspell",
+        "sloc": [
+            [
+                "cpp",
+                24356
+            ],
+            [
+                "sh",
+                12325
+            ],
+            [
+                "perl",
+                1921
+            ],
+            [
+                "ansic",
+                1661
+            ],
+            [
+                "makefile",
+                829
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/aspell",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.60.8-3"
+}

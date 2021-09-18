@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 372,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ca.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2985,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "client.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh2048.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ssl",
+    "package": "asio",
+    "path": "asio/1:1.18.1-1/src/examples/cpp03/ssl",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asio/1:1.18.1-1/",
+        "metric": {
+            "size": 40660
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asio",
+        "sloc": [
+            [
+                "cpp",
+                147173
+            ],
+            [
+                "sh",
+                4264
+            ],
+            [
+                "makefile",
+                1947
+            ],
+            [
+                "perl",
+                423
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/markus/libasio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.18.1-1"
+}

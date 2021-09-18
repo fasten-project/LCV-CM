@@ -1,0 +1,57 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Build.PL",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "META.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2064,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "00-drop_useless_dependencies.patch",
+    "package": "asciio",
+    "path": "asciio/1.51.3-1/.pc/00-drop_useless_dependencies.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asciio/1.51.3-1/",
+        "metric": {
+            "size": 712
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asciio",
+        "sloc": [
+            [
+                "perl",
+                9795
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/git/collab-maint/asciio.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.51.3-1"
+}

@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "daytime_client.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "daytime_server.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 968,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "http_client.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "iostreams",
+    "package": "asio",
+    "path": "asio/1:1.18.1-1/src/examples/cpp03/iostreams",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asio/1:1.18.1-1/",
+        "metric": {
+            "size": 40660
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asio",
+        "sloc": [
+            [
+                "cpp",
+                147173
+            ],
+            [
+                "sh",
+                4264
+            ],
+            [
+                "makefile",
+                1947
+            ],
+            [
+                "perl",
+                423
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/markus/libasio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.18.1-1"
+}

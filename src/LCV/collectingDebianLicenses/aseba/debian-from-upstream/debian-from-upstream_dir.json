@@ -1,0 +1,107 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 610,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 782,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 810,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian-from-upstream",
+    "package": "aseba",
+    "path": "aseba/1.6.99+dfsg-1/debian-from-upstream",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aseba/1.6.99+dfsg-1/",
+        "metric": {
+            "size": 18328
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aseba",
+        "sloc": [
+            [
+                "cpp",
+                44160
+            ],
+            [
+                "ansic",
+                15461
+            ],
+            [
+                "python",
+                1597
+            ],
+            [
+                "javascript",
+                765
+            ],
+            [
+                "sh",
+                95
+            ],
+            [
+                "makefile",
+                57
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/aseba.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.99+dfsg-1"
+}

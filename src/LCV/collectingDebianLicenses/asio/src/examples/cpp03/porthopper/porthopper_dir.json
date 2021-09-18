@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "client.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6839,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "protocol.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "porthopper",
+    "package": "asio",
+    "path": "asio/1:1.18.1-1/src/examples/cpp03/porthopper",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asio/1:1.18.1-1/",
+        "metric": {
+            "size": 40660
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asio",
+        "sloc": [
+            [
+                "cpp",
+                147173
+            ],
+            [
+                "sh",
+                4264
+            ],
+            [
+                "makefile",
+                1947
+            ],
+            [
+                "perl",
+                423
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/markus/libasio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.18.1-1"
+}

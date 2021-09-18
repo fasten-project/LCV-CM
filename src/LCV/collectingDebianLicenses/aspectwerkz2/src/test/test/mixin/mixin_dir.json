@@ -1,0 +1,79 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "perclass",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "perinstance",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "perjvm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 123,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "mixin",
+    "package": "aspectwerkz2",
+    "path": "aspectwerkz2/2.0.dfsg.2-2/src/test/test/mixin",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 8944,
+        "license": "/copyright/license/aspectwerkz2/2.0.dfsg.2-2/",
+        "metric": {
+            "size": 6112
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aspectwerkz2",
+        "sloc": [
+            [
+                "java",
+                57529
+            ],
+            [
+                "xml",
+                10573
+            ],
+            [
+                "cpp",
+                140
+            ],
+            [
+                "sh",
+                67
+            ],
+            [
+                "makefile",
+                16
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://svn.debian.org/wsvn/pkg-java/trunk/aspectwerkz2",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "2.0.dfsg.2-2"
+}

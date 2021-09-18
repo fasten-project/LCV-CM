@@ -1,0 +1,147 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "asistant",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gnat2xml",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gnatcheck",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gnatelim",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gnatmetric",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gnatpp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gnatstub",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gnattest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tool_utils",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tools",
+    "package": "asis",
+    "path": "asis/2019-5/.pc/compilation_options.diff/tools",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asis/2019-5/",
+        "metric": {
+            "size": 13848
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asis",
+        "sloc": [
+            [
+                "ada",
+                156772
+            ],
+            [
+                "makefile",
+                296
+            ],
+            [
+                "sh",
+                81
+            ],
+            [
+                "xml",
+                48
+            ],
+            [
+                "csh",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/asis",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2019-5"
+}

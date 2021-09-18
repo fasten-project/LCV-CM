@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CFlow.java",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "internal",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "reflect",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "runtime",
+    "package": "aspectj",
+    "path": "aspectj/1.9.2-2/runtime/src/org/aspectj/runtime",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aspectj/1.9.2-2/",
+        "metric": {
+            "size": 43412
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aspectj",
+        "sloc": [
+            [
+                "java",
+                558715
+            ],
+            [
+                "xml",
+                26625
+            ],
+            [
+                "sh",
+                540
+            ],
+            [
+                "makefile",
+                43
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/aspectj",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.9.2-2"
+}

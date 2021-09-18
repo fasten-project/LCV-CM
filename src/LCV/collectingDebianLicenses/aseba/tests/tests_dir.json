@@ -1,0 +1,184 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "common",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "compiler",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "e2e-http",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "http-valgrind-macosx.supp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "msg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "patch-script.cmake",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-test-asebahttp.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simulator",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test-http.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11012,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testdata-HttpRequest.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tests",
+    "package": "aseba",
+    "path": "aseba/1.6.99+dfsg-1/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aseba/1.6.99+dfsg-1/",
+        "metric": {
+            "size": 18328
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aseba",
+        "sloc": [
+            [
+                "cpp",
+                44160
+            ],
+            [
+                "ansic",
+                15461
+            ],
+            [
+                "python",
+                1597
+            ],
+            [
+                "javascript",
+                765
+            ],
+            [
+                "sh",
+                95
+            ],
+            [
+                "makefile",
+                57
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/aseba.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.99+dfsg-1"
+}

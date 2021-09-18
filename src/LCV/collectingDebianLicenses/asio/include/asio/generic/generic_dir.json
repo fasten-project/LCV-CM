@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "basic_endpoint.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "datagram_protocol.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detail",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "raw_protocol.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3066,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "seq_packet_protocol.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stream_protocol.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "generic",
+    "package": "asio",
+    "path": "asio/1:1.18.1-1/include/asio/generic",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asio/1:1.18.1-1/",
+        "metric": {
+            "size": 40660
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asio",
+        "sloc": [
+            [
+                "cpp",
+                147173
+            ],
+            [
+                "sh",
+                4264
+            ],
+            [
+                "makefile",
+                1947
+            ],
+            [
+                "perl",
+                423
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/markus/libasio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.18.1-1"
+}

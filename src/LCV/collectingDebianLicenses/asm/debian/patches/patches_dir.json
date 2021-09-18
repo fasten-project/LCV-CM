@@ -1,0 +1,172 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-bnd-plugin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 724,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-ignore-google-java-format-plugin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 874,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-ignore-jmh-plugin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-ignore-sonarqube-plugin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-junit-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 548,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-disable-retrofitter.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-restore-asm-all.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-ignore-sigtest-maven-plugin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-ignore-test-coverage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-remapping-adapters.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-gradle-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1026,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "asm",
+    "path": "asm/9.1-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asm/9.1-1/",
+        "metric": {
+            "size": 7064
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asm",
+        "sloc": [
+            [
+                "java",
+                49598
+            ],
+            [
+                "xml",
+                230
+            ],
+            [
+                "makefile",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/asm",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.1-1"
+}

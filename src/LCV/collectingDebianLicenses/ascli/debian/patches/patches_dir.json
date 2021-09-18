@@ -1,0 +1,70 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "000_ubuntu_as_link",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "001_ubuntu_add_makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "ascli",
+    "path": "ascli/1.0.61.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "non-free",
+        "copyright": true,
+        "ctags_count": 144,
+        "license": "/copyright/license/ascli/1.0.61.0-1/",
+        "metric": {
+            "size": 7252
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ascli",
+        "sloc": [
+            [
+                "sh",
+                386
+            ],
+            [
+                "makefile",
+                76
+            ],
+            [
+                "python",
+                44
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ]
+    },
+    "type": "directory",
+    "version": "1.0.61.0-1"
+}

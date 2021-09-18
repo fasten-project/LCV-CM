@@ -1,0 +1,132 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_ajc_xml_typo.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_use_system_docbook.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_use_xsltproc_for_doc.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_build_classpath.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1004,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09_compile-bcel-builder.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ant_0_8_fix.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1542,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_system_asm.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1998,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aspectj",
+    "path": "aspectj/1.9.2-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aspectj/1.9.2-2/",
+        "metric": {
+            "size": 43412
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aspectj",
+        "sloc": [
+            [
+                "java",
+                558715
+            ],
+            [
+                "xml",
+                26625
+            ],
+            [
+                "sh",
+                540
+            ],
+            [
+                "makefile",
+                43
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/aspectj",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.9.2-2"
+}

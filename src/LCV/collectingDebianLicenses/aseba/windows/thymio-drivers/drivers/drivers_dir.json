@@ -1,0 +1,74 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "win_8",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "win_xp-7",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "drivers",
+    "package": "aseba",
+    "path": "aseba/1.6.99+dfsg-1/windows/thymio-drivers/drivers",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aseba/1.6.99+dfsg-1/",
+        "metric": {
+            "size": 18328
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aseba",
+        "sloc": [
+            [
+                "cpp",
+                44160
+            ],
+            [
+                "ansic",
+                15461
+            ],
+            [
+                "python",
+                1597
+            ],
+            [
+                "javascript",
+                765
+            ],
+            [
+                "sh",
+                95
+            ],
+            [
+                "makefile",
+                57
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/aseba.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.99+dfsg-1"
+}

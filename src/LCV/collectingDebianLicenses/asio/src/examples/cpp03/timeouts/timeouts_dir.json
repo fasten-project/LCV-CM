@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "async_tcp_client.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blocking_tcp_client.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6006,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blocking_token_tcp_client.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6065,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blocking_udp_client.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "server.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11873,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "timeouts",
+    "package": "asio",
+    "path": "asio/1:1.18.1-1/src/examples/cpp03/timeouts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asio/1:1.18.1-1/",
+        "metric": {
+            "size": 40660
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asio",
+        "sloc": [
+            [
+                "cpp",
+                147173
+            ],
+            [
+                "sh",
+                4264
+            ],
+            [
+                "makefile",
+                1947
+            ],
+            [
+                "perl",
+                423
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/markus/libasio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.18.1-1"
+}

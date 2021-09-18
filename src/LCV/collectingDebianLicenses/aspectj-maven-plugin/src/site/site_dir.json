@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apt",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "resources",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "site.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uml",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "site",
+    "package": "aspectj-maven-plugin",
+    "path": "aspectj-maven-plugin/1.11-2/src/site",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aspectj-maven-plugin/1.11-2/",
+        "metric": {
+            "size": 1328
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aspectj-maven-plugin",
+        "sloc": [
+            [
+                "java",
+                2579
+            ],
+            [
+                "xml",
+                2235
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/aspectj-maven-plugin",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.11-2"
+}

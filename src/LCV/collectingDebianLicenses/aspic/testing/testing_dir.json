@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "RunTests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1087,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "infiles",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "outfiles",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.out",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "testing",
+    "package": "aspic",
+    "path": "aspic/1.05-4/testing",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aspic/1.05-4/",
+        "metric": {
+            "size": 2092
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aspic",
+        "sloc": [
+            [
+                "ansic",
+                5786
+            ],
+            [
+                "xml",
+                3852
+            ],
+            [
+                "sh",
+                226
+            ],
+            [
+                "makefile",
+                67
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "1.05-4"
+}

@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "or.tex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tex-test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "aspell-or",
+    "path": "aspell-or/0.03-1-7/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aspell-or/0.03-1-7/",
+        "metric": {
+            "size": 180
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aspell-or",
+        "sloc": [
+            [
+                "sh",
+                78
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-in-team/aspell-or",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.03-1-7"
+}

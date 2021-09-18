@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aspects-in-main-project",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "no-main-weave-project",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "no-sources-project",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "parent-child-test-project",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test-project",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "projects",
+    "package": "aspectj-maven-plugin",
+    "path": "aspectj-maven-plugin/1.11-2/src/test/projects",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aspectj-maven-plugin/1.11-2/",
+        "metric": {
+            "size": 1328
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aspectj-maven-plugin",
+        "sloc": [
+            [
+                "java",
+                2579
+            ],
+            [
+                "xml",
+                2235
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/aspectj-maven-plugin",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.11-2"
+}

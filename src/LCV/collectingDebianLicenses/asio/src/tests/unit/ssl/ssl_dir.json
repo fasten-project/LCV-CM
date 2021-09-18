@@ -1,0 +1,121 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "context.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "context_base.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "error.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_name_verification.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rfc2818_verification.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stream.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stream_base.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ssl",
+    "package": "asio",
+    "path": "asio/1:1.18.1-1/src/tests/unit/ssl",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asio/1:1.18.1-1/",
+        "metric": {
+            "size": 40660
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asio",
+        "sloc": [
+            [
+                "cpp",
+                147173
+            ],
+            [
+                "sh",
+                4264
+            ],
+            [
+                "makefile",
+                1947
+            ],
+            [
+                "perl",
+                423
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/markus/libasio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.18.1-1"
+}

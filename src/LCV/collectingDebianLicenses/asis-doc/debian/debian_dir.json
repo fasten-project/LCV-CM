@@ -1,0 +1,100 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "asis-doc.postinst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asis-doc.prerm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 761,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "asis-doc",
+    "path": "asis-doc/2005-3/debian",
+    "pkg_infos": {
+        "area": "non-free",
+        "copyright": true,
+        "ctags_count": 8,
+        "license": "/copyright/license/asis-doc/2005-3/",
+        "metric": {
+            "size": 216
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asis-doc",
+        "sloc": [
+            [
+                "makefile",
+                35
+            ],
+            [
+                "sh",
+                18
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k",
+            "lenny"
+        ]
+    },
+    "type": "directory",
+    "version": "2005-3"
+}

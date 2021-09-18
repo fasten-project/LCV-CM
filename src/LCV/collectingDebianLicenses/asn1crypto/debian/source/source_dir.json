@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "format",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "options",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "source",
+    "package": "asn1crypto",
+    "path": "asn1crypto/1.4.0-1/debian/source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asn1crypto/1.4.0-1/",
+        "metric": {
+            "size": 712
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asn1crypto",
+        "sloc": [
+            [
+                "python",
+                9402
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/modules/asn1crypto",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.0-1"
+}

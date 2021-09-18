@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pa.tex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tex-test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "aspell-pa",
+    "path": "aspell-pa/0.01-1-7/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aspell-pa/0.01-1-7/",
+        "metric": {
+            "size": 176
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aspell-pa",
+        "sloc": [
+            [
+                "sh",
+                78
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-in-team/aspell-pa",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.01-1-7"
+}

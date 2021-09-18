@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "asp",
+    "path": "asp/1.8-8/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asp/1.8-8/",
+        "metric": {
+            "size": 268
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asp",
+        "sloc": [
+            [
+                "ansic",
+                1069
+            ],
+            [
+                "sh",
+                191
+            ],
+            [
+                "makefile",
+                143
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "1.8-8"
+}

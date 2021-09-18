@@ -1,0 +1,165 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "context.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "context_base.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5247,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detail",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "error.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_name_verification.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2554,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "impl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rfc2818_verification.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stream.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29999,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stream_base.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verify_context.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1658,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verify_mode.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ssl",
+    "package": "asio",
+    "path": "asio/1:1.18.1-1/include/asio/ssl",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asio/1:1.18.1-1/",
+        "metric": {
+            "size": 40660
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asio",
+        "sloc": [
+            [
+                "cpp",
+                147173
+            ],
+            [
+                "sh",
+                4264
+            ],
+            [
+                "makefile",
+                1947
+            ],
+            [
+                "perl",
+                423
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/markus/libasio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.18.1-1"
+}

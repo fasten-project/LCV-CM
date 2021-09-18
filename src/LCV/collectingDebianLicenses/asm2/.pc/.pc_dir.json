@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "encoding.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "asm2",
+    "path": "asm2/2.2.3-6/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 2786,
+        "license": "/copyright/license/asm2/2.2.3-6/",
+        "metric": {
+            "size": 2548
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asm2",
+        "sloc": [
+            [
+                "java",
+                22655
+            ],
+            [
+                "xml",
+                1218
+            ],
+            [
+                "makefile",
+                32
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "wheezy"
+        ],
+        "vcs_browser": "http://svn.debian.org/wsvn/pkg-java/trunk/asm2",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "2.2.3-6"
+}

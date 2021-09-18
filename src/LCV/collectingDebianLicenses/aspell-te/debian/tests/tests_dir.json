@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "te.tex",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tex-test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "aspell-te",
+    "path": "aspell-te/0.01-2-7/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aspell-te/0.01-2-7/",
+        "metric": {
+            "size": 1396
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aspell-te",
+        "sloc": [
+            [
+                "sh",
+                78
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-in-team/aspell-te",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.01-2-7"
+}
