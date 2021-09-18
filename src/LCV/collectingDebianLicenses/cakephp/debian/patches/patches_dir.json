@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "05-remove.unused.shebang.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-cake.utility.lib.directory.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-Adds.option.preserve_mode.to.Folder_copy.method.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1910,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20-Avoids.executable.bit.when.app.skeleton.is.created.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 705,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "cakephp",
+    "path": "cakephp/2.10.24-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/cakephp/2.10.24-1/",
+        "metric": {
+            "size": 11860
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cakephp",
+        "sloc": [
+            [
+                "php",
+                164706
+            ],
+            [
+                "xml",
+                240
+            ],
+            [
+                "sql",
+                89
+            ],
+            [
+                "sh",
+                54
+            ],
+            [
+                "makefile",
+                8
+            ],
+            [
+                "javascript",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/cakephp",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.10.24-1"
+}

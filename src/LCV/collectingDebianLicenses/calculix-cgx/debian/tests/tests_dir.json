@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "latim.fbd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "calculix-cgx",
+    "path": "calculix-cgx/2.17+dfsg-2/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/calculix-cgx/2.17+dfsg-2/",
+        "metric": {
+            "size": 65048
+        },
+        "pts_link": "https://tracker.debian.org/pkg/calculix-cgx",
+        "sloc": [
+            [
+                "ansic",
+                99922
+            ],
+            [
+                "cpp",
+                3016
+            ],
+            [
+                "sh",
+                70
+            ],
+            [
+                "makefile",
+                35
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/calculix-cgx",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.17+dfsg-2"
+}

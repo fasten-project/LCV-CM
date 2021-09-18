@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "clean.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dolfyn.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rename.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spiegel.din",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 736,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spiegel.fbd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16920,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spiegel.inp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mirror",
+    "package": "calculix-cgx",
+    "path": "calculix-cgx/2.17+dfsg-2/cgx_2.17/examples/dolfyn/mirror",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/calculix-cgx/2.17+dfsg-2/",
+        "metric": {
+            "size": 65048
+        },
+        "pts_link": "https://tracker.debian.org/pkg/calculix-cgx",
+        "sloc": [
+            [
+                "ansic",
+                99922
+            ],
+            [
+                "cpp",
+                3016
+            ],
+            [
+                "sh",
+                70
+            ],
+            [
+                "makefile",
+                35
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/calculix-cgx",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.17+dfsg-2"
+}
