@@ -1,0 +1,189 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.source",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1664,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libapq-postgresql3.2.0-dev.examples",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libapq-postgresql3.2.0-dev.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libapq-postgresql3.2.0.README.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 386,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libapq-postgresql3.2.0.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "misc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "patches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1792,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "debian",
+    "package": "apq-postgresql",
+    "path": "apq-postgresql/3.2.0-2/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apq-postgresql/3.2.0-2/",
+        "metric": {
+            "size": 708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apq-postgresql",
+        "sloc": [
+            [
+                "ada",
+                4373
+            ],
+            [
+                "ansic",
+                2003
+            ],
+            [
+                "sh",
+                527
+            ],
+            [
+                "makefile",
+                64
+            ],
+            [
+                "sql",
+                3
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.codelabs.ch/?p=debian/apq-postgresql.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.0-2"
+}

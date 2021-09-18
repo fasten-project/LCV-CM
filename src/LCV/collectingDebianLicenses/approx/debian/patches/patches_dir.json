@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Fix-compilation-with-OCaml-4.08.0.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 527,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "approx",
+    "path": "approx/5.10-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/approx/5.10-2/",
+        "metric": {
+            "size": 340
+        },
+        "pts_link": "https://tracker.debian.org/pkg/approx",
+        "sloc": [
+            [
+                "ml",
+                2220
+            ],
+            [
+                "sh",
+                42
+            ],
+            [
+                "makefile",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/approx",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.10-2"
+}

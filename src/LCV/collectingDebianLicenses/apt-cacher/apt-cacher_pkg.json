@@ -1,0 +1,204 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apt-cacher",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-cacher-cgi.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-cacher-cleanup.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-cacher-format-transition.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1331,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-cacher-import.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-cacher-precache.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-cacher-report.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-proxy-to-apt-cacher",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "contrib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "install.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libcurl.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "1.7.23",
+    "package": "apt-cacher",
+    "path": "apt-cacher/1.7.23",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-cacher/1.7.23/",
+        "metric": {
+            "size": 548
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-cacher",
+        "sloc": [
+            [
+                "perl",
+                4585
+            ],
+            [
+                "sh",
+                200
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/LeePen/apt-cacher",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.23"
+}

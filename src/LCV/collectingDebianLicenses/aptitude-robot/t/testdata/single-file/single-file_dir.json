@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "pkglist.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "single-file",
+    "package": "aptitude-robot",
+    "path": "aptitude-robot/1.5.4-1/t/testdata/single-file",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aptitude-robot/1.5.4-1/",
+        "metric": {
+            "size": 540
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aptitude-robot",
+        "sloc": [
+            [
+                "sh",
+                727
+            ],
+            [
+                "perl",
+                619
+            ],
+            [
+                "makefile",
+                29
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/elmar/aptitude-robot",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.4-1"
+}

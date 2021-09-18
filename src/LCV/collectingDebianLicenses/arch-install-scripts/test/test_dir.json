@@ -1,0 +1,79 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "common",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_mangle",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 238,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_option_twiddling",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2014,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_valid_number_of_base",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test",
+    "package": "arch-install-scripts",
+    "path": "arch-install-scripts/24-1/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arch-install-scripts/24-1/",
+        "metric": {
+            "size": 180
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arch-install-scripts",
+        "sloc": [
+            [
+                "sh",
+                483
+            ],
+            [
+                "makefile",
+                42
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://git.unit193.net/cgit/users/unit193/arch-install-scripts.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "24-1"
+}

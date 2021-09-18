@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aprx-complex.conf.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aprx-rxigate.conf.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aprx.conf.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16300,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "03-Config-callsign.patch",
+    "package": "aprx",
+    "path": "aprx/2.9.0+dfsg-5/.pc/03-Config-callsign.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aprx/2.9.0+dfsg-5/",
+        "metric": {
+            "size": 2428
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aprx",
+        "sloc": [
+            [
+                "ansic",
+                15809
+            ],
+            [
+                "sh",
+                598
+            ],
+            [
+                "makefile",
+                164
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-hamradio-team/aprx",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.9.0+dfsg-5"
+}

@@ -1,0 +1,139 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "inet_ntop.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inet_pton.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multicast.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sendrecv.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34593,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sockaddr.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "socket_util.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sockets.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sockopt.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "unix",
+    "package": "apr",
+    "path": "apr/1.7.0-8/network_io/unix",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apr/1.7.0-8/",
+        "metric": {
+            "size": 7440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apr",
+        "sloc": [
+            [
+                "ansic",
+                64154
+            ],
+            [
+                "sh",
+                3561
+            ],
+            [
+                "perl",
+                900
+            ],
+            [
+                "awk",
+                393
+            ],
+            [
+                "makefile",
+                374
+            ],
+            [
+                "python",
+                146
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apache-team/apr",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.0-8"
+}

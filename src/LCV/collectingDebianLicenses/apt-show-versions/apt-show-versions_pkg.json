@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile.PL",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-show-versions",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-show-versions.bash_completion",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "man",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0.22.12",
+    "package": "apt-show-versions",
+    "path": "apt-show-versions/0.22.12",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-show-versions/0.22.12/",
+        "metric": {
+            "size": 256
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-show-versions",
+        "sloc": [
+            [
+                "perl",
+                562
+            ],
+            [
+                "makefile",
+                54
+            ],
+            [
+                "sh",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/apt-show-versions",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.22.12"
+}

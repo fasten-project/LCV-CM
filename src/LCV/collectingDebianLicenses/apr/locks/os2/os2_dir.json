@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "proc_mutex.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thread_cond.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4975,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thread_mutex.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3303,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thread_rwlock.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "os2",
+    "package": "apr",
+    "path": "apr/1.7.0-8/locks/os2",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apr/1.7.0-8/",
+        "metric": {
+            "size": 7440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apr",
+        "sloc": [
+            [
+                "ansic",
+                64154
+            ],
+            [
+                "sh",
+                3561
+            ],
+            [
+                "perl",
+                900
+            ],
+            [
+                "awk",
+                393
+            ],
+            [
+                "makefile",
+                374
+            ],
+            [
+                "python",
+                146
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apache-team/apr",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.0-8"
+}

@@ -1,0 +1,56 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 60,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "1.38",
+    "package": "arcboot-installer",
+    "path": "arcboot-installer/1.38",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arcboot-installer/1.38/",
+        "metric": {
+            "size": 668
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arcboot-installer",
+        "sloc": [
+            [
+                "sh",
+                69
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/installer-team/arcboot-installer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.38"
+}

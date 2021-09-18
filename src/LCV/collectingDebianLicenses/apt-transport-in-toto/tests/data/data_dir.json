@@ -1,0 +1,135 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "alice.asc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1672,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bad",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "good",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gpg_keyring",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 98,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "intoto.conf.docker",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rebuild.5863835e.link",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rebuild.e946fc60.link",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.layout",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.layout.docker",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2841,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "data",
+    "package": "apt-transport-in-toto",
+    "path": "apt-transport-in-toto/0.1.1-2/tests/data",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-transport-in-toto/0.1.1-2/",
+        "metric": {
+            "size": 260
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-transport-in-toto",
+        "sloc": [
+            [
+                "python",
+                586
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/in-toto/apt-transport-in-toto",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.1-2"
+}

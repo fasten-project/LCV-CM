@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aptd.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aptdcon.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4004,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "examples",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "org.debian.apt.7",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6952,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "org.debian.apt.transaction.7",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7248,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "doc",
+    "package": "aptdaemon",
+    "path": "aptdaemon/1.1.1-4+deb8u1/doc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 3911,
+        "license": "/copyright/license/aptdaemon/1.1.1-4+deb8u1/",
+        "metric": {
+            "size": 7456
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aptdaemon",
+        "sloc": [
+            [
+                "python",
+                13428
+            ],
+            [
+                "sh",
+                88
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "jessie"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/loggerhead/apt/aptdaemon/debian-sid",
+        "vcs_type": "bzr"
+    },
+    "type": "directory",
+    "version": "1.1.1-4+deb8u1"
+}

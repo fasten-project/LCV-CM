@@ -1,0 +1,139 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AptFs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 113,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "COPYING",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "HACKING",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "MANIFEST.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mount.aptfs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mount.aptfs.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1345,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pyproject.toml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "2:1.0.1",
+    "package": "aptfs",
+    "path": "aptfs/2:1.0.1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aptfs/2:1.0.1/",
+        "metric": {
+            "size": 132
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aptfs",
+        "sloc": [
+            [
+                "python",
+                390
+            ],
+            [
+                "sh",
+                10
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/lamby/aptfs",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:1.0.1"
+}

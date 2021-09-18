@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "docs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "icons",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "icons.qrc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os_icons",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "os_templates",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "shared_images.qrc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "translations",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 115,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "resources",
+    "package": "aqemu",
+    "path": "aqemu/0.9.2-3/resources",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aqemu/0.9.2-3/",
+        "metric": {
+            "size": 9744
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aqemu",
+        "sloc": [
+            [
+                "cpp",
+                36571
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/aqemu",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.2-3"
+}

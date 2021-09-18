@@ -1,0 +1,144 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chroot.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4703,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chtest.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deploy.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install_prerequisities.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2831,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install_ssh_id.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "purge-snapshots.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2796,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup_env.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".travis",
+    "package": "aranym",
+    "path": "aranym/1.1.0-2/.travis",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aranym/1.1.0-2/",
+        "metric": {
+            "size": 25484
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aranym",
+        "sloc": [
+            [
+                "cpp",
+                178117
+            ],
+            [
+                "ansic",
+                170405
+            ],
+            [
+                "perl",
+                5637
+            ],
+            [
+                "sh",
+                5547
+            ],
+            [
+                "asm",
+                2282
+            ],
+            [
+                "makefile",
+                1323
+            ],
+            [
+                "objc",
+                218
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/aranym",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.0-2"
+}

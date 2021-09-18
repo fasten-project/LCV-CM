@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apt-move",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 37415,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-move.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "add-copydir.patch",
+    "package": "apt-move",
+    "path": "apt-move/4.2.27-6/.pc/add-copydir.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-move/4.2.27-6/",
+        "metric": {
+            "size": 516
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-move",
+        "sloc": [
+            [
+                "sh",
+                7946
+            ],
+            [
+                "awk",
+                275
+            ],
+            [
+                "cpp",
+                235
+            ],
+            [
+                "perl",
+                170
+            ],
+            [
+                "makefile",
+                69
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "4.2.27-6"
+}

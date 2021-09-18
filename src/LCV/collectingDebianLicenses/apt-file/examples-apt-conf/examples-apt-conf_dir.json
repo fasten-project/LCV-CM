@@ -1,0 +1,74 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "60disable-contents-fetching.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-file-2-update.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1973,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-file.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "examples-apt-conf",
+    "package": "apt-file",
+    "path": "apt-file/3.2.2/examples-apt-conf",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-file/3.2.2/",
+        "metric": {
+            "size": 644
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-file",
+        "sloc": [
+            [
+                "perl",
+                887
+            ],
+            [
+                "sh",
+                93
+            ],
+            [
+                "makefile",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apt-team/apt-file",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.2"
+}

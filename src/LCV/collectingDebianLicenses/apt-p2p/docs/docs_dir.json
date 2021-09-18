@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "abstract",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debaday.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "epydoc.config",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4469,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "motivation",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "paper",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "poster",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "docs",
+    "package": "apt-p2p",
+    "path": "apt-p2p/0.1.8/docs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-p2p/0.1.8/",
+        "metric": {
+            "size": 9260
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-p2p",
+        "sloc": [
+            [
+                "python",
+                6744
+            ],
+            [
+                "sh",
+                122
+            ],
+            [
+                "makefile",
+                48
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://git.camrdale.org/?p=apt-p2p.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.8"
+}

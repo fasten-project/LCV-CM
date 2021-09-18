@@ -1,0 +1,179 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "LICENSE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "MANIFEST.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1072,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-forktracer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-forktracer.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-forktracer.pl.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "forktracer.conf.5",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "forktracer.conf.pl.5",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "run_forktracer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_tests.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1827,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-data",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0.9",
+    "package": "apt-forktracer",
+    "path": "apt-forktracer/0.9",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-forktracer/0.9/",
+        "metric": {
+            "size": 364
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-forktracer",
+        "sloc": [
+            [
+                "python",
+                1995
+            ],
+            [
+                "makefile",
+                14
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/porridge/apt-forktracer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9"
+}

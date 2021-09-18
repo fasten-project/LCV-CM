@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".hidden.config",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config.notreally",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sub.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "config.d",
+    "package": "apt-forktracer",
+    "path": "apt-forktracer/0.9/test-data/config.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-forktracer/0.9/",
+        "metric": {
+            "size": 364
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-forktracer",
+        "sloc": [
+            [
+                "python",
+                1995
+            ],
+            [
+                "makefile",
+                14
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/porridge/apt-forktracer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9"
+}

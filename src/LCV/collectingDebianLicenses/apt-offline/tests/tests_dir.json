@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apt-offline-testcase.bat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 783,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-offline-tests.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set-update.uris",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "apt-offline",
+    "path": "apt-offline/1.8.2-2/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-offline/1.8.2-2/",
+        "metric": {
+            "size": 780
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-offline",
+        "sloc": [
+            [
+                "python",
+                3639
+            ],
+            [
+                "sh",
+                210
+            ],
+            [
+                "makefile",
+                22
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/rickysarraf/apt-offline",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8.2-2"
+}

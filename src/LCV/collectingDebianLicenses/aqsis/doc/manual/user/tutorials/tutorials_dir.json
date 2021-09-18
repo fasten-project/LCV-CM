@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "examples",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "index.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 164,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tools",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tutorials",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tutorials",
+    "package": "aqsis",
+    "path": "aqsis/1.8.2-12/doc/manual/user/tutorials",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aqsis/1.8.2-12/",
+        "metric": {
+            "size": 18584
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aqsis",
+        "sloc": [
+            [
+                "cpp",
+                138281
+            ],
+            [
+                "python",
+                12880
+            ],
+            [
+                "ansic",
+                4946
+            ],
+            [
+                "xml",
+                3415
+            ],
+            [
+                "yacc",
+                1887
+            ],
+            [
+                "sh",
+                459
+            ],
+            [
+                "makefile",
+                385
+            ],
+            [
+                "lex",
+                280
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/aqsis",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8.2-12"
+}

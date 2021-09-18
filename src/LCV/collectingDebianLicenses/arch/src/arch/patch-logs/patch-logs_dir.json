@@ -1,0 +1,279 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Help.category.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Help.category_title.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Help.list.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LOGS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PLUGIN",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 44,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "add-log.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cat-log.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copy-to-patch-log.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "log-for-merge.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "log-header-field.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "log-ls.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6798,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logs.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-log.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3777,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "merge-points.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15907,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "new-on-branch.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4750,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patch-list-description.awk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 897,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-log.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "valid-log-file.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wd-check-for-patch-log.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3998,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patch-logs",
+    "package": "arch",
+    "path": "arch/1.0pre15-1/src/arch/patch-logs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 4560,
+        "license": "/copyright/license/arch/1.0pre15-1/",
+        "metric": {
+            "size": 20180
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arch",
+        "sloc": [
+            [
+                "ansic",
+                64410
+            ],
+            [
+                "sh",
+                29168
+            ],
+            [
+                "lisp",
+                1896
+            ],
+            [
+                "awk",
+                1044
+            ],
+            [
+                "makefile",
+                484
+            ],
+            [
+                "sed",
+                26
+            ]
+        ],
+        "suites": [
+            "woody"
+        ]
+    },
+    "type": "directory",
+    "version": "1.0pre15-1"
+}

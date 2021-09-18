@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aptcleanup",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "migratepins",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2218,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prefclean",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "libexec",
+    "package": "apt-listbugs",
+    "path": "apt-listbugs/0.1.35/libexec",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-listbugs/0.1.35/",
+        "metric": {
+            "size": 1304
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-listbugs",
+        "sloc": [
+            [
+                "ruby",
+                2502
+            ],
+            [
+                "sh",
+                245
+            ],
+            [
+                "makefile",
+                53
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/frx-guest/apt-listbugs",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.35"
+}

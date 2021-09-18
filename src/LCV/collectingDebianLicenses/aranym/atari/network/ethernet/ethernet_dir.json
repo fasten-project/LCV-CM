@@ -1,0 +1,89 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ethernet_nfapi.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2294,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nfeth-config",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "ethernet",
+    "package": "aranym",
+    "path": "aranym/1.1.0-2/atari/network/ethernet",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aranym/1.1.0-2/",
+        "metric": {
+            "size": 25484
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aranym",
+        "sloc": [
+            [
+                "cpp",
+                178117
+            ],
+            [
+                "ansic",
+                170405
+            ],
+            [
+                "perl",
+                5637
+            ],
+            [
+                "sh",
+                5547
+            ],
+            [
+                "asm",
+                2282
+            ],
+            [
+                "makefile",
+                1323
+            ],
+            [
+                "objc",
+                218
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/aranym",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.0-2"
+}

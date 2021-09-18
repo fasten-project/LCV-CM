@@ -1,0 +1,238 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "001_help-option.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "010_simple-calls.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "011_simple-calls-from-cli.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 938,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "014_pass-extra-options-cli.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 715,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "021_file-slurp.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "030_parser.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "031_extra-space.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 623,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "032_comments.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 620,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "040_extra-options.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1026,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "041_options-syntax.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 727,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "050_force-install.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "051_force-install.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "052_force-install.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 732,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "059_force-install-cli.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "060_triggers.t",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "070_reporting_helper.t",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "070_reporting_helper.t~",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testdata",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "t",
+    "package": "aptitude-robot",
+    "path": "aptitude-robot/1.5.4-1/t",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aptitude-robot/1.5.4-1/",
+        "metric": {
+            "size": 540
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aptitude-robot",
+        "sloc": [
+            [
+                "sh",
+                727
+            ],
+            [
+                "perl",
+                619
+            ],
+            [
+                "makefile",
+                29
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/elmar/aptitude-robot",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.4-1"
+}

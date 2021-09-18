@@ -1,0 +1,161 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "001_list.sh.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "002_nobugs.sh.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "003_apt-listbugs-apt.sh.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "004_apt-listbugs-full.sh.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 234801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "005_example-bug-soap.sh.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10697,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "006_example-deblistbugs.sh.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "007_example-rc2rss.sh.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "008_test_proxy.sh.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "009_-H.sh.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "010_example-getbugs.sh.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "011_example_severity-and-pkgname-to-bugtitle.sh.log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "log",
+    "package": "apt-listbugs",
+    "path": "apt-listbugs/0.1.35/tests/log",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-listbugs/0.1.35/",
+        "metric": {
+            "size": 1304
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-listbugs",
+        "sloc": [
+            [
+                "ruby",
+                2502
+            ],
+            [
+                "sh",
+                245
+            ],
+            [
+                "makefile",
+                53
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/frx-guest/apt-listbugs",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.35"
+}

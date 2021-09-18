@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "format",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "source",
+    "package": "apt-dater",
+    "path": "apt-dater/1.0.4-4/debian/source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-dater/1.0.4-4/",
+        "metric": {
+            "size": 2152
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-dater",
+        "sloc": [
+            [
+                "ansic",
+                6668
+            ],
+            [
+                "sh",
+                799
+            ],
+            [
+                "xml",
+                491
+            ],
+            [
+                "makefile",
+                158
+            ],
+            [
+                "perl",
+                128
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1.0.4-4"
+}

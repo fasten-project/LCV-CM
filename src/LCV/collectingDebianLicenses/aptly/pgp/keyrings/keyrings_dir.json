@@ -1,0 +1,139 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aptly.pub",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aptly.sec",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 977,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aptly2.pub.armor",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aptly2.sec.armor",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aptly2_passphrase.pub.armor",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aptly2_passphrase.sec.armor",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3632,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aptly2_trusted.pub",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aptly_passphrase.pub",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aptly_passphrase.sec",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1052,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "keyrings",
+    "package": "aptly",
+    "path": "aptly/1.4.0+ds1-4/pgp/keyrings",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aptly/1.4.0+ds1-4/",
+        "metric": {
+            "size": 48064
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aptly",
+        "sloc": [
+            [
+                "python",
+                7045
+            ],
+            [
+                "sh",
+                790
+            ],
+            [
+                "makefile",
+                77
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/aptly",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.0+ds1-4"
+}

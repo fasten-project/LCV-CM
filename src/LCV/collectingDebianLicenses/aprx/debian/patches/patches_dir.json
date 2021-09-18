@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-man-page.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-reproducible-builds.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 749,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-Config-callsign.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1073,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-autoconf-2.70.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aprx",
+    "path": "aprx/2.9.0+dfsg-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aprx/2.9.0+dfsg-5/",
+        "metric": {
+            "size": 2428
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aprx",
+        "sloc": [
+            [
+                "ansic",
+                15809
+            ],
+            [
+                "sh",
+                598
+            ],
+            [
+                "makefile",
+                164
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-hamradio-team/aprx",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.9.0+dfsg-5"
+}

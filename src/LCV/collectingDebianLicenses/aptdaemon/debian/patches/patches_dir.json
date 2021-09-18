@@ -1,0 +1,181 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CVE-2015-1323.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cve_2014.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 933,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbus_timeout.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-configparser.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1191,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-ftbs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-high-trust-pkcompat.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lp1153725-temporary-workaround.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lp1266844.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "py3_inheritable.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 521,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-include-pkg-version.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream_lintian_2.5.18.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1819,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream_lp1024590.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1668,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aptdaemon",
+    "path": "aptdaemon/1.1.1-4+deb8u1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 3911,
+        "license": "/copyright/license/aptdaemon/1.1.1-4+deb8u1/",
+        "metric": {
+            "size": 7456
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aptdaemon",
+        "sloc": [
+            [
+                "python",
+                13428
+            ],
+            [
+                "sh",
+                88
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "jessie"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/loggerhead/apt/aptdaemon/debian-sid",
+        "vcs_type": "bzr"
+    },
+    "type": "directory",
+    "version": "1.1.1-4+deb8u1"
+}

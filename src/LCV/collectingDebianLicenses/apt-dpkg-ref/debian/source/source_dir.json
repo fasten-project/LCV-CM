@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "format",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "source",
+    "package": "apt-dpkg-ref",
+    "path": "apt-dpkg-ref/5.3.2/debian/source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-dpkg-ref/5.3.2/",
+        "metric": {
+            "size": 52
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-dpkg-ref",
+        "sloc": [
+            [
+                "lisp",
+                300
+            ],
+            [
+                "sh",
+                24
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/apt-dpkg-ref",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.3.2"
+}

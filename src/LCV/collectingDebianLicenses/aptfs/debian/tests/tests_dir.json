@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-smoketest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 97,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "aptfs",
+    "path": "aptfs/2:1.0.1/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aptfs/2:1.0.1/",
+        "metric": {
+            "size": 132
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aptfs",
+        "sloc": [
+            [
+                "python",
+                390
+            ],
+            [
+                "sh",
+                10
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/lamby/aptfs",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:1.0.1"
+}

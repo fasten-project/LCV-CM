@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "configlet",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6874,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "0.8-0.1",
+    "package": "aptconf",
+    "path": "aptconf/0.8-0.1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 69,
+        "license": "/copyright/license/aptconf/0.8-0.1/",
+        "metric": {
+            "size": 324
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aptconf",
+        "sloc": [
+            [
+                "python",
+                613
+            ],
+            [
+                "perl",
+                612
+            ],
+            [
+                "xml",
+                115
+            ],
+            [
+                "makefile",
+                64
+            ],
+            [
+                "ansic",
+                23
+            ]
+        ],
+        "suites": [
+            "sarge"
+        ]
+    },
+    "type": "directory",
+    "version": "0.8-0.1"
+}

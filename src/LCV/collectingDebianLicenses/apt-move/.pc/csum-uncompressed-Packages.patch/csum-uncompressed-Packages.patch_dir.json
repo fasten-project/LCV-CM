@@ -1,0 +1,57 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apt-move",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36964,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "csum-uncompressed-Packages.patch",
+    "package": "apt-move",
+    "path": "apt-move/4.2.27-6/.pc/csum-uncompressed-Packages.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-move/4.2.27-6/",
+        "metric": {
+            "size": 516
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-move",
+        "sloc": [
+            [
+                "sh",
+                7946
+            ],
+            [
+                "awk",
+                275
+            ],
+            [
+                "cpp",
+                235
+            ],
+            [
+                "perl",
+                170
+            ],
+            [
+                "makefile",
+                69
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "4.2.27-6"
+}

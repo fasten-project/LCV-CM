@@ -1,0 +1,257 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Help.category.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Help.category_title.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Help.list.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 120,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PLUGIN",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 44,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "add-pristine.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7521,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cache-dir.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2911,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cached-index.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copy-from-cache.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "delete-pristine.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file-diffs.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "find-in-cache.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lock-pristine.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4934,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-cache-temp-dir.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "old-file.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pristines.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "take-from-cache.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5411,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wd-mv-pristine.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "what-changed.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "local-cache",
+    "package": "arch",
+    "path": "arch/1.0pre15-1/src/arch/local-cache",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 4560,
+        "license": "/copyright/license/arch/1.0pre15-1/",
+        "metric": {
+            "size": 20180
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arch",
+        "sloc": [
+            [
+                "ansic",
+                64410
+            ],
+            [
+                "sh",
+                29168
+            ],
+            [
+                "lisp",
+                1896
+            ],
+            [
+                "awk",
+                1044
+            ],
+            [
+                "makefile",
+                484
+            ],
+            [
+                "sed",
+                26
+            ]
+        ],
+        "suites": [
+            "woody"
+        ]
+    },
+    "type": "directory",
+    "version": "1.0pre15-1"
+}

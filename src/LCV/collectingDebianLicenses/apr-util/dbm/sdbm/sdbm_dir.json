@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "sdbm.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16838,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sdbm_hash.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sdbm_lock.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sdbm_pair.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sdbm_pair.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sdbm_private.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3038,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sdbm_tune.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "sdbm",
+    "package": "apr-util",
+    "path": "apr-util/1.6.1-5/dbm/sdbm",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apr-util/1.6.1-5/",
+        "metric": {
+            "size": 4716
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apr-util",
+        "sloc": [
+            [
+                "ansic",
+                31678
+            ],
+            [
+                "sh",
+                3347
+            ],
+            [
+                "makefile",
+                222
+            ],
+            [
+                "perl",
+                154
+            ],
+            [
+                "xml",
+                36
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apache-team/apr-util",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.1-5"
+}

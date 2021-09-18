@@ -1,0 +1,45 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "format",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "source",
+    "package": "apt-show-source",
+    "path": "apt-show-source/0.11+nmu1/debian/source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-show-source/0.11+nmu1/",
+        "metric": {
+            "size": 72
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-show-source",
+        "sloc": [
+            [
+                "perl",
+                180
+            ],
+            [
+                "makefile",
+                50
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.11+nmu1"
+}

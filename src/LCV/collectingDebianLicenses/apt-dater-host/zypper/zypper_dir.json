@@ -1,0 +1,60 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apt-dater-host",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-dater-host.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "zypper",
+    "package": "apt-dater-host",
+    "path": "apt-dater-host/1.0.1-3/zypper",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-dater-host/1.0.1-3/",
+        "metric": {
+            "size": 280
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-dater-host",
+        "sloc": [
+            [
+                "perl",
+                1202
+            ],
+            [
+                "sh",
+                151
+            ],
+            [
+                "makefile",
+                26
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1.0.1-3"
+}

@@ -1,0 +1,238 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CVE-2021-35940.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build-apr_common.m4-avoid-explicit-inclusion-of-conf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2039,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cross.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debug_testpoll_failure.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 810,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dont_override_external_buildflags",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-apr.pc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_apr-config.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 841,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_doxygen.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generic-64bit-atomics.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1639,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hurd_path_max.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hurd_shm_flock.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1334,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libtoolize_check.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "omit_extra_libs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python3-hashbang.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ship_find_apr.m4.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 852,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_fcntl_locking.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "apr",
+    "path": "apr/1.7.0-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apr/1.7.0-8/",
+        "metric": {
+            "size": 7440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apr",
+        "sloc": [
+            [
+                "ansic",
+                64154
+            ],
+            [
+                "sh",
+                3561
+            ],
+            [
+                "perl",
+                900
+            ],
+            [
+                "awk",
+                393
+            ],
+            [
+                "makefile",
+                374
+            ],
+            [
+                "python",
+                146
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apache-team/apr",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.0-8"
+}

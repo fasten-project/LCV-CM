@@ -1,0 +1,107 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apt-nocow.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bashisms-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "g%2B%2B-4.3-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libname.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "apt-rpm",
+    "path": "apt-rpm/0.5.15lorg3.2-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 7202,
+        "license": "/copyright/license/apt-rpm/0.5.15lorg3.2-5/",
+        "metric": {
+            "size": 6920
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-rpm",
+        "sloc": [
+            [
+                "cpp",
+                51777
+            ],
+            [
+                "ansic",
+                12859
+            ],
+            [
+                "sh",
+                10370
+            ],
+            [
+                "python",
+                1894
+            ],
+            [
+                "makefile",
+                513
+            ],
+            [
+                "xml",
+                321
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "lenny"
+        ]
+    },
+    "type": "directory",
+    "version": "0.5.15lorg3.2-5"
+}

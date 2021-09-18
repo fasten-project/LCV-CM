@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arcboot.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "conffile.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4008,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ext2io.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ld.script.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "loader.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15946,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ext2load",
+    "package": "arcboot",
+    "path": "arcboot/0.3.15/ext2load",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 510,
+        "license": "/copyright/license/arcboot/0.3.15/",
+        "metric": {
+            "size": 392
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arcboot",
+        "sloc": [
+            [
+                "ansic",
+                2398
+            ],
+            [
+                "makefile",
+                228
+            ],
+            [
+                "sh",
+                140
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "0.3.15"
+}

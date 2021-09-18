@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simple_demo.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "example",
+    "package": "apriltag",
+    "path": "apriltag/0.10.0-6/.pc/0002-added-demo-that-uses-JUST-the-apriltag-stuff-not-the.patch/example",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apriltag/0.10.0-6/",
+        "metric": {
+            "size": 17560
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apriltag",
+        "sloc": [
+            [
+                "ansic",
+                171200
+            ],
+            [
+                "makefile",
+                185
+            ],
+            [
+                "cpp",
+                127
+            ],
+            [
+                "sh",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/apriltag",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.10.0-6"
+}

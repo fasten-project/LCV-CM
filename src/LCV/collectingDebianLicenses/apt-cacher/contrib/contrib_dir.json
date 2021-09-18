@@ -1,0 +1,61 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-cacher-1.4.1.spec",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "contrib",
+    "package": "apt-cacher",
+    "path": "apt-cacher/1.7.23/contrib",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-cacher/1.7.23/",
+        "metric": {
+            "size": 548
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-cacher",
+        "sloc": [
+            [
+                "perl",
+                4585
+            ],
+            [
+                "sh",
+                200
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/LeePen/apt-cacher",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.23"
+}

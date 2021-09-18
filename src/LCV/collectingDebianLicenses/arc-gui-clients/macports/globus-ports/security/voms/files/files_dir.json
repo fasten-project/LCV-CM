@@ -1,0 +1,85 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "voms-empty-replib.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 750,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "voms-ipv6sock-posix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "voms-obsolete-configure-macro.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "files",
+    "package": "arc-gui-clients",
+    "path": "arc-gui-clients/0.4.6-7/macports/globus-ports/security/voms/files",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arc-gui-clients/0.4.6-7/",
+        "metric": {
+            "size": 25484
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arc-gui-clients",
+        "sloc": [
+            [
+                "cpp",
+                11077
+            ],
+            [
+                "python",
+                181
+            ],
+            [
+                "perl",
+                171
+            ],
+            [
+                "pascal",
+                165
+            ],
+            [
+                "ansic",
+                12
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ellert/arc-gui-clients",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.6-7"
+}

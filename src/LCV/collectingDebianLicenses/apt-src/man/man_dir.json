@@ -1,0 +1,89 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apt-src.add.es",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-src.add.fr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-src.pod",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "po",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "po4a.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 191,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "man",
+    "package": "apt-src",
+    "path": "apt-src/0.25.3/man",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-src/0.25.3/",
+        "metric": {
+            "size": 180
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-src",
+        "sloc": [
+            [
+                "perl",
+                784
+            ],
+            [
+                "makefile",
+                36
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.25.3"
+}

@@ -1,0 +1,257 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "%3Dlemmas",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "%3Dmerges",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "%3Dreconcile-cases",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 136,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Help.category.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Help.category_title.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Help.list.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PLUGIN",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 44,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "delta-patch.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "finish-branch.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "join-branch.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-sync-tree.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare-branch.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reconcile.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "replay.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "star-merge.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tag.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14059,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "whats-missing.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "branching-and-merging",
+    "package": "arch",
+    "path": "arch/1.0pre15-1/src/arch/branching-and-merging",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 4560,
+        "license": "/copyright/license/arch/1.0pre15-1/",
+        "metric": {
+            "size": 20180
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arch",
+        "sloc": [
+            [
+                "ansic",
+                64410
+            ],
+            [
+                "sh",
+                29168
+            ],
+            [
+                "lisp",
+                1896
+            ],
+            [
+                "awk",
+                1044
+            ],
+            [
+                "makefile",
+                484
+            ],
+            [
+                "sed",
+                26
+            ]
+        ],
+        "suites": [
+            "woody"
+        ]
+    },
+    "type": "directory",
+    "version": "1.0pre15-1"
+}

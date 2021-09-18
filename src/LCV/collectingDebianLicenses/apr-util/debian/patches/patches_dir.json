@@ -1,0 +1,202 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apu_config_dont_list_indep_libs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avoid_db_by-default.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avoid_ldap_by_defaut.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "buildconf_config.guess_sub_location.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "configure_in_remove_syspaths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dbm_read_hash_or_btree.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian_layout_fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dont_use_all_pg_build_deps.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "doxygen_no_ful_path_names.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 382,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_doxygen_inputdir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_gdbm_error_handling",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "support_mariadb.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_verbose",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "apr-util",
+    "path": "apr-util/1.6.1-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apr-util/1.6.1-5/",
+        "metric": {
+            "size": 4716
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apr-util",
+        "sloc": [
+            [
+                "ansic",
+                31678
+            ],
+            [
+                "sh",
+                3347
+            ],
+            [
+                "makefile",
+                222
+            ],
+            [
+                "perl",
+                154
+            ],
+            [
+                "xml",
+                36
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apache-team/apr-util",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.1-5"
+}

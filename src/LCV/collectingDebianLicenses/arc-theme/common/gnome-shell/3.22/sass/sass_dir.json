@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "_colors.scss",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_common.scss",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 51131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "_drawing.scss",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnome-shell-dark.scss",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnome-shell-solid-dark.scss",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 21,
+                "symlink_dest": "gnome-shell-dark.scss",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnome-shell-solid.scss",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 16,
+                "symlink_dest": "gnome-shell.scss",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnome-shell.scss",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "sass",
+    "package": "arc-theme",
+    "path": "arc-theme/20201013-2/common/gnome-shell/3.22/sass",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arc-theme/20201013-2/",
+        "metric": {
+            "size": 12580
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arc-theme",
+        "sloc": [
+            [
+                "xml",
+                2223
+            ],
+            [
+                "makefile",
+                395
+            ],
+            [
+                "sh",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/UbuntuBudgie/arc-theme/tree/debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20201013-2"
+}

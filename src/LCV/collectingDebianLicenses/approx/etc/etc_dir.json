@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "approx.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "approx.socket",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 167,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "approx%40.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "etc",
+    "package": "approx",
+    "path": "approx/5.10-2/etc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/approx/5.10-2/",
+        "metric": {
+            "size": 340
+        },
+        "pts_link": "https://tracker.debian.org/pkg/approx",
+        "sloc": [
+            [
+                "ml",
+                2220
+            ],
+            [
+                "sh",
+                42
+            ],
+            [
+                "makefile",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/approx",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.10-2"
+}

@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "pcf.dict",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rot.blif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testcases",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "pcf",
+    "package": "arachne-pnr",
+    "path": "arachne-pnr/0.1+20190728gitc40fb22-2/fuzz/pcf",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arachne-pnr/0.1+20190728gitc40fb22-2/",
+        "metric": {
+            "size": 1080
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arachne-pnr",
+        "sloc": [
+            [
+                "cpp",
+                10681
+            ],
+            [
+                "python",
+                230
+            ],
+            [
+                "sh",
+                167
+            ],
+            [
+                "makefile",
+                164
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/arachne-pnr",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1+20190728gitc40fb22-2"
+}

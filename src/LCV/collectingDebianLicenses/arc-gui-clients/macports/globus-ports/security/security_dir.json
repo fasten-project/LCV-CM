@@ -1,0 +1,85 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fetch-crl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "igtf-certificates",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "voms",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "security",
+    "package": "arc-gui-clients",
+    "path": "arc-gui-clients/0.4.6-7/macports/globus-ports/security",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/arc-gui-clients/0.4.6-7/",
+        "metric": {
+            "size": 25484
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arc-gui-clients",
+        "sloc": [
+            [
+                "cpp",
+                11077
+            ],
+            [
+                "python",
+                181
+            ],
+            [
+                "perl",
+                171
+            ],
+            [
+                "pascal",
+                165
+            ],
+            [
+                "ansic",
+                12
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ellert/arc-gui-clients",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.6-7"
+}

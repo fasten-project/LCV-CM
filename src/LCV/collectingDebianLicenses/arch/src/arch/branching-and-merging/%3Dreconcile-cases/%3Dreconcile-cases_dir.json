@@ -1,0 +1,103 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".arch-ids",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "other-test-A-C-B",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "other-test-B-A-C",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-case-A-B-C",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-case-A-C-B",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "=reconcile-cases",
+    "package": "arch",
+    "path": "arch/1.0pre15-1/src/arch/branching-and-merging/=reconcile-cases",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 4560,
+        "license": "/copyright/license/arch/1.0pre15-1/",
+        "metric": {
+            "size": 20180
+        },
+        "pts_link": "https://tracker.debian.org/pkg/arch",
+        "sloc": [
+            [
+                "ansic",
+                64410
+            ],
+            [
+                "sh",
+                29168
+            ],
+            [
+                "lisp",
+                1896
+            ],
+            [
+                "awk",
+                1044
+            ],
+            [
+                "makefile",
+                484
+            ],
+            [
+                "sed",
+                26
+            ]
+        ],
+        "suites": [
+            "woody"
+        ]
+    },
+    "type": "directory",
+    "version": "1.0pre15-1"
+}

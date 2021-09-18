@@ -1,0 +1,145 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "COPYING",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GPL",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18009,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "configure",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2983,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "configure.local",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 300,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnat",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 115,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sql",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 37,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "samples",
+    "package": "apq-postgresql",
+    "path": "apq-postgresql/3.2.0-2/samples",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apq-postgresql/3.2.0-2/",
+        "metric": {
+            "size": 708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apq-postgresql",
+        "sloc": [
+            [
+                "ada",
+                4373
+            ],
+            [
+                "ansic",
+                2003
+            ],
+            [
+                "sh",
+                527
+            ],
+            [
+                "makefile",
+                64
+            ],
+            [
+                "sql",
+                3
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.codelabs.ch/?p=debian/apq-postgresql.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.0-2"
+}

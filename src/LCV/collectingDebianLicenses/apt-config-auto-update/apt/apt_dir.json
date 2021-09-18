@@ -1,0 +1,65 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "10periodic",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15update-stamp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20archive",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 85,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "apt",
+    "package": "apt-config-auto-update",
+    "path": "apt-config-auto-update/2.1+nmu1/apt",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-config-auto-update/2.1+nmu1/",
+        "metric": {
+            "size": 44
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-config-auto-update",
+        "sloc": [
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkgutopia-team/apt-config-auto-update",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.1+nmu1"
+}

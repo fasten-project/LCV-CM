@@ -1,0 +1,98 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "buildutil.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clean.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uninstall.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "apq",
+    "path": "apq/3.2.0-2/samples/scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 369,
+        "license": "/copyright/license/apq/3.2.0-2/",
+        "metric": {
+            "size": 1904
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apq",
+        "sloc": [
+            [
+                "ada",
+                2794
+            ],
+            [
+                "ansic",
+                2053
+            ],
+            [
+                "sh",
+                1277
+            ],
+            [
+                "makefile",
+                192
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://git.codelabs.ch/?p=debian/apq.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.0-2"
+}

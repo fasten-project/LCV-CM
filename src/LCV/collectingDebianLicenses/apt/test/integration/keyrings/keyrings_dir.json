@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "test-archive-keyring.pub",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-archive-keyring.sec",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-master-keyring.pub",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-master-keyring.sec",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2501,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "keyrings",
+    "package": "apt",
+    "path": "apt/2.3.9/test/integration/keyrings",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt/2.3.9/",
+        "metric": {
+            "size": 20008
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt",
+        "sloc": [
+            [
+                "cpp",
+                66780
+            ],
+            [
+                "sh",
+                26107
+            ],
+            [
+                "xml",
+                5495
+            ],
+            [
+                "perl",
+                209
+            ],
+            [
+                "ansic",
+                191
+            ],
+            [
+                "makefile",
+                32
+            ],
+            [
+                "python",
+                28
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/apt-team/apt",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.9"
+}

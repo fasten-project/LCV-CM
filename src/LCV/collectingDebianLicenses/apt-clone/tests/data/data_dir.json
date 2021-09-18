@@ -1,0 +1,135 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apt-state-ubuntu-lucid.tar.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76785,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-state.tar.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-state_chroot_with_vim.tar.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "apt-state_with_not_downloadable_debs.tar.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dpkg-status",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lucid-sources.list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2952,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mock-system",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "natty-sources.list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regression",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "data",
+    "package": "apt-clone",
+    "path": "apt-clone/0.4.3/tests/data",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-clone/0.4.3/",
+        "metric": {
+            "size": 1708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-clone",
+        "sloc": [
+            [
+                "python",
+                1087
+            ],
+            [
+                "makefile",
+                27
+            ],
+            [
+                "sh",
+                4
+            ]
+        ],
+        "suites": [
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.4.3"
+}

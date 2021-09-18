@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0002-Remove-VLAN-stuff-QEMU-doesn-t-support-it-anymore.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 91658,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Fix-build-with-GCC-10.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-manpage-fix-groff-message-aqemu.1-Empty-input-line-1.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-fix-spelling-of-some-words.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-Update-desktop-file-and-move-icons-to-share-icons.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0007-Fix-crash-because-of-duplicated-widget-name.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4765,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01_qemu_parallel_typo.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aqemu",
+    "path": "aqemu/0.9.2-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aqemu/0.9.2-3/",
+        "metric": {
+            "size": 9744
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aqemu",
+        "sloc": [
+            [
+                "cpp",
+                36571
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/aqemu",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.2-3"
+}

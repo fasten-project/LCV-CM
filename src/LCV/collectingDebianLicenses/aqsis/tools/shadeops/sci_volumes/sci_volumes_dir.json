@@ -1,0 +1,148 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "COPYING",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "boundingbox_shader.sl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "boxed_volume_glow.sl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3417,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 81,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "renderframes.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "volume.rib",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "sci_volumes",
+    "package": "aqsis",
+    "path": "aqsis/1.8.2-12/tools/shadeops/sci_volumes",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aqsis/1.8.2-12/",
+        "metric": {
+            "size": 18584
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aqsis",
+        "sloc": [
+            [
+                "cpp",
+                138281
+            ],
+            [
+                "python",
+                12880
+            ],
+            [
+                "ansic",
+                4946
+            ],
+            [
+                "xml",
+                3415
+            ],
+            [
+                "yacc",
+                1887
+            ],
+            [
+                "sh",
+                459
+            ],
+            [
+                "makefile",
+                385
+            ],
+            [
+                "lex",
+                280
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/aqsis",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8.2-12"
+}

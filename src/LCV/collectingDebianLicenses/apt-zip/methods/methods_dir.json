@@ -1,0 +1,71 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "lftp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wget",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wget-dos",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3022,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "methods",
+    "package": "apt-zip",
+    "path": "apt-zip/0.18/methods",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 33,
+        "license": "/copyright/license/apt-zip/0.18/",
+        "metric": {
+            "size": 132
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-zip",
+        "sloc": [
+            [
+                "sh",
+                360
+            ],
+            [
+                "makefile",
+                47
+            ],
+            [
+                "awk",
+                10
+            ]
+        ],
+        "suites": [
+            "lenny",
+            "squeeze",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "0.18"
+}

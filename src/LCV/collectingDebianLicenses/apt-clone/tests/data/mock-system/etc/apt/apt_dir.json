@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "preferences",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preferences.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sources.list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3073,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sources.list.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "trusted.gpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "apt",
+    "package": "apt-clone",
+    "path": "apt-clone/0.4.3/tests/data/mock-system/etc/apt",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/apt-clone/0.4.3/",
+        "metric": {
+            "size": 1708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/apt-clone",
+        "sloc": [
+            [
+                "python",
+                1087
+            ],
+            [
+                "makefile",
+                27
+            ],
+            [
+                "sh",
+                4
+            ]
+        ],
+        "suites": [
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.4.3"
+}
