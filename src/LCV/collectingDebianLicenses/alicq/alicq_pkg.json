@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Alicq.tcl",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 5,
+                "symlink_dest": "alicq",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "alicq",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 943,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "doc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "icq",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 106,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0.8.9-1",
+    "package": "alicq",
+    "path": "alicq/0.8.9-1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 808,
+        "license": "/copyright/license/alicq/0.8.9-1/",
+        "metric": {
+            "size": 856
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alicq",
+        "sloc": [
+            [
+                "tcl",
+                9080
+            ],
+            [
+                "sh",
+                104
+            ],
+            [
+                "makefile",
+                39
+            ]
+        ],
+        "suites": [
+            "sarge"
+        ]
+    },
+    "type": "directory",
+    "version": "0.8.9-1"
+}

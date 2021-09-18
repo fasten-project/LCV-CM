@@ -1,0 +1,148 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 85,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-manpage-generation-script.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fix-manpages.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "use-debians-dejavu-font.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "allegro5",
+    "path": "allegro5/2:5.2.7.0-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/allegro5/2:5.2.7.0-1/",
+        "metric": {
+            "size": 24392
+        },
+        "pts_link": "https://tracker.debian.org/pkg/allegro5",
+        "sloc": [
+            [
+                "ansic",
+                125693
+            ],
+            [
+                "cpp",
+                15805
+            ],
+            [
+                "objc",
+                4587
+            ],
+            [
+                "python",
+                2835
+            ],
+            [
+                "java",
+                2254
+            ],
+            [
+                "javascript",
+                1242
+            ],
+            [
+                "sh",
+                1002
+            ],
+            [
+                "makefile",
+                51
+            ],
+            [
+                "perl",
+                37
+            ],
+            [
+                "xml",
+                25
+            ],
+            [
+                "pascal",
+                24
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/allegro5",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:5.2.7.0-1"
+}

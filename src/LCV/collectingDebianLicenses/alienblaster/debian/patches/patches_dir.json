@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "04-cflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 393,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-fix-exec-name.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 298,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-fix-highscore.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-fix_as_needed_build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add-hardening-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alienblaster",
+    "path": "alienblaster/1.1.0-11/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alienblaster/1.1.0-11/",
+        "metric": {
+            "size": 12380
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alienblaster",
+        "sloc": [
+            [
+                "cpp",
+                9843
+            ],
+            [
+                "makefile",
+                60
+            ],
+            [
+                "sh",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1.1.0-11"
+}

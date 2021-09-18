@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "macosx",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "win",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "x11",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tools",
+    "package": "allegro5",
+    "path": "allegro5/2:5.2.7.0-1/tools",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/allegro5/2:5.2.7.0-1/",
+        "metric": {
+            "size": 24392
+        },
+        "pts_link": "https://tracker.debian.org/pkg/allegro5",
+        "sloc": [
+            [
+                "ansic",
+                125693
+            ],
+            [
+                "cpp",
+                15805
+            ],
+            [
+                "objc",
+                4587
+            ],
+            [
+                "python",
+                2835
+            ],
+            [
+                "java",
+                2254
+            ],
+            [
+                "javascript",
+                1242
+            ],
+            [
+                "sh",
+                1002
+            ],
+            [
+                "makefile",
+                51
+            ],
+            [
+                "perl",
+                37
+            ],
+            [
+                "xml",
+                25
+            ],
+            [
+                "pascal",
+                24
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/allegro5",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:5.2.7.0-1"
+}

@@ -1,0 +1,217 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-autoreconf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-yacc-build-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-fhs-adjustments.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-attila-conf-sourced.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 590,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-as-needed.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-fix-ldadd-dir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-genlib-fix-dirs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-fix-libdir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-fix-bashism.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-fix-latex.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-fix-paths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1077,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-fig2dev-3.2.7.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-flex-2.6.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "overview-encoding.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 460,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alliance",
+    "path": "alliance/5.1.1-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alliance/5.1.1-3/",
+        "metric": {
+            "size": 57892
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alliance",
+        "sloc": [
+            [
+                "ansic",
+                352296
+            ],
+            [
+                "vhdl",
+                34227
+            ],
+            [
+                "yacc",
+                25787
+            ],
+            [
+                "cpp",
+                10488
+            ],
+            [
+                "makefile",
+                7925
+            ],
+            [
+                "sh",
+                6042
+            ],
+            [
+                "lex",
+                3543
+            ]
+        ],
+        "suites": [
+            "buster"
+        ]
+    },
+    "type": "directory",
+    "version": "5.1.1-3"
+}

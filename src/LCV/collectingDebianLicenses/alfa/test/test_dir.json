@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "1d.ascii",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1d.fits",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "2d_small.fits",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11661120,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "3dspec_2x2.fits",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 66240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test",
+    "package": "alfa",
+    "path": "alfa/2.1-1/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alfa/2.1-1/",
+        "metric": {
+            "size": 17736
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alfa",
+        "sloc": [
+            [
+                "f90",
+                3403
+            ],
+            [
+                "makefile",
+                83
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-astro-team/alfa",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.1-1"
+}

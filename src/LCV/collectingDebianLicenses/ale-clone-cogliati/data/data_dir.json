@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ale-title.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 134680,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ccl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "default.pud",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 20,
+                "symlink_dest": "../puds/fixedgow.pud",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "graphic",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 12288,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "health.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 990,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mana.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "summer.rgb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "winter.rgb",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "summer.rgb",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "data",
+    "package": "ale-clone-cogliati",
+    "path": "ale-clone-cogliati/0.11-1/data",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 4,
+        "license": "/copyright/license/ale-clone-cogliati/0.11-1/",
+        "metric": {
+            "size": 2788
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ale-clone-cogliati",
+        "sloc": [
+            [
+                "makefile",
+                44
+            ],
+            [
+                "python",
+                7
+            ],
+            [
+                "sh",
+                5
+            ]
+        ],
+        "suites": [
+            "potato"
+        ]
+    },
+    "type": "directory",
+    "version": "0.11-1"
+}

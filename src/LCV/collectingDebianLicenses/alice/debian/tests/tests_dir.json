@@ -1,0 +1,52 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "pkg-perl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tests",
+    "package": "alice",
+    "path": "alice/0.19-2/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alice/0.19-2/",
+        "metric": {
+            "size": 968
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alice",
+        "sloc": [
+            [
+                "perl",
+                4116
+            ],
+            [
+                "sql",
+                8
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/perl-team/modules/packages/alice",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.19-2"
+}

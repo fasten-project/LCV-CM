@@ -1,0 +1,851 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "OPCODE",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "array.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "array.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5564,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "box.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "capsule.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_cylinder_box.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27874,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_cylinder_plane.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_cylinder_sphere.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_cylinder_trimesh.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_kernel.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28837,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_kernel.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_quadtreespace.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14975,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_sapspace.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25644,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_space.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22557,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_space_internal.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3387,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_std.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_transform.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_transform.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_trimesh_box.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_trimesh_ccylinder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_trimesh_colliders.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_trimesh_disabled.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_trimesh_distance.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_trimesh_internal.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_trimesh_opcode.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23358,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_trimesh_plane.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6709,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_trimesh_ray.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_trimesh_sphere.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17051,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_trimesh_trimesh.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71949,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_trimesh_trimesh_new.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_util.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19059,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collision_util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "convex.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cylinder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "error.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "export-dif.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fastdot.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fastldlt.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8975,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fastlsolve.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fastltsolve.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4995,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "heightfield.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 61253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "heightfield.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "joints",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lcp.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lcp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mass.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mat.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mat.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "matrix.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memory.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "misc.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4433,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objects.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "obstack.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "obstack.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ode.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 46217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "odeinit.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "odemath.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5360,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "odeou.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "odetls.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plane.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "quickstep.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "quickstep.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ray.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rotation.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sphere.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "step.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32846,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "step.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1792,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stepfast.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testing.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6558,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testing.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2838,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "timer.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9668,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "util.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "odesrc",
+    "package": "alien-arena",
+    "path": "alien-arena/7.66+dfsg-6/source/unix/odesrc",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alien-arena/7.66+dfsg-6/",
+        "metric": {
+            "size": 9652
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alien-arena",
+        "sloc": [
+            [
+                "ansic",
+                113704
+            ],
+            [
+                "cpp",
+                41133
+            ],
+            [
+                "sh",
+                4507
+            ],
+            [
+                "makefile",
+                549
+            ],
+            [
+                "ruby",
+                438
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/alien-arena",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "7.66+dfsg-6"
+}

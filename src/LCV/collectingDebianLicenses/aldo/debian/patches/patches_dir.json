@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aldo_config.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-default-ld-search-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "aldo",
+    "path": "aldo/0.7.8-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aldo/0.7.8-2/",
+        "metric": {
+            "size": 384
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aldo",
+        "sloc": [
+            [
+                "cpp",
+                2556
+            ],
+            [
+                "ansic",
+                162
+            ],
+            [
+                "makefile",
+                15
+            ],
+            [
+                "sh",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-hamradio-team/aldo",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7.8-2"
+}

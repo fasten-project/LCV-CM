@@ -1,0 +1,55 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "alien_hunter",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "10_fix_classpath.patch",
+    "package": "alien-hunter",
+    "path": "alien-hunter/1.7-8/.pc/10_fix_classpath.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alien-hunter/1.7-8/",
+        "metric": {
+            "size": 240
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alien-hunter",
+        "sloc": [
+            [
+                "perl",
+                962
+            ],
+            [
+                "java",
+                358
+            ],
+            [
+                "sh",
+                32
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/alien-hunter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7-8"
+}

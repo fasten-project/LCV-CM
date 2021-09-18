@@ -1,0 +1,114 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "format-security.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 527,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc7.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 841,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "launch-server_tool_debianization.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1877,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-data.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rcon_tool_debianization.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alien-arena",
+    "path": "alien-arena/7.66+dfsg-6/debian/patches",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alien-arena/7.66+dfsg-6/",
+        "metric": {
+            "size": 9652
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alien-arena",
+        "sloc": [
+            [
+                "ansic",
+                113704
+            ],
+            [
+                "cpp",
+                41133
+            ],
+            [
+                "sh",
+                4507
+            ],
+            [
+                "makefile",
+                549
+            ],
+            [
+                "ruby",
+                438
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/alien-arena",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "7.66+dfsg-6"
+}
