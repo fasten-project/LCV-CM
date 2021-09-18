@@ -1,0 +1,267 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Makefile-respect-DESTDIR.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2742,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-install-perl-binding-to-vendorarch.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Makefile-add-multiarch-support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Makefile-explicitly-install-axhttpd-only.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 891,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-Makefile-fix-test-target.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-remove-redefinition-in-SWIG.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0007-bindings-lua-update-Makefile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0008-fix-lua-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0009-ssl-test-test_axssl.sh-use-strict-mode.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0010-samples-update-apis.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2660,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0011-tests-link-against-shared-library.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1868,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0012-samples-lua-axssl.lua-fix-module-import.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0013-ssltest-allow-old-certificates.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0014-ssl-test-ssltest.c-avoid-server-early-exit.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 745,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0015-ssl-test-ssltest.c-avoid-usleep.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2569,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0016-ssl-test-test_axssl.sh-relief-racing-condition.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2879,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0017-ssl-test-ssltest.c-add-option-to-disable-network-rel.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0018-httpd-axhttpd.c-fix-addrlen-for-bind.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "axtls",
+    "path": "axtls/2.1.5+ds-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/axtls/2.1.5+ds-1/",
+        "metric": {
+            "size": 2972
+        },
+        "pts_link": "https://tracker.debian.org/pkg/axtls",
+        "sloc": [
+            [
+                "ansic",
+                19229
+            ],
+            [
+                "perl",
+                959
+            ],
+            [
+                "makefile",
+                781
+            ],
+            [
+                "java",
+                723
+            ],
+            [
+                "cs",
+                709
+            ],
+            [
+                "yacc",
+                577
+            ],
+            [
+                "lex",
+                366
+            ],
+            [
+                "sh",
+                350
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/yangfl-guest/axtls",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.1.5+ds-1"
+}

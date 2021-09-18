@@ -1,0 +1,133 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Product.wxs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5238,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "azure-cli.sln",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 860,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "azure-cli.wixproj",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "propagate_env_change",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 150,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "resources",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 148,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "windows",
+    "package": "azure-cli",
+    "path": "azure-cli/2.18.0-2/build_scripts/windows",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/azure-cli/2.18.0-2/",
+        "metric": {
+            "size": 631860
+        },
+        "pts_link": "https://tracker.debian.org/pkg/azure-cli",
+        "sloc": [
+            [
+                "python",
+                272023
+            ],
+            [
+                "sh",
+                963
+            ],
+            [
+                "makefile",
+                305
+            ],
+            [
+                "javascript",
+                34
+            ],
+            [
+                "cs",
+                29
+            ],
+            [
+                "xml",
+                16
+            ],
+            [
+                "cpp",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/azure-cli",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.18.0-2"
+}

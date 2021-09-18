@@ -1,0 +1,65 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AXP",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Arch",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 28,
+                "symlink_dest": "../../arch-perl/perllib/Arch",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Arch.pm",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 31,
+                "symlink_dest": "../../arch-perl/perllib/Arch.pm",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "perllib",
+    "package": "axp",
+    "path": "axp/0.2.1+patch-92-3/perllib",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 274,
+        "license": "/copyright/license/axp/0.2.1+patch-92-3/",
+        "metric": {
+            "size": 292
+        },
+        "pts_link": "https://tracker.debian.org/pkg/axp",
+        "sloc": [
+            [
+                "perl",
+                2748
+            ],
+            [
+                "makefile",
+                161
+            ]
+        ],
+        "suites": [
+            "lenny"
+        ]
+    },
+    "type": "directory",
+    "version": "0.2.1+patch-92-3"
+}

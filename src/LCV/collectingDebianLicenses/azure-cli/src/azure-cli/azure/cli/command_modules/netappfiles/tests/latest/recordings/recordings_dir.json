@@ -1,0 +1,518 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "test_active_directory.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_change_pool.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70038,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_create_delete_account.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_create_delete_backup.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_create_delete_backup_policies.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_create_delete_pool.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32999,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_create_delete_snapshot_policies.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_create_delete_snapshots.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_create_delete_volumes.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63120,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_create_pool_string_size.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_create_pool_too_small.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_create_volume_from_snapshot.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 73142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_create_volume_with_subnet_in_different_rg.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_disable_backup_for_volume.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84248,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_export_policy.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 82583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_export_policy_non_default.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 61725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_get_account_backups.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_get_account_by_name.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9785,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_get_backup_by_name.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 78946,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_get_backup_policy_by_name.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_get_pool_by_name.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16896,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_get_snapshot.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64892,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_get_snapshot_policy_by_name.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18050,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_get_volume_by_name.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 61205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_list_account_backups.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 123741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_list_accounts.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_list_backup.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88529,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_list_backup_policy.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_list_pools.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_list_snapshot_policy.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45025,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_list_snapshots.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_list_vault.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_list_volumes.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_perform_replication.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 146476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_restore_backup_to_new_volume.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_revert_volume_from_snapshot.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_update_account.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_update_backup.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_update_backup_policy.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17959,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_update_pool.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17412,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_update_snapshot_policy.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19623,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_update_volume.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 60561,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "recordings",
+    "package": "azure-cli",
+    "path": "azure-cli/2.18.0-2/src/azure-cli/azure/cli/command_modules/netappfiles/tests/latest/recordings",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/azure-cli/2.18.0-2/",
+        "metric": {
+            "size": 631860
+        },
+        "pts_link": "https://tracker.debian.org/pkg/azure-cli",
+        "sloc": [
+            [
+                "python",
+                272023
+            ],
+            [
+                "sh",
+                963
+            ],
+            [
+                "makefile",
+                305
+            ],
+            [
+                "javascript",
+                34
+            ],
+            [
+                "cs",
+                29
+            ],
+            [
+                "xml",
+                16
+            ],
+            [
+                "cpp",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/azure-cli",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.18.0-2"
+}

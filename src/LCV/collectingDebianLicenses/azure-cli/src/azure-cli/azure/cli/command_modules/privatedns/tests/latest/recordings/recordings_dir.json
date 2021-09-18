@@ -1,0 +1,793 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "test_CrudRecordSet_AAAARecord_ExpectCrudSuccessful.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35168,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_CrudRecordSet_ARecord_ExpectCrudSuccessful.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35036,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_CrudRecordSet_CNAMERecord_ExpectCrudSuccessful.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_CrudRecordSet_MXRecord_ExpectCrudSuccessful.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35387,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_CrudRecordSet_PTRRecord_ExpectCrudSuccessful.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_CrudRecordSet_SRVRecord_ExpectCrudSuccessful.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_CrudRecordSet_TXTRecord_ExpectCrudSuccessful.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_DeleteLink_LinkExists_ExpectLinkDeleted.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_DeleteLink_LinkNotExists_ExpectNoError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_DeleteLink_ZoneNotExists_ExpectNoError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_DeleteZone_ZoneExists_ExpectZoneDeleted.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_DeleteZone_ZoneNotExists_ExpectNoError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_GetLink_LinkExists_ExpectLinkRetrieved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_GetLink_LinkNotExists_ExpectError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_GetLink_ZoneNotExists_ExpectError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_GetRecordSet_SoaRecord_ExpectRecordSetRetrieved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_GetZone_ZoneExists_ExpectZoneRetrieved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_GetZone_ZoneNotExists_ExpectError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ListLinks_MultipleLinksPresent_ExpectMultipleLinksRetrieved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36754,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ListLinks_NoLinksPresent_ExpectNoLinksRetrieved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ListRecordSetsAcrossType_DefaultRecordSetPresent_ExpectDefaultRecordSetRetrieved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ListRecordSetsAcrossType_MultipleRecordSetsPresent_ExpectMultipleRecordSetsRetrieved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ListRecordSetsByType_MultipleRecordSetsPresent_ExpectMultipleRecordSetsRetrieved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ListRecordSetsByType_NoRecordSetsPresent_ExpectNoRecordSetsRetrieved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9116,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ListZonesInResourceGroup_MultipleZonesPresent_ExpectMultipleZonesRetrieved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17962,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ListZonesInResourceGroup_NoZonesPresent_ExpectNoZonesRetrieved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ListZonesInSubscription_MultipleZonesPresent_ExpectMultipleZonesRetrieved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchLink_DisableRegistration_ExpectRegistrationDisabled.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32764,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchLink_EnableRegistration_ExpectRegistrationEnabled.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32765,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchLink_LinkExistsAddTags_ExpectTagsAdded.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32874,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchLink_LinkExistsChangeTags_ExpectTagsChanged.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43615,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchLink_LinkExistsEmptyRequest_ExpectNoError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchLink_LinkExistsIfMatchFailure_ExpectError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28737,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchLink_LinkExistsIfMatchSuccess_ExpectLinkUpdated.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchLink_LinkExistsRemoveTags_ExpectTagsRemoved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchLink_LinkNotExists_ExpectError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchLink_ZoneNotExists_ExpectError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchRecordSet_AddMetadata_ExpectMetadataAdded.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchRecordSet_ChangeMetadata_ExpectMetadataChanged.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20666,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchRecordSet_IfMatchFailure_ExpectError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17883,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchRecordSet_IfMatchSuccess_ExpectRecordSetUpdated.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchRecordSet_RemoveMetadata_ExpectMetadataRemoved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchRecordSet_SoaRecord_ExpectRecordSetUpdated.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchZone_ZoneExistsAddTags_ExpectTagsAdded.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchZone_ZoneExistsChangeTags_ExpectTagsChanged.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchZone_ZoneExistsEmptyRequest_ExpectNoError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchZone_ZoneExistsIfMatchFailure_ExpectError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchZone_ZoneExistsIfMatchSuccess_ExpectZoneUpdated.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchZone_ZoneExistsRemoveTags_ExpectTagsRemoved.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PatchZone_ZoneNotExists_ExpectError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_Private_Dns_Zone1_Import.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 94926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_Private_Dns_Zone2_Import.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227925,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_Private_Dns_Zone3_Import.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 124134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_Private_Dns_Zone4_Import.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 129678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_Private_Dns_Zone5_Import.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 110005,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_Private_Dns_Zone6_Import.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_Private_Dns_Zone7_Import.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_Private_Dns_Zone8_Import.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 46786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_Private_Dns_Zone_Local_Import.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PutLink_LinkExistsIfNoneMatchFailure_ExpectError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PutLink_LinkNotExistsWithRegistration_ExpectLinkCreated.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PutLink_LinkNotExistsWithoutRegistration_ExpectLinkCreated.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19727,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PutRecordSet_IfNoneMatchFailure_ExpectError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15668,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PutRecordSet_ZoneNotExists_ExpectError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1634,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PutZone_ZoneExistsIfNoneMatchFailure_ExpectError.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11460,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PutZone_ZoneNotExistsWithTags_ExpectZoneCreatedWithTags.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_PutZone_ZoneNotExists_ExpectZoneCreated.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "recordings",
+    "package": "azure-cli",
+    "path": "azure-cli/2.18.0-2/src/azure-cli/azure/cli/command_modules/privatedns/tests/latest/recordings",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/azure-cli/2.18.0-2/",
+        "metric": {
+            "size": 631860
+        },
+        "pts_link": "https://tracker.debian.org/pkg/azure-cli",
+        "sloc": [
+            [
+                "python",
+                272023
+            ],
+            [
+                "sh",
+                963
+            ],
+            [
+                "makefile",
+                305
+            ],
+            [
+                "javascript",
+                34
+            ],
+            [
+                "cs",
+                29
+            ],
+            [
+                "xml",
+                16
+            ],
+            [
+                "cpp",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/azure-cli",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.18.0-2"
+}

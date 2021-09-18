@@ -1,0 +1,815 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "test_ams_account_filter_create_and_show.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_account_filter_list_and_delete.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_account_filter_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_asset.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_asset_filter_create.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_asset_filter_list_and_delete.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_asset_filter_show.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_asset_filter_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_asset_get_encryption_key.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5883,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_asset_get_sas_urls.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_asset_list_streaming_locators.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_check_name.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_create_show.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_job.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_sp_create_reset.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 308063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_storage_add_remove.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_endpoint_create.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_endpoint_create_with_akamai.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_endpoint_create_with_akamai_without_ips.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25753,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_endpoint_delete.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_endpoint_list.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14903,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_endpoint_scale.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_endpoint_show.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_endpoint_start.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 849580,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_endpoint_start_async.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15783,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_endpoint_stop.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 953065,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_endpoint_stop_async.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1074538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_endpoint_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 89800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_locator.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17163,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_locator_list_content_keys.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_locator_with_content_keys.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_locator_with_filters.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_policy.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14627,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_policy_cbcs.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_policy_cbcs_default_drm.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4856,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_policy_cenc.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15870,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_policy_cenc_default_drm.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_policy_cenc_disable_widevine.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_streaming_policy_envelope.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_sync_storage_keys.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4951,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_transform.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_transform_create_custom_preset.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7328,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_transform_create_custom_preset_invalid.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ams_transform_output_add.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43951,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_content_key_policy_create_basic.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_content_key_policy_create_with_fairplay.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8983,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_content_key_policy_create_with_fairplay_offline.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_content_key_policy_create_with_playready.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15542,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_content_key_policy_create_with_playready_fail.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_content_key_policy_create_with_playready_success.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7314,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_content_key_policy_create_with_token.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_content_key_policy_create_with_widevine.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_content_key_policy_delete_list.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9912,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_content_key_policy_show_basic.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_content_key_policy_show_with_secrets.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12342,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_content_key_policy_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12994,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_live_event_create.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38525,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_live_event_delete.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_live_event_list.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_live_event_reset.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20923,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_live_event_show.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_live_event_start.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_live_event_stop.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_live_event_stop_and_remove_outputs.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39831,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_live_event_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28896,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_live_output_create.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22040,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_live_output_delete.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36820,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_live_output_list.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23666,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_live_output_show.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25085,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "recordings",
+    "package": "azure-cli",
+    "path": "azure-cli/2.18.0-2/src/azure-cli/azure/cli/command_modules/ams/tests/latest/recordings",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/azure-cli/2.18.0-2/",
+        "metric": {
+            "size": 631860
+        },
+        "pts_link": "https://tracker.debian.org/pkg/azure-cli",
+        "sloc": [
+            [
+                "python",
+                272023
+            ],
+            [
+                "sh",
+                963
+            ],
+            [
+                "makefile",
+                305
+            ],
+            [
+                "javascript",
+                34
+            ],
+            [
+                "cs",
+                29
+            ],
+            [
+                "xml",
+                16
+            ],
+            [
+                "cpp",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/azure-cli",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.18.0-2"
+}

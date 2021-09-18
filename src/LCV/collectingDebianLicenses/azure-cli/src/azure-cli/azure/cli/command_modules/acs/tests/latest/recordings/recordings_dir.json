@@ -1,0 +1,793 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "test_acs_create_kubernetes.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_availability_zones.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_availability_zones_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 60096,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_bad_inputs.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_byo_appgw_with_ingress_appgw_addon.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 293707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_byo_subnet_with_ingress_appgw_addon.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 246142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_control_plane_user_assigned_identity.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 357227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_aadv1_and_update_with_managed_aad.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 51390,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_aadv1_and_update_with_managed_aad_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52932,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_blb_vmas.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_blb_vmas_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76523,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_cluster_with_apiserver_authorized_ranges_then_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 177328,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_cluster_with_apiserver_authorized_ranges_then_update_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 138817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_default_service.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 125161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_default_service_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 105129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_default_service_with_monitoring_addon.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 158726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_default_service_with_monitoring_addon_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 139995,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_default_service_with_skip_role_assignment.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_default_service_with_skip_role_assignment_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 220466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_default_service_without_SP_and_with_role_assignment.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 714825,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_default_service_without_skip_role_assignment.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 931440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_default_service_without_skip_role_assignment_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 718307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_default_setting.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 143831,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_default_setting_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_nonaad_and_update_with_managed_aad.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_nonaad_and_update_with_managed_aad_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_private_cluster_then_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_private_cluster_then_update_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 183727,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_scale_with_custom_nodepool_name.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 117854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_scale_with_custom_nodepool_name_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 105917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_service_no_wait.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 136788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_service_no_wait_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 115022,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_slb_vmss_with_default_mgd_outbound_ip_then_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 178233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_slb_vmss_with_default_mgd_outbound_ip_then_update_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_slb_vmss_with_outbound_ip_prefixes_then_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_slb_vmss_with_outbound_ip_prefixes_then_update_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 97964,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_slb_vmss_with_outbound_ip_then_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 105548,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_slb_vmss_with_outbound_ip_then_update_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 97936,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_spot_node_pool.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_spot_node_pool_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_with_ahub.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 156004,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_with_ephemeral_disk.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_with_ingress_appgw_addon.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_with_managed_disk.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21761,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_with_paid_sku.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_with_paid_sku_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_with_ppg.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58906,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_with_ppg_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53873,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_with_windows.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 121203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_create_with_windows_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 107593,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_managed_aad.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52053,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_managed_aad_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49095,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_managed_identity_with_service_principal.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 96977,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_managed_identity_without_service_principal.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 122520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_nodepool_create_scale_delete.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 137715,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_nodepool_create_scale_delete_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_nodepool_system_pool.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 108367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_nodepool_system_pool_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 104387,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_upgrade_node_image_only_cluster.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37358,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_upgrade_node_image_only_cluster_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37358,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_upgrade_node_image_only_nodepool.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_aks_upgrade_node_image_only_nodepool_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_openshift_create_default_service.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_openshift_create_default_service_no_aad.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_openshift_create_service_no_wait.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 162684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_openshift_create_with_monitoring.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 96483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_openshift_monitoring_enable.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33530,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "recordings",
+    "package": "azure-cli",
+    "path": "azure-cli/2.18.0-2/src/azure-cli/azure/cli/command_modules/acs/tests/latest/recordings",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/azure-cli/2.18.0-2/",
+        "metric": {
+            "size": 631860
+        },
+        "pts_link": "https://tracker.debian.org/pkg/azure-cli",
+        "sloc": [
+            [
+                "python",
+                272023
+            ],
+            [
+                "sh",
+                963
+            ],
+            [
+                "makefile",
+                305
+            ],
+            [
+                "javascript",
+                34
+            ],
+            [
+                "cs",
+                29
+            ],
+            [
+                "xml",
+                16
+            ],
+            [
+                "cpp",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/azure-cli",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.18.0-2"
+}

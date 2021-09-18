@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Boards",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 64,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "DevOps",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Repos",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Utils",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "org_details.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scaffolding.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scaffolding.ps1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "Scaffolding",
+    "package": "azure-devops-cli-extension",
+    "path": "azure-devops-cli-extension/0.19.0-1/examples/Scaffolding",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/azure-devops-cli-extension/0.19.0-1/",
+        "metric": {
+            "size": 20084
+        },
+        "pts_link": "https://tracker.debian.org/pkg/azure-devops-cli-extension",
+        "sloc": [
+            [
+                "python",
+                112341
+            ],
+            [
+                "makefile",
+                55
+            ],
+            [
+                "sh",
+                49
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/azure-devops-cli-extension",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.19.0-1"
+}

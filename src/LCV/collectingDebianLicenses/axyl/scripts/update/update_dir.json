@@ -1,0 +1,126 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 243,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl-databases-upgrade.php",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 13558,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl-security-update.php",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 67726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-null-layout-ids.php",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3757,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "layout-version-reset.php",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rename_axyl_tables.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rename_axyl_tables.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "update",
+    "package": "axyl",
+    "path": "axyl/2.1.13/scripts/update",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 90621,
+        "license": "/copyright/license/axyl/2.1.13/",
+        "metric": {
+            "size": 40660
+        },
+        "pts_link": "https://tracker.debian.org/pkg/axyl",
+        "sloc": [
+            [
+                "php",
+                50149
+            ],
+            [
+                "sql",
+                11220
+            ],
+            [
+                "sh",
+                3488
+            ],
+            [
+                "perl",
+                649
+            ],
+            [
+                "xml",
+                206
+            ],
+            [
+                "makefile",
+                108
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k"
+        ]
+    },
+    "type": "directory",
+    "version": "2.1.13"
+}

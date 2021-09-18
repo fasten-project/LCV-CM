@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ayuda",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "documentacion",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0.1-4",
+    "package": "ayuda",
+    "path": "ayuda/0.1-4",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 5,
+        "license": "/copyright/license/ayuda/0.1-4/",
+        "metric": {
+            "size": 160
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ayuda",
+        "sloc": [
+            [
+                "sh",
+                184
+            ],
+            [
+                "makefile",
+                35
+            ]
+        ],
+        "suites": [
+            "sarge",
+            "woody"
+        ]
+    },
+    "type": "directory",
+    "version": "0.1-4"
+}

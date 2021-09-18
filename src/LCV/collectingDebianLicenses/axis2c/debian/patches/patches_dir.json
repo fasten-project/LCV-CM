@@ -1,0 +1,107 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "02_fix_doc_dir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 946,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_enable-security.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_fix_testsuite.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-build-without-threading.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "axis2c",
+    "path": "axis2c/1.6.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 43679,
+        "license": "/copyright/license/axis2c/1.6.0-1/",
+        "metric": {
+            "size": 39980
+        },
+        "pts_link": "https://tracker.debian.org/pkg/axis2c",
+        "sloc": [
+            [
+                "ansic",
+                148102
+            ],
+            [
+                "xml",
+                9461
+            ],
+            [
+                "sh",
+                9269
+            ],
+            [
+                "makefile",
+                2807
+            ],
+            [
+                "cpp",
+                577
+            ],
+            [
+                "php",
+                316
+            ],
+            [
+                "perl",
+                119
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ]
+    },
+    "type": "directory",
+    "version": "1.6.0-1"
+}

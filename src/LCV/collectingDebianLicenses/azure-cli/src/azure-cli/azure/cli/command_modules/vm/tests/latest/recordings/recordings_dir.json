@@ -1,0 +1,1816 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "test_dedicated_host_e2e.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 381844,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_dedicated_host_get_instance_view.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_defer_only_commands.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_diagnostics_extension_install.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 345709,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_disk_access.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_disk_encryption_set.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 244607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_disk_encryption_set_disk_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 81468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_disk_encryption_set_snapshot.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 126413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_disk_encryption_set_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 100378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_gallery_e2e.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 288386,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_gallery_specialized.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 123209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_image_build_managed_image.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 147509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_image_build_shared_image.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 222302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_image_builder_basic.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 163487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_image_builder_basic_sig.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64823,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_image_builder_cancel.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_image_builder_customizers.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 60428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_image_builder_no_defer.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_image_builder_template_file.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20998,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_image_template_basic.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63892,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_image_template_basic_sig.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_image_template_no_defer.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_image_template_outputs.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 135567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_list_compute_skus_filter.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26128045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_list_compute_skus_table_output.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14800967,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ppg_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 249279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ppg_with_related_resources.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 230700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_proximity_placement_group.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14084,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_sig_image_version_cross_tenant.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 129773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_specialized_image.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 149986,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_accelerated_networking.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 134860,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_auto_shutdown.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93019,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_auto_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_availset.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 128656,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_availset_convert.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16673954,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_boot_diagnostics.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 149759,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_capture_zone_resilient_image.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_auth.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_auto_create_subnet.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168865,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_by_attach_os_and_data_disks.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 127431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_by_attach_unmanaged_os_and_data_disks.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 94633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_custom_data.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37900,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_custom_ip.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 78058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_ephemeral_os_disk.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 82077,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_existing_ids_options.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 522705,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_existing_nic.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 110744,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_existing_options.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 521067,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_from_unmanaged_disk.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 83690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_linux_secrets.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71025,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_multi_nics.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 189324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_no_wait.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_none_options.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_nsg_rule.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 46302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_provision_vm_agent.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_special_name.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_state_modifications.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 527667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_ubuntu.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76687,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_windows_secrets.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_with_market_place_image.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_with_monitor.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 221213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_with_specialized_unmanaged_disk.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_with_unmanaged_data_disks.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 123170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_with_workspace_linux.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 224429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_with_workspace_windows.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 252564,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_create_zones.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16816089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_cross_tenant_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 165296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_custom_image.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 427243,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_custom_image_name_conflict.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_data_unmanaged_disk.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 94610,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_disk_attach_detach.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 183031,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_disk_create_with_standard_zrs_sku.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_disk_create_zones.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_disk_encryption_e2e.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 99263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_disk_logical_sector_size.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18764,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_disk_max_shares_etc.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 132356,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_disk_storage_sku.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 119327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_disk_upload.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9052,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_encryption_at_host.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 78904,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_error_on_zone_unavailable.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14685938,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_explicit_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 184992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_extension.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_extension_instance_name.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 51321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_extension_with_id.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 450596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_generalize.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68687,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_generic_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 104726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_image_list_by_alias.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4742,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_image_list_offers.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_image_list_publishers.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 359552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_image_list_skus.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14019,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_image_show.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1998,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_image_terms.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 147837,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_images_list_thru_services.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1390253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_large_disk.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_lb_integration.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 457847,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_machine_extension_image.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19656,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_managed_disk.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 124560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_metric_tail.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 241251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 155862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_msi_no_scope.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 165593,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_open_port.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 135546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_os_disk_swap.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_priority_eviction_billing.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62922,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_run_command_e2e.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_run_command_with_parameters.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_secret_e2e_test.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 106007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_set_os_disk_size.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 106687,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_show_list_sizes_list_ip_addresses.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 195624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_simulate_eviction.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 127930,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_size_list.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95088,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_snapshot_incremental.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20881,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_ultra_ssd_disk_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21107,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_ultra_ssd_storage_sku.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 164043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_update_with_workspace_linux.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 351267,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_update_with_workspace_windows.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 379412,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_usage.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_vmss_update_ultra_ssd_enabled.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33429451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vm_windows_license_type.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_accelerated_networking.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_asg.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76912,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_and_modify.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 270786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_auth.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50988,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_automatic_repairs_with_health_probe.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 116226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_custom_data.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34214,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_default_app_gateway.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13267,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_disk_iops_mbps.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_ephemeral_os_disk.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_existing_ids_options.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 203281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_existing_options.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202757,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_idempotent.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_linux_secrets.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_none_options.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_options.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 313882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_create_with_app_gateway.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 91353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_disk_encryption_e2e.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 118517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_existing_lb.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_explicit_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 137352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_extension.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 163420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_extension_instance_name.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_lb_sku.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 185277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_msi.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 147465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_nics.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59111,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_public_ip_per_vm_custom_domain_name.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62814,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_reimage.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_rolling_upgrade.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 256565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_run_command_e2e.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 113024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_run_command_with_parameters.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_scale_in_policy.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_set_orchestration_service_state.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 103663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_simulate_eviction.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 134712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_single_placement_group_default_to_std_lb.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_terminate_notification.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 137485,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_ultra_ssd_storage_sku.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_update.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 116793,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_update_automatic_repairs_with_health_extension.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 87716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_update_automatic_repairs_with_health_probe.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 188124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_update_cross_tenant.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 291716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_update_image.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114026,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_update_instance_disks.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 107534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_vms.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 113662,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_vmss_with_ilb.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "recordings",
+    "package": "azure-cli",
+    "path": "azure-cli/2.18.0-2/src/azure-cli/azure/cli/command_modules/vm/tests/latest/recordings",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/azure-cli/2.18.0-2/",
+        "metric": {
+            "size": 631860
+        },
+        "pts_link": "https://tracker.debian.org/pkg/azure-cli",
+        "sloc": [
+            [
+                "python",
+                272023
+            ],
+            [
+                "sh",
+                963
+            ],
+            [
+                "makefile",
+                305
+            ],
+            [
+                "javascript",
+                34
+            ],
+            [
+                "cs",
+                29
+            ],
+            [
+                "xml",
+                16
+            ],
+            [
+                "cpp",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/azure-cli",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.18.0-2"
+}

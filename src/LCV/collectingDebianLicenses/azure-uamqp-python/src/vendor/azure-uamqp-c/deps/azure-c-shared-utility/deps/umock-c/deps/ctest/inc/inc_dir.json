@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aux_inc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 107,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ctest.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16529,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctest_windows.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "inc",
+    "package": "azure-uamqp-python",
+    "path": "azure-uamqp-python/1.4.1-1/src/vendor/azure-uamqp-c/deps/azure-c-shared-utility/deps/umock-c/deps/ctest/inc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/azure-uamqp-python/1.4.1-1/",
+        "metric": {
+            "size": 35160
+        },
+        "pts_link": "https://tracker.debian.org/pkg/azure-uamqp-python",
+        "sloc": [
+            [
+                "ansic",
+                181532
+            ],
+            [
+                "cpp",
+                7738
+            ],
+            [
+                "python",
+                7485
+            ],
+            [
+                "cs",
+                5766
+            ],
+            [
+                "sh",
+                718
+            ],
+            [
+                "xml",
+                298
+            ],
+            [
+                "makefile",
+                34
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/azure-uamqp-python",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.1-1"
+}

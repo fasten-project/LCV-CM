@@ -1,0 +1,236 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "axyl_core.pdb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 449124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_core.pdf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79012,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_core.pdm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 449139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_core.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_core_data.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_demo.db",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1604358,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_meta_data.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 214943,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_microsite_data.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_trig.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "create-axyl-core-db.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "diff-apply.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "diff-common.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "diff-get.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install-db.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 13918,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stamp-db.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3243,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upgrade",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 142,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "upgrade-db.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "postgres",
+    "package": "axyl",
+    "path": "axyl/2.1.13/db/postgres",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 90621,
+        "license": "/copyright/license/axyl/2.1.13/",
+        "metric": {
+            "size": 40660
+        },
+        "pts_link": "https://tracker.debian.org/pkg/axyl",
+        "sloc": [
+            [
+                "php",
+                50149
+            ],
+            [
+                "sql",
+                11220
+            ],
+            [
+                "sh",
+                3488
+            ],
+            [
+                "perl",
+                649
+            ],
+            [
+                "xml",
+                206
+            ],
+            [
+                "makefile",
+                108
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k"
+        ]
+    },
+    "type": "directory",
+    "version": "2.1.13"
+}

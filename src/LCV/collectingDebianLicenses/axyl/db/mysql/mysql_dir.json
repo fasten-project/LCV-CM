@@ -1,0 +1,159 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "axyl_core.pdb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 436886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_core.pdf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 73872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_core.pdm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 436886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_core.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_core_data.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13917,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_meta_data.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 214080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "axyl_microsite_data.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install-db.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upgrade",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 23,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "upgrade-db.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 947,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mysql",
+    "package": "axyl",
+    "path": "axyl/2.1.13/db/mysql",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 90621,
+        "license": "/copyright/license/axyl/2.1.13/",
+        "metric": {
+            "size": 40660
+        },
+        "pts_link": "https://tracker.debian.org/pkg/axyl",
+        "sloc": [
+            [
+                "php",
+                50149
+            ],
+            [
+                "sql",
+                11220
+            ],
+            [
+                "sh",
+                3488
+            ],
+            [
+                "perl",
+                649
+            ],
+            [
+                "xml",
+                206
+            ],
+            [
+                "makefile",
+                108
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k"
+        ]
+    },
+    "type": "directory",
+    "version": "2.1.13"
+}

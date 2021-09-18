@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gbs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "axe-demultiplexer",
+    "path": "axe-demultiplexer/0.3.3+dfsg-3/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/axe-demultiplexer/0.3.3+dfsg-3/",
+        "metric": {
+            "size": 848
+        },
+        "pts_link": "https://tracker.debian.org/pkg/axe-demultiplexer",
+        "sloc": [
+            [
+                "ansic",
+                4480
+            ],
+            [
+                "python",
+                352
+            ],
+            [
+                "makefile",
+                171
+            ],
+            [
+                "sh",
+                47
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/axe-demultiplexer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.3+dfsg-3"
+}

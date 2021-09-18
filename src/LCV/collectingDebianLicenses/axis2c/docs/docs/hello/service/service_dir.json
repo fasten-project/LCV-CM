@@ -1,0 +1,85 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "hello",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "hello_svc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hello_svc.c.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19823,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "service",
+    "package": "axis2c",
+    "path": "axis2c/1.6.0-1/docs/docs/hello/service",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 43679,
+        "license": "/copyright/license/axis2c/1.6.0-1/",
+        "metric": {
+            "size": 39980
+        },
+        "pts_link": "https://tracker.debian.org/pkg/axis2c",
+        "sloc": [
+            [
+                "ansic",
+                148102
+            ],
+            [
+                "xml",
+                9461
+            ],
+            [
+                "sh",
+                9269
+            ],
+            [
+                "makefile",
+                2807
+            ],
+            [
+                "cpp",
+                577
+            ],
+            [
+                "php",
+                316
+            ],
+            [
+                "perl",
+                119
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ]
+    },
+    "type": "directory",
+    "version": "1.6.0-1"
+}
