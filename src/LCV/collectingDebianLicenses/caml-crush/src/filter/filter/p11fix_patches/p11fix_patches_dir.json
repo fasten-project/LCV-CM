@@ -1,0 +1,141 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cmac.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18112,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "conflicting_attributes_patch.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "existing_sensitive_keys_patch.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "non_local_objects_patch.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sanitize_creation_templates_patch.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "secure_templates_patch.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sensitive_leak_patch.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13911,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sticky_attributes_patch.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wrapping_format_patch.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12776,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "p11fix_patches",
+    "package": "caml-crush",
+    "path": "caml-crush/1.0.10-4/src/filter/filter/p11fix_patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/caml-crush/1.0.10-4/",
+        "metric": {
+            "size": 2476
+        },
+        "pts_link": "https://tracker.debian.org/pkg/caml-crush",
+        "sloc": [
+            [
+                "ansic",
+                21420
+            ],
+            [
+                "ml",
+                10419
+            ],
+            [
+                "sh",
+                1422
+            ],
+            [
+                "makefile",
+                268
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/caml-pkcs11/caml-crush",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.10-4"
+}

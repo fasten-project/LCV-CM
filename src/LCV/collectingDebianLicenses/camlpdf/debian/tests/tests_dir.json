@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream-examples",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "camlpdf",
+    "path": "camlpdf/2.3.1-2/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/camlpdf/2.3.1-2/",
+        "metric": {
+            "size": 2584
+        },
+        "pts_link": "https://tracker.debian.org/pkg/camlpdf",
+        "sloc": [
+            [
+                "ml",
+                46335
+            ],
+            [
+                "ansic",
+                9194
+            ],
+            [
+                "makefile",
+                103
+            ],
+            [
+                "sh",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/camlpdf",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.1-2"
+}

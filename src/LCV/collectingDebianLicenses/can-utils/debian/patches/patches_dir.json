@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0000-debian-build-fixup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0000-remove-readme-logo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 60,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "can-utils",
+    "path": "can-utils/2020.11.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/can-utils/2020.11.0-1/",
+        "metric": {
+            "size": 756
+        },
+        "pts_link": "https://tracker.debian.org/pkg/can-utils",
+        "sloc": [
+            [
+                "ansic",
+                11606
+            ],
+            [
+                "makefile",
+                109
+            ],
+            [
+                "sh",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/can-utils.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2020.11.0-1"
+}

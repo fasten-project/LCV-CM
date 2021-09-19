@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0002-Fix-compilation-with-OCaml-4.08.0.patch",
+    "package": "camltemplate",
+    "path": "camltemplate/1.0.2-3/.pc/0002-Fix-compilation-with-OCaml-4.08.0.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/camltemplate/1.0.2-3/",
+        "metric": {
+            "size": 932
+        },
+        "pts_link": "https://tracker.debian.org/pkg/camltemplate",
+        "sloc": [
+            [
+                "ml",
+                2427
+            ],
+            [
+                "makefile",
+                299
+            ],
+            [
+                "sh",
+                51
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/camltemplate",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.2-3"
+}

@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5934,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "book",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 65,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "files",
+    "package": "camping",
+    "path": "camping/2.1.580-1.1/doc/files",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/camping/2.1.580-1.1/",
+        "metric": {
+            "size": 1300
+        },
+        "pts_link": "https://tracker.debian.org/pkg/camping",
+        "sloc": [
+            [
+                "ruby",
+                2053
+            ],
+            [
+                "makefile",
+                24
+            ]
+        ],
+        "suites": [
+            "buster",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb?p=pkg-ruby-extras/camping.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.1.580-1.1"
+}

@@ -1,0 +1,254 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CamiTKAPI.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CamiTKVersion.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CamiTKVersion.h.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Core.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Core.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ExtensionManager.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ExtensionManager.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "HistoryComponent.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "HistoryComponent.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "HistoryItem.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "HistoryItem.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "action",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "application",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "component",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "resources",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "utils",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "viewer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "core",
+    "package": "camitk",
+    "path": "camitk/4.1.2-4/sdk/libraries/core",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/camitk/4.1.2-4/",
+        "metric": {
+            "size": 427532
+        },
+        "pts_link": "https://tracker.debian.org/pkg/camitk",
+        "sloc": [
+            [
+                "cpp",
+                79494
+            ],
+            [
+                "xml",
+                1176
+            ],
+            [
+                "sh",
+                1137
+            ],
+            [
+                "ansic",
+                142
+            ],
+            [
+                "makefile",
+                107
+            ],
+            [
+                "perl",
+                84
+            ],
+            [
+                "sed",
+                20
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/camitk",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.1.2-4"
+}

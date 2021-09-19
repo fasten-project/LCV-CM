@@ -1,0 +1,96 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "runtime",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0001-Makefiles-fixes.patch",
+    "package": "camlidl",
+    "path": "camlidl/1.09-1/.pc/0001-Makefiles-fixes.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/camlidl/1.09-1/",
+        "metric": {
+            "size": 1212
+        },
+        "pts_link": "https://tracker.debian.org/pkg/camlidl",
+        "sloc": [
+            [
+                "ml",
+                4982
+            ],
+            [
+                "ansic",
+                942
+            ],
+            [
+                "cpp",
+                908
+            ],
+            [
+                "makefile",
+                357
+            ],
+            [
+                "xml",
+                213
+            ],
+            [
+                "sh",
+                74
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/camlidl",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.09-1"
+}

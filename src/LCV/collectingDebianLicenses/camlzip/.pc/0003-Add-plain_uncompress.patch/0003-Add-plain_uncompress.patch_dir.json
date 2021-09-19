@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "zlib.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4852,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "zlib.mli",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "zlibstubs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "0003-Add-plain_uncompress.patch",
+    "package": "camlzip",
+    "path": "camlzip/1.10-1/.pc/0003-Add-plain_uncompress.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/camlzip/1.10-1/",
+        "metric": {
+            "size": 280
+        },
+        "pts_link": "https://tracker.debian.org/pkg/camlzip",
+        "sloc": [
+            [
+                "ml",
+                1046
+            ],
+            [
+                "ansic",
+                158
+            ],
+            [
+                "makefile",
+                83
+            ],
+            [
+                "sh",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/camlzip",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.10-1"
+}
