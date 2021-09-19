@@ -1,0 +1,85 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CVSROOT",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mirror",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 142,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "schema",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "cvs-mirror",
+    "package": "bonsai",
+    "path": "bonsai/1.3+cvs20060111-2/bonsai/cvs-mirror",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 445,
+        "license": "/copyright/license/bonsai/1.3+cvs20060111-2/",
+        "metric": {
+            "size": 1096
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bonsai",
+        "sloc": [
+            [
+                "perl",
+                11380
+            ],
+            [
+                "sh",
+                271
+            ],
+            [
+                "makefile",
+                223
+            ],
+            [
+                "sql",
+                217
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k"
+        ]
+    },
+    "type": "directory",
+    "version": "1.3+cvs20060111-2"
+}

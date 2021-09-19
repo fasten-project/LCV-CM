@@ -1,0 +1,230 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "boinc_solr_search",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "boinccore",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 139,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "boincimport",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "boincstats",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "boincteam",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "boinctranslate",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "boincuser",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "boincwork",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "comment_form_block",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "contrib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "flag_abuse_reason",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 111,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "flag_comment_notify",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "node_comment_block",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 156,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "modules",
+    "package": "boinc",
+    "path": "boinc/7.16.17+dfsg-2/drupal/sites/default/boinc/modules",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/boinc/7.16.17+dfsg-2/",
+        "metric": {
+            "size": 104468
+        },
+        "pts_link": "https://tracker.debian.org/pkg/boinc",
+        "sloc": [
+            [
+                "cpp",
+                165744
+            ],
+            [
+                "php",
+                115751
+            ],
+            [
+                "pascal",
+                56311
+            ],
+            [
+                "ansic",
+                49291
+            ],
+            [
+                "xml",
+                16891
+            ],
+            [
+                "java",
+                11134
+            ],
+            [
+                "python",
+                6607
+            ],
+            [
+                "javascript",
+                6532
+            ],
+            [
+                "sh",
+                4804
+            ],
+            [
+                "perl",
+                1843
+            ],
+            [
+                "makefile",
+                1817
+            ],
+            [
+                "objc",
+                1724
+            ],
+            [
+                "sql",
+                1004
+            ],
+            [
+                "lisp",
+                47
+            ],
+            [
+                "csh",
+                30
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-boinc-team/boinc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "7.16.17+dfsg-2"
+}

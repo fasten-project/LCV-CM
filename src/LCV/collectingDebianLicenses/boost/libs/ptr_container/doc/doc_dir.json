@@ -1,0 +1,970 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Jamfile.v2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "associative_ptr_container.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20697,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "associative_ptr_container.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6921,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "boost.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_all.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 925,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_assoc_ptr_container.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_conventions.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_examples.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_faq.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_guidelines.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_headers.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_indirect_fun.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_array.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_container.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_deque.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_list.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_map.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_map_adapter.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_multimap.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_multimap_adapter.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_multiset.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_multiset_adapter.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_sequence_adapter.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_set.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_set_adapter.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_ptr_vector.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_reference.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_rever_ptr_container.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_tutorial.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "conventions.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "conventions.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5598,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "default.css",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "examples.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45807,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "examples.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "faq.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "faq.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guidelines.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "guidelines.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "headers.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "headers.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3146,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "indirect_fun.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10810,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "indirect_fun.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "intro.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_array.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22561,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_array.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_container.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20934,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_container.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8312,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_container.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_deque.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16065,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_deque.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4512,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_list.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12098,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_list.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_map.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_map.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1948,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_map_adapter.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_map_adapter.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6612,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_multimap.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8706,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_multimap.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_multimap_adapter.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_multimap_adapter.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_multiset.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_multiset.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_multiset_adapter.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14711,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_multiset_adapter.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_sequence_adapter.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39735,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_sequence_adapter.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_set.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_set.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_set_adapter.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_set_adapter.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_vector.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ptr_vector.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reference.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reference.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reversible_ptr_container.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reversible_ptr_container.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "style.css",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 963,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "todo.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tutorial.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tutorial.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12909,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tutorial_example.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29650,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "doc",
+    "package": "boost",
+    "path": "boost/1.34.1-14/libs/ptr_container/doc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 259566,
+        "license": "/copyright/license/boost/1.34.1-14/",
+        "metric": {
+            "size": 116412
+        },
+        "pts_link": "https://tracker.debian.org/pkg/boost",
+        "sloc": [
+            [
+                "cpp",
+                642395
+            ],
+            [
+                "xml",
+                56450
+            ],
+            [
+                "python",
+                17612
+            ],
+            [
+                "ansic",
+                14520
+            ],
+            [
+                "sh",
+                2265
+            ],
+            [
+                "yacc",
+                858
+            ],
+            [
+                "perl",
+                481
+            ],
+            [
+                "makefile",
+                478
+            ],
+            [
+                "lex",
+                94
+            ],
+            [
+                "sql",
+                74
+            ],
+            [
+                "csh",
+                6
+            ]
+        ],
+        "suites": [
+            "lenny"
+        ]
+    },
+    "type": "directory",
+    "version": "1.34.1-14"
+}

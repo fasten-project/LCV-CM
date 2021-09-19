@@ -1,0 +1,130 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "PKG-INFO",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1695,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1065,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ez_setup.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup.cfg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setup.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0.2.2-3",
+    "package": "bobo",
+    "path": "bobo/0.2.2-3",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bobo/0.2.2-3/",
+        "metric": {
+            "size": 160
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bobo",
+        "sloc": [
+            [
+                "python",
+                1042
+            ],
+            [
+                "makefile",
+                2
+            ],
+            [
+                "sh",
+                1
+            ]
+        ],
+        "suites": [
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch",
+            "wheezy"
+        ],
+        "vcs_browser": "http://svn.debian.org/viewsvn/pkg-zope/bobo/trunk",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "0.2.2-3"
+}

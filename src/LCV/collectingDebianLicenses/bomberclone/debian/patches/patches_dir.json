@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_cementery.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1374,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_enter.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_sigsegv.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_no-add-needed.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_fix_gcc4.6_warning.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_gcc5.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5091,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_fixSpelling.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_fix-ftbfs-gcc6.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7925,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bomberclone",
+    "path": "bomberclone/0.11.9-7.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bomberclone/0.11.9-7.1/",
+        "metric": {
+            "size": 11228
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bomberclone",
+        "sloc": [
+            [
+                "ansic",
+                14256
+            ],
+            [
+                "sh",
+                3800
+            ],
+            [
+                "makefile",
+                336
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/collab-maint/bomberclone.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.11.9-7.1"
+}

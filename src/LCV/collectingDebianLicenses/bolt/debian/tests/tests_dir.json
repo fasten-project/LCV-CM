@@ -1,0 +1,74 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "installed-tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "bolt",
+    "path": "bolt/0.9.1-1/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bolt/0.9.1-1/",
+        "metric": {
+            "size": 1788
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bolt",
+        "sloc": [
+            [
+                "ansic",
+                28869
+            ],
+            [
+                "python",
+                2813
+            ],
+            [
+                "xml",
+                460
+            ],
+            [
+                "javascript",
+                269
+            ],
+            [
+                "sh",
+                180
+            ],
+            [
+                "makefile",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/freedesktop-team/bolt",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.1-1"
+}
