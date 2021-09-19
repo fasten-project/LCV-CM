@@ -1,0 +1,103 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "2to3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "create_fake_autoreconf_files.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "csh2bash.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mayhem.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "autodocksuite",
+    "path": "autodocksuite/4.2.6-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autodocksuite/4.2.6-8/",
+        "metric": {
+            "size": 97028
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autodocksuite",
+        "sloc": [
+            [
+                "cpp",
+                24257
+            ],
+            [
+                "sh",
+                4419
+            ],
+            [
+                "python",
+                1261
+            ],
+            [
+                "makefile",
+                627
+            ],
+            [
+                "perl",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/autodocksuite",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.2.6-8"
+}

@@ -1,0 +1,180 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "11default_automaster_location.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12disable_default_auto_master.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15auto_net_nfs4.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-ldflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-lookup-ldap-crash.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 892,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-nfs4-mounts-in-auto-net.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-ssslib-search.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hardening-flags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mount-hidden-samba-shares.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 916,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-kernel-mount.nfs-version-check.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2834,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spelling-error-fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "autofs",
+    "path": "autofs/5.1.7-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autofs/5.1.7-1/",
+        "metric": {
+            "size": 4640
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autofs",
+        "sloc": [
+            [
+                "ansic",
+                35441
+            ],
+            [
+                "yacc",
+                1811
+            ],
+            [
+                "lex",
+                1067
+            ],
+            [
+                "sh",
+                627
+            ],
+            [
+                "makefile",
+                553
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/autofs/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.1.7-1"
+}

@@ -1,0 +1,2828 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ccomp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "config.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1857,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pats_basics_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37148,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_basics_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_caseof_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24657,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_ccompenv_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 242089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_claulst_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_d2env_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72393,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 131340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_decl_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 131866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_dynexp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 221926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_emit2_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_emit3_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 184473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_emit_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 270672,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_environ_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_funent_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_funlab_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 105726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_hipat_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_hitype_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 198401,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_instrseq_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_lazyeval_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_looping_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_main_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 149346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 195402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_subst_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 201532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_template_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 117956,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_tmplab_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_tmpvar_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 111655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_trywith_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25777,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_ccomp_util_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_codegen2_absrec_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_codegen2_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18953,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_codegen2_datype_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37936,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_codegen2_fprint_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_codegen2_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_codegen2_util_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_comarg_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26848,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_comarg_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_constraint3_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 144374,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_constraint3_icnstr_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 51451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_constraint3_init_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58604,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_constraint3_jsonize_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_constraint3_mapgen_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_constraint3_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_constraint3_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_constraint3_simplify_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 115198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_constraint3_solve_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 256420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_counter_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_counter_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_depgen_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_depgen_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dmacro2_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48014,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dmacro2_eval0_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 129379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dmacro2_eval1_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 145010,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dmacro2_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34090,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dmacro2_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dyncst2_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dyncst2_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2262,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp1_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp1_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 150959,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp1_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24916,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp2_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 191880,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp2_dcst_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 126036,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp2_dmac_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp2_dvar_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 223882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp2_mapgen_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 152582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp2_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 173839,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp2_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp2_util_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp3_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 178513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp3_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 106972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_dynexp3_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_e1xpval_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 162673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_e1xpval_error_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_e1xpval_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_effect_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28671,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_effect_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_errmsg_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_errmsg_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_error_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4300,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_error_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3706,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_filename_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 116764,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_filename_reloc_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_filename_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_fixity_fxty_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_fixity_prec_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_fixity_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_global_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31750,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_global_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_hidynexp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 162615,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_hidynexp_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_hidynexp_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_hidynexp_util_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 105579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_histaexp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 89909,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_histaexp_funlab_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_histaexp_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_histaexp_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_intinf_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_intinf_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_jsonize_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 81085,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_jsonize_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3715,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_jsonize_synent2_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 219202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_jsonize_synent2_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2999,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_label_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_label_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lexbuf.cats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1991,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lexbuf_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lexbuf_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lexing.cats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2026,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lexing_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 251716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lexing_error_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lexing_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 61057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lexing_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lexing_token_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 150306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lintprgm_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5916,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lintprgm_myint.cats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lintprgm_myint_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lintprgm_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3691,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lintprgm_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1965,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_lintprgm_solve_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 60863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_location.cats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1742,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_location_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_location_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_main_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 247927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_main_none_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 217232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_namespace_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_namespace_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_parsing_base_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54010,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_parsing_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_parsing_decl_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 165219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_parsing_dynexp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 201370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_parsing_e0xp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_parsing_error_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64354,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_parsing_kwds_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 90292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_parsing_p0at_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 85166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_parsing_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_parsing_sort_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48499,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_parsing_staexp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 140896,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_parsing_toplevel_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_parsing_util_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52809,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_patcst2_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 166674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_patcst2_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5587,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_reader.cats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_reader_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_reader_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_stacst2_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 207640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_stacst2_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp1_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 143092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp1_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 116565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp1_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14061,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_ctxt_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_dcon_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 117149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_error_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 46118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_error_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_hole_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18223,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_pprint_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84865,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114939,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_scst_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 172488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_skexp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_solve_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 173656,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_solve_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_sort_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 133549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_svar_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 244666,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_svvar_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 122776,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_szexp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 101625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_util1_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 168509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_util2_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 191894,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_util3_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 87298,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_staexp2_util_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_stamp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45491,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_stamp_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_symbol_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_symbol_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_symenv_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_symenv_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1298,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_symmap_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_symmap_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_syntax_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 492795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_syntax_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 187329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_syntax_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_taggen_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_taggen_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_tokbuf.cats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1890,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_tokbuf_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44855,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_tokbuf_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans1_decl_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 163937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans1_dynexp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 174432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans1_e0xp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 61905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans1_effect_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37414,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans1_env_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 82340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans1_env_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans1_error_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21248,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans1_p0at_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 66105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans1_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans1_sort_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans1_staexp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 159490,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans1_syndef_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 60859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans2_decl_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 275463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans2_dynexp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 272434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans2_env_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 149174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans2_env_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3645,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans2_error_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans2_impdec_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 130710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans2_p1at_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 120229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans2_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans2_sort_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans2_staexp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 332854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_appsym_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 112232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_assgn_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_caseof_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_decl_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 141276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_deref_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_dynexp_dn_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 156306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_dynexp_up_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 254325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_env_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 251404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_env_dvar_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 124442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_env_effect_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_env_lamlp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_env_lstate_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_env_pfman_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 85684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_env_print_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_env_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_env_scst_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_env_svar_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32401,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_env_termet_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_error_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_fldfrat_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_looping_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95628,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_lvalres_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_p2at_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 197352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_patcon_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 83502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_ptrof_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26999,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_selab_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 120249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_syncst_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_util_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 85792,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_viewat_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_trans3_xchng_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_typerase_decl_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 105048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_typerase_dynexp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 182863,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_typerase_error_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_typerase_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11363,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_typerase_staexp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92763,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_utils_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74852,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pats_utils_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "CBOOT",
+    "package": "ats2-lang",
+    "path": "ats2-lang/0.4.0-1/src/CBOOT",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ats2-lang/0.4.0-1/",
+        "metric": {
+            "size": 40064
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ats2-lang",
+        "sloc": [
+            [
+                "ansic",
+                389637
+            ],
+            [
+                "makefile",
+                7123
+            ],
+            [
+                "lisp",
+                812
+            ],
+            [
+                "sh",
+                657
+            ],
+            [
+                "php",
+                573
+            ],
+            [
+                "python",
+                387
+            ],
+            [
+                "perl",
+                365
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ats2-lang",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.0-1"
+}

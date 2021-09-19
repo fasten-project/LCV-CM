@@ -1,0 +1,100 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "homGeneMapping.out",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "homologs.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 96,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "outdir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tmp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "without_hints",
+    "package": "augustus",
+    "path": "augustus/3.4.0+dfsg2-2/tests/auxprogs/homGeneMapping/expected_results/without_hints",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/augustus/3.4.0+dfsg2-2/",
+        "metric": {
+            "size": 758480
+        },
+        "pts_link": "https://tracker.debian.org/pkg/augustus",
+        "sloc": [
+            [
+                "cpp",
+                65451
+            ],
+            [
+                "perl",
+                21436
+            ],
+            [
+                "python",
+                3927
+            ],
+            [
+                "ansic",
+                1240
+            ],
+            [
+                "makefile",
+                1032
+            ],
+            [
+                "sh",
+                189
+            ],
+            [
+                "javascript",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/augustus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.4.0+dfsg2-2"
+}

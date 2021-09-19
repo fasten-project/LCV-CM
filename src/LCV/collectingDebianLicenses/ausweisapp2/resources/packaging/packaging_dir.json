@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "android",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ios",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "linux",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 111,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "macos",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "updater",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "win",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "packaging",
+    "package": "ausweisapp2",
+    "path": "ausweisapp2/1.22.2-1/resources/packaging",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ausweisapp2/1.22.2-1/",
+        "metric": {
+            "size": 22820
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ausweisapp2",
+        "sloc": [
+            [
+                "cpp",
+                87286
+            ],
+            [
+                "python",
+                1371
+            ],
+            [
+                "xml",
+                1044
+            ],
+            [
+                "java",
+                637
+            ],
+            [
+                "sh",
+                147
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ausweisapp2",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.22.2-1"
+}

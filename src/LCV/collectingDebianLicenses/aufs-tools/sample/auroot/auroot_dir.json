@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Robert.Wotzlaw.tar.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9023,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Robert.Wotzlaw.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "auroot",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1920,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "auroot",
+    "package": "aufs-tools",
+    "path": "aufs-tools/1:4.14+20190211-1/sample/auroot",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aufs-tools/1:4.14+20190211-1/",
+        "metric": {
+            "size": 776
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aufs-tools",
+        "sloc": [
+            [
+                "ansic",
+                5867
+            ],
+            [
+                "sh",
+                552
+            ],
+            [
+                "makefile",
+                286
+            ]
+        ],
+        "suites": [
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/janluca-guest/aufs-tools-debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:4.14+20190211-1"
+}

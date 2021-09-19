@@ -1,0 +1,122 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "api",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "aptly",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "middleware",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "router.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "router_test.go",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 736,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "routertest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "uploadqueue",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 98,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "webpages",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "handlers",
+    "package": "autodeb",
+    "path": "autodeb/0.20.0-1/internal/server/handlers",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autodeb/0.20.0-1/",
+        "metric": {
+            "size": 1304
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autodeb",
+        "sloc": [
+            [
+                "sh",
+                73
+            ],
+            [
+                "makefile",
+                62
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/autodeb-team/autodeb-packaging",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.20.0-1"
+}

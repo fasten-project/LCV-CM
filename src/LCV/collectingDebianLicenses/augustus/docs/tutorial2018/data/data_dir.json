@@ -1,0 +1,111 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "augustus_ab_initio.gff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 555097,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "augustus_rna.gtf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 443045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "augustus_rna_prot.gtf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 508807,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "introns.gff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 483295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proteins.gff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 483295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "data",
+    "package": "augustus",
+    "path": "augustus/3.4.0+dfsg2-2/docs/tutorial2018/data",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/augustus/3.4.0+dfsg2-2/",
+        "metric": {
+            "size": 758480
+        },
+        "pts_link": "https://tracker.debian.org/pkg/augustus",
+        "sloc": [
+            [
+                "cpp",
+                65451
+            ],
+            [
+                "perl",
+                21436
+            ],
+            [
+                "python",
+                3927
+            ],
+            [
+                "ansic",
+                1240
+            ],
+            [
+                "makefile",
+                1032
+            ],
+            [
+                "sh",
+                189
+            ],
+            [
+                "javascript",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/augustus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.4.0+dfsg2-2"
+}

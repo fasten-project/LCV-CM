@@ -1,0 +1,111 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1072,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bamtools",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "filterBam.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 60323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "functions",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "headers",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "src",
+    "package": "augustus",
+    "path": "augustus/3.4.0+dfsg2-2/auxprogs/filterBam/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/augustus/3.4.0+dfsg2-2/",
+        "metric": {
+            "size": 758480
+        },
+        "pts_link": "https://tracker.debian.org/pkg/augustus",
+        "sloc": [
+            [
+                "cpp",
+                65451
+            ],
+            [
+                "perl",
+                21436
+            ],
+            [
+                "python",
+                3927
+            ],
+            [
+                "ansic",
+                1240
+            ],
+            [
+                "makefile",
+                1032
+            ],
+            [
+                "sh",
+                189
+            ],
+            [
+                "javascript",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/augustus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.4.0+dfsg2-2"
+}

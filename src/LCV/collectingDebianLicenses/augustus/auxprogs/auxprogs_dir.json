@@ -1,0 +1,166 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aln2wig",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "auxBamFilters",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "bam2hints",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 69,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "bam2wig",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 69,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "compileSpliceCands",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 131,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "filterBam",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 60,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "homGeneMapping",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 122,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "joingenes",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 147,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "utrrnaseq",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "auxprogs",
+    "package": "augustus",
+    "path": "augustus/3.4.0+dfsg2-2/auxprogs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/augustus/3.4.0+dfsg2-2/",
+        "metric": {
+            "size": 758480
+        },
+        "pts_link": "https://tracker.debian.org/pkg/augustus",
+        "sloc": [
+            [
+                "cpp",
+                65451
+            ],
+            [
+                "perl",
+                21436
+            ],
+            [
+                "python",
+                3927
+            ],
+            [
+                "ansic",
+                1240
+            ],
+            [
+                "makefile",
+                1032
+            ],
+            [
+                "sh",
+                189
+            ],
+            [
+                "javascript",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/augustus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.4.0+dfsg2-2"
+}

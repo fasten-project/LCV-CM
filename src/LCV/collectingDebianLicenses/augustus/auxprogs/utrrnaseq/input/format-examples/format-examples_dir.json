@@ -1,0 +1,133 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 755,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fake.wig",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "genome.fa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3081,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "intron.hints",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 721,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mini-start-stop.gtf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mini-start-stop2.gtf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "repeat.hints",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "format-examples",
+    "package": "augustus",
+    "path": "augustus/3.4.0+dfsg2-2/auxprogs/utrrnaseq/input/format-examples",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/augustus/3.4.0+dfsg2-2/",
+        "metric": {
+            "size": 758480
+        },
+        "pts_link": "https://tracker.debian.org/pkg/augustus",
+        "sloc": [
+            [
+                "cpp",
+                65451
+            ],
+            [
+                "perl",
+                21436
+            ],
+            [
+                "python",
+                3927
+            ],
+            [
+                "ansic",
+                1240
+            ],
+            [
+                "makefile",
+                1032
+            ],
+            [
+                "sh",
+                189
+            ],
+            [
+                "javascript",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/augustus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.4.0+dfsg2-2"
+}

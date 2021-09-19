@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_update_autotools.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_autoreconf-aclocal.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_no_autoconf.info.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 617,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "autoconf2.59",
+    "path": "autoconf2.59/2.59+dfsg-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autoconf2.59/2.59+dfsg-1/",
+        "metric": {
+            "size": 3580
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autoconf2.59",
+        "sloc": [
+            [
+                "sh",
+                3723
+            ],
+            [
+                "perl",
+                2940
+            ],
+            [
+                "makefile",
+                400
+            ],
+            [
+                "lisp",
+                104
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "2.59+dfsg-1"
+}

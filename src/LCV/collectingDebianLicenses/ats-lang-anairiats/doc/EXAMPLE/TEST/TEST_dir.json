@@ -1,0 +1,797 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_funarray_braun.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1925,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_fundeque_fingertree.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2178,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_funheap_binomial.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1777,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_funheap_braun.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1733,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_funmap_avltree.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3038,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_funmap_rbtree.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_funralist_nested.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_funset_avltree.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3320,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_funset_listord.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_genarrays.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_hashtable_chain.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3856,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_hashtable_linprb.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5060,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_intinf.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_iterint.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4736,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_linbitvec.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3864,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_linheap_binomial.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1835,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_linmap_avltree.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3230,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_linmap_rbtree.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_linmap_skiplist.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_linordset_randbst.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1548,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_linqueue_arr.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_linqueue_lst.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_linset_listord.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1910,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_linstack_arr.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_ngc_dlist.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_ngc_linmap_avltree.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_ngc_linmap_pavltree.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_ngc_slist.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_parworkshop.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_rarray.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_refcount.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1469,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_regexp.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_smlbas_array.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2148,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_smlbas_array2.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1935,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_smlbas_char.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3841,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_smlbas_list.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2657,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_smlbas_string.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2393,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_smlbas_time.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libats_vector.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_complex.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1938,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_dirent.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5639,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_dlfcn.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_gdbm_gdbm.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_gdbm_ndbm.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_gmp.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_math.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_printf.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_pwd.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2573,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_random.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_sched.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1098,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_stdio.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_stdlib.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2693,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_sys_utsname.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_time.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libc_unistd.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude_array.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude_array0.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude_bool.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 946,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude_char.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1896,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude_dlist_vt.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1617,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude_float.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude_integer.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude_lazy_vt.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude_list.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5091,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude_list_vt.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3566,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude_matrix.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1657,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude_matrix0.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prelude_string.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "TEST",
+    "package": "ats-lang-anairiats",
+    "path": "ats-lang-anairiats/0.2.11-1.1/doc/EXAMPLE/TEST",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ats-lang-anairiats/0.2.11-1.1/",
+        "metric": {
+            "size": 20208
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ats-lang-anairiats",
+        "sloc": [
+            [
+                "ansic",
+                209677
+            ],
+            [
+                "makefile",
+                2261
+            ],
+            [
+                "sh",
+                661
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.2.11-1.1"
+}

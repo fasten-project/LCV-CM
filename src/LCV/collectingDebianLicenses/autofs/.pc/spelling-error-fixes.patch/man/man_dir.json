@@ -1,0 +1,81 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "auto.master.5.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autofs.5",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18827,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autofs.conf.5.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "man",
+    "package": "autofs",
+    "path": "autofs/5.1.7-1/.pc/spelling-error-fixes.patch/man",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autofs/5.1.7-1/",
+        "metric": {
+            "size": 4640
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autofs",
+        "sloc": [
+            [
+                "ansic",
+                35441
+            ],
+            [
+                "yacc",
+                1811
+            ],
+            [
+                "lex",
+                1067
+            ],
+            [
+                "sh",
+                627
+            ],
+            [
+                "makefile",
+                553
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/autofs/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.1.7-1"
+}

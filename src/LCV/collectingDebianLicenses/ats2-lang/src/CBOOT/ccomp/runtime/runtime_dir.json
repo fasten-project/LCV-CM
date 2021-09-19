@@ -1,0 +1,177 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "GCATS",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ats_basics.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ats_config.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ats_exception.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ats_memory.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2761,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ats_prelude.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4953,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ats_prelude_gcats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ats_prelude_gcbdw.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ats_prelude_ngc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ats_types.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcats1_all.cats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "runtime",
+    "package": "ats2-lang",
+    "path": "ats2-lang/0.4.0-1/src/CBOOT/ccomp/runtime",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ats2-lang/0.4.0-1/",
+        "metric": {
+            "size": 40064
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ats2-lang",
+        "sloc": [
+            [
+                "ansic",
+                389637
+            ],
+            [
+                "makefile",
+                7123
+            ],
+            [
+                "lisp",
+                812
+            ],
+            [
+                "sh",
+                657
+            ],
+            [
+                "php",
+                573
+            ],
+            [
+                "python",
+                387
+            ],
+            [
+                "perl",
+                365
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ats2-lang",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.0-1"
+}

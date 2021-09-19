@@ -1,0 +1,136 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "lookup_file.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lookup_hesiod.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lookup_ldap.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lookup_nisplus.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lookup_program.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lookup_yp.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mount_nfs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11986,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "parse_sun.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40006,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "modules",
+    "package": "autofs",
+    "path": "autofs/5.1.7-1/.pc/spelling-error-fixes.patch/modules",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autofs/5.1.7-1/",
+        "metric": {
+            "size": 4640
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autofs",
+        "sloc": [
+            [
+                "ansic",
+                35441
+            ],
+            [
+                "yacc",
+                1811
+            ],
+            [
+                "lex",
+                1067
+            ],
+            [
+                "sh",
+                627
+            ],
+            [
+                "makefile",
+                553
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/autofs/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.1.7-1"
+}

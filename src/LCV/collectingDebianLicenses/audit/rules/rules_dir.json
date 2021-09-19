@@ -1,0 +1,465 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "10-base-config.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-no-audit.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-loginuid.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12-cont-fail.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12-ignore-error.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 327,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20-dont-audit.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "21-no32bit.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "22-ignore-chrony.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "23-ignore-filesystems.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-nispom.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4911,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ospp-v42-1-create-failed.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ospp-v42-1-create-success.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ospp-v42-2-modify-failed.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1646,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ospp-v42-2-modify-success.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ospp-v42-3-access-failed.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 593,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ospp-v42-3-access-success.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ospp-v42-4-delete-failed.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ospp-v42-4-delete-success.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ospp-v42-5-perm-change-failed.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ospp-v42-5-perm-change-success.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 414,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ospp-v42-6-owner-change-failed.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ospp-v42-6-owner-change-success.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-ospp-v42.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-pci-dss-v31.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-stig.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "31-privileged.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "32-power-abuse.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "40-local.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "41-containers.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 439,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "42-injection.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 672,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "43-module-load.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "44-installers.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "70-einval.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "71-networking.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "99-finalize.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1908,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17433,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README-rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "rules",
+    "package": "audit",
+    "path": "audit/1:3.0.5-1/rules",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/audit/1:3.0.5-1/",
+        "metric": {
+            "size": 6708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/audit",
+        "sloc": [
+            [
+                "ansic",
+                56813
+            ],
+            [
+                "sh",
+                4869
+            ],
+            [
+                "python",
+                2478
+            ],
+            [
+                "makefile",
+                1473
+            ],
+            [
+                "sed",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/audit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:3.0.5-1"
+}

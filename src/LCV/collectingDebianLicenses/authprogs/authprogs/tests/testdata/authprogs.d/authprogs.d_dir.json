@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".dotfile.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "100-config.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "200-config.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "300-dir",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "authprogs.d",
+    "package": "authprogs",
+    "path": "authprogs/0.6.0+git7afaa40-2/authprogs/tests/testdata/authprogs.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/authprogs/0.6.0+git7afaa40-2/",
+        "metric": {
+            "size": 196
+        },
+        "pts_link": "https://tracker.debian.org/pkg/authprogs",
+        "sloc": [
+            [
+                "python",
+                965
+            ],
+            [
+                "makefile",
+                15
+            ],
+            [
+                "sh",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.6.0+git7afaa40-2"
+}

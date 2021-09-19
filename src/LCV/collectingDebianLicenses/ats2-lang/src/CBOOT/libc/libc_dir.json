@@ -1,0 +1,254 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".keeper",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CATS",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "DATS_fcntl_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DATS_gmp_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DATS_unistd_dats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SATS_errno_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1019,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SATS_fcntl_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1207,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SATS_gmp_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SATS_stdarg_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1025,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SATS_stdio_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1207,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SATS_stdlib_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SATS_string_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SATS_time_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SATS_unistd_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1422,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sys",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sys_SATS_stat_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sys_SATS_types_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1047,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sys_SATS_wait_sats.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "libc",
+    "package": "ats2-lang",
+    "path": "ats2-lang/0.4.0-1/src/CBOOT/libc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ats2-lang/0.4.0-1/",
+        "metric": {
+            "size": 40064
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ats2-lang",
+        "sloc": [
+            [
+                "ansic",
+                389637
+            ],
+            [
+                "makefile",
+                7123
+            ],
+            [
+                "lisp",
+                812
+            ],
+            [
+                "sh",
+                657
+            ],
+            [
+                "php",
+                573
+            ],
+            [
+                "python",
+                387
+            ],
+            [
+                "perl",
+                365
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ats2-lang",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.0-1"
+}

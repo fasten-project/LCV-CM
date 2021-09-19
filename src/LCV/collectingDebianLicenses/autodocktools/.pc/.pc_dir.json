@@ -1,0 +1,98 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_python_path.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "autodocktools",
+    "path": "autodocktools/1.5.7~rc1+cvs.20140424-1/.pc",
+    "pkg_infos": {
+        "area": "non-free",
+        "copyright": true,
+        "ctags_count": 5962,
+        "license": "/copyright/license/autodocktools/1.5.7%7Erc1+cvs.20140424-1/",
+        "metric": {
+            "size": 62336
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autodocktools",
+        "sloc": [
+            [
+                "python",
+                65627
+            ],
+            [
+                "xml",
+                843
+            ],
+            [
+                "sh",
+                511
+            ],
+            [
+                "makefile",
+                19
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://svn.debian.org/wsvn/debian-med/trunk/packages/mgltools/autodocktools/trunk/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.5.7~rc1+cvs.20140424-1"
+}

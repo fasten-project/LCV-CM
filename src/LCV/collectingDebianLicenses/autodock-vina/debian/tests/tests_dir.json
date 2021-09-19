@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-unit-test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-data",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tests",
+    "package": "autodock-vina",
+    "path": "autodock-vina/1.1.2-6/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autodock-vina/1.1.2-6/",
+        "metric": {
+            "size": 896
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autodock-vina",
+        "sloc": [
+            [
+                "cpp",
+                6512
+            ],
+            [
+                "makefile",
+                43
+            ],
+            [
+                "sh",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/autodock-vina",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.2-6"
+}

@@ -1,0 +1,758 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "__init__.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compute_AD42ScoreC.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compute_AutoDock41_score.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6783,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compute_consensus_maps_from_dlgs.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 14872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compute_interatomic_distance_per_pose.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5803,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compute_interatomic_distance_per_vina_pose.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compute_rms_between_conformations.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compute_rms_between_methods.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6763,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compute_water_map.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5945,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dpf3_to_dpf4.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "energy_average_maps.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get_trilinterp_values.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6055,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gpf3_to_gpf4.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3814,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gpf4_to_gpf3.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pdbq_to_pdbqt.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pdbqs_to_pdbqt.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pdbqt_to_pdb.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pdbqt_to_pdbq.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2711,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pdbqt_to_pdbqs.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_configFile.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5662,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_covalent_flexres.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_dpf.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_dpf4.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_dpf41.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_dpf42.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8695,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_dpf_vif.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_flexreceptor4.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_gpf.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_gpf4.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_ligand.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7479,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_ligand4.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_ligand_dict.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_ligand_vif.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_pdb_split_alt_confs.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4980,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_receptor.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7490,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare_receptor4.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "process_VSResults.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8374,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "process_VSResultsFox.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "process_VinaResult.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "repair_ligand4.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2925,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rotate_molecule.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "score_atoms_by_component.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "summarize_docking.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "summarize_docking_directory.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "summarize_epdb_results4.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "summarize_results.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 15838,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "summarize_results4.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "summarize_results41.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "summarize_results_vif.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 20761,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "summarize_time.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "summarize_wcg_docking.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "superimpose_based_on_subset.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8698,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "superpose_molecules.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_all_complexes.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4320,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_clustering_histogram_postscript.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_component_energies.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_conformations_from_dlg.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2742,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_each_cluster_LE_conf.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3259,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_largest_cluster_ligand.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3065,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_lowest_energy_ligand.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4825,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_models_from_states.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_random_state_ligand.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7099,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_rigid_ligand.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "write_vs_hits.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4842,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "Utilities24",
+    "package": "autodocktools",
+    "path": "autodocktools/1.5.7~rc1+cvs.20140424-1/AutoDockTools/Utilities24",
+    "pkg_infos": {
+        "area": "non-free",
+        "copyright": true,
+        "ctags_count": 5962,
+        "license": "/copyright/license/autodocktools/1.5.7%7Erc1+cvs.20140424-1/",
+        "metric": {
+            "size": 62336
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autodocktools",
+        "sloc": [
+            [
+                "python",
+                65627
+            ],
+            [
+                "xml",
+                843
+            ],
+            [
+                "sh",
+                511
+            ],
+            [
+                "makefile",
+                19
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://svn.debian.org/wsvn/debian-med/trunk/packages/mgltools/autodocktools/trunk/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.5.7~rc1+cvs.20140424-1"
+}

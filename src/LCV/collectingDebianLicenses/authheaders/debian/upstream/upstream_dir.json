@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "signing-key.asc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "upstream",
+    "package": "authheaders",
+    "path": "authheaders/0.13.0-1/debian/upstream",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/authheaders/0.13.0-1/",
+        "metric": {
+            "size": 444
+        },
+        "pts_link": "https://tracker.debian.org/pkg/authheaders",
+        "sloc": [
+            [
+                "python",
+                625
+            ],
+            [
+                "makefile",
+                14
+            ],
+            [
+                "sh",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/modules/authheaders",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.13.0-1"
+}

@@ -1,0 +1,116 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aligned.fasta",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53943,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metadata.tsv",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3947,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "new1.fasta",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10761,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "new2.fasta",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "new3_present_in_alignment.fasta",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "new4_present_in_seqs.fasta",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reference.gb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "data",
+    "package": "augur",
+    "path": "augur/13.0.0-1/tests/builds/add_to_alignment/data",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/augur/13.0.0-1/",
+        "metric": {
+            "size": 37632
+        },
+        "pts_link": "https://tracker.debian.org/pkg/augur",
+        "sloc": [
+            [
+                "python",
+                10847
+            ],
+            [
+                "sh",
+                272
+            ],
+            [
+                "makefile",
+                24
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/augur",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "13.0.0-1"
+}

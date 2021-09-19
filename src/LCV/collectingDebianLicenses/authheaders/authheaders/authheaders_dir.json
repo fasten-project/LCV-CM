@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "__init__.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13718,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dmarc_lookup.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "public_suffix_list.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 217995,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "authheaders",
+    "package": "authheaders",
+    "path": "authheaders/0.13.0-1/authheaders",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/authheaders/0.13.0-1/",
+        "metric": {
+            "size": 444
+        },
+        "pts_link": "https://tracker.debian.org/pkg/authheaders",
+        "sloc": [
+            [
+                "python",
+                625
+            ],
+            [
+                "makefile",
+                14
+            ],
+            [
+                "sh",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/modules/authheaders",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.13.0-1"
+}

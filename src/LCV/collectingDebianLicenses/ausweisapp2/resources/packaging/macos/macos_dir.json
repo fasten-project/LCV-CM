@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AusweisApp2.entitlements",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DS_Store",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Info.plist.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autostart_helper",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 73,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "container-migration.plist",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prepare-ds_store.applescript",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sla",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "macos",
+    "package": "ausweisapp2",
+    "path": "ausweisapp2/1.22.2-1/resources/packaging/macos",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ausweisapp2/1.22.2-1/",
+        "metric": {
+            "size": 22820
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ausweisapp2",
+        "sloc": [
+            [
+                "cpp",
+                87286
+            ],
+            [
+                "python",
+                1371
+            ],
+            [
+                "xml",
+                1044
+            ],
+            [
+                "java",
+                637
+            ],
+            [
+                "sh",
+                147
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ausweisapp2",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.22.2-1"
+}

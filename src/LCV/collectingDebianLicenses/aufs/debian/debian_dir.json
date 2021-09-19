@@ -1,0 +1,153 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.gz",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 26,
+                "symlink_dest": "filesystems/aufs/README.gz",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aufs-dkms.dkms",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aufs-dkms.docs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 999,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "aufs",
+    "path": "aufs/5.2+20190909-1.1/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aufs/5.2+20190909-1.1/",
+        "metric": {
+            "size": 1316
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aufs",
+        "sloc": [
+            [
+                "ansic",
+                27246
+            ],
+            [
+                "makefile",
+                100
+            ]
+        ],
+        "suites": [],
+        "vcs_browser": "https://salsa.debian.org/janluca-guest/aufs-debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.2+20190909-1.1"
+}
