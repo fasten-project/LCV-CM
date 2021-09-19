@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 138,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "log",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "log.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "5.58-1",
+    "package": "chipmunk-log-doc",
+    "path": "chipmunk-log-doc/5.58-1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1,
+        "license": "/copyright/license/chipmunk-log-doc/5.58-1/",
+        "metric": {
+            "size": 2384
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chipmunk-log-doc",
+        "sloc": [
+            [
+                "makefile",
+                33
+            ]
+        ],
+        "suites": [
+            "sarge",
+            "woody"
+        ]
+    },
+    "type": "directory",
+    "version": "5.58-1"
+}

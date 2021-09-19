@@ -1,0 +1,57 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "80-chkboot-check.hook",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "99-chkboot-update.hook",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 259,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "pacman-hooks",
+    "package": "chkboot",
+    "path": "chkboot/1.3-8/pacman-hooks",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chkboot/1.3-8/",
+        "metric": {
+            "size": 288
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chkboot",
+        "sloc": [
+            [
+                "sh",
+                267
+            ],
+            [
+                "makefile",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/chkboot",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3-8"
+}

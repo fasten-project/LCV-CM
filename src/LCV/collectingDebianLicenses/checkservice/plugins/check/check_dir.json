@@ -1,0 +1,183 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ftp.plugin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "http.plugin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "https.plugin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "imap.plugin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2172,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ldap.plugin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mysql.plugin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2084,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nntp.plugin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pop3.plugin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postgresql.plugin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smtp.plugin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh.plugin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "telnet.plugin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1990,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "template.plugin",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1860,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "check",
+    "package": "checkservice",
+    "path": "checkservice/1.1.0-11/plugins/check",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 82,
+        "license": "/copyright/license/checkservice/1.1.0-11/",
+        "metric": {
+            "size": 268
+        },
+        "pts_link": "https://tracker.debian.org/pkg/checkservice",
+        "sloc": [
+            [
+                "perl",
+                1038
+            ],
+            [
+                "php",
+                296
+            ],
+            [
+                "makefile",
+                44
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k",
+            "lenny",
+            "sarge",
+            "squeeze"
+        ]
+    },
+    "type": "directory",
+    "version": "1.1.0-11"
+}

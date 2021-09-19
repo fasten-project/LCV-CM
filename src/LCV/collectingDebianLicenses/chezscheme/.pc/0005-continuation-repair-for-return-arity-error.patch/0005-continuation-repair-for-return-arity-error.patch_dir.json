@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "mats",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "s",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 60,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0005-continuation-repair-for-return-arity-error.patch",
+    "package": "chezscheme",
+    "path": "chezscheme/9.5.4+dfsg-4/.pc/0005-continuation-repair-for-return-arity-error.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chezscheme/9.5.4+dfsg-4/",
+        "metric": {
+            "size": 61640
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chezscheme",
+        "sloc": [
+            [
+                "ansic",
+                17508
+            ],
+            [
+                "sh",
+                759
+            ],
+            [
+                "makefile",
+                509
+            ],
+            [
+                "csh",
+                423
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/scheme-team/chezscheme",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.5.4+dfsg-4"
+}

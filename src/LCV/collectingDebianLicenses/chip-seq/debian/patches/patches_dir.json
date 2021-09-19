@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "data_location.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_makefile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1344,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "chip-seq",
+    "path": "chip-seq/1.5.5-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chip-seq/1.5.5-3/",
+        "metric": {
+            "size": 21320
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chip-seq",
+        "sloc": [
+            [
+                "ansic",
+                10053
+            ],
+            [
+                "perl",
+                1493
+            ],
+            [
+                "makefile",
+                103
+            ],
+            [
+                "sh",
+                91
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/chip-seq",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.5-3"
+}

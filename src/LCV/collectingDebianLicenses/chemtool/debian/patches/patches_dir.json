@@ -1,0 +1,118 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "748031_signedness.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "866703_cross.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "957084_gcc10.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 685,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "desktop.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-cppflags-missing.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "chemtool",
+    "path": "chemtool/1.6.14-6/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chemtool/1.6.14-6/",
+        "metric": {
+            "size": 4708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chemtool",
+        "sloc": [
+            [
+                "ansic",
+                56595
+            ],
+            [
+                "sh",
+                4455
+            ],
+            [
+                "pascal",
+                825
+            ],
+            [
+                "makefile",
+                459
+            ],
+            [
+                "yacc",
+                288
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debichem-team/chemtool",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.14-6"
+}

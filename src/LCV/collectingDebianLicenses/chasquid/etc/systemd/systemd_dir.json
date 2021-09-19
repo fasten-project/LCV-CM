@@ -1,0 +1,49 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "system",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 146,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "systemd",
+    "package": "chasquid",
+    "path": "chasquid/1.8-1/etc/systemd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chasquid/1.8-1/",
+        "metric": {
+            "size": 1836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chasquid",
+        "sloc": [
+            [
+                "sh",
+                1255
+            ],
+            [
+                "python",
+                338
+            ],
+            [
+                "makefile",
+                71
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/chasquid",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8-1"
+}

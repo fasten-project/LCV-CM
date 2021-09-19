@@ -1,0 +1,71 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "centos7",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 142,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "common",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 60,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 71,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tests",
+    "package": "check-pgbackrest",
+    "path": "check-pgbackrest/2.0-1/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/check-pgbackrest/2.0-1/",
+        "metric": {
+            "size": 684
+        },
+        "pts_link": "https://tracker.debian.org/pkg/check-pgbackrest",
+        "sloc": [
+            [
+                "sh",
+                1331
+            ],
+            [
+                "perl",
+                713
+            ],
+            [
+                "makefile",
+                60
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/postgresql/check-pgbackrest",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0-1"
+}

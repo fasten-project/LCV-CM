@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "MacOS",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "background.png",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11558,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "makedmg.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "arch",
+    "package": "cheesecutter",
+    "path": "cheesecutter/2.9+git20191210-2/arch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/cheesecutter/2.9+git20191210-2/",
+        "metric": {
+            "size": 1980
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cheesecutter",
+        "sloc": [
+            [
+                "cpp",
+                7795
+            ],
+            [
+                "ansic",
+                4432
+            ],
+            [
+                "makefile",
+                61
+            ],
+            [
+                "sh",
+                59
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/cheesecutter",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.9+git20191210-2"
+}

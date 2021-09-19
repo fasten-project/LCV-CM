@@ -1,0 +1,127 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "memory-tests.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test00-read-string.err-res",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test00-read-string.res",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test00-read-string.scm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 424,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test01-read-symbol.err-res",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test01-read-symbol.res",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test01-read-symbol.scm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "memory",
+    "package": "chibi-scheme",
+    "path": "chibi-scheme/0.9.1-3/tests/memory",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chibi-scheme/0.9.1-3/",
+        "metric": {
+            "size": 8952
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chibi-scheme",
+        "sloc": [
+            [
+                "lisp",
+                39695
+            ],
+            [
+                "ansic",
+                20664
+            ],
+            [
+                "makefile",
+                437
+            ],
+            [
+                "sh",
+                296
+            ],
+            [
+                "perl",
+                49
+            ],
+            [
+                "javascript",
+                6
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/scheme-team/chibi-scheme",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.1-3"
+}

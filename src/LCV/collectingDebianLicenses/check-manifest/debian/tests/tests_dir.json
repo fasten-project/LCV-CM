@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "check-manifest",
+    "path": "check-manifest/0.46-1/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/check-manifest/0.46-1/",
+        "metric": {
+            "size": 416
+        },
+        "pts_link": "https://tracker.debian.org/pkg/check-manifest",
+        "sloc": [
+            [
+                "python",
+                2252
+            ],
+            [
+                "makefile",
+                44
+            ],
+            [
+                "sh",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/check-manifest",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.46-1"
+}

@@ -1,0 +1,167 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_port_to_gcrypt.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_upstream_documents",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_keyname-overflow",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_get_abs_path",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_control_empty_values",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_correct_test_open_syscall",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 637,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_detect_failure_to_write_key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_no_deref_null",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09_improve_robustness",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_remove_static",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 838,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11_improve_documentation",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21910,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "chntpw",
+    "path": "chntpw/1.0-1.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chntpw/1.0-1.1/",
+        "metric": {
+            "size": 716
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chntpw",
+        "sloc": [
+            [
+                "ansic",
+                7774
+            ],
+            [
+                "makefile",
+                105
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1.0-1.1"
+}

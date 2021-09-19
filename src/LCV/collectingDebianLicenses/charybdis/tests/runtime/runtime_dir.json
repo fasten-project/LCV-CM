@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 74,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "help",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 10,
+                "symlink_dest": "../../help",
+                "type": "l"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "modules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "motd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "runtime",
+    "package": "charybdis",
+    "path": "charybdis/4.1.2-1/tests/runtime",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/charybdis/4.1.2-1/",
+        "metric": {
+            "size": 12076
+        },
+        "pts_link": "https://tracker.debian.org/pkg/charybdis",
+        "sloc": [
+            [
+                "ansic",
+                197279
+            ],
+            [
+                "sh",
+                4427
+            ],
+            [
+                "makefile",
+                703
+            ],
+            [
+                "yacc",
+                268
+            ],
+            [
+                "lex",
+                237
+            ],
+            [
+                "python",
+                34
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/charybdis",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.1.2-1"
+}

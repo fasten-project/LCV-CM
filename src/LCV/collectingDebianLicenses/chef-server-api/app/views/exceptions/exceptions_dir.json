@@ -1,0 +1,93 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bad_request.json.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "internal_server_error.html.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "not_acceptable.html.haml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "not_found.html.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "standard_error.html.erb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7656,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "exceptions",
+    "package": "chef-server-api",
+    "path": "chef-server-api/10.12.0-1/app/views/exceptions",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chef-server-api/10.12.0-1/",
+        "metric": {
+            "size": 452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chef-server-api",
+        "sloc": [
+            [
+                "ruby",
+                1866
+            ],
+            [
+                "sh",
+                158
+            ],
+            [
+                "makefile",
+                13
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=pkg-ruby-extras/chef-server-api.git;a=summary",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "10.12.0-1"
+}

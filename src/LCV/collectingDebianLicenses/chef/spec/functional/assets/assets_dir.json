@@ -1,0 +1,156 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "PkgA.1.0.0.0.bff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3584,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PkgA.2.0.0.0.bff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3584,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chefinittest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 718,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chocolatey_feed",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dummy-1-0.aix6.1.noarch.rpm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dummy-2-0.aix6.1.noarch.rpm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mytest-1.0-1.noarch.rpm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mytest-2.0-1.noarch.rpm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testchefsubsys",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yumrepo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "assets",
+    "package": "chef",
+    "path": "chef/13.8.7-4/spec/functional/assets",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chef/13.8.7-4/",
+        "metric": {
+            "size": 17284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chef",
+        "sloc": [
+            [
+                "ruby",
+                174795
+            ],
+            [
+                "xml",
+                1823
+            ],
+            [
+                "sh",
+                734
+            ],
+            [
+                "python",
+                281
+            ],
+            [
+                "makefile",
+                12
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/chef",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "13.8.7-4"
+}

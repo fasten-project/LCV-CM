@@ -1,0 +1,142 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bigendian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "minimal_valid.tiff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "minimal_valid_12bit.tiff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "minimal_valid_16bit.tiff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "minimal_valid_baseline.tiff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "minimal_valid_multiple_stripoffsets.tif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 320,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "minimal_valid_tiled.tiff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8414,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "minimal_valid_with_exif.tiff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "minimal_valid_with_icc.tiff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tiffs_should_pass",
+    "package": "checkit-tiff",
+    "path": "checkit-tiff/0.4.2-1/tiffs_should_pass",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/checkit-tiff/0.4.2-1/",
+        "metric": {
+            "size": 2732
+        },
+        "pts_link": "https://tracker.debian.org/pkg/checkit-tiff",
+        "sloc": [
+            [
+                "ansic",
+                7249
+            ],
+            [
+                "perl",
+                848
+            ],
+            [
+                "makefile",
+                46
+            ],
+            [
+                "sh",
+                26
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-phototools-team/checkit-tiff",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.2-1"
+}

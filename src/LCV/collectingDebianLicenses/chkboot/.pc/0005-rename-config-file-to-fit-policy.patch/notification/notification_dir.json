@@ -1,0 +1,57 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "chkboot-desktopalert",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chkboot-profilealert.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "notification",
+    "package": "chkboot",
+    "path": "chkboot/1.3-8/.pc/0005-rename-config-file-to-fit-policy.patch/notification",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chkboot/1.3-8/",
+        "metric": {
+            "size": 288
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chkboot",
+        "sloc": [
+            [
+                "sh",
+                267
+            ],
+            [
+                "makefile",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/chkboot",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3-8"
+}

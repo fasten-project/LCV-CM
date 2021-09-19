@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "checkservice.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "failed.mail",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hosts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "plugins",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "statuspage.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 638,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "timeout.mail",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unreachable.mail",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "config",
+    "package": "checkservice",
+    "path": "checkservice/1.1.0-11/config",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 82,
+        "license": "/copyright/license/checkservice/1.1.0-11/",
+        "metric": {
+            "size": 268
+        },
+        "pts_link": "https://tracker.debian.org/pkg/checkservice",
+        "sloc": [
+            [
+                "perl",
+                1038
+            ],
+            [
+                "php",
+                296
+            ],
+            [
+                "makefile",
+                44
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k",
+            "lenny",
+            "sarge",
+            "squeeze"
+        ]
+    },
+    "type": "directory",
+    "version": "1.1.0-11"
+}

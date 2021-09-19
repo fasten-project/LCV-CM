@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Dockerfile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2749,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add-user.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 986,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chasquid.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dovecot.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2086,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "entrypoint.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "docker",
+    "package": "chasquid",
+    "path": "chasquid/1.8-1/docker",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chasquid/1.8-1/",
+        "metric": {
+            "size": 1836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chasquid",
+        "sloc": [
+            [
+                "sh",
+                1255
+            ],
+            [
+                "python",
+                338
+            ],
+            [
+                "makefile",
+                71
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/chasquid",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8-1"
+}

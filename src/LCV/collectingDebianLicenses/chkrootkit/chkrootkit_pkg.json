@@ -1,0 +1,248 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ACKNOWLEDGMENTS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "COPYRIGHT",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.chklastlog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.chkwtmp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1292,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_wtmpx.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chkdirs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7469,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chklastlog.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8033,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chkproc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chkrootkit",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 90013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chkrootkit.lsm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chkutmp.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chkwtmp.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2320,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ifpromisc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strings.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2512,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "0.55-1",
+    "package": "chkrootkit",
+    "path": "chkrootkit/0.55-1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chkrootkit/0.55-1/",
+        "metric": {
+            "size": 2284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chkrootkit",
+        "sloc": [
+            [
+                "sh",
+                38043
+            ],
+            [
+                "ansic",
+                10071
+            ],
+            [
+                "makefile",
+                154
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/chkrootkit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.55-1"
+}

@@ -1,0 +1,55 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "share",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "05-manpage-updates.patch",
+    "package": "chirp",
+    "path": "chirp/1:20200227+py3+20200213-3/.pc/05-manpage-updates.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chirp/1:20200227+py3+20200213-3/",
+        "metric": {
+            "size": 10568
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chirp",
+        "sloc": [
+            [
+                "python",
+                95766
+            ],
+            [
+                "ansic",
+                296
+            ],
+            [
+                "sh",
+                184
+            ],
+            [
+                "makefile",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-hamradio-team/chirp",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:20200227+py3+20200213-3"
+}
