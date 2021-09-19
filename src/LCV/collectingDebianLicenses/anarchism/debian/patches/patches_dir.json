@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-fix-typos.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64962,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-fix-README-typo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1056,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Replace-or-remove-links-not-in-the-book.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "anarchism",
+    "path": "anarchism/15.3-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/anarchism/15.3-3/",
+        "metric": {
+            "size": 26216
+        },
+        "pts_link": "https://tracker.debian.org/pkg/anarchism",
+        "sloc": [
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/anarchism",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "15.3-3"
+}

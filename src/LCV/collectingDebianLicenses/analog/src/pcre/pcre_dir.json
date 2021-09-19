@@ -1,0 +1,112 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "LICENSE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1656,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pcre.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 75235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pcre.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pcrechar.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pcreintl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5829,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "pcre",
+    "package": "analog",
+    "path": "analog/2:6.0-22/src/pcre",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/analog/2:6.0-22/",
+        "metric": {
+            "size": 6772
+        },
+        "pts_link": "https://tracker.debian.org/pkg/analog",
+        "sloc": [
+            [
+                "ansic",
+                45186
+            ],
+            [
+                "makefile",
+                279
+            ],
+            [
+                "perl",
+                249
+            ],
+            [
+                "sh",
+                49
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "http://git.brad-smith.co.uk/?p=debian/pkg-analog.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2:6.0-22"
+}
