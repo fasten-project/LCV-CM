@@ -1,0 +1,169 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "branch-from-patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cull_options",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "git-status.pl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1645,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lsb",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "nightly-rsync",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patch-update",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "release-rsync",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 13201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "solaris",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "systemd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "var-checker",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "packaging",
+    "package": "backuppc-rsync",
+    "path": "backuppc-rsync/3.1.3.0-3/packaging",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/backuppc-rsync/3.1.3.0-3/",
+        "metric": {
+            "size": 3668
+        },
+        "pts_link": "https://tracker.debian.org/pkg/backuppc-rsync",
+        "sloc": [
+            [
+                "ansic",
+                46855
+            ],
+            [
+                "sh",
+                3369
+            ],
+            [
+                "perl",
+                1932
+            ],
+            [
+                "makefile",
+                166
+            ],
+            [
+                "python",
+                83
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/backuppc-rsync",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.1.3.0-3"
+}

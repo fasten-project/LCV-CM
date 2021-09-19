@@ -1,0 +1,125 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "changelog.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 944,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "output_file_target.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pebin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python3_support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python_install.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readme.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "backdoor-factory",
+    "path": "backdoor-factory/3.4.2+dfsg-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/backdoor-factory/3.4.2+dfsg-5/",
+        "metric": {
+            "size": 2344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/backdoor-factory",
+        "sloc": [
+            [
+                "python",
+                8999
+            ],
+            [
+                "ansic",
+                2703
+            ],
+            [
+                "sh",
+                1263
+            ],
+            [
+                "asm",
+                136
+            ],
+            [
+                "makefile",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/backdoor-factory",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.4.2+dfsg-5"
+}

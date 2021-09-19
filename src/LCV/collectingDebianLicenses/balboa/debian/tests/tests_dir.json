@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-run",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.json.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 161896,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "balboa",
+    "path": "balboa/2.0.0+ds-3/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/balboa/2.0.0+ds-3/",
+        "metric": {
+            "size": 1284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/balboa",
+        "sloc": [
+            [
+                "ansic",
+                10581
+            ],
+            [
+                "makefile",
+                160
+            ],
+            [
+                "python",
+                127
+            ],
+            [
+                "sh",
+                60
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/balboa",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.0+ds-3"
+}

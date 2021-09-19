@@ -1,0 +1,90 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "PKG-INFO",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4051,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backports",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "setup.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "3.5.0.1-1",
+    "package": "backports.ssl-match-hostname",
+    "path": "backports.ssl-match-hostname/3.5.0.1-1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/backports.ssl-match-hostname/3.5.0.1-1/",
+        "metric": {
+            "size": 88
+        },
+        "pts_link": "https://tracker.debian.org/pkg/backports.ssl-match-hostname",
+        "sloc": [
+            [
+                "python",
+                113
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "buster",
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/git/python-modules/packages/backports.ssl-match-hostname.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.5.0.1-1"
+}

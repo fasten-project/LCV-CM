@@ -1,0 +1,178 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "backup-test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backup-test-mysql",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 11,
+                "symlink_dest": "backup-test",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backup-test-pgsql",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 11,
+                "symlink_dest": "backup-test",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backup-test-sqlite3",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 11,
+                "symlink_dest": "backup-test",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "program-test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "program-test-mysql",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 12,
+                "symlink_dest": "program-test",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "program-test-pgsql",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 12,
+                "symlink_dest": "program-test",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "program-test-sqlite3",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 12,
+                "symlink_dest": "program-test",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tests",
+    "package": "bacula",
+    "path": "bacula/9.6.7-3/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bacula/9.6.7-3/",
+        "metric": {
+            "size": 24764
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bacula",
+        "sloc": [
+            [
+                "ansic",
+                157001
+            ],
+            [
+                "cpp",
+                28065
+            ],
+            [
+                "sh",
+                25044
+            ],
+            [
+                "makefile",
+                4385
+            ],
+            [
+                "perl",
+                3433
+            ],
+            [
+                "sql",
+                1371
+            ],
+            [
+                "python",
+                125
+            ],
+            [
+                "xml",
+                64
+            ],
+            [
+                "awk",
+                51
+            ],
+            [
+                "sed",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/bacula-team/bacula",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.6.7-3"
+}

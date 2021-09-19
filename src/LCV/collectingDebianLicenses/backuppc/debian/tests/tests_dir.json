@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "smb-backup",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "backuppc",
+    "path": "backuppc/4.4.0-5/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/backuppc/4.4.0-5/",
+        "metric": {
+            "size": 4696
+        },
+        "pts_link": "https://tracker.debian.org/pkg/backuppc",
+        "sloc": [
+            [
+                "perl",
+                38732
+            ],
+            [
+                "sh",
+                606
+            ],
+            [
+                "javascript",
+                176
+            ],
+            [
+                "makefile",
+                41
+            ],
+            [
+                "ansic",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/backuppc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.4.0-5"
+}

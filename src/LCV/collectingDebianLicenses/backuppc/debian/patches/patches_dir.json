@@ -1,0 +1,157 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-debian.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-fix-spelling-errors.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-use-IT-Support-instead-of-IS.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-fix-too-much-translation-and-charset.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-fix-rrd-graph-permissions.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1305,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-reload-user.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-fix-systemd-unit.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09-hardcode-debians-rundir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 411,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-hosts-file-is-not-perl-syntax.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 534,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "backuppc",
+    "path": "backuppc/4.4.0-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/backuppc/4.4.0-5/",
+        "metric": {
+            "size": 4696
+        },
+        "pts_link": "https://tracker.debian.org/pkg/backuppc",
+        "sloc": [
+            [
+                "perl",
+                38732
+            ],
+            [
+                "sh",
+                606
+            ],
+            [
+                "javascript",
+                176
+            ],
+            [
+                "makefile",
+                41
+            ],
+            [
+                "ansic",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/backuppc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.4.0-5"
+}
