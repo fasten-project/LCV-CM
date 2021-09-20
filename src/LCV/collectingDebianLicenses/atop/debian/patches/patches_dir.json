@@ -1,0 +1,231 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "acct-compat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atop-pm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1310,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atop-rotate-systemctl-path",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atopacct.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dependency-on-remote-fs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_installinit",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 556,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dh_systemd_enable",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "force-reload",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 530,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "handle-default-file",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init-script-lsb-headers",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logrotate-nomail",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 486,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lsb-init-functions",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 604,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-atopgpud",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-files-in-var-log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-version-symlinks",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "var-run",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "atop",
+    "path": "atop/2.6.0-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/atop/2.6.0-2/",
+        "metric": {
+            "size": 1980
+        },
+        "pts_link": "https://tracker.debian.org/pkg/atop",
+        "sloc": [
+            [
+                "ansic",
+                22563
+            ],
+            [
+                "python",
+                253
+            ],
+            [
+                "sh",
+                220
+            ],
+            [
+                "makefile",
+                172
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/atop",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6.0-2"
+}

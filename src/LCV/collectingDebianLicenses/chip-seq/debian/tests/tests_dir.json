@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "H3K4me3.sga",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-unit-test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "chip-seq",
+    "path": "chip-seq/1.5.5-3/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chip-seq/1.5.5-3/",
+        "metric": {
+            "size": 21320
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chip-seq",
+        "sloc": [
+            [
+                "ansic",
+                10053
+            ],
+            [
+                "perl",
+                1493
+            ],
+            [
+                "makefile",
+                103
+            ],
+            [
+                "sh",
+                91
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/chip-seq",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.5-3"
+}

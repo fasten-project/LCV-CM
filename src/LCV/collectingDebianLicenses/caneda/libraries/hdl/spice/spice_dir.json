@@ -1,0 +1,135 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "analysis",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "circuit.net",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 354,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "elements",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "include.net",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "model.net",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 558,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "outputs.net",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sources",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "subcircuit.net",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "spice",
+    "package": "caneda",
+    "path": "caneda/0.3.1-1/libraries/hdl/spice",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 2075,
+        "license": "/copyright/license/caneda/0.3.1-1/",
+        "metric": {
+            "size": 3784
+        },
+        "pts_link": "https://tracker.debian.org/pkg/caneda",
+        "sloc": [
+            [
+                "cpp",
+                17462
+            ],
+            [
+                "vhdl",
+                236
+            ],
+            [
+                "xml",
+                61
+            ],
+            [
+                "ansic",
+                18
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.3.1-1"
+}

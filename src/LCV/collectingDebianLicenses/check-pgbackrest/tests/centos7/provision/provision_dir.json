@@ -1,0 +1,236 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "EDB",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "PGDG",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "azurite.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_pgbackrest.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cifs.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "icinga2.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "icinga2_multi.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "minio.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "minio_http.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "perl_build.bash",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pgbackrest_azurite_primary.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pgbackrest_azurite_standby.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pgbackrest_local_primary.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pgbackrest_local_standby.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pgbackrest_minio_primary.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pgbackrest_minio_standby.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pgbackrest_remote_primary.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 556,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pgbackrest_remote_standby.bash",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "provision",
+    "package": "check-pgbackrest",
+    "path": "check-pgbackrest/2.0-1/tests/centos7/provision",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/check-pgbackrest/2.0-1/",
+        "metric": {
+            "size": 684
+        },
+        "pts_link": "https://tracker.debian.org/pkg/check-pgbackrest",
+        "sloc": [
+            [
+                "sh",
+                1331
+            ],
+            [
+                "perl",
+                713
+            ],
+            [
+                "makefile",
+                60
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/postgresql/check-pgbackrest",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0-1"
+}

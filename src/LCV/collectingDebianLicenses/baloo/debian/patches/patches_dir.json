@@ -1,0 +1,86 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "disable_tests_depending_on_revdep",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4004,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream_Set-cmake_minimum_required-to-set-the-cmake-policies.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upstream_baloofiles-was-missing-the-EXPORT-that-other-libs-ha.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 827,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "baloo",
+    "path": "baloo/4:4.14.3-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/baloo/4:4.14.3-3/",
+        "metric": {
+            "size": 2028
+        },
+        "pts_link": "https://tracker.debian.org/pkg/baloo",
+        "sloc": [
+            [
+                "cpp",
+                17324
+            ],
+            [
+                "xml",
+                44
+            ],
+            [
+                "sh",
+                34
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-kde/kde-sc/baloo.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4:4.14.3-3"
+}

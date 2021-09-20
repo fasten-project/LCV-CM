@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "integration-tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-package-type",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1844,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "autodep8",
+    "path": "autodep8/0.24/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autodep8/0.24/",
+        "metric": {
+            "size": 228
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autodep8",
+        "sloc": [
+            [
+                "sh",
+                984
+            ],
+            [
+                "makefile",
+                28
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ci-team/autodep8",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.24"
+}

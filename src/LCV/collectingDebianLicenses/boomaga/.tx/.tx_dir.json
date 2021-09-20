@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "config",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "download.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stat.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "updateSrc.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1485,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upload.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 988,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".tx",
+    "package": "boomaga",
+    "path": "boomaga/3.0.0-1/.tx",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/boomaga/3.0.0-1/",
+        "metric": {
+            "size": 5604
+        },
+        "pts_link": "https://tracker.debian.org/pkg/boomaga",
+        "sloc": [
+            [
+                "cpp",
+                13687
+            ],
+            [
+                "sh",
+                314
+            ],
+            [
+                "xml",
+                9
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://gitlab.com/perezmeyer/debian-package-boomaga",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.0-1"
+}

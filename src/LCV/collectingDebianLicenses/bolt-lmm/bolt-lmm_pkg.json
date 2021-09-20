@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "example",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "license.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1923,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "2.3.5+dfsg-1",
+    "package": "bolt-lmm",
+    "path": "bolt-lmm/2.3.5+dfsg-1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bolt-lmm/2.3.5+dfsg-1/",
+        "metric": {
+            "size": 9916
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bolt-lmm",
+        "sloc": [
+            [
+                "cpp",
+                8734
+            ],
+            [
+                "makefile",
+                113
+            ],
+            [
+                "sh",
+                76
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bolt-lmm",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.5+dfsg-1"
+}

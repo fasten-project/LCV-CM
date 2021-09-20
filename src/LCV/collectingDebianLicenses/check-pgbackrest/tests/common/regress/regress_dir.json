@@ -1,0 +1,60 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "expected",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test-01.bash",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "regress",
+    "package": "check-pgbackrest",
+    "path": "check-pgbackrest/2.0-1/tests/common/regress",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/check-pgbackrest/2.0-1/",
+        "metric": {
+            "size": 684
+        },
+        "pts_link": "https://tracker.debian.org/pkg/check-pgbackrest",
+        "sloc": [
+            [
+                "sh",
+                1331
+            ],
+            [
+                "perl",
+                713
+            ],
+            [
+                "makefile",
+                60
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/postgresql/check-pgbackrest",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0-1"
+}

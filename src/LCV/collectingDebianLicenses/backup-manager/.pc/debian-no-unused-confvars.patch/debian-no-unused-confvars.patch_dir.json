@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "backup-manager.conf.tpl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian-no-unused-confvars.patch",
+    "package": "backup-manager",
+    "path": "backup-manager/0.7.14-1.2/.pc/debian-no-unused-confvars.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/backup-manager/0.7.14-1.2/",
+        "metric": {
+            "size": 1560
+        },
+        "pts_link": "https://tracker.debian.org/pkg/backup-manager",
+        "sloc": [
+            [
+                "sh",
+                4041
+            ],
+            [
+                "perl",
+                1176
+            ],
+            [
+                "makefile",
+                213
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/backup-manager",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7.14-1.2"
+}

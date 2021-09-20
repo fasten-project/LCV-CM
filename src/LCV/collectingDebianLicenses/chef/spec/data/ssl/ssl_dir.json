@@ -1,0 +1,112 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "5e707473.0",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1070,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chef-rspec.cert",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chef-rspec.key",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "key.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 887,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "private_key.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "private_key_with_whitespace.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ssl",
+    "package": "chef",
+    "path": "chef/13.8.7-4/spec/data/ssl",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chef/13.8.7-4/",
+        "metric": {
+            "size": 17284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chef",
+        "sloc": [
+            [
+                "ruby",
+                174795
+            ],
+            [
+                "xml",
+                1823
+            ],
+            [
+                "sh",
+                734
+            ],
+            [
+                "python",
+                281
+            ],
+            [
+                "makefile",
+                12
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/chef",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "13.8.7-4"
+}

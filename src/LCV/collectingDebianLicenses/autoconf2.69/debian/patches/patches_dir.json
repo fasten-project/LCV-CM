@@ -1,0 +1,139 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AM_PROG_LIBTOOL.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add-runstatedir.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4649,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atomic.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avoid-undefined-behavior-for-32bit-off_t.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1124,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmap-leak-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stricter-versioning.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1941,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "texinfo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unescaped-left-brace-warning-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 911,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "autoconf2.69",
+    "path": "autoconf2.69/2.69-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autoconf2.69/2.69-3/",
+        "metric": {
+            "size": 8100
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autoconf2.69",
+        "sloc": [
+            [
+                "sh",
+                4436
+            ],
+            [
+                "perl",
+                3083
+            ],
+            [
+                "makefile",
+                450
+            ],
+            [
+                "lisp",
+                104
+            ]
+        ],
+        "suites": [
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "2.69-3"
+}

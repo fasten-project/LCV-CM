@@ -1,0 +1,215 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "autoload",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "m_ban.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 36,
+                "symlink_dest": "../../../modules/core/.libs/m_ban.so",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m_die.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 36,
+                "symlink_dest": "../../../modules/core/.libs/m_die.so",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m_error.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 38,
+                "symlink_dest": "../../../modules/core/.libs/m_error.so",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m_join.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 37,
+                "symlink_dest": "../../../modules/core/.libs/m_join.so",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m_kick.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 37,
+                "symlink_dest": "../../../modules/core/.libs/m_kick.so",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m_kill.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 37,
+                "symlink_dest": "../../../modules/core/.libs/m_kill.so",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m_message.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 40,
+                "symlink_dest": "../../../modules/core/.libs/m_message.so",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m_mode.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 37,
+                "symlink_dest": "../../../modules/core/.libs/m_mode.so",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m_modules.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 40,
+                "symlink_dest": "../../../modules/core/.libs/m_modules.so",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m_nick.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 37,
+                "symlink_dest": "../../../modules/core/.libs/m_nick.so",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m_part.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 37,
+                "symlink_dest": "../../../modules/core/.libs/m_part.so",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m_quit.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 37,
+                "symlink_dest": "../../../modules/core/.libs/m_quit.so",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m_server.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 39,
+                "symlink_dest": "../../../modules/core/.libs/m_server.so",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m_squit.so",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 38,
+                "symlink_dest": "../../../modules/core/.libs/m_squit.so",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "modules",
+    "package": "charybdis",
+    "path": "charybdis/4.1.2-1/tests/runtime/modules",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/charybdis/4.1.2-1/",
+        "metric": {
+            "size": 12076
+        },
+        "pts_link": "https://tracker.debian.org/pkg/charybdis",
+        "sloc": [
+            [
+                "ansic",
+                197279
+            ],
+            [
+                "sh",
+                4427
+            ],
+            [
+                "makefile",
+                703
+            ],
+            [
+                "yacc",
+                268
+            ],
+            [
+                "lex",
+                237
+            ],
+            [
+                "python",
+                34
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/charybdis",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.1.2-1"
+}

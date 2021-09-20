@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bashisms.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 676,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "insecure_temp_dirs.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3845,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "chm2pdf",
+    "path": "chm2pdf/0.9.1-1.2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chm2pdf/0.9.1-1.2/",
+        "metric": {
+            "size": 140
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chm2pdf",
+        "sloc": [
+            [
+                "python",
+                844
+            ],
+            [
+                "makefile",
+                4
+            ]
+        ],
+        "suites": [
+            "buster",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "0.9.1-1.2"
+}

@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix-lintian-spelling-error.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "camlmix",
+    "path": "camlmix/1.3.1-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/camlmix/1.3.1-4/",
+        "metric": {
+            "size": 228
+        },
+        "pts_link": "https://tracker.debian.org/pkg/camlmix",
+        "sloc": [
+            [
+                "ml",
+                496
+            ],
+            [
+                "makefile",
+                88
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/camlmix",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3.1-4"
+}

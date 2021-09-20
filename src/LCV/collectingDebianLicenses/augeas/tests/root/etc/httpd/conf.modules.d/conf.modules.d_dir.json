@@ -1,0 +1,188 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-base.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-dav.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-lua.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-mpm.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 951,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-optional.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-proxy.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1016,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "00-systemd.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-cgi.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-h2.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-mod_dnssd.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10-proxy_h2.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "conf.modules.d",
+    "package": "augeas",
+    "path": "augeas/1.12.0-2/tests/root/etc/httpd/conf.modules.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/augeas/1.12.0-2/",
+        "metric": {
+            "size": 15104
+        },
+        "pts_link": "https://tracker.debian.org/pkg/augeas",
+        "sloc": [
+            [
+                "ansic",
+                84429
+            ],
+            [
+                "sh",
+                6949
+            ],
+            [
+                "yacc",
+                524
+            ],
+            [
+                "makefile",
+                454
+            ],
+            [
+                "lex",
+                211
+            ],
+            [
+                "perl",
+                42
+            ],
+            [
+                "pascal",
+                27
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/augeas",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.12.0-2"
+}

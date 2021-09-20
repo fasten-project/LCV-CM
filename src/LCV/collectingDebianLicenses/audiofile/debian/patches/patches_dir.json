@@ -1,0 +1,188 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_gcc6.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_hurd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_CVE-2015-7747.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4300,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_clamp-index-values-to-fix-index-overflow-in-IMA.cpp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_Always-check-the-number-of-coefficients.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 947,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_Check-for-multiplication-overflow-in-MSADPCM-decodeSam.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_Check-for-multiplication-overflow-in-sfconvert.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1975,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_Fix-signature-of-multiplyCheckOverflow.-It-returns-a-b.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "09_Actually-fail-when-error-occurs-in-parseFormat.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_Check-for-division-by-zero-in-BlockCodec-runPull.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11_CVE-2018-13440.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1034,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12_CVE-2018-17095.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 845,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "audiofile",
+    "path": "audiofile/0.3.6-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/audiofile/0.3.6-5/",
+        "metric": {
+            "size": 4936
+        },
+        "pts_link": "https://tracker.debian.org/pkg/audiofile",
+        "sloc": [
+            [
+                "cpp",
+                36528
+            ],
+            [
+                "sh",
+                11090
+            ],
+            [
+                "ansic",
+                6049
+            ],
+            [
+                "makefile",
+                441
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/audiofile",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.6-5"
+}

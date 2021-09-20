@@ -1,0 +1,138 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aa-seq_h3n2_ha_2y_HA1.fasta",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1061,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "align",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "distance_map_weight_per_site.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "distance_map_weight_per_site_and_sequence.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fitness_model",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "flu_seasonal_h3n2_ha_3y_tree.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 366832,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "json_tree_to_nexus",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "titer_model",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "zika.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "data",
+    "package": "augur",
+    "path": "augur/13.0.0-1/tests/data",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/augur/13.0.0-1/",
+        "metric": {
+            "size": 37632
+        },
+        "pts_link": "https://tracker.debian.org/pkg/augur",
+        "sloc": [
+            [
+                "python",
+                10847
+            ],
+            [
+                "sh",
+                272
+            ],
+            [
+                "makefile",
+                24
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/augur",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "13.0.0-1"
+}

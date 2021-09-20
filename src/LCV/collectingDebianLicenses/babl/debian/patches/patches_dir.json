@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tests-increase-timeout.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "babl",
+    "path": "babl/1:0.1.88-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/babl/1:0.1.88-1/",
+        "metric": {
+            "size": 3196
+        },
+        "pts_link": "https://tracker.debian.org/pkg/babl",
+        "sloc": [
+            [
+                "ansic",
+                43649
+            ],
+            [
+                "python",
+                106
+            ],
+            [
+                "ruby",
+                90
+            ],
+            [
+                "sh",
+                55
+            ],
+            [
+                "makefile",
+                14
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/gnome-team/babl",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:0.1.88-1"
+}

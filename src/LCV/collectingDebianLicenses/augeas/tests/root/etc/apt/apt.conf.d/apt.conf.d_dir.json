@@ -1,0 +1,111 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01autoremove",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01autoremove-kernels",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 548,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50unattended-upgrades",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3945,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "70debconf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "90cloud-init-pipelining",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "apt.conf.d",
+    "package": "augeas",
+    "path": "augeas/1.12.0-2/tests/root/etc/apt/apt.conf.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/augeas/1.12.0-2/",
+        "metric": {
+            "size": 15104
+        },
+        "pts_link": "https://tracker.debian.org/pkg/augeas",
+        "sloc": [
+            [
+                "ansic",
+                84429
+            ],
+            [
+                "sh",
+                6949
+            ],
+            [
+                "yacc",
+                524
+            ],
+            [
+                "makefile",
+                454
+            ],
+            [
+                "lex",
+                211
+            ],
+            [
+                "perl",
+                42
+            ],
+            [
+                "pascal",
+                27
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/augeas",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.12.0-2"
+}

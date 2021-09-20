@@ -1,0 +1,156 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bacula_mail_summary.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "baculareport.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_bacula_pools.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "checkhost",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_client_alive",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "next_tape.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pool-query.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "report.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "reports",
+    "package": "bacula",
+    "path": "bacula/9.6.7-3/examples/reports",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bacula/9.6.7-3/",
+        "metric": {
+            "size": 24764
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bacula",
+        "sloc": [
+            [
+                "ansic",
+                157001
+            ],
+            [
+                "cpp",
+                28065
+            ],
+            [
+                "sh",
+                25044
+            ],
+            [
+                "makefile",
+                4385
+            ],
+            [
+                "perl",
+                3433
+            ],
+            [
+                "sql",
+                1371
+            ],
+            [
+                "python",
+                125
+            ],
+            [
+                "xml",
+                64
+            ],
+            [
+                "awk",
+                51
+            ],
+            [
+                "sed",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/bacula-team/bacula",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.6.7-3"
+}

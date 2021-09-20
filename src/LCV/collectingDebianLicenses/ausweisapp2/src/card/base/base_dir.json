@@ -1,0 +1,832 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Apdu.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Apdu.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Card.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Card.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2157,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CardConnection.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CardConnection.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CardConnectionWorker.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7628,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CardConnectionWorker.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CardInfo.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7823,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CardInfo.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CommandApdu.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CommandApdu.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CommandApduBuilder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 342,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CommandApduBuilder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DestroyPaceChannel.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DestroyPaceChannel.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 530,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "EABuilder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "EABuilder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "EstablishPaceChannel.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "EstablishPaceChannel.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "EstablishPaceChannelOutput.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "EstablishPaceChannelOutput.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "FileRef.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1460,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "FileRef.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GABuilder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1899,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GABuilder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 784,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GeneralAuthenticateResponse.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GeneralAuthenticateResponse.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetChallengeBuilder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 439,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "GetChallengeBuilder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 305,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "InputAPDUInfo.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 255,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "InputAPDUInfo.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 945,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LengthValue.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "MSEBuilder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "MSEBuilder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PSOBuilder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PSOBuilder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PinModify.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PinModify.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PinModifyOutput.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1695,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PinModifyOutput.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 724,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReadBinaryBuilder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReadBinaryBuilder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Reader.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4020,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Reader.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReaderFilter.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReaderFilter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 941,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReaderInfo.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 937,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReaderInfo.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2490,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReaderManager.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8829,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReaderManager.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3822,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReaderManagerPlugIn.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 658,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReaderManagerPlugIn.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReaderManagerPlugInInfo.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReaderManagerPlugInInfo.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReaderManagerWorker.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ReaderManagerWorker.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ResetRetryCounterBuilder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ResetRetryCounterBuilder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ResponseApdu.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2898,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ResponseApdu.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SecureMessagingResponse.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SecureMessagingResponse.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SelectBuilder.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SelectBuilder.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SmartCardDefinitions.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "SmartCardDefinitions.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asn1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "command",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pace",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "base",
+    "package": "ausweisapp2",
+    "path": "ausweisapp2/1.22.2-1/src/card/base",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ausweisapp2/1.22.2-1/",
+        "metric": {
+            "size": 22820
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ausweisapp2",
+        "sloc": [
+            [
+                "cpp",
+                87286
+            ],
+            [
+                "python",
+                1371
+            ],
+            [
+                "xml",
+                1044
+            ],
+            [
+                "java",
+                637
+            ],
+            [
+                "sh",
+                147
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/ausweisapp2",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.22.2-1"
+}

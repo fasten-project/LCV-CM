@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "accounts.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "resources.xml",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 81,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "attachments",
+    "package": "calendarserver",
+    "path": "calendarserver/9.2+dfsg-1/txdav/caldav/datastore/test/attachments",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/calendarserver/9.2+dfsg-1/",
+        "metric": {
+            "size": 25688
+        },
+        "pts_link": "https://tracker.debian.org/pkg/calendarserver",
+        "sloc": [
+            [
+                "python",
+                195037
+            ],
+            [
+                "sql",
+                78794
+            ],
+            [
+                "xml",
+                16936
+            ],
+            [
+                "sh",
+                2502
+            ],
+            [
+                "ansic",
+                66
+            ],
+            [
+                "makefile",
+                26
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/calendarserver/calendarserver.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.2+dfsg-1"
+}

@@ -1,0 +1,121 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".depend",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 604,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".gitignore",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2314,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_head.ml.tpl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comp_trail.ml.tpl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compile.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 20171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compile.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "compile",
+    "package": "camlp5",
+    "path": "camlp5/7.13-1/compile",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/camlp5/7.13-1/",
+        "metric": {
+            "size": 11556
+        },
+        "pts_link": "https://tracker.debian.org/pkg/camlp5",
+        "sloc": [
+            [
+                "ml",
+                100221
+            ],
+            [
+                "sh",
+                1453
+            ],
+            [
+                "makefile",
+                1239
+            ],
+            [
+                "python",
+                38
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/camlp5",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "7.13-1"
+}

@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "broken",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dune",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 342,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dune.inc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53613,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dune_gen.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dups",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sources",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8192,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "charmaps",
+    "package": "camomile",
+    "path": "camomile/1.0.2-3/Camomile/charmaps",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/camomile/1.0.2-3/",
+        "metric": {
+            "size": 40248
+        },
+        "pts_link": "https://tracker.debian.org/pkg/camomile",
+        "sloc": [
+            [
+                "ml",
+                13757
+            ],
+            [
+                "xml",
+                230
+            ],
+            [
+                "makefile",
+                55
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/camomile",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.2-3"
+}

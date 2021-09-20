@@ -1,0 +1,54 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian-installer-startup.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "1.9",
+    "package": "auto-install",
+    "path": "auto-install/1.9",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/auto-install/1.9/",
+        "metric": {
+            "size": 60
+        },
+        "pts_link": "https://tracker.debian.org/pkg/auto-install",
+        "sloc": [
+            [
+                "sh",
+                48
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ]
+    },
+    "type": "directory",
+    "version": "1.9"
+}

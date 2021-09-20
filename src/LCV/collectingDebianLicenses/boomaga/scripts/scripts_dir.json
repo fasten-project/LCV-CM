@@ -1,0 +1,154 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "boomaga_debug_backend",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "buildLocal.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "checkLicense.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2303,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clangcheck.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cppcheck.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "installPrinter.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2046,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "listopenfiles.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.pdf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testBackend.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 782,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testDBUS.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "boomaga",
+    "path": "boomaga/3.0.0-1/scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/boomaga/3.0.0-1/",
+        "metric": {
+            "size": 5604
+        },
+        "pts_link": "https://tracker.debian.org/pkg/boomaga",
+        "sloc": [
+            [
+                "cpp",
+                13687
+            ],
+            [
+                "sh",
+                314
+            ],
+            [
+                "xml",
+                9
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://gitlab.com/perezmeyer/debian-package-boomaga",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.0-1"
+}

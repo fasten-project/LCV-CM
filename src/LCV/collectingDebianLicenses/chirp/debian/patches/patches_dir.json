@@ -1,0 +1,153 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-fix-manifest.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-fix-setup-py.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-remove-redundant-license.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-manpage-updates.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07-disable-reporting.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 712,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08-disable-incorrect-mime-type",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "py3-except",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "py3-fixes",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "py3-print",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "chirp",
+    "path": "chirp/1:20200227+py3+20200213-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chirp/1:20200227+py3+20200213-3/",
+        "metric": {
+            "size": 10568
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chirp",
+        "sloc": [
+            [
+                "python",
+                95766
+            ],
+            [
+                "ansic",
+                296
+            ],
+            [
+                "sh",
+                184
+            ],
+            [
+                "makefile",
+                40
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-hamradio-team/chirp",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:20200227+py3+20200213-3"
+}

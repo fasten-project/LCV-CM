@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-no-refusemanualstop.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-restorecon-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-Set-log_group-adm.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 81,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "audit",
+    "path": "audit/1:3.0.5-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/audit/1:3.0.5-1/",
+        "metric": {
+            "size": 6708
+        },
+        "pts_link": "https://tracker.debian.org/pkg/audit",
+        "sloc": [
+            [
+                "ansic",
+                56813
+            ],
+            [
+                "sh",
+                4869
+            ],
+            [
+                "python",
+                2478
+            ],
+            [
+                "makefile",
+                1473
+            ],
+            [
+                "sed",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/audit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:3.0.5-1"
+}

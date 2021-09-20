@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 133,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "docker2singularity.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 593,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "paper_containers.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 433,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tools",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "containers",
+    "package": "atropos",
+    "path": "atropos/1.1.29+dfsg-1/paper/containers",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/atropos/1.1.29+dfsg-1/",
+        "metric": {
+            "size": 6424
+        },
+        "pts_link": "https://tracker.debian.org/pkg/atropos",
+        "sloc": [
+            [
+                "python",
+                13143
+            ],
+            [
+                "makefile",
+                220
+            ],
+            [
+                "sh",
+                214
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/atropos",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.1.29+dfsg-1"
+}

@@ -1,0 +1,79 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "default.toml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hooks",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "plan.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3612,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "habitat",
+    "package": "chef",
+    "path": "chef/13.8.7-4/habitat",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chef/13.8.7-4/",
+        "metric": {
+            "size": 17284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chef",
+        "sloc": [
+            [
+                "ruby",
+                174795
+            ],
+            [
+                "xml",
+                1823
+            ],
+            [
+                "sh",
+                734
+            ],
+            [
+                "python",
+                281
+            ],
+            [
+                "makefile",
+                12
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/chef",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "13.8.7-4"
+}

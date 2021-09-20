@@ -1,0 +1,195 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Dockerfile-alpine",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Dockerfile-arch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Dockerfile-coverity",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 958,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Dockerfile-debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Dockerfile-fedora",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 568,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Dockerfile-ub1804",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "PKGBUILD",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 795,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bolt-mock",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 22074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bolt.spec.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2736,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cov-model.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 759,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "coverity.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 641,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "docker-build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "js",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "contrib",
+    "package": "bolt",
+    "path": "bolt/0.9.1-1/contrib",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bolt/0.9.1-1/",
+        "metric": {
+            "size": 1788
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bolt",
+        "sloc": [
+            [
+                "ansic",
+                28869
+            ],
+            [
+                "python",
+                2813
+            ],
+            [
+                "xml",
+                460
+            ],
+            [
+                "javascript",
+                269
+            ],
+            [
+                "sh",
+                180
+            ],
+            [
+                "makefile",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/freedesktop-team/bolt",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.1-1"
+}

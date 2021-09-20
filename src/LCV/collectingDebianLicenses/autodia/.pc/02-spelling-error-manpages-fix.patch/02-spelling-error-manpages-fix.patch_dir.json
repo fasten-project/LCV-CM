@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "autodia.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 13771,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "02-spelling-error-manpages-fix.patch",
+    "package": "autodia",
+    "path": "autodia/2.14-4/.pc/02-spelling-error-manpages-fix.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autodia/2.14-4/",
+        "metric": {
+            "size": 648
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autodia",
+        "sloc": [
+            [
+                "perl",
+                6102
+            ],
+            [
+                "makefile",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/autodia",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.14-4"
+}

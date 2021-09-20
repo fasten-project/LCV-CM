@@ -1,0 +1,241 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".gitignore",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "COPYING",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17990,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Documentation",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 39,
+                "symlink_dest": "./Documentation/filesystems/aufs/README",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aufs5-base.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11054,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aufs5-kbuild.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aufs5-loopback.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aufs5-mmap.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aufs5-standalone.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config.mk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2930,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "fs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "include",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lockdep-debug.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1699,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proc_mounts.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tmpfs-idr.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vfs-ino.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "5.2+20190909-1.1",
+    "package": "aufs",
+    "path": "aufs/5.2+20190909-1.1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/aufs/5.2+20190909-1.1/",
+        "metric": {
+            "size": 1316
+        },
+        "pts_link": "https://tracker.debian.org/pkg/aufs",
+        "sloc": [
+            [
+                "ansic",
+                27246
+            ],
+            [
+                "makefile",
+                100
+            ]
+        ],
+        "suites": [],
+        "vcs_browser": "https://salsa.debian.org/janluca-guest/aufs-debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.2+20190909-1.1"
+}

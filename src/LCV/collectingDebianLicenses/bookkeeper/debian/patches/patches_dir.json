@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-add-commons-collections-dependency.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 569,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-ignore-xlint-settings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-protoc-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bookkeeper",
+    "path": "bookkeeper/4.4.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bookkeeper/4.4.0-1/",
+        "metric": {
+            "size": 4488
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bookkeeper",
+        "sloc": [
+            [
+                "java",
+                49186
+            ],
+            [
+                "sh",
+                1794
+            ],
+            [
+                "xml",
+                1529
+            ],
+            [
+                "python",
+                520
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "sid",
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-java/bookkeeper.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.4.0-1"
+}

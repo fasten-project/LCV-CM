@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "chasquid.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "domains",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dovecot.conf.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "passwd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 87,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "config",
+    "package": "chasquid",
+    "path": "chasquid/1.8-1/test/t-11-dovecot/config",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chasquid/1.8-1/",
+        "metric": {
+            "size": 1836
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chasquid",
+        "sloc": [
+            [
+                "sh",
+                1255
+            ],
+            [
+                "python",
+                338
+            ],
+            [
+                "makefile",
+                71
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/go-team/packages/chasquid",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8-1"
+}

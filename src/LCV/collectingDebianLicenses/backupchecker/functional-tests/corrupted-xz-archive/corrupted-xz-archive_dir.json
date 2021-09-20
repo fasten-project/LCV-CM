@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "corrupted-xz-archive-list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "corrupted-xz-archive.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "corrupted-xz-archive.xz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "corrupted-xz-archive",
+    "package": "backupchecker",
+    "path": "backupchecker/1.7-3/functional-tests/corrupted-xz-archive",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/backupchecker/1.7-3/",
+        "metric": {
+            "size": 6452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/backupchecker",
+        "sloc": [
+            [
+                "python",
+                8568
+            ],
+            [
+                "makefile",
+                161
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/backupchecker",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7-3"
+}

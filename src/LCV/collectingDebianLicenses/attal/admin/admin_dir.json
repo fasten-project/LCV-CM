@@ -1,0 +1,122 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "attal-qt-4.2.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "attal.iss",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "attal.spec",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "create_debs.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7811,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 125,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "macx-bundle",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 126,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mingw32-g%2B%2B",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "admin",
+    "package": "attal",
+    "path": "attal/1.0~rc2-2/admin",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 7428,
+        "license": "/copyright/license/attal/1.0%7Erc2-2/",
+        "metric": {
+            "size": 4348
+        },
+        "pts_link": "https://tracker.debian.org/pkg/attal",
+        "sloc": [
+            [
+                "cpp",
+                55101
+            ],
+            [
+                "sh",
+                267
+            ],
+            [
+                "ansic",
+                100
+            ],
+            [
+                "makefile",
+                54
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "squeeze",
+            "wheezy"
+        ],
+        "vcs_browser": "http://svn.debian.org/wsvn/pkg-games/packages/trunk/attal/",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.0~rc2-2"
+}

@@ -1,0 +1,246 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "canl.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2097,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl_cert.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5771,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl_cred.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24753,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl_cred.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl_dns.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl_err.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7946,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl_error_codes",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl_error_desc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl_locl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl_mech_ssl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 945,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl_ocsp.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl_ocsp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1835,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl_ssl.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40839,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canl_ssl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen_err_codes.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gen_err_desc.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1698,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proxy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "src",
+    "package": "canl-c",
+    "path": "canl-c/3.0.0-3.1/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/canl-c/3.0.0-3.1/",
+        "metric": {
+            "size": 992
+        },
+        "pts_link": "https://tracker.debian.org/pkg/canl-c",
+        "sloc": [
+            [
+                "ansic",
+                10634
+            ],
+            [
+                "perl",
+                1371
+            ],
+            [
+                "makefile",
+                238
+            ],
+            [
+                "yacc",
+                234
+            ],
+            [
+                "lex",
+                133
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ellert/canl-c",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.0-3.1"
+}

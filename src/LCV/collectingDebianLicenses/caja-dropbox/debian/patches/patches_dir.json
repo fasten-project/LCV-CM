@@ -1,0 +1,132 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "1004_add-http-proxy-option.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1005_use-var-lib-dropbox.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1094,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1006_use-pkexec-to-get-root-rights.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 892,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1007_fix-desktop-file.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "2001_non-interactive-update.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "2002_use-dpkg-to-select-platform.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1066,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "caja-dropbox",
+    "path": "caja-dropbox/1.24.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "non-free",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/caja-dropbox/1.24.0-1/",
+        "metric": {
+            "size": 880
+        },
+        "pts_link": "https://tracker.debian.org/pkg/caja-dropbox",
+        "sloc": [
+            [
+                "python",
+                2010
+            ],
+            [
+                "ansic",
+                1970
+            ],
+            [
+                "makefile",
+                161
+            ],
+            [
+                "sh",
+                78
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-mate-team/caja-dropbox",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.24.0-1"
+}

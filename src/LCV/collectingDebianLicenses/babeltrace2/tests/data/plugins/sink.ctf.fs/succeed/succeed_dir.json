@@ -1,0 +1,137 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "trace-double.expect",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trace-float.expect",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1120,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trace-meta-variant-no-underscore.expect",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trace-meta-variant-one-underscore.expect",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trace-meta-variant-reserved-keywords.expect",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trace-meta-variant-same-with-underscore.expect",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trace-meta-variant-two-underscores.expect",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "succeed",
+    "package": "babeltrace2",
+    "path": "babeltrace2/2.0.4-1/tests/data/plugins/sink.ctf.fs/succeed",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/babeltrace2/2.0.4-1/",
+        "metric": {
+            "size": 25588
+        },
+        "pts_link": "https://tracker.debian.org/pkg/babeltrace2",
+        "sloc": [
+            [
+                "ansic",
+                112490
+            ],
+            [
+                "python",
+                19373
+            ],
+            [
+                "sh",
+                7649
+            ],
+            [
+                "yacc",
+                2337
+            ],
+            [
+                "cpp",
+                1705
+            ],
+            [
+                "makefile",
+                1442
+            ],
+            [
+                "lex",
+                138
+            ],
+            [
+                "xml",
+                44
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/babeltrace2",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.4-1"
+}

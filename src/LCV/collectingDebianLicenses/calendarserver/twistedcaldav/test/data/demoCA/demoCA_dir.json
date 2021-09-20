@@ -1,0 +1,149 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cacert.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cacrlcert.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "certs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "crl.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 455,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "index.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "index.txt.attr",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "newcerts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "private",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "serial",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "demoCA",
+    "package": "calendarserver",
+    "path": "calendarserver/9.2+dfsg-1/twistedcaldav/test/data/demoCA",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/calendarserver/9.2+dfsg-1/",
+        "metric": {
+            "size": 25688
+        },
+        "pts_link": "https://tracker.debian.org/pkg/calendarserver",
+        "sloc": [
+            [
+                "python",
+                195037
+            ],
+            [
+                "sql",
+                78794
+            ],
+            [
+                "xml",
+                16936
+            ],
+            [
+                "sh",
+                2502
+            ],
+            [
+                "ansic",
+                66
+            ],
+            [
+                "makefile",
+                26
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/calendarserver/calendarserver.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.2+dfsg-1"
+}

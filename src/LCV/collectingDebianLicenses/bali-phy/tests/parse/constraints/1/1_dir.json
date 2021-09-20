@@ -1,0 +1,96 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "command.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dna.fasta",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 23,
+                "symlink_dest": "../../../data/dna.fasta",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xfail",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "1",
+    "package": "bali-phy",
+    "path": "bali-phy/3.6.1+dfsg-1/tests/parse/constraints/1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bali-phy/3.6.1+dfsg-1/",
+        "metric": {
+            "size": 12288
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bali-phy",
+        "sloc": [
+            [
+                "cpp",
+                87162
+            ],
+            [
+                "xml",
+                12230
+            ],
+            [
+                "perl",
+                3843
+            ],
+            [
+                "haskell",
+                3406
+            ],
+            [
+                "python",
+                2407
+            ],
+            [
+                "yacc",
+                1055
+            ],
+            [
+                "lex",
+                530
+            ],
+            [
+                "sh",
+                314
+            ],
+            [
+                "makefile",
+                22
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bali-phy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.6.1+dfsg-1"
+}

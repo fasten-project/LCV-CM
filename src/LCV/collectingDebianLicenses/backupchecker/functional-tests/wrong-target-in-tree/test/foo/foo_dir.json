@@ -1,0 +1,46 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bar",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 7,
+                "symlink_dest": "../toto",
+                "type": "l"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "foo",
+    "package": "backupchecker",
+    "path": "backupchecker/1.7-3/functional-tests/wrong-target-in-tree/test/foo",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/backupchecker/1.7-3/",
+        "metric": {
+            "size": 6452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/backupchecker",
+        "sloc": [
+            [
+                "python",
+                8568
+            ],
+            [
+                "makefile",
+                161
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/backupchecker",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7-3"
+}

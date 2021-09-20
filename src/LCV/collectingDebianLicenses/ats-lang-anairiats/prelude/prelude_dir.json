@@ -1,0 +1,170 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CATS",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "DATS",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "HATS",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "SATS",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ats_main_prelude.dats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3211,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "basics_dyn.sats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14897,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "basics_sta.sats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fixity.ats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "macrodef.sats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3017,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "params.hats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "params_system.hats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sortdef.sats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2845,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "prelude",
+    "package": "ats-lang-anairiats",
+    "path": "ats-lang-anairiats/0.2.11-1.1/prelude",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/ats-lang-anairiats/0.2.11-1.1/",
+        "metric": {
+            "size": 20208
+        },
+        "pts_link": "https://tracker.debian.org/pkg/ats-lang-anairiats",
+        "sloc": [
+            [
+                "ansic",
+                209677
+            ],
+            [
+                "makefile",
+                2261
+            ],
+            [
+                "sh",
+                661
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.2.11-1.1"
+}

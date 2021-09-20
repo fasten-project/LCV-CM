@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "_cron.funcs.php",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cronjobs.ctrl.php",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jobs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 150,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "model",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "views",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "cron",
+    "package": "b2evolution",
+    "path": "b2evolution/2.4.2-4/blogs/inc/cron",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 11628,
+        "license": "/copyright/license/b2evolution/2.4.2-4/",
+        "metric": {
+            "size": 10920
+        },
+        "pts_link": "https://tracker.debian.org/pkg/b2evolution",
+        "sloc": [
+            [
+                "php",
+                76404
+            ],
+            [
+                "sql",
+                703
+            ],
+            [
+                "sh",
+                485
+            ],
+            [
+                "makefile",
+                34
+            ]
+        ],
+        "suites": [
+            "lenny"
+        ]
+    },
+    "type": "directory",
+    "version": "2.4.2-4"
+}

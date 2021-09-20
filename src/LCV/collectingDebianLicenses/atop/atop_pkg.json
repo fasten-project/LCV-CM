@@ -1,0 +1,726 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "45atoppm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "AUTHOR",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "COPYING",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18009,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ChangeLog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 128043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acctproc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acctproc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atop-pm.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 164,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atop-rotate.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atop-rotate.timer",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 98,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atop.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atop.cronsysv",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atop.daily",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atop.default",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atop.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atop.init",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atop.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 685,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atopacct.init",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atopacct.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atopacctd.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25602,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atopacctd.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1072,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atopcat.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atopconvert.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atopgpu.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atopgpud",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 18634,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "atopsar.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "deviate.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55616,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gpucom.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13097,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gpucom.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 377,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ifprop.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ifprop.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "man",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "netatop.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netatopd.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netatopif.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netlink.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "netstats.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "parseable.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19890,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "parseable.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "photoproc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "photoproc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "photosyst.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59758,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "photosyst.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prev",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "procdbase.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "psaccs_atop",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "psaccu_atop",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 585,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rawlog.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22716,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rawlog.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2650,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "showgeneric.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 78713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "showgeneric.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "showlinux.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79476,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "showlinux.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14912,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "showprocs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54810,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "showsys.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "various.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "versdate.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "2.6.0-2",
+    "package": "atop",
+    "path": "atop/2.6.0-2",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/atop/2.6.0-2/",
+        "metric": {
+            "size": 1980
+        },
+        "pts_link": "https://tracker.debian.org/pkg/atop",
+        "sloc": [
+            [
+                "ansic",
+                22563
+            ],
+            [
+                "python",
+                253
+            ],
+            [
+                "sh",
+                220
+            ],
+            [
+                "makefile",
+                172
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/atop",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6.0-2"
+}

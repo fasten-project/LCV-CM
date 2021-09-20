@@ -1,0 +1,45 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "chef-zero",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2807,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bin",
+    "package": "chef-zero",
+    "path": "chef-zero/13.1.0-2/.pc/0001-Remove-requires-of-rubygems-and-bundler.patch/bin",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chef-zero/13.1.0-2/",
+        "metric": {
+            "size": 744
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chef-zero",
+        "sloc": [
+            [
+                "ruby",
+                6040
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ruby-team/chef-zero",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "13.1.0-2"
+}

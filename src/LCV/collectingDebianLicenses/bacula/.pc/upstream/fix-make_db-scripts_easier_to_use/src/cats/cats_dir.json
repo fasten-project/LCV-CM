@@ -1,0 +1,189 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "create_mysql_database.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "create_sqlite3_database.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "delete_catalog_backup.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drop_mysql_database.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drop_mysql_tables.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drop_postgresql_database.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drop_postgresql_tables.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1277,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drop_sqlite3_database.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drop_sqlite3_tables.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "grant_mysql_privileges.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1022,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "grant_postgresql_privileges.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2844,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "cats",
+    "package": "bacula",
+    "path": "bacula/9.6.7-3/.pc/upstream/fix-make_db-scripts_easier_to_use/src/cats",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bacula/9.6.7-3/",
+        "metric": {
+            "size": 24764
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bacula",
+        "sloc": [
+            [
+                "ansic",
+                157001
+            ],
+            [
+                "cpp",
+                28065
+            ],
+            [
+                "sh",
+                25044
+            ],
+            [
+                "makefile",
+                4385
+            ],
+            [
+                "perl",
+                3433
+            ],
+            [
+                "sql",
+                1371
+            ],
+            [
+                "python",
+                125
+            ],
+            [
+                "xml",
+                64
+            ],
+            [
+                "awk",
+                51
+            ],
+            [
+                "sed",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/bacula-team/bacula",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.6.7-3"
+}

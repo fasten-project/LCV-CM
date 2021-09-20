@@ -1,0 +1,172 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".gitignore",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "CHANGELOG.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CONTRIBUTING.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LICENSE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 946,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.pod",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47623,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "RELEASING.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_pgactivity",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 325885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_pgactivity.spec",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "contributors",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "2.5-1",
+    "package": "check-pgactivity",
+    "path": "check-pgactivity/2.5-1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/check-pgactivity/2.5-1/",
+        "metric": {
+            "size": 540
+        },
+        "pts_link": "https://tracker.debian.org/pkg/check-pgactivity",
+        "sloc": [
+            [
+                "perl",
+                6118
+            ],
+            [
+                "sh",
+                10
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/postgresql/check-pgactivity",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5-1"
+}

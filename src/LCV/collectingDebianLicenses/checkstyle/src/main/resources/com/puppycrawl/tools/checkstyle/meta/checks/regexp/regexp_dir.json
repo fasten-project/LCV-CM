@@ -1,0 +1,107 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "RegexpCheck.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "RegexpMultilineCheck.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "RegexpOnFilenameCheck.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "RegexpSinglelineCheck.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2096,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "RegexpSinglelineJavaCheck.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2177,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "regexp",
+    "package": "checkstyle",
+    "path": "checkstyle/8.36.1-1/src/main/resources/com/puppycrawl/tools/checkstyle/meta/checks/regexp",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/checkstyle/8.36.1-1/",
+        "metric": {
+            "size": 32964
+        },
+        "pts_link": "https://tracker.debian.org/pkg/checkstyle",
+        "sloc": [
+            [
+                "java",
+                234352
+            ],
+            [
+                "xml",
+                75743
+            ],
+            [
+                "javascript",
+                258
+            ],
+            [
+                "sh",
+                115
+            ],
+            [
+                "sql",
+                6
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/checkstyle",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "8.36.1-1"
+}

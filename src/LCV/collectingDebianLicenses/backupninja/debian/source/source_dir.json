@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "format",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 271,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "options",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "source",
+    "package": "backupninja",
+    "path": "backupninja/1.2.1-1/debian/source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/backupninja/1.2.1-1/",
+        "metric": {
+            "size": 960
+        },
+        "pts_link": "https://tracker.debian.org/pkg/backupninja",
+        "sloc": [
+            [
+                "sh",
+                1604
+            ],
+            [
+                "makefile",
+                230
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://0xacab.org/liberate/backupninja/tree/debian",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.1-1"
+}

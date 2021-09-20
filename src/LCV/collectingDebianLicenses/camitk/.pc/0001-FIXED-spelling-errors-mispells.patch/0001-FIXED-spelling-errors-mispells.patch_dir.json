@@ -1,0 +1,111 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "imaging",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "modeling",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 74,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "python_sdk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sdk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 122,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tutorials",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0001-FIXED-spelling-errors-mispells.patch",
+    "package": "camitk",
+    "path": "camitk/4.1.2-4/.pc/0001-FIXED-spelling-errors-mispells.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/camitk/4.1.2-4/",
+        "metric": {
+            "size": 427532
+        },
+        "pts_link": "https://tracker.debian.org/pkg/camitk",
+        "sloc": [
+            [
+                "cpp",
+                79494
+            ],
+            [
+                "xml",
+                1176
+            ],
+            [
+                "sh",
+                1137
+            ],
+            [
+                "ansic",
+                142
+            ],
+            [
+                "makefile",
+                107
+            ],
+            [
+                "perl",
+                84
+            ],
+            [
+                "sed",
+                20
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/camitk",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.1.2-4"
+}

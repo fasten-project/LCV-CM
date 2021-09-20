@@ -1,0 +1,178 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bacula-dir.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bacula-fd.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bacula-sd.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 695,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "makepkg.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pkginfo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 253,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postinstall",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postremove",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prototype.master",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "solaris",
+    "package": "bacula",
+    "path": "bacula/9.6.7-3/platforms/solaris",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bacula/9.6.7-3/",
+        "metric": {
+            "size": 24764
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bacula",
+        "sloc": [
+            [
+                "ansic",
+                157001
+            ],
+            [
+                "cpp",
+                28065
+            ],
+            [
+                "sh",
+                25044
+            ],
+            [
+                "makefile",
+                4385
+            ],
+            [
+                "perl",
+                3433
+            ],
+            [
+                "sql",
+                1371
+            ],
+            [
+                "python",
+                125
+            ],
+            [
+                "xml",
+                64
+            ],
+            [
+                "awk",
+                51
+            ],
+            [
+                "sed",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/bacula-team/bacula",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.6.7-3"
+}

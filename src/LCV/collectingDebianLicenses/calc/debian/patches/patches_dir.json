@@ -1,0 +1,155 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "debianization-build",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debianization-doc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-makefile-ildflags",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-z2filepos-buffoverflow",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1116,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manpage-fixes",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "only-install-sharedlib-if-built",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 837,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "restore-2.12.1.5-filepos2z-ftbfs-414893",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "support-kfreebsd-hurd-build-ftbfs-490552",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "warning-fixes",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "calc",
+    "path": "calc/2.12.7.2-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/calc/2.12.7.2-4/",
+        "metric": {
+            "size": 7644
+        },
+        "pts_link": "https://tracker.debian.org/pkg/calc",
+        "sloc": [
+            [
+                "ansic",
+                53991
+            ],
+            [
+                "makefile",
+                11702
+            ],
+            [
+                "awk",
+                96
+            ],
+            [
+                "sed",
+                33
+            ],
+            [
+                "sh",
+                20
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "2.12.7.2-4"
+}

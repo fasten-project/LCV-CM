@@ -1,0 +1,50 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "chkrootkit",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 88773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "16_php.patch",
+    "package": "chkrootkit",
+    "path": "chkrootkit/0.55-1/.pc/16_php.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chkrootkit/0.55-1/",
+        "metric": {
+            "size": 2284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chkrootkit",
+        "sloc": [
+            [
+                "sh",
+                38043
+            ],
+            [
+                "ansic",
+                10071
+            ],
+            [
+                "makefile",
+                154
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/chkrootkit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.55-1"
+}

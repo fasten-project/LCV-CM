@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "wrong-file-uid-in-tar-bz2-archive-list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wrong-file-uid-in-tar-bz2-archive.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wrong-file-uid-in-tar-bz2-archive.tar.bz2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "wrong-file-uid-in-tar-bz2-archive",
+    "package": "backupchecker",
+    "path": "backupchecker/1.7-3/functional-tests/wrong-file-uid-in-tar-bz2-archive",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/backupchecker/1.7-3/",
+        "metric": {
+            "size": 6452
+        },
+        "pts_link": "https://tracker.debian.org/pkg/backupchecker",
+        "sloc": [
+            [
+                "python",
+                8568
+            ],
+            [
+                "makefile",
+                161
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/backupchecker",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7-3"
+}

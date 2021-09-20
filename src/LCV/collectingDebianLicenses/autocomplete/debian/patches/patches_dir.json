@@ -1,0 +1,63 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Modified-build.xml-for-debian-specific-settings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "autocomplete",
+    "path": "autocomplete/2.5.3-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autocomplete/2.5.3-1/",
+        "metric": {
+            "size": 612
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autocomplete",
+        "sloc": [
+            [
+                "java",
+                5390
+            ],
+            [
+                "xml",
+                120
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/git/pkg-java/autocomplete.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.5.3-1"
+}

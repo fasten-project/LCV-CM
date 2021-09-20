@@ -1,0 +1,947 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "analyzer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3258,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "audio_fx.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "benchmark.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "biquad.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "buffer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bypass.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "connector.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_buttons.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_combobox.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_curve.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_fader.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_frame.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_keyboard.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5091,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_knob.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_led.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_linegraph.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3940,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_meterscale.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_notebook.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_pattern.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_phasegraph.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_tube.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1967,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_tuner.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2016,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctl_vumeter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3452,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "delay.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6116,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drawingutils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "envelope.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8710,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fft.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5016,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fixed_point.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "giface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gtk_main_win.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gtk_session_env.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1210,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gui.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15944,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gui_config.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2820,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gui_controls.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "host_session.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inertia.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jackhost.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "loudness.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7877,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lv2_atom.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lv2_atom_util.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12535,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lv2_data_access.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lv2_external_ui.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lv2_midi.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lv2_options.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lv2_progress.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lv2_state.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lv2_ui.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lv2_urid.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4005,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lv2helpers.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lv2wrap.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "metadata.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54950,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modmatrix.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modulelist.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules_comp.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules_delay.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules_dev.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules_dist.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7758,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules_filter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules_limit.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules_mod.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11049,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules_pitch.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1386,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules_synths.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules_tools.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8518,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multichorus.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "onepole.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orfanidis_eq.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "organ.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12032,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "osctl.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plugin_tools.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preset.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "preset_gui.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "primitives.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16083,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "session_mgr.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "synth.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "utils.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4833,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vumeter.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4310,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wave.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "waveshaping.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wavetable.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "calf",
+    "package": "calf",
+    "path": "calf/0.90.3-1/src/calf",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/calf/0.90.3-1/",
+        "metric": {
+            "size": 21604
+        },
+        "pts_link": "https://tracker.debian.org/pkg/calf",
+        "sloc": [
+            [
+                "cpp",
+                36939
+            ],
+            [
+                "xml",
+                12594
+            ],
+            [
+                "ansic",
+                4341
+            ],
+            [
+                "python",
+                1537
+            ],
+            [
+                "makefile",
+                209
+            ],
+            [
+                "lex",
+                51
+            ],
+            [
+                "sh",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/calf",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.90.3-1"
+}

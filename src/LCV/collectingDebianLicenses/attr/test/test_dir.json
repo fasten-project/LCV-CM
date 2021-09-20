@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makemodule.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "attr.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "root",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "run",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 10263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sort-getfattr-output",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test",
+    "package": "attr",
+    "path": "attr/1:2.5.1-1/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/attr/1:2.5.1-1/",
+        "metric": {
+            "size": 2612
+        },
+        "pts_link": "https://tracker.debian.org/pkg/attr",
+        "sloc": [
+            [
+                "sh",
+                5062
+            ],
+            [
+                "ansic",
+                2438
+            ],
+            [
+                "perl",
+                272
+            ],
+            [
+                "makefile",
+                45
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://git.hadrons.org/cgit/debian/pkgs/attr.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.5.1-1"
+}

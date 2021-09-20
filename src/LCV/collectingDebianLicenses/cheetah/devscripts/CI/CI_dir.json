@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "appveyor_install_pypy.cmd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pip-19.1.1.tar.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1334144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run_with_env.cmd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setuptools-43.0.0.zip",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858857,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tox-install.cmd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 776,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "travisci-release",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "CI",
+    "package": "cheetah",
+    "path": "cheetah/3.2.6-2/devscripts/CI",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/cheetah/3.2.6-2/",
+        "metric": {
+            "size": 4224
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cheetah",
+        "sloc": [
+            [
+                "python",
+                10424
+            ],
+            [
+                "ansic",
+                570
+            ],
+            [
+                "xml",
+                323
+            ],
+            [
+                "sh",
+                196
+            ],
+            [
+                "makefile",
+                87
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/cheetah",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.2.6-2"
+}

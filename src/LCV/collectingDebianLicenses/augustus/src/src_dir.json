@@ -1,0 +1,837 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "LICENSE.TXT",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4968,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "alignment.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39090,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "augustus.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23066,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "baumwelch.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "codonMSA.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4920,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "codonevo.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "commontrain.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5392,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compgenepred.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42005,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "contTimeMC.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "contentmodel.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dummy.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1287,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "espoca.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4865,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "etraining.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14303,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "evaluate.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "evaluation.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32163,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exoncand.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exonmodel.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76923,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exontrain.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extrinsicinfo.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fastBlockSearch.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fasta.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "genbank.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22390,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gene.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 120774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "geneMSA.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80948,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "geneticcode.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "genomicMSA.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44988,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "getSeq.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "googletest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "graph.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hints.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31345,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "igenicmodel.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11984,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "igenictrain.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "intronmodel.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43593,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "introntrain.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lldouble.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8998,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "load2db.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "load2sqlitedb.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11959,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logdoubletest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "makedepend.pl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mea.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "meaPath.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3019,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "merkmal.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "motif.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "namgene.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ncmodel.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orthoexon.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orthogene.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "orthograph.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "parser",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 128,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "phylotree.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16668,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_fastBlockSearcher.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2223,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_hitseq.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1769,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_prepare_align.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_profile.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25968,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_scoring.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pp_simscore.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "projectio.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "properties.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "randseqaccess.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scanner",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "speciesgraph.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 34518,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sqliteDB.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "statemodel.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tokenizer.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "train_logReg_param.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "types.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unittests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "utrmodel.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "utrtrain.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vitmatrix.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "src",
+    "package": "augustus",
+    "path": "augustus/3.4.0+dfsg2-2/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/augustus/3.4.0+dfsg2-2/",
+        "metric": {
+            "size": 758480
+        },
+        "pts_link": "https://tracker.debian.org/pkg/augustus",
+        "sloc": [
+            [
+                "cpp",
+                65451
+            ],
+            [
+                "perl",
+                21436
+            ],
+            [
+                "python",
+                3927
+            ],
+            [
+                "ansic",
+                1240
+            ],
+            [
+                "makefile",
+                1032
+            ],
+            [
+                "sh",
+                189
+            ],
+            [
+                "javascript",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/augustus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.4.0+dfsg2-2"
+}

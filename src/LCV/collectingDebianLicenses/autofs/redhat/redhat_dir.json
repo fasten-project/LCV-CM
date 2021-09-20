@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 805,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autofs.conf.default.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15724,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autofs.init.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4086,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autofs.sysconfig",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "redhat",
+    "package": "autofs",
+    "path": "autofs/5.1.7-1/redhat",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autofs/5.1.7-1/",
+        "metric": {
+            "size": 4640
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autofs",
+        "sloc": [
+            [
+                "ansic",
+                35441
+            ],
+            [
+                "yacc",
+                1811
+            ],
+            [
+                "lex",
+                1067
+            ],
+            [
+                "sh",
+                627
+            ],
+            [
+                "makefile",
+                553
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/autofs/",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.1.7-1"
+}

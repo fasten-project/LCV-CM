@@ -1,0 +1,64 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Disable-the-file-indexer-by-default.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 563,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "baloo-kf5",
+    "path": "baloo-kf5/5.86.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/baloo-kf5/5.86.0-1/",
+        "metric": {
+            "size": 4628
+        },
+        "pts_link": "https://tracker.debian.org/pkg/baloo-kf5",
+        "sloc": [
+            [
+                "cpp",
+                25148
+            ],
+            [
+                "sh",
+                23
+            ],
+            [
+                "xml",
+                15
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/qt-kde-team/kde/baloo",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.86.0-1"
+}

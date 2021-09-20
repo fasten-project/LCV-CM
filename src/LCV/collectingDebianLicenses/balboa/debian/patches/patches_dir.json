@@ -1,0 +1,108 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "add-latomic.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 821,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "print-uint64.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1073,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "release.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spelling.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "uuid.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "balboa",
+    "path": "balboa/2.0.0+ds-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/balboa/2.0.0+ds-3/",
+        "metric": {
+            "size": 1284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/balboa",
+        "sloc": [
+            [
+                "ansic",
+                10581
+            ],
+            [
+                "makefile",
+                160
+            ],
+            [
+                "python",
+                127
+            ],
+            [
+                "sh",
+                60
+            ]
+        ],
+        "suites": [
+            "bullseye"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/balboa",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.0+ds-3"
+}

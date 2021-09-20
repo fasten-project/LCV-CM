@@ -1,0 +1,266 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "customize-systemd-240-units",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 978,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "customize-systemd-units",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3878,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "enable-hardening-for-qmake",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1613,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-baculabackupreport-defaults",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-default-config",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-default-dbtype",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-desktop-in-files",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-libbaccats-rpath",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-mysql-racecondition",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1484,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-paths-examples-devices",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-qmake-binary-source-path",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 759,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-sql-bindir",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-usr_libexec_paths",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-buildoutput-verbose",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "non-silent-build",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-upstream-autoconf-log",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 358,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unescape-mysql-syntax",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-debian-path-for-interpreter",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "bacula",
+    "path": "bacula/9.6.7-3/debian/patches/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bacula/9.6.7-3/",
+        "metric": {
+            "size": 24764
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bacula",
+        "sloc": [
+            [
+                "ansic",
+                157001
+            ],
+            [
+                "cpp",
+                28065
+            ],
+            [
+                "sh",
+                25044
+            ],
+            [
+                "makefile",
+                4385
+            ],
+            [
+                "perl",
+                3433
+            ],
+            [
+                "sql",
+                1371
+            ],
+            [
+                "python",
+                125
+            ],
+            [
+                "xml",
+                64
+            ],
+            [
+                "awk",
+                51
+            ],
+            [
+                "sed",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/bacula-team/bacula",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.6.7-3"
+}

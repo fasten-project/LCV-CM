@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "signing-key.asc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "upstream",
+    "package": "authres",
+    "path": "authres/1.2.0-2/debian/upstream",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/authres/1.2.0-2/",
+        "metric": {
+            "size": 256
+        },
+        "pts_link": "https://tracker.debian.org/pkg/authres",
+        "sloc": [
+            [
+                "python",
+                891
+            ],
+            [
+                "makefile",
+                14
+            ],
+            [
+                "sh",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/modules/authres",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.0-2"
+}

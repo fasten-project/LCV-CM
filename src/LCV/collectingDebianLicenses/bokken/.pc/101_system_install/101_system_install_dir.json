@@ -1,0 +1,60 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bokken",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ui",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "101_system_install",
+    "package": "bokken",
+    "path": "bokken/1.6-1/.pc/101_system_install",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bokken/1.6-1/",
+        "metric": {
+            "size": 2252
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bokken",
+        "sloc": [
+            [
+                "python",
+                7838
+            ],
+            [
+                "sh",
+                8
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://inguma.eu/projects/bokken/repository",
+        "vcs_type": "hg"
+    },
+    "type": "directory",
+    "version": "1.6-1"
+}

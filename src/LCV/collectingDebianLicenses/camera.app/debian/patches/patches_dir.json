@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "pkg-config.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 546,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "camera.app",
+    "path": "camera.app/0.8.0-13/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/camera.app/0.8.0-13/",
+        "metric": {
+            "size": 220
+        },
+        "pts_link": "https://tracker.debian.org/pkg/camera.app",
+        "sloc": [
+            [
+                "objc",
+                952
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/gnustep-team/camera.app",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.8.0-13"
+}

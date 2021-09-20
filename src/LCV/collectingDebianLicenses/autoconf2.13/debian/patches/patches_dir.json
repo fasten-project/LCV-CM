@@ -1,0 +1,90 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "avoid-find.pl.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config-update.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "other-debian.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "autoconf2.13",
+    "path": "autoconf2.13/2.13-69/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autoconf2.13/2.13-69/",
+        "metric": {
+            "size": 2568
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autoconf2.13",
+        "sloc": [
+            [
+                "sh",
+                3044
+            ],
+            [
+                "perl",
+                283
+            ],
+            [
+                "makefile",
+                251
+            ],
+            [
+                "exp",
+                167
+            ],
+            [
+                "ansic",
+                82
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "2.13-69"
+}

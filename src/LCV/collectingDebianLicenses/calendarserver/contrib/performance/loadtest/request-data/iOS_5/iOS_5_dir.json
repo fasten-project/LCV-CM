@@ -1,0 +1,204 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Profile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2342,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "poll_calendar_multiget.request",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "poll_calendar_multiget_hrefs.request",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "poll_calendar_propfind.request",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "poll_calendar_propfind_d1.request",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "poll_calendar_vevent_tr_query.request",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "poll_calendar_vtodo_query.request",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "poll_calendarhome_propfind.request",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1925,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "startup_calendar_color_proppatch.request",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 204,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "startup_calendar_order_proppatch.request",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "startup_principal_propfind.request",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 823,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "startup_principal_propfind_initial.request",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "startup_principals_report.request",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "startup_well_known.request",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "iOS_5",
+    "package": "calendarserver",
+    "path": "calendarserver/9.2+dfsg-1/contrib/performance/loadtest/request-data/iOS_5",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/calendarserver/9.2+dfsg-1/",
+        "metric": {
+            "size": 25688
+        },
+        "pts_link": "https://tracker.debian.org/pkg/calendarserver",
+        "sloc": [
+            [
+                "python",
+                195037
+            ],
+            [
+                "sql",
+                78794
+            ],
+            [
+                "xml",
+                16936
+            ],
+            [
+                "sh",
+                2502
+            ],
+            [
+                "ansic",
+                66
+            ],
+            [
+                "makefile",
+                26
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/calendarserver/calendarserver.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.2+dfsg-1"
+}

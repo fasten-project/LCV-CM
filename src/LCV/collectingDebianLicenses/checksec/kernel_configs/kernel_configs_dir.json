@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Dockerfile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_kernel_configs.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "configs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "docker-compose.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "kernel_configs",
+    "package": "checksec",
+    "path": "checksec/2.4.0-1/kernel_configs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/checksec/2.4.0-1/",
+        "metric": {
+            "size": 9252
+        },
+        "pts_link": "https://tracker.debian.org/pkg/checksec",
+        "sloc": [
+            [
+                "sh",
+                2076
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/checksec",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.4.0-1"
+}

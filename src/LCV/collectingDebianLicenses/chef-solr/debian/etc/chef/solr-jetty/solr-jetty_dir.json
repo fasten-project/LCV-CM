@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "jetty-web.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jetty.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9861,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "start.config",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "webdefault.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "solr-jetty",
+    "package": "chef-solr",
+    "path": "chef-solr/10.12.0+dfsg-2/debian/etc/chef/solr-jetty",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chef-solr/10.12.0+dfsg-2/",
+        "metric": {
+            "size": 304
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chef-solr",
+        "sloc": [
+            [
+                "ruby",
+                981
+            ],
+            [
+                "sh",
+                259
+            ],
+            [
+                "xml",
+                220
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "10.12.0+dfsg-2"
+}

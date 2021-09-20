@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "06-fix-rrd-graph-permissions.patch",
+    "package": "backuppc",
+    "path": "backuppc/4.4.0-5/.pc/06-fix-rrd-graph-permissions.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/backuppc/4.4.0-5/",
+        "metric": {
+            "size": 4696
+        },
+        "pts_link": "https://tracker.debian.org/pkg/backuppc",
+        "sloc": [
+            [
+                "perl",
+                38732
+            ],
+            [
+                "sh",
+                606
+            ],
+            [
+                "javascript",
+                176
+            ],
+            [
+                "makefile",
+                41
+            ],
+            [
+                "ansic",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/backuppc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.4.0-5"
+}

@@ -1,0 +1,108 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_late_javadoc.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_replace_cairo_pdf_surface_set_dpi_with_cairo_surface_set_fallback_resolution.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_reduce_distclean.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_pkgconfig_for_jni.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 462,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_pkgconfig_drop_requires.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "cairo-java",
+    "path": "cairo-java/1.0.8-9/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 982,
+        "license": "/copyright/license/cairo-java/1.0.8-9/",
+        "metric": {
+            "size": 2060
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cairo-java",
+        "sloc": [
+            [
+                "sh",
+                8795
+            ],
+            [
+                "java",
+                1840
+            ],
+            [
+                "ansic",
+                1513
+            ],
+            [
+                "makefile",
+                232
+            ]
+        ],
+        "suites": [
+            "lenny"
+        ],
+        "vcs_browser": "http://svn.debian.org/wsvn/pkg-java/trunk/cairo-java",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.0.8-9"
+}

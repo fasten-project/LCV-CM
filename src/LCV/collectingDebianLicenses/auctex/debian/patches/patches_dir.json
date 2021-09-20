@@ -1,0 +1,121 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-doc-Makefile.in-Rationalize-HTML-documentation-targe.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2632,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-doc-Makefile.in-Rationalize-dist-target.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1053,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-preview-latex-Makefile.in-Also-clean-PDF-docs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-TeX-view-program-selection-Customize-for-Debian.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-TeX-auto-global-Customize-for-Debian.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-preview-image-type-Customize-for-Debian.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 915,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "auctex",
+    "path": "auctex/12.2-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/auctex/12.2-1/",
+        "metric": {
+            "size": 6144
+        },
+        "pts_link": "https://tracker.debian.org/pkg/auctex",
+        "sloc": [
+            [
+                "lisp",
+                48161
+            ],
+            [
+                "makefile",
+                858
+            ],
+            [
+                "sh",
+                112
+            ],
+            [
+                "perl",
+                90
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/salve/auctex",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "12.2-1"
+}

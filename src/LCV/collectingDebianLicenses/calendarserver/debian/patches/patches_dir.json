@@ -1,0 +1,149 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "calendarserver-upgrade-fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 783,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "conf.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5023,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "harpoon-python-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 211,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "linux-xattr-fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manpages.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nssdirectory.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2844,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "secure-python-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unicode-fixes.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 731,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "calendarserver",
+    "path": "calendarserver/9.2+dfsg-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/calendarserver/9.2+dfsg-1/",
+        "metric": {
+            "size": 25688
+        },
+        "pts_link": "https://tracker.debian.org/pkg/calendarserver",
+        "sloc": [
+            [
+                "python",
+                195037
+            ],
+            [
+                "sql",
+                78794
+            ],
+            [
+                "xml",
+                16936
+            ],
+            [
+                "sh",
+                2502
+            ],
+            [
+                "ansic",
+                66
+            ],
+            [
+                "makefile",
+                26
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/calendarserver/calendarserver.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "9.2+dfsg-1"
+}

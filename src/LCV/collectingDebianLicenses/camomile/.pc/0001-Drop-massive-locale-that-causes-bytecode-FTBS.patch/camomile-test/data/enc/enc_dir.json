@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ISO-2022-JP-3",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 106607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ISO-2022-KR",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "enc",
+    "package": "camomile",
+    "path": "camomile/1.0.2-3/.pc/0001-Drop-massive-locale-that-causes-bytecode-FTBS.patch/camomile-test/data/enc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/camomile/1.0.2-3/",
+        "metric": {
+            "size": 40248
+        },
+        "pts_link": "https://tracker.debian.org/pkg/camomile",
+        "sloc": [
+            [
+                "ml",
+                13757
+            ],
+            [
+                "xml",
+                230
+            ],
+            [
+                "makefile",
+                55
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/camomile",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.2-3"
+}

@@ -1,0 +1,187 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "add-clean-target.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc6.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc7.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1412,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc8.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hardening.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1955,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "more-native-cpus.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-bsymbolic.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 747,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-bsd-source.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-build.xml.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "soname.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "alljoyn-core-1604",
+    "path": "alljoyn-core-1604/16.04a+dfsg.1-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/alljoyn-core-1604/16.04a+dfsg.1-3/",
+        "metric": {
+            "size": 34636
+        },
+        "pts_link": "https://tracker.debian.org/pkg/alljoyn-core-1604",
+        "sloc": [
+            [
+                "cpp",
+                255921
+            ],
+            [
+                "java",
+                42368
+            ],
+            [
+                "objc",
+                17784
+            ],
+            [
+                "ansic",
+                5304
+            ],
+            [
+                "xml",
+                4714
+            ],
+            [
+                "cs",
+                3417
+            ],
+            [
+                "python",
+                1777
+            ],
+            [
+                "sh",
+                1228
+            ],
+            [
+                "makefile",
+                210
+            ],
+            [
+                "perl",
+                72
+            ]
+        ],
+        "suites": [
+            "buster"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-iot-team/alljoyn/alljoyn-core-1604.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "16.04a+dfsg.1-3"
+}

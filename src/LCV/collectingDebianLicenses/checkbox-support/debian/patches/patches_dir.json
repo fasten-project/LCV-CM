@@ -1,0 +1,64 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unvendorize",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79953,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "checkbox-support",
+    "path": "checkbox-support/0.22-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/checkbox-support/0.22-1/",
+        "metric": {
+            "size": 5620
+        },
+        "pts_link": "https://tracker.debian.org/pkg/checkbox-support",
+        "sloc": [
+            [
+                "xml",
+                14952
+            ],
+            [
+                "python",
+                7921
+            ],
+            [
+                "sh",
+                4
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/python-modules/packages/checkbox-support.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.22-1"
+}
