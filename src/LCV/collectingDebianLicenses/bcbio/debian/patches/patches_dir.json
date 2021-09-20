@@ -1,0 +1,165 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "add_installed_dir_paths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cnvkitPath.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "collectionsAbc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "do_not_use_git.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1865,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fixeFreetypePreload.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hts_nim_tools.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include_tests",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pytest2to3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pythonpaths.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 195,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spelling",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4965,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bcbio",
+    "path": "bcbio/1.2.5-1/debian/patches",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcbio/1.2.5-1/",
+        "metric": {
+            "size": 36684
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcbio",
+        "sloc": [
+            [
+                "python",
+                45570
+            ],
+            [
+                "sh",
+                209
+            ],
+            [
+                "makefile",
+                159
+            ],
+            [
+                "xml",
+                129
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bcbio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.5-1"
+}

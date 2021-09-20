@@ -1,0 +1,234 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "assembly_sources.mk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "broken_build.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compile_cuda.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 504,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compile_fortran.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "define_with_escaped_quote.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 556,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "define_with_quote.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 535,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "duplicate_entries.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty_argument.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 390,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "existing_files_only.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flag",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 97,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "flags_filtered_link.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flags_filtered_preproc.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multiple_source_build.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 947,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "parallel_build.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1060,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "successful_build.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1097,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "wrapper.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1027,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "output",
+    "package": "bear",
+    "path": "bear/3.0.15-1/test/cases/compilation/output",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bear/3.0.15-1/",
+        "metric": {
+            "size": 1468
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bear",
+        "sloc": [
+            [
+                "cpp",
+                8325
+            ],
+            [
+                "sh",
+                631
+            ],
+            [
+                "ansic",
+                487
+            ],
+            [
+                "python",
+                175
+            ],
+            [
+                "makefile",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/sramacher/bear",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.15-1"
+}

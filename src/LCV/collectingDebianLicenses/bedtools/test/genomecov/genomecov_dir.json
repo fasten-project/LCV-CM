@@ -1,0 +1,238 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "chip.sam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty.bam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty.cram",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1084,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "genome.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "one_block.sam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 156,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pair-chip.sam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sam-w-del.sam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-genomecov.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ref.fa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_ref.fa.fai",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "three_blocks.sam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 171,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "three_blocks_match.bed",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 60,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "three_blocks_match_1bp.bed",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "three_blocks_nomatch.bed",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "two_blocks.sam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "y.bam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "y.bed",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "genomecov",
+    "package": "bedtools",
+    "path": "bedtools/2.30.0+dfsg-2/test/genomecov",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bedtools/2.30.0+dfsg-2/",
+        "metric": {
+            "size": 56592
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bedtools",
+        "sloc": [
+            [
+                "ansic",
+                38500
+            ],
+            [
+                "cpp",
+                29738
+            ],
+            [
+                "sh",
+                7955
+            ],
+            [
+                "makefile",
+                661
+            ],
+            [
+                "python",
+                235
+            ],
+            [
+                "javascript",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bedtools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.30.0+dfsg-2"
+}

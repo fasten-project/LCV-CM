@@ -1,0 +1,135 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-ftbfs-gnu-kfreebsd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 628,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-kill-main-window.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1022,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-binutils-gold.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-compare-string-literal.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 732,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_gcc5-gnu89.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_Use-pointer-type-instead-of-32bit-integer-to-store-h.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3785,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clang-ftbfs.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 774,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_gcc10.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1097,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bbrun",
+    "path": "bbrun/1.6-8/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bbrun/1.6-8/",
+        "metric": {
+            "size": 308
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bbrun",
+        "sloc": [
+            [
+                "ansic",
+                959
+            ],
+            [
+                "makefile",
+                22
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/bbrun",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6-8"
+}

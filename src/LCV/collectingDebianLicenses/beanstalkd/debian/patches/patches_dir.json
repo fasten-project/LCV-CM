@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Fix-FTBFS-for-gnu-kfreebsd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Sanitize-Makefile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 552,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-testserv-fix-endianness-issue.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1556,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "beanstalkd",
+    "path": "beanstalkd/1.12-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/beanstalkd/1.12-2/",
+        "metric": {
+            "size": 644
+        },
+        "pts_link": "https://tracker.debian.org/pkg/beanstalkd",
+        "sloc": [
+            [
+                "ansic",
+                7534
+            ],
+            [
+                "sh",
+                390
+            ],
+            [
+                "makefile",
+                112
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/beanstalkd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.12-2"
+}

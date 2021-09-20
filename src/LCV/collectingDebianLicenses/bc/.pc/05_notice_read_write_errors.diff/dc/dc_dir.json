@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7020,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "eval.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "misc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "numeric.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15709,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stack.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "string.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "dc",
+    "package": "bc",
+    "path": "bc/1.07.1-3/.pc/05_notice_read_write_errors.diff/dc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bc/1.07.1-3/",
+        "metric": {
+            "size": 2500
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bc",
+        "sloc": [
+            [
+                "ansic",
+                7596
+            ],
+            [
+                "sh",
+                1468
+            ],
+            [
+                "yacc",
+                1110
+            ],
+            [
+                "lex",
+                342
+            ],
+            [
+                "makefile",
+                90
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/bc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.07.1-3"
+}

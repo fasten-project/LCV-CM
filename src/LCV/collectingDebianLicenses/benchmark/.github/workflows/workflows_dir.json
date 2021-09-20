@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build-and-test.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pylint.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_bindings.yml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "workflows",
+    "package": "benchmark",
+    "path": "benchmark/1.5.2-2/.github/workflows",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/benchmark/1.5.2-2/",
+        "metric": {
+            "size": 1188
+        },
+        "pts_link": "https://tracker.debian.org/pkg/benchmark",
+        "sloc": [
+            [
+                "cpp",
+                9358
+            ],
+            [
+                "python",
+                1311
+            ],
+            [
+                "sh",
+                34
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/benchmark",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.2-2"
+}

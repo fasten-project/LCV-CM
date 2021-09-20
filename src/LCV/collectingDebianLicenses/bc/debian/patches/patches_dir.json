@@ -1,0 +1,135 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_typo_in_bc.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_hyphens_as_minus_in_man.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_info_dircategory.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_notice_read_write_errors.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19382,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_read_dcrc.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2261,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "07_bc_man.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18893,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_no-make-circular-dependencies.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1482,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bc",
+    "path": "bc/1.07.1-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bc/1.07.1-3/",
+        "metric": {
+            "size": 2500
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bc",
+        "sloc": [
+            [
+                "ansic",
+                7596
+            ],
+            [
+                "sh",
+                1468
+            ],
+            [
+                "yacc",
+                1110
+            ],
+            [
+                "lex",
+                342
+            ],
+            [
+                "makefile",
+                90
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/bc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.07.1-3"
+}

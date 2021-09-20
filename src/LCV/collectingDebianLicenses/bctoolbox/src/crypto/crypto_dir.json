@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "crypto.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ecc.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mbedtls.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "polarssl.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58294,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "crypto",
+    "package": "bctoolbox",
+    "path": "bctoolbox/4.4.13-2/src/crypto",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bctoolbox/4.4.13-2/",
+        "metric": {
+            "size": 912
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bctoolbox",
+        "sloc": [
+            [
+                "ansic",
+                8344
+            ],
+            [
+                "cpp",
+                1428
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-voip-team/linphone-stack/bctoolbox",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.4.13-2"
+}

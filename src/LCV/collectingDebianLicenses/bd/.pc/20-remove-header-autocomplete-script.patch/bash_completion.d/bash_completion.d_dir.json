@@ -1,0 +1,47 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 415,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bash_completion.d",
+    "package": "bd",
+    "path": "bd/1.02-6/.pc/20-remove-header-autocomplete-script.patch/bash_completion.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bd/1.02-6/",
+        "metric": {
+            "size": 276
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bd",
+        "sloc": [
+            [
+                "sh",
+                110
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/bd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.02-6"
+}

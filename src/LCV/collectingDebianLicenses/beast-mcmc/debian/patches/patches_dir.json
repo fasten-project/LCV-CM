@@ -1,0 +1,137 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "create_soname.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "enable_hardening.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 705,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_classpath_in_build_xml.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_encoding.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ignore_mac_install.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update-ejml.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "beast-mcmc",
+    "path": "beast-mcmc/1.10.4+dfsg-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/beast-mcmc/1.10.4+dfsg-2/",
+        "metric": {
+            "size": 43956
+        },
+        "pts_link": "https://tracker.debian.org/pkg/beast-mcmc",
+        "sloc": [
+            [
+                "java",
+                335096
+            ],
+            [
+                "xml",
+                71731
+            ],
+            [
+                "ansic",
+                3363
+            ],
+            [
+                "fortran",
+                2323
+            ],
+            [
+                "sh",
+                295
+            ],
+            [
+                "python",
+                106
+            ],
+            [
+                "makefile",
+                79
+            ],
+            [
+                "cpp",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/beast-mcmc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.10.4+dfsg-2"
+}

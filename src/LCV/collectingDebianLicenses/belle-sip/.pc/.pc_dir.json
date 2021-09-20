@@ -1,0 +1,119 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-system-antlr3c",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "belle-sip",
+    "path": "belle-sip/4.4.21+dfsg-1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/belle-sip/4.4.21+dfsg-1/",
+        "metric": {
+            "size": 11508
+        },
+        "pts_link": "https://tracker.debian.org/pkg/belle-sip",
+        "sloc": [
+            [
+                "ansic",
+                271236
+            ],
+            [
+                "cpp",
+                844
+            ],
+            [
+                "cs",
+                418
+            ],
+            [
+                "makefile",
+                166
+            ],
+            [
+                "python",
+                59
+            ],
+            [
+                "xml",
+                47
+            ],
+            [
+                "sh",
+                41
+            ],
+            [
+                "objc",
+                38
+            ],
+            [
+                "ruby",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-voip-team/linphone-stack/belle-sip",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.4.21+dfsg-1"
+}

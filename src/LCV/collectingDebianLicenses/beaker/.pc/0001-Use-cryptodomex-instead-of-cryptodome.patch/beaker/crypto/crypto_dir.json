@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "pycrypto.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 984,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "util.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "crypto",
+    "package": "beaker",
+    "path": "beaker/1.11.0-1.1/.pc/0001-Use-cryptodomex-instead-of-cryptodome.patch/beaker/crypto",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/beaker/1.11.0-1.1/",
+        "metric": {
+            "size": 376
+        },
+        "pts_link": "https://tracker.debian.org/pkg/beaker",
+        "sloc": [
+            [
+                "python",
+                3175
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/beaker",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.11.0-1.1"
+}

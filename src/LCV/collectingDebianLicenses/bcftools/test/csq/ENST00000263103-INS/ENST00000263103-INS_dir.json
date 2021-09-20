@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ENST00000263103-INS.fa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 323667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ENST00000263103-INS.fa.fai",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ENST00000263103-INS.gff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7141,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "insertions.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1343,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "insertions.vcf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ENST00000263103-INS",
+    "package": "bcftools",
+    "path": "bcftools/1.13-1/test/csq/ENST00000263103-INS",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcftools/1.13-1/",
+        "metric": {
+            "size": 18540
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcftools",
+        "sloc": [
+            [
+                "ansic",
+                58276
+            ],
+            [
+                "perl",
+                5636
+            ],
+            [
+                "python",
+                587
+            ],
+            [
+                "sh",
+                333
+            ],
+            [
+                "makefile",
+                282
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bcftools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13-1"
+}

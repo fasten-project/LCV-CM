@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BDII.schema",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2535,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DB_CONFIG",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bdii-update.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bdii.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 578,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "default.ldif",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "glue-slapd.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1792,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "logrotate.d",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "etc",
+    "package": "bdii4",
+    "path": "bdii4/4.0.2.2-2/etc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 33,
+        "license": "/copyright/license/bdii4/4.0.2.2-2/",
+        "metric": {
+            "size": 284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bdii4",
+        "sloc": [
+            [
+                "sh",
+                804
+            ],
+            [
+                "perl",
+                715
+            ],
+            [
+                "makefile",
+                121
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ]
+    },
+    "type": "directory",
+    "version": "4.0.2.2-2"
+}

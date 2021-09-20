@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dune",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mime.types",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15300,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocsigenserver.conf.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "password_db.csv",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-server.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1412,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stop-server.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "warning.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "demo",
+    "package": "belenios",
+    "path": "belenios/1.17+dfsg-1/demo",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/belenios/1.17+dfsg-1/",
+        "metric": {
+            "size": 4720
+        },
+        "pts_link": "https://tracker.debian.org/pkg/belenios",
+        "sloc": [
+            [
+                "ml",
+                21165
+            ],
+            [
+                "python",
+                4717
+            ],
+            [
+                "sh",
+                1066
+            ],
+            [
+                "makefile",
+                164
+            ],
+            [
+                "javascript",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/belenios",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.17+dfsg-1"
+}

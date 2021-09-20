@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "convert.ml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2771,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "download.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dune",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 81,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian-votes",
+    "package": "belenios",
+    "path": "belenios/1.17+dfsg-1/tests/debian-votes",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/belenios/1.17+dfsg-1/",
+        "metric": {
+            "size": 4720
+        },
+        "pts_link": "https://tracker.debian.org/pkg/belenios",
+        "sloc": [
+            [
+                "ml",
+                21165
+            ],
+            [
+                "python",
+                4717
+            ],
+            [
+                "sh",
+                1066
+            ],
+            [
+                "makefile",
+                164
+            ],
+            [
+                "javascript",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ocaml-team/belenios",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.17+dfsg-1"
+}

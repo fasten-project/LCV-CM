@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README_asv.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 436,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asv.conf.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bench",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 123,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "bench_asv",
+    "package": "bcolz",
+    "path": "bcolz/1.2.1+ds2-7/bench_asv",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcolz/1.2.1+ds2-7/",
+        "metric": {
+            "size": 4612
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcolz",
+        "sloc": [
+            [
+                "python",
+                9691
+            ],
+            [
+                "makefile",
+                150
+            ],
+            [
+                "sh",
+                26
+            ],
+            [
+                "ansic",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/bcolz",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.1+ds2-7"
+}

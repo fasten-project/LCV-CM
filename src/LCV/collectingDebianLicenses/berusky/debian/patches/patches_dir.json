@@ -1,0 +1,114 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-debianize.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2376,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-unfinished.patch.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-no-editor.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11-german-po.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23815,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "12-locale.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "berusky",
+    "path": "berusky/1.7.2-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/berusky/1.7.2-1/",
+        "metric": {
+            "size": 14040
+        },
+        "pts_link": "https://tracker.debian.org/pkg/berusky",
+        "sloc": [
+            [
+                "cpp",
+                14762
+            ],
+            [
+                "sh",
+                10005
+            ],
+            [
+                "makefile",
+                95
+            ],
+            [
+                "xml",
+                20
+            ],
+            [
+                "ansic",
+                14
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/berusky",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.2-1"
+}

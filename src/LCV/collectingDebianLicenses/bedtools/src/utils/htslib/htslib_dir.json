@@ -1,0 +1,678 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "INSTALL",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "LICENSE",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19550,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "NEWS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bcf_sr_sort.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 21895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bcf_sr_sort.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3857,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bgzf.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63908,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bgzip.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bgzip.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13927,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config.mk.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "configure.ac",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cram",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "errmod.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "faidx.5",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6262,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "faidx.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hfile.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hfile_gcs.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4344,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hfile_internal.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hfile_libcurl.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43077,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hfile_net.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hfile_s3.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hts.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 92877,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hts_internal.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2807,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hts_os.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1723,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "htsfile.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "htsfile.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "htslib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "htslib.mk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "htslib.pc.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 490,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "htslib_vars.mk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2931,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kfunc.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9166,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "knetfile.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19072,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kstring.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m4",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 44,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "md5.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "multipart.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "os",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "plugin.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5566,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "probaln.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "realn.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "regidx.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sam.5",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2785,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sam.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 94513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "synced_bcf_reader.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38006,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tabix.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tabix.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19888,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tbx.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11744,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "textutils.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "textutils_internal.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thread_pool.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thread_pool_internal.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5664,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vcf.5",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vcf.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 132665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vcf_sweep.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5345,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vcfutils.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32975,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "htslib",
+    "package": "bedtools",
+    "path": "bedtools/2.30.0+dfsg-2/src/utils/htslib",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bedtools/2.30.0+dfsg-2/",
+        "metric": {
+            "size": 56592
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bedtools",
+        "sloc": [
+            [
+                "ansic",
+                38500
+            ],
+            [
+                "cpp",
+                29738
+            ],
+            [
+                "sh",
+                7955
+            ],
+            [
+                "makefile",
+                661
+            ],
+            [
+                "python",
+                235
+            ],
+            [
+                "javascript",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bedtools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.30.0+dfsg-2"
+}

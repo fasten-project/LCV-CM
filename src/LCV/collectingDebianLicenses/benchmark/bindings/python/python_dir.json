@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_defs.bzl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 737,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_benchmark",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pybind11.BUILD",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 474,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python_headers.BUILD",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 136,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "requirements.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "python",
+    "package": "benchmark",
+    "path": "benchmark/1.5.2-2/bindings/python",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/benchmark/1.5.2-2/",
+        "metric": {
+            "size": 1188
+        },
+        "pts_link": "https://tracker.debian.org/pkg/benchmark",
+        "sloc": [
+            [
+                "cpp",
+                9358
+            ],
+            [
+                "python",
+                1311
+            ],
+            [
+                "sh",
+                34
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/benchmark",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.2-2"
+}

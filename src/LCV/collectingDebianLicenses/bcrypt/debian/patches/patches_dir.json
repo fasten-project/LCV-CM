@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_main.c_abort-on-encryption.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_big_files.dpatch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13045,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bcrypt",
+    "path": "bcrypt/1.1-8.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcrypt/1.1-8.1/",
+        "metric": {
+            "size": 276
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcrypt",
+        "sloc": [
+            [
+                "ansic",
+                1370
+            ],
+            [
+                "sh",
+                417
+            ],
+            [
+                "makefile",
+                91
+            ]
+        ],
+        "suites": [
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "1.1-8.1"
+}

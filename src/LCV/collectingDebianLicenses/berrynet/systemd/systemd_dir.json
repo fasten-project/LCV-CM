@@ -1,0 +1,178 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "agent.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "broker.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "camera.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "classify_movidius_server.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 518,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dashboard.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data_collector.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detect_movidius_server.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detection_fast_server.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "detection_server.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "journal.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "line.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "localimg.service",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "systemd",
+    "package": "berrynet",
+    "path": "berrynet/3.10.2-1/systemd",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/berrynet/3.10.2-1/",
+        "metric": {
+            "size": 1556
+        },
+        "pts_link": "https://tracker.debian.org/pkg/berrynet",
+        "sloc": [
+            [
+                "python",
+                6286
+            ],
+            [
+                "javascript",
+                2373
+            ],
+            [
+                "xml",
+                1094
+            ],
+            [
+                "sh",
+                738
+            ],
+            [
+                "makefile",
+                33
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "3.10.2-1"
+}

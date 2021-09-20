@@ -1,0 +1,123 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-track-size.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-clarify-formats-in-help.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CVE-2017-15953.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1142,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CVE-2017-15955.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add-cpp-flags",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1332,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drop-strip",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "great",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1639,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bchunk",
+    "path": "bchunk/1.2.2-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bchunk/1.2.2-2/",
+        "metric": {
+            "size": 172
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bchunk",
+        "sloc": [
+            [
+                "ansic",
+                376
+            ],
+            [
+                "makefile",
+                104
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1.2.2-2"
+}

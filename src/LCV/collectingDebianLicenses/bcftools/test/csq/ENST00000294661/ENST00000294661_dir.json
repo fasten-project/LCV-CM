@@ -1,0 +1,113 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ENST00000294661.fa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ENST00000294661.fa.fai",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ENST00000294661.gff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "non-coding-boundary.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "non-coding-boundary.txt-l",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "non-coding-boundary.vcf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ENST00000294661",
+    "package": "bcftools",
+    "path": "bcftools/1.13-1/test/csq/ENST00000294661",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcftools/1.13-1/",
+        "metric": {
+            "size": 18540
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcftools",
+        "sloc": [
+            [
+                "ansic",
+                58276
+            ],
+            [
+                "perl",
+                5636
+            ],
+            [
+                "python",
+                587
+            ],
+            [
+                "sh",
+                333
+            ],
+            [
+                "makefile",
+                282
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bcftools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13-1"
+}

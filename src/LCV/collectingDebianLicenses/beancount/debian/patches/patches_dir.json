@@ -1,0 +1,119 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Remove-fonts.googleapis.com-links-for-the-bean-web-t.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-make-test_version-more-lax-to-accept-non-git-hg-vers.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 799,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Remove-failing-test-for-now.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 860,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Use-the-same-python-binary-to-run-testimport.py.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "beancount",
+    "path": "beancount/2.3.3-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/beancount/2.3.3-1/",
+        "metric": {
+            "size": 8460
+        },
+        "pts_link": "https://tracker.debian.org/pkg/beancount",
+        "sloc": [
+            [
+                "python",
+                46152
+            ],
+            [
+                "ansic",
+                984
+            ],
+            [
+                "yacc",
+                685
+            ],
+            [
+                "lex",
+                407
+            ],
+            [
+                "javascript",
+                339
+            ],
+            [
+                "makefile",
+                214
+            ],
+            [
+                "cpp",
+                128
+            ],
+            [
+                "xml",
+                32
+            ],
+            [
+                "sh",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/beancount",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.3-1"
+}

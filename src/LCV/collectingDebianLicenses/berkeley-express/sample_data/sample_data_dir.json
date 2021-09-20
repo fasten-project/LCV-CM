@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "reads_1.fastq",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1283063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reads_2.fastq",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1283063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "transcripts.fasta",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "sample_data",
+    "package": "berkeley-express",
+    "path": "berkeley-express/1.5.3+dfsg-1/sample_data",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/berkeley-express/1.5.3+dfsg-1/",
+        "metric": {
+            "size": 3760
+        },
+        "pts_link": "https://tracker.debian.org/pkg/berkeley-express",
+        "sloc": [
+            [
+                "cpp",
+                4785
+            ],
+            [
+                "sh",
+                65
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/berkeley-express",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.3+dfsg-1"
+}

@@ -1,0 +1,151 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "gen_vector.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 13623,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_as.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4246,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_common.def",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_convert.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_integer.def",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_math.def",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_math_20.def",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4761,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_relational.def",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1572,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ocl_simd.def",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "script",
+    "package": "beignet",
+    "path": "beignet/1.3.2-8/backend/src/libocl/script",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/beignet/1.3.2-8/",
+        "metric": {
+            "size": 10444
+        },
+        "pts_link": "https://tracker.debian.org/pkg/beignet",
+        "sloc": [
+            [
+                "cpp",
+                66165
+            ],
+            [
+                "ansic",
+                27903
+            ],
+            [
+                "lisp",
+                17462
+            ],
+            [
+                "python",
+                1208
+            ],
+            [
+                "sh",
+                882
+            ],
+            [
+                "makefile",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/opencl-team/beignet",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3.2-8"
+}

@@ -1,0 +1,220 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0001-Compile-with-debug-symbols.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Use-qt4-qmake.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Fix-desktop-path.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Scons-makefile.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0005-Fix-compilation.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0006-makes-photo-and-background-image-present-in-beidgui.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0007-missing-language-menu.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0008-pkcs11-works-in-x86_64.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0009-Fix-.desktop-file-syntax.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "0010-Fix-some-path.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "beid",
+    "path": "beid/3.5.2.dfsg-10/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 34507,
+        "license": "/copyright/license/beid/3.5.2.dfsg-10/",
+        "metric": {
+            "size": 147240
+        },
+        "pts_link": "https://tracker.debian.org/pkg/beid",
+        "sloc": [
+            [
+                "cpp",
+                149944
+            ],
+            [
+                "ansic",
+                41577
+            ],
+            [
+                "java",
+                8927
+            ],
+            [
+                "cs",
+                6528
+            ],
+            [
+                "sh",
+                2426
+            ],
+            [
+                "perl",
+                1866
+            ],
+            [
+                "xml",
+                805
+            ],
+            [
+                "python",
+                463
+            ],
+            [
+                "makefile",
+                263
+            ],
+            [
+                "lex",
+                92
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/beid.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.5.2.dfsg-10"
+}
