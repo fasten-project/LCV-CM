@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CA",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "CA-files",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "CA-issued",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 124,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "openssl.cnf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9706,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ca-simple",
+    "package": "canl-java",
+    "path": "canl-java/2.7.0-1/src/test/testCAs/ca-simple",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/canl-java/2.7.0-1/",
+        "metric": {
+            "size": 11776
+        },
+        "pts_link": "https://tracker.debian.org/pkg/canl-java",
+        "sloc": [
+            [
+                "java",
+                22723
+            ],
+            [
+                "xml",
+                433
+            ],
+            [
+                "sh",
+                396
+            ],
+            [
+                "makefile",
+                24
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ellert/canl-java",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.7.0-1"
+}
