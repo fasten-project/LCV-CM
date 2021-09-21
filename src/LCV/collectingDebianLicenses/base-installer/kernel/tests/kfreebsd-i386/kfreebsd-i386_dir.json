@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "core2.cpuinfo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "core2.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "k8.cpuinfo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "k8.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "kfreebsd-i386",
+    "package": "base-installer",
+    "path": "base-installer/1.206/kernel/tests/kfreebsd-i386",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/base-installer/1.206/",
+        "metric": {
+            "size": 3272
+        },
+        "pts_link": "https://tracker.debian.org/pkg/base-installer",
+        "sloc": [
+            [
+                "sh",
+                1537
+            ],
+            [
+                "ansic",
+                704
+            ],
+            [
+                "makefile",
+                59
+            ],
+            [
+                "perl",
+                50
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/installer-team/base-installer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.206"
+}

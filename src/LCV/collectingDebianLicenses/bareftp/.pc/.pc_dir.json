@@ -1,0 +1,108 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add_and_use_4.5_support_to_shamrock.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avoid_pkglibdir_scripts.patch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": ".pc",
+    "package": "bareftp",
+    "path": "bareftp/0.3.9-3/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bareftp/0.3.9-3/",
+        "metric": {
+            "size": 3420
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bareftp",
+        "sloc": [
+            [
+                "cs",
+                14258
+            ],
+            [
+                "sh",
+                10936
+            ],
+            [
+                "makefile",
+                666
+            ],
+            [
+                "ansic",
+                411
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=pkg-cli-apps/packages/bareftp.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.9-3"
+}

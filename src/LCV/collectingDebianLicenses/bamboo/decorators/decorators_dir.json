@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "common.php",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "default",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "editor",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "spartan",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "decorators",
+    "package": "bamboo",
+    "path": "bamboo/1.2-2/decorators",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 1338,
+        "license": "/copyright/license/bamboo/1.2-2/",
+        "metric": {
+            "size": 580
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bamboo",
+        "sloc": [
+            [
+                "php",
+                4061
+            ],
+            [
+                "makefile",
+                44
+            ],
+            [
+                "sh",
+                36
+            ]
+        ],
+        "suites": [
+            "sarge"
+        ]
+    },
+    "type": "directory",
+    "version": "1.2-2"
+}

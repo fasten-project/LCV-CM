@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-install-create-parent-directories.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 656,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-don-t-build-cfl2png.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-enable-cross-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1004,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bart-view",
+    "path": "bart-view/0.1.00-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bart-view/0.1.00-4/",
+        "metric": {
+            "size": 368
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bart-view",
+        "sloc": [
+            [
+                "ansic",
+                1076
+            ],
+            [
+                "makefile",
+                43
+            ],
+            [
+                "sh",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bart-view",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.00-4"
+}

@@ -1,0 +1,240 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "basilisk_glue.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build68k.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compiler",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cpu_emulation.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cpuopti.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fpu",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gencpu.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "m68k.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 29738,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memory.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16390,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memory.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6008,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "newcpu.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37797,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "newcpu.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9033,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "noflags.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readcpu.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readcpu.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3306,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spcflags.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2575,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "table68k",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13460,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "uae_cpu",
+    "package": "basilisk2",
+    "path": "basilisk2/0.9.20180101-1/src/uae_cpu",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/basilisk2/0.9.20180101-1/",
+        "metric": {
+            "size": 6720
+        },
+        "pts_link": "https://tracker.debian.org/pkg/basilisk2",
+        "sloc": [
+            [
+                "cpp",
+                85250
+            ],
+            [
+                "ansic",
+                24100
+            ],
+            [
+                "sh",
+                2949
+            ],
+            [
+                "asm",
+                1182
+            ],
+            [
+                "makefile",
+                723
+            ],
+            [
+                "objc",
+                528
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/basilisk2",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.20180101-1"
+}

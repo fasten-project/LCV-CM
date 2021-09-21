@@ -1,0 +1,61 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "barbican.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "policy.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "oslo-config-generator",
+    "package": "barbican",
+    "path": "barbican/1:12.0.0-3/etc/oslo-config-generator",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/barbican/1:12.0.0-3/",
+        "metric": {
+            "size": 4476
+        },
+        "pts_link": "https://tracker.debian.org/pkg/barbican",
+        "sloc": [
+            [
+                "python",
+                44320
+            ],
+            [
+                "sh",
+                953
+            ],
+            [
+                "makefile",
+                70
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/barbican",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:12.0.0-3"
+}
