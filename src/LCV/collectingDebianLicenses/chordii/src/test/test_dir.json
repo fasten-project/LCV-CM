@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "above.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "below.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "data",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "passthrough.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test",
+    "package": "chordii",
+    "path": "chordii/4.5.3+repack-0.2/src/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chordii/4.5.3+repack-0.2/",
+        "metric": {
+            "size": 868
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chordii",
+        "sloc": [
+            [
+                "ansic",
+                3674
+            ],
+            [
+                "sh",
+                1341
+            ],
+            [
+                "makefile",
+                59
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/collab-maint/chordii.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.5.3+repack-0.2"
+}

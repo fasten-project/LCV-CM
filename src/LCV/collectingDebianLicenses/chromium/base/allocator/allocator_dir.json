@@ -1,0 +1,573 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD.gn",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DIR_METADATA",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OWNERS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator.gni",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_check.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_check.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_extension.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2005,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_extension.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2730,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_interception_mac.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_interception_mac.mm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_interception_mac_unittest.mm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8050,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_default_dispatch_to_glibc.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_default_dispatch_to_linker_wrapped_symbols.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2581,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_default_dispatch_to_mac_zoned_malloc.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_default_dispatch_to_partition_alloc.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 22787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_default_dispatch_to_partition_alloc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2624,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_default_dispatch_to_partition_alloc_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5907,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_default_dispatch_to_tcmalloc.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2691,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_default_dispatch_to_winheap.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_internals.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1966,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_override_cpp_symbols.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_override_glibc_weak_symbols.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_override_libc_symbols.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_override_linker_wrapped_symbols.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4457,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_override_mac_default_zone.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_override_mac_symbols.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_override_ucrt_symbols_win.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "allocator_shim_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 25493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debugallocation_shim.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 969,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "malloc_zone_functions_mac.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3570,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "malloc_zone_functions_mac.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "malloc_zone_functions_mac_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "partition_allocator",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tcmalloc_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unittest_utils.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "winheap_stubs_win.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6095,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "winheap_stubs_win.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "winheap_stubs_win_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1885,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "allocator",
+    "package": "chromium",
+    "path": "chromium/93.0.4577.82-1/base/allocator",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chromium/93.0.4577.82-1/",
+        "metric": {
+            "size": 3768128
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chromium",
+        "sloc": [
+            [
+                "cpp",
+                20884188
+            ],
+            [
+                "ansic",
+                3307938
+            ],
+            [
+                "javascript",
+                2907366
+            ],
+            [
+                "python",
+                1487922
+            ],
+            [
+                "xml",
+                621019
+            ],
+            [
+                "java",
+                597477
+            ],
+            [
+                "asm",
+                456682
+            ],
+            [
+                "sh",
+                86888
+            ],
+            [
+                "objc",
+                83701
+            ],
+            [
+                "perl",
+                80004
+            ],
+            [
+                "cs",
+                73239
+            ],
+            [
+                "fortran",
+                24137
+            ],
+            [
+                "php",
+                20393
+            ],
+            [
+                "tcl",
+                18931
+            ],
+            [
+                "ruby",
+                17004
+            ],
+            [
+                "makefile",
+                16368
+            ],
+            [
+                "pascal",
+                13154
+            ],
+            [
+                "sql",
+                11500
+            ],
+            [
+                "yacc",
+                7855
+            ],
+            [
+                "lex",
+                1315
+            ],
+            [
+                "lisp",
+                840
+            ],
+            [
+                "awk",
+                329
+            ],
+            [
+                "jsp",
+                39
+            ],
+            [
+                "sed",
+                19
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/chromium-team/chromium",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "93.0.4577.82-1"
+}

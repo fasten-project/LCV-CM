@@ -1,0 +1,162 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "_locales",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "content-script-start.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1804,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "css",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "extension.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 846,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extension.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "icons",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "include",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "manifest.firefox.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manifest.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1300,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "options.html",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "options.js",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "extension",
+    "package": "chrome-gnome-shell",
+    "path": "chrome-gnome-shell/10.1-5/extension",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chrome-gnome-shell/10.1-5/",
+        "metric": {
+            "size": 1440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chrome-gnome-shell",
+        "sloc": [
+            [
+                "python",
+                444
+            ],
+            [
+                "sh",
+                18
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/gnome-team/chrome-gnome-shell",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "10.1-5"
+}

@@ -1,0 +1,3488 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BUILD.gn",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "DEPS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "OWNERS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 131,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_af.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_am.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52207,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_ar.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_as.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70393,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_az.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40756,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_be.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_bg.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_bn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69916,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_bs.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40470,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_ca.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40569,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_cs.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_da.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38956,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_de.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_el.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 62339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_en-GB.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36593,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_es-419.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40541,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_es.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_et.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38066,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_eu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39806,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_fa.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55044,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_fi.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_fil.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_fr-CA.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_fr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43378,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_gl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40446,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_gu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_hi.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74560,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_hr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40671,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_hu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_hy.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55576,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_id.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_is.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_it.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_iw.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_ja.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_ka.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_kk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_km.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_kn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 78304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_ko.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_ky.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55067,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_lo.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67777,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_lt.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_lv.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_mk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_ml.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79062,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_mn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_mr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69067,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_ms.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40010,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_my.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 78324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_ne.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_nl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_no.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38723,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_or.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_pa.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69832,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_pl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_pt-BR.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_pt-PT.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_ro.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41524,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_ru.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_si.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65706,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_sk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_sl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40485,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_sq.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41652,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_sr-Latn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40230,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_sr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54773,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_sv.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_sw.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_ta.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 77123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_te.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 73302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_th.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 65078,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_tr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_uk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_ur.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_uz.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40439,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_vi.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_zh-CN.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_zh-HK.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36826,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_zh-TW.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37526,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chromium_strings_zu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_af.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 768793,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_am.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1007839,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_ar.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1042781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_as.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1312005,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_az.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 815435,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_be.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1111859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_bg.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1117442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_bn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1310675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_bs.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 809922,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_ca.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 825673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_cs.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 828024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_da.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 785029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_de.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 823900,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_el.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1170678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_en-GB.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 735886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_es-419.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 819647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_es.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 821509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_et.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 773918,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_eu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 805208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_fa.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1019358,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_fi.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 785130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_fil.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 825433,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_fr-CA.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 865818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_fr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 854850,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_gl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 820425,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_gu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1272728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_hi.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1310677,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_hr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 811089,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_hu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 852011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_hy.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1069295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_id.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 765831,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_is.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 796031,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_it.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 809301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_iw.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 935511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_ja.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 914948,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_ka.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1386952,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_kk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1056692,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_km.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1362244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_kn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1418719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_ko.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 824533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_ky.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1073301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_lo.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1257270,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_lt.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 844945,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_lv.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 842480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_mk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1081043,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_ml.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1467151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_mn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1055614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_mr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1258719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_ms.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 783471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_my.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1451052,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_ne.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1382219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_nl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 791588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_no.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 771635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_or.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1386781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_pa.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1277602,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_pl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 830614,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_pt-BR.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 805905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_pt-PT.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 814706,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_ro.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 825580,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_ru.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1098995,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_si.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1243080,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_sk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 832200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_sl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 817114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_sq.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 822265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_sr-Latn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 806058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_sr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1057417,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_sv.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 779230,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_sw.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 796448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_ta.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1432642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_te.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1373318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_th.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1225345,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_tr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 805827,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_uk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1091768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_ur.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1014408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_uz.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 798467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_vi.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 884829,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_zh-CN.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 746238,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_zh-HK.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 737010,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_zh-TW.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 745449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "generated_resources_zu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 812018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_af.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_am.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54072,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_ar.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56554,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_as.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_az.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_be.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59474,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_bg.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58479,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_bn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72014,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_bs.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42028,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_ca.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_cs.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43854,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_da.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40559,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_de.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43140,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_el.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_en-GB.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_es-419.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_es.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_et.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_eu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_fa.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57075,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_fi.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_fil.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43747,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_fr-CA.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_fr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_gl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_gu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71364,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_hi.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 72664,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_hr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_hu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_hy.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57675,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_id.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39796,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_is.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41972,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_it.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42099,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_iw.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49973,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_ja.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_ka.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 74690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_kk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_km.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_kn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_ko.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_ky.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_lo.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69744,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_lt.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45746,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_lv.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 45252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_mk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_ml.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 81217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_mn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57517,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_mr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_ms.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41577,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_my.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_ne.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76046,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_nl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40867,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_no.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_or.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 76825,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_pa.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 71949,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_pl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44059,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_pt-BR.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_pt-PT.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42719,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_ro.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_ru.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_si.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67014,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_sk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 44427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_sl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42207,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_sq.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_sr-Latn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42099,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_sr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 57049,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_sv.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_sw.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_ta.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_te.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 75648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_th.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67404,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_tr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_uk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_ur.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56785,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_uz.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41908,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_vi.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47305,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_zh-CN.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_zh-HK.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 38509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_zh-TW.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39230,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "google_chrome_strings_zu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings.grd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12164,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_am.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_ar-XB.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_ar.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_bg.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_bn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_ca.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_chromiumos.grd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16228,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_cs.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4348,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_da.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_de.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_el.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_en-GB.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_es-419.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_es.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_et.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_fa.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4511,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_fi.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_fil.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_fr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_google_chromeos.grd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 16237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_gu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_he.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4221,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_hi.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_hr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_hu.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_id.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_it.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_ja.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_kn.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_ko.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_linux.grd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_lt.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4374,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_lv.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4141,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_mac.grd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_ml.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4358,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_mr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_ms.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_nb.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_nl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_pl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4287,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_pt-BR.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_pt-PT.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_ro.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_ru.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_sk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_sl.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_sr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_sv.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_sw.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4120,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_ta.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_te.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_th.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_tr.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_uk.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_vi.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_win.grd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 18470,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_zh-CN.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "locale_settings_zh-TW.xtb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "manpage.1.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "platform_locale_settings",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 12288,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "resources_unittest.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "resources",
+    "package": "chromium",
+    "path": "chromium/93.0.4577.82-1/chrome/app/resources",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/chromium/93.0.4577.82-1/",
+        "metric": {
+            "size": 3768128
+        },
+        "pts_link": "https://tracker.debian.org/pkg/chromium",
+        "sloc": [
+            [
+                "cpp",
+                20884188
+            ],
+            [
+                "ansic",
+                3307938
+            ],
+            [
+                "javascript",
+                2907366
+            ],
+            [
+                "python",
+                1487922
+            ],
+            [
+                "xml",
+                621019
+            ],
+            [
+                "java",
+                597477
+            ],
+            [
+                "asm",
+                456682
+            ],
+            [
+                "sh",
+                86888
+            ],
+            [
+                "objc",
+                83701
+            ],
+            [
+                "perl",
+                80004
+            ],
+            [
+                "cs",
+                73239
+            ],
+            [
+                "fortran",
+                24137
+            ],
+            [
+                "php",
+                20393
+            ],
+            [
+                "tcl",
+                18931
+            ],
+            [
+                "ruby",
+                17004
+            ],
+            [
+                "makefile",
+                16368
+            ],
+            [
+                "pascal",
+                13154
+            ],
+            [
+                "sql",
+                11500
+            ],
+            [
+                "yacc",
+                7855
+            ],
+            [
+                "lex",
+                1315
+            ],
+            [
+                "lisp",
+                840
+            ],
+            [
+                "awk",
+                329
+            ],
+            [
+                "jsp",
+                39
+            ],
+            [
+                "sed",
+                19
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/chromium-team/chromium",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "93.0.4577.82-1"
+}
