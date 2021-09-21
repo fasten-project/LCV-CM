@@ -1,0 +1,933 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Jamfile.v2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 673,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add_const_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1764,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add_cv_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add_pointer_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1172,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add_reference_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1909,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add_volatile_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1908,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aligned_storage_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3825,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "alignment_of_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2697,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_integral_constant.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3295,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check_type.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decay_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extent_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "function_traits_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2691,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "has_nothrow_assign_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12024,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "has_nothrow_constr_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "has_nothrow_copy_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11626,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "has_trivial_assign_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "has_trivial_constr_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12418,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "has_trivial_copy_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "has_trivial_destructor_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "has_virtual_destructor_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "init.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_abstract_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_arithmetic_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_array_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_base_and_derived_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2718,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_base_of_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1982,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_class_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2755,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_complex_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_compound_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 794,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_const_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1907,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_convertible_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_empty_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_enum_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_float_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2548,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_floating_point_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_function_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_fundamental_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_integral_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_member_func_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_member_obj_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_member_pointer_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_object_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 964,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_pod_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_pointer_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2664,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_polymorphic_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3881,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_reference_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2065,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_same_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_scalar_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9064,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_signed_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_stateless_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9973,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_union_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_unsigned_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_void_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "is_volatile_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make_signed_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make_unsigned_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5960,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "promote_basic_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "promote_enum_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3868,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "promote_mpl_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1926,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "promote_util.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rank_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 883,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_all_extents_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2468,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_bounds_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_const_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_cv_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_extent_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_pointer_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_reference_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1985,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_volatile_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.hpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tricky_abstract_type_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tricky_add_pointer_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1096,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tricky_function_type_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5382,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tricky_incomplete_type_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1800,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tricky_is_enum_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 665,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tricky_partial_spec_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5725,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "type_with_alignment_test.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "udt_specialisations.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test",
+    "package": "boost1.35",
+    "path": "boost1.35/1.35.0-5/libs/type_traits/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 337867,
+        "license": "/copyright/license/boost1.35/1.35.0-5/",
+        "metric": {
+            "size": 203856
+        },
+        "pts_link": "https://tracker.debian.org/pkg/boost1.35",
+        "sloc": [
+            [
+                "cpp",
+                938683
+            ],
+            [
+                "xml",
+                56847
+            ],
+            [
+                "ansic",
+                41589
+            ],
+            [
+                "python",
+                18999
+            ],
+            [
+                "sh",
+                11566
+            ],
+            [
+                "makefile",
+                664
+            ],
+            [
+                "perl",
+                494
+            ],
+            [
+                "yacc",
+                456
+            ],
+            [
+                "asm",
+                353
+            ],
+            [
+                "csh",
+                6
+            ]
+        ],
+        "suites": [
+            "lenny"
+        ]
+    },
+    "type": "directory",
+    "version": "1.35.0-5"
+}
