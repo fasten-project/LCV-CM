@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-buildsystem.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-fix_segfaults.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1580,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "autotalent",
+    "path": "autotalent/0.2-6/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autotalent/0.2-6/",
+        "metric": {
+            "size": 252
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autotalent",
+        "sloc": [
+            [
+                "ansic",
+                3091
+            ],
+            [
+                "makefile",
+                42
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/autotalent",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2-6"
+}

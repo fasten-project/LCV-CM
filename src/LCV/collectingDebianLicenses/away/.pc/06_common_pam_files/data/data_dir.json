@@ -1,0 +1,53 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "away.pam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "data",
+    "package": "away",
+    "path": "away/0.9.5+ds-0+nmu2/.pc/06_common_pam_files/data",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/away/0.9.5+ds-0+nmu2/",
+        "metric": {
+            "size": 248
+        },
+        "pts_link": "https://tracker.debian.org/pkg/away",
+        "sloc": [
+            [
+                "ansic",
+                654
+            ],
+            [
+                "makefile",
+                21
+            ],
+            [
+                "sh",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "0.9.5+ds-0+nmu2"
+}

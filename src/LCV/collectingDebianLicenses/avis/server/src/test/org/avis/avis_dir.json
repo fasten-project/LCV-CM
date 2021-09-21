@@ -1,0 +1,89 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "config",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "federation",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "router",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "subscription",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 41,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "avis",
+    "package": "avis",
+    "path": "avis/1.2.2-4/server/src/test/org/avis",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avis/1.2.2-4/",
+        "metric": {
+            "size": 1752
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avis",
+        "sloc": [
+            [
+                "java",
+                19239
+            ],
+            [
+                "xml",
+                493
+            ],
+            [
+                "sh",
+                245
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/collab-maint/avis.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.2-4"
+}

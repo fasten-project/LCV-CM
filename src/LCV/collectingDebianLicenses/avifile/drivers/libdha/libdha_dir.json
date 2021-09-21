@@ -1,0 +1,252 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "AsmMacros.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4479,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.mp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cpu_flush.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "irq.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernelhelper",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 132,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "libdha.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libdha.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mmi.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mtrr.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2057,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "oth",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pci.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26097,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pci_db2c.awk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ports.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sysdep",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1382,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "libdha",
+    "package": "avifile",
+    "path": "avifile/1:0.7.48~20090503.ds-21/drivers/libdha",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avifile/1:0.7.48%7E20090503.ds-21/",
+        "metric": {
+            "size": 8344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avifile",
+        "sloc": [
+            [
+                "cpp",
+                57239
+            ],
+            [
+                "ansic",
+                56968
+            ],
+            [
+                "sh",
+                5370
+            ],
+            [
+                "perl",
+                1548
+            ],
+            [
+                "makefile",
+                1264
+            ],
+            [
+                "asm",
+                569
+            ],
+            [
+                "awk",
+                234
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1:0.7.48~20090503.ds-21"
+}

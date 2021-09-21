@@ -1,0 +1,61 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00list",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-shellrun.dpatch",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "autorun4linuxcd",
+    "path": "autorun4linuxcd/0.13+nmu1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 12,
+        "license": "/copyright/license/autorun4linuxcd/0.13+nmu1/",
+        "metric": {
+            "size": 124
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autorun4linuxcd",
+        "sloc": [
+            [
+                "makefile",
+                85
+            ],
+            [
+                "ansic",
+                16
+            ],
+            [
+                "sh",
+                9
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://git.debian.org/git/debian-live/autorun4linuxcd.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.13+nmu1"
+}

@@ -1,0 +1,238 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "autopkgtest",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 198948,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autopkgtest_args",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 15132,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "home",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "mypy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1390,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pycodestyle",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 703,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pyflakes",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 809,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "qemu",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-parallel",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 902,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shellcheck",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1028,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ssh-setup-lxd",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3310,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testarchive.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testclick",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 97,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "testclick_0.1_all.click",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1178,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testdesc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34912,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testpkg",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "testpkg-reboot",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "testpkg-reboot-prepare",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "testpkg-simple",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "tests",
+    "package": "autopkgtest",
+    "path": "autopkgtest/5.16/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autopkgtest/5.16/",
+        "metric": {
+            "size": 1204
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autopkgtest",
+        "sloc": [
+            [
+                "python",
+                10083
+            ],
+            [
+                "sh",
+                1617
+            ],
+            [
+                "makefile",
+                86
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ci-team/autopkgtest",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.16"
+}

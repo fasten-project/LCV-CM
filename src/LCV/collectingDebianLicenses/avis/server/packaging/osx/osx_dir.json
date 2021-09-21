@@ -1,0 +1,100 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Description.plist",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Info.plist.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "license.rtf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 856,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "org.avis.avisd.plist",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "welcome.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "osx",
+    "package": "avis",
+    "path": "avis/1.2.2-4/server/packaging/osx",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avis/1.2.2-4/",
+        "metric": {
+            "size": 1752
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avis",
+        "sloc": [
+            [
+                "java",
+                19239
+            ],
+            [
+                "xml",
+                493
+            ],
+            [
+                "sh",
+                245
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/collab-maint/avis.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.2-4"
+}

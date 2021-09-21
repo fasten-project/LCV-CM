@@ -1,0 +1,141 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Fix-paths-in-the-man-page.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-ps-creationdate.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 862,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-lock-byte-read-mask.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17788,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "revert-usbtiny-tpi-implementation.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10637,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "undefined-posix-limits-workaround.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-makeinfo.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-tbl-man-preprocessor.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "avrdude",
+    "path": "avrdude/6.3-20171130+svn1429-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avrdude/6.3-20171130+svn1429-2/",
+        "metric": {
+            "size": 5504
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avrdude",
+        "sloc": [
+            [
+                "ansic",
+                31678
+            ],
+            [
+                "sh",
+                4430
+            ],
+            [
+                "yacc",
+                1333
+            ],
+            [
+                "makefile",
+                251
+            ],
+            [
+                "lex",
+                244
+            ],
+            [
+                "xml",
+                64
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/avrdude",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "6.3-20171130+svn1429-2"
+}

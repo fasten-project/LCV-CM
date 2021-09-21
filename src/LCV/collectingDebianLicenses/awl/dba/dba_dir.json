@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "awl-tables.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "grant-minimum-permissions.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "grant-on-all-tables.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "schema-management.sql",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2067,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "dba",
+    "package": "awl",
+    "path": "awl/0.62-1/dba",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/awl/0.62-1/",
+        "metric": {
+            "size": 832
+        },
+        "pts_link": "https://tracker.debian.org/pkg/awl",
+        "sloc": [
+            [
+                "php",
+                6250
+            ],
+            [
+                "sql",
+                107
+            ],
+            [
+                "sh",
+                55
+            ],
+            [
+                "makefile",
+                55
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://gitlab.com/davical-project/awl",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.62-1"
+}

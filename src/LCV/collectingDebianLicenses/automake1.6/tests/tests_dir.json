@@ -1,0 +1,4341 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ChangeLog-old",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36117,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5879,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acinclude.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aclibobj.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aclocal.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 165,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aclocali.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 485,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aclocali1.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "aclocalii.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acoutnoq.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acoutput.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acoutput2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 501,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acoutqnl.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acouttbs.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acsilent.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acsubst.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 269,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "acsubst2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "all.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 354,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "alpha.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "amassign.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 226,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ammissing.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ansi.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ansi2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ansi3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ansi4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ansi5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1344,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ansi6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 674,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ansi7.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 704,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ar.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 390,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asm.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1236,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "auxdir.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 453,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "auxdir2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backsl.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backsl2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "badline.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 305,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "badprog.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "block.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 289,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canon.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 262,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canon2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canon3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 290,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canon4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "canon5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ccnoco.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "checkall.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clean.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colneq.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colneq2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colon.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 348,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colon2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colon3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 961,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colon4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colon5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colon6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "colon7.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comment.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 210,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comment2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 348,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comment3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comment4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comment5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 794,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "comment6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 744,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compile_f_c_cxx.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 734,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond10.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond11.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 808,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond12.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2868,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond13.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 592,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond14.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond15.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond16.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 700,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond17.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond18.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 856,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond19.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond20.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond22.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond23.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 355,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond24.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1094,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 608,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 398,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond7.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond8.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cond9.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 475,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "condd.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 238,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "condincl.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 417,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "condincl2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "condlib.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "condman.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "condman2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "conf2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "confdeps.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "confdist.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 238,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "confh.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 726,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "confh4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 518,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "confincl.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "confsub.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "confvar.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "confvar2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copy.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 169,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ctarget1.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cxx.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cxxansi.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 478,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cxxcpp.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cxxlibobj.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cxxlink.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cxxnoc.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cxxo.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cygwin32.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dash.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "defs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3802,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "defun.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "defun2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 431,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dejagnu.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dejagnu2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "depacl.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "depacl2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "depcomp.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 686,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "depcomp2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 662,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "depdist.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 628,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "depend.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "depend2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "depend3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 791,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "depend4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dirforbid.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 433,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dirname.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1084,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "discover.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 387,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "distcommon.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "distcommon2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 886,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "distcommon3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "distdir.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 452,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "distname.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 491,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dollar.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "double.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 268,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dup2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dup3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "else.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 510,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 755,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 347,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 248,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "error.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 351,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exdir.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exdir2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 214,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exeext.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exeext2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "exsource.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ext.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extra.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 542,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extra3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extra4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extra5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extra6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 758,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extra7.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1074,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "flibs.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1086,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fnoc.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fo.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 374,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fonly.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1059,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fortdep.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fpinst2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fpinstall.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcj.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 296,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcj2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 287,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcj3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 342,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcj4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gettext.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 625,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gettext2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gnits.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "header.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 305,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "implicit.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "info.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "insh.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "insh2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "installdir.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "installsh.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instdata.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instdata2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instexec.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 224,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "insthook.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 425,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instman.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instman2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "interp.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "interp2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "java.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 257,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "java2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "javaprim.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 248,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "javasubst.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ldadd.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ldflags.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lex.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 467,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lex2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lex3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lex4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lex5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 859,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libobj.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 503,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libobj10.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 497,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libobj11.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libobj2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libobj3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libobj4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 278,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libobj5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libobj6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libobj7.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libobj8.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 582,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libobj9.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "library.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libtool.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 360,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libtool2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 644,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libtool3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link_c_cxx.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 701,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link_dist.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link_f_c.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 717,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link_f_c_cxx.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 737,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link_f_cxx.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 706,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "link_f_only.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 683,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lisp.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "listval.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 519,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ltdeps.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 804,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ltlibobjs.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "maintclean.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 691,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "makevars.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 374,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "man.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "man2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 528,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mclean.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mdate.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mdate2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mdate3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 526,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mdate4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 520,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mkinst2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mkinstall.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nobase.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2239,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nodefine.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1042,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nodefine2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 775,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nodep.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nodepcomp.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nodist.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nodist2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 310,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "noinst.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 263,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "noinstdir.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nolink.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nostdinc.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 320,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "number.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 333,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "obsolete.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "order.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 269,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "outdir.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "output.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "output2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 435,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "output3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "output4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "output5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 248,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "package.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "parse.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pluseq.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pluseq2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 391,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pluseq3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 465,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pluseq4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pluseq5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 274,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pluseq6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pluseq7.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 334,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pluseq8.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postproc.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 613,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ppf77.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 466,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr204.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1008,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr211.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr220.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 778,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr224.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr229.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 248,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr243.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr266.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 600,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr279-2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr279.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr287.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr300-lib.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 812,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr300-ltlib.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 868,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr300-prog.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 834,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr307.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1026,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr72.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr87.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pr9.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 533,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "prefix.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "primary.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 194,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "primary2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 255,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "proginst.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ranlib.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "recurs.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "recurs2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 390,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remake.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 307,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remake2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 308,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remake3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "req.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "required.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 606,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "required2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1009,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rulepat.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "scripts.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "seenc.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sinclude.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 659,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sourcesub.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sourcesub2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "space.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 218,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "specflags.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 583,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "specflags2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "specflags3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "specflags6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "specflags7.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 694,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "specflags8.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spell.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spell2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spell3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spelling.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stamph.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stamph2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 872,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "stdlib.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 363,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "strip.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subdir.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subdir2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subdir3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 377,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subdir4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1041,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subdir5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1012,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subdir6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subdirbuiltsources.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 965,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subdircond.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 400,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subobj.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 506,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subobj2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subobj3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subobj4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 483,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subobj5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 479,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subobj6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subobj7.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 435,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subobj8.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 562,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subobj9.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subobjname.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "subst.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "substref.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "substtarg.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "suffix.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "suffix2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 672,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "suffix3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 603,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "suffix4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "suffix5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "suffix6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 721,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "suffix7.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symlink.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 301,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symlink2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "symlink3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "syntax.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tags.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tagsub.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 456,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "target-cflags.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "target.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "texinfo.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 438,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "texinfo10.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "texinfo2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 417,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "texinfo3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 299,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "texinfo4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 273,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "texinfo5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "texinfo6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "texinfo7.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "texinfo8.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 740,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "texinfo9.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unused.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 342,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vars.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vartar.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 429,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 381,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1615,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "version6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vpath.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vtexi.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1206,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "vtexi2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "werror.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 218,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "whoami.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xsource.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yacc.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 338,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yacc2.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1214,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yacc3.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 749,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yacc4.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1316,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yacc5.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yacc6.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yacc7.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 841,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yacc8.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yaccpp.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 284,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yaccvpath.test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1884,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "automake1.6",
+    "path": "automake1.6/1.6.3-12/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 63,
+        "license": "/copyright/license/automake1.6/1.6.3-12/",
+        "metric": {
+            "size": 3880
+        },
+        "pts_link": "https://tracker.debian.org/pkg/automake1.6",
+        "sloc": [
+            [
+                "sh",
+                10641
+            ],
+            [
+                "perl",
+                6160
+            ],
+            [
+                "makefile",
+                627
+            ],
+            [
+                "ansic",
+                487
+            ]
+        ],
+        "suites": [
+            "sarge"
+        ]
+    },
+    "type": "directory",
+    "version": "1.6.3-12"
+}

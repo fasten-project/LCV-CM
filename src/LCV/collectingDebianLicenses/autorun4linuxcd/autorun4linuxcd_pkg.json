@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "COPYING",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17987,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TODO",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 633,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autorun",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 140,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "autorun.inf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "shellrun",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0.13+nmu1",
+    "package": "autorun4linuxcd",
+    "path": "autorun4linuxcd/0.13+nmu1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 12,
+        "license": "/copyright/license/autorun4linuxcd/0.13+nmu1/",
+        "metric": {
+            "size": 124
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autorun4linuxcd",
+        "sloc": [
+            [
+                "makefile",
+                85
+            ],
+            [
+                "ansic",
+                16
+            ],
+            [
+                "sh",
+                9
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ],
+        "vcs_browser": "http://git.debian.org/git/debian-live/autorun4linuxcd.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.13+nmu1"
+}

@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Install",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README1st.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avr-evtd.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37170,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "0001-Fix-missing-incorrect-information-from-upstream.patch",
+    "package": "avr-evtd",
+    "path": "avr-evtd/1.7.7-4/.pc/0001-Fix-missing-incorrect-information-from-upstream.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avr-evtd/1.7.7-4/",
+        "metric": {
+            "size": 424
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avr-evtd",
+        "sloc": [
+            [
+                "ansic",
+                1152
+            ],
+            [
+                "sh",
+                212
+            ],
+            [
+                "makefile",
+                49
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/rbrito/pkg-avr-evtd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.7.7-4"
+}

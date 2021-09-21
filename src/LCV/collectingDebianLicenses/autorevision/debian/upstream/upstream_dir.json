@@ -1,0 +1,64 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "metadata",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "signing-key.asc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "upstream",
+    "package": "autorevision",
+    "path": "autorevision/1.22-2/debian/upstream",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autorevision/1.22-2/",
+        "metric": {
+            "size": 200
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autorevision",
+        "sloc": [
+            [
+                "sh",
+                1171
+            ],
+            [
+                "makefile",
+                86
+            ],
+            [
+                "python",
+                29
+            ],
+            [
+                "ansic",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1.22-2"
+}

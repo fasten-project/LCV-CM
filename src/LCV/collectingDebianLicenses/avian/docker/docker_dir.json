@@ -1,0 +1,115 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Dockerfile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "arm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 764,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "i386",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "openjdk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "windows",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "docker",
+    "package": "avian",
+    "path": "avian/1.1.0-4/docker",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 16469,
+        "license": "/copyright/license/avian/1.1.0-4/",
+        "metric": {
+            "size": 5736
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avian",
+        "sloc": [
+            [
+                "cpp",
+                65800
+            ],
+            [
+                "java",
+                29914
+            ],
+            [
+                "makefile",
+                1810
+            ],
+            [
+                "asm",
+                1190
+            ],
+            [
+                "ansic",
+                1184
+            ],
+            [
+                "sh",
+                239
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ]
+    },
+    "type": "directory",
+    "version": "1.1.0-4"
+}

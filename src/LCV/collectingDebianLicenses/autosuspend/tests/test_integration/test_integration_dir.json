@@ -1,0 +1,127 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dont_suspend.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 264,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "minimal.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no_checks.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 232,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "notify.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "notify_wakeup.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 447,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "temporary_error.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "would_schedule.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 325,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "would_suspend.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test_integration",
+    "package": "autosuspend",
+    "path": "autosuspend/3.0-2/tests/test_integration",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autosuspend/3.0-2/",
+        "metric": {
+            "size": 636
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autosuspend",
+        "sloc": [
+            [
+                "python",
+                4142
+            ],
+            [
+                "xml",
+                13
+            ],
+            [
+                "makefile",
+                10
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/autosuspend",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0-2"
+}

@@ -1,0 +1,103 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_AM_PATH_GLIB.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 401,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "10_netstring.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 557,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "11_clang-gcc5.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20_sv.po.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2736,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "22_linguas.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 202,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "autounit",
+    "path": "autounit/0.20.1-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autounit/0.20.1-5/",
+        "metric": {
+            "size": 1700
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autounit",
+        "sloc": [
+            [
+                "sh",
+                8777
+            ],
+            [
+                "ansic",
+                2606
+            ],
+            [
+                "makefile",
+                119
+            ]
+        ],
+        "suites": [
+            "buster",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "0.20.1-5"
+}

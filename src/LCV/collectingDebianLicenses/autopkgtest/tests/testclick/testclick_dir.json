@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 317,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "build",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "click",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "testclick",
+    "package": "autopkgtest",
+    "path": "autopkgtest/5.16/tests/testclick",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autopkgtest/5.16/",
+        "metric": {
+            "size": 1204
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autopkgtest",
+        "sloc": [
+            [
+                "python",
+                10083
+            ],
+            [
+                "sh",
+                1617
+            ],
+            [
+                "makefile",
+                86
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ci-team/autopkgtest",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.16"
+}

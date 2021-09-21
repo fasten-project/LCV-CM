@@ -1,0 +1,149 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "drop_cp2kinput.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_SMILES_PR661.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1064,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_transparency_PR656.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "insert_crystals_PR658.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6340,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "insert_crystals_PR659.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3323,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "qtplugins_insertfragment.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "read_nonstandard_pdb_PR647.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2508,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script_hashbang.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "avogadrolibs",
+    "path": "avogadrolibs/1.94.0-6/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avogadrolibs/1.94.0-6/",
+        "metric": {
+            "size": 32992
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avogadrolibs",
+        "sloc": [
+            [
+                "cpp",
+                102210
+            ],
+            [
+                "ansic",
+                2212
+            ],
+            [
+                "python",
+                959
+            ],
+            [
+                "perl",
+                321
+            ],
+            [
+                "sh",
+                83
+            ],
+            [
+                "makefile",
+                40
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debichem-team/avogadrolibs",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.94.0-6"
+}

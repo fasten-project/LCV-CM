@@ -1,0 +1,55 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bin",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "use-python3.patch",
+    "package": "autojump",
+    "path": "autojump/22.5.1-1.1/.pc/use-python3.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autojump/22.5.1-1.1/",
+        "metric": {
+            "size": 436
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autojump",
+        "sloc": [
+            [
+                "python",
+                2502
+            ],
+            [
+                "sh",
+                123
+            ],
+            [
+                "makefile",
+                37
+            ],
+            [
+                "csh",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://git.ortolo.eu/pkg-autojump.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "22.5.1-1.1"
+}

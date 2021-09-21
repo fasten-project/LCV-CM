@@ -1,0 +1,86 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_fix_makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05_ehance_security",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 994,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06_common_pam_files",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "away",
+    "path": "away/0.9.5+ds-0+nmu2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/away/0.9.5+ds-0+nmu2/",
+        "metric": {
+            "size": 248
+        },
+        "pts_link": "https://tracker.debian.org/pkg/away",
+        "sloc": [
+            [
+                "ansic",
+                654
+            ],
+            [
+                "makefile",
+                21
+            ],
+            [
+                "sh",
+                13
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "0.9.5+ds-0+nmu2"
+}

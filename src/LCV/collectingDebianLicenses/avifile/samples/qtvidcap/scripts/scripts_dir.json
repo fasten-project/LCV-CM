@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "avicap-boot",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3027,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avicap-setnvram",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avicap-shutdown",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "avifile",
+    "path": "avifile/1:0.7.48~20090503.ds-21/samples/qtvidcap/scripts",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avifile/1:0.7.48%7E20090503.ds-21/",
+        "metric": {
+            "size": 8344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avifile",
+        "sloc": [
+            [
+                "cpp",
+                57239
+            ],
+            [
+                "ansic",
+                56968
+            ],
+            [
+                "sh",
+                5370
+            ],
+            [
+                "perl",
+                1548
+            ],
+            [
+                "makefile",
+                1264
+            ],
+            [
+                "asm",
+                569
+            ],
+            [
+                "awk",
+                234
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1:0.7.48~20090503.ds-21"
+}

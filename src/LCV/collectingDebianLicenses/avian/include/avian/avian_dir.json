@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "codegen",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "heap",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "system",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tools",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 34,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "util",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "avian",
+    "package": "avian",
+    "path": "avian/1.1.0-4/include/avian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 16469,
+        "license": "/copyright/license/avian/1.1.0-4/",
+        "metric": {
+            "size": 5736
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avian",
+        "sloc": [
+            [
+                "cpp",
+                65800
+            ],
+            [
+                "java",
+                29914
+            ],
+            [
+                "makefile",
+                1810
+            ],
+            [
+                "asm",
+                1190
+            ],
+            [
+                "ansic",
+                1184
+            ],
+            [
+                "sh",
+                239
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd"
+        ]
+    },
+    "type": "directory",
+    "version": "1.1.0-4"
+}

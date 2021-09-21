@@ -1,0 +1,252 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "autotools.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4383,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avifile-config.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1389,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ffmpeg.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9940,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ffmpeg4.0.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ffmpeg_2.9.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7059,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-build-with-libav07.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 817,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-ftbfs-libav9.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-libav07-compat.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4901,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ftbfs-freebsd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ftbfs-gcc4.7.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2589,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ftbfs-ia64.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc45.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libav10.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10924,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "libqavm-private.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-lame.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "port-to-gcc6.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 689,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reproducible-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 688,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 322,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "avifile",
+    "path": "avifile/1:0.7.48~20090503.ds-21/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avifile/1:0.7.48%7E20090503.ds-21/",
+        "metric": {
+            "size": 8344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avifile",
+        "sloc": [
+            [
+                "cpp",
+                57239
+            ],
+            [
+                "ansic",
+                56968
+            ],
+            [
+                "sh",
+                5370
+            ],
+            [
+                "perl",
+                1548
+            ],
+            [
+                "makefile",
+                1264
+            ],
+            [
+                "asm",
+                569
+            ],
+            [
+                "awk",
+                234
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "1:0.7.48~20090503.ds-21"
+}

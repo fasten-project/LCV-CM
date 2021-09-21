@@ -1,0 +1,64 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "libavrdude.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "undefined-posix-limits-workaround.patch",
+    "package": "avrdude",
+    "path": "avrdude/6.3-20171130+svn1429-2/.pc/undefined-posix-limits-workaround.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avrdude/6.3-20171130+svn1429-2/",
+        "metric": {
+            "size": 5504
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avrdude",
+        "sloc": [
+            [
+                "ansic",
+                31678
+            ],
+            [
+                "sh",
+                4430
+            ],
+            [
+                "yacc",
+                1333
+            ],
+            [
+                "makefile",
+                251
+            ],
+            [
+                "lex",
+                244
+            ],
+            [
+                "xml",
+                64
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/avrdude",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "6.3-20171130+svn1429-2"
+}

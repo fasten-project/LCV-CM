@@ -1,0 +1,134 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".quilt_patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".quilt_series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": ".version",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-texi-rename.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "02-init-m4-newline.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "03-ensure-ac_aux_dir-set.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 66,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "CVE-bug-827347.diff",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "applied-patches",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": ".pc",
+    "package": "automake-1.14",
+    "path": "automake-1.14/1:1.14.1-4+deb8u1/.pc",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 705,
+        "license": "/copyright/license/automake-1.14/1:1.14.1-4+deb8u1/",
+        "metric": {
+            "size": 13176
+        },
+        "pts_link": "https://tracker.debian.org/pkg/automake-1.14",
+        "sloc": [
+            [
+                "sh",
+                57794
+            ],
+            [
+                "perl",
+                11754
+            ],
+            [
+                "pascal",
+                644
+            ],
+            [
+                "makefile",
+                104
+            ],
+            [
+                "ansic",
+                9
+            ]
+        ],
+        "suites": [
+            "jessie"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=users/eric/automake-1.14.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.14.1-4+deb8u1"
+}

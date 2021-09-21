@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "_description.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "add-model.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 434,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "set",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "configure",
+    "package": "awscli",
+    "path": "awscli/1.20.23-1/awscli/examples/configure",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/awscli/1.20.23-1/",
+        "metric": {
+            "size": 22896
+        },
+        "pts_link": "https://tracker.debian.org/pkg/awscli",
+        "sloc": [
+            [
+                "python",
+                24277
+            ],
+            [
+                "sh",
+                36
+            ],
+            [
+                "makefile",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/cloud-team/awscli",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.20.23-1"
+}

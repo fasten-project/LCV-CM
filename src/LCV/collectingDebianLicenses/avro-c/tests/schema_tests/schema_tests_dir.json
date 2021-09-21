@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fail",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pass",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "schema_tests",
+    "package": "avro-c",
+    "path": "avro-c/1.9.0-1/tests/schema_tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avro-c/1.9.0-1/",
+        "metric": {
+            "size": 1868
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avro-c",
+        "sloc": [
+            [
+                "ansic",
+                25752
+            ],
+            [
+                "sh",
+                114
+            ],
+            [
+                "makefile",
+                8
+            ],
+            [
+                "cpp",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/edmonds/avro-c",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.9.0-1"
+}

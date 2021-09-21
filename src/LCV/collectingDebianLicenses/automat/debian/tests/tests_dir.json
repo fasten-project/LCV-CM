@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unit-tests-3",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "automat",
+    "path": "automat/20.2.0-1/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/automat/20.2.0-1/",
+        "metric": {
+            "size": 400
+        },
+        "pts_link": "https://tracker.debian.org/pkg/automat",
+        "sloc": [
+            [
+                "python",
+                1909
+            ],
+            [
+                "makefile",
+                16
+            ],
+            [
+                "sh",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/modules/automat",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "20.2.0-1"
+}

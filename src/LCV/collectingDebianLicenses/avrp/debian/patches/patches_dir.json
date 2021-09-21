@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "10_makefile.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 380,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20_misc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 579,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30_configfile_kfreebsd.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "40_manpage_hyphen.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4104,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50_manpage_fix.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "avrp",
+    "path": "avrp/1.0beta3-7/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 194,
+        "license": "/copyright/license/avrp/1.0beta3-7/",
+        "metric": {
+            "size": 240
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avrp",
+        "sloc": [
+            [
+                "ansic",
+                2458
+            ],
+            [
+                "perl",
+                6
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "sid",
+            "squeeze",
+            "stretch",
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "1.0beta3-7"
+}

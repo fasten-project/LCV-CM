@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01-configure.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-sleuthkit.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14452,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-warn-when-not-root.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04-man.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-find-perm.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "06-fix-spelling-error-in-manpage.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 646,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "autopsy",
+    "path": "autopsy/2.24-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autopsy/2.24-5/",
+        "metric": {
+            "size": 1644
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autopsy",
+        "sloc": [
+            [
+                "perl",
+                12439
+            ],
+            [
+                "sh",
+                322
+            ],
+            [
+                "makefile",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/autopsy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.24-5"
+}

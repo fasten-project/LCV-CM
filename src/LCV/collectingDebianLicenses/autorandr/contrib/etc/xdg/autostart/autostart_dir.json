@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "autorandr-launcher.desktop",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autorandr-lid-listener.desktop",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 328,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autorandr.desktop",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "autostart",
+    "package": "autorandr",
+    "path": "autorandr/1.11-1/contrib/etc/xdg/autostart",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/autorandr/1.11-1/",
+        "metric": {
+            "size": 360
+        },
+        "pts_link": "https://tracker.debian.org/pkg/autorandr",
+        "sloc": [
+            [
+                "python",
+                1149
+            ],
+            [
+                "makefile",
+                156
+            ],
+            [
+                "ansic",
+                141
+            ],
+            [
+                "sh",
+                77
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/autorandr.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.11-1"
+}

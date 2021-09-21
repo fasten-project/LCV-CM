@@ -1,0 +1,204 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "delete-identity.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 529,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get-identity-dkim-attributes.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get-identity-notification-attributes.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1369,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get-identity-verification-attributes.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 997,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get-send-quota.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "get-send-statistics.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "list-identities.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 906,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "send-email.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "send-raw-email.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set-identity-dkim-enabled.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set-identity-feedback-forwarding-enabled.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 890,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set-identity-notification-topic.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verify-domain-dkim.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 820,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verify-domain-identity.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "verify-email-identity.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ses",
+    "package": "awscli",
+    "path": "awscli/1.20.23-1/awscli/examples/ses",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/awscli/1.20.23-1/",
+        "metric": {
+            "size": 22896
+        },
+        "pts_link": "https://tracker.debian.org/pkg/awscli",
+        "sloc": [
+            [
+                "python",
+                24277
+            ],
+            [
+                "sh",
+                36
+            ],
+            [
+                "makefile",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/cloud-team/awscli",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.20.23-1"
+}

@@ -1,0 +1,78 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix-automx-test-install.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 259,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-example-paths-for-package.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2075,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 66,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "automx",
+    "path": "automx/0.10.0-2.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/automx/0.10.0-2.1/",
+        "metric": {
+            "size": 1980
+        },
+        "pts_link": "https://tracker.debian.org/pkg/automx",
+        "sloc": [
+            [
+                "python",
+                1466
+            ],
+            [
+                "sh",
+                93
+            ],
+            [
+                "makefile",
+                33
+            ],
+            [
+                "ruby",
+                9
+            ]
+        ],
+        "suites": [
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "https://github.com/wreiner/automx-debian.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.10.0-2.1"
+}

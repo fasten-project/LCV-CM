@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "common",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 48,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "luaa.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "luaa.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8758,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "objects",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "gcc10.patch",
+    "package": "awesome",
+    "path": "awesome/4.3-5/.pc/gcc10.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/awesome/4.3-5/",
+        "metric": {
+            "size": 6412
+        },
+        "pts_link": "https://tracker.debian.org/pkg/awesome",
+        "sloc": [
+            [
+                "ansic",
+                14508
+            ],
+            [
+                "sh",
+                525
+            ],
+            [
+                "makefile",
+                44
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/reiner/awesome",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.3-5"
+}

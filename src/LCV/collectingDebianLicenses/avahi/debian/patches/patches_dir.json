@@ -1,0 +1,170 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Fetch-build-db-from-upstream-git.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Ship-avahi-discover-1-bssh-1-and-bvnc-1-also-for-GTK3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1077,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avahi-discover-Don-t-decode-unicode-strings-only-bytestri.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1840,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avahi-dnsconfd.service-Drop-Also-avahi-daemon.socket.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 939,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "avahi_dns_packet_consume_uint32-fix-potential-undefined-b.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1515,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build-db-Use-the-same-database-format-that-the-C-code-exp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3526,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-bytestring-decoding-for-proper-display.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "man-add-missing-bshell.1-symlink.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "man-fix-reference-to-avahi-autoipd.action-8-in-avahi-auto.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 986,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "avahi",
+    "path": "avahi/0.8-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avahi/0.8-5/",
+        "metric": {
+            "size": 9964
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avahi",
+        "sloc": [
+            [
+                "ansic",
+                41130
+            ],
+            [
+                "sh",
+                6142
+            ],
+            [
+                "xml",
+                4594
+            ],
+            [
+                "cs",
+                2185
+            ],
+            [
+                "makefile",
+                1747
+            ],
+            [
+                "python",
+                428
+            ],
+            [
+                "cpp",
+                224
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/utopia-team/avahi",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.8-5"
+}

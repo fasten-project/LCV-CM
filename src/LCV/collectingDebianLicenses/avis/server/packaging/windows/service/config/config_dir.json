@@ -1,0 +1,56 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "wrapper.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3919,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "config",
+    "package": "avis",
+    "path": "avis/1.2.2-4/server/packaging/windows/service/config",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avis/1.2.2-4/",
+        "metric": {
+            "size": 1752
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avis",
+        "sloc": [
+            [
+                "java",
+                19239
+            ],
+            [
+                "xml",
+                493
+            ],
+            [
+                "sh",
+                245
+            ],
+            [
+                "makefile",
+                5
+            ]
+        ],
+        "suites": [
+            "buster",
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/collab-maint/avis.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.2-4"
+}

@@ -1,0 +1,121 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0004-Fix-unescaped-left-brace.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-aclocal-declare-function-prototypes-do-not-use-in-fu.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3911,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-install-sh-avoid-low-risk-race-in-tmp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3240,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "01-texi-rename.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1269,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02-compile_f90_c_cxx-fix.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 574,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03-texinfo-fix-itemx.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "automake1.11",
+    "path": "automake1.11/1:1.11.6-6/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/automake1.11/1:1.11.6-6/",
+        "metric": {
+            "size": 10280
+        },
+        "pts_link": "https://tracker.debian.org/pkg/automake1.11",
+        "sloc": [
+            [
+                "sh",
+                35059
+            ],
+            [
+                "perl",
+                10697
+            ],
+            [
+                "makefile",
+                946
+            ],
+            [
+                "ansic",
+                496
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/eric/automake1.11",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:1.11.6-6"
+}

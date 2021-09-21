@@ -1,0 +1,212 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "enum_nonarray_symbols",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 75,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "enum_nonstring_name",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "enum_without_name",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fixed_without_name",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 32,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fixed_without_size",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "illegal_type",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "invalid_avro_id",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_with_field_missing_name",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_with_field_missing_type",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_with_invalid_reference",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_with_nonarray_fields",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 101,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "record_with_nonstring_name",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 97,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "fail",
+    "package": "avro-java",
+    "path": "avro-java/1.8.2-1/lang/c/tests/schema_tests/fail",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avro-java/1.8.2-1/",
+        "metric": {
+            "size": 12784
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avro-java",
+        "sloc": [
+            [
+                "java",
+                58236
+            ],
+            [
+                "ansic",
+                27618
+            ],
+            [
+                "cpp",
+                15332
+            ],
+            [
+                "cs",
+                12876
+            ],
+            [
+                "python",
+                10443
+            ],
+            [
+                "xml",
+                6338
+            ],
+            [
+                "php",
+                3836
+            ],
+            [
+                "ruby",
+                3158
+            ],
+            [
+                "perl",
+                1656
+            ],
+            [
+                "sh",
+                733
+            ],
+            [
+                "lex",
+                203
+            ],
+            [
+                "yacc",
+                140
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/avro-java",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8.2-1"
+}

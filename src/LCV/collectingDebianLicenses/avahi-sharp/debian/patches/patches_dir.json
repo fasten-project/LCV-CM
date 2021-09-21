@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_configurable_compiler.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2063,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "08_avahi-sharp-pkg-config-new-location.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 352,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "avahi-sharp",
+    "path": "avahi-sharp/0.6.19-4.3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avahi-sharp/0.6.19-4.3/",
+        "metric": {
+            "size": 1972
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avahi-sharp",
+        "sloc": [
+            [
+                "sh",
+                9187
+            ],
+            [
+                "xml",
+                3989
+            ],
+            [
+                "cs",
+                2183
+            ],
+            [
+                "makefile",
+                125
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ]
+    },
+    "type": "directory",
+    "version": "0.6.19-4.3"
+}

@@ -1,0 +1,72 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "adopt_to_botocore_changes",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1591,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_awscli_announcement",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 900,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "awscli",
+    "path": "awscli/1.20.23-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/awscli/1.20.23-1/",
+        "metric": {
+            "size": 22896
+        },
+        "pts_link": "https://tracker.debian.org/pkg/awscli",
+        "sloc": [
+            [
+                "python",
+                24277
+            ],
+            [
+                "sh",
+                36
+            ],
+            [
+                "makefile",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/cloud-team/awscli",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.20.23-1"
+}

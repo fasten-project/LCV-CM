@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "background_transparency.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "probe-X11-paths-with-find_package.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 367,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "avogadro",
+    "path": "avogadro/1.94.0-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/avogadro/1.94.0-1/",
+        "metric": {
+            "size": 5240
+        },
+        "pts_link": "https://tracker.debian.org/pkg/avogadro",
+        "sloc": [
+            [
+                "cpp",
+                2557
+            ],
+            [
+                "perl",
+                321
+            ],
+            [
+                "sh",
+                69
+            ],
+            [
+                "xml",
+                61
+            ],
+            [
+                "python",
+                59
+            ],
+            [
+                "makefile",
+                22
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debichem-team/avogadro",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.94.0-1"
+}
