@@ -1,0 +1,250 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "app_dial_G_flag",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "app_queue",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 108,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "batch_cdrs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cdr-tests.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7021,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cdr_bridge_multi",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 85,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cdr_dial_subroutines",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cdr_manipulation",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 152,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cdr_originate_sip_congestion_log",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cdr_properties",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cdr_unanswered_yes",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "configs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "console_dial_sip_answer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "console_dial_sip_busy",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "console_dial_sip_congestion",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "console_dial_sip_transfer",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "originate-cdr-disposition",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "sqlite3",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tests.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 637,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "cdr",
+    "package": "asterisk-testsuite",
+    "path": "asterisk-testsuite/0.0.0+svn.5781-2/tests/cdr",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asterisk-testsuite/0.0.0+svn.5781-2/",
+        "metric": {
+            "size": 18632
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asterisk-testsuite",
+        "sloc": [
+            [
+                "xml",
+                33912
+            ],
+            [
+                "python",
+                32904
+            ],
+            [
+                "ansic",
+                1599
+            ],
+            [
+                "sh",
+                395
+            ],
+            [
+                "makefile",
+                170
+            ],
+            [
+                "sql",
+                17
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=pkg-voip/asterisk-testsuite.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.0+svn.5781-2"
+}

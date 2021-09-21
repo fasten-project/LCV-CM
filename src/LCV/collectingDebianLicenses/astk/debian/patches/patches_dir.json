@@ -1,0 +1,109 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-config.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12549,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-tcl_fixpath.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8093,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-debian-install.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7722,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-parallel_cp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 779,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-Disable-check-and-removal-of-previous-installation-d.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "astk",
+    "path": "astk/1.13.1-2.1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/astk/1.13.1-2.1/",
+        "metric": {
+            "size": 4896
+        },
+        "pts_link": "https://tracker.debian.org/pkg/astk",
+        "sloc": [
+            [
+                "tcl",
+                24251
+            ],
+            [
+                "python",
+                19546
+            ],
+            [
+                "sh",
+                279
+            ],
+            [
+                "makefile",
+                51
+            ]
+        ],
+        "suites": [
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=debian-science/packages/astk.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13.1-2.1"
+}

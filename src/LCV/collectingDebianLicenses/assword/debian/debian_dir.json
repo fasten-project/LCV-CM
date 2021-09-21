@@ -1,0 +1,137 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "assword.manpages",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3245,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clean",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 110,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1514,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 697,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gbp.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 395,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 189,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 19,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "debian",
+    "package": "assword",
+    "path": "assword/0.10-2/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/assword/0.10-2/",
+        "metric": {
+            "size": 196
+        },
+        "pts_link": "https://tracker.debian.org/pkg/assword",
+        "sloc": [
+            [
+                "sh",
+                959
+            ],
+            [
+                "python",
+                697
+            ],
+            [
+                "makefile",
+                33
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/git/collab-maint/assword.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.10-2"
+}

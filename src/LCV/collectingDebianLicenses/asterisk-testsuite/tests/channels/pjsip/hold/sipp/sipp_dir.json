@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "inject.csv",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "phone_A.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "phone_B_IP_media_restrict.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6105,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "phone_B_IP_restrict.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6106,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "phone_B_duplicate_hold.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7632,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "phone_B_hold_update.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7632,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "phone_B_media_restrict.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "phone_B_unhold_sans_sdp.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5851,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "sipp",
+    "package": "asterisk-testsuite",
+    "path": "asterisk-testsuite/0.0.0+svn.5781-2/tests/channels/pjsip/hold/sipp",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asterisk-testsuite/0.0.0+svn.5781-2/",
+        "metric": {
+            "size": 18632
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asterisk-testsuite",
+        "sloc": [
+            [
+                "xml",
+                33912
+            ],
+            [
+                "python",
+                32904
+            ],
+            [
+                "ansic",
+                1599
+            ],
+            [
+                "sh",
+                395
+            ],
+            [
+                "makefile",
+                170
+            ],
+            [
+                "sql",
+                17
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=pkg-voip/asterisk-testsuite.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.0+svn.5781-2"
+}

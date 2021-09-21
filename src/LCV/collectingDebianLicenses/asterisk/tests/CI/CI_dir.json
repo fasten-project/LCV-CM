@@ -1,0 +1,284 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "buildAsterisk.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ci.functions",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "findLibdir.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gateTestGroups.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1667,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gates.jenkinsfile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9822,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "installAsterisk.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 970,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "periodic-dailyTestGroups.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "periodics-daily.jenkinsfile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6018,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "processCoverage.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "publishAsteriskDocs.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_debug.jenkinsfile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4860,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ref_debugTestGroups.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 737,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "runTestsuite.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 946,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "runUnittests.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3707,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setupJenkinsEnvironment.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "setupRealtime.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4975,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "teardownRealtime.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 407,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unittests.jenkinsfile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7647,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "universal-asterisk-nongerrit.jenkinsfile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "CI",
+    "package": "asterisk",
+    "path": "asterisk/1:16.16.1~dfsg-2/tests/CI",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asterisk/1:16.16.1%7Edfsg-2/",
+        "metric": {
+            "size": 60140
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asterisk",
+        "sloc": [
+            [
+                "ansic",
+                758170
+            ],
+            [
+                "sh",
+                12762
+            ],
+            [
+                "python",
+                5282
+            ],
+            [
+                "makefile",
+                3140
+            ],
+            [
+                "perl",
+                3103
+            ],
+            [
+                "javascript",
+                3018
+            ],
+            [
+                "yacc",
+                2160
+            ],
+            [
+                "cpp",
+                2099
+            ],
+            [
+                "sql",
+                1768
+            ],
+            [
+                "xml",
+                997
+            ],
+            [
+                "tcl",
+                113
+            ],
+            [
+                "php",
+                62
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-voip-team/asterisk",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:16.16.1~dfsg-2"
+}

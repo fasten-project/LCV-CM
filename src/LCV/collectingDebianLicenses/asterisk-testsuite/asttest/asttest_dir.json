@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "INSTALL",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1037,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5824,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asttest.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4288,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "self-tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tools",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 99,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "asttest",
+    "package": "asterisk-testsuite",
+    "path": "asterisk-testsuite/0.0.0+svn.5781-2/asttest",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asterisk-testsuite/0.0.0+svn.5781-2/",
+        "metric": {
+            "size": 18632
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asterisk-testsuite",
+        "sloc": [
+            [
+                "xml",
+                33912
+            ],
+            [
+                "python",
+                32904
+            ],
+            [
+                "ansic",
+                1599
+            ],
+            [
+                "sh",
+                395
+            ],
+            [
+                "makefile",
+                170
+            ],
+            [
+                "sql",
+                17
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=pkg-voip/asterisk-testsuite.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.0+svn.5781-2"
+}

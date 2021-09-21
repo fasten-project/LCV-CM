@@ -1,0 +1,173 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "accept_disabled_with_attrib.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2484,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "accept_multiple_attrib_first_bad.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2780,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "accept_nominal.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2597,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decline_enabled.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1501,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decline_no_attrib.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1402,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decline_no_key.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decline_no_suite.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decline_no_tag.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decline_not_enabled.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1495,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decline_unknown_suite.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1498,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "decline_with_lifetime.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1502,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "sipp",
+    "package": "asterisk-testsuite",
+    "path": "asterisk-testsuite/0.0.0+svn.5781-2/tests/channels/pjsip/srtp_negotiation/sipp",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asterisk-testsuite/0.0.0+svn.5781-2/",
+        "metric": {
+            "size": 18632
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asterisk-testsuite",
+        "sloc": [
+            [
+                "xml",
+                33912
+            ],
+            [
+                "python",
+                32904
+            ],
+            [
+                "ansic",
+                1599
+            ],
+            [
+                "sh",
+                395
+            ],
+            [
+                "makefile",
+                170
+            ],
+            [
+                "sql",
+                17
+            ]
+        ],
+        "suites": [
+            "jessie",
+            "jessie-kfreebsd",
+            "stretch"
+        ],
+        "vcs_browser": "http://anonscm.debian.org/gitweb/?p=pkg-voip/asterisk-testsuite.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.0.0+svn.5781-2"
+}

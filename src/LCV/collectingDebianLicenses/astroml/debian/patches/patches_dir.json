@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Fix-np-1.18-compatibility-in-test.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 767,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Fixing-header-plugin.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1086,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Mark-as-remote-data.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8630,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "astroml",
+    "path": "astroml/0.4.post1-6/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/astroml/0.4.post1-6/",
+        "metric": {
+            "size": 892
+        },
+        "pts_link": "https://tracker.debian.org/pkg/astroml",
+        "sloc": [
+            [
+                "python",
+                5492
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-astro-team/astroml",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.4.post1-6"
+}

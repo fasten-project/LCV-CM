@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fix_AssertionError.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 565,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_intersphinx",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 473,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 68,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_system_astropy_helpers",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "astroplan",
+    "path": "astroplan/0.7-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/astroplan/0.7-1/",
+        "metric": {
+            "size": 1476
+        },
+        "pts_link": "https://tracker.debian.org/pkg/astroplan",
+        "sloc": [
+            [
+                "python",
+                9083
+            ],
+            [
+                "javascript",
+                161
+            ],
+            [
+                "makefile",
+                132
+            ],
+            [
+                "ansic",
+                88
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-astro-team/astroplan",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.7-1"
+}

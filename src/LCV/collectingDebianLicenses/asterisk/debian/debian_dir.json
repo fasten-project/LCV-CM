@@ -1,0 +1,823 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "50-asterisk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 536,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "NEWS",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2975,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.Debian",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12772,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README.source",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1936,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TODO",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ast_config",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 76,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-config-custom",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-config-custom.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1769,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-config.dirs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-config.examples",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 81,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-config.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-config.lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-config.postinst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1336,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-config.preinst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-dahdi.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 203,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-dev.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 67,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-dev.links",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-doc.docs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 127,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-mobile.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-modules.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-modules.lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-mp3.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-mysql.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-ooh323.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 40,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-tests.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-tests.lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-voicemail-imapstorage.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-voicemail-odbcstorage.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-voicemail.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 42,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk-vpb.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 37,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.default",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3459,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.dirs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 472,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.docs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.examples",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.init",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5751,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.install",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.links",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 276,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.logrotate",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 297,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.manpages",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 70,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.postinst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.postrm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.prerm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.startup.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "astgenkey.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2880,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "astman.1",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2426,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "autosupport.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1328,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backports",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 44,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 136554,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "clean",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "compat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10350,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright-check",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 331,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright.pjproject",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 14493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright_hints",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 64528,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debhelper",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "dummyprogs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gbp.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "patches",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "pjproject_2.10~dfsg.orig.tar.bz2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5819133,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7980,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules.copyright-check",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "safe_asterisk.8",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1848,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 69,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "upstream",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "watch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 286,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "asterisk",
+    "path": "asterisk/1:16.16.1~dfsg-2/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asterisk/1:16.16.1%7Edfsg-2/",
+        "metric": {
+            "size": 60140
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asterisk",
+        "sloc": [
+            [
+                "ansic",
+                758170
+            ],
+            [
+                "sh",
+                12762
+            ],
+            [
+                "python",
+                5282
+            ],
+            [
+                "makefile",
+                3140
+            ],
+            [
+                "perl",
+                3103
+            ],
+            [
+                "javascript",
+                3018
+            ],
+            [
+                "yacc",
+                2160
+            ],
+            [
+                "cpp",
+                2099
+            ],
+            [
+                "sql",
+                1768
+            ],
+            [
+                "xml",
+                997
+            ],
+            [
+                "tcl",
+                113
+            ],
+            [
+                "php",
+                62
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-voip-team/asterisk",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:16.16.1~dfsg-2"
+}

@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "buildenv",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "release.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "linux_release",
+    "package": "astra-toolbox",
+    "path": "astra-toolbox/1.8.3-8/python/conda/linux_release",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/astra-toolbox/1.8.3-8/",
+        "metric": {
+            "size": 4592
+        },
+        "pts_link": "https://tracker.debian.org/pkg/astra-toolbox",
+        "sloc": [
+            [
+                "cpp",
+                25284
+            ],
+            [
+                "sh",
+                3357
+            ],
+            [
+                "python",
+                2780
+            ],
+            [
+                "ansic",
+                1118
+            ],
+            [
+                "makefile",
+                478
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/astra-toolbox",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.8.3-8"
+}

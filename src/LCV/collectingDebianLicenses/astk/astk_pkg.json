@@ -1,0 +1,153 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ASTK_CLIENT",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ASTK_SERV",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "PKG-INFO",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1053,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "TODO",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3839,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "__pkginfo__.py",
+            "stat": {
+                "perms": "rwxrwxrwx",
+                "size": 30,
+                "symlink_dest": "ASTK_SERV/asrun/__pkginfo__.py",
+                "type": "l"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "configuration",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "setup.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7114,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "1.13.1-2.1",
+    "package": "astk",
+    "path": "astk/1.13.1-2.1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/astk/1.13.1-2.1/",
+        "metric": {
+            "size": 4896
+        },
+        "pts_link": "https://tracker.debian.org/pkg/astk",
+        "sloc": [
+            [
+                "tcl",
+                24251
+            ],
+            [
+                "python",
+                19546
+            ],
+            [
+                "sh",
+                279
+            ],
+            [
+                "makefile",
+                51
+            ]
+        ],
+        "suites": [
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=debian-science/packages/astk.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13.1-2.1"
+}

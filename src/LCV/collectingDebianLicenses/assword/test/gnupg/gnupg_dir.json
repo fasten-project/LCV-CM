@@ -1,0 +1,71 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "pubring.gpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "secring.gpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1346,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trustdb.gpg",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1280,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "gnupg",
+    "package": "assword",
+    "path": "assword/0.10-2/test/gnupg",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/assword/0.10-2/",
+        "metric": {
+            "size": 196
+        },
+        "pts_link": "https://tracker.debian.org/pkg/assword",
+        "sloc": [
+            [
+                "sh",
+                959
+            ],
+            [
+                "python",
+                697
+            ],
+            [
+                "makefile",
+                33
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/git/collab-maint/assword.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.10-2"
+}

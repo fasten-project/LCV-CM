@@ -1,0 +1,107 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "call-from.gsm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1914,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-recording.gsm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2013,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "options.gsm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6435,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pls-hold-while-try.gsm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5082,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sorry.gsm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6138,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "status.gsm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5313,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "followme",
+    "package": "asterisk-core-sounds",
+    "path": "asterisk-core-sounds/1.6.1-1/it-gsm/followme",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asterisk-core-sounds/1.6.1-1/",
+        "metric": {
+            "size": 216412
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asterisk-core-sounds",
+        "sloc": [
+            [
+                "perl",
+                163
+            ],
+            [
+                "sh",
+                144
+            ],
+            [
+                "makefile",
+                54
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-voip-team/asterisk-core-sounds",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.1-1"
+}

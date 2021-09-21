@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "hidden": true,
+            "name": ".pc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 104,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "alaw",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 12288,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "debian",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gsm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 12288,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "wav",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 12288,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "1:1.4.22+mm20110907-3.1",
+    "package": "asterisk-prompt-it",
+    "path": "asterisk-prompt-it/1:1.4.22+mm20110907-3.1",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asterisk-prompt-it/1:1.4.22+mm20110907-3.1/",
+        "metric": {
+            "size": 42056
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asterisk-prompt-it",
+        "sloc": [
+            [
+                "makefile",
+                29
+            ],
+            [
+                "sh",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "http://svn.debian.org/wsvn/pkg-voip/asterisk-prompt-it/?op=log",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1:1.4.22+mm20110907-3.1"
+}

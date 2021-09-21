@@ -1,0 +1,262 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0000-configure-ssl-library-path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1819,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0000-remove-third-party.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4291,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0000-set_apps_initial_log_level.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0000-solaris.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5442,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0011-sip_inv_patch.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1662,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0020-pjlib_cancel_timer_0.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0050-fix-race-parallel-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3151,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0060-clone-sdp-for-sip-timer-refresh-invite.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1177,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0070-fix-incorrect-copying-when-creating-cancel.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1368,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0080-fix-sdp-neg-modify-local-offer.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0110-tls-parent-listener-destroyed.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5792,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0111-ssl-premature-destroy.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4820,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 318,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk_malloc_debug.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk_malloc_debug.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3059,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config_site.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "user.mak",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "asterisk",
+    "path": "asterisk/1:16.16.1~dfsg-2/third-party/pjproject/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asterisk/1:16.16.1%7Edfsg-2/",
+        "metric": {
+            "size": 60140
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asterisk",
+        "sloc": [
+            [
+                "ansic",
+                758170
+            ],
+            [
+                "sh",
+                12762
+            ],
+            [
+                "python",
+                5282
+            ],
+            [
+                "makefile",
+                3140
+            ],
+            [
+                "perl",
+                3103
+            ],
+            [
+                "javascript",
+                3018
+            ],
+            [
+                "yacc",
+                2160
+            ],
+            [
+                "cpp",
+                2099
+            ],
+            [
+                "sql",
+                1768
+            ],
+            [
+                "xml",
+                997
+            ],
+            [
+                "tcl",
+                113
+            ],
+            [
+                "php",
+                62
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-voip-team/asterisk",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:16.16.1~dfsg-2"
+}
