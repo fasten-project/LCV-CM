@@ -1,0 +1,160 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Banshee.MeeGo",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "Banshee.MeeGo.addin.xml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 801,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Banshee.MeeGo.dll.config",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1799,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 43201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "MeeGo.Panel",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 147,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "banshee.desktop.in.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 321,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "com.meego.UX.Shell.Panels.banshee.service.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 93,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "meego-panel-banshee",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 51,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "meego-panel-banshee.desktop.in.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 260,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "Banshee.MeeGo",
+    "package": "banshee",
+    "path": "banshee/2.6.2-6.1/src/Extensions/Banshee.MeeGo",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/banshee/2.6.2-6.1/",
+        "metric": {
+            "size": 47224
+        },
+        "pts_link": "https://tracker.debian.org/pkg/banshee",
+        "sloc": [
+            [
+                "xml",
+                163694
+            ],
+            [
+                "cs",
+                137412
+            ],
+            [
+                "sh",
+                11650
+            ],
+            [
+                "ansic",
+                4790
+            ],
+            [
+                "makefile",
+                2921
+            ],
+            [
+                "python",
+                38
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=pkg-cli-apps/packages/banshee.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6.2-6.1"
+}

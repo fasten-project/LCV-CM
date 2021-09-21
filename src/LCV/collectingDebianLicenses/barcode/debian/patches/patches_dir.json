@@ -1,0 +1,132 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Following-codabar-specification-Closes-320908.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-Fixing-oversized-images-Closes-320908.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5723,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-Adding-info-header-Closes-528867.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 557,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-configure.ac-Explicitly-set-program-version.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 551,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-configure.ac-Adjust-instruction-orders-to-suppress-w.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 715,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-Bring-back-libbarcode.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5149,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-Fix-FTBFS-with-gcc-10.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 781,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "barcode",
+    "path": "barcode/0.99-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/barcode/0.99-4/",
+        "metric": {
+            "size": 4700
+        },
+        "pts_link": "https://tracker.debian.org/pkg/barcode",
+        "sloc": [
+            [
+                "ansic",
+                21570
+            ],
+            [
+                "sh",
+                11815
+            ],
+            [
+                "makefile",
+                26
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/barcode",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.99-4"
+}

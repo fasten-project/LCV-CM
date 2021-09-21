@@ -1,0 +1,470 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1430,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "abi",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "apt",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "barrychroots",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "barrylocal",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "barryremote",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2058,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bmchroots",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bmlocal",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 709,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bmremote",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "chroot.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2316,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deb-src-create.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1001,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deb.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 488,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "depscripts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 82,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "git-extract.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "git-release-tar.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1445,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "git-tagged-release.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3449,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-apt.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1266,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-bm-rpm.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1856,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-deb.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1763,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-redirect.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1076,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-rpm.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2410,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-slimdist.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 285,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "make-yum.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1122,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "release-bm.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1539,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "release-tar.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 786,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "release.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1728,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remote.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2115,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rpm.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "save.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1247,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tar-create.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 599,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "tar-prepare.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 896,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-build-local.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1002,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-root.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 406,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "yum",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 45,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "maintainer",
+    "package": "barry",
+    "path": "barry/0.18.3-5/maintainer",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/barry/0.18.3-5/",
+        "metric": {
+            "size": 8316
+        },
+        "pts_link": "https://tracker.debian.org/pkg/barry",
+        "sloc": [
+            [
+                "cpp",
+                53904
+            ],
+            [
+                "ansic",
+                3926
+            ],
+            [
+                "sh",
+                2044
+            ],
+            [
+                "makefile",
+                1038
+            ],
+            [
+                "perl",
+                711
+            ],
+            [
+                "php",
+                247
+            ],
+            [
+                "ruby",
+                83
+            ],
+            [
+                "xml",
+                78
+            ],
+            [
+                "java",
+                38
+            ],
+            [
+                "awk",
+                37
+            ],
+            [
+                "python",
+                32
+            ],
+            [
+                "sed",
+                16
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://repo.or.cz/w/barry.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.18.3-5"
+}

@@ -1,0 +1,60 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "format",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "options",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "source",
+    "package": "barbican-tempest-plugin",
+    "path": "barbican-tempest-plugin/1.4.0-1/debian/source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/barbican-tempest-plugin/1.4.0-1/",
+        "metric": {
+            "size": 368
+        },
+        "pts_link": "https://tracker.debian.org/pkg/barbican-tempest-plugin",
+        "sloc": [
+            [
+                "python",
+                2740
+            ],
+            [
+                "sh",
+                21
+            ],
+            [
+                "makefile",
+                18
+            ]
+        ],
+        "suites": [
+            "experimental"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/tempest/barbican-tempest-plugin",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.4.0-1"
+}

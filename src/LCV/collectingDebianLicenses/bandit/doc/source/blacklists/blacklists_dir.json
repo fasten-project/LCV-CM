@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "blacklist_calls.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "blacklist_imports.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 97,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "index.rst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "blacklists",
+    "package": "bandit",
+    "path": "bandit/1.6.2-1/doc/source/blacklists",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bandit/1.6.2-1/",
+        "metric": {
+            "size": 1824
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bandit",
+        "sloc": [
+            [
+                "python",
+                10049
+            ],
+            [
+                "makefile",
+                22
+            ],
+            [
+                "sh",
+                14
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/libs/bandit",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.6.2-1"
+}

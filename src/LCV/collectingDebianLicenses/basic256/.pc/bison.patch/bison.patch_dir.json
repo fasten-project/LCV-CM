@@ -1,0 +1,55 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "BASIC256.pro",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4000,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bison.patch",
+    "package": "basic256",
+    "path": "basic256/2.0.0.11-1/.pc/bison.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/basic256/2.0.0.11-1/",
+        "metric": {
+            "size": 15076
+        },
+        "pts_link": "https://tracker.debian.org/pkg/basic256",
+        "sloc": [
+            [
+                "cpp",
+                16791
+            ],
+            [
+                "yacc",
+                3979
+            ],
+            [
+                "lex",
+                1446
+            ],
+            [
+                "makefile",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/basic256",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.0.11-1"
+}

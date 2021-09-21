@@ -1,0 +1,171 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 39,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "__init__.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "container_init_ops.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3064,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "encrypted_init_ops.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1783,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "env.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2871,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kek_init_ops.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1974,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "order_ops.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2215,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "projects_init_ops.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1384,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "script.py.mako",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "secrets_init_ops.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2068,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "transport_keys_init_ops.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1454,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "versions",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 96,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "alembic_migrations",
+    "package": "barbican",
+    "path": "barbican/1:12.0.0-3/barbican/model/migration/alembic_migrations",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/barbican/1:12.0.0-3/",
+        "metric": {
+            "size": 4476
+        },
+        "pts_link": "https://tracker.debian.org/pkg/barbican",
+        "sloc": [
+            [
+                "python",
+                44320
+            ],
+            [
+                "sh",
+                953
+            ],
+            [
+                "makefile",
+                70
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/barbican",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:12.0.0-3"
+}

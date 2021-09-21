@@ -1,0 +1,127 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "barbican-vagrant",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 62,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "gate_hook.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 629,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "local.conf.example",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "plugin.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3047,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "settings",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1580,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "upgrade",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 95,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "devstack",
+    "package": "barbican",
+    "path": "barbican/1:12.0.0-3/devstack",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/barbican/1:12.0.0-3/",
+        "metric": {
+            "size": 4476
+        },
+        "pts_link": "https://tracker.debian.org/pkg/barbican",
+        "sloc": [
+            [
+                "python",
+                44320
+            ],
+            [
+                "sh",
+                953
+            ],
+            [
+                "makefile",
+                70
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/barbican",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:12.0.0-3"
+}

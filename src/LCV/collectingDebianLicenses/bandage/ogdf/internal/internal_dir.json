@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "basic",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "energybased",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "internal",
+    "package": "bandage",
+    "path": "bandage/0.8.1-4/ogdf/internal",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bandage/0.8.1-4/",
+        "metric": {
+            "size": 15676
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bandage",
+        "sloc": [
+            [
+                "cpp",
+                45206
+            ],
+            [
+                "sh",
+                491
+            ],
+            [
+                "makefile",
+                12
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bandage",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.8.1-4"
+}

@@ -1,0 +1,108 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "driver",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "inc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 54,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "multiopt.h",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 975,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nt5",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "packet32.cpp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 18522,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "b2ether",
+    "package": "basilisk2",
+    "path": "basilisk2/0.9.20180101-1/src/Windows/b2ether",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/basilisk2/0.9.20180101-1/",
+        "metric": {
+            "size": 6720
+        },
+        "pts_link": "https://tracker.debian.org/pkg/basilisk2",
+        "sloc": [
+            [
+                "cpp",
+                85250
+            ],
+            [
+                "ansic",
+                24100
+            ],
+            [
+                "sh",
+                2949
+            ],
+            [
+                "asm",
+                1182
+            ],
+            [
+                "makefile",
+                723
+            ],
+            [
+                "objc",
+                528
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/basilisk2",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9.20180101-1"
+}

@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "postal.cpuinfo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1007,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postal.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 180,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "powernv.cpuinfo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "powernv.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 181,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "ppc64el",
+    "package": "base-installer",
+    "path": "base-installer/1.206/kernel/tests/ppc64el",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/base-installer/1.206/",
+        "metric": {
+            "size": 3272
+        },
+        "pts_link": "https://tracker.debian.org/pkg/base-installer",
+        "sloc": [
+            [
+                "sh",
+                1537
+            ],
+            [
+                "ansic",
+                704
+            ],
+            [
+                "makefile",
+                59
+            ],
+            [
+                "perl",
+                50
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/installer-team/base-installer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.206"
+}

@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bison.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 741,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "examples.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 682,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "basic256",
+    "path": "basic256/2.0.0.11-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/basic256/2.0.0.11-1/",
+        "metric": {
+            "size": 15076
+        },
+        "pts_link": "https://tracker.debian.org/pkg/basic256",
+        "sloc": [
+            [
+                "cpp",
+                16791
+            ],
+            [
+                "yacc",
+                3979
+            ],
+            [
+                "lex",
+                1446
+            ],
+            [
+                "makefile",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/basic256",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.0.0.11-1"
+}

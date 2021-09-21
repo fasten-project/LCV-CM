@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dont_install_data_files",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 555,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "install_matplotlib_sphinxext",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 73,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_share_datafiles",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "basemap",
+    "path": "basemap/1.2.2+dfsg-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/basemap/1.2.2+dfsg-1/",
+        "metric": {
+            "size": 213160
+        },
+        "pts_link": "https://tracker.debian.org/pkg/basemap",
+        "sloc": [
+            [
+                "python",
+                9550
+            ],
+            [
+                "ansic",
+                266
+            ],
+            [
+                "makefile",
+                33
+            ],
+            [
+                "sh",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/basemap",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.2+dfsg-1"
+}

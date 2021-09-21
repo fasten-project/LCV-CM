@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-makefile-change-for-compatibility-with-debian.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-remove-empty-directory.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 613,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-deactivate-ode-unit-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1357,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bart",
+    "path": "bart/0.6.00-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bart/0.6.00-3/",
+        "metric": {
+            "size": 4912
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bart",
+        "sloc": [
+            [
+                "ansic",
+                58970
+            ],
+            [
+                "python",
+                639
+            ],
+            [
+                "cpp",
+                506
+            ],
+            [
+                "makefile",
+                423
+            ],
+            [
+                "sh",
+                350
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bart",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6.00-3"
+}
