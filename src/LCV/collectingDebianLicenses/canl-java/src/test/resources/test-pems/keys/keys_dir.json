@@ -1,0 +1,208 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "dsa-1024-3des-p8.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 410,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dsa-1024-3des-p8.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dsa-1024-plain-p8.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dsa-1024-plain-p8.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ec-prime192v1-3des-p8.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 191,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ec-prime192v1-3des-p8.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 334,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ec-prime192v1-plain-p8.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ec-prime192v1-plain-p8.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 209,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "key-src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rsa-128-rc2-p8.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rsa-128-rc2-p8.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rsa-4096-3des-p8.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2450,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rsa-4096-3des-p8.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3394,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rsa-4096-plain-p8.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2375,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rsa-4096-plain-p8.pem",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "keys",
+    "package": "canl-java",
+    "path": "canl-java/2.7.0-1/src/test/resources/test-pems/keys",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/canl-java/2.7.0-1/",
+        "metric": {
+            "size": 11776
+        },
+        "pts_link": "https://tracker.debian.org/pkg/canl-java",
+        "sloc": [
+            [
+                "java",
+                22723
+            ],
+            [
+                "xml",
+                433
+            ],
+            [
+                "sh",
+                396
+            ],
+            [
+                "makefile",
+                24
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ellert/canl-java",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.7.0-1"
+}

@@ -1,0 +1,665 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9097,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "backends",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 121,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "block.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1631,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "block.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "block_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config-solid.h.cmake",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1003,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "device.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "device.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9214,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "device_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deviceinterface.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4849,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deviceinterface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4427,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "deviceinterface_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1654,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "devicemanager.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "devicemanager_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "devicenotifier.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "genericinterface.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "genericinterface.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5571,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "genericinterface_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1234,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ifaces",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "managerbase.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3558,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "managerbase_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1353,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opticaldisc.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2315,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opticaldisc.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6748,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opticaldisc_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1208,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opticaldrive.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opticaldrive.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6623,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "opticaldrive_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "portablemediaplayer.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "portablemediaplayer.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3929,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "portablemediaplayer_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1302,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "predicate.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9363,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "predicate.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 9293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "predicate_lexer.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 58916,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "predicate_lexer.l",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "predicate_parser.c",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47387,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "predicate_parser.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2448,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "predicate_parser.y",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2924,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "predicateparse.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "predicateparse.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1850,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "solid_export.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "soliddefs_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8866,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "solidnamespace.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "solidnamespace.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1324,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storageaccess.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storageaccess.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5903,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storageaccess_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1222,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storagedrive.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2838,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storagedrive.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5542,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storagedrive_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1244,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storagevolume.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2787,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storagevolume.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5370,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "storagevolume_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xdgbasedirs.cpp",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4668,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "xdgbasedirs_p.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4663,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "solid-lite",
+    "package": "cantata",
+    "path": "cantata/2.4.2.ds1-1/3rdparty/solid-lite",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/cantata/2.4.2.ds1-1/",
+        "metric": {
+            "size": 18508
+        },
+        "pts_link": "https://tracker.debian.org/pkg/cantata",
+        "sloc": [
+            [
+                "cpp",
+                99800
+            ],
+            [
+                "perl",
+                1366
+            ],
+            [
+                "xml",
+                721
+            ],
+            [
+                "python",
+                139
+            ],
+            [
+                "lex",
+                110
+            ],
+            [
+                "sh",
+                85
+            ],
+            [
+                "yacc",
+                78
+            ],
+            [
+                "makefile",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/multimedia-team/cantata",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.4.2.ds1-1"
+}
