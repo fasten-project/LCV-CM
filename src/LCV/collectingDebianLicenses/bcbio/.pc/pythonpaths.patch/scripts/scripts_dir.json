@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bcbio_fastq_umi_prep.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11509,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bcbio_nextgen.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 11186,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bcbio_nextgen_install.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 13409,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bcbio_setup_genome.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 15182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cwl",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 46,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "cwltool2wdl.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 14159,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "scripts",
+    "package": "bcbio",
+    "path": "bcbio/1.2.5-1/.pc/pythonpaths.patch/scripts",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcbio/1.2.5-1/",
+        "metric": {
+            "size": 36684
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcbio",
+        "sloc": [
+            [
+                "python",
+                45570
+            ],
+            [
+                "sh",
+                209
+            ],
+            [
+                "makefile",
+                159
+            ],
+            [
+                "xml",
+                129
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bcbio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.5-1"
+}

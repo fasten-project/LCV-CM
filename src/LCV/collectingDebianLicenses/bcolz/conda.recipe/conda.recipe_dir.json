@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bld.bat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 279,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "meta.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 371,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "conda.recipe",
+    "package": "bcolz",
+    "path": "bcolz/1.2.1+ds2-7/conda.recipe",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcolz/1.2.1+ds2-7/",
+        "metric": {
+            "size": 4612
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcolz",
+        "sloc": [
+            [
+                "python",
+                9691
+            ],
+            [
+                "makefile",
+                150
+            ],
+            [
+                "sh",
+                26
+            ],
+            [
+                "ansic",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/bcolz",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.1+ds2-7"
+}

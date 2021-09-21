@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "SRR2075598.sam",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 69,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "run-unit-test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 596,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trusight_myeloid.bedpe",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27396,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "tests",
+    "package": "bamclipper",
+    "path": "bamclipper/1.0.0-2/debian/tests",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bamclipper/1.0.0-2/",
+        "metric": {
+            "size": 224
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bamclipper",
+        "sloc": [
+            [
+                "perl",
+                264
+            ],
+            [
+                "sh",
+                113
+            ],
+            [
+                "makefile",
+                7
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bamclipper",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.0-2"
+}

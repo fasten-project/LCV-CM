@@ -1,0 +1,55 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "test",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 25,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "src",
+    "package": "bcel",
+    "path": "bcel/6.5.0-1/.pc/01-disable-BCEL-336-test.patch/src",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcel/6.5.0-1/",
+        "metric": {
+            "size": 17248
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcel",
+        "sloc": [
+            [
+                "java",
+                41268
+            ],
+            [
+                "xml",
+                3213
+            ],
+            [
+                "makefile",
+                4
+            ],
+            [
+                "sh",
+                1
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/java-team/bcel",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "6.5.0-1"
+}

@@ -1,0 +1,209 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "DiagEngine",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "DiagLib",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "build_eDTGui.bat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3789,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "eDT.sln",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2420,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "eDTGui",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "getsvnrevision.pl",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lupdate.bat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rename.cmd",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "set_build_nbr.bat",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 309,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "svn_revision",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "svn_revision.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 992,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "svn_revision.wxs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "translation.pro",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "eDT",
+    "package": "beid",
+    "path": "beid/3.5.2.dfsg-10/_src/eDT",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 34507,
+        "license": "/copyright/license/beid/3.5.2.dfsg-10/",
+        "metric": {
+            "size": 147240
+        },
+        "pts_link": "https://tracker.debian.org/pkg/beid",
+        "sloc": [
+            [
+                "cpp",
+                149944
+            ],
+            [
+                "ansic",
+                41577
+            ],
+            [
+                "java",
+                8927
+            ],
+            [
+                "cs",
+                6528
+            ],
+            [
+                "sh",
+                2426
+            ],
+            [
+                "perl",
+                1866
+            ],
+            [
+                "xml",
+                805
+            ],
+            [
+                "python",
+                463
+            ],
+            [
+                "makefile",
+                263
+            ],
+            [
+                "lex",
+                92
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/beid.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.5.2.dfsg-10"
+}

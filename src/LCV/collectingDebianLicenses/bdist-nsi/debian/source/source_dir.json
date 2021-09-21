@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "format",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 94,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "source",
+    "package": "bdist-nsi",
+    "path": "bdist-nsi/0.1.5-2/debian/source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bdist-nsi/0.1.5-2/",
+        "metric": {
+            "size": 404
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bdist-nsi",
+        "sloc": [
+            [
+                "python",
+                1441
+            ],
+            [
+                "makefile",
+                6
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/modules/bdist-nsi",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1.5-2"
+}

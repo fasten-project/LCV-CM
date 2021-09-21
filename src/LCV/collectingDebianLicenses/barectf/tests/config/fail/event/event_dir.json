@@ -1,0 +1,143 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ct-invalid-type.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1613,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ct-not-struct.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fail.bats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2255,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ll-invalid-type.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1612,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "ll-non-existing.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1655,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "no-fields-at-all.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pt-invalid-type.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1469,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pt-not-struct.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "unknown-prop.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1611,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "event",
+    "package": "barectf",
+    "path": "barectf/2.3.1-1/tests/config/fail/event",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/barectf/2.3.1-1/",
+        "metric": {
+            "size": 1516
+        },
+        "pts_link": "https://tracker.debian.org/pkg/barectf",
+        "sloc": [
+            [
+                "python",
+                4349
+            ],
+            [
+                "ansic",
+                1066
+            ],
+            [
+                "sh",
+                726
+            ],
+            [
+                "makefile",
+                108
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/barectf",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.1-1"
+}

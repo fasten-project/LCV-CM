@@ -1,0 +1,108 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "deb",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 49,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "docker",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "os_x",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 92,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "rpm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "packaging",
+    "package": "bedops",
+    "path": "bedops/2.4.39+dfsg1-2/packaging",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bedops/2.4.39+dfsg1-2/",
+        "metric": {
+            "size": 20900
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bedops",
+        "sloc": [
+            [
+                "ansic",
+                27933
+            ],
+            [
+                "cpp",
+                15306
+            ],
+            [
+                "sh",
+                2670
+            ],
+            [
+                "makefile",
+                2568
+            ],
+            [
+                "xml",
+                1669
+            ],
+            [
+                "python",
+                1582
+            ],
+            [
+                "csh",
+                823
+            ],
+            [
+                "perl",
+                365
+            ],
+            [
+                "java",
+                172
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bedops",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.4.39+dfsg1-2"
+}

@@ -1,0 +1,87 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fetchnix.nix",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1670,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nixpkgs.json",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 231,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "nixpkgs.nix",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "update-nixpkgs.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 617,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "nix",
+    "package": "bcachefs-tools",
+    "path": "bcachefs-tools/0.1+git20210805.6c42566-2/nix",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcachefs-tools/0.1+git20210805.6c42566-2/",
+        "metric": {
+            "size": 4392
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcachefs-tools",
+        "sloc": [
+            [
+                "ansic",
+                88869
+            ],
+            [
+                "python",
+                497
+            ],
+            [
+                "sh",
+                202
+            ],
+            [
+                "makefile",
+                163
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/jcc/bcachefs-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.1+git20210805.6c42566-2"
+}

@@ -1,0 +1,220 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": ".ssh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 128,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "config",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 212,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config_full_path",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 35,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config_include",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 282,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config_include_recursion",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "config_tilde",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gee-filename-canary",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "known_hosts",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "known_hosts2",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 28,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "known_hosts3",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "known_hosts4",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "localhost_config",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "localhost_hosts",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spaced%20%20conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "spaced%20%20known_hosts",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 55,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "_known_hosts_real",
+    "package": "bash-completion",
+    "path": "bash-completion/1:2.11-3/test/fixtures/_known_hosts_real",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bash-completion/1:2.11-3/",
+        "metric": {
+            "size": 6440
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bash-completion",
+        "sloc": [
+            [
+                "python",
+                8228
+            ],
+            [
+                "makefile",
+                1762
+            ],
+            [
+                "sh",
+                275
+            ],
+            [
+                "perl",
+                85
+            ],
+            [
+                "xml",
+                29
+            ],
+            [
+                "ansic",
+                7
+            ],
+            [
+                "ruby",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/bash-completion",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:2.11-3"
+}

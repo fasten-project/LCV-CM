@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "beid-cert-belgiumrca.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 920,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "beid-cert-government.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 979,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "beid-cert-government2004.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 978,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "beid-cert-government2005.der",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 978,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "certs",
+    "package": "beid",
+    "path": "beid/3.5.2.dfsg-10/_src/beid-2.6/src/eidviewer/certs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 34507,
+        "license": "/copyright/license/beid/3.5.2.dfsg-10/",
+        "metric": {
+            "size": 147240
+        },
+        "pts_link": "https://tracker.debian.org/pkg/beid",
+        "sloc": [
+            [
+                "cpp",
+                149944
+            ],
+            [
+                "ansic",
+                41577
+            ],
+            [
+                "java",
+                8927
+            ],
+            [
+                "cs",
+                6528
+            ],
+            [
+                "sh",
+                2426
+            ],
+            [
+                "perl",
+                1866
+            ],
+            [
+                "xml",
+                805
+            ],
+            [
+                "python",
+                463
+            ],
+            [
+                "makefile",
+                263
+            ],
+            [
+                "lex",
+                92
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/beid.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.5.2.dfsg-10"
+}

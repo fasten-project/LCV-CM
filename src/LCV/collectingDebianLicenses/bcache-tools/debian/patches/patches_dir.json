@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Clean-should-remove-bcache-register.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 843,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Don-t-inline-crc64-for-gcc-5-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 752,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 126,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "udev-keep-symlinks.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1696,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bcache-tools",
+    "path": "bcache-tools/1.0.8-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcache-tools/1.0.8-4/",
+        "metric": {
+            "size": 220
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcache-tools",
+        "sloc": [
+            [
+                "ansic",
+                1127
+            ],
+            [
+                "sh",
+                65
+            ],
+            [
+                "makefile",
+                30
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/bcache-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.8-4"
+}

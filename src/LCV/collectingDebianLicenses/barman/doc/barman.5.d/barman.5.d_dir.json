@@ -1,0 +1,908 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "00-header.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "05-name.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 59,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "15-description.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 272,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20-configuration-file-locations.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 210,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "25-configuration-file-syntax.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 229,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "30-configuration-file-directory.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 537,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "45-options.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-active.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 338,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-archiver.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 464,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-archiver_batch_size.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 411,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-backup_directory.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 86,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-backup_method.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 500,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-backup_options.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1069,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-bandwidth_limit.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 176,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-barman_home.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 56,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-barman_lock_directory.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 83,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-basebackup_retry_sleep.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 192,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-basebackup_retry_times.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 183,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-basebackups_directory.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-check_timeout.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 179,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-compression.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 328,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-conninfo.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-create_slot.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 250,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-custom_compression_filter.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 100,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-custom_decompression_filter.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 162,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-description.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 66,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-errors_directory.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 213,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-immediate_checkpoint.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 463,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-incoming_wals_directory.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-last_backup_maximum_age.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 471,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-log_file.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 52,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-log_level.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-max_incoming_wals_queue.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 252,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-minimum_redundancy.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-network_compression.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 247,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-parallel_jobs.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-path_prefix.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 233,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-post_archive_retry_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 388,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-post_archive_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 144,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-post_backup_retry_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 362,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-post_backup_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 118,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-post_delete_retry_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-post_delete_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 129,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-post_recovery_retry_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 363,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-post_recovery_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 119,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-post_wal_delete_retry_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-post_wal_delete_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 139,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-pre_archive_retry_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 440,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-pre_archive_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 109,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-pre_backup_retry_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 403,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-pre_backup_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 80,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-pre_delete_retry_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 413,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-pre_delete_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 91,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-pre_recovery_retry_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 405,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-pre_recovery_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-pre_wal_delete_retry_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 425,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-pre_wal_delete_script.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 97,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-primary_ssh_command.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 359,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-recovery_options.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 365,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-retention_policy.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 653,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-retention_policy_mode.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-reuse_backup.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 487,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-slot_name.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-ssh_command.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 88,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-streaming_archiver.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 651,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-streaming_archiver_batch_size.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 441,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-streaming_archiver_name.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 237,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-streaming_backup_name.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 220,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-streaming_conninfo.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-streaming_wals_directory.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 163,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-tablespace_bandwidth_limit.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 267,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-wal_retention_policy.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 130,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "50-wals_directory.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 63,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "70-hook-scripts.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1545,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "75-example.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "80-see-also.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 26,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "90-authors.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 593,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "95-resources.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "99-copying.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "barman.5.d",
+    "package": "barman",
+    "path": "barman/2.13-1/doc/barman.5.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/barman/2.13-1/",
+        "metric": {
+            "size": 3284
+        },
+        "pts_link": "https://tracker.debian.org/pkg/barman",
+        "sloc": [
+            [
+                "python",
+                14607
+            ],
+            [
+                "makefile",
+                85
+            ],
+            [
+                "sh",
+                46
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/postgresql/barman",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.13-1"
+}

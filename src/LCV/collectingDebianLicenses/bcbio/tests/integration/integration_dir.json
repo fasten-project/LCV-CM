@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "__init__.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rnaseq",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "test_S3_pipelines.py",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1635,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_SequencingDump.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_automated_analysis.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 9242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test_pipeline.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 5185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "integration",
+    "package": "bcbio",
+    "path": "bcbio/1.2.5-1/tests/integration",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcbio/1.2.5-1/",
+        "metric": {
+            "size": 36684
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcbio",
+        "sloc": [
+            [
+                "python",
+                45570
+            ],
+            [
+                "sh",
+                209
+            ],
+            [
+                "makefile",
+                159
+            ],
+            [
+                "xml",
+                129
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bcbio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.5-1"
+}

@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 281,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "behave.ini",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 489,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "features",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 112,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "testrun_example.async_dispatch.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 397,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "testrun_example.async_run.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "async_step",
+    "package": "behave",
+    "path": "behave/1.2.6-3/examples/async_step",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/behave/1.2.6-3/",
+        "metric": {
+            "size": 3876
+        },
+        "pts_link": "https://tracker.debian.org/pkg/behave",
+        "sloc": [
+            [
+                "python",
+                19835
+            ],
+            [
+                "makefile",
+                136
+            ],
+            [
+                "sh",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/modules/behave",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.6-3"
+}

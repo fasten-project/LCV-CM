@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 33,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_both_hmmsets",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1796,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_debian_dirs",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 481,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "barrnap",
+    "path": "barrnap/0.9+dfsg-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/barrnap/0.9+dfsg-2/",
+        "metric": {
+            "size": 22256
+        },
+        "pts_link": "https://tracker.debian.org/pkg/barrnap",
+        "sloc": [
+            [
+                "perl",
+                226
+            ],
+            [
+                "makefile",
+                62
+            ],
+            [
+                "sh",
+                15
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/barrnap",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.9+dfsg-2"
+}

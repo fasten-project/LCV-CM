@@ -1,0 +1,115 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "changelog",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2184,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "control",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "copyright",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1588,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "menu",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 137,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postinst",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "postrm",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 84,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2319,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "debian",
+    "package": "bclock",
+    "path": "bclock/1.0-12/debian",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 787,
+        "license": "/copyright/license/bclock/1.0-12/",
+        "metric": {
+            "size": 144
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bclock",
+        "sloc": [
+            [
+                "makefile",
+                904
+            ],
+            [
+                "ansic",
+                710
+            ],
+            [
+                "sh",
+                4
+            ]
+        ],
+        "suites": [
+            "etch",
+            "etch-m68k",
+            "lenny"
+        ]
+    },
+    "type": "directory",
+    "version": "1.0-12"
+}

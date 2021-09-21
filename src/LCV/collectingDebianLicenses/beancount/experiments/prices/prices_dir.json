@@ -1,0 +1,108 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 256,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fetch-lifetime-prices.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2505,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "price-attributes.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "price-timeline-checks.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1811,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "prices",
+    "package": "beancount",
+    "path": "beancount/2.3.3-1/experiments/prices",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/beancount/2.3.3-1/",
+        "metric": {
+            "size": 8460
+        },
+        "pts_link": "https://tracker.debian.org/pkg/beancount",
+        "sloc": [
+            [
+                "python",
+                46152
+            ],
+            [
+                "ansic",
+                984
+            ],
+            [
+                "yacc",
+                685
+            ],
+            [
+                "lex",
+                407
+            ],
+            [
+                "javascript",
+                339
+            ],
+            [
+                "makefile",
+                214
+            ],
+            [
+                "cpp",
+                128
+            ],
+            [
+                "xml",
+                32
+            ],
+            [
+                "sh",
+                4
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/beancount",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.3-1"
+}

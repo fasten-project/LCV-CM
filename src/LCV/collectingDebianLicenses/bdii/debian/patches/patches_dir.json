@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bdii-default.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2981,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bdii-py3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4408,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 173,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bdii",
+    "path": "bdii/5.2.26-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bdii/5.2.26-1/",
+        "metric": {
+            "size": 484
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bdii",
+        "sloc": [
+            [
+                "sh",
+                867
+            ],
+            [
+                "python",
+                850
+            ],
+            [
+                "makefile",
+                106
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/ellert/bdii",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.2.26-1"
+}

@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "java9.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1776,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "beansbinding",
+    "path": "beansbinding/1.2.1-4/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/beansbinding/1.2.1-4/",
+        "metric": {
+            "size": 1388
+        },
+        "pts_link": "https://tracker.debian.org/pkg/beansbinding",
+        "sloc": [
+            [
+                "java",
+                12683
+            ],
+            [
+                "xml",
+                502
+            ],
+            [
+                "sh",
+                44
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-java/beansbinding.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.1-4"
+}

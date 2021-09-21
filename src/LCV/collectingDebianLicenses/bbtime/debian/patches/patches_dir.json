@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "before_quilt.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gcc9.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "readme_etc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 345,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 47,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bbtime",
+    "path": "bbtime/0.1.5-15/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bbtime/0.1.5-15/",
+        "metric": {
+            "size": 544
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bbtime",
+        "sloc": [
+            [
+                "cpp",
+                4175
+            ],
+            [
+                "sh",
+                327
+            ],
+            [
+                "makefile",
+                27
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ]
+    },
+    "type": "directory",
+    "version": "0.1.5-15"
+}

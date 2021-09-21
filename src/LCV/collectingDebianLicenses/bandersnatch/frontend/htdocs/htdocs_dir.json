@@ -1,0 +1,70 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "images",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "index.php",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 8876,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "htdocs",
+    "package": "bandersnatch",
+    "path": "bandersnatch/0.4-1.1/frontend/htdocs",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 319,
+        "license": "/copyright/license/bandersnatch/0.4-1.1/",
+        "metric": {
+            "size": 640
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bandersnatch",
+        "sloc": [
+            [
+                "perl",
+                1432
+            ],
+            [
+                "php",
+                1204
+            ],
+            [
+                "xml",
+                909
+            ],
+            [
+                "makefile",
+                89
+            ],
+            [
+                "sql",
+                53
+            ],
+            [
+                "sh",
+                51
+            ]
+        ],
+        "suites": [
+            "etch-m68k"
+        ]
+    },
+    "type": "directory",
+    "version": "0.4-1.1"
+}

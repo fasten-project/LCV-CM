@@ -1,0 +1,85 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "CMakeLists.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3030,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "kernels",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "src",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "backend",
+    "package": "beignet",
+    "path": "beignet/1.3.2-8/backend",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/beignet/1.3.2-8/",
+        "metric": {
+            "size": 10444
+        },
+        "pts_link": "https://tracker.debian.org/pkg/beignet",
+        "sloc": [
+            [
+                "cpp",
+                66165
+            ],
+            [
+                "ansic",
+                27903
+            ],
+            [
+                "lisp",
+                17462
+            ],
+            [
+                "python",
+                1208
+            ],
+            [
+                "sh",
+                882
+            ],
+            [
+                "makefile",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/opencl-team/beignet",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.3.2-8"
+}

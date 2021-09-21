@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_local_hiscores_file_check.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_manpage_global_hiscore_path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 567,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "debian-bug-931550.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 770,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 96,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bastet",
+    "path": "bastet/0.43-6/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bastet/0.43-6/",
+        "metric": {
+            "size": 344
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bastet",
+        "sloc": [
+            [
+                "cpp",
+                1686
+            ],
+            [
+                "sh",
+                45
+            ],
+            [
+                "makefile",
+                23
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/bastet",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.43-6"
+}

@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README.md",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 254,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "beanstalkd.spec.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2527,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bloghead.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 190,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "dist.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1293,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mail.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 331,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "newstail.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 501,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "pkg",
+    "package": "beanstalkd",
+    "path": "beanstalkd/1.12-2/pkg",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/beanstalkd/1.12-2/",
+        "metric": {
+            "size": 644
+        },
+        "pts_link": "https://tracker.debian.org/pkg/beanstalkd",
+        "sloc": [
+            [
+                "ansic",
+                7534
+            ],
+            [
+                "sh",
+                390
+            ],
+            [
+                "makefile",
+                112
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/beanstalkd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.12-2"
+}

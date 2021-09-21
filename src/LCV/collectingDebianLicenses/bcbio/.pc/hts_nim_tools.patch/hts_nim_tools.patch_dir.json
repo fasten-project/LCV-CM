@@ -1,0 +1,66 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bcbio",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 24,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "docs",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 29,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "hts_nim_tools.patch",
+    "package": "bcbio",
+    "path": "bcbio/1.2.5-1/.pc/hts_nim_tools.patch",
+    "pkg_infos": {
+        "area": "contrib",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcbio/1.2.5-1/",
+        "metric": {
+            "size": 36684
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcbio",
+        "sloc": [
+            [
+                "python",
+                45570
+            ],
+            [
+                "sh",
+                209
+            ],
+            [
+                "makefile",
+                159
+            ],
+            [
+                "xml",
+                129
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bcbio",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.2.5-1"
+}

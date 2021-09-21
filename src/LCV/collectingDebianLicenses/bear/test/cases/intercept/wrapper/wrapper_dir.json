@@ -1,0 +1,157 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build_command_captured.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 153,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_stderr_captured.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 349,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "build_stdout_captured.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 339,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shell_commands_basename_compiler.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 962,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shell_commands_intercepted.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 889,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shell_commands_intercepted_without_shebang.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 949,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shell_commands_parallel_intercepted.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1015,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shell_commands_with_empty_env.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 956,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "shell_fail_commands_intercepted.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 344,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use_cc_env_to_select_compiler.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 444,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "wrapper",
+    "package": "bear",
+    "path": "bear/3.0.15-1/test/cases/intercept/wrapper",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bear/3.0.15-1/",
+        "metric": {
+            "size": 1468
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bear",
+        "sloc": [
+            [
+                "cpp",
+                8325
+            ],
+            [
+                "sh",
+                631
+            ],
+            [
+                "ansic",
+                487
+            ],
+            [
+                "python",
+                175
+            ],
+            [
+                "makefile",
+                18
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/sramacher/bear",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "3.0.15-1"
+}

@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "EDUMMY0002.fa",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1593,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "EDUMMY0002.fa.fai",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "EDUMMY0002.gff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 480,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "boundaries.txt",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 512,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "boundaries.vcf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 516,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "EDUMMY0002",
+    "package": "bcftools",
+    "path": "bcftools/1.13-1/test/csq/EDUMMY0002",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcftools/1.13-1/",
+        "metric": {
+            "size": 18540
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcftools",
+        "sloc": [
+            [
+                "ansic",
+                58276
+            ],
+            [
+                "perl",
+                5636
+            ],
+            [
+                "python",
+                587
+            ],
+            [
+                "sh",
+                333
+            ],
+            [
+                "makefile",
+                282
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bcftools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13-1"
+}

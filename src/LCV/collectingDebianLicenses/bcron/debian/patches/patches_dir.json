@@ -1,0 +1,150 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-remove-.html-from-TARGET-to-keep-them-on-make-clean.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 760,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0002-Have-bcron-update-ignore-files-that-are-outside-Debia.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1950,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0003-tests.sh-skip-non-root-only-spool-baduser-tests.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1794,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0004-tests.sh-skip-tests-exec-fds-tests-exec-simple-if-HOM.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1145,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0005-fix-texinfo-documentation.diff",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3437,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0006-disable-unreliable-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0007-patch-hardcoded-upstream-username.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 828,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0008-disable-crontab-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1814,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "0009-Patch-upstream-build-system-to-work-with-python3.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 858,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bcron",
+    "path": "bcron/0.11-9/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcron/0.11-9/",
+        "metric": {
+            "size": 752
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcron",
+        "sloc": [
+            [
+                "sh",
+                3099
+            ],
+            [
+                "ansic",
+                2416
+            ],
+            [
+                "makefile",
+                28
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/bcron",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.11-9"
+}

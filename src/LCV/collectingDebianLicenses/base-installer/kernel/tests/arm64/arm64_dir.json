@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "foundation.cpuinfo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 249,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "foundation.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 219,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mustang.cpuinfo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mustang.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 216,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "qemu-virt.cpuinfo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 225,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "qemu-virt.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 218,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "arm64",
+    "package": "base-installer",
+    "path": "base-installer/1.206/kernel/tests/arm64",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/base-installer/1.206/",
+        "metric": {
+            "size": 3272
+        },
+        "pts_link": "https://tracker.debian.org/pkg/base-installer",
+        "sloc": [
+            [
+                "sh",
+                1537
+            ],
+            [
+                "ansic",
+                704
+            ],
+            [
+                "makefile",
+                59
+            ],
+            [
+                "perl",
+                50
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/installer-team/base-installer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.206"
+}

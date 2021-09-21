@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "apache_bepasty.conf.example",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bepasty-uwsgi.conf.example",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 531,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bepasty.conf.example",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4772,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bepasty.wsgi.example",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 125,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "examples",
+    "package": "bepasty",
+    "path": "bepasty/0.6.0-1/debian/examples",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bepasty/0.6.0-1/",
+        "metric": {
+            "size": 760
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bepasty",
+        "sloc": [
+            [
+                "python",
+                2953
+            ],
+            [
+                "javascript",
+                1468
+            ],
+            [
+                "makefile",
+                158
+            ],
+            [
+                "sh",
+                25
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/python-team/packages/bepasty",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.6.0-1"
+}

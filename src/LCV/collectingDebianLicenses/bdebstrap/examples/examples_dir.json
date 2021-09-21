@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Debian-bullseye-live.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1029,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Debian-unstable.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 150,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Ubuntu-20.04.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "examples",
+    "package": "bdebstrap",
+    "path": "bdebstrap/0.2.0-1/examples",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bdebstrap/0.2.0-1/",
+        "metric": {
+            "size": 248
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bdebstrap",
+        "sloc": [
+            [
+                "python",
+                1462
+            ],
+            [
+                "sh",
+                59
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://github.com/bdrung/bdebstrap",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.2.0-1"
+}

@@ -1,0 +1,73 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "69-bcache.rules",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1051,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "bcache-keep-symlinks",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "udev-keep-symlinks.patch",
+    "package": "bcache-tools",
+    "path": "bcache-tools/1.0.8-4/.pc/udev-keep-symlinks.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bcache-tools/1.0.8-4/",
+        "metric": {
+            "size": 220
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bcache-tools",
+        "sloc": [
+            [
+                "ansic",
+                1127
+            ],
+            [
+                "sh",
+                65
+            ],
+            [
+                "makefile",
+                30
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/bcache-tools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.8-4"
+}

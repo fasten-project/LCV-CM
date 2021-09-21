@@ -1,0 +1,78 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "fixtures",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "spec_helper.rb",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1035,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "support",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "unit",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 30,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "spec",
+    "package": "berkshelf-api",
+    "path": "berkshelf-api/2.2.0-1/spec",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/berkshelf-api/2.2.0-1/",
+        "metric": {
+            "size": 388
+        },
+        "pts_link": "https://tracker.debian.org/pkg/berkshelf-api",
+        "sloc": [
+            [
+                "ruby",
+                2167
+            ],
+            [
+                "makefile",
+                3
+            ]
+        ],
+        "suites": [
+            "stretch"
+        ],
+        "vcs_browser": "https://anonscm.debian.org/cgit/pkg-ruby-extras/berkshelf-api.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.2.0-1"
+}

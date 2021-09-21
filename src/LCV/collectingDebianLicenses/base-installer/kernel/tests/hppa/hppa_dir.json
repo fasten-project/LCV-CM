@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "b180.cpuinfo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 494,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "b180.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 360,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "paer.cpuinfo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 650,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "paer.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 361,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "hppa",
+    "package": "base-installer",
+    "path": "base-installer/1.206/kernel/tests/hppa",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/base-installer/1.206/",
+        "metric": {
+            "size": 3272
+        },
+        "pts_link": "https://tracker.debian.org/pkg/base-installer",
+        "sloc": [
+            [
+                "sh",
+                1537
+            ],
+            [
+                "ansic",
+                704
+            ],
+            [
+                "makefile",
+                59
+            ],
+            [
+                "perl",
+                50
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/installer-team/base-installer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.206"
+}

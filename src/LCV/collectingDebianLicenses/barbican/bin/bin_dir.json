@@ -1,0 +1,94 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "barbican-api",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 374,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "barbican.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 3092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "demo_requests.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 7311,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "keystone_data.sh",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 6342,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "versionbuild.py",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2996,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bin",
+    "package": "barbican",
+    "path": "barbican/1:12.0.0-3/bin",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/barbican/1:12.0.0-3/",
+        "metric": {
+            "size": 4476
+        },
+        "pts_link": "https://tracker.debian.org/pkg/barbican",
+        "sloc": [
+            [
+                "python",
+                44320
+            ],
+            [
+                "sh",
+                953
+            ],
+            [
+                "makefile",
+                70
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/openstack-team/services/barbican",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:12.0.0-3"
+}

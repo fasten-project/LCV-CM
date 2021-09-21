@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "desktop-file.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1679,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hiscore.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1423,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove-no-format-flag.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 732,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 61,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "barrage",
+    "path": "barrage/1.0.5-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/barrage/1.0.5-1/",
+        "metric": {
+            "size": 2592
+        },
+        "pts_link": "https://tracker.debian.org/pkg/barrage",
+        "sloc": [
+            [
+                "sh",
+                3478
+            ],
+            [
+                "ansic",
+                2777
+            ],
+            [
+                "makefile",
+                56
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/games-team/barrage",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.5-1"
+}

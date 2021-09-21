@@ -1,0 +1,242 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "cycle-sym.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1622,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cycle.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fail.bats",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file-not-found-abs.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1617,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file-not-found-in-array.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1634,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file-not-found-recursive.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1621,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "file-not-found.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1607,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inc-empty.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1147,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inc-inc-not-found.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1163,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inc-recursive-sym1.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1178,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inc-recursive-sym2.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1178,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inc-recursive1.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inc-recursive2.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "inc-recursive3.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1174,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "include-include-replace.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "invalid-type.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1601,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "replace-file-not-found-in-array.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1642,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "replace-file-not-found.yaml",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1615,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "include",
+    "package": "barectf",
+    "path": "barectf/2.3.1-1/tests/config/fail/include",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/barectf/2.3.1-1/",
+        "metric": {
+            "size": 1516
+        },
+        "pts_link": "https://tracker.debian.org/pkg/barectf",
+        "sloc": [
+            [
+                "python",
+                4349
+            ],
+            [
+                "ansic",
+                1066
+            ],
+            [
+                "sh",
+                726
+            ],
+            [
+                "makefile",
+                108
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/barectf",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.3.1-1"
+}

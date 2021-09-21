@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "a.chromheader.bed",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 27,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "a.trackheader.bed",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 17,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "empty.bed",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 0,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "hg19.fa.fai",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 23,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "non-empty.bed.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 53,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "t.bed",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-general.sh",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8261,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "general",
+    "package": "bedtools",
+    "path": "bedtools/2.30.0+dfsg-2/test/general",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bedtools/2.30.0+dfsg-2/",
+        "metric": {
+            "size": 56592
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bedtools",
+        "sloc": [
+            [
+                "ansic",
+                38500
+            ],
+            [
+                "cpp",
+                29738
+            ],
+            [
+                "sh",
+                7955
+            ],
+            [
+                "makefile",
+                661
+            ],
+            [
+                "python",
+                235
+            ],
+            [
+                "javascript",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bedtools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.30.0+dfsg-2"
+}

@@ -1,0 +1,658 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile.am",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1128,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Makefile.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 15385,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "check-common.sh.in",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2134,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "interrupt-3.tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 428,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "interrupt.tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 538,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lopts.tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 920,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "settrace.tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 337,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "sopts.tests",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 736,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-action",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-brkpt",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 455,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-bug-args",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 191,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-bug-source",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-bug-step",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-bug-step-subshell",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 759,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-bug-step-subshell.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 753,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-bugI",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-bugIFS",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-command",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-complete",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-debug",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 714,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-debug.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 708,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-delete",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-delete.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 200,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-display",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-enable",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 196,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-export",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-export.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-file-with-spaces",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 275,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-finish",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 193,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-frame",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 201,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-info-args",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-info-args.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-interrupt",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-list",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-lopts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 605,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-misc",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 985,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-misc.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 973,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-multi",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-parm",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-restart",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-search",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 198,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-setshow",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 922,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-setshow.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 913,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-settrace",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 399,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-sig",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1011,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-sig.in",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 993,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-skip",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 188,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-sopts",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-subshell",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 432,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-tbreak",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 175,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-trace",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-watch1",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 645,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "test-watch2",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trace.tests",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 373,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "trace2.tests",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 341,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "integration",
+    "package": "bashdb",
+    "path": "bashdb/4.2.0.8-1.1/test/integration",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bashdb/4.2.0.8-1.1/",
+        "metric": {
+            "size": 4204
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bashdb",
+        "sloc": [
+            [
+                "sh",
+                12074
+            ],
+            [
+                "ansic",
+                914
+            ],
+            [
+                "makefile",
+                383
+            ],
+            [
+                "python",
+                101
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=collab-maint/bashdb.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.2.0.8-1.1"
+}

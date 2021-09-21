@@ -1,0 +1,55 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "python",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "bindings",
+    "package": "benchmark",
+    "path": "benchmark/1.5.2-2/bindings",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/benchmark/1.5.2-2/",
+        "metric": {
+            "size": 1188
+        },
+        "pts_link": "https://tracker.debian.org/pkg/benchmark",
+        "sloc": [
+            [
+                "cpp",
+                9358
+            ],
+            [
+                "python",
+                1311
+            ],
+            [
+                "sh",
+                34
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/benchmark",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.2-2"
+}

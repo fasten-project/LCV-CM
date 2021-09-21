@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "0001-Create-shared-lib.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1265,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_fix_hppa_ftbfs.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 799,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix-missing-symbols-in-static.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "benchmark",
+    "path": "benchmark/1.5.2-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/benchmark/1.5.2-2/",
+        "metric": {
+            "size": 1188
+        },
+        "pts_link": "https://tracker.debian.org/pkg/benchmark",
+        "sloc": [
+            [
+                "cpp",
+                9358
+            ],
+            [
+                "python",
+                1311
+            ],
+            [
+                "sh",
+                34
+            ],
+            [
+                "makefile",
+                8
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/science-team/benchmark",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.5.2-2"
+}

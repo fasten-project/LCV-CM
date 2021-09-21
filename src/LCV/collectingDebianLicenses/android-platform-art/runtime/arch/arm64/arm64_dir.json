@@ -1,0 +1,240 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "asm_support_arm64.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2092,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asm_support_arm64.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2152,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "callee_save_frame_arm64.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6443,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "context_arm64.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "context_arm64.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2839,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "entrypoints_init_arm64.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10544,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fault_handler_arm64.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7492,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instruction_set_features_arm64.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 13853,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instruction_set_features_arm64.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instruction_set_features_arm64_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12905,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jni_entrypoints_arm64.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2235,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memcmp16_arm64.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4283,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "quick_entrypoints_arm64.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 115379,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "registers_arm64.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2241,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "registers_arm64.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3696,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thread_arm64.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1187,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "arm64",
+    "package": "android-platform-art",
+    "path": "android-platform-art/10.0.0+r36-3/runtime/arch/arm64",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/android-platform-art/10.0.0+r36-3/",
+        "metric": {
+            "size": 78308
+        },
+        "pts_link": "https://tracker.debian.org/pkg/android-platform-art",
+        "sloc": [
+            [
+                "cpp",
+                488455
+            ],
+            [
+                "java",
+                151268
+            ],
+            [
+                "asm",
+                29126
+            ],
+            [
+                "python",
+                9122
+            ],
+            [
+                "sh",
+                5840
+            ],
+            [
+                "ansic",
+                4161
+            ],
+            [
+                "xml",
+                2846
+            ],
+            [
+                "perl",
+                77
+            ],
+            [
+                "makefile",
+                57
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/android-tools-team/android-platform-art",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "10.0.0+r36-3"
+}

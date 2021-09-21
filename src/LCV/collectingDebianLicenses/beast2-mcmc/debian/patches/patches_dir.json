@@ -1,0 +1,183 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "accents_in_source.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1451,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "adapt_source_to_Debian_jar_path.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2326,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "antlr-compatibility.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1242,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fix_classpath_in_build_xml.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2182,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "handling_minor_issues_in_tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 11702,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_appbundler.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1366,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_import_swing_security.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 640,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_jsign_from_build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7873,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "remove_mac_only_code.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1458,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "revert_NewickLexer.java_to_antlr_4.5.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1141,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "reverted_to_antlr_4.5_deacdc96.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 358,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "beast2-mcmc",
+    "path": "beast2-mcmc/2.6.6+dfsg-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/beast2-mcmc/2.6.6+dfsg-2/",
+        "metric": {
+            "size": 44248
+        },
+        "pts_link": "https://tracker.debian.org/pkg/beast2-mcmc",
+        "sloc": [
+            [
+                "java",
+                83159
+            ],
+            [
+                "xml",
+                27470
+            ],
+            [
+                "sh",
+                1340
+            ],
+            [
+                "perl",
+                65
+            ],
+            [
+                "ansic",
+                53
+            ],
+            [
+                "makefile",
+                32
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/beast2-mcmc",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.6.6+dfsg-2"
+}

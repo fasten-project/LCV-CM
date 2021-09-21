@@ -1,0 +1,110 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "4kc-malta.cpuinfo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 304,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "4kc-malta.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 197,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "5kc-malta.cpuinfo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 305,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "5kc-malta.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 227,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "octeon.cpuinfo",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6123,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "octeon.test",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 185,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mips",
+    "package": "base-installer",
+    "path": "base-installer/1.206/kernel/tests/mips",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/base-installer/1.206/",
+        "metric": {
+            "size": 3272
+        },
+        "pts_link": "https://tracker.debian.org/pkg/base-installer",
+        "sloc": [
+            [
+                "sh",
+                1537
+            ],
+            [
+                "ansic",
+                704
+            ],
+            [
+                "makefile",
+                59
+            ],
+            [
+                "perl",
+                50
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/installer-team/base-installer",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.206"
+}

@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "10-remove-install-from-readme.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2178,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "20-remove-header-autocomplete-script.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 478,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 79,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bd",
+    "path": "bd/1.02-6/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bd/1.02-6/",
+        "metric": {
+            "size": 276
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bd",
+        "sloc": [
+            [
+                "sh",
+                110
+            ],
+            [
+                "makefile",
+                2
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/bd",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.02-6"
+}

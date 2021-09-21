@@ -1,0 +1,85 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Makefile",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 8094,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "mk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 31,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "modules",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4096,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "1002_system_header_locations.patch",
+    "package": "baresip",
+    "path": "baresip/1.0.0-4/.pc/1002_system_header_locations.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/baresip/1.0.0-4/",
+        "metric": {
+            "size": 3920
+        },
+        "pts_link": "https://tracker.debian.org/pkg/baresip",
+        "sloc": [
+            [
+                "ansic",
+                48247
+            ],
+            [
+                "cpp",
+                2273
+            ],
+            [
+                "objc",
+                961
+            ],
+            [
+                "makefile",
+                294
+            ],
+            [
+                "python",
+                259
+            ],
+            [
+                "sh",
+                31
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-voip-team/baresip",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.0.0-4"
+}

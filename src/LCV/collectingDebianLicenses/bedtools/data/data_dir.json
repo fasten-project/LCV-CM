@@ -1,0 +1,117 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "aluY.chr1.bed.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 129766,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "gerp.chr1.bed.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1128077,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "knownGene.hg18.chr21.bed",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 122154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "knownGene.hg18.chr21.short.bed",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 19867,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "refseq.chr1.exons.bed.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 456335,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "simpleRepeats.chr1.bed.gz",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 614807,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "data",
+    "package": "bedtools",
+    "path": "bedtools/2.30.0+dfsg-2/data",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bedtools/2.30.0+dfsg-2/",
+        "metric": {
+            "size": 56592
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bedtools",
+        "sloc": [
+            [
+                "ansic",
+                38500
+            ],
+            [
+                "cpp",
+                29738
+            ],
+            [
+                "sh",
+                7955
+            ],
+            [
+                "makefile",
+                661
+            ],
+            [
+                "python",
+                235
+            ],
+            [
+                "javascript",
+                16
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/med-team/bedtools",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "2.30.0+dfsg-2"
+}

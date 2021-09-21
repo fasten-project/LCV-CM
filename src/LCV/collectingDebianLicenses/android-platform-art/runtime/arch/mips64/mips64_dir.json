@@ -1,0 +1,240 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "asm_support_mips64.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3312,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asm_support_mips64.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2496,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "callee_save_frame_mips64.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6161,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "context_mips64.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4079,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "context_mips64.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2882,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "entrypoints_init_mips64.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 10065,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "fault_handler_mips64.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6155,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instruction_set_features_mips64.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4113,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instruction_set_features_mips64.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3158,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "instruction_set_features_mips64_test.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2199,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "jni_entrypoints_mips64.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2387,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "memcmp16_mips64.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1251,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "quick_entrypoints_mips64.S",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 117983,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "registers_mips64.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1743,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "registers_mips64.h",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "thread_mips64.cc",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1107,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "mips64",
+    "package": "android-platform-art",
+    "path": "android-platform-art/10.0.0+r36-3/runtime/arch/mips64",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/android-platform-art/10.0.0+r36-3/",
+        "metric": {
+            "size": 78308
+        },
+        "pts_link": "https://tracker.debian.org/pkg/android-platform-art",
+        "sloc": [
+            [
+                "cpp",
+                488455
+            ],
+            [
+                "java",
+                151268
+            ],
+            [
+                "asm",
+                29126
+            ],
+            [
+                "python",
+                9122
+            ],
+            [
+                "sh",
+                5840
+            ],
+            [
+                "ansic",
+                4161
+            ],
+            [
+                "xml",
+                2846
+            ],
+            [
+                "perl",
+                77
+            ],
+            [
+                "makefile",
+                57
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/android-tools-team/android-platform-art",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "10.0.0+r36-3"
+}

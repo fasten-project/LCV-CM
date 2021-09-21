@@ -1,0 +1,104 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "bdf_integrated.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2217,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "changelog.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 618,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "newer_mitmproxy_support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2416,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pybuild.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 690,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "python3_support.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 4047,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "bdfproxy",
+    "path": "bdfproxy/0.3.9-3/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/bdfproxy/0.3.9-3/",
+        "metric": {
+            "size": 332
+        },
+        "pts_link": "https://tracker.debian.org/pkg/bdfproxy",
+        "sloc": [
+            [
+                "python",
+                684
+            ],
+            [
+                "sh",
+                121
+            ],
+            [
+                "makefile",
+                21
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-security-team/bdfproxy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.3.9-3"
+}
