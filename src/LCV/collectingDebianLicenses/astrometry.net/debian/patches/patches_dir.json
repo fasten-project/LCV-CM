@@ -1,0 +1,158 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Add-SONAME-to-libastrometry.so.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1046,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Call-python-scripts-as-modules-instead-of-executables.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2532,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Don-t-copy-demo-files-to-examples.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 586,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Don-t-fail-on-rm-during-make-clean.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 557,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Dynamically-link-to-libastrometry.so-when-possible.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 3052,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Fix-issues-when-using-Debian-libs-instead-of-convienience.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 954,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Fix-shared-lib-flags-so-that-the-package-can-be-built-on-.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1009,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Remove-errornous-generation-of-net-client.py.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 414,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "astrometry.net",
+    "path": "astrometry.net/0.85+dfsg-1/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/astrometry.net/0.85+dfsg-1/",
+        "metric": {
+            "size": 18988
+        },
+        "pts_link": "https://tracker.debian.org/pkg/astrometry.net",
+        "sloc": [
+            [
+                "ansic",
+                158893
+            ],
+            [
+                "python",
+                17919
+            ],
+            [
+                "makefile",
+                1513
+            ],
+            [
+                "cpp",
+                78
+            ],
+            [
+                "sh",
+                77
+            ],
+            [
+                "pascal",
+                67
+            ],
+            [
+                "awk",
+                54
+            ],
+            [
+                "perl",
+                9
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-astro-team/astrometry.net",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.85+dfsg-1"
+}

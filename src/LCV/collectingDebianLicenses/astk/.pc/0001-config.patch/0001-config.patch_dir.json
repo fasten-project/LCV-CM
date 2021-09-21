@@ -1,0 +1,65 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "ASTK_CLIENT",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "ASTK_SERV",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 38,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        }
+    ],
+    "directory": "0001-config.patch",
+    "package": "astk",
+    "path": "astk/1.13.1-2.1/.pc/0001-config.patch",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/astk/1.13.1-2.1/",
+        "metric": {
+            "size": 4896
+        },
+        "pts_link": "https://tracker.debian.org/pkg/astk",
+        "sloc": [
+            [
+                "tcl",
+                24251
+            ],
+            [
+                "python",
+                19546
+            ],
+            [
+                "sh",
+                279
+            ],
+            [
+                "makefile",
+                51
+            ]
+        ],
+        "suites": [
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=debian-science/packages/astk.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13.1-2.1"
+}

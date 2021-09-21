@@ -1,0 +1,204 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "assimpTargets.cmake-define-add_library-with-lib-type.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1961,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "closes-https-github.com-assimp-assimp-issues-2804-fi.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 762,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cmake.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 5102,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "defs-use-noexcept-only-for-C-11-and-more.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 757,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "doxygen.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1832,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "drop-stripped-sources.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 836,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pyassimp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7479,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pyassimp_faces.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1038,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pyassimp_struct.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-system-stb_image.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 906,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "use-system-utf8cpp.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2920,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "assimp",
+    "path": "assimp/5.0.1~ds0-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/assimp/5.0.1%7Eds0-2/",
+        "metric": {
+            "size": 94288
+        },
+        "pts_link": "https://tracker.debian.org/pkg/assimp",
+        "sloc": [
+            [
+                "cpp",
+                204271
+            ],
+            [
+                "cobol",
+                65664
+            ],
+            [
+                "ansic",
+                13766
+            ],
+            [
+                "xml",
+                10828
+            ],
+            [
+                "python",
+                9201
+            ],
+            [
+                "java",
+                2296
+            ],
+            [
+                "sh",
+                510
+            ],
+            [
+                "makefile",
+                335
+            ],
+            [
+                "objc",
+                122
+            ],
+            [
+                "ruby",
+                119
+            ],
+            [
+                "pascal",
+                100
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/assimp",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "5.0.1~ds0-2"
+}

@@ -1,0 +1,229 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 768,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "asterisk.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 461,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cdr.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 135,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "cdr_custom.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "confbridge.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 103,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "extensions.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 7330,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "indications.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 681,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "logger.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 160,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "modules.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2818,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "musiconhold.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 50,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pjsip.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 6360,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "pjsip_notify.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 790,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "queues.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 638,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "voicemail.conf",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 513,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "basic-pbx",
+    "package": "asterisk",
+    "path": "asterisk/1:16.16.1~dfsg-2/configs/basic-pbx",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asterisk/1:16.16.1%7Edfsg-2/",
+        "metric": {
+            "size": 60140
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asterisk",
+        "sloc": [
+            [
+                "ansic",
+                758170
+            ],
+            [
+                "sh",
+                12762
+            ],
+            [
+                "python",
+                5282
+            ],
+            [
+                "makefile",
+                3140
+            ],
+            [
+                "perl",
+                3103
+            ],
+            [
+                "javascript",
+                3018
+            ],
+            [
+                "yacc",
+                2160
+            ],
+            [
+                "cpp",
+                2099
+            ],
+            [
+                "sql",
+                1768
+            ],
+            [
+                "xml",
+                997
+            ],
+            [
+                "tcl",
+                113
+            ],
+            [
+                "php",
+                62
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-voip-team/asterisk",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:16.16.1~dfsg-2"
+}

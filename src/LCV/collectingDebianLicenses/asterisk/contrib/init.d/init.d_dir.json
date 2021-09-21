@@ -1,0 +1,196 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "etc_default_asterisk",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1684,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "org.asterisk.asterisk.plist",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1329,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "org.asterisk.muted.plist",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 846,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rc.archlinux.asterisk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rc.debian.asterisk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4358,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rc.gentoo.asterisk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1048,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rc.mandriva.asterisk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4852,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rc.mandriva.zaptel",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1895,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rc.redhat.asterisk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4154,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rc.slackware.asterisk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1507,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "rc.suse.asterisk",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 4205,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "init.d",
+    "package": "asterisk",
+    "path": "asterisk/1:16.16.1~dfsg-2/contrib/init.d",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asterisk/1:16.16.1%7Edfsg-2/",
+        "metric": {
+            "size": 60140
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asterisk",
+        "sloc": [
+            [
+                "ansic",
+                758170
+            ],
+            [
+                "sh",
+                12762
+            ],
+            [
+                "python",
+                5282
+            ],
+            [
+                "makefile",
+                3140
+            ],
+            [
+                "perl",
+                3103
+            ],
+            [
+                "javascript",
+                3018
+            ],
+            [
+                "yacc",
+                2160
+            ],
+            [
+                "cpp",
+                2099
+            ],
+            [
+                "sql",
+                1768
+            ],
+            [
+                "xml",
+                997
+            ],
+            [
+                "tcl",
+                113
+            ],
+            [
+                "php",
+                62
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-voip-team/asterisk",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1:16.16.1~dfsg-2"
+}

@@ -1,0 +1,107 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "1001_make_separate_buildflags.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 868,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1002_make_improve_installpath.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 644,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1003_make_improve_cleanup.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 623,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "1004_make_define_module_self_sym.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1543,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "README",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 477,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 143,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "asterisk-opus",
+    "path": "asterisk-opus/13.7+20171009-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/asterisk-opus/13.7+20171009-2/",
+        "metric": {
+            "size": 236
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asterisk-opus",
+        "sloc": [
+            [
+                "ansic",
+                1263
+            ],
+            [
+                "makefile",
+                54
+            ],
+            [
+                "sh",
+                28
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "bullseye",
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/pkg-voip-team/asterisk-opus",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "13.7+20171009-2"
+}

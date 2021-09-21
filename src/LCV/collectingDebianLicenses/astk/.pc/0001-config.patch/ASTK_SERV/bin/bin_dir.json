@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "as_run",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1553,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "auto_update.cron",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 2643,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "parallel_cp",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 1557,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "bin",
+    "package": "astk",
+    "path": "astk/1.13.1-2.1/.pc/0001-config.patch/ASTK_SERV/bin",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/astk/1.13.1-2.1/",
+        "metric": {
+            "size": 4896
+        },
+        "pts_link": "https://tracker.debian.org/pkg/astk",
+        "sloc": [
+            [
+                "tcl",
+                24251
+            ],
+            [
+                "python",
+                19546
+            ],
+            [
+                "sh",
+                279
+            ],
+            [
+                "makefile",
+                51
+            ]
+        ],
+        "suites": [
+            "buster",
+            "sid"
+        ],
+        "vcs_browser": "http://git.debian.org/?p=debian-science/packages/astk.git",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "1.13.1-2.1"
+}

@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "format",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 12,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "lintian-overrides",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 493,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "source",
+    "package": "astroidmail",
+    "path": "astroidmail/0.16-1/debian/source",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/astroidmail/0.16-1/",
+        "metric": {
+            "size": 5104
+        },
+        "pts_link": "https://tracker.debian.org/pkg/astroidmail",
+        "sloc": [
+            [
+                "cpp",
+                21000
+            ],
+            [
+                "ansic",
+                1619
+            ],
+            [
+                "python",
+                93
+            ],
+            [
+                "sh",
+                73
+            ],
+            [
+                "makefile",
+                11
+            ]
+        ],
+        "suites": [
+            "bookworm",
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian/astroidmail",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "0.16-1"
+}

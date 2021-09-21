@@ -1,0 +1,230 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "Absorb-numpy-and-scipy-RuntimeWarning.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1026,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Allow-XFAIL-tests-to-pass.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 540,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Disable-remote-access-to-get-M3-coords.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 816,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Don-t-rely-on-sphinx_changelog.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 648,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Don-t-turn-deprecation-warnings-into-errors.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 769,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Dont-install-showtable-script.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 713,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Ignore-FPE-warnings-for-armel-build.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2512,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Ignore-FixedWCS-success-warnings.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 669,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Make-some-votable-tests-xfail-that-fail-under-mips64el.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1421,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Remove-intersphinx-mapping.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1830,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Skip-test-that-fails-on-mips64el.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 869,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Unconditionally-skip-wcsapi-test-if-compilation-fails.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 989,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Use-system-ply-instead-of-local-copy.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1561,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Use-system-wide-configobject-validate.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 799,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "Weaken-leap-second-validity-requirement-for-tests.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1554,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 661,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "astropy",
+    "path": "astropy/4.3.1-2/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/astropy/4.3.1-2/",
+        "metric": {
+            "size": 39152
+        },
+        "pts_link": "https://tracker.debian.org/pkg/astropy",
+        "sloc": [
+            [
+                "python",
+                177735
+            ],
+            [
+                "ansic",
+                142974
+            ],
+            [
+                "javascript",
+                13271
+            ],
+            [
+                "lex",
+                8499
+            ],
+            [
+                "sh",
+                3319
+            ],
+            [
+                "xml",
+                1584
+            ],
+            [
+                "makefile",
+                183
+            ]
+        ],
+        "suites": [
+            "sid"
+        ],
+        "vcs_browser": "https://salsa.debian.org/debian-astro-team/astropy",
+        "vcs_type": "git"
+    },
+    "type": "directory",
+    "version": "4.3.1-2"
+}

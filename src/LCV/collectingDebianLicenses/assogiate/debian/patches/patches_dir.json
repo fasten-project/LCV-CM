@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "01_desktop.in.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 678,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "02_typedialog.cc.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 1037,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "03_glib_single_include.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 2108,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "04_gcc-4.7.patch",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 729,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        },
+        {
+            "hidden": false,
+            "name": "series",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 89,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "patches",
+    "package": "assogiate",
+    "path": "assogiate/0.2.1-5/debian/patches",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 0,
+        "license": "/copyright/license/assogiate/0.2.1-5/",
+        "metric": {
+            "size": 2336
+        },
+        "pts_link": "https://tracker.debian.org/pkg/assogiate",
+        "sloc": [
+            [
+                "sh",
+                9084
+            ],
+            [
+                "cpp",
+                4445
+            ],
+            [
+                "xml",
+                283
+            ],
+            [
+                "makefile",
+                81
+            ]
+        ],
+        "suites": [
+            "wheezy"
+        ]
+    },
+    "type": "directory",
+    "version": "0.2.1-5"
+}

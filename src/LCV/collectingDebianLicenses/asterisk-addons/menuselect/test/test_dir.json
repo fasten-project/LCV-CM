@@ -1,0 +1,64 @@
+{
+    "content": [
+        {
+            "hidden": false,
+            "name": "build_tools",
+            "stat": {
+                "perms": "rwxr-xr-x",
+                "size": 36,
+                "symlink_dest": null,
+                "type": "d"
+            },
+            "type": "directory"
+        },
+        {
+            "hidden": false,
+            "name": "menuselect-tree",
+            "stat": {
+                "perms": "rw-r--r--",
+                "size": 41595,
+                "symlink_dest": null,
+                "type": "-"
+            },
+            "type": "file"
+        }
+    ],
+    "directory": "test",
+    "package": "asterisk-addons",
+    "path": "asterisk-addons/1.6.2.1-1/menuselect/test",
+    "pkg_infos": {
+        "area": "main",
+        "copyright": true,
+        "ctags_count": 12045,
+        "license": "/copyright/license/asterisk-addons/1.6.2.1-1/",
+        "metric": {
+            "size": 7624
+        },
+        "pts_link": "https://tracker.debian.org/pkg/asterisk-addons",
+        "sloc": [
+            [
+                "ansic",
+                116172
+            ],
+            [
+                "sh",
+                6446
+            ],
+            [
+                "makefile",
+                1150
+            ],
+            [
+                "perl",
+                471
+            ]
+        ],
+        "suites": [
+            "squeeze"
+        ],
+        "vcs_browser": "http://svn.debian.org/wsvn/pkg-voip/asterisk-addons/?op=log",
+        "vcs_type": "svn"
+    },
+    "type": "directory",
+    "version": "1.6.2.1-1"
+}
