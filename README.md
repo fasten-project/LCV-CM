@@ -9,7 +9,7 @@ LCV offers endpoints APIs to provide flag or verbose assessments.
 The LCV compatibility flag output can be `True` or `false` or `DUC`.
 E.g., Source code released under Apache 2.0 license can be used within a project released under the GPL3.0 license, but not vice-versa.
 
-## How does the interaction between LCV and Compatibility Matrix functions :
+## How does the interaction between LCV and Compatibility Matrix function :
 
 The CM is represented in the [`licenses.csv`](https://github.com/fasten-project/LCV-CM/blob/develop/csv/licenses_tests.csv) file.
 The rows represent `inbound` licenses and the columns `outbound` licenses.
