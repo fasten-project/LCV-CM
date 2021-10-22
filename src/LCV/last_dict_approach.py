@@ -22,16 +22,7 @@ from LCVlib.verify import CSV_to_dataframeOSADL
 *
 * SPDX-License-Identifier: MIT
 '''
-'''
-verbose_license = 'MIT license, ! '
-
-endingSpecChars= '[,!.?](?:\s+)?$'
-while(re.findall(endingSpecChars, verbose_license)):
-    verbose_license = re.sub(endingSpecChars,'', verbose_license)
-    print(verbose_license)
-'''
 # test the ConvertToSPDX method
-
 def ConvertToSPDXTesting(verbose_license):
     print("Testing DynamicMapping upon:")
     print(verbose_license)
@@ -234,9 +225,3 @@ def DetectWithKeywords(verbose_license):
 
 licenseSPDX = ConvertToSPDXTesting("libpng")
 print(licenseSPDX)
-'''
-lista = [v for k, v in DynamicMappingKeywordsDict.items() if k in MappedKeywords]
-
-diction = dict(lista[0])
-print(diction)
-'''
