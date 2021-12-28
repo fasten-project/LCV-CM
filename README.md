@@ -1,6 +1,6 @@
 # License Compliance Verifier (LCV) and Compatibility Matrix (CM)
 
-LCV's task is to establish if all the inbound licenses are compatible with the outbound or not, including a few exceptional cases that will be matched depending on the use case (DUC).
+LCV's main task is to establish if all the inbound licenses are compatible with the outbound or not, including a few exceptional cases that will be matched depending on the use case (DUC).
 
 To perform the assessment, it will check the Compatibility Matrix (CM) to retrieve compatibilities rules. 
 
