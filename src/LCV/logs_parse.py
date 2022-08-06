@@ -1,18 +1,59 @@
-'''
-from LCVlib.SPDXIdMapping import StaticMappingList,IsAnSPDX,StaticMapping,DynamicMapping,IsInAliases,ConvertToSPDX
-from LCVlib.VerboseLicenseParsing import RemoveParenthesisAndSpecialChars
-from PYPI_license_collector import RetrievePypiLicenseInformationPackage, APICallConvertToSPDX, APICallIsAnSPDX, appendToFile
-from LCVlib.CommonLists import *
-'''
+import time
 import re
 import os
+from SPDXIdMapping import StaticMappingList,IsAnSPDX,StaticMapping,DynamicMapping,IsInAliases,ConvertToSPDX
+
 #import pandas as pd
 
 #counters
-
+import requests as requests
 
 txt_list = []
 base_dir = ("/home/michelescarlato/gitrepo/LCV-CM/src/LCV/collectingPypiLicenses/output/already_parsed")
+
+
+def RetrievePypiLicenseInformationPackage(packageName):
+    #Example: GET https://pypi.org/pypi/standalone/1.0.1/json
+    response = requests.get("https://pypi.org/pypi/"+packageName+"/json")
+    if response.status_code == 200:
+        jsonResponse=response.json()
+        license=(jsonResponse["info"]["license"])
+        return license
+    else:
+        license = "404"
+        output=packageName+", 404 - page not found"
+        print(output)
+        appendToFile(output)
+        return license
+
+def APICallConvertToSPDX(license):
+    #response = requests.get("https://lima.ewi.tudelft.nl/lcv/ConvertToSPDX?VerboseLicense="+license)
+    response = requests.get("http://0.0.0.0:3251/ConvertToSPDX?VerboseLicense="+license)
+    jsonResponse=response.json()
+    #print(jsonResponse)
+    return jsonResponse
+
+def APICallIsAnSPDX(license):
+    #response = requests.get("https://lima.ewi.tudelft.nl/lcv/IsAnSPDX?SPDXid="+license)
+    response = requests.get("http://0.0.0.0:3251/IsAnSPDX?SPDXid="+license)
+    jsonResponse=response.json()
+    #print(jsonResponse)
+    return jsonResponse
+
+def appendToFile(license):
+    with open("collectingPypiLicenses/output/whole-pypi-package-list-ConvertToSPDX"+str(startLine)+"-"+str(endLine)+".txt", "a+") as file_object:
+    #with open("collectingPypiLicenses/output/Re-factoring-testing.txt", "a+") as file_object:
+        # Move read cursor to the start of file.
+        file_object.seek(0)
+        # If file is not empty then append '\n'
+        data = file_object.read(100)
+        if len(data) > 0 :
+            file_object.write("\n")
+        # Append text at the end of file
+        file_object.write(license)
+
+
+
 def scandir():
     not_converted = 0
     converted = 0
@@ -20,9 +61,7 @@ def scandir():
     none_license = 0
     not_found = 0
     not_converted_list = []
-    os.chdir("/home/michelescarlato/gitrepo/LCV-CM/src/LCV/collectingPypiLicenses/output/already_parsed")
     for dirpath, dirnames, filename in os.walk(base_dir):
-        print(filename)
         for filename in filename:
             # create full path
             txtfile_full_path = os.path.join(dirpath, filename)
@@ -69,18 +108,10 @@ def scandir():
         Total packages analyzed: {total_packages}
         ''')
 
-'''
-        #not_converted_list_clean_position = "not_converted_list_clean.txt"
-        with open(r'./not_converted_list_clean.txt', 'w') as fp:
-            for item in not_converted_list_clean:
-                # write each item on a new line
-                fp.write("%s\n" % item)
-        return not_converted_list_clean
-'''
 
-'''
-def parseList(packages):
-    for package in packages:
+def main():
+    scandir()
+    for package in not_converted_list_clean:
         output = None
         license = RetrievePypiLicenseInformationPackage(package)
         if license is not None and not license == "" and not license == "404":
@@ -88,7 +119,7 @@ def parseList(packages):
                 strippedName = []
                 strippedName = license.split()
                 for name in strippedName:
-                    if name == "same" or name == "as":
+                    if name is "same" or name is "as":
                         strippedName.remove(name)
                 licenseName = ''.join(strippedName)
                 licenseName = licenseName.lower()
@@ -121,7 +152,7 @@ def parseList(packages):
                         IsSPDX = "NOT Converted."
             line_number = 0
             # add line number
-            with open('not_converted_list_clean.txt', 'r') as g:
+            with open('whole_pypi_package_list.txt', 'r') as g:
                 for line in g:
                     line_number += 1
                     if re.search(rf"\b(?=\w){package}\b(?!\w)", line, re.IGNORECASE):
@@ -139,13 +170,6 @@ def parseList(packages):
         if license == "404":
             print("404 - page not found")
         time.sleep(5)
-        '''
-
-
-def main():
-    not_converted_list_clean = scandir()
-    #parseList(not_converted_list_clean)
-
 
 if __name__ == "__main__":
     main()
