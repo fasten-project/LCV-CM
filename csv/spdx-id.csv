@@ -20,6 +20,7 @@ AGPL 3.0 or later,AGPL-3.0-or-later
 Simplified BSD License,BSD-2-Clause
 #BSD 2-Clause "Simplified" License,BSD-2-Clause
 "BSD 2-Clause \"Simplified\" License",BSD-2-Clause
+BSD License - http://www.opensource.org/licenses/bsd-license.php,BSD-2-Clause
 #BSD-2-Clause-Patent
 BSD-2-Clause Plus Patent License,BSD-2-Clause-Patent
 BSD 2 plus,BSD-2-Clause-Patent
@@ -36,6 +37,7 @@ New BSD License,BSD-3-Clause
 new BSD License,BSD-3-Clause
 # not completely sure about this - is not present in SPDX lis
 Modified BSD License,BSD-3-Clause
+Modified BSD License - https://opensource.org/licenses/BSD-3-Clause,BSD-3-Clause
 #CDDL-1.0
 "CDDL, v1.0",CDDL-1.0
 "CDDL v1.0",CDDL-1.0
@@ -67,6 +69,7 @@ GNUGPL-v3,GPL-3.0-only
 "GNU General Public License, Version 3.0",GPL-3.0-only
 GNU General Public License v3.0,GPL-3.0-only
 GPL 3.0 only,GPL-3.0-only
+GNU General Public License v3,GPL-3.0-only
 GPL 3.0 or later,GPL-3.0-or-later
 GPLv3+,GPL-3.0-or-later
 #LGPL-2.1-only
@@ -98,6 +101,7 @@ MIT Licensed,MIT
 The MIT License,MIT
 The MIT License(MIT),MIT
 MIT.txt,MIT
+Expat/MIT,MIT
 #MPL-1.0
 Mozilla Public License 1.1 (MPL 1.1),MPL-1.1
 MPL 1.1,MPL-1.1
@@ -107,8 +111,11 @@ MPL 2.0,MPL-2.0
 MPL2,MPL-2.0
 Mozilla Public License 2,MPL-2.0
 Mozilla Public License 2.0,MPL-2.0
+MPL-2.0 License,MPL-2.0
 GPL 2.0 only,GPL-2.0-only
 BSD Zero Clause License,0BSD
+0-clause BSD License,0BSD
+Zero Clause BSD,0BSD
 scancode://bsd-zero,0BSD
 Attribution Assurance License,AAL
 Attribution Assurance Licenses,AAL
@@ -157,6 +164,7 @@ GNU Affero General Public License v3,AGPL-3.0-only
 agpl-v3,AGPL-3.0-only
 "GNU AFFERO GENERAL PUBLIC LICENSE, Version 3 (AGPL-3.0)",AGPL-3.0-only
 License :: OSI Approved :: GNU Affero General Public License v3,AGPL-3.0-only
+http://www.gnu.org/licenses/agpl-3.0.en.html,AGPL-3.0-only
 scancode://agpl-3.0,AGPL-3.0-only
 AGPL-3.0+,AGPL-3.0-or-later
 AGPLv3+,AGPL-3.0-or-later
@@ -237,6 +245,7 @@ Apache License 2.0,Apache-2.0
 Apache-2,Apache-2.0
 Apache 2,Apache-2.0
 apache2.0,Apache-2.0
+Apache License v.2,Apache-2.0
 License :: OSI Approved :: Apache Software License,Apache-2.0
 scancode://apache-2.0,Apache-2.0
 Artistic 1.0 (original),Artistic-1.0
@@ -269,11 +278,13 @@ BSD-2,BSD-2-Clause
 BSD 2-Clause License,BSD-2-Clause
 FreeBSD License,BSD-2-Clause
 "BSD 2-Clause ""Simplified"" or ""FreeBSD"" License",BSD-2-Clause
+http://www.opensource.org/licenses/bsd-license.php,BSD-2-Clause
 scancode://bsd-simplified,BSD-2-Clause
 scancode://bsd-plus-patent,BSD-2-Clause-Patent
 BSD-2-Clause Plus Patent,BSD-2-Clause-Patent
 BSD 2-Clause with views sentence,BSD-2-Clause-Views
 scancode://bsd-2-clause-views,BSD-2-Clause-Views
+freeBSD,BSD-2-Clause-FreeBSD
 BSD (3 clause),BSD-3-Clause
 3-Clause BSD License,BSD-3-Clause
 BSD License (no advertising),BSD-3-Clause
@@ -311,6 +322,7 @@ BSD License (original),BSD-4-Clause
 "BSD 4-clause ""Original"" or ""Old"" License",BSD-4-Clause
 scancode://bsd-original,BSD-4-Clause
 BSD-Original,BSD-4-Clause
+BSD4,BSD-4-Clause
 BSD-4-Clause (University of California-Specific),BSD-4-Clause-UC
 scancode://bsd-original-uc,BSD-4-Clause-UC
 BSD-Original-UC,BSD-4-Clause-UC
@@ -391,6 +403,7 @@ Creative Commons Attribution Non Commercial 3.0 Unported,CC-BY-NC-3.0
 scancode://cc-by-nc-3.0,CC-BY-NC-3.0
 Creative Commons Attribution-NonCommercial 4.0,CC-BY-NC-4.0
 Creative Commons Attribution Non Commercial 4.0 International,CC-BY-NC-4.0
+Creative Commons Attribution-NonCommercial 4.0 International,CC-BY-NC-4.0
 CC BY-NC 4.0,CC-BY-NC-4.0
 scancode://cc-by-nc-4.0,CC-BY-NC-4.0
 Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic,CC-BY-NC-ND-1.0
@@ -462,6 +475,9 @@ scancode://cc-by-sa-4.0,CC-BY-SA-4.0
 CC-BY-SA 4.0,CC-BY-SA-4.0
 cc-by-sa-4.0,CC-BY-SA-4.0
 CCSA-4.0,CC-BY-SA-4.0
+Attribution-ShareAlike 4.0 International,CC-BY-SA-4.0
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License,CC-BY-SA-4.0
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License,CC-BY-SA-4.0
 Creative Commons Copyright-Only Dedication (based on United States law) or Public Domain Certification,CC-PDDC
 Creative Commons Public Domain Dedication and Certification,CC-PDDC
 scancode://cc-pd,CC-PDDC
@@ -624,6 +640,7 @@ License :: OSI Approved :: European Union Public Licence 1.1 (EUPL 1.1),EUPL-1.1
 "European Union Public Licence, v.1.1",EUPL-1.1
 scancode://eupl-1.1,EUPL-1.1
 EUPL 1.1,EUPL-1.1
+EUPL 1.1+,EUPL-1.1
 European Union Public License 1.2,EUPL-1.2
 scancode://eupl-1.2,EUPL-1.2
 EUPL 1.2,EUPL-1.2
@@ -728,8 +745,14 @@ GPL2.0+,GPL-2.0-or-later
 GPL2+,GPL-2.0-or-later
 GPL (v2 or later),GPL-2.0-or-later
 GPL3,GPL-3.0-only
+GPL v.3.0,GPL-3.0-only
 "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007",GPL-3.0-only
+GPL License (version 3),GPL-3.0-only
+GPLv.3,GPL-3.0-only
+GPL.v.3,GPL-3.0-only
+GNU General Public License v.3.0,GPL-3.0-only
 GPL3+,GPL-3.0-or-later
+GNU/GPLv3+,GPL-3.0-or-later
 GNU General Public License v2.0 or later,GPL-2.0-or-later
 scancode://gpl-2.0-plus,GPL-2.0-or-later
 Giftware License,Giftware
@@ -832,6 +855,7 @@ GNU Lesser General Public License Version 2.1,LGPL-2.1-only
 GNU Lesser General Public License v2.1 only,LGPL-2.1-only
 lgpl-2.1,LGPL-2.1-only
 GNU LGPLv2.1,LGPL-2.1-only
+http://opensource.org/licenses/LGPL-2.1,LGPL-2.1-only
 GNU Lesser General Public License 2.1,LGPL-2.1-only
 "GNU Lesser General Public License, Version 2.1",LGPL-2.1-only
 License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2),LGPL-2.1-only
@@ -931,6 +955,7 @@ scancode://mpl-1.1,MPL-1.1
 mozilla2.0,MPL-2.0
 License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0),MPL-2.0
 Mozilla Public License Version 2.0,MPL-2.0
+http://www.mozilla.org/MPL/2.0/,MPL-2.0
 scancode://mpl-2.0,MPL-2.0
 Mozilla Public License 2.0 (no copyleft exception),MPL-2.0-no-copyleft-exception
 scancode://mpl-2.0-no-copyleft-exception,MPL-2.0-no-copyleft-exception
@@ -940,6 +965,7 @@ Microsoft Public License (MS-PL),MS-PL
 scancode://ms-pl,MS-PL
 Microsoft Reciprocal License,MS-RL
 Microsoft Reciprocal License (MS-RL),MS-RL
+MS-RSL,MS-RL
 scancode://ms-rl,MS-RL
 Matrix Template Library License,MTLL
 scancode://mtll,MTLL
@@ -989,6 +1015,7 @@ scancode://ngpl,NGPL
 NIST Public Domain Notice,NIST-PD
 scancode://nist-pd,NIST-PD
 NIST,NIST-PD
+NIST license,NIST-PD
 NIST Public Domain Notice with license fallback,NIST-PD-fallback
 scancode://nist-pd-fallback,NIST-PD-fallback
 NIST Public Domain Notice with fallback,NIST-PD-fallback
@@ -1464,6 +1491,8 @@ Zope Public License 2.1,ZPL-2.1
 Zope Public License (ZPL) Version 2.1,ZPL-2.1
 scancode://zpl-2.1,ZPL-2.1
 ZPL 2.1,ZPL-2.1
+ZPL 2.1 see LICENSE.txt,ZPL-2.1
+Zope Public License Version 2.1 ZPL,ZPL-2.1
 Zed License,Zed
 scancode://zed,Zed
 Zend License v2.0,Zend-2.0

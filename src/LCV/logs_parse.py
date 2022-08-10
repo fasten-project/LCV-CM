@@ -19,7 +19,7 @@ def scandir():
     none_license = 0
     not_found = 0
     #not_converted_list = []
-    os.chdir("/home/michelescarlato/gitrepo/LCV-CM/src/LCV/collectingPypiLicenses/output/already_parsed")
+    os.chdir("/src/LCV/collectingPypiLicenses/output/already_parsed")
     for dirpath, dirnames, filename in os.walk(base_dir):
         for filename in filename:
             # create full path
@@ -57,7 +57,7 @@ def scandir():
 
 def not_converted_list():
     not_converted_list = []
-    os.chdir("/home/michelescarlato/gitrepo/LCV-CM/src/LCV/collectingPypiLicenses/output/already_parsed")
+    os.chdir("/src/LCV/collectingPypiLicenses/output/already_parsed")
     for dirpath, dirnames, filename in os.walk(base_dir):
         for filename in filename:
             # create full path
@@ -76,16 +76,16 @@ def not_converted_list():
         Not converted: {str(len(not_converted_list))}
         Not converted list set: {str(len(not_converted_list_single))}
         ''')
-    with open(r'list.txt', 'w') as fp:
+    with open(r'../list.txt', 'w') as fp:
         for item in not_converted_list_single:
             # write each item on a new line
             fp.write("%s\n" % item)
         print('Done')
 
 def parseList(packages):
-    for package in packages:
-        output = None
-        license = RetrievePypiLicenseInformationPackage(package)
+    SPDXConverted = []
+    os.chdir("/src/LCV/LCVlib")
+    for license in packages:
         if license is not None and not license == "" and not license == "404":
             if "same as" in license:
                 strippedName = []
@@ -110,6 +110,7 @@ def parseList(packages):
             IsSPDX = APICallIsAnSPDX(license)
             if IsSPDX:
                 IsSPDX = "Pypi provided an SPDX id."
+                SPDXConverted.append(possibleSPDX)
             else:
                 if "+" in license:
                     licenseMod = license.replace("+", "%2B")
@@ -120,32 +121,23 @@ def parseList(packages):
                     IsSPDX = APICallIsAnSPDX(possibleSPDX)
                     if IsSPDX:
                         IsSPDX = "Converted."
+                        SPDXConverted.append(possibleSPDX)
                     if not IsSPDX:
                         IsSPDX = "NOT Converted."
-            line_number = 0
-            # add line number
-            with open('list.txt', 'r') as g:
-                for line in g:
-                    line_number += 1
-                    if re.search(rf"\b(?=\w){package}\b(?!\w)", line, re.IGNORECASE):
-                        output = str(line_number) + " " + package + ",\n" + str(license) + ",\n" + str(
-                            possibleSPDX) + ",\n" + str(IsSPDX)
-                        print(output)
-            if output is None:
-                output = package + ",\n" + str(license) + ",\n" + str(possibleSPDX) + ",\n" + str(IsSPDX)
-                print(output)
-            appendToFile(output)
-        if license is None or license == "":
-            output = package + ", detected pypi license: None"
-            print(output)
-            appendToFile(output)
-        if license == "404":
-            print("404 - page not found")
-        time.sleep(5)
+        time.sleep(2)
+    print("SPDXConverted list size:")
+    print(len(SPDXConverted))
+
+    with open(r'list_converted.txt', 'w') as fp:
+        for item in SPDXConverted:
+            # write each item on a new line
+            fp.write("%s\n" % item)
+        print('Done')
+
 
 def readList():
     packages = []
-    with open(r'list.txt', 'r') as fp:
+    with open(r'../list.txt', 'r') as fp:
         for line in fp:
             # remove linebreak from a current name
             # linebreak is the last character of each line
@@ -164,9 +156,9 @@ def main():
 
     # parse the txt generated with license name not converted to a list
     packages = readList()
-    print(str(packages))
+    #print(str(packages))
     # perform queries upon LCV for SPDXConversion
-    #parseList(packages)
+    parseList(packages)
 
 if __name__ == "__main__":
     main()
