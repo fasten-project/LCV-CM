@@ -19,7 +19,7 @@ def scandir():
     none_license = 0
     not_found = 0
     #not_converted_list = []
-    os.chdir("/src/LCV/collectingPypiLicenses/output/already_parsed")
+    os.chdir("collectingPypiLicenses/output/already_parsed")
     for dirpath, dirnames, filename in os.walk(base_dir):
         for filename in filename:
             # create full path
@@ -57,7 +57,7 @@ def scandir():
 
 def not_converted_list():
     not_converted_list = []
-    os.chdir("/src/LCV/collectingPypiLicenses/output/already_parsed")
+    #os.chdir("collectingPypiLicenses/output/already_parsed")
     for dirpath, dirnames, filename in os.walk(base_dir):
         for filename in filename:
             # create full path
@@ -76,7 +76,7 @@ def not_converted_list():
         Not converted: {str(len(not_converted_list))}
         Not converted list set: {str(len(not_converted_list_single))}
         ''')
-    with open(r'../list.txt', 'w') as fp:
+    with open(r'list_11_august.txt', 'w') as fp:
         for item in not_converted_list_single:
             # write each item on a new line
             fp.write("%s\n" % item)
@@ -84,7 +84,7 @@ def not_converted_list():
 
 def parseList(packages):
     SPDXConverted = []
-    os.chdir("/src/LCV/LCVlib")
+    #os.chdir("/src/LCV/LCVlib")
     for license in packages:
         if license is not None and not license == "" and not license == "404":
             if "same as" in license:
@@ -137,7 +137,7 @@ def parseList(packages):
 
 def readList():
     packages = []
-    with open(r'../list.txt', 'r') as fp:
+    with open(r'list_old.txt', 'r') as fp:
         for line in fp:
             # remove linebreak from a current name
             # linebreak is the last character of each line
