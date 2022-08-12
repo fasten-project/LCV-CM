@@ -46,7 +46,7 @@ def RetrievePypiLicenseInformationPackage(packageName):
         license = "404"
         output=packageName+", 404 - page not found"
         print(output)
-        appendToFile(output)
+        #appendToFile(output)
         return license
 
 

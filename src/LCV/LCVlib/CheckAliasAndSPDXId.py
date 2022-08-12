@@ -31,7 +31,8 @@ def IsInAliases(single_verbose_license):
 
 def IsAnSPDX(license_name):
     IsSPDX = False
-    with open('../../csv/SPDX_license_name.csv', 'rt') as f:
+    #with open('../../csv/SPDX_license_name.csv', 'rt') as f:
+    with open('/home/michelescarlato/gitrepo/LCV-CM/csv/SPDX_license_name.csv', 'rt') as f:
         reader = csv.reader(f)
         for row in reader:
             for field in row:
@@ -39,7 +40,8 @@ def IsAnSPDX(license_name):
                     IsSPDX = True
                     return IsSPDX
 def ConformWithSPDX(license_name):
-    with open('../../csv/SPDX_license_name.csv', 'rt') as f:
+    #with open('../../csv/SPDX_license_name.csv', 'rt') as f:
+    with open('/home/michelescarlato/gitrepo/LCV-CM/csv/SPDX_license_name.csv', 'rt') as f:
         reader = csv.reader(f)
         for row in reader:
             for field in row:
