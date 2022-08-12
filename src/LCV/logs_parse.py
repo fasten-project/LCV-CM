@@ -82,10 +82,10 @@ def not_converted_list():
             fp.write("%s\n" % item)
         print('Done')
 
-def parseList(packages):
+def parseList(licenses):
     SPDXConverted = []
     #os.chdir("/src/LCV/LCVlib")
-    for license in packages:
+    for license in licenses:
         if license is not None and not license == "" and not license == "404":
             if "same as" in license:
                 strippedName = []
@@ -95,7 +95,7 @@ def parseList(packages):
                         strippedName.remove(name)
                 licenseName = ''.join(strippedName)
                 licenseName = licenseName.lower()
-                license = RetrievePypiLicenseInformationPackage(licenseName)
+                #license = RetrievePypiLicenseInformationPackage(licenseName)
             # trying to catch long license declarations
             # TODO append some special output to indicate that here the margin of error is higher
             if "www." in license:
@@ -104,26 +104,28 @@ def parseList(packages):
                 print(TryingConversion)
                 license = TryingConversion
             for char in list_of_parenthesis:
-                if char in license:
-                    license = RemoveParenthesisAndSpecialChars(license)
+                if license is not None:
+                    if char in license:
+                        license = RemoveParenthesisAndSpecialChars(license)
             possibleSPDX = license
-            IsSPDX = APICallIsAnSPDX(license)
-            if IsSPDX:
-                IsSPDX = "Pypi provided an SPDX id."
-                SPDXConverted.append(possibleSPDX)
-            else:
-                if "+" in license:
-                    licenseMod = license.replace("+", "%2B")
-                    possibleSPDX = APICallConvertToSPDX(licenseMod)
+            if possibleSPDX is not None:
+                IsSPDX = APICallIsAnSPDX(license)
+                if IsSPDX:
+                    IsSPDX = "Pypi provided an SPDX id."
+                    SPDXConverted.append(possibleSPDX)
                 else:
-                    possibleSPDX = APICallConvertToSPDX(license)
-                if possibleSPDX is not None:
-                    IsSPDX = APICallIsAnSPDX(possibleSPDX)
-                    if IsSPDX:
-                        IsSPDX = "Converted."
-                        SPDXConverted.append(possibleSPDX)
-                    if not IsSPDX:
-                        IsSPDX = "NOT Converted."
+                    if "+" in license:
+                        licenseMod = license.replace("+", "%2B")
+                        possibleSPDX = APICallConvertToSPDX(licenseMod)
+                    else:
+                        possibleSPDX = APICallConvertToSPDX(license)
+                    if possibleSPDX is not None:
+                        IsSPDX = APICallIsAnSPDX(possibleSPDX)
+                        if IsSPDX:
+                            IsSPDX = "Converted."
+                            SPDXConverted.append(license+ " == " +possibleSPDX)
+                        if not IsSPDX:
+                            IsSPDX = "NOT Converted."
         time.sleep(2)
     print("SPDXConverted list size:")
     print(len(SPDXConverted))
@@ -136,7 +138,7 @@ def parseList(packages):
 
 
 def readList():
-    packages = []
+    licenses = []
     with open(r'list_old.txt', 'r') as fp:
         for line in fp:
             # remove linebreak from a current name
@@ -144,9 +146,9 @@ def readList():
             x = line[:-1]
 
             # add current item to the list
-            packages.append(x)
-    packages = set(packages)
-    return packages
+            licenses.append(x)
+    licenses = set(licenses)
+    return licenses
 
 def main():
     # provides statistical information parsing the logs
@@ -155,10 +157,10 @@ def main():
     not_converted_list()
 
     # parse the txt generated with license name not converted to a list
-    packages = readList()
+    licenses = readList()
     #print(str(packages))
     # perform queries upon LCV for SPDXConversion
-    parseList(packages)
+    parseList(licenses)
 
 if __name__ == "__main__":
     main()
